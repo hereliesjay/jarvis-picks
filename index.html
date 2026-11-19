@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Jarvis Picks</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+:root{--bg1:#070a14;--bg2:#10162b;--card:rgba(22,28,52,.78);--line:rgba(140,160,255,.14);--ink:#e8ecf8;--mute:#8f9ab8;--acc:#7c8cff;--acc2:#2fd4c0;--gold:#e6b450;--pos:#46d9a0;--neg:#ff7a90}
+*{box-sizing:border-box}
+body{margin:0;font-family:Inter,system-ui,sans-serif;color:var(--ink);min-height:100vh;
+background:radial-gradient(60rem 30rem at 85% -10%,rgba(124,140,255,.20),transparent 60%),radial-gradient(50rem 28rem at -10% 10%,rgba(47,212,192,.12),transparent 60%),linear-gradient(180deg,var(--bg1),var(--bg2)) fixed}
+.wrap{max-width:62rem;margin:0 auto;padding:1.5rem 1rem 4rem}
+header{display:flex;justify-content:space-between;align-items:flex-end;gap:1rem;flex-wrap:wrap;margin-bottom:1.25rem}
+h1{margin:0;font-size:clamp(1.9rem,6vw,2.6rem);font-weight:700;letter-spacing:-.02em;background:linear-gradient(90deg,#fff,var(--acc) 60%,var(--acc2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.status{font-size:.8rem;color:var(--mute);display:flex;align-items:center;gap:.45rem}
+.dot{width:.55rem;height:.55rem;border-radius:50%;background:var(--pos);box-shadow:0 0 10px var(--pos)}
+.dot.off{background:var(--neg);box-shadow:0 0 10px var(--neg)}
+h2{font-size:.78rem;text-transform:uppercase;letter-spacing:.12em;color:var(--mute);margin:2rem 0 .75rem;font-weight:600}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(9.5rem,1fr));gap:.75rem}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:1rem;backdrop-filter:blur(6px);box-shadow:0 8px 30px rgba(0,0,0,.35)}
+.tile .l{font-size:.7rem;text-transform:uppercase;letter-spacing:.08em;color:var(--mute)}
+.tile .v{font-size:1.6rem;font-weight:600;margin-top:.3rem;font-variant-numeric:tabular-nums}
+.tile .s{font-size:.75rem;color:var(--mute);margin-top:.15rem}
+.picks{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,18rem),1fr));gap:.75rem}
+.pick{position:relative;overflow:hidden}
+.pick.best{border-color:rgba(230,180,80,.35)}
+.pick.best::before{content:"";position:absolute;inset:0 0 auto 0;height:3px;background:linear-gradient(90deg,var(--gold),#c98a2a)}
+.pick.lean::before{content:"";position:absolute;inset:0 0 auto 0;height:3px;background:var(--acc)}
+.badge{display:inline-block;font-size:.65rem;font-weight:700;letter-spacing:.08em;padding:.2rem .5rem;border-radius:999px;background:rgba(230,180,80,.15);color:var(--gold)}
+.badge.lean{background:rgba(124,140,255,.15);color:var(--acc)}
+.badge.parlay{background:rgba(47,212,192,.15);color:var(--acc2)}
+.badge.won{background:rgba(70,217,160,.15);color:var(--pos)}.badge.lost{background:rgba(255,122,144,.15);color:var(--neg)}
+.sp{font-size:.72rem;color:var(--mute);margin-left:.4rem}
+.pk{font-size:1.25rem;font-weight:700;margin:.55rem 0 .1rem}
+.ev{font-size:.82rem;color:var(--mute)}
+.row{display:flex;justify-content:space-between;gap:.5rem;margin-top:.8rem;font-size:.85rem}
+.row b{font-family:'JetBrains Mono',monospace;font-weight:500}
+.bet{margin-top:.8rem;padding:.6rem .7rem;border-radius:10px;background:rgba(255,255,255,.04);border:1px solid var(--line);display:flex;justify-content:space-between;align-items:center}
+.bet .u{font-size:1.15rem;font-weight:700}
+.bet .w{font-size:.8rem;color:var(--pos)}
+.meta{font-size:.72rem;color:var(--mute);margin-top:.55rem;line-height:1.5}
+.conf{height:5px;border-radius:9px;background:rgba(255,255,255,.07);margin-top:.6rem;overflow:hidden}
+.conf i{display:block;height:100%;background:linear-gradient(90deg,var(--acc),var(--acc2))}
+.legs{margin:.6rem 0 0;padding:0;list-style:none}
+.legs li{display:flex;justify-content:space-between;font-size:.85rem;padding:.35rem 0;border-bottom:1px dashed var(--line)}
+.empty{color:var(--mute);font-size:.9rem;padding:1.2rem;text-align:center}
+table{width:100%;border-collapse:collapse;font-size:.82rem;font-variant-numeric:tabular-nums}
+th,td{text-align:left;padding:.45rem .4rem;border-bottom:1px solid var(--line)}
+th{color:var(--mute);font-weight:500;font-size:.72rem;text-transform:uppercase;letter-spacing:.06em}
+td.r,th.r{text-align:right}
+.pos{color:var(--pos)}.neg{color:var(--neg)}
+.scroll{overflow-x:auto}
+.note{font-size:.75rem;color:var(--mute);line-height:1.6;margin-top:2rem}
+.started{opacity:.55}
+</style></head>
+<body><div class="wrap">
+<header><div><h1>Jarvis Picks</h1><div class="status" id="status"><span class="dot"></span><span>Loading…</span></div></div>
+<div class="status" id="unit"></div></header>
+
+<div class="tiles" id="tiles"></div>
+
+<h2>Today's best bets</h2>
+<div class="picks" id="best"></div>
+
+<h2>Leans <span style="text-transform:none;letter-spacing:0">· smaller bets, priced about fair</span></h2>
+<div class="picks" id="lean"></div>
+
+<h2>Parlays · NBA &amp; NHL</h2>
+<div class="picks" id="parlays"></div>
+
+<h2>Recent results</h2>
+<div class="card scroll"><table><thead><tr><th>Date</th><th>Pick</th><th>Type</th><th class="r">Odds</th><th class="r">Units</th><th class="r">Result</th></tr></thead><tbody id="recent"></tbody></table></div>
+
+<h2>Bot rules · switched off automatically when a sport loses over 50+ plays</h2>
+<div class="card scroll"><table><thead><tr><th>Sport</th><th class="r">Plays</th><th class="r">ROI</th><th class="r">CLV</th><th class="r">Status</th></tr></thead><tbody id="rules"></tbody></table></div>
+
+<p class="note">Best bet = your book pays at least 2% more than the sharp books' fair price (Pinnacle, devigged), odds 1.50–2.30. 1.5 units when the edge is 4%+ and 2+ sharp books agree. Lean = solid favourite priced about fair, half a unit. Parlays are half a unit and usually have no real edge: they're for fun. Don't take a pick if the odds drop below its "min odds". Paper-trade until the record proves itself. Gambling has real risk; never bet money you need.</p>
+</div>
+<script>
+const $=id=>document.getElementById(id);
+const money=x=>(x<0?'-$':'$')+Math.abs(x).toFixed(2);
+const sgn=x=>(x>0?'+':'')+x.toFixed(2);
+const pct=x=>(x>0?'+':'')+(x*100).toFixed(1)+'%';
+const when=iso=>{const d=new Date(iso);return d.toLocaleString([], {weekday:'short',hour:'numeric',minute:'2-digit'})};
+const ago=iso=>{if(!iso)return 'never';const m=Math.round((Date.now()-new Date(iso))/60000);return m<1?'just now':m<60?m+'m ago':Math.round(m/60)+'h ago'};
+const el=(tag,cls,txt)=>{const e=document.createElement(tag);if(cls)e.className=cls;if(txt!=null)e.textContent=txt;return e};
+function tile(l,v,s,cls){const c=el('div','card tile');c.append(el('div','l',l));const vv=el('div','v'+(cls?' '+cls:''),v);c.append(vv);if(s)c.append(el('div','s',s));return c}
+function pickCard(p){
+  const c=el('div','card pick '+p.tier+(p.started?' started':''));
+  const top=el('div');top.append(el('span','badge'+(p.tier==='lean'?' lean':''),p.tier==='best'?(p.units>=1.5?'STRONG BET':'BEST BET'):'LEAN'));top.append(el('span','sp',p.sport+' · '+(p.started?'started':when(p.start))));c.append(top);
+  c.append(el('div','pk',p.pick+' to win'));c.append(el('div','ev',p.event));
+  const r=el('div','row');const a=el('span');a.append('Odds ');a.append(el('b',null,p.odds.toFixed(2)));const b=el('span',null,p.book);r.append(a,b);c.append(r);
+  const bet=el('div','bet');const L=el('div');L.append(el('div','u',p.units+'u · '+money(p.stake)));L.append(el('div','w','to win '+money(p.to_win)));bet.append(L);
+  const R=el('div','ev');R.style.textAlign='right';R.textContent='edge '+pct(p.edge);R.append(el('div',null,'win chance '+Math.round(p.prob*100)+'%'));bet.append(R);c.append(bet);
+  const cf=el('div','conf');const i=el('i');i.style.width=Math.max(8,Math.min(100,(p.edge+0.01)/0.07*100))+'%';cf.append(i);c.append(cf);
+  let m='Min odds '+(p.min_odds||'—');if(p.now_odds&&p.now_odds!==p.odds)m+=' · now '+p.now_odds.toFixed(2);if(p.n_sharp)m+=' · '+p.n_sharp+' sharp book'+(p.n_sharp>1?'s':'');
+  c.append(el('div','meta',m));return c}
+function parlayCard(p){
+  const c=el('div','card pick');const top=el('div');top.append(el('span','badge parlay',p.label+' PARLAY'));top.append(el('span','sp',p.legs.length+' legs · '+p.book));c.append(top);
+  const ul=el('ul','legs');p.legs.forEach(l=>{const li=el('li');li.append(el('span',null,l.pick));li.append(el('b',null,l.odds.toFixed(2)));ul.append(li)});c.append(ul);
+  const bet=el('div','bet');const L=el('div');L.append(el('div','u',p.units+'u · '+money(p.stake)));L.append(el('div','w','pays '+p.odds.toFixed(2)+' · to win '+money(p.to_win)));bet.append(L);
+  const R=el('div','ev');R.style.textAlign='right';R.textContent='hits ~'+Math.round(p.prob*100)+'%';R.append(el('div',null,p.ev>0?'edge '+pct(p.ev):'for fun'));bet.append(R);c.append(bet);
+  c.append(el('div','meta','First game '+when(p.legs.map(l=>l.start).sort()[0])));return c}
+function fill(id,items,fn,msg){const t=$(id);t.replaceChildren();if(!items.length){t.append(el('div','card empty',msg));return}items.forEach(x=>t.append(fn(x)))}
+async function load(){
+  let f;try{const r=await fetch('picks.json?t='+Date.now(),{cache:'no-store'});f=await r.json()}catch(e){$('status').lastChild.textContent='No picks file yet — the bot will post one after its next scan.';return}
+  const fresh=f.updated&&(Date.now()-new Date(f.updated))<75*60000;
+  $('status').firstChild.className='dot'+(fresh?'':' off');
+  $('status').lastChild.textContent=(fresh?'Bot online':'Bot offline (PC off?)')+' · updated '+ago(f.updated)+' · last scan '+ago(f.last_scan)+' · watching '+f.watching+' prices';
+  $('unit').textContent='1 unit = '+money(f.unit)+(f.credits!=null?' · API credits '+f.credits:'');
+  const rec=f.record||{};const T=$('tiles');T.replaceChildren();
+  let u=0,w=0,l=0;['best','lean','parlay'].forEach(k=>{const r=rec[k];if(r){u+=r.units;w+=r.won;l+=r.lost}});
+  T.append(tile('Profit (all picks)',money(u*f.unit),sgn(u)+' units',u>0?'pos':u<0?'neg':''));
+  T.append(tile('Record',w+'–'+l,(w+l?Math.round(w/(w+l)*100):0)+'% wins'));
+  const b=rec.best||{won:0,lost:0,units:0};T.append(tile('Best bets',b.won+'–'+b.lost,sgn(b.units)+'u · '+money(b.units*f.unit)));
+  T.append(tile('Closing-line value',b.clv==null?'—':pct(b.clv),b.clv_n?b.clv_n+' best bets checked':'needs graded picks',b.clv>0?'pos':b.clv<0?'neg':''));
+  const pr=rec.parlay||{won:0,lost:0,units:0};T.append(tile('Parlays',pr.won+'–'+pr.lost,sgn(pr.units)+'u'));
+  const picks=f.picks||[];
+  fill('best',picks.filter(p=>p.tier==='best'),pickCard,'No best bets right now. No edge = no bet — the bot checks again soon.');
+  fill('lean',picks.filter(p=>p.tier==='lean'),pickCard,'No leans right now.');
+  fill('parlays',f.parlays||[],parlayCard,'No parlays yet today.');
+  const rb=$('recent');rb.replaceChildren();(f.recent||[]).forEach(r=>{const tr=el('tr');const d=new Date(r.start);
+    [d.toLocaleDateString([], {month:'short',day:'numeric'}),r.pick+' ('+r.sport+')',r.tier,r.odds.toFixed(2),r.units+'u'].forEach((x,i)=>{const td=el('td',i>=3?'r':null,x);tr.append(td)});
+    const td=el('td','r');td.append(el('span','badge '+(r.status==='won'?'won':r.status==='lost'?'lost':''),r.status.toUpperCase()));tr.append(td);rb.append(tr)});
+  if(!(f.recent||[]).length){const tr=el('tr');const td=el('td',null,'No graded picks yet.');td.colSpan=6;tr.append(td);rb.append(tr)}
+  const ru=$('rules');ru.replaceChildren();Object.entries(f.rules||{}).sort((a,b)=>b[1].n-a[1].n).forEach(([k,v])=>{const tr=el('tr');
+    tr.append(el('td',null,k.replace('americanfootball','football').replace('icehockey','hockey')),el('td','r',v.n),el('td','r '+(v.roi>0?'pos':'neg'),pct(v.roi)),el('td','r',v.clv==null?'—':pct(v.clv)));
+    const td=el('td','r');td.append(el('span','badge '+(v.on?'won':'lost'),v.on?'ON':'OFF'));tr.append(td);ru.append(tr)});
+}
+load();setInterval(load,120000);
+</script>
+</body></html>

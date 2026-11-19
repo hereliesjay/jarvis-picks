@@ -1,0 +1,56 @@
+{
+ "version": 18,
+ "updated": "2026-11-19T23:00:01+00:00",
+ "last_scan": null,
+ "unit": 5.0,
+ "bankroll": 1004.05,
+ "credits": 5,
+ "picks": [],
+ "parlays": [],
+ "record": {
+  "parlay": {
+   "won": 0,
+   "lost": 0,
+   "push": 0,
+   "open": 0,
+   "units": 0.0,
+   "dollars": 0.0,
+   "clv": null,
+   "clv_n": 0
+  }
+ },
+ "recent": [],
+ "rules": {
+  "americanfootball": {
+   "n": 26,
+   "roi": -0.0919,
+   "clv": null,
+   "on": true
+  },
+  "basketball": {
+   "n": 44,
+   "roi": -0.008,
+   "clv": -0.0034,
+   "on": true
+  },
+  "tennis": {
+   "n": 7,
+   "roi": -0.0186,
+   "clv": null,
+   "on": true
+  },
+  "icehockey": {
+   "n": 13,
+   "roi": -0.0885,
+   "clv": null,
+   "on": true
+  },
+  "soccer": {
+   "n": 2,
+   "roi": -0.25,
+   "clv": null,
+   "on": true
+  }
+ },
+ "watching": 0
+}

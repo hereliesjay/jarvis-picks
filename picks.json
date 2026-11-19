@@ -1,13 +1,81 @@
 {
  "version": 18,
- "updated": "2026-11-19T23:00:01+00:00",
- "last_scan": null,
+ "updated": "2026-11-19T23:30:27+00:00",
+ "last_scan": "2026-11-19T23:30:27+00:00",
  "unit": 5.0,
  "bankroll": 1004.05,
- "credits": 5,
- "picks": [],
+ "credits": 496,
+ "picks": [
+  {
+   "tier": "lean",
+   "sport": "COLLEGE FOOTBALL",
+   "event": "Rice Owls @ Temple Owls",
+   "pick": "Temple Owls",
+   "book": "theScore Bet",
+   "odds": 1.74,
+   "now_odds": 1.74,
+   "prob": 0.5738,
+   "edge": -0.0016,
+   "units": 0.5,
+   "stake": 2.5,
+   "to_win": 1.85,
+   "min_odds": 1.75,
+   "start": "2026-11-20T00:30:00+00:00",
+   "started": false,
+   "status": "open",
+   "n_sharp": 4
+  },
+  {
+   "tier": "lean",
+   "sport": "COLLEGE BASKETBALL",
+   "event": "Georgia Southern Eagles @ Houston Christian Huskies",
+   "pick": "Houston Christian Huskies",
+   "book": "FanDuel",
+   "odds": 1.64,
+   "now_odds": 1.64,
+   "prob": 0.6148,
+   "edge": 0.0083,
+   "units": 0.5,
+   "stake": 2.5,
+   "to_win": 1.6,
+   "min_odds": 1.63,
+   "start": "2026-11-20T01:00:00+00:00",
+   "started": false,
+   "status": "open",
+   "n_sharp": 2
+  },
+  {
+   "tier": "lean",
+   "sport": "NHL",
+   "event": "Minnesota Wild @ Calgary Flames",
+   "pick": "Minnesota Wild",
+   "book": "theScore Bet",
+   "odds": 1.43,
+   "now_odds": 1.43,
+   "prob": 0.697,
+   "edge": -0.0032,
+   "units": 0.5,
+   "stake": 2.5,
+   "to_win": 1.07,
+   "min_odds": 1.44,
+   "start": "2026-11-20T01:10:00+00:00",
+   "started": false,
+   "status": "open",
+   "n_sharp": 4
+  }
+ ],
  "parlays": [],
  "record": {
+  "lean": {
+   "won": 0,
+   "lost": 0,
+   "push": 0,
+   "open": 3,
+   "units": 0.0,
+   "dollars": 0.0,
+   "clv": null,
+   "clv_n": 0
+  },
   "parlay": {
    "won": 0,
    "lost": 0,
@@ -52,5 +120,5 @@
    "on": true
   }
  },
- "watching": 0
+ "watching": 66
 }

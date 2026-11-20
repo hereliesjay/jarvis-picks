@@ -1,6 +1,6 @@
 {
  "version": 19,
- "updated": "2026-11-20T20:40:01+00:00",
+ "updated": "2026-11-20T21:00:28+00:00",
  "last_scan": "2026-11-20T20:10:29+00:00",
  "unit": 5.0,
  "bankroll": 1004.05,
@@ -206,31 +206,6 @@
  },
  "watching": 92,
  "games": [
-  {
-   "sport": "COLLEGE BASKETBALL",
-   "event": "South Dakota St Jackrabbits @ Idaho State Bengals",
-   "pick": "South Dakota St Jackrabbits",
-   "opp": "Idaho State Bengals",
-   "start": "2026-11-20T21:00:00+00:00",
-   "book": "FanDuel",
-   "odds": 1.43,
-   "prob": 0.6889,
-   "edge": -0.0149,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.25,
-   "to_win": 0.54,
-   "tier": null,
-   "fair_odds": 1.45,
-   "why": [
-    "Sharp books give South Dakota St Jackrabbits a 69% chance to win (Idaho State Bengals 30%).",
-    "Idaho State Bengals: 0-4, 0-0 at home, 68.0 pts/game, top: MaCarhy Morris 17.5 PPG."
-   ],
-   "injuries": [],
-   "n_sharp": 2,
-   "link": null
-  },
   {
    "sport": "COLLEGE BASKETBALL",
    "event": "Rhode Island Rams @ Liberty Flames",

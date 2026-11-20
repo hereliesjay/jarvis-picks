@@ -1,10 +1,10 @@
 {
  "version": 19,
- "updated": "2026-11-20T20:00:01+00:00",
- "last_scan": "2026-11-20T19:10:25+00:00",
+ "updated": "2026-11-20T20:10:29+00:00",
+ "last_scan": "2026-11-20T20:10:29+00:00",
  "unit": 5.0,
  "bankroll": 1004.05,
- "credits": 475,
+ "credits": 474,
  "picks": [
   {
    "tier": "best",
@@ -204,7 +204,7 @@
    "on": true
   }
  },
- "watching": 98,
+ "watching": 92,
  "games": [
   {
    "sport": "COLLEGE BASKETBALL",
@@ -800,17 +800,17 @@
    "start": "2026-11-21T00:10:00+00:00",
    "book": "DraftKings",
    "odds": 1.4,
-   "prob": 0.6946,
-   "edge": -0.0276,
-   "value": "over",
-   "value_txt": "Overpriced: the book is charging a lot here",
-   "units": 0.0,
-   "stake": 0.0,
-   "to_win": 0.0,
+   "prob": 0.6991,
+   "edge": -0.0212,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.25,
+   "stake": 1.25,
+   "to_win": 0.5,
    "tier": null,
-   "fair_odds": 1.44,
+   "fair_odds": 1.43,
    "why": [
-    "Sharp books give Atlanta Hawks a 69% chance to win (Charlotte Hornets 29%).",
+    "Sharp books give Atlanta Hawks a 70% chance to win (Charlotte Hornets 29%).",
     "Atlanta Hawks: 9-6, 3-3 at home, 117.7 pts/game, top: Nickeil Alexander-Walker 21.2 PPG.",
     "Charlotte Hornets: 4-10, 1-6 on the road, 100.1 pts/game, top: Brandon Miller 19.9 PPG."
    ],
@@ -835,7 +835,7 @@
     }
    ],
    "n_sharp": 4,
-   "link": null
+   "link": "https://sportsbook.draftkings.com/?outcomes=0ML87292641_1"
   },
   {
    "sport": "COLLEGE FOOTBALL",
@@ -973,8 +973,8 @@
    "start": "2026-11-21T00:40:00+00:00",
    "book": "FanDuel",
    "odds": 1.4,
-   "prob": 0.7012,
-   "edge": -0.0183,
+   "prob": 0.7001,
+   "edge": -0.0198,
    "value": "slight",
    "value_txt": "A bit overpriced (books' cut)",
    "units": 0.25,
@@ -1005,7 +1005,7 @@
     }
    ],
    "n_sharp": 4,
-   "link": null
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626550984&selectionId=237475"
   },
   {
    "sport": "NBA",
@@ -1015,17 +1015,17 @@
    "start": "2026-11-21T00:40:00+00:00",
    "book": "FanDuel",
    "odds": 1.45,
-   "prob": 0.677,
-   "edge": -0.0183,
+   "prob": 0.6726,
+   "edge": -0.0247,
    "value": "slight",
    "value_txt": "A bit overpriced (books' cut)",
    "units": 0.25,
    "stake": 1.25,
    "to_win": 0.56,
    "tier": null,
-   "fair_odds": 1.48,
+   "fair_odds": 1.49,
    "why": [
-    "Sharp books give Cleveland Cavaliers a 68% chance to win (Indiana Pacers 32%).",
+    "Sharp books give Cleveland Cavaliers a 67% chance to win (Indiana Pacers 32%).",
     "Cleveland Cavaliers: 8-8, 6-3 at home, 118.3 pts/game, top: Donovan Mitchell 24.8 PPG.",
     "Indiana Pacers: 5-10, 3-4 on the road, 111.5 pts/game, top: Pascal Siakam 23.1 PPG."
    ],
@@ -1050,7 +1050,7 @@
     }
    ],
    "n_sharp": 4,
-   "link": null
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626551000&selectionId=60424"
   },
   {
    "sport": "NBA",
@@ -1060,8 +1060,8 @@
    "start": "2026-11-21T00:40:00+00:00",
    "book": "DraftKings",
    "odds": 1.38,
-   "prob": 0.7106,
-   "edge": -0.0194,
+   "prob": 0.7104,
+   "edge": -0.0197,
    "value": "slight",
    "value_txt": "A bit overpriced (books' cut)",
    "units": 0.25,
@@ -1095,7 +1095,7 @@
     }
    ],
    "n_sharp": 4,
-   "link": null
+   "link": "https://sportsbook.draftkings.com/?outcomes=0ML85859632_1"
   },
   {
    "sport": "COLLEGE FOOTBALL",
@@ -1336,19 +1336,19 @@
    "pick": "Chicago Bulls",
    "opp": "Washington Wizards",
    "start": "2026-11-21T01:10:00+00:00",
-   "book": "FanDuel",
+   "book": "theScore Bet",
    "odds": 1.77,
-   "prob": 0.5572,
-   "edge": -0.0138,
+   "prob": 0.5514,
+   "edge": -0.024,
    "value": "slight",
    "value_txt": "A bit overpriced (books' cut)",
    "units": 0.25,
    "stake": 1.25,
    "to_win": 0.96,
    "tier": null,
-   "fair_odds": 1.79,
+   "fair_odds": 1.81,
    "why": [
-    "Sharp books give Chicago Bulls a 56% chance to win (Washington Wizards 44%).",
+    "Sharp books give Chicago Bulls a 55% chance to win (Washington Wizards 45%).",
     "Chicago Bulls: 4-10, 1-4 at home, 116.2 pts/game, top: Norman Powell 21.2 PPG.",
     "Washington Wizards: 5-11, 3-6 on the road, 110.8 pts/game, top: Anthony Davis 24.6 PPG."
    ],
@@ -1373,7 +1373,7 @@
     }
    ],
    "n_sharp": 4,
-   "link": null
+   "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=6a6dd204-96a2-4985-8dd7-846602b9077a&odds_numerator[0]=2&odds_denominator[0]=1"
   },
   {
    "sport": "NBA",
@@ -1381,10 +1381,10 @@
    "pick": "Oklahoma City Thunder",
    "opp": "New Orleans Pelicans",
    "start": "2026-11-21T01:10:00+00:00",
-   "book": "FanDuel",
+   "book": "DraftKings",
    "odds": 1.17,
-   "prob": 0.8387,
-   "edge": -0.0187,
+   "prob": 0.8408,
+   "edge": -0.0163,
    "value": "slight",
    "value_txt": "A bit overpriced (books' cut)",
    "units": 0.25,
@@ -1393,7 +1393,7 @@
    "tier": null,
    "fair_odds": 1.19,
    "why": [
-    "Sharp books give Oklahoma City Thunder a 84% chance to win (New Orleans Pelicans 14%).",
+    "Sharp books give Oklahoma City Thunder a 84% chance to win (New Orleans Pelicans 13%).",
     "Oklahoma City Thunder: 9-6, 5-1 at home, 112.1 pts/game, top: Shai Gilgeous-Alexander 31.1 PPG.",
     "New Orleans Pelicans: 5-11, 1-4 on the road, 115.4 pts/game, top: Zion Williamson 21.7 PPG."
    ],
@@ -1418,7 +1418,7 @@
     }
    ],
    "n_sharp": 4,
-   "link": null
+   "link": "https://sportsbook.draftkings.com/?outcomes=0ML87292645_1"
   },
   {
    "sport": "COLLEGE FOOTBALL",
@@ -1557,15 +1557,15 @@
    "start": "2026-11-21T02:40:00+00:00",
    "book": "FanDuel",
    "odds": 1.54,
-   "prob": 0.6313,
-   "edge": -0.0278,
+   "prob": 0.6286,
+   "edge": -0.032,
    "value": "over",
    "value_txt": "Overpriced: the book is charging a lot here",
    "units": 0.0,
    "stake": 0.0,
    "to_win": 0.0,
    "tier": null,
-   "fair_odds": 1.58,
+   "fair_odds": 1.59,
    "why": [
     "Sharp books give Phoenix Suns a 63% chance to win (Utah Jazz 37%).",
     "Phoenix Suns: 7-7, 2-3 on the road, 114.1 pts/game, top: Devin Booker 24.8 PPG.",
@@ -1588,7 +1588,7 @@
     }
    ],
    "n_sharp": 4,
-   "link": null
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626550994&selectionId=237487"
   },
   {
    "sport": "COLLEGE BASKETBALL",
@@ -1622,17 +1622,17 @@
    "start": "2026-11-21T03:10:00+00:00",
    "book": "FanDuel",
    "odds": 1.82,
-   "prob": 0.5367,
-   "edge": -0.0232,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
+   "prob": 0.5331,
+   "edge": -0.0297,
+   "value": "over",
+   "value_txt": "Overpriced: the book is charging a lot here",
    "units": 0.0,
    "stake": 0.0,
    "to_win": 0.0,
    "tier": null,
-   "fair_odds": 1.86,
+   "fair_odds": 1.88,
    "why": [
-    "Sharp books give Denver Nuggets a 54% chance to win (Houston Rockets 46%).",
+    "Sharp books give Denver Nuggets a 53% chance to win (Houston Rockets 47%).",
     "Denver Nuggets: 8-5, 3-3 at home, 113.2 pts/game, top: Jamal Murray 25.7 PPG.",
     "Houston Rockets: 12-4, 5-3 on the road, 117.9 pts/game, top: Alperen Sengun 21.6 PPG."
    ],
@@ -1653,7 +1653,7 @@
     }
    ],
    "n_sharp": 4,
-   "link": null
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626551003&selectionId=237492"
   },
   {
    "sport": "NBA",
@@ -1663,15 +1663,15 @@
    "start": "2026-11-21T03:10:00+00:00",
    "book": "FanDuel",
    "odds": 1.11,
-   "prob": 0.8804,
-   "edge": -0.0227,
+   "prob": 0.8823,
+   "edge": -0.0207,
    "value": "slight",
    "value_txt": "A bit overpriced (books' cut)",
    "units": 0.25,
    "stake": 1.25,
    "to_win": 0.14,
    "tier": null,
-   "fair_odds": 1.14,
+   "fair_odds": 1.13,
    "why": [
     "Sharp books give Los Angeles Lakers a 88% chance to win.",
     "Los Angeles Lakers: 13-3, 6-2 at home, 120.9 pts/game, top: Luka Doncic 38.1 PPG.",
@@ -1695,7 +1695,7 @@
     }
    ],
    "n_sharp": 4,
-   "link": null
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626550991&selectionId=5368712"
   },
   {
    "sport": "COLLEGE BASKETBALL",
@@ -1729,8 +1729,8 @@
    "label": "Safest 4x+",
    "book": "FanDuel",
    "odds": 4.03,
-   "prob": 0.2395,
-   "ev": -0.0355,
+   "prob": 0.2391,
+   "ev": -0.037,
    "units": 0.5,
    "stake": 2.5,
    "to_win": 7.57,
@@ -1780,10 +1780,14 @@
      "event": "Orlando Magic @ Brooklyn Nets",
      "sport": "NBA",
      "odds": 1.4,
-     "prob": 0.701,
+     "prob": 0.7,
      "start": "2026-11-21T00:40:00+00:00",
-     "link": null,
-     "sid": null
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626550984&selectionId=237475",
+     "sid": [
+      null,
+      "237475",
+      "36334576"
+     ]
     }
    ]
   },
@@ -1812,20 +1816,28 @@
      "event": "Charlotte Hornets @ Atlanta Hawks",
      "sport": "NBA",
      "odds": 1.39,
-     "prob": 0.695,
+     "prob": 0.699,
      "start": "2026-11-21T00:10:00+00:00",
-     "link": null,
-     "sid": null
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626550981&selectionId=237490",
+     "sid": [
+      null,
+      "237490",
+      "36334575"
+     ]
     },
     {
      "pick": "Cleveland Cavaliers",
      "event": "Indiana Pacers @ Cleveland Cavaliers",
      "sport": "NBA",
      "odds": 1.45,
-     "prob": 0.677,
+     "prob": 0.673,
      "start": "2026-11-21T00:40:00+00:00",
-     "link": null,
-     "sid": null
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626551000&selectionId=60424",
+     "sid": [
+      null,
+      "60424",
+      "36334580"
+     ]
     },
     {
      "pick": "Iona Gaels",

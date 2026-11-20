@@ -1,6 +1,6 @@
 {
  "version": 19,
- "updated": "2026-11-20T20:30:01+00:00",
+ "updated": "2026-11-20T20:40:01+00:00",
  "last_scan": "2026-11-20T20:10:29+00:00",
  "unit": 5.0,
  "bankroll": 1004.05,
@@ -1727,131 +1727,84 @@
  "big_parlays": [
   {
    "label": "Safest 4x+",
-   "book": "FanDuel",
-   "odds": 4.03,
-   "prob": 0.2391,
-   "ev": -0.037,
+   "book": "DraftKings",
+   "odds": 4.02,
+   "prob": 0.2215,
+   "ev": -0.1101,
    "units": 0.5,
    "stake": 2.5,
-   "to_win": 7.57,
+   "to_win": 7.54,
    "legs": [
     {
-     "pick": "Fresno St Bulldogs",
-     "event": "Alabama St Hornets @ Fresno St Bulldogs",
-     "sport": "COLLEGE BASKETBALL",
-     "odds": 1.27,
-     "prob": 0.804,
-     "start": "2026-11-21T03:00:00+00:00",
-     "link": null,
-     "sid": null
-    },
-    {
-     "pick": "Western Michigan Broncos",
-     "event": "Western Michigan Broncos @ Mt. St. Mary's Mountaineers",
-     "sport": "COLLEGE BASKETBALL",
-     "odds": 1.32,
-     "prob": 0.759,
-     "start": "2026-11-21T00:00:00+00:00",
-     "link": null,
-     "sid": null
-    },
-    {
-     "pick": "CSU Northridge Matadors",
-     "event": "Delaware Blue Hens @ CSU Northridge Matadors",
-     "sport": "COLLEGE BASKETBALL",
-     "odds": 1.31,
-     "prob": 0.749,
-     "start": "2026-11-20T23:00:00+00:00",
-     "link": null,
-     "sid": null
-    },
-    {
-     "pick": "Mississippi St Bulldogs",
-     "event": "Tulsa Golden Hurricane @ Mississippi St Bulldogs",
-     "sport": "COLLEGE BASKETBALL",
-     "odds": 1.31,
-     "prob": 0.747,
-     "start": "2026-11-21T00:30:00+00:00",
-     "link": null,
-     "sid": null
-    },
-    {
-     "pick": "Orlando Magic",
-     "event": "Orlando Magic @ Brooklyn Nets",
+     "pick": "Oklahoma City Thunder",
+     "event": "New Orleans Pelicans @ Oklahoma City Thunder",
      "sport": "NBA",
-     "odds": 1.4,
-     "prob": 0.7,
-     "start": "2026-11-21T00:40:00+00:00",
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626550984&selectionId=237475",
+     "odds": 1.17,
+     "prob": 0.841,
+     "start": "2026-11-21T01:10:00+00:00",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0ML87292645_1",
      "sid": [
       null,
-      "237475",
-      "36334576"
+      "0ML87292645_1",
+      "35039363"
      ]
-    }
-   ],
-   "slip": null
-  },
-  {
-   "label": "Next safest 4x+",
-   "book": "FanDuel",
-   "odds": 4.03,
-   "prob": 0.2315,
-   "ev": -0.0669,
-   "units": 0.5,
-   "stake": 2.5,
-   "to_win": 7.57,
-   "legs": [
-    {
-     "pick": "Georgia Bulldogs",
-     "event": "Georgia Bulldogs @ Georgia Tech Yellow Jackets",
-     "sport": "COLLEGE BASKETBALL",
-     "odds": 1.29,
-     "prob": 0.776,
-     "start": "2026-11-21T01:00:00+00:00",
-     "link": null,
-     "sid": null
     },
     {
-     "pick": "Atlanta Hawks",
-     "event": "Charlotte Hornets @ Atlanta Hawks",
+     "pick": "Detroit Pistons",
+     "event": "Toronto Raptors @ Detroit Pistons",
      "sport": "NBA",
-     "odds": 1.39,
-     "prob": 0.699,
-     "start": "2026-11-21T00:10:00+00:00",
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626550981&selectionId=237490",
+     "odds": 1.38,
+     "prob": 0.71,
+     "start": "2026-11-21T00:40:00+00:00",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0ML85859632_1",
      "sid": [
       null,
-      "237490",
-      "36334575"
+      "0ML85859632_1",
+      "34516243"
      ]
     },
     {
      "pick": "Cleveland Cavaliers",
      "event": "Indiana Pacers @ Cleveland Cavaliers",
      "sport": "NBA",
-     "odds": 1.45,
+     "odds": 1.43,
      "prob": 0.673,
      "start": "2026-11-21T00:40:00+00:00",
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626551000&selectionId=60424",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0ML87292643_1",
      "sid": [
       null,
-      "60424",
-      "36334580"
+      "0ML87292643_1",
+      "35039361"
      ]
     },
     {
-     "pick": "Iona Gaels",
-     "event": "UMKC Kangaroos @ Iona Gaels",
-     "sport": "COLLEGE BASKETBALL",
-     "odds": 1.55,
-     "prob": 0.634,
-     "start": "2026-11-21T00:00:00+00:00",
-     "link": null,
-     "sid": null
+     "pick": "Chicago Bulls",
+     "event": "Washington Wizards @ Chicago Bulls",
+     "sport": "NBA",
+     "odds": 1.74,
+     "prob": 0.551,
+     "start": "2026-11-21T01:10:00+00:00",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0ML87292644_1",
+     "sid": [
+      null,
+      "0ML87292644_1",
+      "35039362"
+     ]
     }
    ],
-   "slip": null
+   "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87292645_1+0ML85859632_1+0ML87292643_1+0ML87292644_1",
+   "alts": [
+    {
+     "book": "theScore Bet",
+     "odds": 4.01,
+     "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=5f1a8346-6440-4cef-8abe-b64a96db9e78&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=18a6afa3-2db4-4acb-8941-5fe5e7e5bd8a&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=fa7c31fb-2d02-4be5-8f56-f3d607fd708a&odds_numerator[2]=2&odds_denominator[2]=1&market_selection_id[3]=6a6dd204-96a2-4985-8dd7-846602b9077a&odds_numerator[3]=2&odds_denominator[3]=1"
+    },
+    {
+     "book": "FanDuel",
+     "odds": 4.06,
+     "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.626550997&selectionId[0]=3319741&marketId[1]=42.626550978&selectionId[1]=237474&marketId[2]=42.626551000&selectionId[2]=60424&marketId[3]=42.626550988&selectionId[3]=237494"
+    }
+   ]
   }
  ]
 }

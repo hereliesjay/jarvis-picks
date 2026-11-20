@@ -1,6 +1,6 @@
 {
  "version": 19,
- "updated": "2026-11-20T19:50:03+00:00",
+ "updated": "2026-11-20T19:52:27+00:00",
  "last_scan": "2026-11-20T19:10:25+00:00",
  "unit": 5.0,
  "bankroll": 1004.05,
@@ -41,7 +41,7 @@
    "min_odds": 1.61,
    "start": "2026-11-20T17:30:00+00:00",
    "started": true,
-   "status": "open",
+   "status": "won",
    "n_sharp": null
   },
   {
@@ -86,12 +86,12 @@
  "parlays": [],
  "record": {
   "lean": {
-   "won": 1,
+   "won": 2,
    "lost": 2,
    "push": 0,
-   "open": 3,
-   "units": -0.79,
-   "dollars": -3.93,
+   "open": 2,
+   "units": -0.47,
+   "dollars": -2.38,
    "clv": 0.0038,
    "clv_n": 3
   },
@@ -117,6 +117,16 @@
   }
  },
  "recent": [
+  {
+   "tier": "lean",
+   "pick": "Temple Owls",
+   "event": "Temple Owls @ Middle Tennessee Blue Raiders",
+   "sport": "COLLEGE BASKETBALL",
+   "odds": 1.62,
+   "units": 0.5,
+   "status": "won",
+   "start": "2026-11-20T17:30:00+00:00"
+  },
   {
    "tier": "best",
    "pick": "Oklahoma St Cowboys",
@@ -166,10 +176,10 @@
    "on": true
   },
   "basketball": {
-   "n": 49,
-   "roi": -0.0747,
+   "n": 50,
+   "roi": -0.0608,
    "clv": -0.0023,
-   "on": true
+   "on": false
   },
   "tennis": {
    "n": 7,

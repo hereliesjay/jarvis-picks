@@ -51,6 +51,18 @@ td.r,th.r{text-align:right}
 .scroll{overflow-x:auto}
 .note{font-size:.75rem;color:var(--mute);line-height:1.6;margin-top:2rem}
 .started{opacity:.55}
+.tabs{position:sticky;top:0;z-index:5;display:flex;gap:.4rem;overflow-x:auto;padding:.75rem 0;margin-top:1.5rem;background:linear-gradient(180deg,var(--bg1) 70%,transparent);scrollbar-width:none}
+.tabs::-webkit-scrollbar{display:none}
+.tab{flex:none;border:1px solid var(--line);background:var(--card);color:var(--ink);font:inherit;font-size:.85rem;font-weight:600;padding:.45rem .9rem;border-radius:999px;cursor:pointer}
+.tab .n{display:inline-block;min-width:1.2rem;margin-left:.35rem;padding:0 .35rem;border-radius:999px;background:rgba(255,255,255,.08);font-size:.72rem;color:var(--mute)}
+.tab.on{background:linear-gradient(90deg,rgba(124,140,255,.35),rgba(47,212,192,.25));border-color:rgba(124,140,255,.5)}
+.tab.on .n{color:var(--ink)}
+.sec{margin-top:1.4rem}
+.sec h3{display:flex;align-items:center;gap:.6rem;margin:0 0 .7rem;font-size:1.15rem;font-weight:700}
+.sec h3 .ic{font-size:1.2rem}
+.sec h3 .c{font-size:.75rem;font-weight:500;color:var(--mute)}
+.sub{font-size:.72rem;text-transform:uppercase;letter-spacing:.1em;color:var(--mute);margin:.9rem 0 .5rem}
+
 </style></head>
 <body><div class="wrap">
 <header><div><h1>Jarvis Picks</h1><div class="status" id="status"><span class="dot"></span><span>Loading…</span></div></div>
@@ -58,14 +70,8 @@ td.r,th.r{text-align:right}
 
 <div class="tiles" id="tiles"></div>
 
-<h2>Today's best bets</h2>
-<div class="picks" id="best"></div>
-
-<h2>Leans <span style="text-transform:none;letter-spacing:0">· smaller bets, priced about fair</span></h2>
-<div class="picks" id="lean"></div>
-
-<h2>Parlays · NBA &amp; NHL</h2>
-<div class="picks" id="parlays"></div>
+<nav class="tabs" id="tabs"></nav>
+<div id="sections"></div>
 
 <h2>Recent results</h2>
 <div class="card scroll"><table><thead><tr><th>Date</th><th>Pick</th><th>Type</th><th class="r">Odds</th><th class="r">Units</th><th class="r">Result</th></tr></thead><tbody id="recent"></tbody></table></div>
@@ -101,6 +107,24 @@ function parlayCard(p){
   const R=el('div','ev');R.style.textAlign='right';R.textContent='hits ~'+Math.round(p.prob*100)+'%';R.append(el('div',null,p.ev>0?'edge '+pct(p.ev):'for fun'));bet.append(R);c.append(bet);
   c.append(el('div','meta','First game '+when(p.legs.map(l=>l.start).sort()[0])));return c}
 function fill(id,items,fn,msg){const t=$(id);t.replaceChildren();if(!items.length){t.append(el('div','card empty',msg));return}items.forEach(x=>t.append(fn(x)))}
+const SPORTS=[{id:'nba',name:'NBA',ic:'🏀'},{id:'nhl',name:'NHL',ic:'🏒'},{id:'nfl',name:'NFL & College Football',ic:'🏈'},{id:'ufc',name:'UFC',ic:'🥊'},{id:'tennis',name:'Tennis',ic:'🎾'},{id:'more',name:'More (college hoops, soccer…)',ic:'⭐'}];
+function group(s){s=(s||'').toUpperCase();if(s.includes('NBA'))return 'nba';if(s.includes('NHL')||s.includes('HOCKEY'))return 'nhl';if(s.includes('NFL')||s.includes('FOOTBALL'))return 'nfl';if(s.includes('MMA')||s.includes('UFC')||s.includes('BOX'))return 'ufc';if(s.includes('TENNIS')||s.includes('ATP')||s.includes('WTA'))return 'tennis';return 'more'}
+let TAB='all';
+function render(){const G=window._G;if(!G)return;
+  const T=$('tabs');T.replaceChildren();const total=SPORTS.reduce((a,s)=>a+G[s.id].picks.length+G[s.id].parlays.length,0);
+  [{id:'all',name:'All'}].concat(SPORTS.map(s=>({id:s.id,name:s.id==='nfl'?'NFL':s.id==='more'?'More':s.name}))).forEach(t=>{
+    const n=t.id==='all'?total:G[t.id].picks.length+G[t.id].parlays.length;
+    const b=el('button','tab'+(TAB===t.id?' on':''),t.name);b.append(el('span','n',n));b.onclick=()=>{TAB=t.id;render()};T.append(b)});
+  const S=$('sections');S.replaceChildren();
+  SPORTS.filter(s=>TAB==='all'||TAB===s.id).forEach(s=>{const g=G[s.id];const n=g.picks.length+g.parlays.length;
+    if(TAB==='all'&&!n)return;
+    const sec=el('section','sec');const h=el('h3');h.append(el('span','ic',s.ic),s.name,el('span','c',n?n+' bet'+(n>1?'s':''):''));sec.append(h);
+    if(!n){sec.append(el('div','card empty','No '+s.name+' bets right now. No edge = no bet — the bot checks again soon.'))}
+    const best=g.picks.filter(p=>p.tier==='best'),lean=g.picks.filter(p=>p.tier==='lean');
+    [['Best bets',best,pickCard],['Leans · half unit, priced about fair',lean,pickCard],['Parlay',g.parlays,parlayCard]].forEach(([lab,arr,fn])=>{if(!arr.length)return;sec.append(el('div','sub',lab));const w=el('div','picks');arr.forEach(x=>w.append(fn(x)));sec.append(w)});
+    S.append(sec)});
+  if(TAB==='all'&&!total)S.append(el('div','card empty','No bets on the board right now. No edge = no bet — the bot checks again soon.'));
+}
 async function load(){
   let f;try{const r=await fetch('picks.json?t='+Date.now(),{cache:'no-store'});f=await r.json()}catch(e){$('status').lastChild.textContent='No picks file yet — the bot will post one after its next scan.';return}
   const fresh=f.updated&&(Date.now()-new Date(f.updated))<75*60000;
@@ -115,9 +139,10 @@ async function load(){
   T.append(tile('Closing-line value',b.clv==null?'—':pct(b.clv),b.clv_n?b.clv_n+' best bets checked':'needs graded picks',b.clv>0?'pos':b.clv<0?'neg':''));
   const pr=rec.parlay||{won:0,lost:0,units:0};T.append(tile('Parlays',pr.won+'–'+pr.lost,sgn(pr.units)+'u'));
   const picks=f.picks||[];
-  fill('best',picks.filter(p=>p.tier==='best'),pickCard,'No best bets right now. No edge = no bet — the bot checks again soon.');
-  fill('lean',picks.filter(p=>p.tier==='lean'),pickCard,'No leans right now.');
-  fill('parlays',f.parlays||[],parlayCard,'No parlays yet today.');
+  const G={};SPORTS.forEach(s=>G[s.id]={picks:[],parlays:[]});
+  picks.forEach(p=>G[group(p.sport)].picks.push(p));
+  (f.parlays||[]).forEach(p=>G[group(p.label)].parlays.push(p));
+  window._G=G;render();
   const rb=$('recent');rb.replaceChildren();(f.recent||[]).forEach(r=>{const tr=el('tr');const d=new Date(r.start);
     [d.toLocaleDateString([], {month:'short',day:'numeric'}),r.pick+' ('+r.sport+')',r.tier,r.odds.toFixed(2),r.units+'u'].forEach((x,i)=>{const td=el('td',i>=3?'r':null,x);tr.append(td)});
     const td=el('td','r');td.append(el('span','badge '+(r.status==='won'?'won':r.status==='lost'?'lost':''),r.status.toUpperCase()));tr.append(td);rb.append(tr)});

@@ -1,6 +1,6 @@
 {
  "version": 19,
- "updated": "2026-11-20T21:21:38+00:00",
+ "updated": "2026-11-20T21:30:44+00:00",
  "last_scan": "2026-11-20T21:10:33+00:00",
  "unit": 5.0,
  "bankroll": 1004.05,
@@ -206,32 +206,6 @@
  },
  "watching": 90,
  "games": [
-  {
-   "sport": "COLLEGE BASKETBALL",
-   "event": "Rhode Island Rams @ Liberty Flames",
-   "pick": "Liberty Flames",
-   "opp": "Rhode Island Rams",
-   "start": "2026-11-20T21:30:00+00:00",
-   "book": "FanDuel",
-   "odds": 1.96,
-   "prob": 0.501,
-   "edge": -0.0181,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.0,
-   "stake": 0.0,
-   "to_win": 0.0,
-   "tier": null,
-   "fair_odds": 2.0,
-   "why": [
-    "Sharp books give Liberty Flames a 50% chance to win (Rhode Island Rams 50%).",
-    "Liberty Flames: 3-1, 2-0 at home, 82.8 pts/game, top: Eli Sancomb 18.2 PPG.",
-    "Rhode Island Rams: 5-0, 0-0 on the road, 80.8 pts/game, top: Jonah Hinton 14.4 PPG."
-   ],
-   "injuries": [],
-   "n_sharp": 3,
-   "link": null
-  },
   {
    "sport": "COLLEGE BASKETBALL",
    "event": "Mercyhurst Lakers @ Canisius Golden Griffins",

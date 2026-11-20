@@ -51,6 +51,10 @@ td.r,th.r{text-align:right}
 .scroll{overflow-x:auto}
 .note{font-size:.75rem;color:var(--mute);line-height:1.6;margin-top:2rem}
 .started{opacity:.55}
+.go{display:inline-flex;align-items:center;gap:.35rem;margin-top:.55rem;padding:.45rem .8rem;border-radius:9px;font-size:.8rem;font-weight:700;text-decoration:none;color:#0b0f1a;background:linear-gradient(90deg,var(--acc2),#6fe3c5)}
+.go.alt{background:rgba(255,255,255,.06);color:var(--ink);border:1px solid var(--line);font-weight:600}
+.golist{display:flex;flex-wrap:wrap;gap:.35rem}
+
 .game{display:grid;gap:.5rem}
 .gh{display:flex;justify-content:space-between;gap:.5rem;align-items:baseline;flex-wrap:wrap}
 .gt{font-size:.72rem;color:var(--mute)}
@@ -117,8 +121,9 @@ function pickCard(p){
   const bet=el('div','bet');const L=el('div');L.append(el('div','u',p.units+'u · '+money(p.stake)));L.append(el('div','w','to win '+money(p.to_win)));bet.append(L);
   const R=el('div','ev');R.style.textAlign='right';R.textContent='edge '+pct(p.edge);R.append(el('div',null,'win chance '+Math.round(p.prob*100)+'%'));bet.append(R);c.append(bet);
   const cf=el('div','conf');const i=el('i');i.style.width=Math.max(8,Math.min(100,(p.edge+0.01)/0.07*100))+'%';cf.append(i);c.append(cf);
+  if(p.link){setTimeout(()=>{},0)}
   let m='Min odds '+(p.min_odds||'—');if(p.now_odds&&p.now_odds!==p.odds)m+=' · now '+p.now_odds.toFixed(2);if(p.n_sharp)m+=' · '+p.n_sharp+' sharp book'+(p.n_sharp>1?'s':'');
-  c.append(el('div','meta',m));return c}
+  c.append(el('div','meta',m));if(p.link)c.append(goBtn(p.link,'Open bet at '+p.book+' →'));return c}
 function parlayCard(p){
   const c=el('div','card pick');const top=el('div');top.append(el('span','badge parlay',p.label+' PARLAY'));top.append(el('span','sp',p.legs.length+' legs · '+p.book));c.append(top);
   const ul=el('ul','legs');p.legs.forEach(l=>{const li=el('li');li.append(el('span',null,l.pick));li.append(el('b',null,l.odds.toFixed(2)));ul.append(li)});c.append(ul);
@@ -126,6 +131,7 @@ function parlayCard(p){
   const R=el('div','ev');R.style.textAlign='right';R.textContent='hits ~'+Math.round(p.prob*100)+'%';R.append(el('div',null,p.ev>0?'edge '+pct(p.ev):'for fun'));bet.append(R);c.append(bet);
   c.append(el('div','meta','First game '+when(p.legs.map(l=>l.start).sort()[0])));return c}
 function fill(id,items,fn,msg){const t=$(id);t.replaceChildren();if(!items.length){t.append(el('div','card empty',msg));return}items.forEach(x=>t.append(fn(x)))}
+function goBtn(href,txt,alt){const a=el('a','go'+(alt?' alt':''),txt);a.href=href;a.target='_blank';a.rel='noopener';return a}
 function gameCard(g){
   const c=el('div','card game');
   const gh=el('div','gh');gh.append(el('span','gt',g.sport+' · '+when(g.start)+' · vs '+g.opp));
@@ -141,12 +147,15 @@ function gameCard(g){
     (g.injuries||[]).forEach(i=>{const p=el('div','inj');p.append(el('b',null,'Injuries — '+i.team+': '));p.append(i.list.join(', '));d.append(p)});
     if(!(g.injuries||[]).length)d.append(el('div','inj','No injury list for this league (or none reported).'));
     c.append(d)}
+  if(g.link)c.append(goBtn(g.link,'Open bet at '+g.book+' →'));
   return c}
 function bigParlayCard(p){
   const c=el('div','card pick');const top=el('div');top.append(el('span','badge parlay',p.label.toUpperCase()+' PARLAY'));top.append(el('span','sp',p.legs.length+' legs · '+p.book));c.append(top);
   const ul=el('ul','legs');p.legs.forEach(l=>{const li=el('li');const s=el('span',null,l.pick);s.append(el('span','p',l.sport+' · '+Math.round(l.prob*100)+'%'));li.append(s);li.append(el('b',null,l.odds.toFixed(2)));ul.append(li)});c.append(ul);
   const bet=el('div','bet');const L=el('div');L.append(el('div','u',p.units+'u · '+money(p.stake)));L.append(el('div','w','pays '+p.odds.toFixed(2)+'x · to win '+money(p.to_win)));bet.append(L);
   const R=el('div','ev');R.style.textAlign='right';R.textContent='hits ~'+Math.round(p.prob*100)+'%';R.append(el('div',null,'about 1 in '+Math.max(1,Math.round(1/p.prob))));bet.append(R);c.append(bet);
+  if(p.slip)c.append(goBtn(p.slip,'Add whole parlay to '+p.book+' →'));
+  else if(p.legs.some(l=>l.link)){c.append(el('div','meta','Tap each leg to add it to your '+p.book+' slip:'));const gl=el('div','golist');p.legs.forEach((l,i)=>{if(l.link)gl.append(goBtn(l.link,(i+1)+'. '+l.pick,true))});c.append(gl)}
   return c}
 function gameList(sec,games,limit){
   const w=el('div','picks');const show=games.slice(0,limit);show.forEach(g=>w.append(gameCard(g)));sec.append(w);

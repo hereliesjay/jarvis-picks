@@ -51,6 +51,25 @@ td.r,th.r{text-align:right}
 .scroll{overflow-x:auto}
 .note{font-size:.75rem;color:var(--mute);line-height:1.6;margin-top:2rem}
 .started{opacity:.55}
+.game{display:grid;gap:.5rem}
+.gh{display:flex;justify-content:space-between;gap:.5rem;align-items:baseline;flex-wrap:wrap}
+.gt{font-size:.72rem;color:var(--mute)}
+.gp{font-size:1.1rem;font-weight:700}
+.gp small{font-weight:500;color:var(--mute);font-size:.8rem}
+.vb{font-size:.62rem;font-weight:700;letter-spacing:.08em;padding:.18rem .45rem;border-radius:999px}
+.vb.value{background:rgba(70,217,160,.15);color:var(--pos)}.vb.fair{background:rgba(124,140,255,.15);color:var(--acc)}
+.vb.slight{background:rgba(230,180,80,.13);color:var(--gold)}.vb.over{background:rgba(255,122,144,.13);color:var(--neg)}
+.gline{display:flex;justify-content:space-between;font-size:.84rem;gap:.5rem;flex-wrap:wrap}
+.gline b{font-family:'JetBrains Mono',monospace;font-weight:500}
+.why{margin:0;padding-left:1.1rem;font-size:.8rem;color:#c9d0e6;line-height:1.5}
+.inj{font-size:.75rem;color:var(--mute);line-height:1.5}
+.inj b{color:var(--neg);font-weight:600}
+details summary{cursor:pointer;font-size:.75rem;color:var(--acc);list-style:none}
+details summary::-webkit-details-marker{display:none}
+.gsec{margin-top:1rem;font-size:.8rem;font-weight:700;color:var(--mute);text-transform:uppercase;letter-spacing:.08em}
+.more{margin-top:.6rem;width:100%;background:var(--card);border:1px solid var(--line);color:var(--ink);font:inherit;font-size:.85rem;padding:.6rem;border-radius:10px;cursor:pointer}
+.legs .p{color:var(--mute);font-size:.75rem;margin-left:.4rem}
+
 .tabs{position:sticky;top:0;z-index:5;display:flex;gap:.4rem;overflow-x:auto;padding:.75rem 0;margin-top:1.5rem;background:linear-gradient(180deg,var(--bg1) 70%,transparent);scrollbar-width:none}
 .tabs::-webkit-scrollbar{display:none}
 .tab{flex:none;border:1px solid var(--line);background:var(--card);color:var(--ink);font:inherit;font-size:.85rem;font-weight:600;padding:.45rem .9rem;border-radius:999px;cursor:pointer}
@@ -79,7 +98,7 @@ td.r,th.r{text-align:right}
 <h2>Bot rules · switched off automatically when a sport loses over 50+ plays</h2>
 <div class="card scroll"><table><thead><tr><th>Sport</th><th class="r">Plays</th><th class="r">ROI</th><th class="r">CLV</th><th class="r">Status</th></tr></thead><tbody id="rules"></tbody></table></div>
 
-<p class="note">Best bet = your book pays at least 2% more than the sharp books' fair price (Pinnacle, devigged), odds 1.50–2.30. 1.5 units when the edge is 4%+ and 2+ sharp books agree. Lean = solid favourite priced about fair, half a unit. Parlays are half a unit and usually have no real edge: they're for fun. Don't take a pick if the odds drop below its "min odds". Paper-trade until the record proves itself. Gambling has real risk; never bet money you need.</p>
+<p class="note">Every game card shows the side the bot thinks is more likely to win, with its price check: VALUE = pays more than the real chance, FAIR = about right, OVERPRICED = the book is taking a big cut ("Pick only", no stake). Best bet = your book pays at least 2% more than the sharp books' fair price (Pinnacle, devigged), odds 1.50–2.30. 1.5 units when the edge is 4%+ and 2+ sharp books agree. Lean = solid favourite priced about fair, half a unit. Parlays are half a unit and usually have no real edge: they're for fun. Don't take a pick if the odds drop below its "min odds". Paper-trade until the record proves itself. Gambling has real risk; never bet money you need.</p>
 </div>
 <script>
 const $=id=>document.getElementById(id);
@@ -107,13 +126,38 @@ function parlayCard(p){
   const R=el('div','ev');R.style.textAlign='right';R.textContent='hits ~'+Math.round(p.prob*100)+'%';R.append(el('div',null,p.ev>0?'edge '+pct(p.ev):'for fun'));bet.append(R);c.append(bet);
   c.append(el('div','meta','First game '+when(p.legs.map(l=>l.start).sort()[0])));return c}
 function fill(id,items,fn,msg){const t=$(id);t.replaceChildren();if(!items.length){t.append(el('div','card empty',msg));return}items.forEach(x=>t.append(fn(x)))}
+function gameCard(g){
+  const c=el('div','card game');
+  const gh=el('div','gh');gh.append(el('span','gt',g.sport+' · '+when(g.start)+' · vs '+g.opp));
+  gh.append(el('span','vb '+g.value,{value:'VALUE',fair:'FAIR PRICE',slight:'SLIGHTLY OVERPRICED',over:'OVERPRICED'}[g.value]));c.append(gh);
+  const gp=el('div','gp','Bot picks: '+g.pick+' ');gp.append(el('small',null,Math.round(g.prob*100)+'% to win'));c.append(gp);
+  const l1=el('div','gline');const a=el('span');a.append('Best price ');a.append(el('b',null,g.odds.toFixed(2)));a.append(' at '+g.book);
+  const b=el('span');b.append('Fair odds ');b.append(el('b',null,g.fair_odds?g.fair_odds.toFixed(2):'—'));l1.append(a,b);c.append(l1);
+  const l2=el('div','bet');const L=el('div');
+  if(g.units>0){L.append(el('div','u',g.units+'u · '+money(g.stake)));L.append(el('div','w','to win '+money(g.to_win)))}
+  else{L.append(el('div','u','Pick only'));L.append(el('div','ev','price too high to bet'))}
+  l2.append(L);const R=el('div','ev');R.style.textAlign='right';R.textContent=g.value_txt;R.append(el('div',null,'edge '+pct(g.edge)));l2.append(R);c.append(l2);
+  if(g.why&&g.why.length){const d=el('details');d.append(el('summary',null,'Why ▾'));const ul=el('ul','why');g.why.forEach(w=>ul.append(el('li',null,w)));d.append(ul);
+    (g.injuries||[]).forEach(i=>{const p=el('div','inj');p.append(el('b',null,'Injuries — '+i.team+': '));p.append(i.list.join(', '));d.append(p)});
+    if(!(g.injuries||[]).length)d.append(el('div','inj','No injury list for this league (or none reported).'));
+    c.append(d)}
+  return c}
+function bigParlayCard(p){
+  const c=el('div','card pick');const top=el('div');top.append(el('span','badge parlay',p.label.toUpperCase()+' PARLAY'));top.append(el('span','sp',p.legs.length+' legs · '+p.book));c.append(top);
+  const ul=el('ul','legs');p.legs.forEach(l=>{const li=el('li');const s=el('span',null,l.pick);s.append(el('span','p',l.sport+' · '+Math.round(l.prob*100)+'%'));li.append(s);li.append(el('b',null,l.odds.toFixed(2)));ul.append(li)});c.append(ul);
+  const bet=el('div','bet');const L=el('div');L.append(el('div','u',p.units+'u · '+money(p.stake)));L.append(el('div','w','pays '+p.odds.toFixed(2)+'x · to win '+money(p.to_win)));bet.append(L);
+  const R=el('div','ev');R.style.textAlign='right';R.textContent='hits ~'+Math.round(p.prob*100)+'%';R.append(el('div',null,'about 1 in '+Math.max(1,Math.round(1/p.prob))));bet.append(R);c.append(bet);
+  return c}
+function gameList(sec,games,limit){
+  const w=el('div','picks');const show=games.slice(0,limit);show.forEach(g=>w.append(gameCard(g)));sec.append(w);
+  if(games.length>limit){const b=el('button','more','Show all '+games.length+' games');b.onclick=()=>{w.replaceChildren();games.forEach(g=>w.append(gameCard(g)));b.remove()};sec.append(b)}}
 const SPORTS=[{id:'nba',name:'NBA',ic:'🏀'},{id:'nhl',name:'NHL',ic:'🏒'},{id:'nfl',name:'NFL & College Football',ic:'🏈'},{id:'ufc',name:'UFC',ic:'🥊'},{id:'tennis',name:'Tennis',ic:'🎾'},{id:'more',name:'More (college hoops, soccer…)',ic:'⭐'}];
 function group(s){s=(s||'').toUpperCase();if(s.includes('NBA'))return 'nba';if(s.includes('NHL')||s.includes('HOCKEY'))return 'nhl';if(s.includes('NFL')||s.includes('FOOTBALL'))return 'nfl';if(s.includes('MMA')||s.includes('UFC')||s.includes('BOX'))return 'ufc';if(s.includes('TENNIS')||s.includes('ATP')||s.includes('WTA'))return 'tennis';return 'more'}
 let TAB='all';
 function render(){const G=window._G;if(!G)return;
-  const T=$('tabs');T.replaceChildren();const total=SPORTS.reduce((a,s)=>a+G[s.id].picks.length+G[s.id].parlays.length,0);
+  const T=$('tabs');T.replaceChildren();const total=SPORTS.reduce((a,s)=>a+(G[s.id].games.length||(G[s.id].picks.length+G[s.id].parlays.length)),0);
   [{id:'all',name:'All'}].concat(SPORTS.map(s=>({id:s.id,name:s.id==='nfl'?'NFL':s.id==='more'?'More':s.name}))).forEach(t=>{
-    const n=t.id==='all'?total:G[t.id].picks.length+G[t.id].parlays.length;
+    const n=t.id==='all'?total:G[t.id].games.length||(G[t.id].picks.length+G[t.id].parlays.length);
     const b=el('button','tab'+(TAB===t.id?' on':''),t.name);b.append(el('span','n',n));b.onclick=()=>{TAB=t.id;render()};T.append(b)});
   const S=$('sections');S.replaceChildren();
   if(TAB==='all'){
@@ -123,6 +167,10 @@ function render(){const G=window._G;if(!G)return;
     if(!all.length)sec.append(el('div','card empty','No bets on the board right now. No edge = no bet — the bot checks again soon.'));
     else{const w=el('div','picks');all.forEach(p=>w.append(pickCard(p)));sec.append(w)}
     S.append(sec);
+    if((window._BIG||[]).length){const bs=el('section','sec');const bh=el('h3');bh.append(el('span','ic','🎯'),'Safest parlays that pay 4x+',el('span','c','highest hit chance'));bs.append(bh);const w=el('div','picks');window._BIG.forEach(p=>w.append(bigParlayCard(p)));bs.append(w);S.append(bs)}
+    const gs=el('section','sec');const gh=el('h3');gh.append(el('span','ic','📋'),'Every game · the bot\'s side');gs.append(gh);
+    let any=false;SPORTS.forEach(s=>{const gg=G[s.id].games;if(!gg.length)return;any=true;gs.append(el('div','gsec',s.ic+' '+s.name+' · '+gg.length));gameList(gs,gg,s.id==='more'?4:6)});
+    if(!any)gs.append(el('div','card empty','No upcoming games priced yet.'));S.append(gs);
     const pars=[];SPORTS.forEach(s=>G[s.id].parlays.forEach(p=>pars.push(p)));
     if(pars.length){const ps=el('section','sec');const ph=el('h3');ph.append(el('span','ic','🎟️'),'Parlays');ps.append(ph);const w=el('div','picks');pars.forEach(p=>w.append(parlayCard(p)));ps.append(w);S.append(ps)}
     return;
@@ -130,9 +178,10 @@ function render(){const G=window._G;if(!G)return;
   SPORTS.filter(s=>TAB===s.id).forEach(s=>{const g=G[s.id];const n=g.picks.length+g.parlays.length;
     if(TAB==='all'&&!n)return;
     const sec=el('section','sec');const h=el('h3');h.append(el('span','ic',s.ic),s.name,el('span','c',n?n+' bet'+(n>1?'s':''):''));sec.append(h);
-    if(!n){sec.append(el('div','card empty','No '+s.name+' bets right now. No edge = no bet — the bot checks again soon.'))}
+    if(!n&&!g.games.length){sec.append(el('div','card empty','No '+s.name+' games priced right now — the bot checks again soon.'))}
     const best=g.picks.filter(p=>p.tier==='best'),lean=g.picks.filter(p=>p.tier==='lean');
     [['Best bets',best,pickCard],['Leans · half unit, priced about fair',lean,pickCard],['Parlay',g.parlays,parlayCard]].forEach(([lab,arr,fn])=>{if(!arr.length)return;sec.append(el('div','sub',lab));const w=el('div','picks');arr.forEach(x=>w.append(fn(x)));sec.append(w)});
+    if(g.games.length){sec.append(el('div','sub','Every game · the bot\'s side + why'));gameList(sec,g.games,50)}
     S.append(sec)});
 }
 async function load(){
@@ -152,6 +201,8 @@ async function load(){
   const G={};SPORTS.forEach(s=>G[s.id]={picks:[],parlays:[]});
   picks.forEach(p=>G[group(p.sport)].picks.push(p));
   (f.parlays||[]).forEach(p=>G[group(p.label)].parlays.push(p));
+  SPORTS.forEach(s=>G[s.id].games=[]);(f.games||[]).forEach(g=>G[group(g.sport)].games.push(g));
+  window._BIG=f.big_parlays||[];
   window._G=G;render();
   const rb=$('recent');rb.replaceChildren();(f.recent||[]).forEach(r=>{const tr=el('tr');const d=new Date(r.start);
     [d.toLocaleDateString([], {month:'short',day:'numeric'}),r.pick+' ('+r.sport+')',r.tier,r.odds.toFixed(2),r.units+'u'].forEach((x,i)=>{const td=el('td',i>=3?'r':null,x);tr.append(td)});

@@ -1,10 +1,10 @@
 {
  "version": 19,
- "updated": "2026-11-20T23:00:04+00:00",
- "last_scan": "2026-11-20T22:11:20+00:00",
+ "updated": "2026-11-20T23:20:12+00:00",
+ "last_scan": "2026-11-20T23:20:12+00:00",
  "unit": 5.0,
  "bankroll": 1004.05,
- "credits": 472,
+ "credits": 471,
  "picks": [
   {
    "tier": "best",
@@ -204,7 +204,7 @@
    "on": true
   }
  },
- "watching": 88,
+ "watching": 78,
  "games": [
   {
    "sport": "COLLEGE BASKETBALL",
@@ -620,18 +620,18 @@
    "opp": "Charlotte Hornets",
    "start": "2026-11-21T00:10:00+00:00",
    "book": "DraftKings",
-   "odds": 1.4,
-   "prob": 0.7018,
-   "edge": -0.0174,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.25,
-   "to_win": 0.5,
+   "odds": 1.36,
+   "prob": 0.7069,
+   "edge": -0.0387,
+   "value": "over",
+   "value_txt": "Overpriced: the book is charging a lot here",
+   "units": 0.0,
+   "stake": 0.0,
+   "to_win": 0.0,
    "tier": null,
-   "fair_odds": 1.42,
+   "fair_odds": 1.41,
    "why": [
-    "Sharp books give Atlanta Hawks a 70% chance to win (Charlotte Hornets 29%).",
+    "Sharp books give Atlanta Hawks a 71% chance to win (Charlotte Hornets 28%).",
     "Atlanta Hawks: 9-6, 3-3 at home, 117.7 pts/game, top: Nickeil Alexander-Walker 21.2 PPG.",
     "Charlotte Hornets: 4-10, 1-6 on the road, 100.1 pts/game, top: Brandon Miller 19.9 PPG."
    ],
@@ -794,15 +794,15 @@
    "start": "2026-11-21T00:40:00+00:00",
    "book": "FanDuel",
    "odds": 1.39,
-   "prob": 0.6988,
-   "edge": -0.0287,
-   "value": "over",
-   "value_txt": "Overpriced: the book is charging a lot here",
-   "units": 0.0,
-   "stake": 0.0,
-   "to_win": 0.0,
+   "prob": 0.7024,
+   "edge": -0.0237,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.25,
+   "stake": 1.25,
+   "to_win": 0.49,
    "tier": null,
-   "fair_odds": 1.43,
+   "fair_odds": 1.42,
    "why": [
     "Sharp books give Orlando Magic a 70% chance to win (Brooklyn Nets 29%).",
     "Orlando Magic: 6-8, 5-3 on the road, 109.4 pts/game, top: Franz Wagner 24.4 PPG.",
@@ -834,19 +834,19 @@
    "pick": "Cleveland Cavaliers",
    "opp": "Indiana Pacers",
    "start": "2026-11-21T00:40:00+00:00",
-   "book": "FanDuel",
-   "odds": 1.45,
-   "prob": 0.6773,
-   "edge": -0.0179,
+   "book": "theScore Bet",
+   "odds": 1.48,
+   "prob": 0.6692,
+   "edge": -0.0095,
    "value": "slight",
    "value_txt": "A bit overpriced (books' cut)",
    "units": 0.25,
    "stake": 1.25,
-   "to_win": 0.56,
+   "to_win": 0.6,
    "tier": null,
-   "fair_odds": 1.48,
+   "fair_odds": 1.49,
    "why": [
-    "Sharp books give Cleveland Cavaliers a 68% chance to win (Indiana Pacers 31%).",
+    "Sharp books give Cleveland Cavaliers a 67% chance to win (Indiana Pacers 32%).",
     "Cleveland Cavaliers: 8-8, 6-3 at home, 118.3 pts/game, top: Donovan Mitchell 24.8 PPG.",
     "Indiana Pacers: 5-10, 3-4 on the road, 111.5 pts/game, top: Pascal Siakam 23.1 PPG."
    ],
@@ -871,7 +871,7 @@
     }
    ],
    "n_sharp": 4,
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626551000&selectionId=60424"
+   "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=fa7c31fb-2d02-4be5-8f56-f3d607fd708a&odds_numerator[0]=2&odds_denominator[0]=1"
   },
   {
    "sport": "NBA",
@@ -879,19 +879,19 @@
    "pick": "Detroit Pistons",
    "opp": "Toronto Raptors",
    "start": "2026-11-21T00:40:00+00:00",
-   "book": "DraftKings",
-   "odds": 1.38,
-   "prob": 0.7132,
-   "edge": -0.0158,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.25,
-   "to_win": 0.47,
+   "book": "FanDuel",
+   "odds": 1.42,
+   "prob": 0.7066,
+   "edge": 0.0034,
+   "value": "fair",
+   "value_txt": "Fair price",
+   "units": 0.5,
+   "stake": 2.5,
+   "to_win": 1.05,
    "tier": null,
-   "fair_odds": 1.4,
+   "fair_odds": 1.42,
    "why": [
-    "Sharp books give Detroit Pistons a 71% chance to win (Toronto Raptors 27%).",
+    "Sharp books give Detroit Pistons a 71% chance to win (Toronto Raptors 28%).",
     "Detroit Pistons: 10-4, 3-2 at home, 115.4 pts/game, top: Cade Cunningham 25.8 PPG.",
     "Toronto Raptors: 5-10, 3-4 on the road, 112.0 pts/game, top: Scottie Barnes 23.8 PPG."
    ],
@@ -916,7 +916,7 @@
     }
    ],
    "n_sharp": 4,
-   "link": "https://sportsbook.draftkings.com/?outcomes=0ML85859632_1"
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626550978&selectionId=237474"
   },
   {
    "sport": "COLLEGE FOOTBALL",
@@ -1157,19 +1157,19 @@
    "pick": "Chicago Bulls",
    "opp": "Washington Wizards",
    "start": "2026-11-21T01:10:00+00:00",
-   "book": "theScore Bet",
-   "odds": 1.77,
-   "prob": 0.5525,
-   "edge": -0.022,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.25,
-   "to_win": 0.96,
+   "book": "FanDuel",
+   "odds": 1.85,
+   "prob": 0.5403,
+   "edge": -0.0004,
+   "value": "fair",
+   "value_txt": "Fair price",
+   "units": 0.5,
+   "stake": 2.5,
+   "to_win": 2.12,
    "tier": null,
-   "fair_odds": 1.81,
+   "fair_odds": 1.85,
    "why": [
-    "Sharp books give Chicago Bulls a 55% chance to win (Washington Wizards 45%).",
+    "Sharp books give Chicago Bulls a 54% chance to win (Washington Wizards 46%).",
     "Chicago Bulls: 4-10, 1-4 at home, 116.2 pts/game, top: Norman Powell 21.2 PPG.",
     "Washington Wizards: 5-11, 3-6 on the road, 110.8 pts/game, top: Anthony Davis 24.6 PPG."
    ],
@@ -1194,7 +1194,7 @@
     }
    ],
    "n_sharp": 4,
-   "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=6a6dd204-96a2-4985-8dd7-846602b9077a&odds_numerator[0]=2&odds_denominator[0]=1"
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626550988&selectionId=237494"
   },
   {
    "sport": "NBA",
@@ -1204,8 +1204,8 @@
    "start": "2026-11-21T01:10:00+00:00",
    "book": "DraftKings",
    "odds": 1.17,
-   "prob": 0.8384,
-   "edge": -0.0191,
+   "prob": 0.8385,
+   "edge": -0.0189,
    "value": "slight",
    "value_txt": "A bit overpriced (books' cut)",
    "units": 0.25,
@@ -1378,8 +1378,8 @@
    "start": "2026-11-21T02:40:00+00:00",
    "book": "FanDuel",
    "odds": 1.54,
-   "prob": 0.6291,
-   "edge": -0.0312,
+   "prob": 0.6303,
+   "edge": -0.0294,
    "value": "over",
    "value_txt": "Overpriced: the book is charging a lot here",
    "units": 0.0,
@@ -1443,15 +1443,15 @@
    "start": "2026-11-21T03:10:00+00:00",
    "book": "FanDuel",
    "odds": 1.83,
-   "prob": 0.5341,
-   "edge": -0.0226,
+   "prob": 0.5329,
+   "edge": -0.0248,
    "value": "slight",
    "value_txt": "A bit overpriced (books' cut)",
    "units": 0.0,
    "stake": 0.0,
    "to_win": 0.0,
    "tier": null,
-   "fair_odds": 1.87,
+   "fair_odds": 1.88,
    "why": [
     "Sharp books give Denver Nuggets a 53% chance to win (Houston Rockets 47%).",
     "Denver Nuggets: 8-5, 3-3 at home, 113.2 pts/game, top: Jamal Murray 25.7 PPG.",
@@ -1484,13 +1484,13 @@
    "start": "2026-11-21T03:10:00+00:00",
    "book": "FanDuel",
    "odds": 1.11,
-   "prob": 0.8784,
-   "edge": -0.0249,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.25,
-   "to_win": 0.14,
+   "prob": 0.8769,
+   "edge": -0.0267,
+   "value": "over",
+   "value_txt": "Overpriced: the book is charging a lot here",
+   "units": 0.0,
+   "stake": 0.0,
+   "to_win": 0.0,
    "tier": null,
    "fair_odds": 1.14,
    "why": [
@@ -1548,82 +1548,82 @@
  "big_parlays": [
   {
    "label": "Safest 4x+",
-   "book": "DraftKings",
-   "odds": 4.02,
-   "prob": 0.2238,
-   "ev": -0.1011,
+   "book": "FanDuel",
+   "odds": 4.07,
+   "prob": 0.2211,
+   "ev": -0.0994,
    "units": 0.5,
    "stake": 2.5,
-   "to_win": 7.54,
+   "to_win": 7.68,
    "legs": [
     {
-     "pick": "Oklahoma City Thunder",
-     "event": "New Orleans Pelicans @ Oklahoma City Thunder",
+     "pick": "Atlanta Hawks",
+     "event": "Charlotte Hornets @ Atlanta Hawks",
      "sport": "NBA",
-     "odds": 1.17,
-     "prob": 0.838,
-     "start": "2026-11-21T01:10:00+00:00",
-     "link": "https://sportsbook.draftkings.com/?outcomes=0ML87292645_1",
+     "odds": 1.34,
+     "prob": 0.707,
+     "start": "2026-11-21T00:10:00+00:00",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626550981&selectionId=237490",
      "sid": [
       null,
-      "0ML87292645_1",
-      "35039363"
+      "237490",
+      "36334575"
      ]
     },
     {
      "pick": "Detroit Pistons",
      "event": "Toronto Raptors @ Detroit Pistons",
      "sport": "NBA",
-     "odds": 1.38,
-     "prob": 0.713,
+     "odds": 1.42,
+     "prob": 0.707,
      "start": "2026-11-21T00:40:00+00:00",
-     "link": "https://sportsbook.draftkings.com/?outcomes=0ML85859632_1",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626550978&selectionId=237474",
      "sid": [
       null,
-      "0ML85859632_1",
-      "34516243"
+      "237474",
+      "36334574"
      ]
     },
     {
-     "pick": "Cleveland Cavaliers",
-     "event": "Indiana Pacers @ Cleveland Cavaliers",
+     "pick": "Orlando Magic",
+     "event": "Orlando Magic @ Brooklyn Nets",
      "sport": "NBA",
-     "odds": 1.43,
-     "prob": 0.677,
+     "odds": 1.39,
+     "prob": 0.702,
      "start": "2026-11-21T00:40:00+00:00",
-     "link": "https://sportsbook.draftkings.com/?outcomes=0ML87292643_1",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626550984&selectionId=237475",
      "sid": [
       null,
-      "0ML87292643_1",
-      "35039361"
+      "237475",
+      "36334576"
      ]
     },
     {
-     "pick": "Chicago Bulls",
-     "event": "Washington Wizards @ Chicago Bulls",
+     "pick": "Phoenix Suns",
+     "event": "Phoenix Suns @ Utah Jazz",
      "sport": "NBA",
-     "odds": 1.74,
-     "prob": 0.553,
-     "start": "2026-11-21T01:10:00+00:00",
-     "link": "https://sportsbook.draftkings.com/?outcomes=0ML87292644_1",
+     "odds": 1.54,
+     "prob": 0.63,
+     "start": "2026-11-21T02:40:00+00:00",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626550994&selectionId=237487",
      "sid": [
       null,
-      "0ML87292644_1",
-      "35039362"
+      "237487",
+      "36334578"
      ]
     }
    ],
-   "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87292645_1+0ML85859632_1+0ML87292643_1+0ML87292644_1",
+   "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.626550981&selectionId[0]=237490&marketId[1]=42.626550978&selectionId[1]=237474&marketId[2]=42.626550984&selectionId[2]=237475&marketId[3]=42.626550994&selectionId[3]=237487",
    "alts": [
     {
-     "book": "theScore Bet",
-     "odds": 4.01,
-     "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=5f1a8346-6440-4cef-8abe-b64a96db9e78&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=18a6afa3-2db4-4acb-8941-5fe5e7e5bd8a&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=fa7c31fb-2d02-4be5-8f56-f3d607fd708a&odds_numerator[2]=2&odds_denominator[2]=1&market_selection_id[3]=6a6dd204-96a2-4985-8dd7-846602b9077a&odds_numerator[3]=2&odds_denominator[3]=1"
+     "book": "DraftKings",
+     "odds": 3.99,
+     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87292641_1+0ML85859632_1+0ML87292642_3+0ML87292646_3"
     },
     {
-     "book": "FanDuel",
-     "odds": 4.05,
-     "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.626550997&selectionId[0]=3319741&marketId[1]=42.626550978&selectionId[1]=237474&marketId[2]=42.626551000&selectionId[2]=60424&marketId[3]=42.626550988&selectionId[3]=237494"
+     "book": "theScore Bet",
+     "odds": 3.93,
+     "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=c712b674-acf6-41ee-8351-79df9f302104&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=18a6afa3-2db4-4acb-8941-5fe5e7e5bd8a&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=97b47cf5-5939-47b1-96f3-139d47982fab&odds_numerator[2]=2&odds_denominator[2]=1&market_selection_id[3]=34abb435-5180-4507-a6df-fc69b1ab687e&odds_numerator[3]=2&odds_denominator[3]=1"
     }
    ]
   }

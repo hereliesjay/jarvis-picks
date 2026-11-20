@@ -1,6 +1,6 @@
 {
- "version": 18,
- "updated": "2026-11-20T19:41:22+00:00",
+ "version": 19,
+ "updated": "2026-11-20T19:50:03+00:00",
  "last_scan": "2026-11-20T19:10:25+00:00",
  "unit": 5.0,
  "bankroll": 1004.05,
@@ -190,5 +190,1642 @@
    "on": true
   }
  },
- "watching": 98
+ "watching": 98,
+ "games": [
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "Western Illinois Leathernecks @ Albany Great Danes",
+   "pick": "Albany Great Danes",
+   "opp": "Western Illinois Leathernecks",
+   "start": "2026-11-20T20:00:00+00:00",
+   "book": "FanDuel",
+   "odds": 1.38,
+   "prob": 0.7206,
+   "edge": -0.0056,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.25,
+   "stake": 1.25,
+   "to_win": 0.47,
+   "tier": null,
+   "fair_odds": 1.39,
+   "why": [
+    "Sharp books give Albany Great Danes a 72% chance to win (Western Illinois Leathernecks 27%).",
+    "Western Illinois Leathernecks: 1-4, 1-1 at home, 72.2 pts/game, top: Daivion Traylor 13.4 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 2
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "Indiana St Sycamores @ Stephen F. Austin Lumberjacks",
+   "pick": "Stephen F. Austin Lumberjacks",
+   "opp": "Indiana St Sycamores",
+   "start": "2026-11-20T20:00:00+00:00",
+   "book": "FanDuel",
+   "odds": 1.58,
+   "prob": 0.6283,
+   "edge": -0.0073,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.25,
+   "stake": 1.25,
+   "to_win": 0.73,
+   "tier": null,
+   "fair_odds": 1.59,
+   "why": [
+    "Sharp books give Stephen F. Austin Lumberjacks a 63% chance to win (Indiana St Sycamores 37%).",
+    "Stephen F. Austin Lumberjacks: 3-1, 2-1 at home, 90.8 pts/game, top: Erik Makke 16.0 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 3
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "Northwestern Wildcats @ Virginia Tech Hokies",
+   "pick": "Virginia Tech Hokies",
+   "opp": "Northwestern Wildcats",
+   "start": "2026-11-20T20:00:00+00:00",
+   "book": "DraftKings",
+   "odds": 1.14,
+   "prob": 0.8596,
+   "edge": -0.02,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.25,
+   "stake": 1.25,
+   "to_win": 0.17,
+   "tier": null,
+   "fair_odds": 1.16,
+   "why": [
+    "Sharp books give Virginia Tech Hokies a 86% chance to win (Northwestern Wildcats 12%).",
+    "Virginia Tech Hokies: 5-0, 4-0 at home, 88.8 pts/game, top: Ben Hammond 20.2 PPG.",
+    "Northwestern Wildcats: 3-2, 0-0 on the road, 67.2 pts/game, top: Jake West 18.6 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 3
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "South Dakota St Jackrabbits @ Idaho State Bengals",
+   "pick": "South Dakota St Jackrabbits",
+   "opp": "Idaho State Bengals",
+   "start": "2026-11-20T21:00:00+00:00",
+   "book": "FanDuel",
+   "odds": 1.43,
+   "prob": 0.6889,
+   "edge": -0.0149,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.25,
+   "stake": 1.25,
+   "to_win": 0.54,
+   "tier": null,
+   "fair_odds": 1.45,
+   "why": [
+    "Sharp books give South Dakota St Jackrabbits a 69% chance to win (Idaho State Bengals 30%).",
+    "Idaho State Bengals: 0-4, 0-0 at home, 68.0 pts/game, top: MaCarhy Morris 17.5 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 2
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "Rhode Island Rams @ Liberty Flames",
+   "pick": "Liberty Flames",
+   "opp": "Rhode Island Rams",
+   "start": "2026-11-20T21:30:00+00:00",
+   "book": "FanDuel",
+   "odds": 1.96,
+   "prob": 0.501,
+   "edge": -0.0181,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.0,
+   "stake": 0.0,
+   "to_win": 0.0,
+   "tier": null,
+   "fair_odds": 2.0,
+   "why": [
+    "Sharp books give Liberty Flames a 50% chance to win (Rhode Island Rams 50%).",
+    "Liberty Flames: 3-1, 2-0 at home, 82.8 pts/game, top: Eli Sancomb 18.2 PPG.",
+    "Rhode Island Rams: 5-0, 0-0 on the road, 80.8 pts/game, top: Jonah Hinton 14.4 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 3
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "Mercyhurst Lakers @ Canisius Golden Griffins",
+   "pick": "Mercyhurst Lakers",
+   "opp": "Canisius Golden Griffins",
+   "start": "2026-11-20T22:30:00+00:00",
+   "book": "DraftKings",
+   "odds": 1.6,
+   "prob": 0.6125,
+   "edge": -0.0199,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.25,
+   "stake": 1.25,
+   "to_win": 0.75,
+   "tier": null,
+   "fair_odds": 1.63,
+   "why": [
+    "Sharp books give Mercyhurst Lakers a 61% chance to win (Canisius Golden Griffins 39%).",
+    "Mercyhurst Lakers: 1-4, 0-4 on the road, 63.2 pts/game, top: Jake Lemelman 17.2 PPG.",
+    "Canisius Golden Griffins: 2-3, 1-1 at home, 72.8 pts/game, top: Michael Wilson Jr. 18.8 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 2
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "Dayton Flyers @ Utah Utes",
+   "pick": "Utah Utes",
+   "opp": "Dayton Flyers",
+   "start": "2026-11-20T22:30:00+00:00",
+   "book": "FanDuel",
+   "odds": 1.83,
+   "prob": 0.5306,
+   "edge": -0.0289,
+   "value": "over",
+   "value_txt": "Overpriced: the book is charging a lot here",
+   "units": 0.0,
+   "stake": 0.0,
+   "to_win": 0.0,
+   "tier": null,
+   "fair_odds": 1.88,
+   "why": [
+    "Sharp books give Utah Utes a 53% chance to win (Dayton Flyers 47%).",
+    "Utah Utes: 3-1, 3-1 at home, 71.3 pts/game, top: Alec Anigbata 15.0 PPG.",
+    "Dayton Flyers: 2-3, 0-0 on the road, 82.8 pts/game, top: Aiden Derkack 18.4 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 3
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "Tenn-Martin Skyhawks @ Southern Illinois Salukis",
+   "pick": "Southern Illinois Salukis",
+   "opp": "Tenn-Martin Skyhawks",
+   "start": "2026-11-20T22:30:00+00:00",
+   "book": "theScore Bet",
+   "odds": 1.77,
+   "prob": 0.5633,
+   "edge": -0.0029,
+   "value": "fair",
+   "value_txt": "Fair price",
+   "units": 0.5,
+   "stake": 2.5,
+   "to_win": 1.93,
+   "tier": null,
+   "fair_odds": 1.78,
+   "why": [
+    "Sharp books give Southern Illinois Salukis a 56% chance to win (Tenn-Martin Skyhawks 44%).",
+    "Southern Illinois Salukis: 2-2, 2-0 at home, 83.3 pts/game, top: Jalen Haynes 25.2 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 3
+  },
+  {
+   "sport": "COLLEGE FOOTBALL",
+   "event": "Iowa State Cyclones @ UCF Knights",
+   "pick": "Iowa State Cyclones",
+   "opp": "UCF Knights",
+   "start": "2026-11-20T23:00:00+00:00",
+   "book": "DraftKings",
+   "odds": 1.87,
+   "prob": 0.5235,
+   "edge": -0.021,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.0,
+   "stake": 0.0,
+   "to_win": 0.0,
+   "tier": null,
+   "fair_odds": 1.91,
+   "why": [
+    "Sharp books give Iowa State Cyclones a 52% chance to win (UCF Knights 48%).",
+    "Iowa State Cyclones: 5-5, 0-4 on the road.",
+    "UCF Knights: 5-5, 4-2 at home."
+   ],
+   "injuries": [],
+   "n_sharp": 4
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "Delaware Blue Hens @ CSU Northridge Matadors",
+   "pick": "CSU Northridge Matadors",
+   "opp": "Delaware Blue Hens",
+   "start": "2026-11-20T23:00:00+00:00",
+   "book": "FanDuel",
+   "odds": 1.31,
+   "prob": 0.7494,
+   "edge": -0.0183,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.25,
+   "stake": 1.25,
+   "to_win": 0.39,
+   "tier": null,
+   "fair_odds": 1.33,
+   "why": [
+    "Sharp books give CSU Northridge Matadors a 75% chance to win (Delaware Blue Hens 23%).",
+    "Delaware Blue Hens: 3-2, 0-1 on the road, 77.4 pts/game, top: Chuck Bailey III 18.4 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 2
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "North Texas Mean Green @ Appalachian St Mountaineers",
+   "pick": "North Texas Mean Green",
+   "opp": "Appalachian St Mountaineers",
+   "start": "2026-11-20T23:30:00+00:00",
+   "book": "FanDuel",
+   "odds": 1.77,
+   "prob": 0.5537,
+   "edge": -0.0199,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.25,
+   "stake": 1.25,
+   "to_win": 0.96,
+   "tier": null,
+   "fair_odds": 1.81,
+   "why": [
+    "Sharp books give North Texas Mean Green a 55% chance to win (Appalachian St Mountaineers 45%).",
+    "North Texas Mean Green: 3-1, 0-0 on the road, 84.0 pts/game, top: Je'Shawn Stevenson 21.2 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 2
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "Bellarmine Knights @ Eastern Kentucky Colonels",
+   "pick": "Eastern Kentucky Colonels",
+   "opp": "Bellarmine Knights",
+   "start": "2026-11-21T00:00:00+00:00",
+   "book": "DraftKings",
+   "odds": 1.28,
+   "prob": 0.7726,
+   "edge": -0.011,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.25,
+   "stake": 1.25,
+   "to_win": 0.35,
+   "tier": null,
+   "fair_odds": 1.29,
+   "why": [
+    "Sharp books give Eastern Kentucky Colonels a 77% chance to win (Bellarmine Knights 21%).",
+    "Eastern Kentucky Colonels: 4-1, 3-0 at home, 90.6 pts/game, top: Damone King 12.4 PPG.",
+    "Bellarmine Knights: 1-5, 0-4 on the road, 68.5 pts/game, top: Tyler Doyle 13.2 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 2
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "Central Michigan Chippewas @ Pittsburgh Panthers",
+   "pick": "Pittsburgh Panthers",
+   "opp": "Central Michigan Chippewas",
+   "start": "2026-11-21T00:00:00+00:00",
+   "book": "DraftKings",
+   "odds": 1.02,
+   "prob": 0.9856,
+   "edge": 0.0053,
+   "value": "fair",
+   "value_txt": "Fair price",
+   "units": 0.5,
+   "stake": 2.5,
+   "to_win": 0.05,
+   "tier": null,
+   "fair_odds": 1.01,
+   "why": [
+    "Sharp books give Pittsburgh Panthers a 99% chance to win.",
+    "Pittsburgh Panthers: 5-0, 3-0 at home, 82.8 pts/game, top: Baye Ndongo 18.4 PPG.",
+    "Central Michigan Chippewas: 4-1, 2-1 on the road, 79.6 pts/game, top: Phat Phat Brooks 18.0 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 1
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "Coastal Carolina Chanticleers @ Tennessee Volunteers",
+   "pick": "Tennessee Volunteers",
+   "opp": "Coastal Carolina Chanticleers",
+   "start": "2026-11-21T00:00:00+00:00",
+   "book": "FanDuel",
+   "odds": 1.0,
+   "prob": 0.9887,
+   "edge": -0.0113,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.25,
+   "stake": 1.25,
+   "to_win": 0.0,
+   "tier": null,
+   "fair_odds": 1.01,
+   "why": [
+    "Sharp books give Tennessee Volunteers a 99% chance to win.",
+    "Tennessee Volunteers: 4-0, 4-0 at home, 76.0 pts/game, top: Terrence Hill Jr. 15.5 PPG.",
+    "Coastal Carolina Chanticleers: 2-3, 0-2 on the road, 74.2 pts/game, top: Trey Perry 15.4 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 1
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "Niagara Purple Eagles @ Delaware St Hornets",
+   "pick": "Delaware St Hornets",
+   "opp": "Niagara Purple Eagles",
+   "start": "2026-11-21T00:00:00+00:00",
+   "book": "theScore Bet",
+   "odds": 1.83,
+   "prob": 0.5274,
+   "edge": -0.0349,
+   "value": "over",
+   "value_txt": "Overpriced: the book is charging a lot here",
+   "units": 0.0,
+   "stake": 0.0,
+   "to_win": 0.0,
+   "tier": null,
+   "fair_odds": 1.9,
+   "why": [
+    "Sharp books give Delaware St Hornets a 53% chance to win (Niagara Purple Eagles 47%).",
+    "Niagara Purple Eagles: 0-4, 0-3 on the road, 58.5 pts/game, top: Logan Woods 12.2 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 2
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "Saint Joseph's Hawks @ Drexel Dragons",
+   "pick": "Saint Joseph's Hawks",
+   "opp": "Drexel Dragons",
+   "start": "2026-11-21T00:00:00+00:00",
+   "book": "FanDuel",
+   "odds": 1.6,
+   "prob": 0.6159,
+   "edge": -0.0145,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.25,
+   "stake": 1.25,
+   "to_win": 0.75,
+   "tier": null,
+   "fair_odds": 1.62,
+   "why": [
+    "Sharp books give Saint Joseph's Hawks a 62% chance to win (Drexel Dragons 38%).",
+    "Saint Joseph's Hawks: 5-0, 0-0 on the road, 79.8 pts/game, top: Khaafiq Myers 20.6 PPG.",
+    "Drexel Dragons: 2-2, 1-1 at home, 66.8 pts/game, top: Latief Lorenzano-White 13.0 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 2
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "Georgia St Panthers @ Jacksonville St Gamecocks",
+   "pick": "Jacksonville St Gamecocks",
+   "opp": "Georgia St Panthers",
+   "start": "2026-11-21T00:00:00+00:00",
+   "book": "FanDuel",
+   "odds": 1.88,
+   "prob": 0.5234,
+   "edge": -0.0161,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.0,
+   "stake": 0.0,
+   "to_win": 0.0,
+   "tier": null,
+   "fair_odds": 1.91,
+   "why": [
+    "Sharp books give Jacksonville St Gamecocks a 52% chance to win (Georgia St Panthers 48%)."
+   ],
+   "injuries": [],
+   "n_sharp": 2
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "Harvard Crimson @ Holy Cross Crusaders",
+   "pick": "Harvard Crimson",
+   "opp": "Holy Cross Crusaders",
+   "start": "2026-11-21T00:00:00+00:00",
+   "book": "DraftKings",
+   "odds": 1.11,
+   "prob": 0.8912,
+   "edge": -0.0108,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.25,
+   "stake": 1.25,
+   "to_win": 0.14,
+   "tier": null,
+   "fair_odds": 1.12,
+   "why": [
+    "Sharp books give Harvard Crimson a 89% chance to win.",
+    "Harvard Crimson: 2-4, 1-3 on the road, 66.0 pts/game, top: Thomas Batties II 14.3 PPG.",
+    "Holy Cross Crusaders: 0-5, 0-3 at home, 63.0 pts/game, top: Tristen Wilson 12.8 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 2
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "UMKC Kangaroos @ Iona Gaels",
+   "pick": "Iona Gaels",
+   "opp": "UMKC Kangaroos",
+   "start": "2026-11-21T00:00:00+00:00",
+   "book": "FanDuel",
+   "odds": 1.55,
+   "prob": 0.6345,
+   "edge": -0.0166,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.25,
+   "stake": 1.25,
+   "to_win": 0.69,
+   "tier": null,
+   "fair_odds": 1.58,
+   "why": [
+    "Sharp books give Iona Gaels a 63% chance to win (UMKC Kangaroos 36%).",
+    "Iona Gaels: 2-4, 2-0 at home, 65.2 pts/game, top: Kevon Vanderhorst 12.7 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 2
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "SE Louisiana Lions @ Kennesaw St Owls",
+   "pick": "Kennesaw St Owls",
+   "opp": "SE Louisiana Lions",
+   "start": "2026-11-21T00:00:00+00:00",
+   "book": "DraftKings",
+   "odds": 1.15,
+   "prob": 0.8659,
+   "edge": -0.0042,
+   "value": "fair",
+   "value_txt": "Fair price",
+   "units": 0.5,
+   "stake": 2.5,
+   "to_win": 0.37,
+   "tier": null,
+   "fair_odds": 1.15,
+   "why": [
+    "Sharp books give Kennesaw St Owls a 87% chance to win.",
+    "SE Louisiana Lions: 1-3, 1-3 on the road, 65.5 pts/game, top: Tyler Rolison 14.0 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 2
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "Monmouth Hawks @ Princeton Tigers",
+   "pick": "Princeton Tigers",
+   "opp": "Monmouth Hawks",
+   "start": "2026-11-21T00:00:00+00:00",
+   "book": "theScore Bet",
+   "odds": 1.59,
+   "prob": 0.6218,
+   "edge": -0.0113,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.25,
+   "stake": 1.25,
+   "to_win": 0.74,
+   "tier": null,
+   "fair_odds": 1.61,
+   "why": [
+    "Sharp books give Princeton Tigers a 62% chance to win (Monmouth Hawks 38%).",
+    "Princeton Tigers: 3-2, 3-0 at home, 69.4 pts/game, top: Jackson Hicke 16.6 PPG.",
+    "Monmouth Hawks: 1-3, 1-2 on the road, 69.8 pts/game, top: Stefanos Spartalis 14.0 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 2
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "Western Michigan Broncos @ Mt. St. Mary's Mountaineers",
+   "pick": "Western Michigan Broncos",
+   "opp": "Mt. St. Mary's Mountaineers",
+   "start": "2026-11-21T00:00:00+00:00",
+   "book": "FanDuel",
+   "odds": 1.32,
+   "prob": 0.7592,
+   "edge": 0.0022,
+   "value": "fair",
+   "value_txt": "Fair price",
+   "units": 0.5,
+   "stake": 2.5,
+   "to_win": 0.8,
+   "tier": null,
+   "fair_odds": 1.32,
+   "why": [
+    "Sharp books give Western Michigan Broncos a 76% chance to win (Mt. St. Mary's Mountaineers 22%).",
+    "Western Michigan Broncos: 4-1, 2-1 on the road, 79.2 pts/game, top: Augustinas Kiudulas 12.8 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 2
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "Murray St Racers @ Wisconsin Badgers",
+   "pick": "Wisconsin Badgers",
+   "opp": "Murray St Racers",
+   "start": "2026-11-21T00:00:00+00:00",
+   "book": "theScore Bet",
+   "odds": 1.59,
+   "prob": 0.6116,
+   "edge": -0.0276,
+   "value": "over",
+   "value_txt": "Overpriced: the book is charging a lot here",
+   "units": 0.0,
+   "stake": 0.0,
+   "to_win": 0.0,
+   "tier": null,
+   "fair_odds": 1.64,
+   "why": [
+    "Sharp books give Wisconsin Badgers a 61% chance to win (Murray St Racers 39%).",
+    "Wisconsin Badgers: 4-1, 0-0 on the road, 79.0 pts/game, top: Owen Foxwell 16.8 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 2
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "Oakland Golden Grizzlies @ Purdue Boilermakers",
+   "pick": "Purdue Boilermakers",
+   "opp": "Oakland Golden Grizzlies",
+   "start": "2026-11-21T00:00:00+00:00",
+   "book": "FanDuel",
+   "odds": 1.02,
+   "prob": 0.9857,
+   "edge": 0.0054,
+   "value": "fair",
+   "value_txt": "Fair price",
+   "units": 0.5,
+   "stake": 2.5,
+   "to_win": 0.05,
+   "tier": null,
+   "fair_odds": 1.01,
+   "why": [
+    "Sharp books give Purdue Boilermakers a 99% chance to win.",
+    "Purdue Boilermakers: 3-2, 3-1 at home, 80.6 pts/game, top: Daniel Jacobsen 19.6 PPG.",
+    "Oakland Golden Grizzlies: 1-6, 0-6 on the road, 70.0 pts/game, top: Chris Fields Jr. 17.9 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 1
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "Western Kentucky Hilltoppers @ Richmond Spiders",
+   "pick": "Richmond Spiders",
+   "opp": "Western Kentucky Hilltoppers",
+   "start": "2026-11-21T00:00:00+00:00",
+   "book": "FanDuel",
+   "odds": 1.9,
+   "prob": 0.5,
+   "edge": -0.05,
+   "value": "over",
+   "value_txt": "Overpriced: the book is charging a lot here",
+   "units": 0.0,
+   "stake": 0.0,
+   "to_win": 0.0,
+   "tier": null,
+   "fair_odds": 2.0,
+   "why": [
+    "Sharp books give Richmond Spiders a 50% chance to win (Western Kentucky Hilltoppers 50%).",
+    "Richmond Spiders: 3-2, 0-2 on the road, 84.8 pts/game, top: Dominick Stewart 17.8 PPG.",
+    "Western Kentucky Hilltoppers: 3-2, 3-0 at home, 80.2 pts/game, top: Teagan Moore 19.2 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 2
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "South Carolina St Bulldogs @ The Citadel Bulldogs",
+   "pick": "The Citadel Bulldogs",
+   "opp": "South Carolina St Bulldogs",
+   "start": "2026-11-21T00:00:00+00:00",
+   "book": "FanDuel",
+   "odds": 1.67,
+   "prob": 0.6064,
+   "edge": 0.0126,
+   "value": "fair",
+   "value_txt": "Fair price",
+   "units": 0.5,
+   "stake": 2.5,
+   "to_win": 1.67,
+   "tier": "lean",
+   "fair_odds": 1.65,
+   "why": [
+    "Sharp books give The Citadel Bulldogs a 61% chance to win (South Carolina St Bulldogs 39%).",
+    "The Citadel Bulldogs: 3-2, 2-0 at home, 82.2 pts/game, top: Tyler Mrus 13.8 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 2
+  },
+  {
+   "sport": "NBA",
+   "event": "Charlotte Hornets @ Atlanta Hawks",
+   "pick": "Atlanta Hawks",
+   "opp": "Charlotte Hornets",
+   "start": "2026-11-21T00:10:00+00:00",
+   "book": "DraftKings",
+   "odds": 1.4,
+   "prob": 0.6946,
+   "edge": -0.0276,
+   "value": "over",
+   "value_txt": "Overpriced: the book is charging a lot here",
+   "units": 0.0,
+   "stake": 0.0,
+   "to_win": 0.0,
+   "tier": null,
+   "fair_odds": 1.44,
+   "why": [
+    "Sharp books give Atlanta Hawks a 69% chance to win (Charlotte Hornets 29%).",
+    "Atlanta Hawks: 9-6, 3-3 at home, 117.7 pts/game, top: Nickeil Alexander-Walker 21.2 PPG.",
+    "Charlotte Hornets: 4-10, 1-6 on the road, 100.1 pts/game, top: Brandon Miller 19.9 PPG."
+   ],
+   "injuries": [
+    {
+     "team": "Atlanta Hawks",
+     "list": [
+      "Jock Landale (C, Out)",
+      "Kingston Flemings (G, day-to-day)",
+      "Asa Newell (F, Out)",
+      "CJ McCollum (G, Out)"
+     ]
+    },
+    {
+     "team": "Charlotte Hornets",
+     "list": [
+      "Grant Williams (F, Out)",
+      "Grayson Allen (G, Out)",
+      "Kon Knueppel (G, Out)",
+      "Dennis Schroder (G, Out)"
+     ]
+    }
+   ],
+   "n_sharp": 4
+  },
+  {
+   "sport": "COLLEGE FOOTBALL",
+   "event": "Bowling Green Falcons @ Toledo Rockets",
+   "pick": "Toledo Rockets",
+   "opp": "Bowling Green Falcons",
+   "start": "2026-11-21T00:30:00+00:00",
+   "book": "DraftKings",
+   "odds": 1.13,
+   "prob": 0.8739,
+   "edge": -0.0125,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.25,
+   "stake": 1.25,
+   "to_win": 0.16,
+   "tier": null,
+   "fair_odds": 1.14,
+   "why": [
+    "Sharp books give Toledo Rockets a 87% chance to win.",
+    "Toledo Rockets: 8-2, 5-1 at home.",
+    "Bowling Green Falcons: 3-7, 1-4 on the road."
+   ],
+   "injuries": [],
+   "n_sharp": 3
+  },
+  {
+   "sport": "COLLEGE FOOTBALL",
+   "event": "Clemson Tigers @ Duke Blue Devils",
+   "pick": "Duke Blue Devils",
+   "opp": "Clemson Tigers",
+   "start": "2026-11-21T00:30:00+00:00",
+   "book": "DraftKings",
+   "odds": 1.19,
+   "prob": 0.817,
+   "edge": -0.0278,
+   "value": "over",
+   "value_txt": "Overpriced: the book is charging a lot here",
+   "units": 0.0,
+   "stake": 0.0,
+   "to_win": 0.0,
+   "tier": null,
+   "fair_odds": 1.22,
+   "why": [
+    "Sharp books give Duke Blue Devils a 82% chance to win (Clemson Tigers 16%).",
+    "Duke Blue Devils: 7-3, 4-1 at home.",
+    "Clemson Tigers: 6-4, 3-1 on the road."
+   ],
+   "injuries": [],
+   "n_sharp": 4
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "Iowa Hawkeyes @ Xavier Musketeers",
+   "pick": "Xavier Musketeers",
+   "opp": "Iowa Hawkeyes",
+   "start": "2026-11-21T00:30:00+00:00",
+   "book": "theScore Bet",
+   "odds": 1.65,
+   "prob": 0.6042,
+   "edge": -0.0031,
+   "value": "fair",
+   "value_txt": "Fair price",
+   "units": 0.5,
+   "stake": 2.5,
+   "to_win": 1.62,
+   "tier": null,
+   "fair_odds": 1.66,
+   "why": [
+    "Sharp books give Xavier Musketeers a 60% chance to win (Iowa Hawkeyes 40%).",
+    "Xavier Musketeers: 5-0, 4-0 at home, 85.8 pts/game, top: Tru Washington 12.4 PPG.",
+    "Iowa Hawkeyes: 2-2, 0-0 on the road, 81.0 pts/game, top: Cooper Koch 14.2 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 3
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "Tulsa Golden Hurricane @ Mississippi St Bulldogs",
+   "pick": "Mississippi St Bulldogs",
+   "opp": "Tulsa Golden Hurricane",
+   "start": "2026-11-21T00:30:00+00:00",
+   "book": "theScore Bet",
+   "odds": 1.33,
+   "prob": 0.7468,
+   "edge": -0.0067,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.25,
+   "stake": 1.25,
+   "to_win": 0.41,
+   "tier": null,
+   "fair_odds": 1.34,
+   "why": [
+    "Sharp books give Mississippi St Bulldogs a 75% chance to win (Tulsa Golden Hurricane 24%).",
+    "Tulsa Golden Hurricane: 4-0, 0-0 on the road, 84.8 pts/game, top: Jaylen Lawal 17.8 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 2
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "UT-Arlington Mavericks @ Northwestern St Demons",
+   "pick": "UT-Arlington Mavericks",
+   "opp": "Northwestern St Demons",
+   "start": "2026-11-21T00:30:00+00:00",
+   "book": "theScore Bet",
+   "odds": 1.61,
+   "prob": 0.6131,
+   "edge": -0.0129,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.25,
+   "stake": 1.25,
+   "to_win": 0.76,
+   "tier": null,
+   "fair_odds": 1.63,
+   "why": [
+    "Sharp books give UT-Arlington Mavericks a 61% chance to win (Northwestern St Demons 39%).",
+    "UT-Arlington Mavericks: 5-1, 1-1 on the road, 87.3 pts/game, top: Tristan Hankins 13.8 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 2
+  },
+  {
+   "sport": "NBA",
+   "event": "Orlando Magic @ Brooklyn Nets",
+   "pick": "Orlando Magic",
+   "opp": "Brooklyn Nets",
+   "start": "2026-11-21T00:40:00+00:00",
+   "book": "FanDuel",
+   "odds": 1.4,
+   "prob": 0.7012,
+   "edge": -0.0183,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.25,
+   "stake": 1.25,
+   "to_win": 0.5,
+   "tier": null,
+   "fair_odds": 1.43,
+   "why": [
+    "Sharp books give Orlando Magic a 70% chance to win (Brooklyn Nets 29%).",
+    "Orlando Magic: 6-8, 5-3 on the road, 109.4 pts/game, top: Franz Wagner 24.4 PPG.",
+    "Brooklyn Nets: 3-11, 1-5 at home, 110.9 pts/game, top: Julius Randle 20.6 PPG."
+   ],
+   "injuries": [
+    {
+     "team": "Orlando Magic",
+     "list": [
+      "Izaiyah Nelson (F, Out)",
+      "Jonathan Isaac (F, Out)",
+      "Noah Penda (F, Out)",
+      "Paolo Banchero (F, Out)"
+     ]
+    },
+    {
+     "team": "Brooklyn Nets",
+     "list": [
+      "Grant Nelson (F, Out)"
+     ]
+    }
+   ],
+   "n_sharp": 4
+  },
+  {
+   "sport": "NBA",
+   "event": "Indiana Pacers @ Cleveland Cavaliers",
+   "pick": "Cleveland Cavaliers",
+   "opp": "Indiana Pacers",
+   "start": "2026-11-21T00:40:00+00:00",
+   "book": "FanDuel",
+   "odds": 1.45,
+   "prob": 0.677,
+   "edge": -0.0183,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.25,
+   "stake": 1.25,
+   "to_win": 0.56,
+   "tier": null,
+   "fair_odds": 1.48,
+   "why": [
+    "Sharp books give Cleveland Cavaliers a 68% chance to win (Indiana Pacers 32%).",
+    "Cleveland Cavaliers: 8-8, 6-3 at home, 118.3 pts/game, top: Donovan Mitchell 24.8 PPG.",
+    "Indiana Pacers: 5-10, 3-4 on the road, 111.5 pts/game, top: Pascal Siakam 23.1 PPG."
+   ],
+   "injuries": [
+    {
+     "team": "Cleveland Cavaliers",
+     "list": [
+      "Jaylon Tyson (G, Out)",
+      "Peyton Watson (G, day-to-day)",
+      "Nae'Qwan Tomlin (F, Out)",
+      "Evan Mobley (C, Out)"
+     ]
+    },
+    {
+     "team": "Indiana Pacers",
+     "list": [
+      "T.J. McConnell (G, day-to-day)",
+      "Andrew Nembhard (G, day-to-day)",
+      "Braden Smith (G, day-to-day)",
+      "Tyrese Haliburton (G, Out)"
+     ]
+    }
+   ],
+   "n_sharp": 4
+  },
+  {
+   "sport": "NBA",
+   "event": "Toronto Raptors @ Detroit Pistons",
+   "pick": "Detroit Pistons",
+   "opp": "Toronto Raptors",
+   "start": "2026-11-21T00:40:00+00:00",
+   "book": "DraftKings",
+   "odds": 1.38,
+   "prob": 0.7106,
+   "edge": -0.0194,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.25,
+   "stake": 1.25,
+   "to_win": 0.47,
+   "tier": null,
+   "fair_odds": 1.41,
+   "why": [
+    "Sharp books give Detroit Pistons a 71% chance to win (Toronto Raptors 28%).",
+    "Detroit Pistons: 10-4, 3-2 at home, 115.4 pts/game, top: Cade Cunningham 25.8 PPG.",
+    "Toronto Raptors: 5-10, 3-4 on the road, 112.0 pts/game, top: Scottie Barnes 23.8 PPG."
+   ],
+   "injuries": [
+    {
+     "team": "Detroit Pistons",
+     "list": [
+      "Ronald Holland II (F, day-to-day)",
+      "Taurean Prince (F, Out)",
+      "Ebuka Okorie (G, Out)",
+      "Cade Cunningham (G, day-to-day)"
+     ]
+    },
+    {
+     "team": "Toronto Raptors",
+     "list": [
+      "Collin Murray-Boyles (F, Out)",
+      "RJ Barrett (F, Out)",
+      "Kawhi Leonard (F, Out)",
+      "Nate Bittle (C, Out)"
+     ]
+    }
+   ],
+   "n_sharp": 4
+  },
+  {
+   "sport": "COLLEGE FOOTBALL",
+   "event": "UTEP Miners @ Air Force Falcons",
+   "pick": "Air Force Falcons",
+   "opp": "UTEP Miners",
+   "start": "2026-11-21T01:00:00+00:00",
+   "book": "DraftKings",
+   "odds": 1.05,
+   "prob": 0.9366,
+   "edge": -0.0166,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.25,
+   "stake": 1.25,
+   "to_win": 0.06,
+   "tier": null,
+   "fair_odds": 1.07,
+   "why": [
+    "Sharp books give Air Force Falcons a 94% chance to win.",
+    "Air Force Falcons: 8-2, 5-1 at home.",
+    "UTEP Miners: 1-9, 0-4 on the road."
+   ],
+   "injuries": [],
+   "n_sharp": 4
+  },
+  {
+   "sport": "COLLEGE FOOTBALL",
+   "event": "Oregon Ducks @ Michigan State Spartans",
+   "pick": "Oregon Ducks",
+   "opp": "Michigan State Spartans",
+   "start": "2026-11-21T01:00:00+00:00",
+   "book": "DraftKings",
+   "odds": 1.11,
+   "prob": 0.8948,
+   "edge": -0.0068,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.25,
+   "stake": 1.25,
+   "to_win": 0.14,
+   "tier": null,
+   "fair_odds": 1.12,
+   "why": [
+    "Sharp books give Oregon Ducks a 89% chance to win.",
+    "Oregon Ducks: 7-3, 2-2 on the road.",
+    "Michigan State Spartans: 3-7, 2-4 at home."
+   ],
+   "injuries": [],
+   "n_sharp": 4
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "Lipscomb Bisons @ Alabama A&M Bulldogs",
+   "pick": "Lipscomb Bisons",
+   "opp": "Alabama A&M Bulldogs",
+   "start": "2026-11-21T01:00:00+00:00",
+   "book": "FanDuel",
+   "odds": 1.48,
+   "prob": 0.6616,
+   "edge": -0.0208,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.25,
+   "stake": 1.25,
+   "to_win": 0.6,
+   "tier": null,
+   "fair_odds": 1.51,
+   "why": [
+    "Sharp books give Lipscomb Bisons a 66% chance to win (Alabama A&M Bulldogs 33%).",
+    "Lipscomb Bisons: 3-3, 1-3 on the road, 75.3 pts/game, top: Takai Simpkins 17.8 PPG.",
+    "Alabama A&M Bulldogs: 3-2, 3-1 at home, 79.6 pts/game, top: Sami Pissis 13.8 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 2
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "Campbell Fighting Camels @ Kansas St Wildcats",
+   "pick": "Kansas St Wildcats",
+   "opp": "Campbell Fighting Camels",
+   "start": "2026-11-21T01:00:00+00:00",
+   "book": "FanDuel",
+   "odds": 1.05,
+   "prob": 0.9489,
+   "edge": -0.0037,
+   "value": "fair",
+   "value_txt": "Fair price",
+   "units": 0.5,
+   "stake": 2.5,
+   "to_win": 0.13,
+   "tier": null,
+   "fair_odds": 1.05,
+   "why": [
+    "Sharp books give Kansas St Wildcats a 95% chance to win.",
+    "Campbell Fighting Camels: 1-4, 0-4 on the road, 71.8 pts/game, top: Rashawn Inglemon 20.4 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 2
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "East Carolina Pirates @ Utah Valley Wolverines",
+   "pick": "Utah Valley Wolverines",
+   "opp": "East Carolina Pirates",
+   "start": "2026-11-21T01:00:00+00:00",
+   "book": "theScore Bet",
+   "odds": 1.59,
+   "prob": 0.6131,
+   "edge": -0.0251,
+   "value": "over",
+   "value_txt": "Overpriced: the book is charging a lot here",
+   "units": 0.0,
+   "stake": 0.0,
+   "to_win": 0.0,
+   "tier": null,
+   "fair_odds": 1.63,
+   "why": [
+    "Sharp books give Utah Valley Wolverines a 61% chance to win (East Carolina Pirates 39%).",
+    "Utah Valley Wolverines: 3-0, 2-0 on the road, 86.0 pts/game, top: Dominick Nelson 16.0 PPG.",
+    "East Carolina Pirates: 3-1, 3-1 at home, 75.5 pts/game, top: Trevor Best 15.2 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 3
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "Georgia Bulldogs @ Georgia Tech Yellow Jackets",
+   "pick": "Georgia Bulldogs",
+   "opp": "Georgia Tech Yellow Jackets",
+   "start": "2026-11-21T01:00:00+00:00",
+   "book": "FanDuel",
+   "odds": 1.29,
+   "prob": 0.776,
+   "edge": 0.0011,
+   "value": "fair",
+   "value_txt": "Fair price",
+   "units": 0.5,
+   "stake": 2.5,
+   "to_win": 0.73,
+   "tier": null,
+   "fair_odds": 1.29,
+   "why": [
+    "Sharp books give Georgia Bulldogs a 78% chance to win (Georgia Tech Yellow Jackets 20%).",
+    "Georgia Bulldogs: 5-0, 1-0 on the road, 86.8 pts/game, top: Blue Cain 15.8 PPG.",
+    "Georgia Tech Yellow Jackets: 5-0, 5-0 at home, 84.6 pts/game, top: Tylis Jordan 17.0 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 3
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "Kentucky Wildcats @ Indiana Hoosiers",
+   "pick": "Indiana Hoosiers",
+   "opp": "Kentucky Wildcats",
+   "start": "2026-11-21T01:00:00+00:00",
+   "book": "FanDuel",
+   "odds": 1.66,
+   "prob": 0.6047,
+   "edge": 0.0039,
+   "value": "fair",
+   "value_txt": "Fair price",
+   "units": 0.5,
+   "stake": 2.5,
+   "to_win": 1.65,
+   "tier": "lean",
+   "fair_odds": 1.65,
+   "why": [
+    "Sharp books give Indiana Hoosiers a 60% chance to win (Kentucky Wildcats 40%).",
+    "Indiana Hoosiers: 5-0, 3-0 at home, 87.4 pts/game, top: Darren Harris 14.4 PPG.",
+    "Kentucky Wildcats: 4-1, 0-0 on the road, 81.8 pts/game, top: Zoom Diallo 14.2 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 3
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "South Alabama Jaguars @ SMU Mustangs",
+   "pick": "SMU Mustangs",
+   "opp": "South Alabama Jaguars",
+   "start": "2026-11-21T01:00:00+00:00",
+   "book": "DraftKings",
+   "odds": 1.06,
+   "prob": 0.9368,
+   "edge": -0.007,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.25,
+   "stake": 1.25,
+   "to_win": 0.08,
+   "tier": null,
+   "fair_odds": 1.07,
+   "why": [
+    "Sharp books give SMU Mustangs a 94% chance to win.",
+    "SMU Mustangs: 5-0, 5-0 at home, 88.8 pts/game, top: Oziyah Sellers 15.8 PPG.",
+    "South Alabama Jaguars: 3-3, 0-2 on the road, 82.5 pts/game, top: Jalen Langsy 19.5 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 2
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "UCF Knights @ Vanderbilt Commodores",
+   "pick": "Vanderbilt Commodores",
+   "opp": "UCF Knights",
+   "start": "2026-11-21T01:00:00+00:00",
+   "book": "FanDuel",
+   "odds": 1.04,
+   "prob": 0.9385,
+   "edge": -0.024,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.25,
+   "stake": 1.25,
+   "to_win": 0.05,
+   "tier": null,
+   "fair_odds": 1.07,
+   "why": [
+    "Sharp books give Vanderbilt Commodores a 94% chance to win.",
+    "Vanderbilt Commodores: 5-0, 5-0 at home, 91.4 pts/game, top: Tyler Tanner 17.8 PPG.",
+    "UCF Knights: 4-1, 0-0 on the road, 85.2 pts/game, top: Dior Johnson 28.8 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 2
+  },
+  {
+   "sport": "NBA",
+   "event": "Washington Wizards @ Chicago Bulls",
+   "pick": "Chicago Bulls",
+   "opp": "Washington Wizards",
+   "start": "2026-11-21T01:10:00+00:00",
+   "book": "FanDuel",
+   "odds": 1.77,
+   "prob": 0.5572,
+   "edge": -0.0138,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.25,
+   "stake": 1.25,
+   "to_win": 0.96,
+   "tier": null,
+   "fair_odds": 1.79,
+   "why": [
+    "Sharp books give Chicago Bulls a 56% chance to win (Washington Wizards 44%).",
+    "Chicago Bulls: 4-10, 1-4 at home, 116.2 pts/game, top: Norman Powell 21.2 PPG.",
+    "Washington Wizards: 5-11, 3-6 on the road, 110.8 pts/game, top: Anthony Davis 24.6 PPG."
+   ],
+   "injuries": [
+    {
+     "team": "Chicago Bulls",
+     "list": [
+      "Jalen Smith (F, day-to-day)",
+      "Noa Essengue (F, day-to-day)",
+      "Tobe Awaka (F, Out)",
+      "Caleb Wilson (F, Out)"
+     ]
+    },
+    {
+     "team": "Washington Wizards",
+     "list": [
+      "Felix Okpara (F, day-to-day)",
+      "Tristan Vukcevic (F, Out)",
+      "Reece Beekman (G, Out)",
+      "Justin Champagnie (F, Out)"
+     ]
+    }
+   ],
+   "n_sharp": 4
+  },
+  {
+   "sport": "NBA",
+   "event": "New Orleans Pelicans @ Oklahoma City Thunder",
+   "pick": "Oklahoma City Thunder",
+   "opp": "New Orleans Pelicans",
+   "start": "2026-11-21T01:10:00+00:00",
+   "book": "FanDuel",
+   "odds": 1.17,
+   "prob": 0.8387,
+   "edge": -0.0187,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.25,
+   "stake": 1.25,
+   "to_win": 0.21,
+   "tier": null,
+   "fair_odds": 1.19,
+   "why": [
+    "Sharp books give Oklahoma City Thunder a 84% chance to win (New Orleans Pelicans 14%).",
+    "Oklahoma City Thunder: 9-6, 5-1 at home, 112.1 pts/game, top: Shai Gilgeous-Alexander 31.1 PPG.",
+    "New Orleans Pelicans: 5-11, 1-4 on the road, 115.4 pts/game, top: Zion Williamson 21.7 PPG."
+   ],
+   "injuries": [
+    {
+     "team": "Oklahoma City Thunder",
+     "list": [
+      "Nikola Topic (G, Out)",
+      "Alex Caruso (G, day-to-day)",
+      "Thomas Sorber (C, Out)",
+      "Cason Wallace (G, Out)"
+     ]
+    },
+    {
+     "team": "New Orleans Pelicans",
+     "list": [
+      "Bryce McGowens (G, Out)",
+      "Trendon Watford (F, Out)",
+      "Bennedict Mathurin (G, Out)",
+      "Trey Murphy III (F, Out)"
+     ]
+    }
+   ],
+   "n_sharp": 4
+  },
+  {
+   "sport": "COLLEGE FOOTBALL",
+   "event": "New Mexico Lobos @ Wyoming Cowboys",
+   "pick": "New Mexico Lobos",
+   "opp": "Wyoming Cowboys",
+   "start": "2026-11-21T02:00:00+00:00",
+   "book": "DraftKings",
+   "odds": 1.28,
+   "prob": 0.764,
+   "edge": -0.022,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.25,
+   "stake": 1.25,
+   "to_win": 0.35,
+   "tier": null,
+   "fair_odds": 1.31,
+   "why": [
+    "Sharp books give New Mexico Lobos a 76% chance to win (Wyoming Cowboys 22%).",
+    "New Mexico Lobos: 8-2, 4-1 on the road.",
+    "Wyoming Cowboys: 7-3, 4-0 at home."
+   ],
+   "injuries": [],
+   "n_sharp": 4
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "Sam Houston St Bearkats @ Boise State Broncos",
+   "pick": "Boise State Broncos",
+   "opp": "Sam Houston St Bearkats",
+   "start": "2026-11-21T02:00:00+00:00",
+   "book": "DraftKings",
+   "odds": 1.12,
+   "prob": 0.8838,
+   "edge": -0.0102,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.25,
+   "stake": 1.25,
+   "to_win": 0.15,
+   "tier": null,
+   "fair_odds": 1.13,
+   "why": [
+    "Sharp books give Boise State Broncos a 88% chance to win.",
+    "Boise State Broncos: 3-1, 3-0 at home, 104.5 pts/game, top: Aginaldo Neto 19.2 PPG.",
+    "Sam Houston St Bearkats: 2-3, 0-3 on the road, 85.2 pts/game, top: Jacobe Coleman 15.4 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 2
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "CSU Bakersfield Roadrunners @ Idaho Vandals",
+   "pick": "Idaho Vandals",
+   "opp": "CSU Bakersfield Roadrunners",
+   "start": "2026-11-21T02:00:00+00:00",
+   "book": "DraftKings",
+   "odds": 1.77,
+   "prob": 0.5469,
+   "edge": -0.032,
+   "value": "over",
+   "value_txt": "Overpriced: the book is charging a lot here",
+   "units": 0.0,
+   "stake": 0.0,
+   "to_win": 0.0,
+   "tier": null,
+   "fair_odds": 1.83,
+   "why": [
+    "Sharp books give Idaho Vandals a 55% chance to win (CSU Bakersfield Roadrunners 45%).",
+    "Idaho Vandals: 2-3, 2-1 at home, 84.0 pts/game, top: Kase Wynott 17.2 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 2
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "Marshall Thundering Herd @ North Carolina Tar Heels",
+   "pick": "North Carolina Tar Heels",
+   "opp": "Marshall Thundering Herd",
+   "start": "2026-11-21T02:00:00+00:00",
+   "book": "FanDuel",
+   "odds": 1.03,
+   "prob": 0.9854,
+   "edge": 0.015,
+   "value": "fair",
+   "value_txt": "Fair price",
+   "units": 0.5,
+   "stake": 2.5,
+   "to_win": 0.08,
+   "tier": null,
+   "fair_odds": 1.01,
+   "why": [
+    "Sharp books give North Carolina Tar Heels a 99% chance to win.",
+    "North Carolina Tar Heels: 3-1, 3-1 at home, 83.8 pts/game, top: Terrence Brown 17.5 PPG.",
+    "Marshall Thundering Herd: 2-3, 0-2 on the road, 76.0 pts/game, top: Noah Otshudi 20.6 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 1
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "NC State Wolfpack @ Seton Hall Pirates",
+   "pick": "NC State Wolfpack",
+   "opp": "Seton Hall Pirates",
+   "start": "2026-11-21T02:30:00+00:00",
+   "book": "FanDuel",
+   "odds": 1.62,
+   "prob": 0.6051,
+   "edge": -0.0198,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.25,
+   "stake": 1.25,
+   "to_win": 0.78,
+   "tier": null,
+   "fair_odds": 1.65,
+   "why": [
+    "Sharp books give NC State Wolfpack a 61% chance to win (Seton Hall Pirates 39%).",
+    "NC State Wolfpack: 5-0, 4-0 at home, 85.6 pts/game, top: Paul McNeil Jr. 17.6 PPG.",
+    "Seton Hall Pirates: 4-1, 0-1 on the road, 70.2 pts/game, top: Roddie Anderson 12.0 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 2
+  },
+  {
+   "sport": "NBA",
+   "event": "Phoenix Suns @ Utah Jazz",
+   "pick": "Phoenix Suns",
+   "opp": "Utah Jazz",
+   "start": "2026-11-21T02:40:00+00:00",
+   "book": "FanDuel",
+   "odds": 1.54,
+   "prob": 0.6313,
+   "edge": -0.0278,
+   "value": "over",
+   "value_txt": "Overpriced: the book is charging a lot here",
+   "units": 0.0,
+   "stake": 0.0,
+   "to_win": 0.0,
+   "tier": null,
+   "fair_odds": 1.58,
+   "why": [
+    "Sharp books give Phoenix Suns a 63% chance to win (Utah Jazz 37%).",
+    "Phoenix Suns: 7-7, 2-3 on the road, 114.1 pts/game, top: Devin Booker 24.8 PPG.",
+    "Utah Jazz: 3-13, 1-7 at home, 108.8 pts/game, top: Keyonte George 21.6 PPG."
+   ],
+   "injuries": [
+    {
+     "team": "Phoenix Suns",
+     "list": [
+      "Mark Williams (C, Out)"
+     ]
+    },
+    {
+     "team": "Utah Jazz",
+     "list": [
+      "Jusuf Nurkic (C, Out)",
+      "Lauri Markkanen (F, Out)",
+      "Jaren Jackson Jr. (F, Out)"
+     ]
+    }
+   ],
+   "n_sharp": 4
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "Alabama St Hornets @ Fresno St Bulldogs",
+   "pick": "Fresno St Bulldogs",
+   "opp": "Alabama St Hornets",
+   "start": "2026-11-21T03:00:00+00:00",
+   "book": "FanDuel",
+   "odds": 1.27,
+   "prob": 0.8037,
+   "edge": 0.0207,
+   "value": "value",
+   "value_txt": "Good price: pays more than its real chance",
+   "units": 1.0,
+   "stake": 5.0,
+   "to_win": 1.35,
+   "tier": null,
+   "fair_odds": 1.24,
+   "why": [
+    "Sharp books give Fresno St Bulldogs a 80% chance to win (Alabama St Hornets 17%)."
+   ],
+   "injuries": [],
+   "n_sharp": 2
+  },
+  {
+   "sport": "NBA",
+   "event": "Houston Rockets @ Denver Nuggets",
+   "pick": "Denver Nuggets",
+   "opp": "Houston Rockets",
+   "start": "2026-11-21T03:10:00+00:00",
+   "book": "FanDuel",
+   "odds": 1.82,
+   "prob": 0.5367,
+   "edge": -0.0232,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.0,
+   "stake": 0.0,
+   "to_win": 0.0,
+   "tier": null,
+   "fair_odds": 1.86,
+   "why": [
+    "Sharp books give Denver Nuggets a 54% chance to win (Houston Rockets 46%).",
+    "Denver Nuggets: 8-5, 3-3 at home, 113.2 pts/game, top: Jamal Murray 25.7 PPG.",
+    "Houston Rockets: 12-4, 5-3 on the road, 117.9 pts/game, top: Alperen Sengun 21.6 PPG."
+   ],
+   "injuries": [
+    {
+     "team": "Denver Nuggets",
+     "list": [
+      "Julian Strawther (G, Out)"
+     ]
+    },
+    {
+     "team": "Houston Rockets",
+     "list": [
+      "Steven Adams (C, day-to-day)",
+      "Clint Capela (C, Out)",
+      "Alperen Sengun (C, day-to-day)"
+     ]
+    }
+   ],
+   "n_sharp": 4
+  },
+  {
+   "sport": "NBA",
+   "event": "Sacramento Kings @ Los Angeles Lakers",
+   "pick": "Los Angeles Lakers",
+   "opp": "Sacramento Kings",
+   "start": "2026-11-21T03:10:00+00:00",
+   "book": "FanDuel",
+   "odds": 1.11,
+   "prob": 0.8804,
+   "edge": -0.0227,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.25,
+   "stake": 1.25,
+   "to_win": 0.14,
+   "tier": null,
+   "fair_odds": 1.14,
+   "why": [
+    "Sharp books give Los Angeles Lakers a 88% chance to win.",
+    "Los Angeles Lakers: 13-3, 6-2 at home, 120.9 pts/game, top: Luka Doncic 38.1 PPG.",
+    "Sacramento Kings: 1-13, 0-9 at home, 107.7 pts/game, top: Darius Acuff Jr. 26.2 PPG."
+   ],
+   "injuries": [
+    {
+     "team": "Los Angeles Lakers",
+     "list": [
+      "Austin Reaves (G, Out)"
+     ]
+    },
+    {
+     "team": "Sacramento Kings",
+     "list": [
+      "Precious Achiuwa (F, day-to-day)",
+      "De'Andre Hunter (F, day-to-day)",
+      "Maxime Raynaud (C, Out)",
+      "Ben Simmons (G, Out)"
+     ]
+    }
+   ],
+   "n_sharp": 4
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "Saint Louis Billikens @ Saint Mary's Gaels",
+   "pick": "Saint Mary's Gaels",
+   "opp": "Saint Louis Billikens",
+   "start": "2026-11-21T04:00:00+00:00",
+   "book": "FanDuel",
+   "odds": 1.82,
+   "prob": 0.5341,
+   "edge": -0.028,
+   "value": "over",
+   "value_txt": "Overpriced: the book is charging a lot here",
+   "units": 0.0,
+   "stake": 0.0,
+   "to_win": 0.0,
+   "tier": null,
+   "fair_odds": 1.87,
+   "why": [
+    "Sharp books give Saint Mary's Gaels a 53% chance to win (Saint Louis Billikens 47%).",
+    "Saint Mary's Gaels: 4-1, 4-0 at home, 93.6 pts/game, top: Mantas Juzenas 19.8 PPG.",
+    "Saint Louis Billikens: 3-1, 0-0 on the road, 91.3 pts/game, top: Amari McCottry 13.8 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 3
+  }
+ ],
+ "big_parlays": [
+  {
+   "label": "Safest 4x+",
+   "book": "FanDuel",
+   "odds": 4.09,
+   "prob": 0.2425,
+   "ev": -0.0086,
+   "units": 0.5,
+   "stake": 2.5,
+   "to_win": 7.72,
+   "legs": [
+    {
+     "pick": "Fresno St Bulldogs",
+     "event": "Alabama St Hornets @ Fresno St Bulldogs",
+     "sport": "COLLEGE BASKETBALL",
+     "odds": 1.27,
+     "prob": 0.804,
+     "start": "2026-11-21T03:00:00+00:00"
+    },
+    {
+     "pick": "Georgia Bulldogs",
+     "event": "Georgia Bulldogs @ Georgia Tech Yellow Jackets",
+     "sport": "COLLEGE BASKETBALL",
+     "odds": 1.29,
+     "prob": 0.776,
+     "start": "2026-11-21T01:00:00+00:00"
+    },
+    {
+     "pick": "Western Michigan Broncos",
+     "event": "Western Michigan Broncos @ Mt. St. Mary's Mountaineers",
+     "sport": "COLLEGE BASKETBALL",
+     "odds": 1.32,
+     "prob": 0.759,
+     "start": "2026-11-21T00:00:00+00:00"
+    },
+    {
+     "pick": "Albany Great Danes",
+     "event": "Western Illinois Leathernecks @ Albany Great Danes",
+     "sport": "COLLEGE BASKETBALL",
+     "odds": 1.38,
+     "prob": 0.721,
+     "start": "2026-11-20T20:00:00+00:00"
+    },
+    {
+     "pick": "Detroit Pistons",
+     "event": "Toronto Raptors @ Detroit Pistons",
+     "sport": "NBA",
+     "odds": 1.37,
+     "prob": 0.711,
+     "start": "2026-11-21T00:40:00+00:00"
+    }
+   ]
+  },
+  {
+   "label": "Next safest 4x+",
+   "book": "FanDuel",
+   "odds": 4.02,
+   "prob": 0.2313,
+   "ev": -0.0703,
+   "units": 0.5,
+   "stake": 2.5,
+   "to_win": 7.55,
+   "legs": [
+    {
+     "pick": "CSU Northridge Matadors",
+     "event": "Delaware Blue Hens @ CSU Northridge Matadors",
+     "sport": "COLLEGE BASKETBALL",
+     "odds": 1.31,
+     "prob": 0.749,
+     "start": "2026-11-20T23:00:00+00:00"
+    },
+    {
+     "pick": "South Dakota St Jackrabbits",
+     "event": "South Dakota St Jackrabbits @ Idaho State Bengals",
+     "sport": "COLLEGE BASKETBALL",
+     "odds": 1.43,
+     "prob": 0.689,
+     "start": "2026-11-20T21:00:00+00:00"
+    },
+    {
+     "pick": "Cleveland Cavaliers",
+     "event": "Indiana Pacers @ Cleveland Cavaliers",
+     "sport": "NBA",
+     "odds": 1.45,
+     "prob": 0.677,
+     "start": "2026-11-21T00:40:00+00:00"
+    },
+    {
+     "pick": "Lipscomb Bisons",
+     "event": "Lipscomb Bisons @ Alabama A&M Bulldogs",
+     "sport": "COLLEGE BASKETBALL",
+     "odds": 1.48,
+     "prob": 0.662,
+     "start": "2026-11-21T01:00:00+00:00"
+    }
+   ]
+  }
+ ]
 }

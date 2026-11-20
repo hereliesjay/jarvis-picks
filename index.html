@@ -116,14 +116,24 @@ function render(){const G=window._G;if(!G)return;
     const n=t.id==='all'?total:G[t.id].picks.length+G[t.id].parlays.length;
     const b=el('button','tab'+(TAB===t.id?' on':''),t.name);b.append(el('span','n',n));b.onclick=()=>{TAB=t.id;render()};T.append(b)});
   const S=$('sections');S.replaceChildren();
-  SPORTS.filter(s=>TAB==='all'||TAB===s.id).forEach(s=>{const g=G[s.id];const n=g.picks.length+g.parlays.length;
+  if(TAB==='all'){
+    const all=[];SPORTS.forEach(s=>G[s.id].picks.forEach(p=>all.push(p)));
+    all.sort((a,b)=>(a.started-b.started)||((b.tier==='best')-(a.tier==='best'))||(b.edge-a.edge));
+    const sec=el('section','sec');const h=el('h3');h.append(el('span','ic','🔥'),'All picks today',el('span','c',all.length+' pick'+(all.length===1?'':'s')+' · best first'));sec.append(h);
+    if(!all.length)sec.append(el('div','card empty','No bets on the board right now. No edge = no bet — the bot checks again soon.'));
+    else{const w=el('div','picks');all.forEach(p=>w.append(pickCard(p)));sec.append(w)}
+    S.append(sec);
+    const pars=[];SPORTS.forEach(s=>G[s.id].parlays.forEach(p=>pars.push(p)));
+    if(pars.length){const ps=el('section','sec');const ph=el('h3');ph.append(el('span','ic','🎟️'),'Parlays');ps.append(ph);const w=el('div','picks');pars.forEach(p=>w.append(parlayCard(p)));ps.append(w);S.append(ps)}
+    return;
+  }
+  SPORTS.filter(s=>TAB===s.id).forEach(s=>{const g=G[s.id];const n=g.picks.length+g.parlays.length;
     if(TAB==='all'&&!n)return;
     const sec=el('section','sec');const h=el('h3');h.append(el('span','ic',s.ic),s.name,el('span','c',n?n+' bet'+(n>1?'s':''):''));sec.append(h);
     if(!n){sec.append(el('div','card empty','No '+s.name+' bets right now. No edge = no bet — the bot checks again soon.'))}
     const best=g.picks.filter(p=>p.tier==='best'),lean=g.picks.filter(p=>p.tier==='lean');
     [['Best bets',best,pickCard],['Leans · half unit, priced about fair',lean,pickCard],['Parlay',g.parlays,parlayCard]].forEach(([lab,arr,fn])=>{if(!arr.length)return;sec.append(el('div','sub',lab));const w=el('div','picks');arr.forEach(x=>w.append(fn(x)));sec.append(w)});
     S.append(sec)});
-  if(TAB==='all'&&!total)S.append(el('div','card empty','No bets on the board right now. No edge = no bet — the bot checks again soon.'));
 }
 async function load(){
   let f;try{const r=await fetch('picks.json?t='+Date.now(),{cache:'no-store'});f=await r.json()}catch(e){$('status').lastChild.textContent='No picks file yet — the bot will post one after its next scan.';return}

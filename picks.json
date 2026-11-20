@@ -1,6 +1,6 @@
 {
  "version": 18,
- "updated": "2026-11-20T03:12:00+00:00",
+ "updated": "2026-11-20T03:33:29+00:00",
  "last_scan": "2026-11-20T01:00:53+00:00",
  "unit": 5.0,
  "bankroll": 1004.05,
@@ -41,7 +41,7 @@
    "min_odds": 1.63,
    "start": "2026-11-20T01:00:00+00:00",
    "started": true,
-   "status": "open",
+   "status": "lost",
    "n_sharp": null
   },
   {
@@ -68,11 +68,11 @@
  "record": {
   "lean": {
    "won": 0,
-   "lost": 0,
+   "lost": 1,
    "push": 0,
-   "open": 3,
-   "units": 0.0,
-   "dollars": 0.0,
+   "open": 2,
+   "units": -0.5,
+   "dollars": -2.5,
    "clv": 0.0038,
    "clv_n": 3
   },
@@ -87,7 +87,18 @@
    "clv_n": 0
   }
  },
- "recent": [],
+ "recent": [
+  {
+   "tier": "lean",
+   "pick": "Houston Christian Huskies",
+   "event": "Georgia Southern Eagles @ Houston Christian Huskies",
+   "sport": "COLLEGE BASKETBALL",
+   "odds": 1.64,
+   "units": 0.5,
+   "status": "lost",
+   "start": "2026-11-20T01:00:00+00:00"
+  }
+ ],
  "rules": {
   "americanfootball": {
    "n": 26,
@@ -96,9 +107,9 @@
    "on": true
   },
   "basketball": {
-   "n": 44,
-   "roi": -0.008,
-   "clv": -0.0034,
+   "n": 46,
+   "roi": -0.0511,
+   "clv": -0.0021,
    "on": true
   },
   "tennis": {

@@ -1,10 +1,10 @@
 {
  "version": 18,
- "updated": "2026-11-20T00:30:11+00:00",
- "last_scan": "2026-11-20T00:15:07+00:00",
+ "updated": "2026-11-20T00:32:39+00:00",
+ "last_scan": "2026-11-20T00:31:38+00:00",
  "unit": 5.0,
  "bankroll": 1004.05,
- "credits": 489,
+ "credits": 488,
  "picks": [
   {
    "tier": "lean",
@@ -120,5 +120,5 @@
    "on": true
   }
  },
- "watching": 52
+ "watching": 48
 }

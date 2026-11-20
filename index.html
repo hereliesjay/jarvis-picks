@@ -154,7 +154,7 @@ function bigParlayCard(p){
   const ul=el('ul','legs');p.legs.forEach(l=>{const li=el('li');const s=el('span',null,l.pick);s.append(el('span','p',l.sport+' · '+Math.round(l.prob*100)+'%'));li.append(s);li.append(el('b',null,l.odds.toFixed(2)));ul.append(li)});c.append(ul);
   const bet=el('div','bet');const L=el('div');L.append(el('div','u',p.units+'u · '+money(p.stake)));L.append(el('div','w','pays '+p.odds.toFixed(2)+'x · to win '+money(p.to_win)));bet.append(L);
   const R=el('div','ev');R.style.textAlign='right';R.textContent='hits ~'+Math.round(p.prob*100)+'%';R.append(el('div',null,'about 1 in '+Math.max(1,Math.round(1/p.prob))));bet.append(R);c.append(bet);
-  if(p.slip)c.append(goBtn(p.slip,'Add whole parlay to '+p.book+' →'));
+  if(p.slip){const gl=el('div','golist');gl.append(goBtn(p.slip,'Add whole parlay to '+p.book+' ('+p.odds.toFixed(2)+'x) →'));(p.alts||[]).forEach(a=>gl.append(goBtn(a.slip,a.book+' ('+a.odds.toFixed(2)+'x) →',true)));c.append(gl)}
   else if(p.legs.some(l=>l.link)){c.append(el('div','meta','Tap each leg to add it to your '+p.book+' slip:'));const gl=el('div','golist');p.legs.forEach((l,i)=>{if(l.link)gl.append(goBtn(l.link,(i+1)+'. '+l.pick,true))});c.append(gl)}
   return c}
 function gameList(sec,games,limit){

@@ -1,6 +1,6 @@
 {
  "version": 19,
- "updated": "2026-11-20T23:20:12+00:00",
+ "updated": "2026-11-20T23:23:16+00:00",
  "last_scan": "2026-11-20T23:20:12+00:00",
  "unit": 5.0,
  "bankroll": 1004.05,
@@ -865,8 +865,8 @@
      "list": [
       "Tyrese Haliburton (G, Out)",
       "T.J. McConnell (G, day-to-day)",
-      "Andrew Nembhard (G, day-to-day)",
-      "Braden Smith (G, day-to-day)"
+      "Braden Smith (G, day-to-day)",
+      "Johnny Furphy (G, Out)"
      ]
     }
    ],
@@ -899,8 +899,8 @@
     {
      "team": "Detroit Pistons",
      "list": [
-      "Ronald Holland II (F, day-to-day)",
       "Taurean Prince (F, Out)",
+      "Ronald Holland II (F, day-to-day)",
       "Ebuka Okorie (G, Out)",
       "Cade Cunningham (G, day-to-day)"
      ]
@@ -1177,7 +1177,7 @@
     {
      "team": "Chicago Bulls",
      "list": [
-      "Jalen Smith (F, day-to-day)",
+      "Jalen Smith (F, Out)",
       "Noa Essengue (F, day-to-day)",
       "Tobe Awaka (F, Out)",
       "Caleb Wilson (F, Out)"

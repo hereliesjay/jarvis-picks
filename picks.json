@@ -1,6 +1,6 @@
 {
  "version": 19,
- "updated": "2026-11-20T23:49:54+00:00",
+ "updated": "2026-11-20T23:53:57+00:00",
  "last_scan": "2026-11-20T23:20:12+00:00",
  "unit": 5.0,
  "bankroll": 1004.05,
@@ -830,7 +830,6 @@
      "team": "Cleveland Cavaliers",
      "list": [
       "Jaylon Tyson (G, Out)",
-      "Peyton Watson (G, day-to-day)",
       "Nae'Qwan Tomlin (F, Out)",
       "Evan Mobley (C, Out)"
      ]
@@ -840,8 +839,8 @@
      "list": [
       "Tyrese Haliburton (G, Out)",
       "T.J. McConnell (G, day-to-day)",
-      "Braden Smith (G, day-to-day)",
-      "Johnny Furphy (G, Out)"
+      "Johnny Furphy (G, Out)",
+      "Ben Sheppard (G, Out)"
      ]
     }
    ],
@@ -1197,8 +1196,8 @@
     {
      "team": "Oklahoma City Thunder",
      "list": [
+      "Alex Caruso (G, Out)",
       "Nikola Topic (G, Out)",
-      "Alex Caruso (G, day-to-day)",
       "Thomas Sorber (C, Out)",
       "Cason Wallace (G, Out)"
      ]
@@ -1209,7 +1208,7 @@
       "Bryce McGowens (G, Out)",
       "Trendon Watford (F, Out)",
       "Bennedict Mathurin (G, Out)",
-      "Trey Murphy III (F, Out)"
+      "Dejounte Murray (G, Out)"
      ]
     }
    ],

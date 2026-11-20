@@ -1,6 +1,6 @@
 {
  "version": 18,
- "updated": "2026-11-20T00:15:07+00:00",
+ "updated": "2026-11-20T00:30:11+00:00",
  "last_scan": "2026-11-20T00:15:07+00:00",
  "unit": 5.0,
  "bankroll": 1004.05,
@@ -21,7 +21,7 @@
    "to_win": 1.85,
    "min_odds": 1.75,
    "start": "2026-11-20T00:30:00+00:00",
-   "started": false,
+   "started": true,
    "status": "open",
    "n_sharp": 4
   },

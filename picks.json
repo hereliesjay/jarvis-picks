@@ -1,6 +1,6 @@
 {
  "version": 18,
- "updated": "2026-11-20T19:10:25+00:00",
+ "updated": "2026-11-20T19:41:22+00:00",
  "last_scan": "2026-11-20T19:10:25+00:00",
  "unit": 5.0,
  "bankroll": 1004.05,
@@ -22,7 +22,7 @@
    "min_odds": 2.01,
    "start": "2026-11-20T17:30:00+00:00",
    "started": true,
-   "status": "open",
+   "status": "lost",
    "n_sharp": null
   },
   {
@@ -97,11 +97,11 @@
   },
   "best": {
    "won": 0,
-   "lost": 0,
+   "lost": 1,
    "push": 0,
-   "open": 1,
-   "units": 0.0,
-   "dollars": 0.0,
+   "open": 0,
+   "units": -1.0,
+   "dollars": -5.0,
    "clv": null,
    "clv_n": 0
   },
@@ -117,6 +117,16 @@
   }
  },
  "recent": [
+  {
+   "tier": "best",
+   "pick": "Oklahoma St Cowboys",
+   "event": "Oklahoma St Cowboys @ Minnesota Golden Gophers",
+   "sport": "COLLEGE BASKETBALL",
+   "odds": 2.05,
+   "units": 1.0,
+   "status": "lost",
+   "start": "2026-11-20T17:30:00+00:00"
+  },
   {
    "tier": "lean",
    "pick": "Minnesota Wild",
@@ -156,8 +166,8 @@
    "on": true
   },
   "basketball": {
-   "n": 48,
-   "roi": -0.0554,
+   "n": 49,
+   "roi": -0.0747,
    "clv": -0.0023,
    "on": true
   },

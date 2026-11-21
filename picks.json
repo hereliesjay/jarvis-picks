@@ -1,6 +1,6 @@
 {
  "version": 19,
- "updated": "2026-11-21T23:05:44+00:00",
+ "updated": "2026-11-21T23:21:46+00:00",
  "last_scan": "2026-11-21T22:50:33+00:00",
  "unit": 5.0,
  "bankroll": 243.53,
@@ -221,9 +221,9 @@
    "on": true
   },
   "basketball": {
-   "n": 55,
-   "roi": -0.0882,
-   "clv": -0.0015,
+   "n": 56,
+   "roi": -0.075,
+   "clv": -0.0012,
    "on": false
   },
   "tennis": {
@@ -1024,8 +1024,8 @@
     {
      "team": "New York Knicks",
      "list": [
+      "Karl-Anthony Towns (C, Out)",
       "OG Anunoby (F, Out)",
-      "Karl-Anthony Towns (C, day-to-day)",
       "Jordan Clarkson (G, Out)"
      ]
     },
@@ -1118,10 +1118,10 @@
     {
      "team": "Dallas Mavericks",
      "list": [
-      "P.J. Washington (F, day-to-day)",
+      "P.J. Washington (F, Out)",
       "Tobi Lawal (F, Out)",
-      "Walter Clayton Jr. (G, day-to-day)",
-      "Dereck Lively II (C, Out)"
+      "Dereck Lively II (C, Out)",
+      "Sergio de Larrea (F, Out)"
      ]
     }
    ],

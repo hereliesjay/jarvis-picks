@@ -1,6 +1,6 @@
 {
  "version": 19,
- "updated": "2026-11-21T22:50:33+00:00",
+ "updated": "2026-11-21T22:52:37+00:00",
  "last_scan": "2026-11-21T22:50:33+00:00",
  "unit": 5.0,
  "bankroll": 243.53,
@@ -1211,9 +1211,9 @@
      "team": "Portland Trail Blazers",
      "list": [
       "Chris Youngblood (G, Out)",
-      "Deni Avdija (F, day-to-day)",
       "Vit Krejci (G, Out)",
-      "Ja Morant (G, Out)"
+      "Ja Morant (G, Out)",
+      "Shaedon Sharpe (G, Out)"
      ]
     }
    ],

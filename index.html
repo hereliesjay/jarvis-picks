@@ -2,7 +2,7 @@
 <html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Jarvis Picks</title>
-<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 :root{--bg1:#070a14;--bg2:#10162b;--card:rgba(22,28,52,.78);--line:rgba(140,160,255,.14);--ink:#e8ecf8;--mute:#8f9ab8;--acc:#7c8cff;--acc2:#2fd4c0;--gold:#e6b450;--pos:#46d9a0;--neg:#ff7a90}
 *{box-sizing:border-box}
@@ -96,9 +96,61 @@ details summary::-webkit-details-marker{display:none}
 .sec h3 .c{font-size:.75rem;font-weight:500;color:var(--mute)}
 .sub{font-size:.72rem;text-transform:uppercase;letter-spacing:.1em;color:var(--mute);margin:.9rem 0 .5rem}
 
+
+/* ===== cozy theme: night card table ===== */
+:root{--felt:#13201b;--table:#1a2922;--table2:#20322a;--rail:#2d4238;--chalk:#ece4d2;--mute:#9aa99f;--brass:#d2ab5a;--sage:#9fcb9b;--rose:#d99191;--sky:#9db8d4;
+--card:var(--table);--line:var(--rail);--ink:var(--chalk);--acc:var(--sky);--acc2:var(--sage);--gold:var(--brass);--pos:var(--sage);--neg:var(--rose);--bg1:var(--felt);--bg2:var(--felt)}
+body{font-family:Figtree,system-ui,sans-serif;background:var(--felt);color:var(--chalk);
+ background-image:radial-gradient(70rem 40rem at 50% -12rem,rgba(210,171,90,.10),transparent 70%)}
+.wrap{max-width:60rem}
+h1{font-family:'Young Serif',Georgia,serif;font-weight:400;background:none;-webkit-background-clip:initial;background-clip:initial;color:var(--chalk);font-size:clamp(2.1rem,7vw,3rem);letter-spacing:-.01em}
+h1 .tonight{display:block;font-family:Figtree,sans-serif;font-size:.95rem;color:var(--brass);letter-spacing:0;margin-top:.15rem;font-weight:500}
+h2,.sub,.gsec,.tile .l,th{text-transform:none;letter-spacing:0}
+h2{font-family:'Young Serif',serif;font-weight:400;font-size:1.25rem;color:var(--chalk)}
+.sub{font-size:.85rem;font-weight:600;color:var(--mute)}
+.gsec{font-size:.95rem;color:var(--brass);font-weight:600;margin-top:1.4rem}
+.sec h3{font-family:'Young Serif',serif;font-weight:400;font-size:1.45rem}
+.sec h3 .ic{display:none}
+.sec h3 .c{font-family:Figtree,sans-serif}
+.card{background:var(--table);border:1px solid var(--rail);border-radius:16px;box-shadow:none;backdrop-filter:none}
+.tile{border-radius:14px}
+.tile .l{font-size:.8rem;color:var(--mute)}
+.tile .v{font-family:'Young Serif',serif;font-weight:400;font-size:1.75rem}
+.tiles .card{border-top:1px solid var(--rail)}
+.pick.best{border-color:rgba(210,171,90,.45)}
+.pick.best::before{background:var(--brass);height:2px}
+.pick.lean::before{background:var(--sky);height:2px}
+.badge{border-radius:6px;letter-spacing:.02em;font-weight:700;font-size:.68rem;background:rgba(210,171,90,.14);color:var(--brass)}
+.badge.lean{background:rgba(157,184,212,.14);color:var(--sky)}
+.badge.parlay{background:rgba(159,203,155,.14);color:var(--sage)}
+.badge.won{background:rgba(159,203,155,.15);color:var(--sage)}.badge.lost{background:rgba(217,145,145,.15);color:var(--rose)}
+.pk,.gp{font-family:'Young Serif',serif;font-weight:400;font-size:1.3rem}
+.gp small{font-family:Figtree,sans-serif}
+.row b,.gline b,.legs b,.bet b{font-family:Figtree,sans-serif;font-weight:700;font-variant-numeric:tabular-nums}
+.bet{background:var(--table2);border:1px solid var(--rail);border-radius:12px}
+.bet .u{font-family:'Young Serif',serif;font-weight:400;font-size:1.2rem}
+.conf{background:rgba(236,228,210,.07)}.conf i{background:var(--brass)}
+.vb{border-radius:6px;letter-spacing:.02em}
+.vb.value{background:rgba(159,203,155,.15);color:var(--sage)}.vb.fair{background:rgba(157,184,212,.14);color:var(--sky)}
+.vb.slight{background:rgba(210,171,90,.14);color:var(--brass)}.vb.over{background:rgba(217,145,145,.14);color:var(--rose)}
+.why{color:#d9d1bf}
+.go{background:var(--brass);color:#1b1a14;border-radius:10px;font-weight:700}
+.go.alt{background:transparent;color:var(--chalk);border:1px solid var(--rail)}
+.tabs{background:var(--felt);border-bottom:1px solid var(--rail);padding:.6rem 0 0;gap:1.1rem;margin-bottom:.4rem}
+.tab{background:none;border:0;border-bottom:2px solid transparent;border-radius:0;padding:.45rem 0 .6rem;color:var(--mute);font-weight:600;font-size:.95rem}
+.tab .n{background:none;color:var(--mute);padding:0;margin-left:.3rem;font-weight:500}
+.tab.on{background:none;color:var(--chalk);border-bottom-color:var(--brass)}
+.tab:focus-visible,.go:focus-visible,select:focus-visible,.more:focus-visible{outline:2px solid var(--brass);outline-offset:2px}
+.dot{box-shadow:none;background:var(--sage)}.dot.off{box-shadow:none;background:var(--rose)}
+.flag{background:rgba(217,145,145,.12);border-color:rgba(217,145,145,.4);color:#f0c4c4}
+.filters select,.more{background:var(--table);border-color:var(--rail);color:var(--chalk)}
+tbody tr:hover td{background:rgba(236,228,210,.03)}
+.tt{background:var(--table2);border-color:var(--rail)}
+.empty{color:var(--mute)}
+.note{color:var(--mute);max-width:44rem}
 </style></head>
 <body><div class="wrap">
-<header><div><h1>Jarvis Picks</h1><div class="status" id="status"><span class="dot"></span><span>Loading…</span></div></div>
+<header><div><h1>Jarvis<span class="tonight" id="tonight">Tonight's card</span></h1><div class="status" id="status"><span class="dot"></span><span>Loading…</span></div></div>
 <div class="status" id="unit"></div></header>
 
 <div class="tiles" id="tiles"></div>
@@ -133,7 +185,7 @@ function pickCard(p){
   const cf=el('div','conf');const i=el('i');i.style.width=Math.max(8,Math.min(100,(p.edge+0.01)/0.07*100))+'%';cf.append(i);c.append(cf);
   if(p.link){setTimeout(()=>{},0)}
   let m='Min odds '+(p.min_odds||'—');if(p.now_odds&&p.now_odds!==p.odds)m+=' · now '+p.now_odds.toFixed(2);if(p.n_sharp)m+=' · '+p.n_sharp+' sharp book'+(p.n_sharp>1?'s':'');
-  c.append(el('div','meta',m));if(p.flag)c.append(el('div','flag','⚠ '+p.flag));if(p.link)c.append(goBtn(p.link,'Open bet at '+p.book+' →'));return c}
+  c.append(el('div','meta',m));if(p.flag)c.append(el('div','flag','⚠ '+p.flag));if(p.link)c.append(goBtn(p.link,'Bet at '+p.book+''));return c}
 function parlayCard(p){
   const c=el('div','card pick');const top=el('div');top.append(el('span','badge parlay',p.label+' PARLAY'));top.append(el('span','sp',p.legs.length+' legs · '+p.book));c.append(top);
   const ul=el('ul','legs');p.legs.forEach(l=>{const li=el('li');li.append(el('span',null,l.pick));li.append(el('b',null,l.odds.toFixed(2)));ul.append(li)});c.append(ul);
@@ -157,14 +209,14 @@ function gameCard(g){
     (g.injuries||[]).forEach(i=>{const p=el('div','inj');p.append(el('b',null,'Injuries — '+i.team+': '));p.append(i.list.join(', '));d.append(p)});
     if(!(g.injuries||[]).length)d.append(el('div','inj','No injury list for this league (or none reported).'));
     c.append(d)}
-  if(g.link)c.append(goBtn(g.link,'Open bet at '+g.book+' →'));
+  if(g.link)c.append(goBtn(g.link,'Bet at '+g.book+''));
   return c}
 function bigParlayCard(p){
   const c=el('div','card pick');const top=el('div');top.append(el('span','badge parlay',p.label.toUpperCase()+' PARLAY'));top.append(el('span','sp',p.legs.length+' legs · '+p.book));c.append(top);
   const ul=el('ul','legs');p.legs.forEach(l=>{const li=el('li');const s=el('span',null,l.pick);s.append(el('span','p',l.sport+' · '+Math.round(l.prob*100)+'%'));li.append(s);li.append(el('b',null,l.odds.toFixed(2)));ul.append(li)});c.append(ul);
   const bet=el('div','bet');const L=el('div');L.append(el('div','u',p.units+'u · '+money(p.stake)));L.append(el('div','w','pays '+p.odds.toFixed(2)+'x · to win '+money(p.to_win)));bet.append(L);
   const R=el('div','ev');R.style.textAlign='right';R.textContent='hits ~'+Math.round(p.prob*100)+'%';R.append(el('div',null,'about 1 in '+Math.max(1,Math.round(1/p.prob))));bet.append(R);c.append(bet);
-  if(p.slip){const gl=el('div','golist');gl.append(goBtn(p.slip,'Add whole parlay to '+p.book+' ('+p.odds.toFixed(2)+'x) →'));(p.alts||[]).forEach(a=>gl.append(goBtn(a.slip,a.book+' ('+a.odds.toFixed(2)+'x) →',true)));c.append(gl)}
+  if(p.slip){const gl=el('div','golist');gl.append(goBtn(p.slip,'Add whole parlay to '+p.book+' ('+p.odds.toFixed(2)+'x)'));(p.alts||[]).forEach(a=>gl.append(goBtn(a.slip,a.book+' ('+a.odds.toFixed(2)+'x)',true)));c.append(gl)}
   else if(p.legs.some(l=>l.link)){c.append(el('div','meta','Tap each leg to add it to your '+p.book+' slip:'));const gl=el('div','golist');p.legs.forEach((l,i)=>{if(l.link)gl.append(goBtn(l.link,(i+1)+'. '+l.pick,true))});c.append(gl)}
   return c}
 function gameList(sec,games,limit){
@@ -185,12 +237,12 @@ function drawChart(box,rows){box.replaceChildren();const g=rows.filter(r=>r.stat
   const X=i=>m.l+(W-m.l-m.r)*i/(pts.length-1),Y=v=>m.t+(H-m.t-m.b)*(1-(v-(y0-pad))/((y1+pad)-(y0-pad)));
   const ns='http://www.w3.org/2000/svg',svg=document.createElementNS(ns,'svg');svg.setAttribute('viewBox','0 0 '+W+' '+H);svg.setAttribute('class','chart');
   const mk=(t,a)=>{const e=document.createElementNS(ns,t);for(const k in a)e.setAttribute(k,a[k]);svg.append(e);return e};
-  [y0-pad,0,y1+pad].forEach(v=>{mk('line',{x1:m.l,x2:W-m.r,y1:Y(v),y2:Y(v),stroke:v===0?'rgba(232,236,248,.35)':'rgba(140,160,255,.12)'});const t=mk('text',{x:m.l-6,y:Y(v)+4,'text-anchor':'end'});t.textContent=(v>0?'+':'')+v.toFixed(1)+'u'});
+  [y0-pad,0,y1+pad].forEach(v=>{mk('line',{x1:m.l,x2:W-m.r,y1:Y(v),y2:Y(v),stroke:v===0?'rgba(236,228,210,.3)':'rgba(236,228,210,.07)'});const t=mk('text',{x:m.l-6,y:Y(v)+4,'text-anchor':'end'});t.textContent=(v>0?'+':'')+v.toFixed(1)+'u'});
   const d=pts.map((p,i)=>(i?'L':'M')+X(i).toFixed(1)+','+Y(p.y).toFixed(1)).join('');const last=pts[pts.length-1];
-  mk('path',{d,fill:'none',stroke:last.y>=0?'#46d9a0':'#ff7a90','stroke-width':2,'stroke-linejoin':'round','stroke-linecap':'round'});
+  mk('path',{d,fill:'none',stroke:last.y>=0?'#9fcb9b':'#d99191','stroke-width':2,'stroke-linejoin':'round','stroke-linecap':'round'});
   const lt=mk('text',{x:X(pts.length-1)+6,y:Y(last.y)+4});lt.textContent=(last.y>=0?'+':'')+last.y.toFixed(2)+'u';lt.style.fill='var(--ink)';
   const xt=mk('text',{x:W-m.r,y:H-6,'text-anchor':'end'});xt.textContent=g.length+' graded picks';
-  const dot=mk('circle',{r:4,fill:'#7c8cff',style:'display:none'});const tt=el('div','tt');box.append(svg,tt);
+  const dot=mk('circle',{r:4,fill:'#d2ab5a',style:'display:none'});const tt=el('div','tt');box.append(svg,tt);
   svg.addEventListener('mousemove',e=>{const r=svg.getBoundingClientRect();const sx=(e.clientX-r.left)*W/r.width;let i=Math.round((sx-m.l)/((W-m.l-m.r)/(pts.length-1)));i=Math.max(0,Math.min(pts.length-1,i));
     dot.setAttribute('cx',X(i));dot.setAttribute('cy',Y(pts[i].y));dot.style.display='';tt.style.display='block';tt.textContent=pts[i].lab+' · '+(pts[i].y>=0?'+':'')+pts[i].y.toFixed(2)+'u';
     tt.style.left=Math.min(r.width-tt.offsetWidth,Math.max(0,(X(i)*r.width/W)-tt.offsetWidth/2))+'px';tt.style.top='-6px'});
@@ -229,7 +281,7 @@ function group(s){s=(s||'').toUpperCase();if(s.includes('NBA'))return 'nba';if(s
 let TAB='all';
 function render(){const G=window._G;if(!G)return;
   const T=$('tabs');T.replaceChildren();const total=SPORTS.reduce((a,s)=>a+(G[s.id].games.length||(G[s.id].picks.length+G[s.id].parlays.length)),0);
-  [{id:'all',name:'All'}].concat(SPORTS.map(s=>({id:s.id,name:s.id==='nfl'?'NFL':s.id==='more'?'More':s.name})),[{id:'results',name:'📈 Results'}]).forEach(t=>{
+  [{id:'all',name:'All'}].concat(SPORTS.map(s=>({id:s.id,name:s.id==='nfl'?'NFL':s.id==='more'?'More':s.name})),[{id:'results',name:'Results'}]).forEach(t=>{
     const n=t.id==='results'?HIST.filter(r=>r.status!=='open').length:t.id==='all'?total:G[t.id].games.length||(G[t.id].picks.length+G[t.id].parlays.length);
     const b=el('button','tab'+(TAB===t.id?' on':''),t.name);b.append(el('span','n',n));b.onclick=()=>{TAB=t.id;render()};T.append(b)});
   const S=$('sections');S.replaceChildren();
@@ -237,13 +289,13 @@ function render(){const G=window._G;if(!G)return;
   if(TAB==='all'){
     const all=[];SPORTS.forEach(s=>G[s.id].picks.forEach(p=>all.push(p)));
     all.sort((a,b)=>(a.started-b.started)||((b.tier==='best')-(a.tier==='best'))||(b.edge-a.edge));
-    const sec=el('section','sec');const h=el('h3');h.append(el('span','ic','🔥'),'All picks today',el('span','c',all.length+' pick'+(all.length===1?'':'s')+' · best first'));sec.append(h);
+    const sec=el('section','sec');const h=el('h3');h.append(el('span','ic','🔥'),'Tonight\'s bets',el('span','c',all.length+' pick'+(all.length===1?'':'s')+', strongest first'));sec.append(h);
     if(!all.length)sec.append(el('div','card empty','No bets on the board right now. No edge = no bet — the bot checks again soon.'));
     else{const w=el('div','picks');all.forEach(p=>w.append(pickCard(p)));sec.append(w)}
     S.append(sec);
     if((window._BIG||[]).length){const bs=el('section','sec');const bh=el('h3');bh.append(el('span','ic','🎯'),'Safest parlays that pay 4x+',el('span','c','highest hit chance'));bs.append(bh);const w=el('div','picks');window._BIG.forEach(p=>w.append(bigParlayCard(p)));bs.append(w);S.append(bs)}
-    const gs=el('section','sec');const gh=el('h3');gh.append(el('span','ic','📋'),'Every game · the bot\'s side');gs.append(gh);
-    let any=false;SPORTS.forEach(s=>{const gg=G[s.id].games;if(!gg.length)return;any=true;gs.append(el('div','gsec',s.ic+' '+s.name+' · '+gg.length));gameList(gs,gg,s.id==='more'?4:6)});
+    const gs=el('section','sec');const gh=el('h3');gh.append(el('span','ic','📋'),'Every game, and who the bot likes');gs.append(gh);
+    let any=false;SPORTS.forEach(s=>{const gg=G[s.id].games;if(!gg.length)return;any=true;gs.append(el('div','gsec',s.name+', '+gg.length+' game'+(gg.length===1?'':'s')));gameList(gs,gg,s.id==='more'?4:6)});
     if(!any)gs.append(el('div','card empty','No upcoming games priced yet.'));S.append(gs);
     const pars=[];SPORTS.forEach(s=>G[s.id].parlays.forEach(p=>pars.push(p)));
     if(pars.length){const ps=el('section','sec');const ph=el('h3');ph.append(el('span','ic','🎟️'),'Parlays');ps.append(ph);const w=el('div','picks');pars.forEach(p=>w.append(parlayCard(p)));ps.append(w);S.append(ps)}
@@ -255,10 +307,11 @@ function render(){const G=window._G;if(!G)return;
     if(!n&&!g.games.length){sec.append(el('div','card empty','No '+s.name+' games priced right now — the bot checks again soon.'))}
     const best=g.picks.filter(p=>p.tier==='best'),lean=g.picks.filter(p=>p.tier==='lean');
     [['Best bets',best,pickCard],['Leans · half unit, priced about fair',lean,pickCard],['Parlay',g.parlays,parlayCard]].forEach(([lab,arr,fn])=>{if(!arr.length)return;sec.append(el('div','sub',lab));const w=el('div','picks');arr.forEach(x=>w.append(fn(x)));sec.append(w)});
-    if(g.games.length){sec.append(el('div','sub','Every game · the bot\'s side + why'));gameList(sec,g.games,50)}
+    if(g.games.length){sec.append(el('div','sub','Every game, and who the bot likes'));gameList(sec,g.games,50)}
     S.append(sec)});
 }
 async function load(){
+  $('tonight').textContent=new Date().toLocaleDateString([], {weekday:'long',month:'long',day:'numeric'});
   let f;try{const r=await fetch('picks.json?t='+Date.now(),{cache:'no-store'});f=await r.json()}catch(e){$('status').lastChild.textContent='No picks file yet — the bot will post one after its next scan.';return}
   const fresh=f.updated&&(Date.now()-new Date(f.updated))<75*60000;
   $('status').firstChild.className='dot'+(fresh?'':' off');
@@ -270,7 +323,7 @@ async function load(){
   T.append(tile('Record',w+'–'+l,(w+l?Math.round(w/(w+l)*100):0)+'% wins'));
   const b=rec.best||{won:0,lost:0,units:0};T.append(tile('Best bets',b.won+'–'+b.lost,sgn(b.units)+'u · '+money(b.units*f.unit)));
   {const hs=stats(f.history||[]);T.append(tile('Closing-line value',fmtPct(hs.clv),hs.clvn?Math.round(hs.beat*100)+'% beat the close ('+hs.clvn+')':'needs graded picks',hs.clv>0?'pos':hs.clv<0?'neg':''))}
-  const pr=rec.parlay||{won:0,lost:0,units:0};T.append(tile('Parlays',pr.won+'–'+pr.lost,sgn(pr.units)+'u'));
+
   const picks=f.picks||[];
   const G={};SPORTS.forEach(s=>G[s.id]={picks:[],parlays:[]});
   picks.forEach(p=>G[group(p.sport)].picks.push(p));

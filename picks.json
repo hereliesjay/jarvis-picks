@@ -1,6 +1,6 @@
 {
  "version": 19,
- "updated": "2026-11-21T00:00:02+00:00",
+ "updated": "2026-11-21T00:10:08+00:00",
  "last_scan": "2026-11-20T23:20:12+00:00",
  "unit": 5.0,
  "bankroll": 1004.05,
@@ -206,51 +206,6 @@
  },
  "watching": 78,
  "games": [
-  {
-   "sport": "NBA",
-   "event": "Charlotte Hornets @ Atlanta Hawks",
-   "pick": "Atlanta Hawks",
-   "opp": "Charlotte Hornets",
-   "start": "2026-11-21T00:10:00+00:00",
-   "book": "DraftKings",
-   "odds": 1.36,
-   "prob": 0.7069,
-   "edge": -0.0387,
-   "value": "over",
-   "value_txt": "Overpriced: the book is charging a lot here",
-   "units": 0.0,
-   "stake": 0.0,
-   "to_win": 0.0,
-   "tier": null,
-   "fair_odds": 1.41,
-   "why": [
-    "Sharp books give Atlanta Hawks a 71% chance to win (Charlotte Hornets 28%).",
-    "Atlanta Hawks: 9-6, 3-3 at home, 117.7 pts/game, top: Nickeil Alexander-Walker 21.2 PPG.",
-    "Charlotte Hornets: 4-10, 1-6 on the road, 100.1 pts/game, top: Brandon Miller 19.9 PPG."
-   ],
-   "injuries": [
-    {
-     "team": "Atlanta Hawks",
-     "list": [
-      "Kingston Flemings (G, Out)",
-      "Jock Landale (C, Out)",
-      "Asa Newell (F, Out)",
-      "CJ McCollum (G, Out)"
-     ]
-    },
-    {
-     "team": "Charlotte Hornets",
-     "list": [
-      "Grant Williams (F, Out)",
-      "Grayson Allen (G, Out)",
-      "Kon Knueppel (G, Out)",
-      "Dennis Schroder (G, Out)"
-     ]
-    }
-   ],
-   "n_sharp": 4,
-   "link": "https://sportsbook.draftkings.com/?outcomes=0ML87292641_1"
-  },
   {
    "sport": "COLLEGE FOOTBALL",
    "event": "Bowling Green Falcons @ Toledo Rockets",
@@ -1140,54 +1095,54 @@
  "big_parlays": [
   {
    "label": "Safest 4x+",
-   "book": "FanDuel",
-   "odds": 4.07,
-   "prob": 0.2211,
-   "ev": -0.0994,
+   "book": "DraftKings",
+   "odds": 4.28,
+   "prob": 0.2093,
+   "ev": -0.1036,
    "units": 0.5,
    "stake": 2.5,
-   "to_win": 7.68,
+   "to_win": 8.2,
    "legs": [
-    {
-     "pick": "Atlanta Hawks",
-     "event": "Charlotte Hornets @ Atlanta Hawks",
-     "sport": "NBA",
-     "odds": 1.34,
-     "prob": 0.707,
-     "start": "2026-11-21T00:10:00+00:00",
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626550981&selectionId=237490",
-     "sid": [
-      null,
-      "237490",
-      "36334575"
-     ]
-    },
     {
      "pick": "Detroit Pistons",
      "event": "Toronto Raptors @ Detroit Pistons",
      "sport": "NBA",
-     "odds": 1.42,
+     "odds": 1.38,
      "prob": 0.707,
      "start": "2026-11-21T00:40:00+00:00",
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626550978&selectionId=237474",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0ML85859632_1",
      "sid": [
       null,
-      "237474",
-      "36334574"
+      "0ML85859632_1",
+      "34516243"
      ]
     },
     {
      "pick": "Orlando Magic",
      "event": "Orlando Magic @ Brooklyn Nets",
      "sport": "NBA",
-     "odds": 1.39,
+     "odds": 1.38,
      "prob": 0.702,
      "start": "2026-11-21T00:40:00+00:00",
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626550984&selectionId=237475",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0ML87292642_3",
      "sid": [
       null,
-      "237475",
-      "36334576"
+      "0ML87292642_3",
+      "35039360"
+     ]
+    },
+    {
+     "pick": "Cleveland Cavaliers",
+     "event": "Indiana Pacers @ Cleveland Cavaliers",
+     "sport": "NBA",
+     "odds": 1.46,
+     "prob": 0.669,
+     "start": "2026-11-21T00:40:00+00:00",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0ML87292643_1",
+     "sid": [
+      null,
+      "0ML87292643_1",
+      "35039361"
      ]
     },
     {
@@ -1197,25 +1152,25 @@
      "odds": 1.54,
      "prob": 0.63,
      "start": "2026-11-21T02:40:00+00:00",
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626550994&selectionId=237487",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0ML87292646_3",
      "sid": [
       null,
-      "237487",
-      "36334578"
+      "0ML87292646_3",
+      "35039364"
      ]
     }
    ],
-   "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.626550981&selectionId[0]=237490&marketId[1]=42.626550978&selectionId[1]=237474&marketId[2]=42.626550984&selectionId[2]=237475&marketId[3]=42.626550994&selectionId[3]=237487",
+   "slip": "https://sportsbook.draftkings.com/?outcomes=0ML85859632_1+0ML87292642_3+0ML87292643_1+0ML87292646_3",
    "alts": [
     {
-     "book": "DraftKings",
-     "odds": 3.99,
-     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87292641_1+0ML85859632_1+0ML87292642_3+0ML87292646_3"
+     "book": "theScore Bet",
+     "odds": 4.28,
+     "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=18a6afa3-2db4-4acb-8941-5fe5e7e5bd8a&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=97b47cf5-5939-47b1-96f3-139d47982fab&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=fa7c31fb-2d02-4be5-8f56-f3d607fd708a&odds_numerator[2]=2&odds_denominator[2]=1&market_selection_id[3]=34abb435-5180-4507-a6df-fc69b1ab687e&odds_numerator[3]=2&odds_denominator[3]=1"
     },
     {
-     "book": "theScore Bet",
-     "odds": 3.93,
-     "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=c712b674-acf6-41ee-8351-79df9f302104&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=18a6afa3-2db4-4acb-8941-5fe5e7e5bd8a&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=97b47cf5-5939-47b1-96f3-139d47982fab&odds_numerator[2]=2&odds_denominator[2]=1&market_selection_id[3]=34abb435-5180-4507-a6df-fc69b1ab687e&odds_numerator[3]=2&odds_denominator[3]=1"
+     "book": "FanDuel",
+     "odds": 4.41,
+     "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.626550978&selectionId[0]=237474&marketId[1]=42.626550984&selectionId[1]=237475&marketId[2]=42.626551000&selectionId[2]=60424&marketId[3]=42.626550994&selectionId[3]=237487"
     }
    ]
   }

@@ -1,6 +1,6 @@
 {
  "version": 19,
- "updated": "2026-11-21T19:17:45+00:00",
+ "updated": "2026-11-21T19:20:51+00:00",
  "last_scan": "2026-11-21T18:49:27+00:00",
  "unit": 5.0,
  "bankroll": 244.28,
@@ -383,30 +383,6 @@
   }
  ],
  "games": [
-  {
-   "sport": "TENNIS",
-   "event": "Nauhany Vitoria Leme Da Silva vs Kayla Cross (Billie Jean King Cup)",
-   "pick": "Kayla Cross",
-   "opp": "Nauhany Vitoria Leme Da Silva",
-   "start": "2026-11-21T19:20:00+00:00",
-   "book": "DraftKings",
-   "odds": 1.8,
-   "prob": 0.514,
-   "edge": -0.0748,
-   "value": "over",
-   "value_txt": "Overpriced: the book is charging a lot here",
-   "units": 0.0,
-   "stake": 0.0,
-   "to_win": 0.0,
-   "tier": null,
-   "fair_odds": 1.95,
-   "why": [
-    "Sharp books give Kayla Cross a 51% chance to win (Nauhany Vitoria Leme Da Silva 49%)."
-   ],
-   "injuries": [],
-   "n_sharp": 1,
-   "link": null
-  },
   {
    "sport": "TENNIS",
    "event": "Daniil Medvedev @ Alexander Zverev",

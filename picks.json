@@ -1,6 +1,6 @@
 {
  "version": 19,
- "updated": "2026-11-21T02:40:12+00:00",
+ "updated": "2026-11-21T03:00:16+00:00",
  "last_scan": "2026-11-21T01:21:18+00:00",
  "unit": 5.0,
  "bankroll": 242.62,
@@ -312,54 +312,6 @@
   }
  ],
  "games": [
-  {
-   "sport": "COLLEGE BASKETBALL",
-   "event": "Alabama St Hornets @ Fresno St Bulldogs",
-   "pick": "Fresno St Bulldogs",
-   "opp": "Alabama St Hornets",
-   "start": "2026-11-21T03:00:00+00:00",
-   "book": "FanDuel",
-   "odds": 1.27,
-   "prob": 0.8037,
-   "edge": 0.0207,
-   "value": "value",
-   "value_txt": "Good price: pays more than its real chance",
-   "units": 2.0,
-   "stake": 10.0,
-   "to_win": 2.7,
-   "tier": null,
-   "fair_odds": 1.24,
-   "why": [
-    "Sharp books give Fresno St Bulldogs a 80% chance to win (Alabama St Hornets 17%)."
-   ],
-   "injuries": [],
-   "n_sharp": 2,
-   "link": null
-  },
-  {
-   "sport": "TENNIS",
-   "event": "Hontama, Mai vs Gonzalez Daniele, Justina Maria (Billie Jean King Cup)",
-   "pick": "Hontama, Mai",
-   "opp": "Gonzalez Daniele, Justina Maria",
-   "start": "2026-11-21T03:00:00+00:00",
-   "book": "FanDuel",
-   "odds": 1.04,
-   "prob": 0.9202,
-   "edge": -0.043,
-   "value": "over",
-   "value_txt": "Overpriced: the book is charging a lot here",
-   "units": 0.0,
-   "stake": 0.0,
-   "to_win": 0.0,
-   "tier": null,
-   "fair_odds": 1.09,
-   "why": [
-    "Sharp books give Hontama, Mai a 92% chance to win (Gonzalez Daniele, Justina Maria 6%)."
-   ],
-   "injuries": [],
-   "n_sharp": 1,
-   "link": null
-  },
   {
    "sport": "NBA",
    "event": "Houston Rockets @ Denver Nuggets",

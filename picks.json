@@ -1,6 +1,6 @@
 {
  "version": 19,
- "updated": "2026-11-21T03:00:16+00:00",
+ "updated": "2026-11-21T03:10:21+00:00",
  "last_scan": "2026-11-21T01:21:18+00:00",
  "unit": 5.0,
  "bankroll": 242.62,
@@ -312,110 +312,6 @@
   }
  ],
  "games": [
-  {
-   "sport": "NBA",
-   "event": "Houston Rockets @ Denver Nuggets",
-   "pick": "Denver Nuggets",
-   "opp": "Houston Rockets",
-   "start": "2026-11-21T03:10:00+00:00",
-   "book": "FanDuel",
-   "odds": 1.83,
-   "prob": 0.5328,
-   "edge": -0.025,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.0,
-   "stake": 0.0,
-   "to_win": 0.0,
-   "tier": null,
-   "fair_odds": 1.88,
-   "why": [
-    "Sharp books give Denver Nuggets a 53% chance to win (Houston Rockets 47%).",
-    "Denver Nuggets: 8-5, 3-3 at home, 113.2 pts/game, top: Jamal Murray 25.7 PPG.",
-    "Houston Rockets: 12-4, 5-3 on the road, 117.9 pts/game, top: Alperen Sengun 21.6 PPG."
-   ],
-   "injuries": [
-    {
-     "team": "Denver Nuggets",
-     "list": [
-      "Julian Strawther (G, Out)"
-     ]
-    },
-    {
-     "team": "Houston Rockets",
-     "list": [
-      "Clint Capela (C, Out)"
-     ]
-    }
-   ],
-   "n_sharp": 4,
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626551003&selectionId=237492"
-  },
-  {
-   "sport": "NBA",
-   "event": "Sacramento Kings @ Los Angeles Lakers",
-   "pick": "Los Angeles Lakers",
-   "opp": "Sacramento Kings",
-   "start": "2026-11-21T03:10:00+00:00",
-   "book": "FanDuel",
-   "odds": 1.11,
-   "prob": 0.8825,
-   "edge": -0.0204,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.25,
-   "to_win": 0.14,
-   "tier": null,
-   "fair_odds": 1.13,
-   "why": [
-    "Sharp books give Los Angeles Lakers a 88% chance to win.",
-    "Los Angeles Lakers: 13-3, 6-2 at home, 120.9 pts/game, top: Luka Doncic 38.1 PPG.",
-    "Sacramento Kings: 1-13, 0-9 at home, 107.7 pts/game, top: Darius Acuff Jr. 26.2 PPG."
-   ],
-   "injuries": [
-    {
-     "team": "Los Angeles Lakers",
-     "list": [
-      "Austin Reaves (G, Out)"
-     ]
-    },
-    {
-     "team": "Sacramento Kings",
-     "list": [
-      "Precious Achiuwa (F, Out)",
-      "Maxime Raynaud (C, Out)",
-      "Ben Simmons (G, Out)"
-     ]
-    }
-   ],
-   "n_sharp": 4,
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626550991&selectionId=5368712"
-  },
-  {
-   "sport": "TENNIS",
-   "event": "Hassan, Benjamin vs Watanuki, Yosuke (ATP Challenger Kobe, Japan Men Singles)",
-   "pick": "Watanuki, Yosuke",
-   "opp": "Hassan, Benjamin",
-   "start": "2026-11-21T03:10:00+00:00",
-   "book": "DraftKings",
-   "odds": 1.112,
-   "prob": 0.855,
-   "edge": -0.0493,
-   "value": "over",
-   "value_txt": "Overpriced: the book is charging a lot here",
-   "units": 0.0,
-   "stake": 0.0,
-   "to_win": 0.0,
-   "tier": null,
-   "fair_odds": 1.17,
-   "why": [
-    "Sharp books give Watanuki, Yosuke a 85% chance to win (Hassan, Benjamin 12%)."
-   ],
-   "injuries": [],
-   "n_sharp": 1,
-   "link": null
-  },
   {
    "sport": "COLLEGE BASKETBALL",
    "event": "Saint Louis Billikens @ Saint Mary's Gaels",

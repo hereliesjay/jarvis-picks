@@ -1,6 +1,6 @@
 {
  "version": 19,
- "updated": "2026-11-21T22:15:20+00:00",
+ "updated": "2026-11-21T22:21:25+00:00",
  "last_scan": "2026-11-21T22:10:16+00:00",
  "unit": 5.0,
  "bankroll": 243.53,
@@ -675,7 +675,7 @@
     {
      "team": "Detroit Red Wings",
      "list": [
-      "William Wallinder (D, day-to-day)",
+      "William Wallinder (D, Out)",
       "Dylan Larkin (C, Injured Reserve)",
       "Simon Edvinsson (D, Injured Reserve)"
      ]
@@ -1108,7 +1108,7 @@
     {
      "team": "New York Knicks",
      "list": [
-      "OG Anunoby (F, day-to-day)",
+      "OG Anunoby (F, Out)",
       "Karl-Anthony Towns (C, day-to-day)",
       "Jordan Clarkson (G, Out)"
      ]

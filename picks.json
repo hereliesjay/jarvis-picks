@@ -1,12 +1,12 @@
 {
  "version": 19,
- "updated": "2026-11-21T10:03:07+00:00",
- "last_scan": "2026-11-21T06:00:33+00:00",
+ "updated": "2026-11-21T18:47:21+00:00",
+ "last_scan": "2026-11-21T18:47:21+00:00",
  "unit": 5.0,
  "bankroll": 244.28,
  "bank_start": 250.0,
  "unit_pct": 0.02,
- "credits": 460,
+ "credits": 458,
  "picks": [
   {
    "tier": "lean",
@@ -15,7 +15,7 @@
    "pick": "Army Black Knights",
    "book": "FanDuel",
    "odds": 1.47,
-   "now_odds": 1.47,
+   "now_odds": null,
    "prob": 0.6779,
    "edge": -0.0035,
    "units": 0.5,
@@ -23,10 +23,10 @@
    "to_win": 1.17,
    "min_odds": 1.48,
    "start": "2026-11-21T17:00:00+00:00",
-   "started": false,
+   "started": true,
    "status": "open",
-   "n_sharp": 4,
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624999699&selectionId=1004069",
+   "n_sharp": null,
+   "link": null,
    "flag": null
   },
   {
@@ -36,7 +36,7 @@
    "pick": "Cincinnati Bearcats",
    "book": "FanDuel",
    "odds": 1.7,
-   "now_odds": 1.7,
+   "now_odds": null,
    "prob": 0.5862,
    "edge": -0.0034,
    "units": 0.5,
@@ -44,10 +44,10 @@
    "to_win": 1.75,
    "min_odds": 1.71,
    "start": "2026-11-21T17:00:00+00:00",
-   "started": false,
+   "started": true,
    "status": "open",
-   "n_sharp": 3,
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624999579&selectionId=36007278",
+   "n_sharp": null,
+   "link": null,
    "flag": null
   }
  ],
@@ -178,7 +178,7 @@
    "on": true
   }
  },
- "watching": 49,
+ "watching": 28,
  "history": [
   {
    "type": "lean",
@@ -309,566 +309,341 @@
  ],
  "games": [
   {
-   "sport": "COLLEGE FOOTBALL",
-   "event": "Ohio State Buckeyes @ Nebraska Cornhuskers",
-   "pick": "Ohio State Buckeyes",
-   "opp": "Nebraska Cornhuskers",
-   "start": "2026-11-21T16:59:00+00:00",
-   "book": "FanDuel",
-   "odds": 1.62,
-   "prob": 0.6141,
-   "edge": -0.0052,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.25,
-   "to_win": 0.78,
-   "tier": null,
-   "fair_odds": 1.63,
-   "why": [
-    "Sharp books give Ohio State Buckeyes a 61% chance to win (Nebraska Cornhuskers 39%).",
-    "Ohio State Buckeyes: 7-3, 2-2 on the road.",
-    "Nebraska Cornhuskers: 6-4, 4-2 at home."
-   ],
-   "injuries": [],
-   "n_sharp": 4,
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625006693&selectionId=484727"
-  },
-  {
-   "sport": "COLLEGE FOOTBALL",
-   "event": "East Carolina Pirates @ Army Black Knights",
-   "pick": "Army Black Knights",
-   "opp": "East Carolina Pirates",
-   "start": "2026-11-21T17:00:00+00:00",
-   "book": "FanDuel",
-   "odds": 1.47,
-   "prob": 0.6779,
-   "edge": -0.0035,
-   "value": "fair",
-   "value_txt": "Fair price",
-   "units": 0.5,
-   "stake": 2.5,
-   "to_win": 1.17,
-   "tier": "lean",
-   "fair_odds": 1.48,
-   "why": [
-    "Sharp books give Army Black Knights a 68% chance to win (East Carolina Pirates 31%).",
-    "Army Black Knights: 5-4, 3-2 at home.",
-    "East Carolina Pirates: 6-4, 2-3 on the road."
-   ],
-   "injuries": [],
-   "n_sharp": 4,
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624999699&selectionId=1004069"
-  },
-  {
-   "sport": "COLLEGE FOOTBALL",
-   "event": "BYU Cougars @ Kansas Jayhawks",
-   "pick": "BYU Cougars",
-   "opp": "Kansas Jayhawks",
-   "start": "2026-11-21T17:00:00+00:00",
+   "sport": "TENNIS",
+   "event": "Dylan Dietrich vs Clement Chidekh (ATP Challenger Drummondville, Canada Men Singles)",
+   "pick": "Clement Chidekh",
+   "opp": "Dylan Dietrich",
+   "start": "2026-11-21T18:50:00+00:00",
    "book": "DraftKings",
-   "odds": 1.49,
-   "prob": 0.66,
-   "edge": -0.0166,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.25,
-   "to_win": 0.61,
-   "tier": null,
-   "fair_odds": 1.52,
-   "why": [
-    "Sharp books give BYU Cougars a 66% chance to win (Kansas Jayhawks 33%).",
-    "BYU Cougars: 8-2, 2-2 on the road.",
-    "Kansas Jayhawks: 4-6, 3-2 at home."
-   ],
-   "injuries": [],
-   "n_sharp": 4,
-   "link": "https://sportsbook.draftkings.com/?outcomes=0ML87191401_3"
-  },
-  {
-   "sport": "COLLEGE FOOTBALL",
-   "event": "Syracuse Orange @ Boston College Eagles",
-   "pick": "Syracuse Orange",
-   "opp": "Boston College Eagles",
-   "start": "2026-11-21T17:00:00+00:00",
-   "book": "FanDuel",
-   "odds": 1.67,
-   "prob": 0.5852,
-   "edge": -0.0227,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.25,
-   "to_win": 0.84,
-   "tier": null,
-   "fair_odds": 1.71,
-   "why": [
-    "Sharp books give Syracuse Orange a 59% chance to win (Boston College Eagles 41%).",
-    "Syracuse Orange: 5-5, 3-2 on the road.",
-    "Boston College Eagles: 4-6, 3-2 at home."
-   ],
-   "injuries": [],
-   "n_sharp": 4,
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624999942&selectionId=962159"
-  },
-  {
-   "sport": "COLLEGE FOOTBALL",
-   "event": "Colorado Buffaloes @ Cincinnati Bearcats",
-   "pick": "Cincinnati Bearcats",
-   "opp": "Colorado Buffaloes",
-   "start": "2026-11-21T17:00:00+00:00",
-   "book": "FanDuel",
-   "odds": 1.7,
-   "prob": 0.5862,
-   "edge": -0.0034,
-   "value": "fair",
-   "value_txt": "Fair price",
-   "units": 0.5,
-   "stake": 2.5,
-   "to_win": 1.75,
-   "tier": "lean",
-   "fair_odds": 1.71,
-   "why": [
-    "Sharp books give Cincinnati Bearcats a 59% chance to win (Colorado Buffaloes 41%).",
-    "Cincinnati Bearcats: 5-5, 5-1 at home.",
-    "Colorado Buffaloes: 4-6, 1-4 on the road."
-   ],
-   "injuries": [],
-   "n_sharp": 3,
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624999579&selectionId=36007278"
-  },
-  {
-   "sport": "COLLEGE FOOTBALL",
-   "event": "Vanderbilt Commodores @ Florida Gators",
-   "pick": "Florida Gators",
-   "opp": "Vanderbilt Commodores",
-   "start": "2026-11-21T17:00:00+00:00",
-   "book": "FanDuel",
-   "odds": 1.2,
-   "prob": 0.825,
-   "edge": -0.0099,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.25,
-   "to_win": 0.25,
-   "tier": null,
-   "fair_odds": 1.21,
-   "why": [
-    "Sharp books give Florida Gators a 83% chance to win (Vanderbilt Commodores 15%).",
-    "Florida Gators: 6-4, 3-2 at home.",
-    "Vanderbilt Commodores: 4-6, 1-3 on the road."
-   ],
-   "injuries": [],
-   "n_sharp": 4,
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624999956&selectionId=484733"
-  },
-  {
-   "sport": "COLLEGE FOOTBALL",
-   "event": "Wake Forest Demon Deacons @ Georgia Tech Yellow Jackets",
-   "pick": "Wake Forest Demon Deacons",
-   "opp": "Georgia Tech Yellow Jackets",
-   "start": "2026-11-21T17:00:00+00:00",
-   "book": "FanDuel",
-   "odds": 1.07,
-   "prob": 0.9263,
-   "edge": -0.0088,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.25,
-   "to_win": 0.09,
-   "tier": null,
-   "fair_odds": 1.08,
-   "why": [
-    "Sharp books give Wake Forest Demon Deacons a 93% chance to win.",
-    "Wake Forest Demon Deacons: 9-1, 5-0 on the road.",
-    "Georgia Tech Yellow Jackets: 3-7, 2-4 at home."
-   ],
-   "injuries": [],
-   "n_sharp": 4,
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625007030&selectionId=2147633"
-  },
-  {
-   "sport": "COLLEGE FOOTBALL",
-   "event": "Memphis Tigers @ Navy Midshipmen",
-   "pick": "Memphis Tigers",
-   "opp": "Navy Midshipmen",
-   "start": "2026-11-21T17:00:00+00:00",
-   "book": "FanDuel",
-   "odds": 1.72,
-   "prob": 0.569,
-   "edge": -0.0213,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.25,
-   "to_win": 0.9,
-   "tier": null,
-   "fair_odds": 1.76,
-   "why": [
-    "Sharp books give Memphis Tigers a 57% chance to win (Navy Midshipmen 43%).",
-    "Memphis Tigers: 8-2, 3-2 on the road.",
-    "Navy Midshipmen: 3-6, 3-1 at home."
-   ],
-   "injuries": [],
-   "n_sharp": 4,
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624999744&selectionId=975027"
-  },
-  {
-   "sport": "COLLEGE FOOTBALL",
-   "event": "Northwestern Wildcats @ Minnesota Golden Gophers",
-   "pick": "Northwestern Wildcats",
-   "opp": "Minnesota Golden Gophers",
-   "start": "2026-11-21T17:00:00+00:00",
-   "book": "theScore Bet",
-   "odds": 1.77,
-   "prob": 0.5491,
-   "edge": -0.0281,
+   "odds": 1.82,
+   "prob": 0.5301,
+   "edge": -0.0352,
    "value": "over",
    "value_txt": "Overpriced: the book is charging a lot here",
    "units": 0.0,
    "stake": 0.0,
    "to_win": 0.0,
    "tier": null,
-   "fair_odds": 1.82,
+   "fair_odds": 1.89,
    "why": [
-    "Sharp books give Northwestern Wildcats a 55% chance to win (Minnesota Golden Gophers 45%).",
-    "Northwestern Wildcats: 6-4, 1-3 on the road.",
-    "Minnesota Golden Gophers: 5-5, 4-2 at home."
+    "Sharp books give Clement Chidekh a 53% chance to win (Dylan Dietrich 47%)."
    ],
    "injuries": [],
-   "n_sharp": 4,
-   "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=4bfa3975-14db-4c03-afa8-ad3e0509e5b0&odds_numerator[0]=2&odds_denominator[0]=1"
+   "n_sharp": 1,
+   "link": null
   },
   {
-   "sport": "COLLEGE FOOTBALL",
-   "event": "North Texas Mean Green @ Tulane Green Wave",
-   "pick": "North Texas Mean Green",
-   "opp": "Tulane Green Wave",
-   "start": "2026-11-21T17:00:00+00:00",
+   "sport": "TENNIS",
+   "event": "Nauhany Vitoria Leme Da Silva vs Kayla Cross (Billie Jean King Cup)",
+   "pick": "Kayla Cross",
+   "opp": "Nauhany Vitoria Leme Da Silva",
+   "start": "2026-11-21T19:20:00+00:00",
    "book": "DraftKings",
-   "odds": 1.4,
-   "prob": 0.7066,
-   "edge": -0.0108,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.25,
-   "to_win": 0.5,
-   "tier": null,
-   "fair_odds": 1.42,
-   "why": [
-    "Sharp books give North Texas Mean Green a 71% chance to win (Tulane Green Wave 28%).",
-    "North Texas Mean Green: 7-3, 2-3 on the road.",
-    "Tulane Green Wave: 5-5, 3-2 at home."
-   ],
-   "injuries": [],
-   "n_sharp": 4,
-   "link": "https://sportsbook.draftkings.com/?outcomes=0ML87191645_3"
-  },
-  {
-   "sport": "COLLEGE FOOTBALL",
-   "event": "Wisconsin Badgers @ Purdue Boilermakers",
-   "pick": "Wisconsin Badgers",
-   "opp": "Purdue Boilermakers",
-   "start": "2026-11-21T17:00:00+00:00",
-   "book": "FanDuel",
-   "odds": 1.43,
-   "prob": 0.6766,
-   "edge": -0.0324,
+   "odds": 1.8,
+   "prob": 0.514,
+   "edge": -0.0748,
    "value": "over",
    "value_txt": "Overpriced: the book is charging a lot here",
    "units": 0.0,
    "stake": 0.0,
    "to_win": 0.0,
    "tier": null,
-   "fair_odds": 1.48,
+   "fair_odds": 1.95,
    "why": [
-    "Sharp books give Wisconsin Badgers a 68% chance to win (Purdue Boilermakers 32%).",
-    "Wisconsin Badgers: 6-4, 1-3 on the road.",
-    "Purdue Boilermakers: 3-7, 2-4 at home."
+    "Sharp books give Kayla Cross a 51% chance to win (Nauhany Vitoria Leme Da Silva 49%)."
    ],
    "injuries": [],
-   "n_sharp": 4,
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625000065&selectionId=662059"
+   "n_sharp": 1,
+   "link": null
   },
   {
-   "sport": "COLLEGE FOOTBALL",
-   "event": "North Carolina Tar Heels @ Virginia Cavaliers",
-   "pick": "Virginia Cavaliers",
-   "opp": "North Carolina Tar Heels",
-   "start": "2026-11-21T17:30:00+00:00",
-   "book": "FanDuel",
-   "odds": 1.85,
-   "prob": 0.5196,
-   "edge": -0.0387,
-   "value": "over",
-   "value_txt": "Overpriced: the book is charging a lot here",
-   "units": 0.0,
-   "stake": 0.0,
-   "to_win": 0.0,
-   "tier": null,
-   "fair_odds": 1.92,
-   "why": [
-    "Sharp books give Virginia Cavaliers a 52% chance to win (North Carolina Tar Heels 48%).",
-    "Virginia Cavaliers: 5-5, 5-1 at home.",
-    "North Carolina Tar Heels: 5-5, 3-1 on the road."
-   ],
-   "injuries": [],
-   "n_sharp": 4,
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625000181&selectionId=611101"
-  },
-  {
-   "sport": "NHL",
-   "event": "Edmonton Oilers @ Carolina Hurricanes",
-   "pick": "Carolina Hurricanes",
-   "opp": "Edmonton Oilers",
-   "start": "2026-11-21T18:00:00+00:00",
-   "book": "theScore Bet",
-   "odds": 1.57,
-   "prob": 0.6328,
-   "edge": -0.0064,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.25,
-   "to_win": 0.71,
-   "tier": null,
-   "fair_odds": 1.58,
-   "why": [
-    "Sharp books give Carolina Hurricanes a 63% chance to win (Edmonton Oilers 37%).",
-    "Carolina Hurricanes: 16-3-3, 9-2-1 on the road, top: Sebastian Aho 12 Goals.",
-    "Edmonton Oilers: 17-4-3, 10-1-1 on the road, top: Leon Draisaitl 21 Goals."
-   ],
-   "injuries": [
-    {
-     "team": "Edmonton Oilers",
-     "list": [
-      "Ryan Nugent-Hopkins (C, day-to-day)",
-      "Alec Regula (D, Injured Reserve)",
-      "Matt Savoie (C, Injured Reserve)",
-      "Frederik Andersen (G, Injured Reserve)"
-     ]
-    }
-   ],
-   "n_sharp": 4,
-   "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=7551c71f-6856-4ef7-99a9-e303f7613fdd&odds_numerator[0]=2&odds_denominator[0]=1"
-  },
-  {
-   "sport": "COLLEGE FOOTBALL",
-   "event": "Houston Cougars @ West Virginia Mountaineers",
-   "pick": "Houston Cougars",
-   "opp": "West Virginia Mountaineers",
-   "start": "2026-11-21T18:00:00+00:00",
-   "book": "theScore Bet",
-   "odds": 1.36,
-   "prob": 0.7131,
-   "edge": -0.0302,
-   "value": "over",
-   "value_txt": "Overpriced: the book is charging a lot here",
-   "units": 0.0,
-   "stake": 0.0,
-   "to_win": 0.0,
-   "tier": null,
-   "fair_odds": 1.4,
-   "why": [
-    "Sharp books give Houston Cougars a 71% chance to win (West Virginia Mountaineers 27%).",
-    "Houston Cougars: 7-3, 2-3 on the road.",
-    "West Virginia Mountaineers: 5-5, 3-3 at home."
-   ],
-   "injuries": [],
-   "n_sharp": 3,
-   "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=1bcce4d7-95e9-46d5-9719-87ad5cc57a81&odds_numerator[0]=2&odds_denominator[0]=1"
-  },
-  {
-   "sport": "COLLEGE FOOTBALL",
-   "event": "Western Kentucky Hilltoppers @ Liberty Flames",
-   "pick": "Liberty Flames",
-   "opp": "Western Kentucky Hilltoppers",
-   "start": "2026-11-21T18:00:00+00:00",
-   "book": "FanDuel",
-   "odds": 1.11,
-   "prob": 0.8892,
-   "edge": -0.013,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.25,
-   "to_win": 0.14,
-   "tier": null,
-   "fair_odds": 1.12,
-   "why": [
-    "Sharp books give Liberty Flames a 89% chance to win.",
-    "Liberty Flames: 9-1, 5-0 at home.",
-    "Western Kentucky Hilltoppers: 4-6, 1-5 on the road."
-   ],
-   "injuries": [],
-   "n_sharp": 4,
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625000443&selectionId=5756646"
-  },
-  {
-   "sport": "COLLEGE FOOTBALL",
-   "event": "Tennessee Tech Golden Eagles @ Mississippi State Bulldogs",
-   "pick": "Mississippi State Bulldogs",
-   "opp": "Tennessee Tech Golden Eagles",
-   "start": "2026-11-21T18:00:00+00:00",
+   "sport": "TENNIS",
+   "event": "Daniil Medvedev @ Alexander Zverev",
+   "pick": "Alexander Zverev",
+   "opp": "Daniil Medvedev",
+   "start": "2026-11-21T19:30:00+00:00",
    "book": "DraftKings",
+   "odds": 1.61,
+   "prob": 0.6001,
+   "edge": -0.0338,
+   "value": "over",
+   "value_txt": "Overpriced: the book is charging a lot here",
+   "units": 0.0,
+   "stake": 0.0,
+   "to_win": 0.0,
+   "tier": null,
+   "fair_odds": 1.67,
+   "why": [
+    "Sharp books give Alexander Zverev a 60% chance to win (Daniil Medvedev 40%)."
+   ],
+   "injuries": [],
+   "n_sharp": 4,
+   "link": "https://sportsbook.draftkings.com/?outcomes=0ML87349832_1"
+  },
+  {
+   "sport": "TENNIS",
+   "event": "Alexander Zverev vs Daniil Medvedev (ATP World Tour Finals Men Singles)",
+   "pick": "Alexander Zverev",
+   "opp": "Daniil Medvedev",
+   "start": "2026-11-21T19:30:00+00:00",
+   "book": "DraftKings",
+   "odds": 1.613,
+   "prob": 0.5933,
+   "edge": -0.043,
+   "value": "over",
+   "value_txt": "Overpriced: the book is charging a lot here",
+   "units": 0.0,
+   "stake": 0.0,
+   "to_win": 0.0,
+   "tier": null,
+   "fair_odds": 1.69,
+   "why": [
+    "Sharp books give Alexander Zverev a 59% chance to win (Daniil Medvedev 41%)."
+   ],
+   "injuries": [],
+   "n_sharp": 1,
+   "link": null
+  },
+  {
+   "sport": "TENNIS",
+   "event": "Elmer Moller vs Thiago Seyboth Wild (ATP Challenger Montevideo, Uruguay Men Singles)",
+   "pick": "Thiago Seyboth Wild",
+   "opp": "Elmer Moller",
+   "start": "2026-11-21T20:00:00+00:00",
+   "book": "DraftKings",
+   "odds": 1.467,
+   "prob": 0.6545,
+   "edge": -0.0398,
+   "value": "over",
+   "value_txt": "Overpriced: the book is charging a lot here",
+   "units": 0.0,
+   "stake": 0.0,
+   "to_win": 0.0,
+   "tier": null,
+   "fair_odds": 1.53,
+   "why": [
+    "Sharp books give Thiago Seyboth Wild a 65% chance to win (Elmer Moller 34%)."
+   ],
+   "injuries": [],
+   "n_sharp": 1,
+   "link": null
+  },
+  {
+   "sport": "TENNIS",
+   "event": "Leyre Romero Gormaz vs Lucia Bronzetti (WTA 125K Colina, Chile Women Singles)",
+   "pick": "Leyre Romero Gormaz",
+   "opp": "Lucia Bronzetti",
+   "start": "2026-11-21T20:00:00+00:00",
+   "book": "theScore Bet",
+   "odds": 1.571,
+   "prob": 0.5932,
+   "edge": -0.0681,
+   "value": "over",
+   "value_txt": "Overpriced: the book is charging a lot here",
+   "units": 0.0,
+   "stake": 0.0,
+   "to_win": 0.0,
+   "tier": null,
+   "fair_odds": 1.69,
+   "why": [
+    "Sharp books give Leyre Romero Gormaz a 59% chance to win (Lucia Bronzetti 41%)."
+   ],
+   "injuries": [],
+   "n_sharp": 1,
+   "link": null
+  },
+  {
+   "sport": "TENNIS",
+   "event": "Coco Gauff vs Dalma Galfi (Billie Jean King Cup)",
+   "pick": "Coco Gauff",
+   "opp": "Dalma Galfi",
+   "start": "2026-11-21T20:00:00+00:00",
+   "book": "FanDuel",
    "odds": 1.03,
-   "prob": 0.9545,
-   "edge": -0.0169,
+   "prob": 0.9644,
+   "edge": -0.0067,
    "value": "slight",
    "value_txt": "A bit overpriced (books' cut)",
    "units": 0.25,
    "stake": 1.25,
    "to_win": 0.04,
    "tier": null,
-   "fair_odds": 1.05,
+   "fair_odds": 1.04,
    "why": [
-    "Sharp books give Mississippi State Bulldogs a 95% chance to win.",
-    "Mississippi State Bulldogs: 4-6, 2-4 at home.",
-    "Tennessee Tech Golden Eagles: 9-2, 4-1 on the road."
+    "Sharp books give Coco Gauff a 96% chance to win (Dalma Galfi 2%)."
    ],
    "injuries": [],
    "n_sharp": 1,
-   "link": "https://sportsbook.draftkings.com/?outcomes=0ML87191573_1"
-  }
- ],
- "big_parlays": [
-  {
-   "label": "Safest 4x+",
-   "book": "FanDuel",
-   "odds": 4.05,
-   "prob": 0.244,
-   "ev": -0.0122,
-   "units": 0.5,
-   "stake": 2.5,
-   "to_win": 7.62,
-   "legs": [
-    {
-     "pick": "Army Black Knights",
-     "event": "East Carolina Pirates @ Army Black Knights",
-     "sport": "COLLEGE FOOTBALL",
-     "odds": 1.47,
-     "prob": 0.678,
-     "start": "2026-11-21T17:00:00+00:00",
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624999699&selectionId=1004069",
-     "sid": [
-      null,
-      "1004069",
-      "36313616"
-     ]
-    },
-    {
-     "pick": "Ohio State Buckeyes",
-     "event": "Ohio State Buckeyes @ Nebraska Cornhuskers",
-     "sport": "COLLEGE FOOTBALL",
-     "odds": 1.62,
-     "prob": 0.614,
-     "start": "2026-11-21T16:59:00+00:00",
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625006693&selectionId=484727",
-     "sid": [
-      null,
-      "484727",
-      "36313687"
-     ]
-    },
-    {
-     "pick": "Cincinnati Bearcats",
-     "event": "Colorado Buffaloes @ Cincinnati Bearcats",
-     "sport": "COLLEGE FOOTBALL",
-     "odds": 1.7,
-     "prob": 0.586,
-     "start": "2026-11-21T17:00:00+00:00",
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624999579&selectionId=36007278",
-     "sid": [
-      null,
-      "36007278",
-      "36313615"
-     ]
-    }
-   ],
-   "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.624999699&selectionId[0]=1004069&marketId[1]=42.625006693&selectionId[1]=484727&marketId[2]=42.624999579&selectionId[2]=36007278",
-   "alts": [
-    {
-     "book": "DraftKings",
-     "odds": 3.75,
-     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87191397_1+0ML87191492_3+0ML87191410_1"
-    },
-    {
-     "book": "theScore Bet",
-     "odds": 3.9,
-     "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=b941b688-a5ff-48af-a80f-594e3289796c&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=16d6e6cb-5838-4b00-945e-5c2831b20e88&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=900448c1-2a5d-468d-ac18-35821aa3a5df&odds_numerator[2]=2&odds_denominator[2]=1"
-    }
-   ]
+   "link": null
   },
   {
-   "label": "Next safest 4x+",
-   "book": "FanDuel",
-   "odds": 4.02,
-   "prob": 0.2353,
-   "ev": -0.0539,
-   "units": 0.5,
-   "stake": 2.5,
-   "to_win": 7.55,
-   "legs": [
-    {
-     "pick": "North Texas Mean Green",
-     "event": "North Texas Mean Green @ Tulane Green Wave",
-     "sport": "COLLEGE FOOTBALL",
-     "odds": 1.4,
-     "prob": 0.707,
-     "start": "2026-11-21T17:00:00+00:00",
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625008255&selectionId=593458",
-     "sid": [
-      null,
-      "593458",
-      "36313704"
-     ]
-    },
-    {
-     "pick": "Syracuse Orange",
-     "event": "Syracuse Orange @ Boston College Eagles",
-     "sport": "COLLEGE FOOTBALL",
-     "odds": 1.67,
-     "prob": 0.585,
-     "start": "2026-11-21T17:00:00+00:00",
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624999942&selectionId=962159",
-     "sid": [
-      null,
-      "962159",
-      "36313624"
-     ]
-    },
-    {
-     "pick": "Memphis Tigers",
-     "event": "Memphis Tigers @ Navy Midshipmen",
-     "sport": "COLLEGE FOOTBALL",
-     "odds": 1.72,
-     "prob": 0.569,
-     "start": "2026-11-21T17:00:00+00:00",
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624999744&selectionId=975027",
-     "sid": [
-      null,
-      "975027",
-      "36313619"
-     ]
-    }
+   "sport": "TENNIS",
+   "event": "Pedro Liborio vs Agustin Eduardo Cuellar Lorberg (Santa Cruz)",
+   "pick": "Agustin Eduardo Cuellar Lorberg",
+   "opp": "Pedro Liborio",
+   "start": "2026-11-21T20:00:00+00:00",
+   "book": "DraftKings",
+   "odds": 1.4,
+   "prob": 0.6687,
+   "edge": -0.0638,
+   "value": "over",
+   "value_txt": "Overpriced: the book is charging a lot here",
+   "units": 0.0,
+   "stake": 0.0,
+   "to_win": 0.0,
+   "tier": null,
+   "fair_odds": 1.5,
+   "why": [
+    "Sharp books give Agustin Eduardo Cuellar Lorberg a 67% chance to win (Pedro Liborio 32%)."
    ],
-   "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.625008255&selectionId[0]=593458&marketId[1]=42.624999942&selectionId[1]=962159&marketId[2]=42.624999744&selectionId[2]=975027",
-   "alts": [
-    {
-     "book": "DraftKings",
-     "odds": 3.88,
-     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87191645_3+0ML87191388_3+0ML87191411_3"
-    },
-    {
-     "book": "theScore Bet",
-     "odds": 3.94,
-     "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=32d8b27e-18f9-4c36-969c-30022545d65c&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=8cef5b03-e182-46cf-8198-2baf90cbcebe&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=04f1ab55-36dc-45e0-9968-ddb5338075e1&odds_numerator[2]=2&odds_denominator[2]=1"
-    }
-   ]
+   "injuries": [],
+   "n_sharp": 1,
+   "link": null
+  },
+  {
+   "sport": "TENNIS",
+   "event": "James Kent Trotter vs Liam Draxl (ATP Challenger Drummondville, Canada Men Singles)",
+   "pick": "Liam Draxl",
+   "opp": "James Kent Trotter",
+   "start": "2026-11-21T20:10:00+00:00",
+   "book": "theScore Bet",
+   "odds": 1.4,
+   "prob": 0.6858,
+   "edge": -0.0399,
+   "value": "over",
+   "value_txt": "Overpriced: the book is charging a lot here",
+   "units": 0.0,
+   "stake": 0.0,
+   "to_win": 0.0,
+   "tier": null,
+   "fair_odds": 1.46,
+   "why": [
+    "Sharp books give Liam Draxl a 69% chance to win (James Kent Trotter 30%)."
+   ],
+   "injuries": [],
+   "n_sharp": 1,
+   "link": null
+  },
+  {
+   "sport": "TENNIS",
+   "event": "Matheus Pucinelli de Almeida vs Guido Ivan Justo (ATP Challenger Montevideo, Uruguay Men Singles)",
+   "pick": "Matheus Pucinelli de Almeida",
+   "opp": "Guido Ivan Justo",
+   "start": "2026-11-21T21:10:00+00:00",
+   "book": "DraftKings",
+   "odds": 1.398,
+   "prob": 0.6642,
+   "edge": -0.0714,
+   "value": "over",
+   "value_txt": "Overpriced: the book is charging a lot here",
+   "units": 0.0,
+   "stake": 0.0,
+   "to_win": 0.0,
+   "tier": null,
+   "fair_odds": 1.51,
+   "why": [
+    "Sharp books give Matheus Pucinelli de Almeida a 66% chance to win (Guido Ivan Justo 33%)."
+   ],
+   "injuries": [],
+   "n_sharp": 1,
+   "link": null
+  },
+  {
+   "sport": "TENNIS",
+   "event": "Guiomar Maristany Zuleta de Reales vs Rebeka Masarova (WTA 125K Colina, Chile Women Singles)",
+   "pick": "Rebeka Masarova",
+   "opp": "Guiomar Maristany Zuleta de Reales",
+   "start": "2026-11-21T21:10:00+00:00",
+   "book": "theScore Bet",
+   "odds": 1.714,
+   "prob": 0.5523,
+   "edge": -0.0534,
+   "value": "over",
+   "value_txt": "Overpriced: the book is charging a lot here",
+   "units": 0.0,
+   "stake": 0.0,
+   "to_win": 0.0,
+   "tier": null,
+   "fair_odds": 1.81,
+   "why": [
+    "Sharp books give Rebeka Masarova a 55% chance to win (Guiomar Maristany Zuleta de Reales 45%)."
+   ],
+   "injuries": [],
+   "n_sharp": 1,
+   "link": null
+  },
+  {
+   "sport": "TENNIS",
+   "event": "Ann Li vs Anna Bondar (Billie Jean King Cup)",
+   "pick": "Ann Li",
+   "opp": "Anna Bondar",
+   "start": "2026-11-21T21:10:00+00:00",
+   "book": "DraftKings",
+   "odds": 1.263,
+   "prob": 0.7416,
+   "edge": -0.0634,
+   "value": "over",
+   "value_txt": "Overpriced: the book is charging a lot here",
+   "units": 0.0,
+   "stake": 0.0,
+   "to_win": 0.0,
+   "tier": null,
+   "fair_odds": 1.35,
+   "why": [
+    "Sharp books give Ann Li a 74% chance to win (Anna Bondar 24%)."
+   ],
+   "injuries": [],
+   "n_sharp": 1,
+   "link": null
+  },
+  {
+   "sport": "TENNIS",
+   "event": "Felipe De Dios vs Francisco Gay (Santa Cruz)",
+   "pick": "Felipe De Dios",
+   "opp": "Francisco Gay",
+   "start": "2026-11-21T21:30:00+00:00",
+   "book": "DraftKings",
+   "odds": 1.364,
+   "prob": 0.6874,
+   "edge": -0.0624,
+   "value": "over",
+   "value_txt": "Overpriced: the book is charging a lot here",
+   "units": 0.0,
+   "stake": 0.0,
+   "to_win": 0.0,
+   "tier": null,
+   "fair_odds": 1.45,
+   "why": [
+    "Sharp books give Felipe De Dios a 69% chance to win (Francisco Gay 30%)."
+   ],
+   "injuries": [],
+   "n_sharp": 1,
+   "link": null
+  },
+  {
+   "sport": "TENNIS",
+   "event": "Alan Magadan vs Matteo Covato (Chihuahua)",
+   "pick": "Alan Magadan",
+   "opp": "Matteo Covato",
+   "start": "2026-11-21T22:15:00+00:00",
+   "book": "theScore Bet",
+   "odds": 1.2,
+   "prob": 0.7802,
+   "edge": -0.0638,
+   "value": "over",
+   "value_txt": "Overpriced: the book is charging a lot here",
+   "units": 0.0,
+   "stake": 0.0,
+   "to_win": 0.0,
+   "tier": null,
+   "fair_odds": 1.28,
+   "why": [
+    "Sharp books give Alan Magadan a 78% chance to win (Matteo Covato 20%)."
+   ],
+   "injuries": [],
+   "n_sharp": 1,
+   "link": null
   }
- ]
+ ],
+ "big_parlays": []
 }

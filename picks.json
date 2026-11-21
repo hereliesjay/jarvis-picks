@@ -1,12 +1,12 @@
 {
  "version": 19,
- "updated": "2026-11-21T22:00:10+00:00",
- "last_scan": "2026-11-21T21:00:20+00:00",
+ "updated": "2026-11-21T22:10:16+00:00",
+ "last_scan": "2026-11-21T22:10:16+00:00",
  "unit": 5.0,
  "bankroll": 243.53,
  "bank_start": 250.0,
  "unit_pct": 0.02,
- "credits": 448,
+ "credits": 447,
  "picks": [
   {
    "tier": "lean",
@@ -245,7 +245,7 @@
    "on": true
   }
  },
- "watching": 80,
+ "watching": 63,
  "history": [
   {
    "type": "lean",
@@ -1112,19 +1112,19 @@
    "pick": "New York Knicks",
    "opp": "Portland Trail Blazers",
    "start": "2026-11-22T00:40:00+00:00",
-   "book": "FanDuel",
-   "odds": 1.65,
-   "prob": 0.5947,
-   "edge": -0.0187,
+   "book": "theScore Bet",
+   "odds": 1.69,
+   "prob": 0.577,
+   "edge": -0.0249,
    "value": "slight",
    "value_txt": "A bit overpriced (books' cut)",
    "units": 0.25,
    "stake": 1.25,
-   "to_win": 0.81,
+   "to_win": 0.86,
    "tier": null,
-   "fair_odds": 1.68,
+   "fair_odds": 1.73,
    "why": [
-    "Sharp books give New York Knicks a 59% chance to win (Portland Trail Blazers 41%).",
+    "Sharp books give New York Knicks a 58% chance to win (Portland Trail Blazers 42%).",
     "New York Knicks: 9-6, 4-3 at home, 109.5 pts/game, top: Jalen Brunson 26.6 PPG.",
     "Portland Trail Blazers: 10-5, 7-3 on the road, 117.5 pts/game, top: Deni Avdija 24.2 PPG."
    ],
@@ -1148,7 +1148,7 @@
     }
    ],
    "n_sharp": 5,
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626843201&selectionId=237482"
+   "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=cb6686c2-b9c4-4876-a974-e9b41b5beae9&odds_numerator[0]=2&odds_denominator[0]=1"
   },
   {
    "sport": "COLLEGE BASKETBALL",
@@ -1207,17 +1207,17 @@
    "pick": "Dallas Mavericks",
    "opp": "Los Angeles Clippers",
    "start": "2026-11-22T01:10:00+00:00",
-   "book": "FanDuel",
+   "book": "DraftKings",
    "odds": 1.51,
-   "prob": 0.6379,
-   "edge": -0.0367,
+   "prob": 0.6416,
+   "edge": -0.0312,
    "value": "over",
    "value_txt": "Overpriced: the book is charging a lot here",
    "units": 0.0,
    "stake": 0.0,
    "to_win": 0.0,
    "tier": null,
-   "fair_odds": 1.57,
+   "fair_odds": 1.56,
    "why": [
     "Sharp books give Dallas Mavericks a 64% chance to win (Los Angeles Clippers 36%).",
     "Dallas Mavericks: 8-7, 2-5 on the road, 112.3 pts/game, top: Cooper Flagg 24.2 PPG."
@@ -1234,7 +1234,7 @@
     }
    ],
    "n_sharp": 5,
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626843185&selectionId=237472"
+   "link": "https://sportsbook.draftkings.com/?outcomes=0ML87336643_1"
   },
   {
    "sport": "NBA",
@@ -1242,19 +1242,19 @@
    "pick": "Minnesota Timberwolves",
    "opp": "Memphis Grizzlies",
    "start": "2026-11-22T01:10:00+00:00",
-   "book": "FanDuel",
-   "odds": 1.44,
-   "prob": 0.6778,
-   "edge": -0.0239,
+   "book": "theScore Bet",
+   "odds": 1.47,
+   "prob": 0.6717,
+   "edge": -0.0126,
    "value": "slight",
    "value_txt": "A bit overpriced (books' cut)",
    "units": 0.25,
    "stake": 1.25,
-   "to_win": 0.55,
+   "to_win": 0.59,
    "tier": null,
-   "fair_odds": 1.48,
+   "fair_odds": 1.49,
    "why": [
-    "Sharp books give Minnesota Timberwolves a 68% chance to win (Memphis Grizzlies 31%).",
+    "Sharp books give Minnesota Timberwolves a 67% chance to win (Memphis Grizzlies 32%).",
     "Minnesota Timberwolves: 11-5, 7-3 at home, 115.6 pts/game, top: Ayo Dosunmu 17.8 PPG.",
     "Memphis Grizzlies: 12-4, 8-0 on the road, 122.1 pts/game, top: Ty Jerome 25.4 PPG."
    ],
@@ -1278,7 +1278,7 @@
     }
    ],
    "n_sharp": 5,
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626843191&selectionId=237478"
+   "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=565e6d37-596f-48cf-994b-56866092f091&odds_numerator[0]=2&odds_denominator[0]=1"
   },
   {
    "sport": "NBA",
@@ -1286,17 +1286,17 @@
    "pick": "San Antonio Spurs",
    "opp": "New Orleans Pelicans",
    "start": "2026-11-22T01:10:00+00:00",
-   "book": "FanDuel",
+   "book": "DraftKings",
    "odds": 1.06,
-   "prob": 0.9305,
-   "edge": -0.0136,
+   "prob": 0.9269,
+   "edge": -0.0175,
    "value": "slight",
    "value_txt": "A bit overpriced (books' cut)",
    "units": 0.25,
    "stake": 1.25,
    "to_win": 0.08,
    "tier": null,
-   "fair_odds": 1.07,
+   "fair_odds": 1.08,
    "why": [
     "Sharp books give San Antonio Spurs a 93% chance to win.",
     "San Antonio Spurs: 13-3, 6-3 at home, 117.5 pts/game, top: Victor Wembanyama 28.6 PPG.",
@@ -1322,7 +1322,7 @@
     }
    ],
    "n_sharp": 5,
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626843194&selectionId=237471"
+   "link": "https://sportsbook.draftkings.com/?outcomes=0ML87336645_1"
   },
   {
    "sport": "COLLEGE BASKETBALL",
@@ -1513,19 +1513,19 @@
    "pick": "Boston Celtics",
    "opp": "Sacramento Kings",
    "start": "2026-11-22T03:10:00+00:00",
-   "book": "DraftKings",
-   "odds": 1.13,
-   "prob": 0.8722,
-   "edge": -0.0144,
+   "book": "FanDuel",
+   "odds": 1.17,
+   "prob": 0.8384,
+   "edge": -0.019,
    "value": "slight",
    "value_txt": "A bit overpriced (books' cut)",
    "units": 0.25,
    "stake": 1.25,
-   "to_win": 0.16,
+   "to_win": 0.21,
    "tier": null,
-   "fair_odds": 1.15,
+   "fair_odds": 1.19,
    "why": [
-    "Sharp books give Boston Celtics a 87% chance to win.",
+    "Sharp books give Boston Celtics a 84% chance to win (Sacramento Kings 14%).",
     "Boston Celtics: 11-4, 5-3 on the road, 113.9 pts/game, top: Paul George 19.9 PPG.",
     "Sacramento Kings: 1-14, 0-9 at home, 107.5 pts/game, top: Darius Acuff Jr. 25.7 PPG."
    ],
@@ -1548,7 +1548,7 @@
     }
    ],
    "n_sharp": 5,
-   "link": "https://sportsbook.draftkings.com/?outcomes=0ML87336646_3"
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626843197&selectionId=60427"
   }
  ],
  "big_parlays": [
@@ -1636,39 +1636,39 @@
   {
    "label": "Next safest 4x+",
    "book": "theScore Bet",
-   "odds": 4.01,
-   "prob": 0.2361,
-   "ev": -0.0536,
+   "odds": 4.1,
+   "prob": 0.2396,
+   "ev": -0.0177,
    "units": 0.5,
    "stake": 2.5,
-   "to_win": 7.52,
+   "to_win": 7.75,
    "legs": [
     {
-     "pick": "Ottawa Senators",
-     "event": "Los Angeles Kings @ Ottawa Senators",
-     "sport": "NHL",
-     "odds": 1.54,
-     "prob": 0.632,
-     "start": "2026-11-22T00:00:00+00:00",
-     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=51277ea1-27ef-46fb-81d0-beb33bbb71d5&odds_numerator[0]=2&odds_denominator[0]=1",
+     "pick": "Minnesota Timberwolves",
+     "event": "Memphis Grizzlies @ Minnesota Timberwolves",
+     "sport": "NBA",
+     "odds": 1.47,
+     "prob": 0.672,
+     "start": "2026-11-22T01:10:00+00:00",
+     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=565e6d37-596f-48cf-994b-56866092f091&odds_numerator[0]=2&odds_denominator[0]=1",
      "sid": [
-      "d364a349-4249-4424-9882-ef94279f3d97",
-      "51277ea1-27ef-46fb-81d0-beb33bbb71d5",
-      "d2b4a1b7-8190-49ef-b68f-6b6b3091e220"
+      "17373abf-21fe-42ac-905e-c60bdd5323e4",
+      "565e6d37-596f-48cf-994b-56866092f091",
+      "53003abf-702f-4cae-975b-d3129e673c58"
      ]
     },
     {
-     "pick": "Michigan Wolverines",
-     "event": "Michigan Wolverines @ Villanova Wildcats",
-     "sport": "COLLEGE BASKETBALL",
-     "odds": 1.54,
-     "prob": 0.628,
-     "start": "2026-11-22T00:00:00+00:00",
-     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=31fc2b22-716e-434f-8be1-9cbac91da79c&odds_numerator[0]=2&odds_denominator[0]=1",
+     "pick": "Utah Mammoth",
+     "event": "Anaheim Ducks @ Utah Mammoth",
+     "sport": "NHL",
+     "odds": 1.65,
+     "prob": 0.6,
+     "start": "2026-11-22T02:00:00+00:00",
+     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=492f491a-b2f2-4117-84e1-7a3029738cee&odds_numerator[0]=2&odds_denominator[0]=1",
      "sid": [
-      "ff4c066f-daf1-4582-bb4b-3fc54563bcaf",
-      "31fc2b22-716e-434f-8be1-9cbac91da79c",
-      "d42f7834-a82a-4824-ba3c-d05afdca9908"
+      "3bca69d1-52a2-439f-9044-4d2416008837",
+      "492f491a-b2f2-4117-84e1-7a3029738cee",
+      "4bf3386e-1913-4a80-9e93-78f74e3dd8ac"
      ]
     },
     {
@@ -1686,17 +1686,17 @@
      ]
     }
    ],
-   "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=51277ea1-27ef-46fb-81d0-beb33bbb71d5&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=31fc2b22-716e-434f-8be1-9cbac91da79c&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=16e82a27-7495-4592-926b-d1790e919ab3&odds_numerator[2]=2&odds_denominator[2]=1",
+   "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=565e6d37-596f-48cf-994b-56866092f091&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=492f491a-b2f2-4117-84e1-7a3029738cee&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=16e82a27-7495-4592-926b-d1790e919ab3&odds_numerator[2]=2&odds_denominator[2]=1",
    "alts": [
     {
      "book": "DraftKings",
-     "odds": 3.84,
-     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87329203_1+0ML87342917_3+0ML87329187_1"
+     "odds": 3.76,
+     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87336644_1+0ML87329209_1+0ML87329187_1"
     },
     {
      "book": "FanDuel",
-     "odds": 3.89,
-     "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.626714831&selectionId[0]=25599&marketId[1]=42.627277289&selectionId[1]=697627&marketId[2]=42.626714683&selectionId[2]=25598"
+     "odds": 3.73,
+     "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.626843191&selectionId[0]=237478&marketId[1]=42.626714868&selectionId[1]=83920082&marketId[2]=42.626714683&selectionId[2]=25598"
     }
    ]
   }

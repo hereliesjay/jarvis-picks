@@ -151,11 +151,34 @@ tbody tr:hover td{background:rgba(242,232,219,.03)}
 .tt{background:var(--bean2);border-color:var(--seam)}
 .empty{color:var(--mute)}
 .note{color:var(--mute);max-width:44rem}
+
+.fairline{font-size:.86rem;margin-top:.55rem;color:var(--mute)}.fairline b{color:var(--cream);font-weight:700}
+.ptab{margin-top:.6rem;border:1px solid var(--seam);border-radius:12px;overflow:hidden}
+.prow{display:grid;grid-template-columns:1fr auto 4.2rem 2.6rem;gap:.5rem;align-items:center;padding:.42rem .65rem;font-size:.82rem;border-top:1px solid var(--seam)}
+.prow:first-child{border-top:0}.prow.top{background:rgba(219,165,100,.08)}.prow b{text-align:right}
+.pev{color:var(--mute);font-size:.75rem;text-align:right}.pev.pos{color:var(--olive)}
+.plink{color:var(--caramel);font-weight:700;font-size:.75rem;text-decoration:none;text-align:right}
+.pick.dead{opacity:.55;filter:grayscale(.6)}
+.deadmsg{margin-top:.55rem;padding:.45rem .6rem;border-radius:9px;background:rgba(222,143,143,.14);color:var(--rose);font-weight:800;font-size:.85rem}
+.took-btn,.setbtn,.xbtn{background:transparent;border:1px solid var(--seam);color:var(--cream);font:inherit;font-size:.78rem;font-weight:600;padding:.38rem .7rem;border-radius:9px;cursor:pointer;margin-top:.5rem}
+.took-btn:hover,.setbtn:hover{border-color:var(--caramel)}
+.setbtn{margin:0 0 0 .4rem;padding:.25rem .6rem}
+.xbtn{margin:0;padding:.2rem .5rem;font-size:.7rem;color:var(--mute)}
+.tookf{display:flex;flex-wrap:wrap;gap:.5rem;align-items:end;margin-top:.55rem}
+.tookf label,.srow{display:flex;flex-direction:column;gap:.2rem;font-size:.72rem;color:var(--mute)}
+.tookf input,.tookf select,.srow input,.srow select{background:var(--bean2);border:1px solid var(--seam);color:var(--cream);border-radius:8px;padding:.4rem .5rem;font:inherit;font-size:.85rem;width:7rem}
+.srow input,.srow select{width:min(100%,16rem)}
+.tookf .go{margin:0}
+.took{color:var(--olive)}
+#settings{margin-bottom:.9rem;display:grid;gap:.7rem}#settings[hidden]{display:none}
+.bks{display:flex;flex-wrap:wrap;gap:.8rem;color:var(--cream);font-size:.85rem}
+.meta.pos{color:var(--olive)}.meta.neg{color:var(--rose)}
 </style></head>
 <body><div class="wrap">
 <header><div><h1>Jarvis<span class="tonight" id="tonight">Tonight's card</span></h1><div class="status" id="status"><span class="dot"></span><span>Loading…</span></div></div>
 <div class="status" id="unit"></div></header>
 
+<div class="card" id="settings" hidden></div>
 <div class="tiles" id="tiles"></div>
 
 <nav class="tabs" id="tabs"></nav>
@@ -178,45 +201,17 @@ const when=iso=>{const d=new Date(iso);return d.toLocaleString([], {weekday:'sho
 const ago=iso=>{if(!iso)return 'never';const m=Math.round((Date.now()-new Date(iso))/60000);return m<1?'just now':m<60?m+'m ago':Math.round(m/60)+'h ago'};
 const el=(tag,cls,txt)=>{const e=document.createElement(tag);if(cls)e.className=cls;if(txt!=null)e.textContent=txt;return e};
 function tile(l,v,s,cls){const c=el('div','card tile');c.append(el('div','l',l));const vv=el('div','v'+(cls?' '+cls:''),v);c.append(vv);if(s)c.append(el('div','s',s));return c}
-function pickCard(p){
-  const c=el('div','card pick '+p.tier+(p.started?' started':''));
-  const top=el('div');top.append(el('span','badge'+(p.tier==='lean'?' lean':''),p.tier==='best'?(p.units>=1.5?'STRONG BET':'BEST BET'):'LEAN'));top.append(el('span','sp',p.sport+' · '+(p.started?'started':when(p.start))));c.append(top);
-  c.append(el('div','pk',p.pick+' to win'));c.append(el('div','ev',p.event));
-  const r=el('div','row');const a=el('span');a.append('Odds ');a.append(el('b',null,p.odds.toFixed(2)));const b=el('span',null,p.book);r.append(a,b);c.append(r);
-  const bet=el('div','bet');const L=el('div');L.append(el('div','u',p.units+'u · '+money(p.stake)));L.append(el('div','w','to win '+money(p.to_win)));bet.append(L);
-  const R=el('div','ev');R.style.textAlign='right';R.textContent='edge '+pct(p.edge);R.append(el('div',null,'win chance '+Math.round(p.prob*100)+'%'));bet.append(R);c.append(bet);
-  const cf=el('div','conf');const i=el('i');i.style.width=Math.max(8,Math.min(100,(p.edge+0.01)/0.07*100))+'%';cf.append(i);c.append(cf);
-  if(p.link){setTimeout(()=>{},0)}
-  let m='Min odds '+(p.min_odds||'—');if(p.now_odds&&p.now_odds!==p.odds)m+=' · now '+p.now_odds.toFixed(2);if(p.n_sharp)m+=' · '+p.n_sharp+' sharp book'+(p.n_sharp>1?'s':'');
-  c.append(el('div','meta',m));if(p.flag)c.append(el('div','flag','⚠ '+p.flag));if(p.link)c.append(goBtn(p.link,'Bet at '+p.book+''));return c}
 function parlayCard(p){
   const c=el('div','card pick');const top=el('div');top.append(el('span','badge parlay',p.label+' PARLAY'));top.append(el('span','sp',p.legs.length+' legs · '+p.book));c.append(top);
-  const ul=el('ul','legs');p.legs.forEach(l=>{const li=el('li');li.append(el('span',null,l.pick));li.append(el('b',null,l.odds.toFixed(2)));ul.append(li)});c.append(ul);
+  const ul=el('ul','legs');p.legs.forEach(l=>{const li=el('li');li.append(el('span',null,l.pick));li.append(el('b',null,fo(l.odds)));ul.append(li)});c.append(ul);
   const bet=el('div','bet');const L=el('div');L.append(el('div','u',p.units+'u · '+money(p.stake)));L.append(el('div','w','pays '+p.odds.toFixed(2)+' · to win '+money(p.to_win)));bet.append(L);
   const R=el('div','ev');R.style.textAlign='right';R.textContent='hits ~'+Math.round(p.prob*100)+'%';R.append(el('div',null,p.ev>0?'edge '+pct(p.ev):'for fun'));bet.append(R);c.append(bet);
   c.append(el('div','meta','First game '+when(p.legs.map(l=>l.start).sort()[0])));return c}
 function fill(id,items,fn,msg){const t=$(id);t.replaceChildren();if(!items.length){t.append(el('div','card empty',msg));return}items.forEach(x=>t.append(fn(x)))}
 function goBtn(href,txt,alt){const a=el('a','go'+(alt?' alt':''),txt);a.href=href;a.target='_blank';a.rel='noopener';return a}
-function gameCard(g){
-  const c=el('div','card game');
-  const gh=el('div','gh');gh.append(el('span','gt',g.sport+' · '+when(g.start)+' · vs '+g.opp));
-  gh.append(el('span','vb '+g.value,{value:'VALUE',fair:'FAIR PRICE',slight:'SLIGHTLY OVERPRICED',over:'OVERPRICED'}[g.value]));c.append(gh);
-  const gp=el('div','gp','Bot picks: '+g.pick+' ');gp.append(el('small',null,Math.round(g.prob*100)+'% to win'));c.append(gp);
-  const l1=el('div','gline');const a=el('span');a.append('Best price ');a.append(el('b',null,g.odds.toFixed(2)));a.append(' at '+g.book);
-  const b=el('span');b.append('Fair odds ');b.append(el('b',null,g.fair_odds?g.fair_odds.toFixed(2):'—'));l1.append(a,b);c.append(l1);
-  const l2=el('div','bet');const L=el('div');
-  if(g.units>0){L.append(el('div','u',g.units+'u · '+money(g.stake)));L.append(el('div','w','to win '+money(g.to_win)))}
-  else{L.append(el('div','u','Pick only'));L.append(el('div','ev','price too high to bet'))}
-  l2.append(L);const R=el('div','ev');R.style.textAlign='right';R.textContent=g.value_txt;R.append(el('div',null,'edge '+pct(g.edge)));l2.append(R);c.append(l2);
-  if(g.why&&g.why.length){const d=el('details');d.append(el('summary',null,'Why ▾'));const ul=el('ul','why');g.why.forEach(w=>ul.append(el('li',null,w)));d.append(ul);
-    (g.injuries||[]).forEach(i=>{const p=el('div','inj');p.append(el('b',null,'Injuries — '+i.team+': '));p.append(i.list.join(', '));d.append(p)});
-    if(!(g.injuries||[]).length)d.append(el('div','inj','No injury list for this league (or none reported).'));
-    c.append(d)}
-  if(g.link)c.append(goBtn(g.link,'Bet at '+g.book+''));
-  return c}
 function bigParlayCard(p){
   const c=el('div','card pick');const top=el('div');top.append(el('span','badge parlay',p.label.toUpperCase()+' PARLAY'));top.append(el('span','sp',p.legs.length+' legs · '+p.book));c.append(top);
-  const ul=el('ul','legs');p.legs.forEach(l=>{const li=el('li');const s=el('span',null,l.pick);s.append(el('span','p',l.sport+' · '+Math.round(l.prob*100)+'%'));li.append(s);li.append(el('b',null,l.odds.toFixed(2)));ul.append(li)});c.append(ul);
+  const ul=el('ul','legs');p.legs.forEach(l=>{const li=el('li');const s=el('span',null,l.pick);s.append(el('span','p',l.sport+' · '+Math.round(l.prob*100)+'%'));li.append(s);li.append(el('b',null,fo(l.odds)));ul.append(li)});c.append(ul);
   const bet=el('div','bet');const L=el('div');L.append(el('div','u',p.units+'u · '+money(p.stake)));L.append(el('div','w','pays '+p.odds.toFixed(2)+'x · to win '+money(p.to_win)));bet.append(L);
   const R=el('div','ev');R.style.textAlign='right';R.textContent='hits ~'+Math.round(p.prob*100)+'%';R.append(el('div',null,'about 1 in '+Math.max(1,Math.round(1/p.prob))));bet.append(R);c.append(bet);
   if(p.slip){const gl=el('div','golist');gl.append(goBtn(p.slip,'Add whole parlay to '+p.book+' ('+p.odds.toFixed(2)+'x)'));(p.alts||[]).forEach(a=>gl.append(goBtn(a.slip,a.book+' ('+a.odds.toFixed(2)+'x)',true)));c.append(gl)}
@@ -279,6 +274,107 @@ function renderResults(S){
   if(!rows.length){const e=el('tr');const td=el('td',null,'No picks match these filters.');td.colSpan=7;e.append(td);tb.append(e)}
   t.append(tb);lc.append(t);sec.append(lc);S.append(sec);requestAnimationFrame(()=>drawChart(box,rows));
   sec.append(el('p','note','CLV = how much better your price was than the closing price. Positive CLV over 100+ picks is the real sign the bot is sharp; win/loss alone takes 1,000+ picks to mean anything.'))}
+
+// ---------- per-device settings + my bets (browser only, never sent anywhere) ----------
+const DEFSET={bank:null,model:'units',fmt:'dec',books:{'FanDuel':true,'DraftKings':true,'theScore Bet':true}};
+let SET=(()=>{try{const s=JSON.parse(localStorage.getItem('jv_set')||'{}');return Object.assign({},DEFSET,s,{books:Object.assign({},DEFSET.books,s.books||{})})}catch(e){return JSON.parse(JSON.stringify(DEFSET))}})();
+function saveSet(){try{localStorage.setItem('jv_set',JSON.stringify(SET))}catch(e){}}
+let MY=(()=>{try{return JSON.parse(localStorage.getItem('jv_my')||'[]')}catch(e){return []}})();
+function saveMy(){try{localStorage.setItem('jv_my',JSON.stringify(MY))}catch(e){}}
+let FEED=null;
+function fo(d){if(!d||isNaN(d))return '—';if(SET.fmt==='am')return d>=2?'+'+Math.round((d-1)*100):'−'+Math.round(100/(d-1));
+  if(SET.fmt==='fr'){const x=d-1;let best=[1,1],err=9;for(let m=1;m<=20;m++){const n=Math.round(x*m);const e=Math.abs(n/m-x);if(n>0&&e<err-1e-9){err=e;best=[n,m]}}return best[0]+'/'+best[1]}
+  return d.toFixed(2)}
+function myBank(){return SET.bank||(FEED&&FEED.bankroll)||250}
+function unitSize(){return Math.max(1,Math.round(myBank()*0.02*2)/2)}
+function stakeFor(units,edge,odds){if(SET.model==='kelly'){if(!(edge>0))return 0;return Math.max(0,Math.round(myBank()*0.25*edge/(odds-1)*2)/2)}return units*unitSize()}
+function bookOk(b){return SET.books[b]!==false}
+function bestOf(prices){let bk=null,o=0;Object.entries(prices||{}).forEach(([b,v])=>{if(bookOk(b)&&v>o){o=v;bk=b}});return bk?{book:bk,odds:o}:null}
+function priceTable(prices,fair,links){
+  const w=el('div','ptab');const ent=Object.entries(prices||{}).filter(([b])=>bookOk(b));if(!ent.length)return w;
+  const best=Math.max(...ent.map(e=>e[1]));const pf=fair?1/fair:null;
+  ent.sort((a,b)=>b[1]-a[1]).forEach(([b,v])=>{const r=el('div','prow'+(v===best?' top':''));const n=el('span',null,b);
+    const o=el('b',null,fo(v));const ev=el('span','pev',pf?pct(pf*v-1):'');if(pf&&pf*v-1>=0)ev.classList.add('pos');
+    r.append(n,ev,o);if(links&&links[b]){const a=el('a','plink','Bet');a.href=links[b];a.target='_blank';a.rel='noopener';r.append(a)}else r.append(el('span'));w.append(r)});
+  return w}
+function steamLine(open,hist){if(!open||!hist||hist.length<2)return null;const last=hist[hist.length-1];const dp=last[2]-open[2];
+  if(Math.abs(dp)<0.005)return {txt:'Line steady since '+when(open[0]),cls:''};
+  return dp>0?{txt:'Sharp line moved toward this pick ('+Math.round(open[2]*100)+'% → '+Math.round(last[2]*100)+'%)',cls:'pos'}:{txt:'Sharp line moved against this pick ('+Math.round(open[2]*100)+'% → '+Math.round(last[2]*100)+'%)',cls:'neg'}}
+function hm(iso){return new Date(iso).toLocaleTimeString([], {hour:'numeric',minute:'2-digit'})}
+function myKey(pick,start){return pick+'|'+start}
+function tookForm(c,info){
+  const done=MY.find(m=>m.key===myKey(info.pick,info.start));
+  if(done){c.append(el('div','meta took','✓ You took this at '+fo(done.odds)+' for '+money(done.stake)+' ('+done.book+')'));return}
+  const b=el('button','took-btn','I took this');c.append(b);
+  b.onclick=()=>{b.remove();const f=el('div','tookf');const o=el('input');o.type='number';o.step='0.01';o.min='1.01';o.value=(info.odds||2).toFixed(2);o.setAttribute('aria-label','Odds you got (decimal)');
+    const s=el('input');s.type='number';s.step='0.5';s.min='0';s.value=(info.stake||unitSize()).toFixed(2);s.setAttribute('aria-label','Stake in dollars');
+    const bk=el('select');Object.keys(SET.books).forEach(x=>{const op=el('option',null,x);op.value=x;if(x===info.book)op.selected=true;bk.append(op)});bk.setAttribute('aria-label','Book');
+    const sv=el('button','go','Save');sv.onclick=()=>{const od=parseFloat(o.value),st=parseFloat(s.value);if(!(od>1)||!(st>0))return;
+      MY.push({key:myKey(info.pick,info.start),pick:info.pick,event:info.event,sport:info.sport,start:info.start,tier:info.tier||'game',odds:od,stake:st,book:bk.value,at:new Date().toISOString()});saveMy();f.replaceWith(el('div','meta took','✓ Logged at '+fo(od)+' for '+money(st)))};
+    const lab=(t,x)=>{const l=el('label');l.append(el('span',null,t),x);return l};
+    f.append(lab('Odds (decimal)',o),lab('Stake $',s),lab('Book',bk),sv);c.append(f);o.focus()}}
+function pickCard(p){
+  const live=bestOf(p.prices)||(p.now_odds?{book:p.book,odds:p.now_odds}:{book:p.book,odds:p.odds});
+  const dead=!p.started&&p.min_odds&&live.odds<p.min_odds;
+  const c=el('div','card pick '+p.tier+(p.started?' started':'')+(dead?' dead':''));
+  const top=el('div');top.append(el('span','badge'+(p.tier==='lean'?' lean':''),p.tier==='best'?(p.units>=1.5?'Strong bet':'Best bet'):'Lean'));top.append(el('span','sp',p.sport+', '+(p.started?'started':when(p.start))));c.append(top);
+  c.append(el('div','pk',p.pick+' to win'));c.append(el('div','ev',p.event));
+  if(dead)c.append(el('div','deadmsg','Below Min Odds — Do Not Bet'));
+  const fair=p.fair_odds,ev=fair?(live.odds/fair-1):p.edge;
+  const sum=el('div','fairline');sum.append('Fair ',el('b',null,fo(fair)),'  |  Best ',el('b',null,fo(live.odds)),' at '+live.book+'  ',el('span',ev>=0?'pos':'neg','('+pct(ev)+' EV)'));c.append(sum);
+  const stake=stakeFor(p.units,ev,live.odds);
+  const bet=el('div','bet');const L=el('div');L.append(el('div','u',(SET.model==='kelly'?'¼ Kelly':p.units+'u')+' · '+money(stake)));L.append(el('div','w','to win '+money(stake*(live.odds-1))));bet.append(L);
+  const R=el('div','ev');R.style.textAlign='right';R.textContent='posted at '+fo(p.odds);R.append(el('div',null,'min odds '+fo(p.min_odds)));bet.append(R);c.append(bet);
+  c.append(priceTable(p.prices,fair,p.links));
+  const stl=steamLine(p.open,p.hist);if(stl){const d=el('div','meta '+stl.cls,stl.txt);c.append(d)}
+  (p.injuries||[]).forEach(i=>c.append(el('div','flag',i.status+': '+i.name+' ('+hm(i.at)+') — Edge '+pct(i.edge_then)+' → '+(i.edge_now==null?'?':pct(i.edge_now)))));
+  if(p.flag&&!(p.injuries||[]).length)c.append(el('div','flag',p.flag));
+  c.append(el('div','meta',(p.posted_at?'Posted '+hm(p.posted_at)+', ':'')+'starts '+when(p.start)+(p.n_sharp?', '+p.n_sharp+' sharp book'+(p.n_sharp>1?'s':''):'')));
+  const lk=(p.links||{})[live.book]||p.link;if(lk&&!dead&&!p.started)c.append(goBtn(lk,'Bet at '+live.book));
+  if(!p.started)tookForm(c,{pick:p.pick,event:p.event,sport:p.sport,start:p.start,tier:p.tier,odds:live.odds,stake,book:live.book});
+  return c}
+function gameCard(g){
+  const live=bestOf(g.prices)||{book:g.book,odds:g.odds};const fair=g.fair_odds;const ev=fair?live.odds/fair-1:g.edge;
+  const c=el('div','card game');
+  const gh=el('div','gh');gh.append(el('span','gt',g.sport+', '+when(g.start)+', vs '+g.opp));
+  gh.append(el('span','vb '+g.value,{value:'Value',fair:'Fair price',slight:'Slightly overpriced',over:'Overpriced'}[g.value]));c.append(gh);
+  const gp=el('div','gp','Bot picks: '+g.pick+' ');gp.append(el('small',null,Math.round(g.prob*100)+'% to win'));c.append(gp);
+  const sum=el('div','fairline');sum.append('Fair ',el('b',null,fo(fair)),'  |  Best ',el('b',null,fo(live.odds)),' at '+live.book+'  ',el('span',ev>=0?'pos':'neg','('+pct(ev)+' EV)'));c.append(sum);
+  const l2=el('div','bet');const L=el('div');const stake=g.units>0?stakeFor(g.units,ev,live.odds):0;
+  if(stake>0){L.append(el('div','u',(SET.model==='kelly'?'¼ Kelly':g.units+'u')+' · '+money(stake)));L.append(el('div','w','to win '+money(stake*(live.odds-1))))}
+  else{L.append(el('div','u','Pick only'));L.append(el('div','ev','price too high to bet'))}
+  l2.append(L);const R=el('div','ev');R.style.textAlign='right';R.textContent=g.value_txt;l2.append(R);c.append(l2);
+  const d=el('details');d.append(el('summary',null,'Prices and why'));d.append(priceTable(g.prices,fair,g.links));
+  const stl=steamLine(g.open,g.hist);if(stl)d.append(el('div','meta '+stl.cls,stl.txt));
+  if(g.why&&g.why.length){const ul=el('ul','why');g.why.forEach(w=>ul.append(el('li',null,w)));d.append(ul)}
+  (g.injuries||[]).forEach(i=>{const p=el('div','inj');p.append(el('b',null,'Injuries, '+i.team+': '));p.append(i.list.join(', '));d.append(p)});
+  c.append(d);
+  const lk=(g.links||{})[live.book]||g.link;if(lk&&stake>0)c.append(goBtn(lk,'Bet at '+live.book));
+  if(stake>0)tookForm(c,{pick:g.pick,event:g.event,sport:g.sport,start:g.start,tier:'game',odds:live.odds,stake,book:live.book});
+  return c}
+function settingsPanel(){
+  const pnl=$('settings');pnl.replaceChildren();
+  const row=(t,x)=>{const l=el('label','srow');l.append(el('span',null,t),x);return l};
+  const bk=el('input');bk.type='number';bk.min='1';bk.step='10';bk.placeholder=money((FEED&&FEED.bankroll)||250);if(SET.bank)bk.value=SET.bank;
+  bk.onchange=()=>{const v=parseFloat(bk.value);SET.bank=v>0?v:null;saveSet();load()};
+  const md=el('select');[['units','2% of bankroll = 1 unit'],['kelly','¼ Kelly (by edge)']].forEach(([v,t])=>{const o=el('option',null,t);o.value=v;if(SET.model===v)o.selected=true;md.append(o)});md.onchange=()=>{SET.model=md.value;saveSet();load()};
+  const fm=el('select');[['dec','Decimal (1.95)'],['am','American (−105)'],['fr','Fractional (19/20)']].forEach(([v,t])=>{const o=el('option',null,t);o.value=v;if(SET.fmt===v)o.selected=true;fm.append(o)});fm.onchange=()=>{SET.fmt=fm.value;saveSet();load()};
+  const bx=el('div','bks');Object.keys(SET.books).forEach(b=>{const l=el('label');const cb=el('input');cb.type='checkbox';cb.checked=SET.books[b]!==false;cb.onchange=()=>{SET.books[b]=cb.checked;saveSet();load()};l.append(cb,' '+b);bx.append(l)});
+  pnl.append(el('div','sub','Your settings (saved on this device only)'),row('Bankroll $',bk),row('Bet sizing',md),row('Odds format',fm),row('Books you can use',bx));
+  pnl.append(el('div','meta','Stakes on every card use your bankroll. The site\'s official record keeps using its own $250 paper bankroll.'))}
+function myBetsSection(S){
+  const sec=el('section','sec');const h=el('h3');h.append('My bets',el('span','c','logged with "I took this", on this device'));sec.append(h);
+  if(!MY.length){sec.append(el('div','card empty','Tap "I took this" on any pick to log the odds you actually got. Your ROI shows up here next to the bot\'s.'));S.append(sec);return}
+  const hist=FEED&&FEED.history||[];const st=m=>{const r=hist.find(x=>x.pick===m.pick&&x.start===m.start);return r?r.status:'open'};
+  let staked=0,prof=0,bs=0,bp=0;const rows=MY.map(m=>{const s=st(m);const pr=s==='won'?m.stake*(m.odds-1):s==='lost'?-m.stake:0;if(s==='won'||s==='lost'){staked+=m.stake;prof+=pr;
+    const r=hist.find(x=>x.pick===m.pick&&x.start===m.start);if(r){bs+=r.units;bp+=r.profit_u}}return Object.assign({},m,{status:s,profit:pr})});
+  const T=el('div','tiles');T.append(tile('My profit',money(prof),staked?'on '+money(staked)+' staked':'nothing graded yet',prof>0?'pos':prof<0?'neg':''),tile('My ROI',staked?pct(prof/staked):'—','your real odds'),tile('Bot ROI, same picks',bs?pct(bp/bs):'—','official prices'));sec.append(T);
+  const card=el('div','card scroll');card.style.marginTop='.75rem';const t=el('table');const tr=el('tr');['Date','Pick','Book','Odds','Stake','Result',''].forEach((x,i)=>tr.append(el('th',i>=3&&i<6?'r':null,x)));const th=el('thead');th.append(tr);t.append(th);const tb=el('tbody');
+  rows.slice().reverse().forEach(m=>{const e=el('tr');e.append(el('td',null,new Date(m.start).toLocaleDateString([], {month:'short',day:'numeric'})),el('td',null,m.pick),el('td',null,m.book),el('td','r',fo(m.odds)),el('td','r',money(m.stake)));
+    const td=el('td','r');td.append(el('span','badge '+(m.status==='won'?'won':m.status==='lost'?'lost':''),m.status));e.append(td);const x=el('button','xbtn','Remove');x.onclick=()=>{MY=MY.filter(z=>z!==MY.find(y=>y.key===m.key&&y.at===m.at));saveMy();render()};const tdx=el('td');tdx.append(x);e.append(tdx);tb.append(e)});
+  t.append(tb);card.append(t);sec.append(card);
+  const ex=el('button','more','Download my bets (CSV)');ex.onclick=()=>{const head='date,pick,event,sport,book,odds,stake,status,profit\n';const body=rows.map(m=>[m.start,m.pick,m.event,m.sport,m.book,m.odds,m.stake,m.status,m.profit.toFixed(2)].map(v=>'"'+String(v).replace(/"/g,'""')+'"').join(',')).join('\n');
+    const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([head+body],{type:'text/csv'}));a.download='jarvis-my-bets.csv';document.body.append(a);a.click();a.remove()};sec.append(ex);S.append(sec)}
 const SPORTS=[{id:'nba',name:'NBA',ic:'🏀'},{id:'nhl',name:'NHL',ic:'🏒'},{id:'nfl',name:'NFL & College Football',ic:'🏈'},{id:'ufc',name:'UFC',ic:'🥊'},{id:'tennis',name:'Tennis',ic:'🎾'},{id:'more',name:'More (college hoops, soccer…)',ic:'⭐'}];
 function group(s){s=(s||'').toUpperCase();if(s.includes('NBA'))return 'nba';if(s.includes('NHL')||s.includes('HOCKEY'))return 'nhl';if(s.includes('NFL')||s.includes('FOOTBALL'))return 'nfl';if(s.includes('MMA')||s.includes('UFC')||s.includes('BOX'))return 'ufc';if(s.includes('TENNIS')||s.includes('ATP')||s.includes('WTA'))return 'tennis';return 'more'}
 let TAB='all';
@@ -288,7 +384,7 @@ function render(){const G=window._G;if(!G)return;
     const n=t.id==='results'?HIST.filter(r=>r.status!=='open').length:t.id==='all'?total:G[t.id].games.length||(G[t.id].picks.length+G[t.id].parlays.length);
     const b=el('button','tab'+(TAB===t.id?' on':''),t.name);b.append(el('span','n',n));b.onclick=()=>{TAB=t.id;render()};T.append(b)});
   const S=$('sections');S.replaceChildren();
-  if(TAB==='results'){renderResults(S);return}
+  if(TAB==='results'){myBetsSection(S);renderResults(S);return}
   if(TAB==='all'){
     const all=[];SPORTS.forEach(s=>G[s.id].picks.forEach(p=>all.push(p)));
     all.sort((a,b)=>(a.started-b.started)||((b.tier==='best')-(a.tier==='best'))||(b.edge-a.edge));
@@ -319,7 +415,7 @@ async function load(){
   const fresh=f.updated&&(Date.now()-new Date(f.updated))<75*60000;
   $('status').firstChild.className='dot'+(fresh?'':' off');
   $('status').lastChild.textContent=(fresh?'Bot online':'Bot offline (PC off?)')+' · updated '+ago(f.updated)+' · last scan '+ago(f.last_scan)+' · watching '+f.watching+' prices';
-  $('unit').textContent='Bankroll '+money(f.bankroll||0)+' · 1 unit = '+money(f.unit)+(f.unit_pct?' ('+Math.round(f.unit_pct*100)+'%)':'')+(f.credits!=null?' · API credits '+f.credits:'');
+  FEED=f;$('unit').replaceChildren();$('unit').append((SET.bank?'Your bankroll ':'Bankroll ')+money(myBank())+', 1 unit = '+money(unitSize())+(SET.model==='kelly'?' (¼ Kelly on)':'')+'  ');{const sb=el('button','setbtn','Settings');sb.onclick=()=>{const s=$('settings');s.hidden=!s.hidden};$('unit').append(sb)}
   const rec=f.record||{};const T=$('tiles');T.replaceChildren();
   let u=0,w=0,l=0;['best','lean','parlay'].forEach(k=>{const r=rec[k];if(r){u+=r.units;w+=r.won;l+=r.lost}});
   T.append(tile('Profit (all picks)',money(u*f.unit),sgn(u)+' units',u>0?'pos':u<0?'neg':''));
@@ -332,7 +428,7 @@ async function load(){
   picks.forEach(p=>G[group(p.sport)].picks.push(p));
   (f.parlays||[]).forEach(p=>G[group(p.label)].parlays.push(p));
   SPORTS.forEach(s=>G[s.id].games=[]);(f.games||[]).forEach(g=>G[group(g.sport)].games.push(g));
-  window._BIG=f.big_parlays||[];HIST=f.history||[];UNITV=f.unit||5;
+  window._BIG=f.big_parlays||[];HIST=f.history||[];UNITV=f.unit||5;FEED=f;settingsPanel();
   window._G=G;render();
   const rb=$('recent');rb.replaceChildren();(f.recent||[]).forEach(r=>{const tr=el('tr');const d=new Date(r.start);
     [d.toLocaleDateString([], {month:'short',day:'numeric'}),r.pick+' ('+r.sport+')',r.tier,r.odds.toFixed(2),r.units+'u'].forEach((x,i)=>{const td=el('td',i>=3?'r':null,x);tr.append(td)});

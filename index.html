@@ -51,6 +51,15 @@ td.r,th.r{text-align:right}
 .scroll{overflow-x:auto}
 .note{font-size:.75rem;color:var(--mute);line-height:1.6;margin-top:2rem}
 .started{opacity:.55}
+.filters{display:flex;flex-wrap:wrap;gap:.5rem;margin:.5rem 0 1rem}
+.filters select{background:var(--card);color:var(--ink);border:1px solid var(--line);border-radius:9px;padding:.45rem .6rem;font:inherit;font-size:.82rem}
+.chart{width:100%;height:220px}
+.chart text{fill:var(--mute);font-size:11px;font-family:Inter,sans-serif}
+.tt{position:absolute;pointer-events:none;background:#171d3a;border:1px solid var(--line);border-radius:8px;padding:.35rem .5rem;font-size:.75rem;display:none;white-space:nowrap}
+.rel{position:relative}
+.bkg{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,26rem),1fr));gap:.75rem;margin-top:.75rem}
+td.r,th.r{white-space:nowrap}
+
 .go{display:inline-flex;align-items:center;gap:.35rem;margin-top:.55rem;padding:.45rem .8rem;border-radius:9px;font-size:.8rem;font-weight:700;text-decoration:none;color:#0b0f1a;background:linear-gradient(90deg,var(--acc2),#6fe3c5)}
 .go.alt{background:rgba(255,255,255,.06);color:var(--ink);border:1px solid var(--line);font-weight:600}
 .golist{display:flex;flex-wrap:wrap;gap:.35rem}
@@ -160,15 +169,70 @@ function bigParlayCard(p){
 function gameList(sec,games,limit){
   const w=el('div','picks');const show=games.slice(0,limit);show.forEach(g=>w.append(gameCard(g)));sec.append(w);
   if(games.length>limit){const b=el('button','more','Show all '+games.length+' games');b.onclick=()=>{w.replaceChildren();games.forEach(g=>w.append(gameCard(g)));b.remove()};sec.append(b)}}
+let HIST=[],UNITV=5;
+function fmtPct(x){return x==null||isNaN(x)?'—':pct(x)}
+function stats(rows){const g=rows.filter(r=>r.status==='won'||r.status==='lost');const w=g.filter(r=>r.status==='won').length;
+  const st=g.reduce((a,r)=>a+r.units,0),pu=g.reduce((a,r)=>a+r.profit_u,0);const c=rows.filter(r=>r.clv!=null);
+  return {n:g.length,w,l:g.length-w,units:pu,staked:st,roi:st?pu/st:null,clv:c.length?c.reduce((a,r)=>a+r.clv,0)/c.length:null,clvn:c.length,beat:c.length?c.filter(r=>r.clv>0).length/c.length:null,open:rows.filter(r=>r.status==='open').length}}
+function oddsBand(o){return o<1.6?'under 1.60':o<2?'1.60–1.99':o<2.5?'2.00–2.49':'2.50+'}
+function filtered(){const f=id=>document.getElementById(id)?.value||'all';
+  return HIST.filter(r=>(f('fs')==='all'||r.sport===f('fs'))&&(f('ft')==='all'||r.type===f('ft'))&&(f('fo')==='all'||oddsBand(r.odds)===f('fo'))&&(f('fv')==='all'||(f('fv')==='value'?r.edge>=0.02:r.edge<0.02)))}
+function drawChart(box,rows){box.replaceChildren();const g=rows.filter(r=>r.status==='won'||r.status==='lost');
+  if(g.length<2){box.append(el('div','empty','The chart appears after a few graded picks.'));return}
+  const W=box.clientWidth||600,H=220,m={l:40,r:52,t:12,b:24};let c=0;const pts=[{x:0,y:0,lab:'start'}];g.forEach((r,i)=>{c+=r.profit_u;pts.push({x:i+1,y:c,lab:r.pick+' ('+r.status+')'})});
+  const ys=pts.map(p=>p.y),y0=Math.min(0,...ys),y1=Math.max(0,...ys),pad=(y1-y0)*0.1||1;
+  const X=i=>m.l+(W-m.l-m.r)*i/(pts.length-1),Y=v=>m.t+(H-m.t-m.b)*(1-(v-(y0-pad))/((y1+pad)-(y0-pad)));
+  const ns='http://www.w3.org/2000/svg',svg=document.createElementNS(ns,'svg');svg.setAttribute('viewBox','0 0 '+W+' '+H);svg.setAttribute('class','chart');
+  const mk=(t,a)=>{const e=document.createElementNS(ns,t);for(const k in a)e.setAttribute(k,a[k]);svg.append(e);return e};
+  [y0-pad,0,y1+pad].forEach(v=>{mk('line',{x1:m.l,x2:W-m.r,y1:Y(v),y2:Y(v),stroke:v===0?'rgba(232,236,248,.35)':'rgba(140,160,255,.12)'});const t=mk('text',{x:m.l-6,y:Y(v)+4,'text-anchor':'end'});t.textContent=(v>0?'+':'')+v.toFixed(1)+'u'});
+  const d=pts.map((p,i)=>(i?'L':'M')+X(i).toFixed(1)+','+Y(p.y).toFixed(1)).join('');const last=pts[pts.length-1];
+  mk('path',{d,fill:'none',stroke:last.y>=0?'#46d9a0':'#ff7a90','stroke-width':2,'stroke-linejoin':'round','stroke-linecap':'round'});
+  const lt=mk('text',{x:X(pts.length-1)+6,y:Y(last.y)+4});lt.textContent=(last.y>=0?'+':'')+last.y.toFixed(2)+'u';lt.style.fill='var(--ink)';
+  const xt=mk('text',{x:W-m.r,y:H-6,'text-anchor':'end'});xt.textContent=g.length+' graded picks';
+  const dot=mk('circle',{r:4,fill:'#7c8cff',style:'display:none'});const tt=el('div','tt');box.append(svg,tt);
+  svg.addEventListener('mousemove',e=>{const r=svg.getBoundingClientRect();const sx=(e.clientX-r.left)*W/r.width;let i=Math.round((sx-m.l)/((W-m.l-m.r)/(pts.length-1)));i=Math.max(0,Math.min(pts.length-1,i));
+    dot.setAttribute('cx',X(i));dot.setAttribute('cy',Y(pts[i].y));dot.style.display='';tt.style.display='block';tt.textContent=pts[i].lab+' · '+(pts[i].y>=0?'+':'')+pts[i].y.toFixed(2)+'u';
+    tt.style.left=Math.min(r.width-tt.offsetWidth,Math.max(0,(X(i)*r.width/W)-tt.offsetWidth/2))+'px';tt.style.top='-6px'});
+  svg.addEventListener('mouseleave',()=>{dot.style.display='none';tt.style.display='none'})}
+function breakdown(rows,keyf,title){const G={};rows.forEach(r=>{const k=keyf(r);(G[k]=G[k]||[]).push(r)});
+  const card=el('div','card scroll');card.append(el('div','sub',title));const t=el('table');const th=el('thead');const tr=el('tr');
+  ['','Picks','W–L','Units','ROI','CLV'].forEach((x,i)=>tr.append(el('th',i?'r':null,x)));th.append(tr);t.append(th);const tb=el('tbody');
+  Object.entries(G).sort((a,b)=>b[1].length-a[1].length).forEach(([k,rs])=>{const s=stats(rs);const r=el('tr');
+    r.append(el('td',null,k),el('td','r',String(rs.length)),el('td','r',s.w+'–'+s.l),el('td','r '+(s.units>0?'pos':s.units<0?'neg':''),sgn(s.units)),el('td','r '+(s.roi>0?'pos':s.roi<0?'neg':''),fmtPct(s.roi)),el('td','r '+(s.clv>0?'pos':s.clv<0?'neg':''),fmtPct(s.clv)));tb.append(r)});
+  t.append(tb);card.append(t);return card}
+function renderResults(S){
+  const sec=el('section','sec');const h=el('h3');h.append(el('span','ic','📈'),'Results',el('span','c','every pick the site posted'));sec.append(h);
+  const F=el('div','filters');const sel=(id,opts)=>{const s=el('select');s.id=id;opts.forEach(([v,t])=>{const o=el('option',null,t);o.value=v;s.append(o)});s.onchange=()=>{window['_F_'+id]=s.value;render()};return s};
+  const sports=[...new Set(HIST.map(r=>r.sport))].sort();
+  F.append(sel('fs',[['all','All sports'],...sports.map(x=>[x,x])]),sel('ft',[['all','All types'],['best','Best bets'],['lean','Leans'],['parlay','Parlays']]),
+    sel('fo',[['all','All odds'],['under 1.60','Under 1.60'],['1.60–1.99','1.60–1.99'],['2.00–2.49','2.00–2.49'],['2.50+','2.50+']]),sel('fv',[['all','Any price'],['value','Edge 2%+ only'],['fair','Under 2% edge']]));
+  sec.append(F);
+  ['fs','ft','fo','fv'].forEach(id=>{const v=window['_F_'+id];if(v){const e=F.querySelector('#'+id);if(e)e.value=v}});
+  const rows=filtered();const s=stats(rows);const T=el('div','tiles');
+  T.append(tile('Profit',money(s.units*UNITV),sgn(s.units)+' units',s.units>0?'pos':s.units<0?'neg':''));
+  T.append(tile('ROI',fmtPct(s.roi),'on '+s.staked.toFixed(1)+'u staked',s.roi>0?'pos':s.roi<0?'neg':''));
+  T.append(tile('Record',s.w+'–'+s.l,(s.n?Math.round(s.w/s.n*100):0)+'% wins · '+s.open+' open'));
+  T.append(tile('Closing-line value',fmtPct(s.clv),s.clvn?Math.round(s.beat*100)+'% beat the close ('+s.clvn+')':'not enough yet',s.clv>0?'pos':s.clv<0?'neg':''));
+  sec.append(T);
+  const cc=el('div','card rel');cc.style.marginTop='.75rem';cc.append(el('div','sub','Units over time'));const box=el('div','rel');cc.append(box);sec.append(cc);
+  const bk=el('div','bkg');bk.append(breakdown(rows,r=>r.sport,'By sport'),breakdown(rows,r=>({best:'Best bets',lean:'Leans',parlay:'Parlays'})[r.type],'By type'),breakdown(rows,r=>oddsBand(r.odds),'By odds'));sec.append(bk);
+  const lc=el('div','card scroll');lc.style.marginTop='.75rem';lc.append(el('div','sub','Every pick'));const t=el('table');const th=el('thead'),tr=el('tr');
+  ['Date','Pick','Type','Odds','Units','CLV','Result'].forEach((x,i)=>tr.append(el('th',i>=3?'r':null,x)));th.append(tr);t.append(th);const tb=el('tbody');
+  rows.slice().reverse().forEach(r=>{const e=el('tr');const d=new Date(r.start);e.append(el('td',null,d.toLocaleDateString([], {month:'short',day:'numeric'})),el('td',null,r.pick+' · '+r.sport),el('td',null,r.type),el('td','r',r.odds.toFixed(2)),el('td','r',r.units+'u'),el('td','r '+(r.clv>0?'pos':r.clv<0?'neg':''),fmtPct(r.clv)));
+    const td=el('td','r');td.append(el('span','badge '+(r.status==='won'?'won':r.status==='lost'?'lost':''),r.status.toUpperCase()));e.append(td);tb.append(e)});
+  if(!rows.length){const e=el('tr');const td=el('td',null,'No picks match these filters.');td.colSpan=7;e.append(td);tb.append(e)}
+  t.append(tb);lc.append(t);sec.append(lc);S.append(sec);requestAnimationFrame(()=>drawChart(box,rows));
+  sec.append(el('p','note','CLV = how much better your price was than the closing price. Positive CLV over 100+ picks is the real sign the bot is sharp; win/loss alone takes 1,000+ picks to mean anything.'))}
 const SPORTS=[{id:'nba',name:'NBA',ic:'🏀'},{id:'nhl',name:'NHL',ic:'🏒'},{id:'nfl',name:'NFL & College Football',ic:'🏈'},{id:'ufc',name:'UFC',ic:'🥊'},{id:'tennis',name:'Tennis',ic:'🎾'},{id:'more',name:'More (college hoops, soccer…)',ic:'⭐'}];
 function group(s){s=(s||'').toUpperCase();if(s.includes('NBA'))return 'nba';if(s.includes('NHL')||s.includes('HOCKEY'))return 'nhl';if(s.includes('NFL')||s.includes('FOOTBALL'))return 'nfl';if(s.includes('MMA')||s.includes('UFC')||s.includes('BOX'))return 'ufc';if(s.includes('TENNIS')||s.includes('ATP')||s.includes('WTA'))return 'tennis';return 'more'}
 let TAB='all';
 function render(){const G=window._G;if(!G)return;
   const T=$('tabs');T.replaceChildren();const total=SPORTS.reduce((a,s)=>a+(G[s.id].games.length||(G[s.id].picks.length+G[s.id].parlays.length)),0);
-  [{id:'all',name:'All'}].concat(SPORTS.map(s=>({id:s.id,name:s.id==='nfl'?'NFL':s.id==='more'?'More':s.name}))).forEach(t=>{
-    const n=t.id==='all'?total:G[t.id].games.length||(G[t.id].picks.length+G[t.id].parlays.length);
+  [{id:'all',name:'All'}].concat(SPORTS.map(s=>({id:s.id,name:s.id==='nfl'?'NFL':s.id==='more'?'More':s.name})),[{id:'results',name:'📈 Results'}]).forEach(t=>{
+    const n=t.id==='results'?HIST.filter(r=>r.status!=='open').length:t.id==='all'?total:G[t.id].games.length||(G[t.id].picks.length+G[t.id].parlays.length);
     const b=el('button','tab'+(TAB===t.id?' on':''),t.name);b.append(el('span','n',n));b.onclick=()=>{TAB=t.id;render()};T.append(b)});
   const S=$('sections');S.replaceChildren();
+  if(TAB==='results'){renderResults(S);return}
   if(TAB==='all'){
     const all=[];SPORTS.forEach(s=>G[s.id].picks.forEach(p=>all.push(p)));
     all.sort((a,b)=>(a.started-b.started)||((b.tier==='best')-(a.tier==='best'))||(b.edge-a.edge));
@@ -204,14 +268,14 @@ async function load(){
   T.append(tile('Profit (all picks)',money(u*f.unit),sgn(u)+' units',u>0?'pos':u<0?'neg':''));
   T.append(tile('Record',w+'–'+l,(w+l?Math.round(w/(w+l)*100):0)+'% wins'));
   const b=rec.best||{won:0,lost:0,units:0};T.append(tile('Best bets',b.won+'–'+b.lost,sgn(b.units)+'u · '+money(b.units*f.unit)));
-  T.append(tile('Closing-line value',b.clv==null?'—':pct(b.clv),b.clv_n?b.clv_n+' best bets checked':'needs graded picks',b.clv>0?'pos':b.clv<0?'neg':''));
+  {const hs=stats(f.history||[]);T.append(tile('Closing-line value',fmtPct(hs.clv),hs.clvn?Math.round(hs.beat*100)+'% beat the close ('+hs.clvn+')':'needs graded picks',hs.clv>0?'pos':hs.clv<0?'neg':''))}
   const pr=rec.parlay||{won:0,lost:0,units:0};T.append(tile('Parlays',pr.won+'–'+pr.lost,sgn(pr.units)+'u'));
   const picks=f.picks||[];
   const G={};SPORTS.forEach(s=>G[s.id]={picks:[],parlays:[]});
   picks.forEach(p=>G[group(p.sport)].picks.push(p));
   (f.parlays||[]).forEach(p=>G[group(p.label)].parlays.push(p));
   SPORTS.forEach(s=>G[s.id].games=[]);(f.games||[]).forEach(g=>G[group(g.sport)].games.push(g));
-  window._BIG=f.big_parlays||[];
+  window._BIG=f.big_parlays||[];HIST=f.history||[];UNITV=f.unit||5;
   window._G=G;render();
   const rb=$('recent');rb.replaceChildren();(f.recent||[]).forEach(r=>{const tr=el('tr');const d=new Date(r.start);
     [d.toLocaleDateString([], {month:'short',day:'numeric'}),r.pick+' ('+r.sport+')',r.tier,r.odds.toFixed(2),r.units+'u'].forEach((x,i)=>{const td=el('td',i>=3?'r':null,x);tr.append(td)});

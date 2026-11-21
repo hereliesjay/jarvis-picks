@@ -1,6 +1,6 @@
 {
  "version": 19,
- "updated": "2026-11-21T02:00:30+00:00",
+ "updated": "2026-11-21T02:02:35+00:00",
  "last_scan": "2026-11-21T01:21:18+00:00",
  "unit": 5.0,
  "bankroll": 242.62,
@@ -483,9 +483,7 @@
     {
      "team": "Houston Rockets",
      "list": [
-      "Steven Adams (C, day-to-day)",
-      "Clint Capela (C, Out)",
-      "Alperen Sengun (C, day-to-day)"
+      "Clint Capela (C, Out)"
      ]
     }
    ],

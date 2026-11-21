@@ -1,6 +1,6 @@
 {
  "version": 19,
- "updated": "2026-11-21T21:48:04+00:00",
+ "updated": "2026-11-21T22:00:10+00:00",
  "last_scan": "2026-11-21T21:00:20+00:00",
  "unit": 5.0,
  "bankroll": 243.53,
@@ -403,110 +403,6 @@
   }
  ],
  "games": [
-  {
-   "sport": "COLLEGE BASKETBALL",
-   "event": "Air Force Falcons @ UTSA Roadrunners",
-   "pick": "UTSA Roadrunners",
-   "opp": "Air Force Falcons",
-   "start": "2026-11-21T22:00:00+00:00",
-   "book": "theScore Bet",
-   "odds": 1.44,
-   "prob": 0.6832,
-   "edge": -0.0162,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.25,
-   "to_win": 0.55,
-   "tier": null,
-   "fair_odds": 1.46,
-   "why": [
-    "Sharp books give UTSA Roadrunners a 68% chance to win (Air Force Falcons 31%).",
-    "UTSA Roadrunners: 3-2, 2-1 at home, 79.0 pts/game, top: KJ Tenner 12.4 PPG.",
-    "Air Force Falcons: 3-2, 0-2 on the road, 88.6 pts/game, top: Kam Sanders 19.4 PPG."
-   ],
-   "injuries": [],
-   "n_sharp": 2,
-   "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=e18b23c6-f891-4729-8253-d8ae415612a4&odds_numerator[0]=2&odds_denominator[0]=1"
-  },
-  {
-   "sport": "COLLEGE BASKETBALL",
-   "event": "Nicholls St Colonels @ Southern Miss Golden Eagles",
-   "pick": "Southern Miss Golden Eagles",
-   "opp": "Nicholls St Colonels",
-   "start": "2026-11-21T22:00:00+00:00",
-   "book": "FanDuel",
-   "odds": 1.72,
-   "prob": 0.5735,
-   "edge": -0.0136,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.25,
-   "to_win": 0.9,
-   "tier": null,
-   "fair_odds": 1.74,
-   "why": [
-    "Sharp books give Southern Miss Golden Eagles a 57% chance to win (Nicholls St Colonels 43%).",
-    "Southern Miss Golden Eagles: 3-3, 1-2 on the road, 77.2 pts/game, top: Jalyke Gaines-Wyatt 17.2 PPG.",
-    "Nicholls St Colonels: 2-3, 2-0 at home, 69.6 pts/game, top: Doyel Cockrill III 12.6 PPG."
-   ],
-   "injuries": [],
-   "n_sharp": 2,
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627359554&selectionId=3682479"
-  },
-  {
-   "sport": "COLLEGE BASKETBALL",
-   "event": "Northeastern Huskies @ Stonehill Skyhawks",
-   "pick": "Northeastern Huskies",
-   "opp": "Stonehill Skyhawks",
-   "start": "2026-11-21T22:00:00+00:00",
-   "book": "theScore Bet",
-   "odds": 1.25,
-   "prob": 0.7928,
-   "edge": -0.009,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.25,
-   "to_win": 0.31,
-   "tier": null,
-   "fair_odds": 1.26,
-   "why": [
-    "Sharp books give Northeastern Huskies a 79% chance to win (Stonehill Skyhawks 19%).",
-    "Northeastern Huskies: 2-3, 0-3 on the road, 78.4 pts/game, top: Rashad King 24.6 PPG.",
-    "Stonehill Skyhawks: 1-4, 1-1 at home, 61.8 pts/game, top: Jack Medalie 9.8 PPG."
-   ],
-   "injuries": [],
-   "n_sharp": 2,
-   "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=fade39fb-9bed-46f4-8669-f18ced5e9fe8&odds_numerator[0]=2&odds_denominator[0]=1"
-  },
-  {
-   "sport": "COLLEGE BASKETBALL",
-   "event": "Winthrop Eagles @ Wofford Terriers",
-   "pick": "Wofford Terriers",
-   "opp": "Winthrop Eagles",
-   "start": "2026-11-21T22:00:00+00:00",
-   "book": "theScore Bet",
-   "odds": 1.37,
-   "prob": 0.7233,
-   "edge": -0.0091,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.25,
-   "to_win": 0.46,
-   "tier": null,
-   "fair_odds": 1.38,
-   "why": [
-    "Sharp books give Wofford Terriers a 72% chance to win (Winthrop Eagles 26%).",
-    "Wofford Terriers: 3-3, 2-0 at home, 81.8 pts/game, top: Cutter Sisk 14.0 PPG.",
-    "Winthrop Eagles: 0-5, 0-1 on the road, 83.6 pts/game, top: Keshawn Fisher 18.2 PPG."
-   ],
-   "injuries": [],
-   "n_sharp": 2,
-   "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=f465b4a2-f9f3-426e-a5ec-db9040a551ce&odds_numerator[0]=2&odds_denominator[0]=1"
-  },
   {
    "sport": "TENNIS",
    "event": "Alan Magadan vs Matteo Covato (Chihuahua)",
@@ -1658,151 +1554,95 @@
  "big_parlays": [
   {
    "label": "Safest 4x+",
-   "book": "theScore Bet",
-   "odds": 4.07,
-   "prob": 0.2344,
-   "ev": -0.0457,
+   "book": "FanDuel",
+   "odds": 4.02,
+   "prob": 0.2337,
+   "ev": -0.0615,
    "units": 0.5,
    "stake": 2.5,
-   "to_win": 7.68,
+   "to_win": 7.54,
    "legs": [
+    {
+     "pick": "Cal Poly Mustangs",
+     "event": "Northern Arizona Lumberjacks @ Cal Poly Mustangs",
+     "sport": "COLLEGE BASKETBALL",
+     "odds": 1.29,
+     "prob": 0.777,
+     "start": "2026-11-22T00:00:00+00:00",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627288985&selectionId=5145585",
+     "sid": [
+      null,
+      "5145585",
+      "36343981"
+     ]
+    },
     {
      "pick": "Minnesota Wild",
      "event": "Minnesota Wild @ Vancouver Canucks",
      "sport": "NHL",
-     "odds": 1.34,
+     "odds": 1.33,
      "prob": 0.735,
      "start": "2026-11-22T03:00:00+00:00",
-     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=a1c1c23b-94be-4157-b978-f3290e73b91a&odds_numerator[0]=2&odds_denominator[0]=1",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626714903&selectionId=25604",
      "sid": [
-      "18c7887e-9011-48e1-95d2-77b5ae9700a2",
-      "a1c1c23b-94be-4157-b978-f3290e73b91a",
-      "c10514ed-e4a3-4037-8a2f-284bbef51389"
-     ]
-    },
-    {
-     "pick": "Wofford Terriers",
-     "event": "Winthrop Eagles @ Wofford Terriers",
-     "sport": "COLLEGE BASKETBALL",
-     "odds": 1.37,
-     "prob": 0.723,
-     "start": "2026-11-21T22:00:00+00:00",
-     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=f465b4a2-f9f3-426e-a5ec-db9040a551ce&odds_numerator[0]=2&odds_denominator[0]=1",
-     "sid": [
-      "b0e98542-b3ea-4100-94fb-a45bbfb7e24e",
-      "f465b4a2-f9f3-426e-a5ec-db9040a551ce",
-      "f8a38c11-b8d0-4118-b549-3ef5ae45b0c2"
-     ]
-    },
-    {
-     "pick": "UTSA Roadrunners",
-     "event": "Air Force Falcons @ UTSA Roadrunners",
-     "sport": "COLLEGE BASKETBALL",
-     "odds": 1.44,
-     "prob": 0.683,
-     "start": "2026-11-21T22:00:00+00:00",
-     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=e18b23c6-f891-4729-8253-d8ae415612a4&odds_numerator[0]=2&odds_denominator[0]=1",
-     "sid": [
-      "bfbcdecb-2167-44dc-845e-fc08ac5762df",
-      "e18b23c6-f891-4729-8253-d8ae415612a4",
-      "abbfd847-0101-44f2-8d45-1a02a8e8cacd"
+      null,
+      "25604",
+      "36336505"
      ]
     },
     {
      "pick": "Vermont Catamounts",
      "event": "Brown Bears @ Vermont Catamounts",
      "sport": "COLLEGE BASKETBALL",
-     "odds": 1.54,
+     "odds": 1.53,
      "prob": 0.645,
      "start": "2026-11-22T00:00:00+00:00",
-     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=288e0a24-c140-4790-af80-ab33eaa5e7c6&odds_numerator[0]=2&odds_denominator[0]=1",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627355692&selectionId=723288",
      "sid": [
-      "4ae04413-a9f2-419c-964d-db9c5f0f8967",
-      "288e0a24-c140-4790-af80-ab33eaa5e7c6",
-      "f2d5f243-6787-4153-a5bc-17606845c599"
+      null,
+      "723288",
+      "36344480"
+     ]
+    },
+    {
+     "pick": "Valparaiso Beacons",
+     "event": "Valparaiso Beacons @ Troy Trojans",
+     "sport": "COLLEGE BASKETBALL",
+     "odds": 1.53,
+     "prob": 0.634,
+     "start": "2026-11-22T01:00:00+00:00",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627344812&selectionId=732125",
+     "sid": [
+      null,
+      "732125",
+      "36344402"
      ]
     }
    ],
-   "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=a1c1c23b-94be-4157-b978-f3290e73b91a&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=f465b4a2-f9f3-426e-a5ec-db9040a551ce&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=e18b23c6-f891-4729-8253-d8ae415612a4&odds_numerator[2]=2&odds_denominator[2]=1&market_selection_id[3]=288e0a24-c140-4790-af80-ab33eaa5e7c6&odds_numerator[3]=2&odds_denominator[3]=1",
+   "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.627288985&selectionId[0]=5145585&marketId[1]=42.626714903&selectionId[1]=25604&marketId[2]=42.627355692&selectionId[2]=723288&marketId[3]=42.627344812&selectionId[3]=732125",
    "alts": [
     {
      "book": "DraftKings",
-     "odds": 3.96,
-     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87329211_3+0ML87342909_1+0ML87342906_1+0ML87342913_1"
+     "odds": 3.93,
+     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87342919_1+0ML87329211_3+0ML87342913_1+0ML87342923_1"
     },
     {
-     "book": "FanDuel",
-     "odds": 3.96,
-     "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.626714903&selectionId[0]=25604&marketId[1]=42.627359391&selectionId[1]=4339614&marketId[2]=42.627286581&selectionId[2]=6827228&marketId[3]=42.627355692&selectionId[3]=723288"
+     "book": "theScore Bet",
+     "odds": 3.93,
+     "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=f1879177-707a-4a11-a616-4798249deea6&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=a1c1c23b-94be-4157-b978-f3290e73b91a&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=288e0a24-c140-4790-af80-ab33eaa5e7c6&odds_numerator[2]=2&odds_denominator[2]=1&market_selection_id[3]=e2aefae7-75ba-4f42-a708-cf7ca972ce35&odds_numerator[3]=2&odds_denominator[3]=1"
     }
    ]
   },
   {
    "label": "Next safest 4x+",
-   "book": "DraftKings",
-   "odds": 4.0,
-   "prob": 0.2283,
-   "ev": -0.0859,
+   "book": "theScore Bet",
+   "odds": 4.01,
+   "prob": 0.2361,
+   "ev": -0.0536,
    "units": 0.5,
    "stake": 2.5,
-   "to_win": 7.51,
+   "to_win": 7.52,
    "legs": [
-    {
-     "pick": "Northeastern Huskies",
-     "event": "Northeastern Huskies @ Stonehill Skyhawks",
-     "sport": "COLLEGE BASKETBALL",
-     "odds": 1.25,
-     "prob": 0.793,
-     "start": "2026-11-21T22:00:00+00:00",
-     "link": "https://sportsbook.draftkings.com/?outcomes=0ML87342907_3",
-     "sid": [
-      null,
-      "0ML87342907_3",
-      "35058587"
-     ]
-    },
-    {
-     "pick": "Pacific Tigers",
-     "event": "Bradley Braves @ Pacific Tigers",
-     "sport": "COLLEGE BASKETBALL",
-     "odds": 1.25,
-     "prob": 0.782,
-     "start": "2026-11-22T03:00:00+00:00",
-     "link": "https://sportsbook.draftkings.com/?outcomes=0ML87342925_1",
-     "sid": [
-      null,
-      "0ML87342925_1",
-      "35058605"
-     ]
-    },
-    {
-     "pick": "VMI Keydets",
-     "event": "Gardner-Webb Bulldogs @ VMI Keydets",
-     "sport": "COLLEGE BASKETBALL",
-     "odds": 1.29,
-     "prob": 0.766,
-     "start": "2026-11-22T00:00:00+00:00",
-     "link": "https://sportsbook.draftkings.com/?outcomes=0ML87342916_1",
-     "sid": [
-      null,
-      "0ML87342916_1",
-      "35058596"
-     ]
-    },
-    {
-     "pick": "Tennessee Tech Golden Eagles",
-     "event": "Presbyterian Blue Hose @ Tennessee Tech Golden Eagles",
-     "sport": "COLLEGE BASKETBALL",
-     "odds": 1.29,
-     "prob": 0.76,
-     "start": "2026-11-22T00:30:00+00:00",
-     "link": "https://sportsbook.draftkings.com/?outcomes=0ML87342921_1",
-     "sid": [
-      null,
-      "0ML87342921_1",
-      "35058601"
-     ]
-    },
     {
      "pick": "Ottawa Senators",
      "event": "Los Angeles Kings @ Ottawa Senators",
@@ -1810,25 +1650,53 @@
      "odds": 1.54,
      "prob": 0.632,
      "start": "2026-11-22T00:00:00+00:00",
-     "link": "https://sportsbook.draftkings.com/?outcomes=0ML87329203_1",
+     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=51277ea1-27ef-46fb-81d0-beb33bbb71d5&odds_numerator[0]=2&odds_denominator[0]=1",
      "sid": [
-      null,
-      "0ML87329203_1",
-      "35047165"
+      "d364a349-4249-4424-9882-ef94279f3d97",
+      "51277ea1-27ef-46fb-81d0-beb33bbb71d5",
+      "d2b4a1b7-8190-49ef-b68f-6b6b3091e220"
+     ]
+    },
+    {
+     "pick": "Michigan Wolverines",
+     "event": "Michigan Wolverines @ Villanova Wildcats",
+     "sport": "COLLEGE BASKETBALL",
+     "odds": 1.54,
+     "prob": 0.628,
+     "start": "2026-11-22T00:00:00+00:00",
+     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=31fc2b22-716e-434f-8be1-9cbac91da79c&odds_numerator[0]=2&odds_denominator[0]=1",
+     "sid": [
+      "ff4c066f-daf1-4582-bb4b-3fc54563bcaf",
+      "31fc2b22-716e-434f-8be1-9cbac91da79c",
+      "d42f7834-a82a-4824-ba3c-d05afdca9908"
+     ]
+    },
+    {
+     "pick": "Montr\u00e9al Canadiens",
+     "event": "Philadelphia Flyers @ Montr\u00e9al Canadiens",
+     "sport": "NHL",
+     "odds": 1.69,
+     "prob": 0.594,
+     "start": "2026-11-22T00:00:00+00:00",
+     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=16e82a27-7495-4592-926b-d1790e919ab3&odds_numerator[0]=2&odds_denominator[0]=1",
+     "sid": [
+      "063ba7c1-09f8-4bab-87af-e98635189a1b",
+      "16e82a27-7495-4592-926b-d1790e919ab3",
+      "56661071-7ef1-4cc5-ac6b-7c009b08dc22"
      ]
     }
    ],
-   "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87342907_3+0ML87342925_1+0ML87342916_1+0ML87342921_1+0ML87329203_1",
+   "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=51277ea1-27ef-46fb-81d0-beb33bbb71d5&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=31fc2b22-716e-434f-8be1-9cbac91da79c&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=16e82a27-7495-4592-926b-d1790e919ab3&odds_numerator[2]=2&odds_denominator[2]=1",
    "alts": [
     {
-     "book": "theScore Bet",
-     "odds": 3.88,
-     "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=fade39fb-9bed-46f4-8669-f18ced5e9fe8&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=3adf40eb-1ee8-4758-9663-e8d76dc83cb8&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=107e13fb-91ed-4021-8ac6-9fe9f7ff64c1&odds_numerator[2]=2&odds_denominator[2]=1&market_selection_id[3]=36485777-9c04-49d7-b6a8-08579bc1ff8a&odds_numerator[3]=2&odds_denominator[3]=1&market_selection_id[4]=51277ea1-27ef-46fb-81d0-beb33bbb71d5&odds_numerator[4]=2&odds_denominator[4]=1"
+     "book": "DraftKings",
+     "odds": 3.84,
+     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87329203_1+0ML87342917_3+0ML87329187_1"
     },
     {
      "book": "FanDuel",
-     "odds": 3.87,
-     "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.627359190&selectionId[0]=728489&marketId[1]=42.627287874&selectionId[1]=756685&marketId[2]=42.627352944&selectionId[2]=12229127&marketId[3]=42.627351007&selectionId[3]=705256&marketId[4]=42.626714831&selectionId[4]=25599"
+     "odds": 3.89,
+     "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.626714831&selectionId[0]=25599&marketId[1]=42.627277289&selectionId[1]=697627&marketId[2]=42.626714683&selectionId[2]=25598"
     }
    ]
   }

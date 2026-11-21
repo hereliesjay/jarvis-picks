@@ -1,6 +1,6 @@
 {
  "version": 19,
- "updated": "2026-11-21T00:40:29+00:00",
+ "updated": "2026-11-21T00:50:02+00:00",
  "last_scan": "2026-11-21T00:30:21+00:00",
  "unit": 5.0,
  "bankroll": 1004.05,
@@ -96,8 +96,8 @@
    "open": 2,
    "units": -0.47,
    "dollars": -2.38,
-   "clv": -0.0032,
-   "clv_n": 4
+   "clv": -0.0036,
+   "clv_n": 5
   },
   "best": {
    "won": 0,
@@ -205,6 +205,106 @@
   }
  },
  "watching": 40,
+ "history": [
+  {
+   "type": "lean",
+   "sport": "COLLEGE FOOTBALL",
+   "pick": "Temple Owls",
+   "event": "Rice Owls @ Temple Owls",
+   "book": "theScore Bet",
+   "odds": 1.74,
+   "units": 0.5,
+   "edge": -0.0016,
+   "status": "lost",
+   "profit_u": -0.5,
+   "clv": -0.003,
+   "start": "2026-11-20T00:30:00+00:00"
+  },
+  {
+   "type": "lean",
+   "sport": "COLLEGE BASKETBALL",
+   "pick": "Houston Christian Huskies",
+   "event": "Georgia Southern Eagles @ Houston Christian Huskies",
+   "book": "FanDuel",
+   "odds": 1.64,
+   "units": 0.5,
+   "edge": 0.0083,
+   "status": "lost",
+   "profit_u": -0.5,
+   "clv": 0.0363,
+   "start": "2026-11-20T01:00:00+00:00"
+  },
+  {
+   "type": "lean",
+   "sport": "NHL",
+   "pick": "Minnesota Wild",
+   "event": "Minnesota Wild @ Calgary Flames",
+   "book": "theScore Bet",
+   "odds": 1.43,
+   "units": 0.5,
+   "edge": -0.0032,
+   "status": "won",
+   "profit_u": 0.215,
+   "clv": -0.022,
+   "start": "2026-11-20T01:10:00+00:00"
+  },
+  {
+   "type": "lean",
+   "sport": "COLLEGE BASKETBALL",
+   "pick": "Temple Owls",
+   "event": "Temple Owls @ Middle Tennessee Blue Raiders",
+   "book": "FanDuel",
+   "odds": 1.62,
+   "units": 0.5,
+   "edge": 0.0078,
+   "status": "won",
+   "profit_u": 0.31,
+   "clv": null,
+   "start": "2026-11-20T17:30:00+00:00"
+  },
+  {
+   "type": "best",
+   "sport": "COLLEGE BASKETBALL",
+   "pick": "Oklahoma St Cowboys",
+   "event": "Oklahoma St Cowboys @ Minnesota Golden Gophers",
+   "book": "theScore Bet",
+   "odds": 2.05,
+   "units": 1.0,
+   "edge": 0.0201,
+   "status": "lost",
+   "profit_u": -1.0,
+   "clv": null,
+   "start": "2026-11-20T17:30:00+00:00"
+  },
+  {
+   "type": "lean",
+   "sport": "COLLEGE BASKETBALL",
+   "pick": "The Citadel Bulldogs",
+   "event": "South Carolina St Bulldogs @ The Citadel Bulldogs",
+   "book": "FanDuel",
+   "odds": 1.67,
+   "units": 0.5,
+   "edge": 0.0126,
+   "status": "open",
+   "profit_u": 0.0,
+   "clv": -0.024,
+   "start": "2026-11-21T00:00:00+00:00"
+  },
+  {
+   "type": "lean",
+   "sport": "COLLEGE BASKETBALL",
+   "pick": "Indiana Hoosiers",
+   "event": "Kentucky Wildcats @ Indiana Hoosiers",
+   "book": "FanDuel",
+   "odds": 1.66,
+   "units": 0.5,
+   "edge": 0.0039,
+   "status": "open",
+   "profit_u": 0.0,
+   "clv": -0.0051,
+   "start": "2026-11-21T01:00:00+00:00"
+  }
+ ],
  "games": [
   {
    "sport": "COLLEGE FOOTBALL",

@@ -173,6 +173,11 @@ tbody tr:hover td{background:rgba(242,232,219,.03)}
 #settings{margin-bottom:.9rem;display:grid;gap:.7rem}#settings[hidden]{display:none}
 .bks{display:flex;flex-wrap:wrap;gap:.8rem;color:var(--cream);font-size:.85rem}
 .meta.pos{color:var(--olive)}.meta.neg{color:var(--rose)}
+
+.askrow{display:flex;gap:.5rem;margin:.4rem 0 .6rem}
+.askin{flex:1;min-width:0;background:var(--bean);border:1px solid var(--seam);color:var(--cream);border-radius:11px;padding:.65rem .8rem;font:inherit;font-size:.92rem}
+.askin:focus{outline:2px solid var(--caramel);outline-offset:1px}
+.askrow .go{margin:0}
 </style></head>
 <body><div class="wrap">
 <header><div><h1>Jarvis<span class="tonight" id="tonight">Tonight's card</span></h1><div class="status" id="status"><span class="dot"></span><span>Loading…</span></div></div>
@@ -187,7 +192,7 @@ tbody tr:hover td{background:rgba(242,232,219,.03)}
 <h2>Recent results</h2>
 <div class="card scroll"><table><thead><tr><th>Date</th><th>Pick</th><th>Type</th><th class="r">Odds</th><th class="r">Units</th><th class="r">Result</th></tr></thead><tbody id="recent"></tbody></table></div>
 
-<h2>Bot rules · switched off automatically when a sport loses over 50+ plays</h2>
+<h2>Bot rules · a sport switches off only after 100+ plays with both ROI and closing-line value negative</h2>
 <div class="card scroll"><table><thead><tr><th>Sport</th><th class="r">Plays</th><th class="r">ROI</th><th class="r">CLV</th><th class="r">Status</th></tr></thead><tbody id="rules"></tbody></table></div>
 
 <p class="note">Every game card shows the side the bot thinks is more likely to win, with its price check: VALUE = pays more than the real chance, FAIR = about right, OVERPRICED = the book is taking a big cut ("Pick only", no stake). Bet sizes: 1 unit = 2% of the paper bankroll (it grows as picks win). Best bets are sized by edge, 0.5u–3u (capped at 1u when only one sharp book prices it). A red ⚠ means a key player on that team was ruled out after the pick was posted. Best bet = your book pays at least 2% more than the sharp books' fair price (Pinnacle, devigged), odds 1.50–2.30. 1.5 units when the edge is 4%+ and 2+ sharp books agree. Lean = solid favourite priced about fair, half a unit. Parlays are half a unit and usually have no real edge: they're for fun. Don't take a pick if the odds drop below its "min odds". Paper-trade until the record proves itself. Gambling has real risk; never bet money you need.</p>
@@ -375,16 +380,71 @@ function myBetsSection(S){
   t.append(tb);card.append(t);sec.append(card);
   const ex=el('button','more','Download my bets (CSV)');ex.onclick=()=>{const head='date,pick,event,sport,book,odds,stake,status,profit\n';const body=rows.map(m=>[m.start,m.pick,m.event,m.sport,m.book,m.odds,m.stake,m.status,m.profit.toFixed(2)].map(v=>'"'+String(v).replace(/"/g,'""')+'"').join(',')).join('\n');
     const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([head+body],{type:'text/csv'}));a.download='jarvis-my-bets.csv';document.body.append(a);a.click();a.remove()};sec.append(ex);S.append(sec)}
+
+// ---------- parlay builder (runs in the browser from the bot's prices) ----------
+let PB={legs:4,target:4,mode:'safe',book:'any',sports:{},text:''};
+function slipFor(book,links){if(links.some(l=>!l))return null;
+  try{const qs=links.map(l=>new URL(l).searchParams);
+    if(book==='FanDuel')return 'https://sportsbook.fanduel.com/addToBetslip?'+qs.map((q,i)=>'marketId['+i+']='+q.get('marketId')+'&selectionId['+i+']='+q.get('selectionId')).join('&');
+    if(book==='DraftKings')return 'https://sportsbook.draftkings.com/?outcomes='+qs.map(q=>q.get('outcomes')).join('+');
+    if(book==='theScore Bet')return 'https://sportsbook.thescore.bet/?'+qs.map((q,i)=>'market_selection_id['+i+']='+q.get('market_selection_id[0]')+'&odds_numerator['+i+']='+q.get('odds_numerator[0]')+'&odds_denominator['+i+']='+q.get('odds_denominator[0]')).join('&');
+  }catch(e){}return null}
+function* combos(arr,k,start=0,acc=[]){if(acc.length===k){yield acc.slice();return}for(let i=start;i<=arr.length-(k-acc.length);i++){acc.push(arr[i]);yield* combos(arr,k,i+1,acc);acc.pop()}}
+function buildParlays(){
+  const now=Date.now();const games=(FEED&&FEED.games||[]).filter(g=>new Date(g.start)>now&&(Object.keys(PB.sports).length===0||PB.sports[group(g.sport)]));
+  const books=PB.book==='any'?Object.keys(SET.books).filter(bookOk):[PB.book];const out=[];
+  books.forEach(bk=>{let c=games.filter(g=>g.prices&&g.prices[bk]&&g.prob>=0.2).map(g=>({g,odds:g.prices[bk],p:g.prob,ev:g.prob*g.prices[bk]-1,link:(g.links||{})[bk]}));
+    c.sort(PB.mode==='safe'?(a,b)=>b.p-a.p:(a,b)=>b.ev-a.ev);c=c.slice(0,PB.legs>6?13:16);
+    for(const cb of combos(c,PB.legs)){if(new Set(cb.map(x=>x.g.event)).size<cb.length)continue;
+      const odds=cb.reduce((a,x)=>a*x.odds,1);if(odds<PB.target)continue;const p=cb.reduce((a,x)=>a*x.p,1);
+      out.push({book:bk,legs:cb,odds,p,ev:p*odds-1,score:PB.mode==='safe'?p:p*odds-1})}});
+  out.sort((a,b)=>b.score-a.score);const seen=new Set(),res=[];
+  for(const o of out){const ev=o.legs.map(x=>x.g.event);if(res.some(r=>r.legs.filter(x=>ev.includes(x.g.event)).length>Math.max(1,ev.length-2)))continue;res.push(o);if(res.length>=3)break}
+  return res}
+function parseAsk(t){t=t.toLowerCase();const m=t.match(/(\d+)\s*-?\s*(leg|team|pick)/);if(m)PB.legs=Math.max(2,Math.min(8,+m[1]));
+  const x=t.match(/(\d+(?:\.\d+)?)\s*x\b/)||t.match(/over\s+(\d+(?:\.\d+)?)/)||t.match(/\+(\d{3,4})/);
+  if(x){let v=+x[1];if(t.includes('+'+x[1])&&v>=100)v=1+v/100;PB.target=v}
+  else if(/high odds|big|longshot|lottery|huge/.test(t))PB.target=10;else if(/safe|safest|likely|lock/.test(t))PB.target=Math.max(2.5,Math.min(PB.target,4));
+  if(/value|ev\b|best price|sharp/.test(t))PB.mode='value';if(/safe|safest|likely|highest chance|best chance|lock/.test(t))PB.mode='safe';
+  const sp={nba:'nba',nhl:'nhl',hockey:'nhl',nfl:'nfl',football:'nfl',ufc:'ufc',mma:'ufc',tennis:'tennis',college:'more',ncaa:'more',soccer:'more'};PB.sports={};
+  Object.entries(sp).forEach(([w,id])=>{if(new RegExp('\\b'+w+'\\b').test(t))PB.sports[id]=true});
+  if(/fanduel|\bfd\b/.test(t))PB.book='FanDuel';else if(/draftkings|\bdk\b/.test(t))PB.book='DraftKings';else if(/thescore|score/.test(t))PB.book='theScore Bet';}
+function builderCard(o){
+  const c=el('div','card pick');const top=el('div');top.append(el('span','badge parlay',o.legs.length+'-leg parlay'));top.append(el('span','sp',o.book+', pays '+o.odds.toFixed(2)+'x'));c.append(top);
+  const ul=el('ul','legs');o.legs.forEach(x=>{const li=el('li');const s=el('span',null,x.g.pick);s.append(el('span','p',x.g.sport+', '+Math.round(x.p*100)+'%'));li.append(s);li.append(el('b',null,fo(x.odds)));ul.append(li)});c.append(ul);
+  const st=stakeFor(0.5,o.ev,o.odds)||unitSize()*0.5;const stake=SET.model==='kelly'&&o.ev<=0?unitSize()*0.5:st;
+  const bet=el('div','bet');const L=el('div');L.append(el('div','u',money(stake)));L.append(el('div','w','to win '+money(stake*(o.odds-1))));bet.append(L);
+  const R=el('div','ev');R.style.textAlign='right';R.textContent='hits ~'+(o.p*100).toFixed(o.p<0.1?1:0)+'% (1 in '+Math.max(1,Math.round(1/o.p))+')';R.append(el('div',o.ev>=0?'pos':'neg','EV '+pct(o.ev)+(o.ev<0?', the book\'s cut':', real value')));bet.append(R);c.append(bet);
+  const sl=slipFor(o.book,o.legs.map(x=>x.link));if(sl)c.append(goBtn(sl,'Add whole parlay to '+o.book));
+  else c.append(el('div','meta','One-tap link not available for every leg yet; add the legs in your app.'));
+  c.append(el('div','meta','First game '+when(o.legs.map(x=>x.g.start).sort()[0])));return c}
+function renderBuilder(S){
+  const sec=el('section','sec');const h=el('h3');h.append('Parlay builder',el('span','c','from tonight\'s prices'));sec.append(h);
+  const ask=el('div','askrow');const inp=el('input','askin');inp.placeholder='Try: safest 4 leg over 5x NBA, or 6 leg high odds on FanDuel';inp.value=PB.text;inp.setAttribute('aria-label','Describe the parlay you want');
+  const go=el('button','go','Build');const run=()=>{PB.text=inp.value;parseAsk(inp.value);render()};go.onclick=run;inp.onkeydown=e=>{if(e.key==='Enter')run()};ask.append(inp,go);sec.append(ask);
+  const F=el('div','filters');const sel=(lab,val,opts,set)=>{const s=el('select');s.setAttribute('aria-label',lab);opts.forEach(([v,t])=>{const o=el('option',null,t);o.value=v;if(String(val)===String(v))o.selected=true;s.append(o)});s.onchange=()=>{set(s.value);render()};F.append(s)};
+  sel('Legs',PB.legs,[2,3,4,5,6,7,8].map(n=>[n,n+' legs']),v=>PB.legs=+v);
+  sel('Payout',PB.target,[[2,'2x+'],[3,'3x+'],[4,'4x+'],[5,'5x+'],[10,'10x+'],[20,'20x+'],[50,'50x+']].concat([2,3,4,5,10,20,50].includes(PB.target)?[]:[[PB.target,PB.target+'x+']]),v=>PB.target=+v);
+  sel('Mode',PB.mode,[['safe','Safest (highest hit chance)'],['value','Best value (closest to fair)']],v=>PB.mode=v);
+  sel('Book',PB.book,[['any','Any of my books']].concat(Object.keys(SET.books).filter(bookOk).map(b=>[b,b])),v=>PB.book=v);sec.append(F);
+  const sx=el('div','bks');SPORTS.forEach(s=>{const l=el('label');const cb=el('input');cb.type='checkbox';cb.checked=!!PB.sports[s.id];cb.onchange=()=>{if(cb.checked)PB.sports[s.id]=true;else delete PB.sports[s.id];render()};l.append(cb,' '+(s.id==='nfl'?'NFL':s.id==='more'?'College/other':s.name));sx.append(l)});
+  sec.append(el('div','meta','Sports (none ticked = all):'),sx);
+  const res=buildParlays();const w=el('div','picks');w.style.marginTop='1rem';
+  if(!res.length)w.append(el('div','card empty','No '+PB.legs+'-leg parlay reaches '+PB.target+'x with tonight\'s games and these filters. Try fewer legs, a lower payout, or more sports.'));
+  res.forEach(o=>w.append(builderCard(o)));sec.append(w);
+  sec.append(el('p','note','Parlays multiply the books\' cut: if each leg is 2% overpriced, a 5-leg parlay is about 10% overpriced. EV shows that honestly; green means real value. Built from the side the bot thinks wins in each game, priced at your books.'));
+  S.append(sec)}
 const SPORTS=[{id:'nba',name:'NBA',ic:'🏀'},{id:'nhl',name:'NHL',ic:'🏒'},{id:'nfl',name:'NFL & College Football',ic:'🏈'},{id:'ufc',name:'UFC',ic:'🥊'},{id:'tennis',name:'Tennis',ic:'🎾'},{id:'more',name:'More (college hoops, soccer…)',ic:'⭐'}];
 function group(s){s=(s||'').toUpperCase();if(s.includes('NBA'))return 'nba';if(s.includes('NHL')||s.includes('HOCKEY'))return 'nhl';if(s.includes('NFL')||s.includes('FOOTBALL'))return 'nfl';if(s.includes('MMA')||s.includes('UFC')||s.includes('BOX'))return 'ufc';if(s.includes('TENNIS')||s.includes('ATP')||s.includes('WTA'))return 'tennis';return 'more'}
 let TAB='all';
 function render(){const G=window._G;if(!G)return;
   const T=$('tabs');T.replaceChildren();const total=SPORTS.reduce((a,s)=>a+(G[s.id].games.length||(G[s.id].picks.length+G[s.id].parlays.length)),0);
-  [{id:'all',name:'All'}].concat(SPORTS.map(s=>({id:s.id,name:s.id==='nfl'?'NFL':s.id==='more'?'More':s.name})),[{id:'results',name:'Results'}]).forEach(t=>{
-    const n=t.id==='results'?HIST.filter(r=>r.status!=='open').length:t.id==='all'?total:G[t.id].games.length||(G[t.id].picks.length+G[t.id].parlays.length);
+  [{id:'all',name:'All'}].concat(SPORTS.map(s=>({id:s.id,name:s.id==='nfl'?'NFL':s.id==='more'?'More':s.name})),[{id:'builder',name:'Parlay builder'},{id:'results',name:'Results'}]).forEach(t=>{
+    const n=t.id==='builder'?'':t.id==='results'?HIST.filter(r=>r.status!=='open').length:t.id==='all'?total:G[t.id].games.length||(G[t.id].picks.length+G[t.id].parlays.length);
     const b=el('button','tab'+(TAB===t.id?' on':''),t.name);b.append(el('span','n',n));b.onclick=()=>{TAB=t.id;render()};T.append(b)});
   const S=$('sections');S.replaceChildren();
   if(TAB==='results'){myBetsSection(S);renderResults(S);return}
+  if(TAB==='builder'){renderBuilder(S);return}
   if(TAB==='all'){
     const all=[];SPORTS.forEach(s=>G[s.id].picks.forEach(p=>all.push(p)));
     all.sort((a,b)=>(a.started-b.started)||((b.tier==='best')-(a.tier==='best'))||(b.edge-a.edge));

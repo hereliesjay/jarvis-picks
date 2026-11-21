@@ -1,6 +1,6 @@
 {
  "version": 19,
- "updated": "2026-11-21T20:10:50+00:00",
+ "updated": "2026-11-21T20:15:54+00:00",
  "last_scan": "2026-11-21T19:50:33+00:00",
  "unit": 5.0,
  "bankroll": 244.28,
@@ -383,30 +383,6 @@
   }
  ],
  "games": [
-  {
-   "sport": "MMA",
-   "event": "Navajo Stirling @ Jiri Prochazka",
-   "pick": "Navajo Stirling",
-   "opp": "Jiri Prochazka",
-   "start": "2026-11-21T20:15:00+00:00",
-   "book": "FanDuel",
-   "odds": 1.51,
-   "prob": 0.6551,
-   "edge": -0.0108,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.25,
-   "to_win": 0.64,
-   "tier": null,
-   "fair_odds": 1.53,
-   "why": [
-    "Sharp books give Navajo Stirling a 66% chance to win (Jiri Prochazka 34%)."
-   ],
-   "injuries": [],
-   "n_sharp": 3,
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625454549&selectionId=77670849"
-  },
   {
    "sport": "NHL",
    "event": "Chicago Blackhawks @ Calgary Flames",
@@ -2076,25 +2052,25 @@
   {
    "label": "Next safest 4x+",
    "book": "DraftKings",
-   "odds": 4.0,
-   "prob": 0.2341,
-   "ev": -0.063,
+   "odds": 4.01,
+   "prob": 0.233,
+   "ev": -0.0659,
    "units": 0.5,
    "stake": 2.5,
-   "to_win": 7.51,
+   "to_win": 7.52,
    "legs": [
     {
-     "pick": "VMI Keydets",
-     "event": "Gardner-Webb Bulldogs @ VMI Keydets",
+     "pick": "Northeastern Huskies",
+     "event": "Northeastern Huskies @ Stonehill Skyhawks",
      "sport": "COLLEGE BASKETBALL",
-     "odds": 1.29,
-     "prob": 0.766,
-     "start": "2026-11-22T00:00:00+00:00",
-     "link": "https://sportsbook.draftkings.com/?outcomes=0ML87342916_1",
+     "odds": 1.25,
+     "prob": 0.793,
+     "start": "2026-11-21T22:00:00+00:00",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0ML87342907_3",
      "sid": [
       null,
-      "0ML87342916_1",
-      "35058596"
+      "0ML87342907_3",
+      "35058587"
      ]
     },
     {
@@ -2112,20 +2088,6 @@
      ]
     },
     {
-     "pick": "Navajo Stirling",
-     "event": "Navajo Stirling @ Jiri Prochazka",
-     "sport": "MMA",
-     "odds": 1.49,
-     "prob": 0.655,
-     "start": "2026-11-21T20:15:00+00:00",
-     "link": "https://sportsbook.draftkings.com/?outcomes=0ML87057418_3",
-     "sid": [
-      null,
-      "0ML87057418_3",
-      "34948529"
-     ]
-    },
-    {
      "pick": "Vermont Catamounts",
      "event": "Brown Bears @ Vermont Catamounts",
      "sport": "COLLEGE BASKETBALL",
@@ -2138,14 +2100,33 @@
       "0ML87342913_1",
       "35058593"
      ]
+    },
+    {
+     "pick": "Ottawa Senators",
+     "event": "Los Angeles Kings @ Ottawa Senators",
+     "sport": "NHL",
+     "odds": 1.54,
+     "prob": 0.63,
+     "start": "2026-11-22T00:00:00+00:00",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0ML87329203_1",
+     "sid": [
+      null,
+      "0ML87329203_1",
+      "35047165"
+     ]
     }
    ],
-   "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87342916_1+0ML87342909_1+0ML87057418_3+0ML87342913_1",
+   "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87342907_3+0ML87342909_1+0ML87342913_1+0ML87329203_1",
    "alts": [
     {
+     "book": "theScore Bet",
+     "odds": 4.06,
+     "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=fade39fb-9bed-46f4-8669-f18ced5e9fe8&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=f465b4a2-f9f3-426e-a5ec-db9040a551ce&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=288e0a24-c140-4790-af80-ab33eaa5e7c6&odds_numerator[2]=2&odds_denominator[2]=1&market_selection_id[3]=51277ea1-27ef-46fb-81d0-beb33bbb71d5&odds_numerator[3]=2&odds_denominator[3]=1"
+    },
+    {
      "book": "FanDuel",
-     "odds": 3.96,
-     "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.627352944&selectionId[0]=12229127&marketId[1]=42.627359391&selectionId[1]=4339614&marketId[2]=42.625454549&selectionId[2]=77670849&marketId[3]=42.627355692&selectionId[3]=723288"
+     "odds": 3.97,
+     "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.627359190&selectionId[0]=728489&marketId[1]=42.627359391&selectionId[1]=4339614&marketId[2]=42.627355692&selectionId[2]=723288&marketId[3]=42.626714831&selectionId[3]=25599"
     }
    ]
   }

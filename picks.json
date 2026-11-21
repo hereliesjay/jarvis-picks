@@ -1,6 +1,6 @@
 {
  "version": 19,
- "updated": "2026-11-21T04:00:58+00:00",
+ "updated": "2026-11-21T04:10:02+00:00",
  "last_scan": "2026-11-21T01:21:18+00:00",
  "unit": 5.0,
  "bankroll": 244.28,
@@ -322,30 +322,6 @@
   }
  ],
  "games": [
-  {
-   "sport": "TENNIS",
-   "event": "Sakatsume, Himeno vs Urrutia, Maria Florencia (Billie Jean King Cup)",
-   "pick": "Sakatsume, Himeno",
-   "opp": "Urrutia, Maria Florencia",
-   "start": "2026-11-21T04:10:00+00:00",
-   "book": "FanDuel",
-   "odds": 1.02,
-   "prob": 0.9312,
-   "edge": -0.0502,
-   "value": "over",
-   "value_txt": "Overpriced: the book is charging a lot here",
-   "units": 0.0,
-   "stake": 0.0,
-   "to_win": 0.0,
-   "tier": null,
-   "fair_odds": 1.07,
-   "why": [
-    "Sharp books give Sakatsume, Himeno a 93% chance to win (Urrutia, Maria Florencia 5%)."
-   ],
-   "injuries": [],
-   "n_sharp": 1,
-   "link": null
-  },
   {
    "sport": "TENNIS",
    "event": "Samuel, Toby vs Djere, Laslo (ATP Challenger Helsinki, Finland Men Singles)",

@@ -1,6 +1,6 @@
 {
  "version": 19,
- "updated": "2026-11-21T19:15:42+00:00",
+ "updated": "2026-11-21T19:17:45+00:00",
  "last_scan": "2026-11-21T18:49:27+00:00",
  "unit": 5.0,
  "bankroll": 244.28,
@@ -759,8 +759,8 @@
     {
      "team": "Chicago Blackhawks",
      "list": [
-      "Connor Bedard (C, Out)",
-      "Bowen Byram (D, Injured Reserve)"
+      "Bowen Byram (D, Injured Reserve)",
+      "Connor Bedard (C, Out)"
      ]
     }
    ],
@@ -1402,7 +1402,6 @@
     {
      "team": "Columbus Blue Jackets",
      "list": [
-      "Mathieu Olivier (RW, day-to-day)",
       "Sean Monahan (C, Out)"
      ]
     }
@@ -2001,7 +2000,7 @@
    "why": [
     "Sharp books give Minnesota Timberwolves a 68% chance to win (Memphis Grizzlies 31%).",
     "Minnesota Timberwolves: 11-5, 7-3 at home, 115.6 pts/game, top: Ayo Dosunmu 17.8 PPG.",
-    "Memphis Grizzlies: 12-4, 8-0 on the road, 122.1 pts/game, top: Cedric Coward 14.8 PPG."
+    "Memphis Grizzlies: 12-4, 8-0 on the road, 122.1 pts/game, top: Ty Jerome 25.4 PPG."
    ],
    "injuries": [
     {
@@ -2018,7 +2017,7 @@
       "Jerami Grant (F, Out)",
       "Javon Small (G, Out)",
       "Cameron Boozer (F, Out)",
-      "Ty Jerome (G, Out)"
+      "GG Jackson (F, Out)"
      ]
     }
    ],
@@ -2165,8 +2164,8 @@
     {
      "team": "Minnesota Wild",
      "list": [
+      "Quinn Hughes (D, Out)",
       "Yakov Trenin (C, day-to-day)",
-      "Quinn Hughes (D, day-to-day)",
       "Filip Gustavsson (G, Injured Reserve)",
       "Olli Maatta (D, Injured Reserve)"
      ]
@@ -2220,7 +2219,6 @@
      "team": "Seattle Kraken",
      "list": [
       "Jake O'Brien (C, Injured Reserve)",
-      "Curtis Douglas (C, Injured Reserve)",
       "Jared McCann (LW, Injured Reserve)"
      ]
     }

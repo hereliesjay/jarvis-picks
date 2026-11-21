@@ -1,6 +1,6 @@
 {
  "version": 19,
- "updated": "2026-11-21T21:20:32+00:00",
+ "updated": "2026-11-21T21:30:38+00:00",
  "last_scan": "2026-11-21T21:00:20+00:00",
  "unit": 5.0,
  "bankroll": 243.53,
@@ -403,56 +403,6 @@
   }
  ],
  "games": [
-  {
-   "sport": "TENNIS",
-   "event": "Felipe De Dios vs Francisco Gay (Santa Cruz)",
-   "pick": "Felipe De Dios",
-   "opp": "Francisco Gay",
-   "start": "2026-11-21T21:30:00+00:00",
-   "book": "DraftKings",
-   "odds": 1.364,
-   "prob": 0.6874,
-   "edge": -0.0624,
-   "value": "over",
-   "value_txt": "Overpriced: the book is charging a lot here",
-   "units": 0.0,
-   "stake": 0.0,
-   "to_win": 0.0,
-   "tier": null,
-   "fair_odds": 1.45,
-   "why": [
-    "Sharp books give Felipe De Dios a 69% chance to win (Francisco Gay 30%)."
-   ],
-   "injuries": [],
-   "n_sharp": 1,
-   "link": null
-  },
-  {
-   "sport": "COLLEGE BASKETBALL",
-   "event": "UC Irvine Anteaters @ San Diego Toreros",
-   "pick": "UC Irvine Anteaters",
-   "opp": "San Diego Toreros",
-   "start": "2026-11-21T21:30:00+00:00",
-   "book": "FanDuel",
-   "odds": 1.53,
-   "prob": 0.6398,
-   "edge": -0.0212,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.25,
-   "to_win": 0.66,
-   "tier": null,
-   "fair_odds": 1.56,
-   "why": [
-    "Sharp books give UC Irvine Anteaters a 64% chance to win (San Diego Toreros 36%).",
-    "UC Irvine Anteaters: 3-1, 0-1 on the road, 83.5 pts/game, top: Jovan Jester Jr. 15.5 PPG.",
-    "San Diego Toreros: 4-1, 0-1 on the road, 81.6 pts/game, top: Dusty Stromer 15.0 PPG."
-   ],
-   "injuries": [],
-   "n_sharp": 3,
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627279966&selectionId=734340"
-  },
   {
    "sport": "COLLEGE BASKETBALL",
    "event": "Air Force Falcons @ UTSA Roadrunners",
@@ -1789,54 +1739,54 @@
   },
   {
    "label": "Next safest 4x+",
-   "book": "FanDuel",
-   "odds": 4.04,
-   "prob": 0.2284,
-   "ev": -0.0774,
+   "book": "DraftKings",
+   "odds": 4.0,
+   "prob": 0.2283,
+   "ev": -0.0859,
    "units": 0.5,
    "stake": 2.5,
-   "to_win": 7.6,
+   "to_win": 7.51,
    "legs": [
     {
      "pick": "Northeastern Huskies",
      "event": "Northeastern Huskies @ Stonehill Skyhawks",
      "sport": "COLLEGE BASKETBALL",
-     "odds": 1.23,
+     "odds": 1.25,
      "prob": 0.793,
      "start": "2026-11-21T22:00:00+00:00",
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627359190&selectionId=728489",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0ML87342907_3",
      "sid": [
       null,
-      "728489",
-      "36344522"
+      "0ML87342907_3",
+      "35058587"
      ]
     },
     {
-     "pick": "Cal Poly Mustangs",
-     "event": "Northern Arizona Lumberjacks @ Cal Poly Mustangs",
+     "pick": "Pacific Tigers",
+     "event": "Bradley Braves @ Pacific Tigers",
      "sport": "COLLEGE BASKETBALL",
-     "odds": 1.29,
-     "prob": 0.777,
-     "start": "2026-11-22T00:00:00+00:00",
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627288985&selectionId=5145585",
+     "odds": 1.25,
+     "prob": 0.782,
+     "start": "2026-11-22T03:00:00+00:00",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0ML87342925_1",
      "sid": [
       null,
-      "5145585",
-      "36343981"
+      "0ML87342925_1",
+      "35058605"
      ]
     },
     {
-     "pick": "Chattanooga Mocs",
-     "event": "Radford Highlanders @ Chattanooga Mocs",
+     "pick": "VMI Keydets",
+     "event": "Gardner-Webb Bulldogs @ VMI Keydets",
      "sport": "COLLEGE BASKETBALL",
      "odds": 1.29,
-     "prob": 0.762,
+     "prob": 0.766,
      "start": "2026-11-22T00:00:00+00:00",
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627353841&selectionId=1095877",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0ML87342916_1",
      "sid": [
       null,
-      "1095877",
-      "36344465"
+      "0ML87342916_1",
+      "35058596"
      ]
     },
     {
@@ -1846,39 +1796,39 @@
      "odds": 1.29,
      "prob": 0.76,
      "start": "2026-11-22T00:30:00+00:00",
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627351007&selectionId=705256",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0ML87342921_1",
      "sid": [
       null,
-      "705256",
-      "36344444"
+      "0ML87342921_1",
+      "35058601"
      ]
     },
     {
-     "pick": "UC Irvine Anteaters",
-     "event": "UC Irvine Anteaters @ San Diego Toreros",
-     "sport": "COLLEGE BASKETBALL",
-     "odds": 1.53,
-     "prob": 0.64,
-     "start": "2026-11-21T21:30:00+00:00",
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627279966&selectionId=734340",
+     "pick": "Ottawa Senators",
+     "event": "Los Angeles Kings @ Ottawa Senators",
+     "sport": "NHL",
+     "odds": 1.54,
+     "prob": 0.632,
+     "start": "2026-11-22T00:00:00+00:00",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0ML87329203_1",
      "sid": [
       null,
-      "734340",
-      "36343886"
+      "0ML87329203_1",
+      "35047165"
      ]
     }
    ],
-   "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.627359190&selectionId[0]=728489&marketId[1]=42.627288985&selectionId[1]=5145585&marketId[2]=42.627353841&selectionId[2]=1095877&marketId[3]=42.627351007&selectionId[3]=705256&marketId[4]=42.627279966&selectionId[4]=734340",
+   "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87342907_3+0ML87342925_1+0ML87342916_1+0ML87342921_1+0ML87329203_1",
    "alts": [
     {
-     "book": "DraftKings",
-     "odds": 3.96,
-     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87342907_3+0ML87342919_1+0ML87342920_1+0ML87342921_1+0ML87342905_3"
+     "book": "theScore Bet",
+     "odds": 3.88,
+     "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=fade39fb-9bed-46f4-8669-f18ced5e9fe8&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=3adf40eb-1ee8-4758-9663-e8d76dc83cb8&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=107e13fb-91ed-4021-8ac6-9fe9f7ff64c1&odds_numerator[2]=2&odds_denominator[2]=1&market_selection_id[3]=36485777-9c04-49d7-b6a8-08579bc1ff8a&odds_numerator[3]=2&odds_denominator[3]=1&market_selection_id[4]=51277ea1-27ef-46fb-81d0-beb33bbb71d5&odds_numerator[4]=2&odds_denominator[4]=1"
     },
     {
-     "book": "theScore Bet",
-     "odds": 3.9,
-     "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=fade39fb-9bed-46f4-8669-f18ced5e9fe8&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=f1879177-707a-4a11-a616-4798249deea6&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=b4ade919-f035-4f40-b2e5-0cb091c941a8&odds_numerator[2]=2&odds_denominator[2]=1&market_selection_id[3]=36485777-9c04-49d7-b6a8-08579bc1ff8a&odds_numerator[3]=2&odds_denominator[3]=1&market_selection_id[4]=1a1b2c9d-776f-4c6e-a618-44b99c25bf14&odds_numerator[4]=2&odds_denominator[4]=1"
+     "book": "FanDuel",
+     "odds": 3.87,
+     "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.627359190&selectionId[0]=728489&marketId[1]=42.627287874&selectionId[1]=756685&marketId[2]=42.627352944&selectionId[2]=12229127&marketId[3]=42.627351007&selectionId[3]=705256&marketId[4]=42.626714831&selectionId[4]=25599"
     }
    ]
   }

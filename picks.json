@@ -1,6 +1,6 @@
 {
  "version": 19,
- "updated": "2026-11-21T19:00:36+00:00",
+ "updated": "2026-11-21T19:15:42+00:00",
  "last_scan": "2026-11-21T18:49:27+00:00",
  "unit": 5.0,
  "bankroll": 244.28,
@@ -383,30 +383,6 @@
   }
  ],
  "games": [
-  {
-   "sport": "MMA",
-   "event": "Brian Ortega @ Daniel Hooker",
-   "pick": "Daniel Hooker",
-   "opp": "Brian Ortega",
-   "start": "2026-11-21T19:15:00+00:00",
-   "book": "FanDuel",
-   "odds": 1.53,
-   "prob": 0.6476,
-   "edge": -0.0091,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.25,
-   "to_win": 0.66,
-   "tier": null,
-   "fair_odds": 1.54,
-   "why": [
-    "Sharp books give Daniel Hooker a 65% chance to win (Brian Ortega 35%)."
-   ],
-   "injuries": [],
-   "n_sharp": 3,
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625454550&selectionId=8644644"
-  },
   {
    "sport": "TENNIS",
    "event": "Nauhany Vitoria Leme Da Silva vs Kayla Cross (Billie Jean King Cup)",

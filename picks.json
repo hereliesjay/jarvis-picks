@@ -1,6 +1,6 @@
 {
  "version": 19,
- "updated": "2026-11-21T22:10:16+00:00",
+ "updated": "2026-11-21T22:15:20+00:00",
  "last_scan": "2026-11-21T22:10:16+00:00",
  "unit": 5.0,
  "bankroll": 243.53,
@@ -403,30 +403,6 @@
   }
  ],
  "games": [
-  {
-   "sport": "TENNIS",
-   "event": "Alan Magadan vs Matteo Covato (Chihuahua)",
-   "pick": "Alan Magadan",
-   "opp": "Matteo Covato",
-   "start": "2026-11-21T22:15:00+00:00",
-   "book": "theScore Bet",
-   "odds": 1.2,
-   "prob": 0.7802,
-   "edge": -0.0638,
-   "value": "over",
-   "value_txt": "Overpriced: the book is charging a lot here",
-   "units": 0.0,
-   "stake": 0.0,
-   "to_win": 0.0,
-   "tier": null,
-   "fair_odds": 1.28,
-   "why": [
-    "Sharp books give Alan Magadan a 78% chance to win (Matteo Covato 20%)."
-   ],
-   "injuries": [],
-   "n_sharp": 1,
-   "link": null
-  },
   {
    "sport": "COLLEGE BASKETBALL",
    "event": "Southern Illinois Salukis @ East Carolina Pirates",

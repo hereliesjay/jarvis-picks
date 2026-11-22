@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-22T20:33:13+00:00",
+ "updated": "2026-11-22T20:38:19+00:00",
  "last_scan": "2026-11-22T19:37:22+00:00",
  "unit": 5.0,
  "bankroll": 238.53,
@@ -810,17 +810,19 @@
     {
      "team": "Denver Broncos",
      "list": [
-      "Caleb Lohner (TE, Injured Reserve)",
-      "Brandon Jones (S, Questionable)"
+      "Lil'Jordan Humphrey (WR, Out)",
+      "Brandon Jones (S, Out)",
+      "Sam Ehlinger (QB, Out)",
+      "Gavin Ortega (OT, Out)"
      ]
     },
     {
      "team": "Las Vegas Raiders",
      "list": [
-      "Brock Bowers (TE, Questionable)",
-      "Folorunso Fatukasi (DT, Questionable)",
-      "Tonka Hemingway (DT, Out)",
-      "Matt Gay (PK, Questionable)"
+      "Dont'e Thornton Jr. (WR, Out)",
+      "Dalton Johnson (S, Out)",
+      "Tristin McCollum (S, Out)",
+      "Bryce Cabeldue (G, Out)"
      ]
     }
    ],
@@ -875,16 +877,19 @@
     {
      "team": "Jacksonville Jaguars",
      "list": [
+      "Matt Dickerson (DE, Out)",
+      "CJ Williams (WR, Out)",
       "Danny Striggow (DE, Out)",
-      "B.J. Green II (DE, Injured Reserve)",
-      "Matt Dickerson (DE, Questionable)",
-      "Robert Hainsey (C, Out)"
+      "Albert Regis (DT, Out)"
      ]
     },
     {
      "team": "New York Giants",
      "list": [
-      "Tyrone Tracy Jr. (RB, Injured Reserve)"
+      "Jason Pinnock (S, Out)",
+      "Josh Sills (G, Out)",
+      "Nic Jones (CB, Out)",
+      "J.C. Davis (OT, Out)"
      ]
     }
    ],

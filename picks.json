@@ -1,7 +1,7 @@
 {
  "version": 25,
- "updated": "2026-11-22T23:36:09+00:00",
- "last_scan": "2026-11-22T23:05:55+00:00",
+ "updated": "2026-11-22T23:48:18+00:00",
+ "last_scan": "2026-11-22T23:48:18+00:00",
  "unit": 5.0,
  "bankroll": 240.43,
  "bank_start": 250.0,
@@ -317,7 +317,7 @@
    "on": true
   }
  },
- "watching": 38,
+ "watching": 30,
  "history": [
   {
    "type": "lean",
@@ -676,19 +676,19 @@
    "pick": "Denver Nuggets",
    "opp": "Chicago Bulls",
    "start": "2026-11-23T00:10:00+00:00",
-   "book": "DraftKings",
-   "odds": 1.23,
-   "prob": 0.7927,
-   "edge": -0.025,
-   "value": "over",
-   "value_txt": "Overpriced: the book is charging a lot here",
-   "units": 0.0,
-   "stake": 0.0,
-   "to_win": 0.0,
+   "book": "FanDuel",
+   "odds": 1.25,
+   "prob": 0.7849,
+   "edge": -0.0189,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.25,
+   "stake": 1.25,
+   "to_win": 0.31,
    "tier": null,
-   "fair_odds": 1.26,
+   "fair_odds": 1.27,
    "why": [
-    "Sharp books give Denver Nuggets a 79% chance to win (Chicago Bulls 19%).",
+    "Sharp books give Denver Nuggets a 78% chance to win (Chicago Bulls 19%).",
     "Denver Nuggets: 9-5, 4-2 on the road, 114.6 pts/game, top: Jamal Murray 24.9 PPG.",
     "Chicago Bulls: 4-11, 1-5 at home, 114.7 pts/game, top: Matas Buzelis 14.7 PPG."
    ],
@@ -709,10 +709,10 @@
     }
    ],
    "n_sharp": 5,
-   "link": "https://sportsbook.draftkings.com/?outcomes=0ML87336715_3",
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627104568&selectionId=237492",
    "prices": {
-    "FanDuel": 1.22,
-    "DraftKings": 1.23,
+    "FanDuel": 1.25,
+    "DraftKings": 1.24,
     "theScore Bet": 1.22
    },
    "links": {
@@ -730,6 +730,11 @@
      "2026-11-22T19:02:11+00:00",
      1.23,
      0.7936
+    ],
+    [
+     "2026-11-22T23:48:18+00:00",
+     1.25,
+     0.7849
     ]
    ]
   },
@@ -739,19 +744,19 @@
    "pick": "Dallas Mavericks",
    "opp": "Utah Jazz",
    "start": "2026-11-23T00:10:00+00:00",
-   "book": "FanDuel",
+   "book": "DraftKings",
    "odds": 1.74,
-   "prob": 0.5529,
-   "edge": -0.038,
-   "value": "over",
-   "value_txt": "Overpriced: the book is charging a lot here",
-   "units": 0.0,
-   "stake": 0.0,
-   "to_win": 0.0,
+   "prob": 0.5607,
+   "edge": -0.0244,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.25,
+   "stake": 1.25,
+   "to_win": 0.93,
    "tier": null,
-   "fair_odds": 1.81,
+   "fair_odds": 1.78,
    "why": [
-    "Sharp books give Dallas Mavericks a 55% chance to win (Utah Jazz 45%).",
+    "Sharp books give Dallas Mavericks a 56% chance to win (Utah Jazz 44%).",
     "Dallas Mavericks: 9-7, 2-5 on the road, 112.2 pts/game, top: Cooper Flagg 24.1 PPG.",
     "Utah Jazz: 3-14, 2-6 on the road, 108.3 pts/game, top: Keyonte George 21.1 PPG."
    ],
@@ -775,9 +780,9 @@
     }
    ],
    "n_sharp": 5,
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627104554&selectionId=237472",
+   "link": "https://sportsbook.draftkings.com/?outcomes=0ML87336791_3",
    "prices": {
-    "FanDuel": 1.74,
+    "FanDuel": 1.7,
     "DraftKings": 1.74,
     "theScore Bet": 1.74
    },
@@ -801,6 +806,11 @@
      "2026-11-22T21:00:30+00:00",
      1.74,
      0.5529
+    ],
+    [
+     "2026-11-22T23:48:18+00:00",
+     1.74,
+     0.5607
     ]
    ]
   },
@@ -810,10 +820,10 @@
    "pick": "Orlando Magic",
    "opp": "Washington Wizards",
    "start": "2026-11-23T00:10:00+00:00",
-   "book": "FanDuel",
+   "book": "theScore Bet",
    "odds": 1.51,
-   "prob": 0.645,
-   "edge": -0.0261,
+   "prob": 0.6434,
+   "edge": -0.0285,
    "value": "over",
    "value_txt": "Overpriced: the book is charging a lot here",
    "units": 0.0,
@@ -847,9 +857,9 @@
     }
    ],
    "n_sharp": 5,
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627104551&selectionId=237475",
+   "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=2b54e249-b3ac-4993-ab03-7568908707f6&odds_numerator[0]=2&odds_denominator[0]=1",
    "prices": {
-    "FanDuel": 1.51,
+    "FanDuel": 1.48,
     "theScore Bet": 1.51,
     "DraftKings": 1.51
    },
@@ -1107,8 +1117,8 @@
    "start": "2026-11-23T01:10:00+00:00",
    "book": "theScore Bet",
    "odds": 1.36,
-   "prob": 0.7305,
-   "edge": -0.0065,
+   "prob": 0.7277,
+   "edge": -0.0104,
    "value": "slight",
    "value_txt": "A bit overpriced (books' cut)",
    "units": 0.25,
@@ -1117,7 +1127,7 @@
    "tier": null,
    "fair_odds": 1.37,
    "why": [
-    "Sharp books give New York Knicks a 73% chance to win (Indiana Pacers 25%).",
+    "Sharp books give New York Knicks a 73% chance to win (Indiana Pacers 26%).",
     "New York Knicks: 10-6, 5-3 at home, 108.7 pts/game, top: Jalen Brunson 26.8 PPG.",
     "Indiana Pacers: 5-11, 2-5 at home, 112.0 pts/game, top: Pascal Siakam 23.0 PPG."
    ],
@@ -1310,18 +1320,18 @@
    "opp": "Golden State Warriors",
    "start": "2026-11-23T01:40:00+00:00",
    "book": "theScore Bet",
-   "odds": 1.36,
-   "prob": 0.7402,
-   "edge": 0.0067,
-   "value": "fair",
-   "value_txt": "Fair price",
-   "units": 0.5,
-   "stake": 2.5,
-   "to_win": 0.9,
+   "odds": 1.31,
+   "prob": 0.7499,
+   "edge": -0.0176,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.25,
+   "stake": 1.25,
+   "to_win": 0.39,
    "tier": null,
-   "fair_odds": 1.35,
+   "fair_odds": 1.33,
    "why": [
-    "Sharp books give Boston Celtics a 74% chance to win (Golden State Warriors 24%).",
+    "Sharp books give Boston Celtics a 75% chance to win (Golden State Warriors 23%).",
     "Boston Celtics: 11-5, 5-4 on the road, 112.8 pts/game, top: Jayson Tatum 26.4 PPG.",
     "Golden State Warriors: 8-8, 6-1 at home, 112.7 pts/game, top: Yaxel Lendeborg 19.7 PPG."
    ],
@@ -1347,8 +1357,8 @@
    "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=14f820ce-5c21-4664-9f39-48a8c4d7bc5e&odds_numerator[0]=2&odds_denominator[0]=1",
    "prices": {
     "FanDuel": 1.3,
-    "theScore Bet": 1.36,
-    "DraftKings": 1.33
+    "theScore Bet": 1.31,
+    "DraftKings": 1.31
    },
    "links": {
     "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627104560&selectionId=60427",
@@ -1370,6 +1380,11 @@
      "2026-11-22T21:00:30+00:00",
      1.36,
      0.7402
+    ],
+    [
+     "2026-11-22T23:48:18+00:00",
+     1.31,
+     0.7499
     ]
    ]
   },
@@ -1471,101 +1486,20 @@
  "big_parlays": [
   {
    "label": "Safest 4x+",
-   "book": "theScore Bet",
-   "odds": 4.02,
-   "prob": 0.2382,
-   "ev": -0.0421,
-   "units": 0.5,
-   "stake": 2.5,
-   "to_win": 7.55,
-   "legs": [
-    {
-     "pick": "Boston Celtics",
-     "event": "Boston Celtics @ Golden State Warriors",
-     "sport": "NBA",
-     "odds": 1.36,
-     "prob": 0.74,
-     "start": "2026-11-23T01:40:00+00:00",
-     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=14f820ce-5c21-4664-9f39-48a8c4d7bc5e&odds_numerator[0]=2&odds_denominator[0]=1",
-     "sid": [
-      "09aae7a3-d0c6-4485-b655-6d6df252d43e",
-      "14f820ce-5c21-4664-9f39-48a8c4d7bc5e",
-      "c2bf1df4-431d-4a2e-8d8f-19e61d529d14"
-     ]
-    },
-    {
-     "pick": "New York Knicks",
-     "event": "Indiana Pacers @ New York Knicks",
-     "sport": "NBA",
-     "odds": 1.36,
-     "prob": 0.731,
-     "start": "2026-11-23T01:10:00+00:00",
-     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=1e1dcf3f-644e-4d8e-9212-8f93e3889266&odds_numerator[0]=2&odds_denominator[0]=1",
-     "sid": [
-      "7b0cc18c-9e00-493c-b6a8-034d765d811a",
-      "1e1dcf3f-644e-4d8e-9212-8f93e3889266",
-      "98e5b92a-1e8b-494e-aa0b-cc017e4c9710"
-     ]
-    },
-    {
-     "pick": "Dallas Stars",
-     "event": "Pittsburgh Penguins @ Dallas Stars",
-     "sport": "NHL",
-     "odds": 1.44,
-     "prob": 0.683,
-     "start": "2026-11-23T00:10:00+00:00",
-     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=0e37d3f8-d343-4a41-8a83-a57a93427b70&odds_numerator[0]=2&odds_denominator[0]=1",
-     "sid": [
-      "3361fdd1-da12-4d5c-8854-232c85ed1383",
-      "0e37d3f8-d343-4a41-8a83-a57a93427b70",
-      "a3461df2-ca0d-40ea-b1ac-49b9d201ef1e"
-     ]
-    },
-    {
-     "pick": "Orlando Magic",
-     "event": "Orlando Magic @ Washington Wizards",
-     "sport": "NBA",
-     "odds": 1.51,
-     "prob": 0.645,
-     "start": "2026-11-23T00:10:00+00:00",
-     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=2b54e249-b3ac-4993-ab03-7568908707f6&odds_numerator[0]=2&odds_denominator[0]=1",
-     "sid": [
-      "4c943e40-3ef8-423b-963d-6348cefaeb2e",
-      "2b54e249-b3ac-4993-ab03-7568908707f6",
-      "6b668693-0798-4715-a938-abdb8198cbd0"
-     ]
-    }
-   ],
-   "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=14f820ce-5c21-4664-9f39-48a8c4d7bc5e&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=1e1dcf3f-644e-4d8e-9212-8f93e3889266&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=0e37d3f8-d343-4a41-8a83-a57a93427b70&odds_numerator[2]=2&odds_denominator[2]=1&market_selection_id[3]=2b54e249-b3ac-4993-ab03-7568908707f6&odds_numerator[3]=2&odds_denominator[3]=1",
-   "alts": [
-    {
-     "book": "DraftKings",
-     "odds": 3.85,
-     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87336798_3+0ML87336793_1+0ML87329207_1+0ML87336792_3"
-    },
-    {
-     "book": "FanDuel",
-     "odds": 3.74,
-     "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.627104560&selectionId[0]=60427&marketId[1]=42.627104563&selectionId[1]=237482&marketId[2]=42.626715049&selectionId[2]=25612&marketId[3]=42.627104551&selectionId[3]=237475"
-    }
-   ]
-  },
-  {
-   "label": "Next safest 4x+",
    "book": "FanDuel",
-   "odds": 4.0,
-   "prob": 0.238,
-   "ev": -0.0471,
+   "odds": 4.1,
+   "prob": 0.2357,
+   "ev": -0.0332,
    "units": 0.5,
    "stake": 2.5,
-   "to_win": 7.51,
+   "to_win": 7.76,
    "legs": [
     {
      "pick": "Denver Nuggets",
      "event": "Denver Nuggets @ Chicago Bulls",
      "sport": "NBA",
-     "odds": 1.22,
-     "prob": 0.793,
+     "odds": 1.25,
+     "prob": 0.785,
      "start": "2026-11-23T00:10:00+00:00",
      "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627104568&selectionId=237492",
      "sid": [
@@ -1621,8 +1555,75 @@
    "alts": [
     {
      "book": "DraftKings",
-     "odds": 3.96,
+     "odds": 3.99,
      "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87336715_3+0ML87360257_1+0ML87358722_1+0ML84695506_1"
+    }
+   ]
+  },
+  {
+   "label": "Next safest 4x+",
+   "book": "DraftKings",
+   "odds": 4.06,
+   "prob": 0.2251,
+   "ev": -0.0866,
+   "units": 0.5,
+   "stake": 2.5,
+   "to_win": 7.64,
+   "legs": [
+    {
+     "pick": "New York Knicks",
+     "event": "Indiana Pacers @ New York Knicks",
+     "sport": "NBA",
+     "odds": 1.34,
+     "prob": 0.728,
+     "start": "2026-11-23T01:10:00+00:00",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0ML87336793_1",
+     "sid": [
+      null,
+      "0ML87336793_1",
+      "35056424"
+     ]
+    },
+    {
+     "pick": "Dallas Mavericks",
+     "event": "Dallas Mavericks @ Utah Jazz",
+     "sport": "NBA",
+     "odds": 1.74,
+     "prob": 0.561,
+     "start": "2026-11-23T00:10:00+00:00",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0ML87336791_3",
+     "sid": [
+      null,
+      "0ML87336791_3",
+      "35056422"
+     ]
+    },
+    {
+     "pick": "Rhode Island Rams",
+     "event": "UAB Blazers @ Rhode Island Rams",
+     "sport": "COLLEGE BASKETBALL",
+     "odds": 1.74,
+     "prob": 0.552,
+     "start": "2026-11-23T00:00:00+00:00",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0ML87358719_3",
+     "sid": [
+      null,
+      "0ML87358719_3",
+      "35064702"
+     ]
+    }
+   ],
+   "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87336793_1+0ML87336791_3+0ML87358719_3",
+   "alts": [
+    {
+     "book": "theScore Bet",
+     "odds": 4.12,
+     "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=1e1dcf3f-644e-4d8e-9212-8f93e3889266&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=cafbedf2-0fd8-4034-b3b6-1e4a2860a0c9&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=9b32ae3a-14e5-44fe-b98b-54fdf0c9e674&odds_numerator[2]=2&odds_denominator[2]=1"
+    },
+    {
+     "book": "FanDuel",
+     "odds": 4.01,
+     "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.627104563&selectionId[0]=237482&marketId[1]=42.627104554&selectionId[1]=237472&marketId[2]=42.627668295&selectionId[2]=721613"
     }
    ]
   }

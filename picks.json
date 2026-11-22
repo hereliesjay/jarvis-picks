@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-22T20:00:33+00:00",
+ "updated": "2026-11-22T20:07:58+00:00",
  "last_scan": "2026-11-22T19:37:22+00:00",
  "unit": 5.0,
  "bankroll": 238.53,
@@ -1010,19 +1010,19 @@
     {
      "team": "Los Angeles Chargers",
      "list": [
-      "Ladd McConkey (WR, Questionable)",
-      "Rodney Shelley (CB, Injured Reserve)",
-      "Trey Pipkins III (OT, Questionable)",
-      "Isas Waxter (CB, Questionable)"
+      "Tarheeb Still (CB, Out)",
+      "Brenen Thompson (WR, Out)",
+      "KeAndre Lambert-Smith (WR, Out)",
+      "Kendall Williamson (S, Out)"
      ]
     },
     {
      "team": "New York Jets",
      "list": [
-      "Dylan Parham (G, Questionable)",
-      "Harrison Phillips (DT, Questionable)",
-      "David Onyemata (DT, Injured Reserve)",
-      "Trevin Wallace (LB, Questionable)"
+      "Trevin Wallace (LB, Out)",
+      "Isaiah Williams (WR, Out)",
+      "Jelani Woods (TE, Out)",
+      "Nate Lynn (DE, Out)"
      ]
     }
    ],

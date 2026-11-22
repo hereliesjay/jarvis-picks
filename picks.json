@@ -1,7 +1,7 @@
 {
  "version": 25,
- "updated": "2026-11-22T10:03:36+00:00",
- "last_scan": "2026-11-22T06:00:56+00:00",
+ "updated": "2026-11-22T19:02:06+00:00",
+ "last_scan": "2026-11-22T19:02:06+00:00",
  "unit": 5.0,
  "bankroll": 238.53,
  "bank_start": 250.0,
@@ -164,7 +164,7 @@
    "on": true
   }
  },
- "watching": 18,
+ "watching": 24,
  "history": [
   {
    "type": "lean",
@@ -323,686 +323,503 @@
  ],
  "games": [
   {
-   "sport": "NHL",
-   "event": "Carolina Hurricanes @ New York Rangers",
-   "pick": "Carolina Hurricanes",
-   "opp": "New York Rangers",
-   "start": "2026-11-22T17:40:00+00:00",
-   "book": "theScore Bet",
-   "odds": 1.67,
-   "prob": 0.5876,
-   "edge": -0.0188,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.25,
-   "to_win": 0.84,
+   "sport": "TENNIS",
+   "event": "Coco Gauff vs Anna Bondar (Billie Jean King Cup)",
+   "pick": "Coco Gauff",
+   "opp": "Anna Bondar",
+   "start": "2026-11-22T19:50:00+00:00",
+   "book": "FanDuel",
+   "odds": 1.03,
+   "prob": 0.9335,
+   "edge": -0.0385,
+   "value": "over",
+   "value_txt": "Overpriced: the book is charging a lot here",
+   "units": 0.0,
+   "stake": 0.0,
+   "to_win": 0.0,
    "tier": null,
-   "fair_odds": 1.7,
+   "fair_odds": 1.07,
    "why": [
-    "Sharp books give Carolina Hurricanes a 59% chance to win (New York Rangers 41%).",
-    "Carolina Hurricanes: 17-3-3, 9-2-1 on the road, top: Sebastian Aho 13 Goals.",
-    "New York Rangers: 13-8-1, 9-2-0 at home, top: Alexis Lafreniere 10 Goals."
+    "Sharp books give Coco Gauff a 93% chance to win (Anna Bondar 5%)."
    ],
-   "injuries": [
-    {
-     "team": "Carolina Hurricanes",
-     "list": [
-      "Nikolaj Ehlers (LW, Out)"
-     ]
-    },
-    {
-     "team": "New York Rangers",
-     "list": [
-      "Oliver Bjorkstrand (RW, Injured Reserve)",
-      "Alberts Smits (D, Injured Reserve)",
-      "Pavel Dorofeyev (RW, Injured Reserve)",
-      "Sean Durzi (D, Injured Reserve)"
-     ]
-    }
-   ],
-   "n_sharp": 4,
-   "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=070a6aae-1a75-48a0-b816-ee7089cd6ea8&odds_numerator[0]=2&odds_denominator[0]=1",
+   "injuries": [],
+   "n_sharp": 1,
+   "link": null,
    "prices": {
-    "DraftKings": 1.65,
-    "FanDuel": 1.62,
-    "theScore Bet": 1.67
+    "DraftKings": 1.029,
+    "FanDuel": 1.03
    },
-   "links": {
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87329205_3",
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626714993&selectionId=25607",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=070a6aae-1a75-48a0-b816-ee7089cd6ea8&odds_numerator[0]=2&odds_denominator[0]=1"
-   },
+   "links": {},
    "open": [
-    "2026-11-22T06:00:56+00:00",
-    1.67,
-    0.5876
+    "2026-11-22T19:02:06+00:00",
+    1.03,
+    0.9335
    ],
    "hist": [
     [
-     "2026-11-22T06:00:56+00:00",
-     1.67,
-     0.5876
+     "2026-11-22T19:02:06+00:00",
+     1.03,
+     0.9335
     ]
    ]
   },
   {
-   "sport": "NFL",
-   "event": "Arizona Cardinals @ Kansas City Chiefs",
-   "pick": "Kansas City Chiefs",
-   "opp": "Arizona Cardinals",
-   "start": "2026-11-22T18:00:00+00:00",
+   "sport": "TENNIS",
+   "event": "Matheus Pucinelli de Almeida vs Thiago Seyboth Wild (ATP Challenger Montevideo, Uruguay Men Singles)",
+   "pick": "Thiago Seyboth Wild",
+   "opp": "Matheus Pucinelli de Almeida",
+   "start": "2026-11-22T20:00:00+00:00",
    "book": "DraftKings",
-   "odds": 1.08,
-   "prob": 0.9184,
-   "edge": -0.0081,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.25,
-   "to_win": 0.1,
+   "odds": 1.515,
+   "prob": 0.6389,
+   "edge": -0.0321,
+   "value": "over",
+   "value_txt": "Overpriced: the book is charging a lot here",
+   "units": 0.0,
+   "stake": 0.0,
+   "to_win": 0.0,
    "tier": null,
-   "fair_odds": 1.09,
+   "fair_odds": 1.57,
    "why": [
-    "Sharp books give Kansas City Chiefs a 92% chance to win.",
-    "Kansas City Chiefs: 7-2, 4-0 at home.",
-    "Arizona Cardinals: 3-7, 3-3 on the road."
+    "Sharp books give Thiago Seyboth Wild a 64% chance to win (Matheus Pucinelli de Almeida 36%)."
    ],
-   "injuries": [
-    {
-     "team": "Kansas City Chiefs",
-     "list": [
-      "Omarr Norman-Lott (DT, Questionable)",
-      "Jaylon Moore (OT, Out)",
-      "Trey Smith (G, Out)",
-      "Peter Woods (DT, Questionable)"
-     ]
-    },
-    {
-     "team": "Arizona Cardinals",
-     "list": [
-      "Carson Beck (QB, Out)",
-      "Jon Gaines II (G, Out)",
-      "Zachary Carter (DT, Injured Reserve)",
-      "James Conner (RB, Injured Reserve)"
-     ]
-    }
-   ],
-   "n_sharp": 5,
-   "link": "https://sportsbook.draftkings.com/?outcomes=0ML84695707_1",
+   "injuries": [],
+   "n_sharp": 1,
+   "link": null,
    "prices": {
-    "DraftKings": 1.08,
-    "FanDuel": 1.06,
-    "theScore Bet": 1.05
+    "DraftKings": 1.515,
+    "FanDuel": 1.48,
+    "theScore Bet": 1.476
    },
-   "links": {
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML84695707_1",
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624292639&selectionId=50214",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=d0b1a38f-abc1-4f36-bb9c-5508e57a971a&odds_numerator[0]=2&odds_denominator[0]=1"
-   },
+   "links": {},
    "open": [
-    "2026-11-22T06:00:56+00:00",
-    1.08,
-    0.9184
+    "2026-11-22T19:02:06+00:00",
+    1.515,
+    0.6389
    ],
    "hist": [
     [
-     "2026-11-22T06:00:56+00:00",
-     1.08,
-     0.9184
+     "2026-11-22T19:02:06+00:00",
+     1.515,
+     0.6389
     ]
    ]
   },
   {
-   "sport": "NFL",
-   "event": "Baltimore Ravens @ Carolina Panthers",
-   "pick": "Carolina Panthers",
-   "opp": "Baltimore Ravens",
-   "start": "2026-11-22T18:00:00+00:00",
+   "sport": "TENNIS",
+   "event": "Juan Miguel Bolivar Idarraga vs Jody Maginley (ATP Challenger San Salvador, El Salvador Men Singles)",
+   "pick": "Juan Miguel Bolivar Idarraga",
+   "opp": "Jody Maginley",
+   "start": "2026-11-22T20:00:00+00:00",
+   "book": "DraftKings",
+   "odds": 1.667,
+   "prob": 0.5574,
+   "edge": -0.0708,
+   "value": "over",
+   "value_txt": "Overpriced: the book is charging a lot here",
+   "units": 0.0,
+   "stake": 0.0,
+   "to_win": 0.0,
+   "tier": null,
+   "fair_odds": 1.79,
+   "why": [
+    "Sharp books give Juan Miguel Bolivar Idarraga a 56% chance to win (Jody Maginley 44%)."
+   ],
+   "injuries": [],
+   "n_sharp": 1,
+   "link": null,
+   "prices": {
+    "DraftKings": 1.667
+   },
+   "links": {},
+   "open": [
+    "2026-11-22T19:02:06+00:00",
+    1.667,
+    0.5574
+   ],
+   "hist": [
+    [
+     "2026-11-22T19:02:06+00:00",
+     1.667,
+     0.5574
+    ]
+   ]
+  },
+  {
+   "sport": "TENNIS",
+   "event": "Stephen Slocombe vs Jeffrey Fradkin (ATP Challenger San Salvador, El Salvador Men Singles)",
+   "pick": "Jeffrey Fradkin",
+   "opp": "Stephen Slocombe",
+   "start": "2026-11-22T20:00:00+00:00",
    "book": "theScore Bet",
-   "odds": 1.71,
-   "prob": 0.5752,
-   "edge": -0.0165,
+   "odds": 1.222,
+   "prob": 0.797,
+   "edge": -0.0261,
+   "value": "over",
+   "value_txt": "Overpriced: the book is charging a lot here",
+   "units": 0.0,
+   "stake": 0.0,
+   "to_win": 0.0,
+   "tier": null,
+   "fair_odds": 1.25,
+   "why": [
+    "Sharp books give Jeffrey Fradkin a 80% chance to win (Stephen Slocombe 18%)."
+   ],
+   "injuries": [],
+   "n_sharp": 1,
+   "link": null,
+   "prices": {
+    "DraftKings": 1.19,
+    "theScore Bet": 1.222
+   },
+   "links": {},
+   "open": [
+    "2026-11-22T19:02:06+00:00",
+    1.222,
+    0.797
+   ],
+   "hist": [
+    [
+     "2026-11-22T19:02:06+00:00",
+     1.222,
+     0.797
+    ]
+   ]
+  },
+  {
+   "sport": "TENNIS",
+   "event": "Enzo Costanzo Prediger vs Jose Pereira (ATP Challenger Florianopolis, Brazil Men Singles)",
+   "pick": "Jose Pereira",
+   "opp": "Enzo Costanzo Prediger",
+   "start": "2026-11-22T20:20:00+00:00",
+   "book": "theScore Bet",
+   "odds": 1.029,
+   "prob": 0.953,
+   "edge": -0.0194,
    "value": "slight",
    "value_txt": "A bit overpriced (books' cut)",
    "units": 0.25,
    "stake": 1.25,
-   "to_win": 0.89,
+   "to_win": 0.04,
    "tier": null,
-   "fair_odds": 1.74,
+   "fair_odds": 1.05,
    "why": [
-    "Sharp books give Carolina Panthers a 58% chance to win (Baltimore Ravens 42%).",
-    "Carolina Panthers: 4-5, 1-3 at home.",
-    "Baltimore Ravens: 4-6, 3-2 on the road."
+    "Sharp books give Jose Pereira a 95% chance to win (Enzo Costanzo Prediger 3%)."
    ],
-   "injuries": [
-    {
-     "team": "Carolina Panthers",
-     "list": [
-      "Brady Christensen (G, Injured Reserve)",
-      "Isaiah Simmons (S, Injured Reserve)",
-      "Mike Jackson (CB, Questionable)",
-      "Jonathon Brooks (RB, Injured Reserve)"
-     ]
-    },
-    {
-     "team": "Baltimore Ravens",
-     "list": [
-      "Jaylinn Hawkins (S, Out)",
-      "Nnamdi Madubuike (DT, Out)",
-      "Marlon Humphrey (CB, Out)",
-      "Lamar Jackson (QB, Injured Reserve)"
-     ]
-    }
+   "injuries": [],
+   "n_sharp": 1,
+   "link": null,
+   "prices": {
+    "DraftKings": 1.002,
+    "FanDuel": 1.02,
+    "theScore Bet": 1.029
+   },
+   "links": {},
+   "open": [
+    "2026-11-22T19:02:06+00:00",
+    1.029,
+    0.953
    ],
-   "n_sharp": 5,
-   "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=0736683f-ad80-470b-a825-b1ce558611cf&odds_numerator[0]=2&odds_denominator[0]=1",
+   "hist": [
+    [
+     "2026-11-22T19:02:06+00:00",
+     1.029,
+     0.953
+    ]
+   ]
+  },
+  {
+   "sport": "TENNIS",
+   "event": "Thiago Cigarran vs Boris Arias (ATP Challenger Florianopolis, Brazil Men Singles)",
+   "pick": "Thiago Cigarran",
+   "opp": "Boris Arias",
+   "start": "2026-11-22T20:20:00+00:00",
+   "book": "theScore Bet",
+   "odds": 1.125,
+   "prob": 0.8375,
+   "edge": -0.0578,
+   "value": "over",
+   "value_txt": "Overpriced: the book is charging a lot here",
+   "units": 0.0,
+   "stake": 0.0,
+   "to_win": 0.0,
+   "tier": null,
+   "fair_odds": 1.19,
+   "why": [
+    "Sharp books give Thiago Cigarran a 84% chance to win (Boris Arias 14%)."
+   ],
+   "injuries": [],
+   "n_sharp": 1,
+   "link": null,
+   "prices": {
+    "DraftKings": 1.123,
+    "FanDuel": 1.1,
+    "theScore Bet": 1.125
+   },
+   "links": {},
+   "open": [
+    "2026-11-22T19:02:06+00:00",
+    1.125,
+    0.8375
+   ],
+   "hist": [
+    [
+     "2026-11-22T19:02:06+00:00",
+     1.125,
+     0.8375
+    ]
+   ]
+  },
+  {
+   "sport": "TENNIS",
+   "event": "Agustin Eduardo Cuellar Lorberg vs Felipe De Dios (Santa Cruz)",
+   "pick": "Agustin Eduardo Cuellar Lorberg",
+   "opp": "Felipe De Dios",
+   "start": "2026-11-22T20:30:00+00:00",
+   "book": "DraftKings",
+   "odds": 1.333,
+   "prob": 0.7065,
+   "edge": -0.0582,
+   "value": "over",
+   "value_txt": "Overpriced: the book is charging a lot here",
+   "units": 0.0,
+   "stake": 0.0,
+   "to_win": 0.0,
+   "tier": null,
+   "fair_odds": 1.42,
+   "why": [
+    "Sharp books give Agustin Eduardo Cuellar Lorberg a 71% chance to win (Felipe De Dios 28%)."
+   ],
+   "injuries": [],
+   "n_sharp": 1,
+   "link": null,
+   "prices": {
+    "DraftKings": 1.333,
+    "FanDuel": 1.31
+   },
+   "links": {},
+   "open": [
+    "2026-11-22T19:02:06+00:00",
+    1.333,
+    0.7065
+   ],
+   "hist": [
+    [
+     "2026-11-22T19:02:06+00:00",
+     1.333,
+     0.7065
+    ]
+   ]
+  },
+  {
+   "sport": "TENNIS",
+   "event": "Leyre Romero Gormaz vs Rebeka Masarova (WTA 125K Colina, Chile Women Singles)",
+   "pick": "Rebeka Masarova",
+   "opp": "Leyre Romero Gormaz",
+   "start": "2026-11-22T21:00:00+00:00",
+   "book": "DraftKings",
+   "odds": 1.69,
+   "prob": 0.5625,
+   "edge": -0.0494,
+   "value": "over",
+   "value_txt": "Overpriced: the book is charging a lot here",
+   "units": 0.0,
+   "stake": 0.0,
+   "to_win": 0.0,
+   "tier": null,
+   "fair_odds": 1.78,
+   "why": [
+    "Sharp books give Rebeka Masarova a 56% chance to win (Leyre Romero Gormaz 44%)."
+   ],
+   "injuries": [],
+   "n_sharp": 1,
+   "link": null,
    "prices": {
     "DraftKings": 1.69,
     "FanDuel": 1.68,
-    "theScore Bet": 1.71
+    "theScore Bet": 1.69
    },
-   "links": {
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML84695474_1",
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624292599&selectionId=50198",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=0736683f-ad80-470b-a825-b1ce558611cf&odds_numerator[0]=2&odds_denominator[0]=1"
-   },
+   "links": {},
    "open": [
-    "2026-11-22T06:00:56+00:00",
-    1.71,
-    0.5752
+    "2026-11-22T19:02:06+00:00",
+    1.69,
+    0.5625
    ],
    "hist": [
     [
-     "2026-11-22T06:00:56+00:00",
-     1.71,
-     0.5752
+     "2026-11-22T19:02:06+00:00",
+     1.69,
+     0.5625
     ]
    ]
   },
   {
-   "sport": "NFL",
-   "event": "Miami Dolphins @ Buffalo Bills",
-   "pick": "Buffalo Bills",
-   "opp": "Miami Dolphins",
-   "start": "2026-11-22T18:00:00+00:00",
+   "sport": "TENNIS",
+   "event": "Ann Li vs Dalma Galfi (Billie Jean King Cup)",
+   "pick": "Ann Li",
+   "opp": "Dalma Galfi",
+   "start": "2026-11-22T21:00:00+00:00",
    "book": "DraftKings",
-   "odds": 1.06,
-   "prob": 0.9256,
-   "edge": -0.0188,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.25,
-   "to_win": 0.08,
-   "tier": null,
-   "fair_odds": 1.08,
-   "why": [
-    "Sharp books give Buffalo Bills a 93% chance to win.",
-    "Buffalo Bills: 8-1, 3-1 at home.",
-    "Miami Dolphins: 1-8, 1-4 on the road."
-   ],
-   "injuries": [
-    {
-     "team": "Buffalo Bills",
-     "list": [
-      "Ed Oliver (DT, Questionable)",
-      "Damar Hamlin (S, Questionable)",
-      "Jackson Hawes (TE, Questionable)",
-      "Dorian Williams (LB, Out)"
-     ]
-    },
-    {
-     "team": "Miami Dolphins",
-     "list": [
-      "Darrell Baker Jr. (CB, Questionable)",
-      "Jaylin Simpson (S, Doubtful)",
-      "Bradley Pinion (P, Out)",
-      "Aaron Brewer (C, Questionable)"
-     ]
-    }
-   ],
-   "n_sharp": 5,
-   "link": "https://sportsbook.draftkings.com/?outcomes=0ML84695635_1",
-   "prices": {
-    "DraftKings": 1.06,
-    "FanDuel": 1.06,
-    "theScore Bet": 1.06
-   },
-   "links": {
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML84695635_1",
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624292589&selectionId=50203",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=0ec2f41a-da25-4a8b-b027-30af003ed975&odds_numerator[0]=2&odds_denominator[0]=1"
-   },
-   "open": [
-    "2026-11-22T06:00:56+00:00",
-    1.06,
-    0.9256
-   ],
-   "hist": [
-    [
-     "2026-11-22T06:00:56+00:00",
-     1.06,
-     0.9256
-    ]
-   ]
-  },
-  {
-   "sport": "NFL",
-   "event": "New Orleans Saints @ Chicago Bears",
-   "pick": "Chicago Bears",
-   "opp": "New Orleans Saints",
-   "start": "2026-11-22T18:00:00+00:00",
-   "book": "DraftKings",
-   "odds": 1.16,
-   "prob": 0.8453,
-   "edge": -0.0195,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.25,
-   "to_win": 0.2,
+   "odds": 1.111,
+   "prob": 0.8487,
+   "edge": -0.0571,
+   "value": "over",
+   "value_txt": "Overpriced: the book is charging a lot here",
+   "units": 0.0,
+   "stake": 0.0,
+   "to_win": 0.0,
    "tier": null,
    "fair_odds": 1.18,
    "why": [
-    "Sharp books give Chicago Bears a 85% chance to win.",
-    "Chicago Bears: 7-2, 4-1 at home.",
-    "New Orleans Saints: 3-6, 2-1 on the road."
+    "Sharp books give Ann Li a 85% chance to win (Dalma Galfi 13%)."
    ],
-   "injuries": [
-    {
-     "team": "Chicago Bears",
-     "list": [
-      "Kyler Gordon (CB, Out)",
-      "Zavion Thomas (WR, Questionable)",
-      "Zavier Scott (RB, Injured Reserve)"
-     ]
-    },
-    {
-     "team": "New Orleans Saints",
-     "list": [
-      "Asim Richards (OT, Out)",
-      "Erik McCoy (C, Out)",
-      "Taliese Fuaga (OT, Out)",
-      "Martin Emerson Jr. (CB, Out)"
-     ]
-    }
-   ],
-   "n_sharp": 4,
-   "link": "https://sportsbook.draftkings.com/?outcomes=0ML84695456_1",
+   "injuries": [],
+   "n_sharp": 1,
+   "link": null,
    "prices": {
-    "DraftKings": 1.16,
-    "FanDuel": 1.14,
-    "theScore Bet": 1.13
+    "DraftKings": 1.111,
+    "FanDuel": 1.11
    },
-   "links": {
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML84695456_1",
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624292609&selectionId=50194",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=901b80be-3127-4afd-aa8c-fbdd54bb74b5&odds_numerator[0]=2&odds_denominator[0]=1"
-   },
+   "links": {},
    "open": [
-    "2026-11-22T06:00:56+00:00",
-    1.16,
-    0.8453
+    "2026-11-22T19:02:06+00:00",
+    1.111,
+    0.8487
    ],
    "hist": [
     [
-     "2026-11-22T06:00:56+00:00",
-     1.16,
-     0.8453
+     "2026-11-22T19:02:06+00:00",
+     1.111,
+     0.8487
     ]
    ]
   },
   {
-   "sport": "NFL",
-   "event": "Tennessee Titans @ Dallas Cowboys",
-   "pick": "Dallas Cowboys",
-   "opp": "Tennessee Titans",
-   "start": "2026-11-22T18:00:00+00:00",
-   "book": "DraftKings",
-   "odds": 1.29,
-   "prob": 0.7689,
-   "edge": -0.0082,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.25,
-   "to_win": 0.36,
+   "sport": "TENNIS",
+   "event": "Evan Zhu vs Ethan Cook (ATP Challenger Playford City, Australia Men Singles)",
+   "pick": "Evan Zhu",
+   "opp": "Ethan Cook",
+   "start": "2026-11-22T23:30:00+00:00",
+   "book": "theScore Bet",
+   "odds": 1.174,
+   "prob": 0.8096,
+   "edge": -0.0495,
+   "value": "over",
+   "value_txt": "Overpriced: the book is charging a lot here",
+   "units": 0.0,
+   "stake": 0.0,
+   "to_win": 0.0,
    "tier": null,
-   "fair_odds": 1.3,
+   "fair_odds": 1.24,
    "why": [
-    "Sharp books give Dallas Cowboys a 77% chance to win (Tennessee Titans 21%).",
-    "Dallas Cowboys: 4-6, 1-4 at home.",
-    "Tennessee Titans: 1-8, 1-3 on the road."
+    "Sharp books give Evan Zhu a 81% chance to win (Ethan Cook 17%)."
    ],
-   "injuries": [
-    {
-     "team": "Dallas Cowboys",
-     "list": [
-      "Jalen Thompson (S, Injured Reserve)",
-      "DaRon Bland (CB, Injured Reserve)",
-      "P.J. Locke (S, Out)",
-      "Luke Schoonmaker (TE, Questionable)"
-     ]
-    },
-    {
-     "team": "Tennessee Titans",
-     "list": [
-      "Jaylen Harrell (LB, Injured Reserve)",
-      "Tyjae Spears (RB, Injured Reserve)",
-      "Carnell Tate (WR, Questionable)",
-      "Micah Robinson (CB, Questionable)"
-     ]
-    }
-   ],
-   "n_sharp": 5,
-   "link": "https://sportsbook.draftkings.com/?outcomes=0ML84695575_1",
+   "injuries": [],
+   "n_sharp": 1,
+   "link": null,
    "prices": {
-    "DraftKings": 1.29,
-    "FanDuel": 1.27,
-    "theScore Bet": 1.26
+    "DraftKings": 1.154,
+    "FanDuel": 1.15,
+    "theScore Bet": 1.174
    },
-   "links": {
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML84695575_1",
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624292619&selectionId=50189",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=9820c4b2-ad19-4ec1-b704-b0012dc48b3a&odds_numerator[0]=2&odds_denominator[0]=1"
-   },
+   "links": {},
    "open": [
-    "2026-11-22T06:00:56+00:00",
-    1.29,
-    0.7689
+    "2026-11-22T19:02:06+00:00",
+    1.174,
+    0.8096
    ],
    "hist": [
     [
-     "2026-11-22T06:00:56+00:00",
-     1.29,
-     0.7689
+     "2026-11-22T19:02:06+00:00",
+     1.174,
+     0.8096
     ]
    ]
   },
   {
-   "sport": "NFL",
-   "event": "Tampa Bay Buccaneers @ Detroit Lions",
-   "pick": "Detroit Lions",
-   "opp": "Tampa Bay Buccaneers",
-   "start": "2026-11-22T18:00:00+00:00",
+   "sport": "TENNIS",
+   "event": "Eric Padgham vs Jesse Delaney (ATP Challenger Playford City, Australia Men Singles)",
+   "pick": "Jesse Delaney",
+   "opp": "Eric Padgham",
+   "start": "2026-11-22T23:30:00+00:00",
    "book": "DraftKings",
-   "odds": 1.5,
-   "prob": 0.663,
-   "edge": -0.0054,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.25,
-   "to_win": 0.62,
+   "odds": 1.333,
+   "prob": 0.6969,
+   "edge": -0.071,
+   "value": "over",
+   "value_txt": "Overpriced: the book is charging a lot here",
+   "units": 0.0,
+   "stake": 0.0,
+   "to_win": 0.0,
    "tier": null,
-   "fair_odds": 1.51,
+   "fair_odds": 1.43,
    "why": [
-    "Sharp books give Detroit Lions a 66% chance to win (Tampa Bay Buccaneers 33%).",
-    "Detroit Lions: 7-2, 5-0 at home.",
-    "Tampa Bay Buccaneers: 3-6, 2-2 on the road."
+    "Sharp books give Jesse Delaney a 70% chance to win (Eric Padgham 29%)."
    ],
-   "injuries": [
-    {
-     "team": "Detroit Lions",
-     "list": [
-      "Cade Mays (C, Injured Reserve)",
-      "D.J. Reed (CB, Questionable)",
-      "Sione Vaki (RB, Questionable)",
-      "Aidan Hutchinson (DE, Injured Reserve)"
-     ]
-    },
-    {
-     "team": "Tampa Bay Buccaneers",
-     "list": [
-      "Baker Mayfield (QB, Questionable)",
-      "Josh Hayes (CB, Injured Reserve)",
-      "Yaya Diaby (LB, Questionable)",
-      "Antoine Winfield Jr. (S, Out)"
-     ]
-    }
-   ],
-   "n_sharp": 5,
-   "link": "https://sportsbook.draftkings.com/?outcomes=0ML84695646_1",
+   "injuries": [],
+   "n_sharp": 1,
+   "link": null,
    "prices": {
-    "DraftKings": 1.5,
-    "FanDuel": 1.5,
-    "theScore Bet": 1.48
+    "DraftKings": 1.333,
+    "FanDuel": 1.29,
+    "theScore Bet": 1.323
    },
-   "links": {
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML84695646_1",
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624292629&selectionId=50193",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=8d029ccb-4e2e-481e-be38-7db2205d887f&odds_numerator[0]=2&odds_denominator[0]=1"
-   },
+   "links": {},
    "open": [
-    "2026-11-22T06:00:56+00:00",
-    1.5,
-    0.663
+    "2026-11-22T19:02:06+00:00",
+    1.333,
+    0.6969
    ],
    "hist": [
     [
-     "2026-11-22T06:00:56+00:00",
-     1.5,
-     0.663
+     "2026-11-22T19:02:06+00:00",
+     1.333,
+     0.6969
     ]
    ]
   },
   {
-   "sport": "NFL",
-   "event": "Pittsburgh Steelers @ Philadelphia Eagles",
-   "pick": "Pittsburgh Steelers",
-   "opp": "Philadelphia Eagles",
-   "start": "2026-11-22T18:00:00+00:00",
+   "sport": "TENNIS",
+   "event": "Jason Kubler vs Reece Falck (ATP Challenger Playford City, Australia Men Singles)",
+   "pick": "Jason Kubler",
+   "opp": "Reece Falck",
+   "start": "2026-11-22T23:30:00+00:00",
    "book": "DraftKings",
-   "odds": 1.52,
-   "prob": 0.6504,
-   "edge": -0.0114,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.25,
-   "to_win": 0.65,
+   "odds": 1.033,
+   "prob": 0.9353,
+   "edge": -0.0339,
+   "value": "over",
+   "value_txt": "Overpriced: the book is charging a lot here",
+   "units": 0.0,
+   "stake": 0.0,
+   "to_win": 0.0,
    "tier": null,
-   "fair_odds": 1.54,
+   "fair_odds": 1.07,
    "why": [
-    "Sharp books give Pittsburgh Steelers a 65% chance to win (Philadelphia Eagles 35%).",
-    "Pittsburgh Steelers: 6-3, 2-3 on the road.",
-    "Philadelphia Eagles: 2-7, 1-4 at home."
+    "Sharp books give Jason Kubler a 94% chance to win (Reece Falck 5%)."
    ],
-   "injuries": [
-    {
-     "team": "Pittsburgh Steelers",
-     "list": [
-      "Michael Pittman Jr. (WR, Injured Reserve)",
-      "Roman Wilson (WR, Questionable)",
-      "Nick Herbig (LB, Out)",
-      "DeShon Elliott (S, Questionable)"
-     ]
-    },
-    {
-     "team": "Philadelphia Eagles",
-     "list": [
-      "Zack Baun (LB, Injured Reserve)",
-      "Will Shipley (RB, Questionable)",
-      "Dontayvion Wicks (WR, Injured Reserve)",
-      "Smael Mondon Jr. (LB, Doubtful)"
-     ]
-    }
-   ],
-   "n_sharp": 5,
-   "link": "https://sportsbook.draftkings.com/?outcomes=0ML84695524_3",
+   "injuries": [],
+   "n_sharp": 1,
+   "link": null,
    "prices": {
-    "DraftKings": 1.52,
-    "FanDuel": 1.51,
-    "theScore Bet": 1.48
+    "DraftKings": 1.033,
+    "FanDuel": 1.02,
+    "theScore Bet": 1.02
    },
-   "links": {
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML84695524_3",
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624292649&selectionId=50208",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=3cedeb37-7e5f-4ea6-b37b-eea409e64064&odds_numerator[0]=2&odds_denominator[0]=1"
-   },
+   "links": {},
    "open": [
-    "2026-11-22T06:00:56+00:00",
-    1.52,
-    0.6504
+    "2026-11-22T19:02:06+00:00",
+    1.033,
+    0.9353
    ],
    "hist": [
     [
-     "2026-11-22T06:00:56+00:00",
-     1.52,
-     0.6504
+     "2026-11-22T19:02:06+00:00",
+     1.033,
+     0.9353
     ]
    ]
   }
  ],
- "big_parlays": [
-  {
-   "label": "Safest 4x+",
-   "book": "DraftKings",
-   "odds": 4.04,
-   "prob": 0.2255,
-   "ev": -0.0884,
-   "units": 0.5,
-   "stake": 2.5,
-   "to_win": 7.61,
-   "legs": [
-    {
-     "pick": "Brighton and Hove Albion",
-     "event": "Brighton and Hove Albion @ Hull City",
-     "sport": "SOCCER",
-     "odds": 1.45,
-     "prob": 0.667,
-     "start": "2026-11-22T14:00:00+00:00",
-     "link": "https://sportsbook.draftkings.com/?outcomes=0ML87095913_3",
-     "sid": [
-      null,
-      "0ML87095913_3",
-      "34962899"
-     ]
-    },
-    {
-     "pick": "Carolina Hurricanes",
-     "event": "Carolina Hurricanes @ New York Rangers",
-     "sport": "NHL",
-     "odds": 1.65,
-     "prob": 0.588,
-     "start": "2026-11-22T17:40:00+00:00",
-     "link": "https://sportsbook.draftkings.com/?outcomes=0ML87329205_3",
-     "sid": [
-      null,
-      "0ML87329205_3",
-      "35053482"
-     ]
-    },
-    {
-     "pick": "Carolina Panthers",
-     "event": "Baltimore Ravens @ Carolina Panthers",
-     "sport": "NFL",
-     "odds": 1.69,
-     "prob": 0.575,
-     "start": "2026-11-22T18:00:00+00:00",
-     "link": "https://sportsbook.draftkings.com/?outcomes=0ML84695474_1",
-     "sid": [
-      null,
-      "0ML84695474_1",
-      "34118041"
-     ]
-    }
-   ],
-   "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87095913_3+0ML87329205_3+0ML84695474_1",
-   "alts": [
-    {
-     "book": "theScore Bet",
-     "odds": 4.23,
-     "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=654ab847-f473-4273-84cd-942d71826d52&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=070a6aae-1a75-48a0-b816-ee7089cd6ea8&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=0736683f-ad80-470b-a825-b1ce558611cf&odds_numerator[2]=2&odds_denominator[2]=1"
-    },
-    {
-     "book": "FanDuel",
-     "odds": 3.95,
-     "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.623787010&selectionId[0]=18567&marketId[1]=42.626714993&selectionId[1]=25607&marketId[2]=42.624292599&selectionId[2]=50198"
-    }
-   ]
-  },
-  {
-   "label": "Next safest 4x+",
-   "book": "DraftKings",
-   "odds": 4.52,
-   "prob": 0.208,
-   "ev": -0.0594,
-   "units": 0.5,
-   "stake": 2.5,
-   "to_win": 8.81,
-   "legs": [
-    {
-     "pick": "Chicago Bears",
-     "event": "New Orleans Saints @ Chicago Bears",
-     "sport": "NFL",
-     "odds": 1.16,
-     "prob": 0.845,
-     "start": "2026-11-22T18:00:00+00:00",
-     "link": "https://sportsbook.draftkings.com/?outcomes=0ML84695456_1",
-     "sid": [
-      null,
-      "0ML84695456_1",
-      "34118023"
-     ]
-    },
-    {
-     "pick": "Detroit Lions",
-     "event": "Tampa Bay Buccaneers @ Detroit Lions",
-     "sport": "NFL",
-     "odds": 1.5,
-     "prob": 0.663,
-     "start": "2026-11-22T18:00:00+00:00",
-     "link": "https://sportsbook.draftkings.com/?outcomes=0ML84695646_1",
-     "sid": [
-      null,
-      "0ML84695646_1",
-      "34118213"
-     ]
-    },
-    {
-     "pick": "Pittsburgh Steelers",
-     "event": "Pittsburgh Steelers @ Philadelphia Eagles",
-     "sport": "NFL",
-     "odds": 1.52,
-     "prob": 0.65,
-     "start": "2026-11-22T18:00:00+00:00",
-     "link": "https://sportsbook.draftkings.com/?outcomes=0ML84695524_3",
-     "sid": [
-      null,
-      "0ML84695524_3",
-      "34118091"
-     ]
-    },
-    {
-     "pick": "Liverpool",
-     "event": "Manchester United @ Liverpool",
-     "sport": "SOCCER",
-     "odds": 1.71,
-     "prob": 0.571,
-     "start": "2026-11-22T16:30:00+00:00",
-     "link": "https://sportsbook.draftkings.com/?outcomes=0ML87095911_1",
-     "sid": [
-      null,
-      "0ML87095911_1",
-      "34962901"
-     ]
-    }
-   ],
-   "slip": "https://sportsbook.draftkings.com/?outcomes=0ML84695456_1+0ML84695646_1+0ML84695524_3+0ML87095911_1",
-   "alts": [
-    {
-     "book": "theScore Bet",
-     "odds": 4.01,
-     "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=901b80be-3127-4afd-aa8c-fbdd54bb74b5&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=8d029ccb-4e2e-481e-be38-7db2205d887f&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=3cedeb37-7e5f-4ea6-b37b-eea409e64064&odds_numerator[2]=2&odds_denominator[2]=1&market_selection_id[3]=9e798968-b0da-4af6-84fc-de154b64d107&odds_numerator[3]=2&odds_denominator[3]=1"
-    },
-    {
-     "book": "FanDuel",
-     "odds": 4.36,
-     "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.624292609&selectionId[0]=50194&marketId[1]=42.624292629&selectionId[1]=50193&marketId[2]=42.624292649&selectionId[2]=50208&marketId[3]=42.618736223&selectionId[3]=56323"
-    }
-   ]
-  }
- ]
+ "big_parlays": []
 }

@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-22T19:50:28+00:00",
+ "updated": "2026-11-22T20:00:33+00:00",
  "last_scan": "2026-11-22T19:37:22+00:00",
  "unit": 5.0,
  "bankroll": 238.53,
@@ -567,225 +567,6 @@
   }
  ],
  "games": [
-  {
-   "sport": "TENNIS",
-   "event": "Matheus Pucinelli de Almeida vs Thiago Seyboth Wild (ATP Challenger Montevideo, Uruguay Men Singles)",
-   "pick": "Thiago Seyboth Wild",
-   "opp": "Matheus Pucinelli de Almeida",
-   "start": "2026-11-22T20:00:00+00:00",
-   "book": "DraftKings",
-   "odds": 1.515,
-   "prob": 0.6389,
-   "edge": -0.0321,
-   "value": "over",
-   "value_txt": "Overpriced: the book is charging a lot here",
-   "units": 0.0,
-   "stake": 0.0,
-   "to_win": 0.0,
-   "tier": null,
-   "fair_odds": 1.57,
-   "why": [
-    "Sharp books give Thiago Seyboth Wild a 64% chance to win (Matheus Pucinelli de Almeida 36%)."
-   ],
-   "injuries": [],
-   "n_sharp": 1,
-   "link": null,
-   "prices": {
-    "DraftKings": 1.515,
-    "FanDuel": 1.48,
-    "theScore Bet": 1.476
-   },
-   "links": {},
-   "open": [
-    "2026-11-22T19:02:06+00:00",
-    1.515,
-    0.6389
-   ],
-   "hist": [
-    [
-     "2026-11-22T19:02:06+00:00",
-     1.515,
-     0.6389
-    ]
-   ]
-  },
-  {
-   "sport": "TENNIS",
-   "event": "Juan Miguel Bolivar Idarraga vs Jody Maginley (ATP Challenger San Salvador, El Salvador Men Singles)",
-   "pick": "Juan Miguel Bolivar Idarraga",
-   "opp": "Jody Maginley",
-   "start": "2026-11-22T20:00:00+00:00",
-   "book": "DraftKings",
-   "odds": 1.667,
-   "prob": 0.5574,
-   "edge": -0.0708,
-   "value": "over",
-   "value_txt": "Overpriced: the book is charging a lot here",
-   "units": 0.0,
-   "stake": 0.0,
-   "to_win": 0.0,
-   "tier": null,
-   "fair_odds": 1.79,
-   "why": [
-    "Sharp books give Juan Miguel Bolivar Idarraga a 56% chance to win (Jody Maginley 44%)."
-   ],
-   "injuries": [],
-   "n_sharp": 1,
-   "link": null,
-   "prices": {
-    "DraftKings": 1.667
-   },
-   "links": {},
-   "open": [
-    "2026-11-22T19:02:06+00:00",
-    1.667,
-    0.5574
-   ],
-   "hist": [
-    [
-     "2026-11-22T19:02:06+00:00",
-     1.667,
-     0.5574
-    ]
-   ]
-  },
-  {
-   "sport": "TENNIS",
-   "event": "Stephen Slocombe vs Jeffrey Fradkin (ATP Challenger San Salvador, El Salvador Men Singles)",
-   "pick": "Jeffrey Fradkin",
-   "opp": "Stephen Slocombe",
-   "start": "2026-11-22T20:00:00+00:00",
-   "book": "theScore Bet",
-   "odds": 1.222,
-   "prob": 0.797,
-   "edge": -0.0261,
-   "value": "over",
-   "value_txt": "Overpriced: the book is charging a lot here",
-   "units": 0.0,
-   "stake": 0.0,
-   "to_win": 0.0,
-   "tier": null,
-   "fair_odds": 1.25,
-   "why": [
-    "Sharp books give Jeffrey Fradkin a 80% chance to win (Stephen Slocombe 18%)."
-   ],
-   "injuries": [],
-   "n_sharp": 1,
-   "link": null,
-   "prices": {
-    "DraftKings": 1.19,
-    "theScore Bet": 1.222
-   },
-   "links": {},
-   "open": [
-    "2026-11-22T19:02:06+00:00",
-    1.222,
-    0.797
-   ],
-   "hist": [
-    [
-     "2026-11-22T19:02:06+00:00",
-     1.222,
-     0.797
-    ]
-   ]
-  },
-  {
-   "sport": "COLLEGE BASKETBALL",
-   "event": "Nicholls St Colonels @ Troy Trojans",
-   "pick": "Troy Trojans",
-   "opp": "Nicholls St Colonels",
-   "start": "2026-11-22T20:00:00+00:00",
-   "book": "theScore Bet",
-   "odds": 1.43,
-   "prob": 0.6942,
-   "edge": -0.0073,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.25,
-   "to_win": 0.54,
-   "tier": null,
-   "fair_odds": 1.44,
-   "why": [
-    "Sharp books give Troy Trojans a 69% chance to win (Nicholls St Colonels 30%).",
-    "Troy Trojans: 2-4, 0-2 on the road, 70.0 pts/game, top: Donovan Oday 15.3 PPG.",
-    "Nicholls St Colonels: 2-4, 2-0 at home, 69.5 pts/game, top: AJ Dent 13.2 PPG."
-   ],
-   "injuries": [],
-   "n_sharp": 2,
-   "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=bb65873a-c79f-4f74-b3bb-197282f17dc4&odds_numerator[0]=2&odds_denominator[0]=1",
-   "prices": {
-    "theScore Bet": 1.43,
-    "DraftKings": 1.41,
-    "FanDuel": 1.41
-   },
-   "links": {
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=bb65873a-c79f-4f74-b3bb-197282f17dc4&odds_numerator[0]=2&odds_denominator[0]=1",
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87358703_3",
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627698766&selectionId=5145605"
-   },
-   "open": [
-    "2026-11-22T19:02:11+00:00",
-    1.43,
-    0.6942
-   ],
-   "hist": [
-    [
-     "2026-11-22T19:02:11+00:00",
-     1.43,
-     0.6942
-    ]
-   ]
-  },
-  {
-   "sport": "COLLEGE BASKETBALL",
-   "event": "West Florida Argonauts @ South Alabama Jaguars",
-   "pick": "South Alabama Jaguars",
-   "opp": "West Florida Argonauts",
-   "start": "2026-11-22T20:00:00+00:00",
-   "book": "theScore Bet",
-   "odds": 1.43,
-   "prob": 0.6919,
-   "edge": -0.0105,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.25,
-   "to_win": 0.54,
-   "tier": null,
-   "fair_odds": 1.45,
-   "why": [
-    "Sharp books give South Alabama Jaguars a 69% chance to win (West Florida Argonauts 30%).",
-    "South Alabama Jaguars: 3-4, 2-1 at home, 78.6 pts/game, top: Jalen Langsy 19.9 PPG.",
-    "West Florida Argonauts: 3-3, 0-2 on the road, 91.5 pts/game, top: DJ Shine 18.5 PPG."
-   ],
-   "injuries": [],
-   "n_sharp": 2,
-   "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=3dbb7e5a-6b85-4512-903e-75f86b2a2123&odds_numerator[0]=2&odds_denominator[0]=1",
-   "prices": {
-    "theScore Bet": 1.43,
-    "DraftKings": 1.41,
-    "FanDuel": 1.42
-   },
-   "links": {
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=3dbb7e5a-6b85-4512-903e-75f86b2a2123&odds_numerator[0]=2&odds_denominator[0]=1",
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87358704_1",
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627698970&selectionId=719430"
-   },
-   "open": [
-    "2026-11-22T19:02:11+00:00",
-    1.43,
-    0.6919
-   ],
-   "hist": [
-    [
-     "2026-11-22T19:02:11+00:00",
-     1.43,
-     0.6919
-    ]
-   ]
-  },
   {
    "sport": "TENNIS",
    "event": "Enzo Costanzo Prediger vs Jose Pereira (ATP Challenger Florianopolis, Brazil Men Singles)",
@@ -3006,95 +2787,28 @@
  "big_parlays": [
   {
    "label": "Safest 4x+",
-   "book": "theScore Bet",
-   "odds": 4.0,
-   "prob": 0.2391,
-   "ev": -0.0423,
-   "units": 0.5,
-   "stake": 2.5,
-   "to_win": 7.51,
-   "legs": [
-    {
-     "pick": "New York Knicks",
-     "event": "Indiana Pacers @ New York Knicks",
-     "sport": "NBA",
-     "odds": 1.36,
-     "prob": 0.73,
-     "start": "2026-11-23T01:10:00+00:00",
-     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=1e1dcf3f-644e-4d8e-9212-8f93e3889266&odds_numerator[0]=2&odds_denominator[0]=1",
-     "sid": [
-      "7b0cc18c-9e00-493c-b6a8-034d765d811a",
-      "1e1dcf3f-644e-4d8e-9212-8f93e3889266",
-      "98e5b92a-1e8b-494e-aa0b-cc017e4c9710"
-     ]
-    },
-    {
-     "pick": "Troy Trojans",
-     "event": "Nicholls St Colonels @ Troy Trojans",
-     "sport": "COLLEGE BASKETBALL",
-     "odds": 1.43,
-     "prob": 0.694,
-     "start": "2026-11-22T20:00:00+00:00",
-     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=bb65873a-c79f-4f74-b3bb-197282f17dc4&odds_numerator[0]=2&odds_denominator[0]=1",
-     "sid": [
-      "2c2f95cf-c0bb-49a3-9186-ff422fc633a1",
-      "bb65873a-c79f-4f74-b3bb-197282f17dc4",
-      "3c9b2513-a07b-4452-9390-1bbfc1c22f74"
-     ]
-    },
-    {
-     "pick": "South Alabama Jaguars",
-     "event": "West Florida Argonauts @ South Alabama Jaguars",
-     "sport": "COLLEGE BASKETBALL",
-     "odds": 1.43,
-     "prob": 0.692,
-     "start": "2026-11-22T20:00:00+00:00",
-     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=3dbb7e5a-6b85-4512-903e-75f86b2a2123&odds_numerator[0]=2&odds_denominator[0]=1",
-     "sid": [
-      "848fc4b6-8995-4253-a8ab-1aad2d2c0c9a",
-      "3dbb7e5a-6b85-4512-903e-75f86b2a2123",
-      "1e4051f5-a0ac-4f10-a83a-3c07129ee7b0"
-     ]
-    },
-    {
-     "pick": "Dallas Stars",
-     "event": "Pittsburgh Penguins @ Dallas Stars",
-     "sport": "NHL",
-     "odds": 1.44,
-     "prob": 0.682,
-     "start": "2026-11-23T00:10:00+00:00",
-     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=0e37d3f8-d343-4a41-8a83-a57a93427b70&odds_numerator[0]=2&odds_denominator[0]=1",
-     "sid": [
-      "3361fdd1-da12-4d5c-8854-232c85ed1383",
-      "0e37d3f8-d343-4a41-8a83-a57a93427b70",
-      "a3461df2-ca0d-40ea-b1ac-49b9d201ef1e"
-     ]
-    }
-   ],
-   "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=1e1dcf3f-644e-4d8e-9212-8f93e3889266&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=bb65873a-c79f-4f74-b3bb-197282f17dc4&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=3dbb7e5a-6b85-4512-903e-75f86b2a2123&odds_numerator[2]=2&odds_denominator[2]=1&market_selection_id[3]=0e37d3f8-d343-4a41-8a83-a57a93427b70&odds_numerator[3]=2&odds_denominator[3]=1",
-   "alts": [
-    {
-     "book": "DraftKings",
-     "odds": 3.78,
-     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87336793_1+0ML87358703_3+0ML87358704_1+0ML87329207_1"
-    },
-    {
-     "book": "FanDuel",
-     "odds": 3.84,
-     "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.627104563&selectionId[0]=237482&marketId[1]=42.627698766&selectionId[1]=5145605&marketId[2]=42.627698970&selectionId[2]=719430&marketId[3]=42.626715049&selectionId[3]=25612"
-    }
-   ]
-  },
-  {
-   "label": "Next safest 4x+",
    "book": "FanDuel",
-   "odds": 4.0,
-   "prob": 0.2467,
-   "ev": -0.0121,
+   "odds": 4.03,
+   "prob": 0.2412,
+   "ev": -0.029,
    "units": 0.5,
    "stake": 2.5,
-   "to_win": 7.51,
+   "to_win": 7.56,
    "legs": [
+    {
+     "pick": "IUPUI Jaguars",
+     "event": "Maryland-Eastern Shore Hawks @ IUPUI Jaguars",
+     "sport": "COLLEGE BASKETBALL",
+     "odds": 1.18,
+     "prob": 0.847,
+     "start": "2026-11-22T21:30:00+00:00",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627754594&selectionId=77817401",
+     "sid": [
+      null,
+      "77817401",
+      "36350523"
+     ]
+    },
     {
      "pick": "Portland Pilots",
      "event": "Cal Baptist Lancers @ Portland Pilots",
@@ -3107,6 +2821,20 @@
       null,
       "13129",
       "36349280"
+     ]
+    },
+    {
+     "pick": "Utah Valley Wolverines",
+     "event": "Tenn-Martin Skyhawks @ Utah Valley Wolverines",
+     "sport": "COLLEGE BASKETBALL",
+     "odds": 1.34,
+     "prob": 0.745,
+     "start": "2026-11-23T01:00:00+00:00",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627720850&selectionId=4324485",
+     "sid": [
+      null,
+      "4324485",
+      "36350094"
      ]
     },
     {
@@ -3124,45 +2852,107 @@
      ]
     },
     {
-     "pick": "Tampa Bay Lightning",
-     "event": "Buffalo Sabres @ Tampa Bay Lightning",
+     "pick": "Dallas Stars",
+     "event": "Pittsburgh Penguins @ Dallas Stars",
      "sport": "NHL",
-     "odds": 1.48,
-     "prob": 0.673,
-     "start": "2026-11-22T22:10:00+00:00",
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626715017&selectionId=25609",
+     "odds": 1.43,
+     "prob": 0.682,
+     "start": "2026-11-23T00:10:00+00:00",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626715049&selectionId=25612",
      "sid": [
       null,
-      "25609",
-      "36336508"
-     ]
-    },
-    {
-     "pick": "Portland St Vikings",
-     "event": "CSU Fullerton Titans @ Portland St Vikings",
-     "sport": "COLLEGE BASKETBALL",
-     "odds": 1.52,
-     "prob": 0.654,
-     "start": "2026-11-22T22:00:00+00:00",
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627692925&selectionId=2909529",
-     "sid": [
-      null,
-      "2909529",
-      "36349531"
+      "25612",
+      "36336510"
      ]
     }
    ],
-   "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.627663352&selectionId[0]=13129&marketId[1]=42.624292670&selectionId[1]=50207&marketId[2]=42.626715017&selectionId[2]=25609&marketId[3]=42.627692925&selectionId[3]=2909529",
+   "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.627754594&selectionId[0]=77817401&marketId[1]=42.627663352&selectionId[1]=13129&marketId[2]=42.627720850&selectionId[2]=4324485&marketId[3]=42.624292670&selectionId[3]=50207&marketId[4]=42.626715049&selectionId[4]=25612",
    "alts": [
     {
      "book": "DraftKings",
-     "odds": 3.75,
-     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87358717_1+0ML84695543_3+0ML87329215_1+0ML87358711_1"
+     "odds": 3.81,
+     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87358708_3+0ML87358717_1+0ML87360257_1+0ML84695543_3+0ML87329207_1"
+    }
+   ]
+  },
+  {
+   "label": "Next safest 4x+",
+   "book": "FanDuel",
+   "odds": 4.01,
+   "prob": 0.2344,
+   "ev": -0.0591,
+   "units": 0.5,
+   "stake": 2.5,
+   "to_win": 7.54,
+   "legs": [
+    {
+     "pick": "Minnesota Golden Gophers",
+     "event": "Utah Utes @ Minnesota Golden Gophers",
+     "sport": "COLLEGE BASKETBALL",
+     "odds": 1.2,
+     "prob": 0.822,
+     "start": "2026-11-22T23:00:00+00:00",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627627455&selectionId=13118",
+     "sid": [
+      null,
+      "13118",
+      "36348371"
+     ]
+    },
+    {
+     "pick": "New York Knicks",
+     "event": "Indiana Pacers @ New York Knicks",
+     "sport": "NBA",
+     "odds": 1.34,
+     "prob": 0.73,
+     "start": "2026-11-23T01:10:00+00:00",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627104563&selectionId=237482",
+     "sid": [
+      null,
+      "237482",
+      "36341636"
+     ]
+    },
+    {
+     "pick": "San Francisco 49ers",
+     "event": "Minnesota Vikings @ San Francisco 49ers",
+     "sport": "NFL",
+     "odds": 1.58,
+     "prob": 0.631,
+     "start": "2026-11-23T01:20:00+00:00",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578347341&selectionId=43010249",
+     "sid": [
+      null,
+      "43010249",
+      "35605987"
+     ]
+    },
+    {
+     "pick": "Miami Heat",
+     "event": "Oklahoma City Thunder @ Miami Heat",
+     "sport": "NBA",
+     "odds": 1.58,
+     "prob": 0.619,
+     "start": "2026-11-22T23:10:00+00:00",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627104557&selectionId=237486",
+     "sid": [
+      null,
+      "237486",
+      "36341632"
+     ]
+    }
+   ],
+   "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.627627455&selectionId[0]=13118&marketId[1]=42.627104563&selectionId[1]=237482&marketId[2]=42.578347341&selectionId[2]=43010249&marketId[3]=42.627104557&selectionId[3]=237486",
+   "alts": [
+    {
+     "book": "DraftKings",
+     "odds": 3.92,
+     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87358716_1+0ML87336793_1+0ML84695506_1+0ML87336648_1"
     },
     {
      "book": "theScore Bet",
-     "odds": 3.8,
-     "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=bbeadedb-a609-43b6-a51d-5b30af520924&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=40c5e728-8d26-410a-97ba-5f4a7b297b72&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=c5162444-39e1-46d0-b903-7f4b533cb914&odds_numerator[2]=2&odds_denominator[2]=1&market_selection_id[3]=9b9ed8ec-1302-4e54-b19d-30cd86739353&odds_numerator[3]=2&odds_denominator[3]=1"
+     "odds": 3.83,
+     "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=8859ef3a-6197-47d8-ace3-f99f0b112476&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=1e1dcf3f-644e-4d8e-9212-8f93e3889266&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=1dc5e6fe-4fa3-4f72-8b37-2bf7d3ed3f55&odds_numerator[2]=2&odds_denominator[2]=1&market_selection_id[3]=7f7639f5-95cf-4563-8b49-2c5e5c2eee0b&odds_numerator[3]=2&odds_denominator[3]=1"
     }
    ]
   }

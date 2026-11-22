@@ -1,19 +1,161 @@
 {
  "version": 25,
- "updated": "2026-11-22T19:02:06+00:00",
- "last_scan": "2026-11-22T19:02:06+00:00",
+ "updated": "2026-11-22T19:04:21+00:00",
+ "last_scan": "2026-11-22T19:04:21+00:00",
  "unit": 5.0,
  "bankroll": 238.53,
  "bank_start": 250.0,
  "unit_pct": 0.02,
- "picks": [],
+ "picks": [
+  {
+   "tier": "lean",
+   "sport": "COLLEGE BASKETBALL",
+   "event": "McNeese Cowboys @ Texas State Bobcats",
+   "pick": "Texas State Bobcats",
+   "book": "FanDuel",
+   "odds": 1.76,
+   "now_odds": 1.76,
+   "prob": 0.5685,
+   "edge": 0.0006,
+   "units": 0.5,
+   "stake": 2.5,
+   "to_win": 1.9,
+   "min_odds": 1.76,
+   "start": "2026-11-22T20:30:00+00:00",
+   "started": false,
+   "status": "open",
+   "n_sharp": 2,
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627664331&selectionId=732114",
+   "flag": null,
+   "posted_at": "2026-11-22T19:02:12+00:00",
+   "prices": {
+    "theScore Bet": 1.71,
+    "FanDuel": 1.76,
+    "DraftKings": 1.7
+   },
+   "links": {
+    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=e8a4778d-16d0-4a73-a803-4b457dbbf792&odds_numerator[0]=2&odds_denominator[0]=1",
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627664331&selectionId=732114",
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87358705_1"
+   },
+   "fair_odds": 1.76,
+   "now_edge": 0.0006,
+   "open": [
+    "2026-11-22T19:02:11+00:00",
+    1.76,
+    0.5685
+   ],
+   "hist": [
+    [
+     "2026-11-22T19:02:11+00:00",
+     1.76,
+     0.5685
+    ]
+   ],
+   "injuries": []
+  },
+  {
+   "tier": "lean",
+   "sport": "NHL",
+   "event": "Buffalo Sabres @ Tampa Bay Lightning",
+   "pick": "Tampa Bay Lightning",
+   "book": "FanDuel",
+   "odds": 1.48,
+   "now_odds": 1.48,
+   "prob": 0.6727,
+   "edge": -0.0043,
+   "units": 0.5,
+   "stake": 2.5,
+   "to_win": 1.2,
+   "min_odds": 1.49,
+   "start": "2026-11-22T22:10:00+00:00",
+   "started": false,
+   "status": "open",
+   "n_sharp": 4,
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626715017&selectionId=25609",
+   "flag": null,
+   "posted_at": "2026-11-22T19:02:12+00:00",
+   "prices": {
+    "DraftKings": 1.46,
+    "FanDuel": 1.48,
+    "theScore Bet": 1.48
+   },
+   "links": {
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87329215_1",
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626715017&selectionId=25609",
+    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=c5162444-39e1-46d0-b903-7f4b533cb914&odds_numerator[0]=2&odds_denominator[0]=1"
+   },
+   "fair_odds": 1.49,
+   "now_edge": -0.0043,
+   "open": [
+    "2026-11-22T19:02:11+00:00",
+    1.48,
+    0.6727
+   ],
+   "hist": [
+    [
+     "2026-11-22T19:02:11+00:00",
+     1.48,
+     0.6727
+    ]
+   ],
+   "injuries": []
+  },
+  {
+   "tier": "lean",
+   "sport": "COLLEGE BASKETBALL",
+   "event": "Temple Owls @ Stephen F. Austin Lumberjacks",
+   "pick": "Temple Owls",
+   "book": "theScore Bet",
+   "odds": 1.77,
+   "now_odds": 1.77,
+   "prob": 0.5656,
+   "edge": 0.0012,
+   "units": 0.5,
+   "stake": 2.5,
+   "to_win": 1.93,
+   "min_odds": 1.77,
+   "start": "2026-11-22T22:30:00+00:00",
+   "started": false,
+   "status": "open",
+   "n_sharp": 2,
+   "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=bb16bced-847f-4b07-b3f1-35ac18a04f13&odds_numerator[0]=2&odds_denominator[0]=1",
+   "flag": null,
+   "posted_at": "2026-11-22T19:02:12+00:00",
+   "prices": {
+    "theScore Bet": 1.77,
+    "DraftKings": 1.77,
+    "FanDuel": 1.76
+   },
+   "links": {
+    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=bb16bced-847f-4b07-b3f1-35ac18a04f13&odds_numerator[0]=2&odds_denominator[0]=1",
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87360256_3",
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627755077&selectionId=29839"
+   },
+   "fair_odds": 1.77,
+   "now_edge": 0.0012,
+   "open": [
+    "2026-11-22T19:02:11+00:00",
+    1.77,
+    0.5656
+   ],
+   "hist": [
+    [
+     "2026-11-22T19:02:11+00:00",
+     1.77,
+     0.5656
+    ]
+   ],
+   "injuries": []
+  }
+ ],
  "parlays": [],
  "record": {
   "lean": {
    "won": 4,
    "lost": 4,
    "push": 0,
-   "open": 1,
+   "open": 4,
    "units": -0.8,
    "dollars": -3.98,
    "clv": -0.0019,
@@ -164,7 +306,7 @@
    "on": true
   }
  },
- "watching": 24,
+ "watching": 88,
  "history": [
   {
    "type": "lean",
@@ -319,9 +461,98 @@
    "profit_u": -0.5,
    "clv": null,
    "start": "2026-11-22T00:00:00+00:00"
+  },
+  {
+   "type": "lean",
+   "sport": "COLLEGE BASKETBALL",
+   "pick": "Texas State Bobcats",
+   "event": "McNeese Cowboys @ Texas State Bobcats",
+   "book": "FanDuel",
+   "odds": 1.76,
+   "units": 0.5,
+   "edge": 0.0006,
+   "status": "open",
+   "profit_u": 0.0,
+   "clv": null,
+   "start": "2026-11-22T20:30:00+00:00"
+  },
+  {
+   "type": "lean",
+   "sport": "NHL",
+   "pick": "Tampa Bay Lightning",
+   "event": "Buffalo Sabres @ Tampa Bay Lightning",
+   "book": "FanDuel",
+   "odds": 1.48,
+   "units": 0.5,
+   "edge": -0.0043,
+   "status": "open",
+   "profit_u": 0.0,
+   "clv": null,
+   "start": "2026-11-22T22:10:00+00:00"
+  },
+  {
+   "type": "lean",
+   "sport": "COLLEGE BASKETBALL",
+   "pick": "Temple Owls",
+   "event": "Temple Owls @ Stephen F. Austin Lumberjacks",
+   "book": "theScore Bet",
+   "odds": 1.77,
+   "units": 0.5,
+   "edge": 0.0012,
+   "status": "open",
+   "profit_u": 0.0,
+   "clv": null,
+   "start": "2026-11-22T22:30:00+00:00"
   }
  ],
  "games": [
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "Robert Morris Colonials @ New Mexico St Aggies",
+   "pick": "New Mexico St Aggies",
+   "opp": "Robert Morris Colonials",
+   "start": "2026-11-22T19:30:00+00:00",
+   "book": "theScore Bet",
+   "odds": 1.87,
+   "prob": 0.5265,
+   "edge": -0.0154,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.0,
+   "stake": 0.0,
+   "to_win": 0.0,
+   "tier": null,
+   "fair_odds": 1.9,
+   "why": [
+    "Sharp books give New Mexico St Aggies a 53% chance to win (Robert Morris Colonials 47%).",
+    "Robert Morris Colonials: 1-4, 0-4 on the road, 65.6 pts/game, top: KJ Garris Jr. 13.5 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 2,
+   "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=e53a0f94-e011-46c9-97e9-fe9d0a2e4b89&odds_numerator[0]=2&odds_denominator[0]=1",
+   "prices": {
+    "theScore Bet": 1.87,
+    "DraftKings": 1.82,
+    "FanDuel": 1.83
+   },
+   "links": {
+    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=e53a0f94-e011-46c9-97e9-fe9d0a2e4b89&odds_numerator[0]=2&odds_denominator[0]=1",
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87358701_1",
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627697560&selectionId=719427"
+   },
+   "open": [
+    "2026-11-22T19:02:11+00:00",
+    1.87,
+    0.5265
+   ],
+   "hist": [
+    [
+     "2026-11-22T19:02:11+00:00",
+     1.87,
+     0.5265
+    ]
+   ]
+  },
   {
    "sport": "TENNIS",
    "event": "Coco Gauff vs Anna Bondar (Billie Jean King Cup)",
@@ -487,6 +718,102 @@
    ]
   },
   {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "Nicholls St Colonels @ Troy Trojans",
+   "pick": "Troy Trojans",
+   "opp": "Nicholls St Colonels",
+   "start": "2026-11-22T20:00:00+00:00",
+   "book": "theScore Bet",
+   "odds": 1.43,
+   "prob": 0.6942,
+   "edge": -0.0073,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.25,
+   "stake": 1.25,
+   "to_win": 0.54,
+   "tier": null,
+   "fair_odds": 1.44,
+   "why": [
+    "Sharp books give Troy Trojans a 69% chance to win (Nicholls St Colonels 30%).",
+    "Troy Trojans: 2-4, 0-2 on the road, 70.0 pts/game, top: Donovan Oday 15.3 PPG.",
+    "Nicholls St Colonels: 2-4, 2-0 at home, 69.5 pts/game, top: AJ Dent 13.2 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 2,
+   "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=bb65873a-c79f-4f74-b3bb-197282f17dc4&odds_numerator[0]=2&odds_denominator[0]=1",
+   "prices": {
+    "theScore Bet": 1.43,
+    "DraftKings": 1.41,
+    "FanDuel": 1.41
+   },
+   "links": {
+    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=bb65873a-c79f-4f74-b3bb-197282f17dc4&odds_numerator[0]=2&odds_denominator[0]=1",
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87358703_3",
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627698766&selectionId=5145605"
+   },
+   "open": [
+    "2026-11-22T19:02:11+00:00",
+    1.43,
+    0.6942
+   ],
+   "hist": [
+    [
+     "2026-11-22T19:02:11+00:00",
+     1.43,
+     0.6942
+    ]
+   ]
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "West Florida Argonauts @ South Alabama Jaguars",
+   "pick": "South Alabama Jaguars",
+   "opp": "West Florida Argonauts",
+   "start": "2026-11-22T20:00:00+00:00",
+   "book": "theScore Bet",
+   "odds": 1.43,
+   "prob": 0.6919,
+   "edge": -0.0105,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.25,
+   "stake": 1.25,
+   "to_win": 0.54,
+   "tier": null,
+   "fair_odds": 1.45,
+   "why": [
+    "Sharp books give South Alabama Jaguars a 69% chance to win (West Florida Argonauts 30%).",
+    "South Alabama Jaguars: 3-4, 2-1 at home, 78.6 pts/game, top: Jalen Langsy 19.9 PPG.",
+    "West Florida Argonauts: 3-3, 0-2 on the road, 91.5 pts/game, top: DJ Shine 18.5 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 2,
+   "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=3dbb7e5a-6b85-4512-903e-75f86b2a2123&odds_numerator[0]=2&odds_denominator[0]=1",
+   "prices": {
+    "theScore Bet": 1.43,
+    "DraftKings": 1.41,
+    "FanDuel": 1.42
+   },
+   "links": {
+    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=3dbb7e5a-6b85-4512-903e-75f86b2a2123&odds_numerator[0]=2&odds_denominator[0]=1",
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87358704_1",
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627698970&selectionId=719430"
+   },
+   "open": [
+    "2026-11-22T19:02:11+00:00",
+    1.43,
+    0.6919
+   ],
+   "hist": [
+    [
+     "2026-11-22T19:02:11+00:00",
+     1.43,
+     0.6919
+    ]
+   ]
+  },
+  {
    "sport": "TENNIS",
    "event": "Enzo Costanzo Prediger vs Jose Pereira (ATP Challenger Florianopolis, Brazil Men Singles)",
    "pick": "Jose Pereira",
@@ -612,6 +939,215 @@
    ]
   },
   {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "Mercyhurst Lakers @ Albany Great Danes",
+   "pick": "Mercyhurst Lakers",
+   "opp": "Albany Great Danes",
+   "start": "2026-11-22T20:30:00+00:00",
+   "book": "DraftKings",
+   "odds": 1.83,
+   "prob": 0.5401,
+   "edge": -0.0116,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.0,
+   "stake": 0.0,
+   "to_win": 0.0,
+   "tier": null,
+   "fair_odds": 1.85,
+   "why": [
+    "Sharp books give Mercyhurst Lakers a 54% chance to win (Albany Great Danes 46%).",
+    "Mercyhurst Lakers: 2-5, 0-5 on the road, 62.9 pts/game, top: Jake Lemelman 17.4 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 2,
+   "link": "https://sportsbook.draftkings.com/?outcomes=0ML87358706_3",
+   "prices": {
+    "theScore Bet": 1.8,
+    "DraftKings": 1.83,
+    "FanDuel": 1.83
+   },
+   "links": {
+    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=dc63d566-a413-4d4b-8de3-6028c29d2e77&odds_numerator[0]=2&odds_denominator[0]=1",
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87358706_3",
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627700017&selectionId=62502354"
+   },
+   "open": [
+    "2026-11-22T19:02:11+00:00",
+    1.83,
+    0.5401
+   ],
+   "hist": [
+    [
+     "2026-11-22T19:02:11+00:00",
+     1.83,
+     0.5401
+    ]
+   ]
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "McNeese Cowboys @ Texas State Bobcats",
+   "pick": "Texas State Bobcats",
+   "opp": "McNeese Cowboys",
+   "start": "2026-11-22T20:30:00+00:00",
+   "book": "FanDuel",
+   "odds": 1.76,
+   "prob": 0.5685,
+   "edge": 0.0006,
+   "value": "fair",
+   "value_txt": "Fair price",
+   "units": 0.5,
+   "stake": 2.5,
+   "to_win": 1.9,
+   "tier": "lean",
+   "fair_odds": 1.76,
+   "why": [
+    "Sharp books give Texas State Bobcats a 57% chance to win (McNeese Cowboys 43%).",
+    "Texas State Bobcats: 6-0, 4-0 at home, 88.3 pts/game, top: DJ Hall 14.5 PPG.",
+    "McNeese Cowboys: 2-1, 0-1 on the road, 100.3 pts/game, top: Larry Johnson 23.3 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 2,
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627664331&selectionId=732114",
+   "prices": {
+    "theScore Bet": 1.71,
+    "FanDuel": 1.76,
+    "DraftKings": 1.7
+   },
+   "links": {
+    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=e8a4778d-16d0-4a73-a803-4b457dbbf792&odds_numerator[0]=2&odds_denominator[0]=1",
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627664331&selectionId=732114",
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87358705_1"
+   },
+   "open": [
+    "2026-11-22T19:02:11+00:00",
+    1.76,
+    0.5685
+   ],
+   "hist": [
+    [
+     "2026-11-22T19:02:11+00:00",
+     1.76,
+     0.5685
+    ]
+   ]
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "Virginia Tech Hokies @ Oklahoma St Cowboys",
+   "pick": "Virginia Tech Hokies",
+   "opp": "Oklahoma St Cowboys",
+   "start": "2026-11-22T20:30:00+00:00",
+   "book": "theScore Bet",
+   "odds": 1.83,
+   "prob": 0.5288,
+   "edge": -0.0324,
+   "value": "over",
+   "value_txt": "Overpriced: the book is charging a lot here",
+   "units": 0.0,
+   "stake": 0.0,
+   "to_win": 0.0,
+   "tier": null,
+   "fair_odds": 1.89,
+   "why": [
+    "Sharp books give Virginia Tech Hokies a 53% chance to win (Oklahoma St Cowboys 47%).",
+    "Virginia Tech Hokies: 6-0, 0-0 on the road, 88.5 pts/game, top: Ben Hammond 20.0 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 3,
+   "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=4cf27122-2e04-4507-8935-672ac7da5fb0&odds_numerator[0]=2&odds_denominator[0]=1",
+   "prices": {
+    "FanDuel": 1.77,
+    "theScore Bet": 1.83,
+    "DraftKings": 1.8
+   },
+   "links": {
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627627823&selectionId=708786",
+    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=4cf27122-2e04-4507-8935-672ac7da5fb0&odds_numerator[0]=2&odds_denominator[0]=1",
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87358707_3"
+   },
+   "open": [
+    "2026-11-22T19:02:11+00:00",
+    1.83,
+    0.5288
+   ],
+   "hist": [
+    [
+     "2026-11-22T19:02:11+00:00",
+     1.83,
+     0.5288
+    ]
+   ]
+  },
+  {
+   "sport": "NBA",
+   "event": "Detroit Pistons @ Atlanta Hawks",
+   "pick": "Detroit Pistons",
+   "opp": "Atlanta Hawks",
+   "start": "2026-11-22T20:40:00+00:00",
+   "book": "FanDuel",
+   "odds": 1.83,
+   "prob": 0.5339,
+   "edge": -0.023,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.0,
+   "stake": 0.0,
+   "to_win": 0.0,
+   "tier": null,
+   "fair_odds": 1.87,
+   "why": [
+    "Sharp books give Detroit Pistons a 53% chance to win (Atlanta Hawks 47%).",
+    "Detroit Pistons: 10-5, 7-2 on the road, 114.5 pts/game, top: Cade Cunningham 25.6 PPG.",
+    "Atlanta Hawks: 10-6, 4-3 at home, 117.3 pts/game, top: Nickeil Alexander-Walker 20.9 PPG."
+   ],
+   "injuries": [
+    {
+     "team": "Detroit Pistons",
+     "list": [
+      "Ronald Holland II (F, Out)",
+      "Ebuka Okorie (G, Out)",
+      "Cade Cunningham (G, day-to-day)",
+      "Taurean Prince (F, Out)"
+     ]
+    },
+    {
+     "team": "Atlanta Hawks",
+     "list": [
+      "Jock Landale (C, Out)",
+      "Asa Newell (F, Out)",
+      "CJ McCollum (G, Out)",
+      "Mouhamed Gueye (F, Out)"
+     ]
+    }
+   ],
+   "n_sharp": 5,
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627104547&selectionId=237474",
+   "prices": {
+    "FanDuel": 1.83,
+    "DraftKings": 1.81,
+    "theScore Bet": 1.8
+   },
+   "links": {
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627104547&selectionId=237474",
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87336647_3",
+    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=0687f259-26e3-49d4-a099-dee09b5ff904&odds_numerator[0]=2&odds_denominator[0]=1"
+   },
+   "open": [
+    "2026-11-22T19:02:11+00:00",
+    1.83,
+    0.5339
+   ],
+   "hist": [
+    [
+     "2026-11-22T19:02:11+00:00",
+     1.83,
+     0.5339
+    ]
+   ]
+  },
+  {
    "sport": "TENNIS",
    "event": "Leyre Romero Gormaz vs Rebeka Masarova (WTA 125K Colina, Chile Women Singles)",
    "pick": "Rebeka Masarova",
@@ -691,6 +1227,565 @@
      "2026-11-22T19:02:06+00:00",
      1.111,
      0.8487
+    ]
+   ]
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "Maryland-Eastern Shore Hawks @ IUPUI Jaguars",
+   "pick": "IUPUI Jaguars",
+   "opp": "Maryland-Eastern Shore Hawks",
+   "start": "2026-11-22T21:30:00+00:00",
+   "book": "FanDuel",
+   "odds": 1.18,
+   "prob": 0.8474,
+   "edge": -0.0001,
+   "value": "fair",
+   "value_txt": "Fair price",
+   "units": 0.5,
+   "stake": 2.5,
+   "to_win": 0.45,
+   "tier": null,
+   "fair_odds": 1.18,
+   "why": [
+    "Sharp books give IUPUI Jaguars a 85% chance to win (Maryland-Eastern Shore Hawks 13%).",
+    "Maryland-Eastern Shore Hawks: 2-5, 0-5 on the road, 59.9 pts/game, top: Bobby Gardner 16.0 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 2,
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627754594&selectionId=77817401",
+   "prices": {
+    "theScore Bet": 1.14,
+    "DraftKings": 1.17,
+    "FanDuel": 1.18
+   },
+   "links": {
+    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=202c3414-805d-4d51-8511-fbf582dc935c&odds_numerator[0]=2&odds_denominator[0]=1",
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87358708_3",
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627754594&selectionId=77817401"
+   },
+   "open": [
+    "2026-11-22T19:02:11+00:00",
+    1.18,
+    0.8474
+   ],
+   "hist": [
+    [
+     "2026-11-22T19:02:11+00:00",
+     1.18,
+     0.8474
+    ]
+   ]
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "Liberty Flames @ Richmond Spiders",
+   "pick": "Richmond Spiders",
+   "opp": "Liberty Flames",
+   "start": "2026-11-22T21:30:00+00:00",
+   "book": "FanDuel",
+   "odds": 1.93,
+   "prob": 0.502,
+   "edge": -0.0312,
+   "value": "over",
+   "value_txt": "Overpriced: the book is charging a lot here",
+   "units": 0.0,
+   "stake": 0.0,
+   "to_win": 0.0,
+   "tier": null,
+   "fair_odds": 1.99,
+   "why": [
+    "Sharp books give Richmond Spiders a 50% chance to win (Liberty Flames 50%).",
+    "Richmond Spiders: 3-3, 0-2 on the road, 82.0 pts/game, top: Dominick Stewart 17.2 PPG.",
+    "Liberty Flames: 4-1, 2-0 at home, 80.4 pts/game, top: Eli Sancomb 16.8 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 3,
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627692923&selectionId=697707",
+   "prices": {
+    "theScore Bet": 1.91,
+    "DraftKings": 1.89,
+    "FanDuel": 1.93
+   },
+   "links": {
+    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=211015fa-ea7a-4962-94a6-5ed6fc048d62&odds_numerator[0]=2&odds_denominator[0]=1",
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87358709_3",
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627692923&selectionId=697707"
+   },
+   "open": [
+    "2026-11-22T19:02:11+00:00",
+    1.93,
+    0.502
+   ],
+   "hist": [
+    [
+     "2026-11-22T19:02:11+00:00",
+     1.93,
+     0.502
+    ]
+   ]
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "UC Irvine Anteaters @ Loyola Marymount Lions",
+   "pick": "UC Irvine Anteaters",
+   "opp": "Loyola Marymount Lions",
+   "start": "2026-11-22T21:30:00+00:00",
+   "book": "theScore Bet",
+   "odds": 1.83,
+   "prob": 0.5359,
+   "edge": -0.0193,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.0,
+   "stake": 0.0,
+   "to_win": 0.0,
+   "tier": null,
+   "fair_odds": 1.87,
+   "why": [
+    "Sharp books give UC Irvine Anteaters a 54% chance to win (Loyola Marymount Lions 46%).",
+    "UC Irvine Anteaters: 3-2, 0-1 on the road, 79.6 pts/game, top: Jovan Jester Jr. 15.6 PPG.",
+    "Loyola Marymount Lions: 3-3, 2-1 at home, 84.0 pts/game, top: Zion Sensley 17.2 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 3,
+   "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=0be2a8f5-d3df-452f-a8d5-cf4ca4c9001e&odds_numerator[0]=2&odds_denominator[0]=1",
+   "prices": {
+    "theScore Bet": 1.83,
+    "FanDuel": 1.82,
+    "DraftKings": 1.8
+   },
+   "links": {
+    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=0be2a8f5-d3df-452f-a8d5-cf4ca4c9001e&odds_numerator[0]=2&odds_denominator[0]=1",
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627664090&selectionId=734340",
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87358710_3"
+   },
+   "open": [
+    "2026-11-22T19:02:11+00:00",
+    1.83,
+    0.5359
+   ],
+   "hist": [
+    [
+     "2026-11-22T19:02:11+00:00",
+     1.83,
+     0.5359
+    ]
+   ]
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "CSU Fullerton Titans @ Portland St Vikings",
+   "pick": "Portland St Vikings",
+   "opp": "CSU Fullerton Titans",
+   "start": "2026-11-22T22:00:00+00:00",
+   "book": "FanDuel",
+   "odds": 1.52,
+   "prob": 0.6539,
+   "edge": -0.0061,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.25,
+   "stake": 1.25,
+   "to_win": 0.65,
+   "tier": null,
+   "fair_odds": 1.53,
+   "why": [
+    "Sharp books give Portland St Vikings a 65% chance to win (CSU Fullerton Titans 34%)."
+   ],
+   "injuries": [],
+   "n_sharp": 2,
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627692925&selectionId=2909529",
+   "prices": {
+    "theScore Bet": 1.51,
+    "DraftKings": 1.49,
+    "FanDuel": 1.52
+   },
+   "links": {
+    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=9b9ed8ec-1302-4e54-b19d-30cd86739353&odds_numerator[0]=2&odds_denominator[0]=1",
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87358711_1",
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627692925&selectionId=2909529"
+   },
+   "open": [
+    "2026-11-22T19:02:11+00:00",
+    1.52,
+    0.6539
+   ],
+   "hist": [
+    [
+     "2026-11-22T19:02:11+00:00",
+     1.52,
+     0.6539
+    ]
+   ]
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "Lamar Cardinals @ Rice Owls",
+   "pick": "Lamar Cardinals",
+   "opp": "Rice Owls",
+   "start": "2026-11-22T22:00:00+00:00",
+   "book": "FanDuel",
+   "odds": 1.78,
+   "prob": 0.5496,
+   "edge": -0.0218,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.0,
+   "stake": 0.0,
+   "to_win": 0.0,
+   "tier": null,
+   "fair_odds": 1.82,
+   "why": [
+    "Sharp books give Lamar Cardinals a 55% chance to win (Rice Owls 45%).",
+    "Lamar Cardinals: 3-1, 2-0 at home, 107.8 pts/game, top: Quante Berry 22.8 PPG.",
+    "Rice Owls: 3-2, 1-1 on the road, 81.2 pts/game, top: Jaxson Thompson 15.6 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 2,
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627663737&selectionId=739715",
+   "prices": {
+    "theScore Bet": 1.77,
+    "FanDuel": 1.78,
+    "DraftKings": 1.77
+   },
+   "links": {
+    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=46568aa6-f42e-453f-87eb-e6fa3dec0a2f&odds_numerator[0]=2&odds_denominator[0]=1",
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627663737&selectionId=739715",
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87358713_1"
+   },
+   "open": [
+    "2026-11-22T19:02:11+00:00",
+    1.78,
+    0.5496
+   ],
+   "hist": [
+    [
+     "2026-11-22T19:02:11+00:00",
+     1.78,
+     0.5496
+    ]
+   ]
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "UNC Asheville Bulldogs @ Samford Bulldogs",
+   "pick": "Samford Bulldogs",
+   "opp": "UNC Asheville Bulldogs",
+   "start": "2026-11-22T22:00:00+00:00",
+   "book": "DraftKings",
+   "odds": 1.19,
+   "prob": 0.8275,
+   "edge": -0.0153,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.25,
+   "stake": 1.25,
+   "to_win": 0.24,
+   "tier": null,
+   "fair_odds": 1.21,
+   "why": [
+    "Sharp books give Samford Bulldogs a 83% chance to win (UNC Asheville Bulldogs 15%).",
+    "Samford Bulldogs: 2-2, 1-1 at home, 76.5 pts/game, top: Will Shaver 15.2 PPG.",
+    "UNC Asheville Bulldogs: 2-4, 1-2 on the road, 79.5 pts/game, top: Connor Dubsky 12.5 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 2,
+   "link": "https://sportsbook.draftkings.com/?outcomes=0ML87358714_1",
+   "prices": {
+    "theScore Bet": 1.17,
+    "DraftKings": 1.19,
+    "FanDuel": 1.17
+   },
+   "links": {
+    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=297ccbb4-1eb8-4313-814f-863b187fdc48&odds_numerator[0]=2&odds_denominator[0]=1",
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87358714_1",
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627741084&selectionId=719426"
+   },
+   "open": [
+    "2026-11-22T19:02:11+00:00",
+    1.19,
+    0.8275
+   ],
+   "hist": [
+    [
+     "2026-11-22T19:02:11+00:00",
+     1.19,
+     0.8275
+    ]
+   ]
+  },
+  {
+   "sport": "NHL",
+   "event": "Buffalo Sabres @ Tampa Bay Lightning",
+   "pick": "Tampa Bay Lightning",
+   "opp": "Buffalo Sabres",
+   "start": "2026-11-22T22:10:00+00:00",
+   "book": "FanDuel",
+   "odds": 1.48,
+   "prob": 0.6727,
+   "edge": -0.0043,
+   "value": "fair",
+   "value_txt": "Fair price",
+   "units": 0.5,
+   "stake": 2.5,
+   "to_win": 1.2,
+   "tier": "lean",
+   "fair_odds": 1.49,
+   "why": [
+    "Sharp books give Tampa Bay Lightning a 67% chance to win (Buffalo Sabres 32%).",
+    "Tampa Bay Lightning: 15-5-2, 10-1-0 at home, top: Jake Guentzel 13 Goals.",
+    "Buffalo Sabres: 9-10-4, 5-4-4 on the road, top: Tage Thompson 15 Goals."
+   ],
+   "injuries": [
+    {
+     "team": "Tampa Bay Lightning",
+     "list": [
+      "Conor Geekie (C, Injured Reserve)",
+      "Zemgus Girgensons (C, day-to-day)",
+      "Brandon Hagel (LW, Injured Reserve)"
+     ]
+    },
+    {
+     "team": "Buffalo Sabres",
+     "list": [
+      "Konsta Helenius (C, Injured Reserve)",
+      "Justin Danforth (RW, Injured Reserve)",
+      "Matt Grzelcyk (D, Injured Reserve)"
+     ]
+    }
+   ],
+   "n_sharp": 4,
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626715017&selectionId=25609",
+   "prices": {
+    "DraftKings": 1.46,
+    "FanDuel": 1.48,
+    "theScore Bet": 1.48
+   },
+   "links": {
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87329215_1",
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626715017&selectionId=25609",
+    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=c5162444-39e1-46d0-b903-7f4b533cb914&odds_numerator[0]=2&odds_denominator[0]=1"
+   },
+   "open": [
+    "2026-11-22T19:02:11+00:00",
+    1.48,
+    0.6727
+   ],
+   "hist": [
+    [
+     "2026-11-22T19:02:11+00:00",
+     1.48,
+     0.6727
+    ]
+   ]
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "Temple Owls @ Stephen F. Austin Lumberjacks",
+   "pick": "Temple Owls",
+   "opp": "Stephen F. Austin Lumberjacks",
+   "start": "2026-11-22T22:30:00+00:00",
+   "book": "theScore Bet",
+   "odds": 1.77,
+   "prob": 0.5656,
+   "edge": 0.0012,
+   "value": "fair",
+   "value_txt": "Fair price",
+   "units": 0.5,
+   "stake": 2.5,
+   "to_win": 1.93,
+   "tier": "lean",
+   "fair_odds": 1.77,
+   "why": [
+    "Sharp books give Temple Owls a 57% chance to win (Stephen F. Austin Lumberjacks 43%).",
+    "Temple Owls: 3-2, 1-0 on the road, 74.2 pts/game, top: Cam Scott 16.0 PPG.",
+    "Stephen F. Austin Lumberjacks: 4-1, 2-1 at home, 89.8 pts/game, top: Erik Makke 16.4 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 2,
+   "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=bb16bced-847f-4b07-b3f1-35ac18a04f13&odds_numerator[0]=2&odds_denominator[0]=1",
+   "prices": {
+    "theScore Bet": 1.77,
+    "DraftKings": 1.77,
+    "FanDuel": 1.76
+   },
+   "links": {
+    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=bb16bced-847f-4b07-b3f1-35ac18a04f13&odds_numerator[0]=2&odds_denominator[0]=1",
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87360256_3",
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627755077&selectionId=29839"
+   },
+   "open": [
+    "2026-11-22T19:02:11+00:00",
+    1.77,
+    0.5656
+   ],
+   "hist": [
+    [
+     "2026-11-22T19:02:11+00:00",
+     1.77,
+     0.5656
+    ]
+   ]
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "Utah Utes @ Minnesota Golden Gophers",
+   "pick": "Minnesota Golden Gophers",
+   "opp": "Utah Utes",
+   "start": "2026-11-22T23:00:00+00:00",
+   "book": "FanDuel",
+   "odds": 1.2,
+   "prob": 0.8215,
+   "edge": -0.0142,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.25,
+   "stake": 1.25,
+   "to_win": 0.25,
+   "tier": null,
+   "fair_odds": 1.22,
+   "why": [
+    "Sharp books give Minnesota Golden Gophers a 82% chance to win (Utah Utes 15%).",
+    "Minnesota Golden Gophers: 6-0, 4-0 at home, 83.2 pts/game, top: Isaac Asuma 17.3 PPG.",
+    "Utah Utes: 3-2, 0-0 on the road, 66.2 pts/game, top: Trey Campbell 14.6 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 3,
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627627455&selectionId=13118",
+   "prices": {
+    "FanDuel": 1.2,
+    "theScore Bet": 1.15,
+    "DraftKings": 1.18
+   },
+   "links": {
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627627455&selectionId=13118",
+    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=8859ef3a-6197-47d8-ace3-f99f0b112476&odds_numerator[0]=2&odds_denominator[0]=1",
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87358716_1"
+   },
+   "open": [
+    "2026-11-22T19:02:11+00:00",
+    1.2,
+    0.8215
+   ],
+   "hist": [
+    [
+     "2026-11-22T19:02:11+00:00",
+     1.2,
+     0.8215
+    ]
+   ]
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "Valparaiso Beacons @ Southern Miss Golden Eagles",
+   "pick": "Valparaiso Beacons",
+   "opp": "Southern Miss Golden Eagles",
+   "start": "2026-11-22T23:00:00+00:00",
+   "book": "DraftKings",
+   "odds": 1.25,
+   "prob": 0.7916,
+   "edge": -0.0105,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.25,
+   "stake": 1.25,
+   "to_win": 0.31,
+   "tier": null,
+   "fair_odds": 1.26,
+   "why": [
+    "Sharp books give Valparaiso Beacons a 79% chance to win (Southern Miss Golden Eagles 19%).",
+    "Valparaiso Beacons: 4-1, 2-0 at home, 83.0 pts/game, top: Rakim Chaney 18.6 PPG.",
+    "Southern Miss Golden Eagles: 4-3, 1-2 on the road, 77.6 pts/game, top: Jalyke Gaines-Wyatt 17.0 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 2,
+   "link": "https://sportsbook.draftkings.com/?outcomes=0ML87358715_1",
+   "prices": {
+    "theScore Bet": 1.24,
+    "DraftKings": 1.25,
+    "FanDuel": 1.22
+   },
+   "links": {
+    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=c03e4eaf-75bb-4fe2-a93b-78a9f51dbcc6&odds_numerator[0]=2&odds_denominator[0]=1",
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87358715_1",
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627692929&selectionId=732125"
+   },
+   "open": [
+    "2026-11-22T19:02:11+00:00",
+    1.25,
+    0.7916
+   ],
+   "hist": [
+    [
+     "2026-11-22T19:02:11+00:00",
+     1.25,
+     0.7916
+    ]
+   ]
+  },
+  {
+   "sport": "NBA",
+   "event": "Oklahoma City Thunder @ Miami Heat",
+   "pick": "Miami Heat",
+   "opp": "Oklahoma City Thunder",
+   "start": "2026-11-22T23:10:00+00:00",
+   "book": "theScore Bet",
+   "odds": 1.59,
+   "prob": 0.6189,
+   "edge": -0.0159,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.25,
+   "stake": 1.25,
+   "to_win": 0.74,
+   "tier": null,
+   "fair_odds": 1.62,
+   "why": [
+    "Sharp books give Miami Heat a 62% chance to win (Oklahoma City Thunder 38%).",
+    "Miami Heat: 9-6, 5-3 at home, 120.5 pts/game, top: Giannis Antetokounmpo 28.2 PPG.",
+    "Oklahoma City Thunder: 10-6, 4-5 on the road, 113.0 pts/game, top: Shai Gilgeous-Alexander 31.7 PPG."
+   ],
+   "injuries": [
+    {
+     "team": "Miami Heat",
+     "list": [
+      "Myron Gardner (F, day-to-day)",
+      "Giannis Antetokounmpo (F, day-to-day)"
+     ]
+    },
+    {
+     "team": "Oklahoma City Thunder",
+     "list": [
+      "Shai Gilgeous-Alexander (G, day-to-day)",
+      "Nikola Topic (G, Out)",
+      "Jaylin Williams (F, Out)",
+      "Alex Caruso (G, Out)"
+     ]
+    }
+   ],
+   "n_sharp": 5,
+   "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=7f7639f5-95cf-4563-8b49-2c5e5c2eee0b&odds_numerator[0]=2&odds_denominator[0]=1",
+   "prices": {
+    "FanDuel": 1.58,
+    "DraftKings": 1.58,
+    "theScore Bet": 1.59
+   },
+   "links": {
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627104557&selectionId=237486",
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87336648_1",
+    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=7f7639f5-95cf-4563-8b49-2c5e5c2eee0b&odds_numerator[0]=2&odds_denominator[0]=1"
+   },
+   "open": [
+    "2026-11-22T19:02:11+00:00",
+    1.59,
+    0.6189
+   ],
+   "hist": [
+    [
+     "2026-11-22T19:02:11+00:00",
+     1.59,
+     0.6189
     ]
    ]
   },
@@ -819,7 +1914,1016 @@
      0.9353
     ]
    ]
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "Cal Baptist Lancers @ Portland Pilots",
+   "pick": "Portland Pilots",
+   "opp": "Cal Baptist Lancers",
+   "start": "2026-11-23T00:00:00+00:00",
+   "book": "FanDuel",
+   "odds": 1.29,
+   "prob": 0.7761,
+   "edge": 0.0011,
+   "value": "fair",
+   "value_txt": "Fair price",
+   "units": 0.5,
+   "stake": 2.5,
+   "to_win": 0.73,
+   "tier": null,
+   "fair_odds": 1.29,
+   "why": [
+    "Sharp books give Portland Pilots a 78% chance to win (Cal Baptist Lancers 20%).",
+    "Portland Pilots: 4-3, 1-1 at home, 93.6 pts/game, top: James O'Donnell 18.0 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 2,
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627663352&selectionId=13129",
+   "prices": {
+    "theScore Bet": 1.25,
+    "FanDuel": 1.29,
+    "DraftKings": 1.25
+   },
+   "links": {
+    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=bbeadedb-a609-43b6-a51d-5b30af520924&odds_numerator[0]=2&odds_denominator[0]=1",
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627663352&selectionId=13129",
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87358717_1"
+   },
+   "open": [
+    "2026-11-22T19:02:11+00:00",
+    1.29,
+    0.7761
+   ],
+   "hist": [
+    [
+     "2026-11-22T19:02:11+00:00",
+     1.29,
+     0.7761
+    ]
+   ]
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "Delaware Blue Hens @ UCLA Bruins",
+   "pick": "UCLA Bruins",
+   "opp": "Delaware Blue Hens",
+   "start": "2026-11-23T00:00:00+00:00",
+   "book": "FanDuel",
+   "odds": 1.0,
+   "prob": 0.9887,
+   "edge": -0.0113,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.25,
+   "stake": 1.25,
+   "to_win": 0.0,
+   "tier": null,
+   "fair_odds": 1.01,
+   "why": [
+    "Sharp books give UCLA Bruins a 99% chance to win.",
+    "UCLA Bruins: 5-0, 4-0 at home, 96.8 pts/game, top: Trent Perry 15.6 PPG.",
+    "Delaware Blue Hens: 4-2, 1-1 on the road, 80.7 pts/game, top: Chuck Bailey III 19.7 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 1,
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627627629&selectionId=697690",
+   "prices": {
+    "FanDuel": 1.0
+   },
+   "links": {
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627627629&selectionId=697690"
+   },
+   "open": [
+    "2026-11-22T19:02:11+00:00",
+    1.0,
+    0.9887
+   ],
+   "hist": [
+    [
+     "2026-11-22T19:02:11+00:00",
+     1.0,
+     0.9887
+    ]
+   ]
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "UAB Blazers @ Rhode Island Rams",
+   "pick": "Rhode Island Rams",
+   "opp": "UAB Blazers",
+   "start": "2026-11-23T00:00:00+00:00",
+   "book": "FanDuel",
+   "odds": 1.76,
+   "prob": 0.5518,
+   "edge": -0.0288,
+   "value": "over",
+   "value_txt": "Overpriced: the book is charging a lot here",
+   "units": 0.0,
+   "stake": 0.0,
+   "to_win": 0.0,
+   "tier": null,
+   "fair_odds": 1.81,
+   "why": [
+    "Sharp books give Rhode Island Rams a 55% chance to win (UAB Blazers 45%).",
+    "Rhode Island Rams: 5-1, 0-0 on the road, 78.7 pts/game, top: Jonah Hinton 14.2 PPG.",
+    "UAB Blazers: 4-2, 3-0 at home, 80.5 pts/game, top: Deuce Jones 17.6 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 2,
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627668295&selectionId=721613",
+   "prices": {
+    "theScore Bet": 1.74,
+    "FanDuel": 1.76,
+    "DraftKings": 1.74
+   },
+   "links": {
+    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=9b32ae3a-14e5-44fe-b98b-54fdf0c9e674&odds_numerator[0]=2&odds_denominator[0]=1",
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627668295&selectionId=721613",
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87358719_3"
+   },
+   "open": [
+    "2026-11-22T19:02:11+00:00",
+    1.76,
+    0.5518
+   ],
+   "hist": [
+    [
+     "2026-11-22T19:02:11+00:00",
+     1.76,
+     0.5518
+    ]
+   ]
+  },
+  {
+   "sport": "NBA",
+   "event": "Denver Nuggets @ Chicago Bulls",
+   "pick": "Denver Nuggets",
+   "opp": "Chicago Bulls",
+   "start": "2026-11-23T00:10:00+00:00",
+   "book": "DraftKings",
+   "odds": 1.23,
+   "prob": 0.7936,
+   "edge": -0.0239,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.25,
+   "stake": 1.25,
+   "to_win": 0.29,
+   "tier": null,
+   "fair_odds": 1.26,
+   "why": [
+    "Sharp books give Denver Nuggets a 79% chance to win (Chicago Bulls 18%).",
+    "Denver Nuggets: 9-5, 4-2 on the road, 114.6 pts/game, top: Jamal Murray 24.9 PPG.",
+    "Chicago Bulls: 4-11, 1-5 at home, 114.7 pts/game, top: Matas Buzelis 14.7 PPG."
+   ],
+   "injuries": [
+    {
+     "team": "Denver Nuggets",
+     "list": [
+      "Julian Strawther (G, Out)"
+     ]
+    },
+    {
+     "team": "Chicago Bulls",
+     "list": [
+      "Nic Claxton (C, day-to-day)",
+      "Jalen Smith (F, day-to-day)",
+      "Norman Powell (G, Out)",
+      "Patrick Williams (F, day-to-day)"
+     ]
+    }
+   ],
+   "n_sharp": 5,
+   "link": "https://sportsbook.draftkings.com/?outcomes=0ML87336715_3",
+   "prices": {
+    "FanDuel": 1.22,
+    "DraftKings": 1.23,
+    "theScore Bet": 1.22
+   },
+   "links": {
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627104568&selectionId=237492",
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87336715_3",
+    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=2455c5ac-ad02-4498-95ba-bbcf14d67248&odds_numerator[0]=2&odds_denominator[0]=1"
+   },
+   "open": [
+    "2026-11-22T19:02:11+00:00",
+    1.23,
+    0.7936
+   ],
+   "hist": [
+    [
+     "2026-11-22T19:02:11+00:00",
+     1.23,
+     0.7936
+    ]
+   ]
+  },
+  {
+   "sport": "NBA",
+   "event": "Dallas Mavericks @ Utah Jazz",
+   "pick": "Dallas Mavericks",
+   "opp": "Utah Jazz",
+   "start": "2026-11-23T00:10:00+00:00",
+   "book": "DraftKings",
+   "odds": 1.93,
+   "prob": 0.5138,
+   "edge": -0.0084,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.0,
+   "stake": 0.0,
+   "to_win": 0.0,
+   "tier": null,
+   "fair_odds": 1.95,
+   "why": [
+    "Sharp books give Dallas Mavericks a 51% chance to win (Utah Jazz 49%).",
+    "Dallas Mavericks: 9-7, 2-5 on the road, 112.2 pts/game, top: Cooper Flagg 24.1 PPG.",
+    "Utah Jazz: 3-14, 2-6 on the road, 108.3 pts/game, top: Keyonte George 21.1 PPG."
+   ],
+   "injuries": [
+    {
+     "team": "Dallas Mavericks",
+     "list": [
+      "P.J. Washington (F, day-to-day)",
+      "Tobi Lawal (F, day-to-day)",
+      "Dereck Lively II (C, Out)",
+      "Sergio de Larrea (F, Out)"
+     ]
+    },
+    {
+     "team": "Utah Jazz",
+     "list": [
+      "Jusuf Nurkic (C, Out)",
+      "Lauri Markkanen (F, Out)",
+      "Jaren Jackson Jr. (F, Out)"
+     ]
+    }
+   ],
+   "n_sharp": 5,
+   "link": "https://sportsbook.draftkings.com/?outcomes=0ML87336791_3",
+   "prices": {
+    "FanDuel": 1.89,
+    "DraftKings": 1.93,
+    "theScore Bet": 1.87
+   },
+   "links": {
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627104554&selectionId=237472",
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87336791_3",
+    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=cafbedf2-0fd8-4034-b3b6-1e4a2860a0c9&odds_numerator[0]=2&odds_denominator[0]=1"
+   },
+   "open": [
+    "2026-11-22T19:02:11+00:00",
+    1.93,
+    0.5138
+   ],
+   "hist": [
+    [
+     "2026-11-22T19:02:11+00:00",
+     1.93,
+     0.5138
+    ]
+   ]
+  },
+  {
+   "sport": "NBA",
+   "event": "Orlando Magic @ Washington Wizards",
+   "pick": "Orlando Magic",
+   "opp": "Washington Wizards",
+   "start": "2026-11-23T00:10:00+00:00",
+   "book": "FanDuel",
+   "odds": 1.51,
+   "prob": 0.6468,
+   "edge": -0.0234,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.25,
+   "stake": 1.25,
+   "to_win": 0.64,
+   "tier": null,
+   "fair_odds": 1.55,
+   "why": [
+    "Sharp books give Orlando Magic a 65% chance to win (Washington Wizards 35%).",
+    "Orlando Magic: 7-8, 6-3 on the road, 109.6 pts/game, top: Franz Wagner 25.1 PPG.",
+    "Washington Wizards: 6-11, 2-5 at home, 110.0 pts/game, top: Anthony Davis 25.3 PPG."
+   ],
+   "injuries": [
+    {
+     "team": "Orlando Magic",
+     "list": [
+      "Jonathan Isaac (F, Out)",
+      "Izaiyah Nelson (F, Out)",
+      "Noah Penda (F, Out)",
+      "Paolo Banchero (F, Out)"
+     ]
+    },
+    {
+     "team": "Washington Wizards",
+     "list": [
+      "Bub Carrington (G, day-to-day)",
+      "Deandre Ayton (C, day-to-day)",
+      "Tristan Vukcevic (F, Out)",
+      "Reece Beekman (G, Out)"
+     ]
+    }
+   ],
+   "n_sharp": 5,
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627104551&selectionId=237475",
+   "prices": {
+    "FanDuel": 1.51,
+    "theScore Bet": 1.51,
+    "DraftKings": 1.51
+   },
+   "links": {
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627104551&selectionId=237475",
+    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=2b54e249-b3ac-4993-ab03-7568908707f6&odds_numerator[0]=2&odds_denominator[0]=1",
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87336792_3"
+   },
+   "open": [
+    "2026-11-22T19:02:11+00:00",
+    1.51,
+    0.6468
+   ],
+   "hist": [
+    [
+     "2026-11-22T19:02:11+00:00",
+     1.51,
+     0.6468
+    ]
+   ]
+  },
+  {
+   "sport": "NHL",
+   "event": "Pittsburgh Penguins @ Dallas Stars",
+   "pick": "Dallas Stars",
+   "opp": "Pittsburgh Penguins",
+   "start": "2026-11-23T00:10:00+00:00",
+   "book": "theScore Bet",
+   "odds": 1.44,
+   "prob": 0.6817,
+   "edge": -0.0184,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.25,
+   "stake": 1.25,
+   "to_win": 0.55,
+   "tier": null,
+   "fair_odds": 1.47,
+   "why": [
+    "Sharp books give Dallas Stars a 68% chance to win (Pittsburgh Penguins 31%).",
+    "Dallas Stars: 14-6-2, 8-5-0 at home, top: Mikko Rantanen 10 Goals.",
+    "Pittsburgh Penguins: 7-13-2, 3-8-1 on the road, top: Tommy Novak 8 Goals."
+   ],
+   "injuries": [
+    {
+     "team": "Dallas Stars",
+     "list": [
+      "Tyler Myers (D, Out)",
+      "Oskar Back (C, Injured Reserve)",
+      "Kyle Capobianco (D, Injured Reserve)",
+      "Lian Bichsel (D, Injured Reserve)"
+     ]
+    },
+    {
+     "team": "Pittsburgh Penguins",
+     "list": [
+      "Bryan Rust (RW, Injured Reserve)",
+      "Evgeni Malkin (C, Out)",
+      "Nick Robertson (LW, Injured Reserve)",
+      "Elmer Soderblom (LW, Injured Reserve)"
+     ]
+    }
+   ],
+   "n_sharp": 4,
+   "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=0e37d3f8-d343-4a41-8a83-a57a93427b70&odds_numerator[0]=2&odds_denominator[0]=1",
+   "prices": {
+    "DraftKings": 1.42,
+    "FanDuel": 1.43,
+    "theScore Bet": 1.44
+   },
+   "links": {
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87329207_1",
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626715049&selectionId=25612",
+    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=0e37d3f8-d343-4a41-8a83-a57a93427b70&odds_numerator[0]=2&odds_denominator[0]=1"
+   },
+   "open": [
+    "2026-11-22T19:02:11+00:00",
+    1.44,
+    0.6817
+   ],
+   "hist": [
+    [
+     "2026-11-22T19:02:11+00:00",
+     1.44,
+     0.6817
+    ]
+   ]
+  },
+  {
+   "sport": "NHL",
+   "event": "Edmonton Oilers @ St Louis Blues",
+   "pick": "St Louis Blues",
+   "opp": "Edmonton Oilers",
+   "start": "2026-11-23T00:10:00+00:00",
+   "book": "DraftKings",
+   "odds": 1.8,
+   "prob": 0.5338,
+   "edge": -0.0392,
+   "value": "over",
+   "value_txt": "Overpriced: the book is charging a lot here",
+   "units": 0.0,
+   "stake": 0.0,
+   "to_win": 0.0,
+   "tier": null,
+   "fair_odds": 1.87,
+   "why": [
+    "Sharp books give St Louis Blues a 53% chance to win (Edmonton Oilers 47%).",
+    "St Louis Blues: 12-9-2, 7-3-1 at home, top: Jimmy Snuggerud 13 Goals.",
+    "Edmonton Oilers: 17-5-3, 10-2-1 on the road, top: Leon Draisaitl 22 Goals."
+   ],
+   "injuries": [
+    {
+     "team": "St Louis Blues",
+     "list": [
+      "Connor McMichael (LW, day-to-day)",
+      "Torey Krug (D, Injured Reserve)",
+      "Dillon Dube (C, Injured Reserve)",
+      "Tyler Tucker (D, Injured Reserve)"
+     ]
+    },
+    {
+     "team": "Edmonton Oilers",
+     "list": [
+      "Ryan Nugent-Hopkins (C, Out)",
+      "Zach Hyman (LW, day-to-day)",
+      "Alec Regula (D, Injured Reserve)",
+      "Matt Savoie (C, Injured Reserve)"
+     ]
+    }
+   ],
+   "n_sharp": 4,
+   "link": "https://sportsbook.draftkings.com/?outcomes=0ML87329225_1",
+   "prices": {
+    "DraftKings": 1.8,
+    "FanDuel": 1.79,
+    "theScore Bet": 1.8
+   },
+   "links": {
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87329225_1",
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626715031&selectionId=25595",
+    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=7b3c32e5-6e39-4716-8002-7e64943aea3b&odds_numerator[0]=2&odds_denominator[0]=1"
+   },
+   "open": [
+    "2026-11-22T19:02:11+00:00",
+    1.8,
+    0.5338
+   ],
+   "hist": [
+    [
+     "2026-11-22T19:02:11+00:00",
+     1.8,
+     0.5338
+    ]
+   ]
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "Louisiana Ragin' Cajuns @ USC Trojans",
+   "pick": "USC Trojans",
+   "opp": "Louisiana Ragin' Cajuns",
+   "start": "2026-11-23T01:00:00+00:00",
+   "book": "FanDuel",
+   "odds": 1.0,
+   "prob": 0.9887,
+   "edge": -0.0113,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.25,
+   "stake": 1.25,
+   "to_win": 0.0,
+   "tier": null,
+   "fair_odds": 1.01,
+   "why": [
+    "Sharp books give USC Trojans a 99% chance to win.",
+    "USC Trojans: 5-0, 3-0 at home, 96.6 pts/game, top: Alijah Arenas 22.0 PPG.",
+    "Louisiana Ragin' Cajuns: 1-3, 0-1 on the road, 58.3 pts/game, top: Jamyron Keller 16.2 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 1,
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627627366&selectionId=29830",
+   "prices": {
+    "FanDuel": 1.0
+   },
+   "links": {
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627627366&selectionId=29830"
+   },
+   "open": [
+    "2026-11-22T19:02:11+00:00",
+    1.0,
+    0.9887
+   ],
+   "hist": [
+    [
+     "2026-11-22T19:02:11+00:00",
+     1.0,
+     0.9887
+    ]
+   ]
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "Tenn-Martin Skyhawks @ Utah Valley Wolverines",
+   "pick": "Utah Valley Wolverines",
+   "opp": "Tenn-Martin Skyhawks",
+   "start": "2026-11-23T01:00:00+00:00",
+   "book": "FanDuel",
+   "odds": 1.34,
+   "prob": 0.7447,
+   "edge": -0.0022,
+   "value": "fair",
+   "value_txt": "Fair price",
+   "units": 0.5,
+   "stake": 2.5,
+   "to_win": 0.85,
+   "tier": null,
+   "fair_odds": 1.34,
+   "why": [
+    "Sharp books give Utah Valley Wolverines a 74% chance to win (Tenn-Martin Skyhawks 24%).",
+    "Utah Valley Wolverines: 4-0, 1-0 at home, 87.0 pts/game, top: Dominick Nelson 16.5 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 2,
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627720850&selectionId=4324485",
+   "prices": {
+    "DraftKings": 1.33,
+    "FanDuel": 1.34
+   },
+   "links": {
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87360257_1",
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627720850&selectionId=4324485"
+   },
+   "open": [
+    "2026-11-22T19:02:11+00:00",
+    1.34,
+    0.7447
+   ],
+   "hist": [
+    [
+     "2026-11-22T19:02:11+00:00",
+     1.34,
+     0.7447
+    ]
+   ]
+  },
+  {
+   "sport": "NBA",
+   "event": "Indiana Pacers @ New York Knicks",
+   "pick": "New York Knicks",
+   "opp": "Indiana Pacers",
+   "start": "2026-11-23T01:10:00+00:00",
+   "book": "theScore Bet",
+   "odds": 1.36,
+   "prob": 0.7304,
+   "edge": -0.0067,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.25,
+   "stake": 1.25,
+   "to_win": 0.45,
+   "tier": null,
+   "fair_odds": 1.37,
+   "why": [
+    "Sharp books give New York Knicks a 73% chance to win (Indiana Pacers 25%).",
+    "New York Knicks: 10-6, 5-3 at home, 108.7 pts/game, top: Jalen Brunson 26.8 PPG.",
+    "Indiana Pacers: 5-11, 2-5 at home, 112.0 pts/game, top: Pascal Siakam 23.0 PPG."
+   ],
+   "injuries": [
+    {
+     "team": "New York Knicks",
+     "list": [
+      "OG Anunoby (F, Out)",
+      "Karl-Anthony Towns (C, day-to-day)",
+      "Jordan Clarkson (G, Out)"
+     ]
+    },
+    {
+     "team": "Indiana Pacers",
+     "list": [
+      "T.J. McConnell (G, Out)",
+      "Pascal Siakam (F, day-to-day)",
+      "Tyrese Haliburton (G, Out)",
+      "Johnny Furphy (G, Out)"
+     ]
+    }
+   ],
+   "n_sharp": 5,
+   "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=1e1dcf3f-644e-4d8e-9212-8f93e3889266&odds_numerator[0]=2&odds_denominator[0]=1",
+   "prices": {
+    "FanDuel": 1.34,
+    "DraftKings": 1.34,
+    "theScore Bet": 1.36
+   },
+   "links": {
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627104563&selectionId=237482",
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87336793_1",
+    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=1e1dcf3f-644e-4d8e-9212-8f93e3889266&odds_numerator[0]=2&odds_denominator[0]=1"
+   },
+   "open": [
+    "2026-11-22T19:02:11+00:00",
+    1.36,
+    0.7304
+   ],
+   "hist": [
+    [
+     "2026-11-22T19:02:11+00:00",
+     1.36,
+     0.7304
+    ]
+   ]
+  },
+  {
+   "sport": "NHL",
+   "event": "Chicago Blackhawks @ Vancouver Canucks",
+   "pick": "Chicago Blackhawks",
+   "opp": "Vancouver Canucks",
+   "start": "2026-11-23T01:10:00+00:00",
+   "book": "FanDuel",
+   "odds": 1.88,
+   "prob": 0.5157,
+   "edge": -0.0305,
+   "value": "over",
+   "value_txt": "Overpriced: the book is charging a lot here",
+   "units": 0.0,
+   "stake": 0.0,
+   "to_win": 0.0,
+   "tier": null,
+   "fair_odds": 1.94,
+   "why": [
+    "Sharp books give Chicago Blackhawks a 52% chance to win (Vancouver Canucks 48%).",
+    "Chicago Blackhawks: 7-14-2, 1-8-1 on the road, top: Frank Nazar 11 Goals.",
+    "Vancouver Canucks: 6-18-1, 2-9-0 at home, top: Brock Boeser 8 Goals."
+   ],
+   "injuries": [
+    {
+     "team": "Chicago Blackhawks",
+     "list": [
+      "Connor Bedard (C, Injured Reserve)",
+      "Anton Frondell (C, day-to-day)",
+      "Bowen Byram (D, Injured Reserve)"
+     ]
+    },
+    {
+     "team": "Vancouver Canucks",
+     "list": [
+      "Elias Pettersson (C, Out)",
+      "Brendan Gallagher (RW, Injured Reserve)",
+      "Guillaume Brisebois (D, Injured Reserve)",
+      "Mackenzie MacEachern (LW, Injured Reserve)"
+     ]
+    }
+   ],
+   "n_sharp": 4,
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626715094&selectionId=25591",
+   "prices": {
+    "DraftKings": 1.87,
+    "FanDuel": 1.88,
+    "theScore Bet": 1.83
+   },
+   "links": {
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87329213_3",
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626715094&selectionId=25591",
+    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=26125dcd-2862-4b8e-be05-9539c4e47c1e&odds_numerator[0]=2&odds_denominator[0]=1"
+   },
+   "open": [
+    "2026-11-22T19:02:11+00:00",
+    1.88,
+    0.5157
+   ],
+   "hist": [
+    [
+     "2026-11-22T19:02:11+00:00",
+     1.88,
+     0.5157
+    ]
+   ]
+  },
+  {
+   "sport": "NBA",
+   "event": "Boston Celtics @ Golden State Warriors",
+   "pick": "Boston Celtics",
+   "opp": "Golden State Warriors",
+   "start": "2026-11-23T01:40:00+00:00",
+   "book": "theScore Bet",
+   "odds": 1.29,
+   "prob": 0.7538,
+   "edge": -0.0276,
+   "value": "over",
+   "value_txt": "Overpriced: the book is charging a lot here",
+   "units": 0.0,
+   "stake": 0.0,
+   "to_win": 0.0,
+   "tier": null,
+   "fair_odds": 1.33,
+   "why": [
+    "Sharp books give Boston Celtics a 75% chance to win (Golden State Warriors 23%).",
+    "Boston Celtics: 11-5, 5-4 on the road, 112.8 pts/game, top: Jayson Tatum 26.4 PPG.",
+    "Golden State Warriors: 8-8, 6-1 at home, 112.7 pts/game, top: Yaxel Lendeborg 19.7 PPG."
+   ],
+   "injuries": [
+    {
+     "team": "Boston Celtics",
+     "list": [
+      "Derrick White (G, day-to-day)",
+      "Mitchell Robinson (C, day-to-day)",
+      "Jayson Tatum (F, day-to-day)"
+     ]
+    },
+    {
+     "team": "Golden State Warriors",
+     "list": [
+      "Brandon Williams (G, Out)",
+      "Stephen Curry (G, Out)",
+      "Kristaps Porzingis (C, Out)",
+      "Moses Moody (G, Out)"
+     ]
+    }
+   ],
+   "n_sharp": 5,
+   "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=14f820ce-5c21-4664-9f39-48a8c4d7bc5e&odds_numerator[0]=2&odds_denominator[0]=1",
+   "prices": {
+    "FanDuel": 1.28,
+    "theScore Bet": 1.29,
+    "DraftKings": 1.29
+   },
+   "links": {
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627104560&selectionId=60427",
+    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=14f820ce-5c21-4664-9f39-48a8c4d7bc5e&odds_numerator[0]=2&odds_denominator[0]=1",
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87336798_3"
+   },
+   "open": [
+    "2026-11-22T19:02:11+00:00",
+    1.29,
+    0.7538
+   ],
+   "hist": [
+    [
+     "2026-11-22T19:02:11+00:00",
+     1.29,
+     0.7538
+    ]
+   ]
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "Seattle Redhawks @ UC San Diego Tritons",
+   "pick": "UC San Diego Tritons",
+   "opp": "Seattle Redhawks",
+   "start": "2026-11-23T02:30:00+00:00",
+   "book": "FanDuel",
+   "odds": 1.93,
+   "prob": 0.5031,
+   "edge": -0.029,
+   "value": "over",
+   "value_txt": "Overpriced: the book is charging a lot here",
+   "units": 0.0,
+   "stake": 0.0,
+   "to_win": 0.0,
+   "tier": null,
+   "fair_odds": 1.99,
+   "why": [
+    "Sharp books give UC San Diego Tritons a 50% chance to win (Seattle Redhawks 50%).",
+    "UC San Diego Tritons: 3-1, 3-0 at home, 90.0 pts/game, top: Rahmir Barno 16.0 PPG.",
+    "Seattle Redhawks: 3-2, 1-1 on the road, 74.2 pts/game, top: Mason Williams 18.8 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 2,
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627628718&selectionId=41651551",
+   "prices": {
+    "FanDuel": 1.93,
+    "theScore Bet": 1.91,
+    "DraftKings": 1.91
+   },
+   "links": {
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627628718&selectionId=41651551",
+    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=c8bcfff4-c477-4e13-9ec4-366373cdecd8&odds_numerator[0]=2&odds_denominator[0]=1",
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87358721_1"
+   },
+   "open": [
+    "2026-11-22T19:02:11+00:00",
+    1.93,
+    0.5031
+   ],
+   "hist": [
+    [
+     "2026-11-22T19:02:11+00:00",
+     1.93,
+     0.5031
+    ]
+   ]
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "San Jos\u00e9 St Spartans @ Loyola (Chi) Ramblers",
+   "pick": "Loyola (Chi) Ramblers",
+   "opp": "San Jos\u00e9 St Spartans",
+   "start": "2026-11-23T04:59:00+00:00",
+   "book": "FanDuel",
+   "odds": 1.55,
+   "prob": 0.6388,
+   "edge": -0.0099,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.25,
+   "stake": 1.25,
+   "to_win": 0.69,
+   "tier": null,
+   "fair_odds": 1.57,
+   "why": [
+    "Sharp books give Loyola (Chi) Ramblers a 64% chance to win (San Jos\u00e9 St Spartans 36%)."
+   ],
+   "injuries": [],
+   "n_sharp": 3,
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627663095&selectionId=742998",
+   "prices": {
+    "theScore Bet": 1.54,
+    "FanDuel": 1.55,
+    "DraftKings": 1.54
+   },
+   "links": {
+    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=01bdaed3-778a-4266-bb11-239484bf40b9&odds_numerator[0]=2&odds_denominator[0]=1",
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627663095&selectionId=742998",
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87358722_1"
+   },
+   "open": [
+    "2026-11-22T19:02:11+00:00",
+    1.55,
+    0.6388
+   ],
+   "hist": [
+    [
+     "2026-11-22T19:02:11+00:00",
+     1.55,
+     0.6388
+    ]
+   ]
   }
  ],
- "big_parlays": []
+ "big_parlays": [
+  {
+   "label": "Safest 4x+",
+   "book": "theScore Bet",
+   "odds": 4.0,
+   "prob": 0.2391,
+   "ev": -0.0423,
+   "units": 0.5,
+   "stake": 2.5,
+   "to_win": 7.51,
+   "legs": [
+    {
+     "pick": "New York Knicks",
+     "event": "Indiana Pacers @ New York Knicks",
+     "sport": "NBA",
+     "odds": 1.36,
+     "prob": 0.73,
+     "start": "2026-11-23T01:10:00+00:00",
+     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=1e1dcf3f-644e-4d8e-9212-8f93e3889266&odds_numerator[0]=2&odds_denominator[0]=1",
+     "sid": [
+      "7b0cc18c-9e00-493c-b6a8-034d765d811a",
+      "1e1dcf3f-644e-4d8e-9212-8f93e3889266",
+      "98e5b92a-1e8b-494e-aa0b-cc017e4c9710"
+     ]
+    },
+    {
+     "pick": "Troy Trojans",
+     "event": "Nicholls St Colonels @ Troy Trojans",
+     "sport": "COLLEGE BASKETBALL",
+     "odds": 1.43,
+     "prob": 0.694,
+     "start": "2026-11-22T20:00:00+00:00",
+     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=bb65873a-c79f-4f74-b3bb-197282f17dc4&odds_numerator[0]=2&odds_denominator[0]=1",
+     "sid": [
+      "2c2f95cf-c0bb-49a3-9186-ff422fc633a1",
+      "bb65873a-c79f-4f74-b3bb-197282f17dc4",
+      "3c9b2513-a07b-4452-9390-1bbfc1c22f74"
+     ]
+    },
+    {
+     "pick": "South Alabama Jaguars",
+     "event": "West Florida Argonauts @ South Alabama Jaguars",
+     "sport": "COLLEGE BASKETBALL",
+     "odds": 1.43,
+     "prob": 0.692,
+     "start": "2026-11-22T20:00:00+00:00",
+     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=3dbb7e5a-6b85-4512-903e-75f86b2a2123&odds_numerator[0]=2&odds_denominator[0]=1",
+     "sid": [
+      "848fc4b6-8995-4253-a8ab-1aad2d2c0c9a",
+      "3dbb7e5a-6b85-4512-903e-75f86b2a2123",
+      "1e4051f5-a0ac-4f10-a83a-3c07129ee7b0"
+     ]
+    },
+    {
+     "pick": "Dallas Stars",
+     "event": "Pittsburgh Penguins @ Dallas Stars",
+     "sport": "NHL",
+     "odds": 1.44,
+     "prob": 0.682,
+     "start": "2026-11-23T00:10:00+00:00",
+     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=0e37d3f8-d343-4a41-8a83-a57a93427b70&odds_numerator[0]=2&odds_denominator[0]=1",
+     "sid": [
+      "3361fdd1-da12-4d5c-8854-232c85ed1383",
+      "0e37d3f8-d343-4a41-8a83-a57a93427b70",
+      "a3461df2-ca0d-40ea-b1ac-49b9d201ef1e"
+     ]
+    }
+   ],
+   "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=1e1dcf3f-644e-4d8e-9212-8f93e3889266&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=bb65873a-c79f-4f74-b3bb-197282f17dc4&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=3dbb7e5a-6b85-4512-903e-75f86b2a2123&odds_numerator[2]=2&odds_denominator[2]=1&market_selection_id[3]=0e37d3f8-d343-4a41-8a83-a57a93427b70&odds_numerator[3]=2&odds_denominator[3]=1",
+   "alts": [
+    {
+     "book": "DraftKings",
+     "odds": 3.78,
+     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87336793_1+0ML87358703_3+0ML87358704_1+0ML87329207_1"
+    },
+    {
+     "book": "FanDuel",
+     "odds": 3.84,
+     "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.627104563&selectionId[0]=237482&marketId[1]=42.627698766&selectionId[1]=5145605&marketId[2]=42.627698970&selectionId[2]=719430&marketId[3]=42.626715049&selectionId[3]=25612"
+    }
+   ]
+  },
+  {
+   "label": "Next safest 4x+",
+   "book": "FanDuel",
+   "odds": 4.07,
+   "prob": 0.2414,
+   "ev": -0.0169,
+   "units": 0.5,
+   "stake": 2.5,
+   "to_win": 7.68,
+   "legs": [
+    {
+     "pick": "Portland Pilots",
+     "event": "Cal Baptist Lancers @ Portland Pilots",
+     "sport": "COLLEGE BASKETBALL",
+     "odds": 1.29,
+     "prob": 0.776,
+     "start": "2026-11-23T00:00:00+00:00",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627663352&selectionId=13129",
+     "sid": [
+      null,
+      "13129",
+      "36349280"
+     ]
+    },
+    {
+     "pick": "Utah Valley Wolverines",
+     "event": "Tenn-Martin Skyhawks @ Utah Valley Wolverines",
+     "sport": "COLLEGE BASKETBALL",
+     "odds": 1.34,
+     "prob": 0.745,
+     "start": "2026-11-23T01:00:00+00:00",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627720850&selectionId=4324485",
+     "sid": [
+      null,
+      "4324485",
+      "36350094"
+     ]
+    },
+    {
+     "pick": "Portland St Vikings",
+     "event": "CSU Fullerton Titans @ Portland St Vikings",
+     "sport": "COLLEGE BASKETBALL",
+     "odds": 1.52,
+     "prob": 0.654,
+     "start": "2026-11-22T22:00:00+00:00",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627692925&selectionId=2909529",
+     "sid": [
+      null,
+      "2909529",
+      "36349531"
+     ]
+    },
+    {
+     "pick": "Loyola (Chi) Ramblers",
+     "event": "San Jos\u00e9 St Spartans @ Loyola (Chi) Ramblers",
+     "sport": "COLLEGE BASKETBALL",
+     "odds": 1.55,
+     "prob": 0.639,
+     "start": "2026-11-23T04:59:00+00:00",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627663095&selectionId=742998",
+     "sid": [
+      null,
+      "742998",
+      "36349276"
+     ]
+    }
+   ],
+   "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.627663352&selectionId[0]=13129&marketId[1]=42.627720850&selectionId[1]=4324485&marketId[2]=42.627692925&selectionId[2]=2909529&marketId[3]=42.627663095&selectionId[3]=742998",
+   "alts": [
+    {
+     "book": "DraftKings",
+     "odds": 3.81,
+     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87358717_1+0ML87360257_1+0ML87358711_1+0ML87358722_1"
+    }
+   ]
+  }
+ ]
 }

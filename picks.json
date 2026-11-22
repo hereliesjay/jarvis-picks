@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-22T22:35:48+00:00",
+ "updated": "2026-11-22T23:00:56+00:00",
  "last_scan": "2026-11-22T22:25:41+00:00",
  "unit": 5.0,
  "bankroll": 238.53,
@@ -539,102 +539,6 @@
   }
  ],
  "games": [
-  {
-   "sport": "COLLEGE BASKETBALL",
-   "event": "Utah Utes @ Minnesota Golden Gophers",
-   "pick": "Minnesota Golden Gophers",
-   "opp": "Utah Utes",
-   "start": "2026-11-22T23:00:00+00:00",
-   "book": "FanDuel",
-   "odds": 1.2,
-   "prob": 0.8215,
-   "edge": -0.0142,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.25,
-   "to_win": 0.25,
-   "tier": null,
-   "fair_odds": 1.22,
-   "why": [
-    "Sharp books give Minnesota Golden Gophers a 82% chance to win (Utah Utes 15%).",
-    "Minnesota Golden Gophers: 6-0, 4-0 at home, 83.2 pts/game, top: Isaac Asuma 17.3 PPG.",
-    "Utah Utes: 3-2, 0-0 on the road, 66.2 pts/game, top: Trey Campbell 14.6 PPG."
-   ],
-   "injuries": [],
-   "n_sharp": 3,
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627627455&selectionId=13118",
-   "prices": {
-    "FanDuel": 1.2,
-    "theScore Bet": 1.15,
-    "DraftKings": 1.18
-   },
-   "links": {
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627627455&selectionId=13118",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=8859ef3a-6197-47d8-ace3-f99f0b112476&odds_numerator[0]=2&odds_denominator[0]=1",
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87358716_1"
-   },
-   "open": [
-    "2026-11-22T19:02:11+00:00",
-    1.2,
-    0.8215
-   ],
-   "hist": [
-    [
-     "2026-11-22T19:02:11+00:00",
-     1.2,
-     0.8215
-    ]
-   ]
-  },
-  {
-   "sport": "COLLEGE BASKETBALL",
-   "event": "Valparaiso Beacons @ Southern Miss Golden Eagles",
-   "pick": "Valparaiso Beacons",
-   "opp": "Southern Miss Golden Eagles",
-   "start": "2026-11-22T23:00:00+00:00",
-   "book": "DraftKings",
-   "odds": 1.25,
-   "prob": 0.7916,
-   "edge": -0.0105,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.25,
-   "to_win": 0.31,
-   "tier": null,
-   "fair_odds": 1.26,
-   "why": [
-    "Sharp books give Valparaiso Beacons a 79% chance to win (Southern Miss Golden Eagles 19%).",
-    "Valparaiso Beacons: 4-1, 2-0 at home, 83.0 pts/game, top: Rakim Chaney 18.6 PPG.",
-    "Southern Miss Golden Eagles: 4-3, 1-2 on the road, 77.6 pts/game, top: Jalyke Gaines-Wyatt 17.0 PPG."
-   ],
-   "injuries": [],
-   "n_sharp": 2,
-   "link": "https://sportsbook.draftkings.com/?outcomes=0ML87358715_1",
-   "prices": {
-    "theScore Bet": 1.24,
-    "DraftKings": 1.25,
-    "FanDuel": 1.22
-   },
-   "links": {
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=c03e4eaf-75bb-4fe2-a93b-78a9f51dbcc6&odds_numerator[0]=2&odds_denominator[0]=1",
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87358715_1",
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627692929&selectionId=732125"
-   },
-   "open": [
-    "2026-11-22T19:02:11+00:00",
-    1.25,
-    0.7916
-   ],
-   "hist": [
-    [
-     "2026-11-22T19:02:11+00:00",
-     1.25,
-     0.7916
-    ]
-   ]
-  },
   {
    "sport": "NBA",
    "event": "Oklahoma City Thunder @ Miami Heat",

@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-22T00:40:58+00:00",
+ "updated": "2026-11-22T00:53:29+00:00",
  "last_scan": "2026-11-21T22:50:33+00:00",
  "unit": 5.0,
  "bankroll": 241.03,
@@ -632,7 +632,7 @@
    "why": [
     "Sharp books give San Antonio Spurs a 93% chance to win.",
     "San Antonio Spurs: 13-3, 6-3 at home, 117.5 pts/game, top: Victor Wembanyama 28.6 PPG.",
-    "New Orleans Pelicans: 5-12, 1-5 on the road, 115.6 pts/game, top: Zion Williamson 21.7 PPG."
+    "New Orleans Pelicans: 5-12, 1-5 on the road, 115.6 pts/game, top: Saddiq Bey 16.8 PPG."
    ],
    "injuries": [
     {
@@ -646,10 +646,10 @@
     {
      "team": "New Orleans Pelicans",
      "list": [
+      "Zion Williamson (F, Out)",
       "Trey Murphy III (F, Out)",
       "Trendon Watford (F, Out)",
-      "Bryce McGowens (G, Out)",
-      "Bennedict Mathurin (G, Out)"
+      "Bryce McGowens (G, Out)"
      ]
     }
    ],

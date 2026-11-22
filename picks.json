@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-22T03:00:02+00:00",
+ "updated": "2026-11-22T03:10:06+00:00",
  "last_scan": "2026-11-21T22:50:33+00:00",
  "unit": 5.0,
  "bankroll": 238.53,
@@ -443,61 +443,6 @@
    "start": "2026-11-22T00:00:00+00:00"
   }
  ],
- "games": [
-  {
-   "sport": "NBA",
-   "event": "Boston Celtics @ Sacramento Kings",
-   "pick": "Boston Celtics",
-   "opp": "Sacramento Kings",
-   "start": "2026-11-22T03:10:00+00:00",
-   "book": "FanDuel",
-   "odds": 1.17,
-   "prob": 0.8384,
-   "edge": -0.019,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.25,
-   "to_win": 0.21,
-   "tier": null,
-   "fair_odds": 1.19,
-   "why": [
-    "Sharp books give Boston Celtics a 84% chance to win (Sacramento Kings 14%).",
-    "Boston Celtics: 11-4, 5-3 on the road, 113.9 pts/game, top: Paul George 19.9 PPG.",
-    "Sacramento Kings: 1-14, 0-9 at home, 107.5 pts/game, top: Darius Acuff Jr. 25.7 PPG."
-   ],
-   "injuries": [
-    {
-     "team": "Boston Celtics",
-     "list": [
-      "Mitchell Robinson (C, Out)",
-      "Derrick White (G, Out)",
-      "Jayson Tatum (F, Out)"
-     ]
-    },
-    {
-     "team": "Sacramento Kings",
-     "list": [
-      "Maxime Raynaud (C, Out)",
-      "Ben Simmons (G, Out)"
-     ]
-    }
-   ],
-   "n_sharp": 5,
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626843197&selectionId=60427",
-   "prices": {
-    "FanDuel": 1.17,
-    "DraftKings": 1.17,
-    "theScore Bet": 1.15
-   },
-   "links": {
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626843197&selectionId=60427",
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87336646_3",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=508abd4b-1d11-49f2-97c6-6231c729a06b&odds_numerator[0]=2&odds_denominator[0]=1"
-   },
-   "open": null,
-   "hist": []
-  }
- ],
+ "games": [],
  "big_parlays": []
 }

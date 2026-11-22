@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-22T19:30:12+00:00",
+ "updated": "2026-11-22T19:32:16+00:00",
  "last_scan": "2026-11-22T19:05:08+00:00",
  "unit": 5.0,
  "bankroll": 238.53,
@@ -1059,10 +1059,10 @@
     {
      "team": "Detroit Pistons",
      "list": [
-      "Ronald Holland II (F, Out)",
       "Ebuka Okorie (G, Out)",
       "Cade Cunningham (G, day-to-day)",
-      "Taurean Prince (F, Out)"
+      "Taurean Prince (F, Out)",
+      "Duncan Robinson (F, Out)"
      ]
     },
     {
@@ -2098,9 +2098,9 @@
      "team": "Dallas Mavericks",
      "list": [
       "P.J. Washington (F, day-to-day)",
-      "Tobi Lawal (F, day-to-day)",
-      "Dereck Lively II (C, Out)",
-      "Sergio de Larrea (F, Out)"
+      "Walter Clayton Jr. (G, day-to-day)",
+      "Tobi Lawal (F, Out)",
+      "Dereck Lively II (C, Out)"
      ]
     },
     {

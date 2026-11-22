@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-22T20:30:10+00:00",
+ "updated": "2026-11-22T20:33:13+00:00",
  "last_scan": "2026-11-22T19:37:22+00:00",
  "unit": 5.0,
  "bankroll": 238.53,
@@ -594,9 +594,9 @@
      "team": "Detroit Pistons",
      "list": [
       "Ebuka Okorie (G, Out)",
-      "Cade Cunningham (G, day-to-day)",
       "Taurean Prince (F, Out)",
-      "Duncan Robinson (F, Out)"
+      "Duncan Robinson (F, Out)",
+      "Jalen Duren (C, Out)"
      ]
     },
     {
@@ -1769,7 +1769,7 @@
     {
      "team": "Chicago Bulls",
      "list": [
-      "Nic Claxton (C, day-to-day)",
+      "Nic Claxton (C, Out)",
       "Jalen Smith (F, day-to-day)",
       "Norman Powell (G, Out)",
       "Patrick Williams (F, day-to-day)"

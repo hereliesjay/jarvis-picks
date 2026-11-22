@@ -1,7 +1,7 @@
 {
  "version": 25,
- "updated": "2026-11-22T19:32:16+00:00",
- "last_scan": "2026-11-22T19:05:08+00:00",
+ "updated": "2026-11-22T19:37:23+00:00",
+ "last_scan": "2026-11-22T19:37:22+00:00",
  "unit": 5.0,
  "bankroll": 238.53,
  "bank_start": 250.0,
@@ -147,6 +147,53 @@
     ]
    ],
    "injuries": []
+  },
+  {
+   "tier": "lean",
+   "sport": "NFL",
+   "event": "Minnesota Vikings @ San Francisco 49ers",
+   "pick": "San Francisco 49ers",
+   "book": "FanDuel",
+   "odds": 1.58,
+   "now_odds": 1.58,
+   "prob": 0.6312,
+   "edge": -0.0026,
+   "units": 0.5,
+   "stake": 2.5,
+   "to_win": 1.45,
+   "min_odds": 1.59,
+   "start": "2026-11-23T01:20:00+00:00",
+   "started": false,
+   "status": "open",
+   "n_sharp": 5,
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578347341&selectionId=43010249",
+   "flag": null,
+   "posted_at": "2026-11-22T19:37:23+00:00",
+   "prices": {
+    "DraftKings": 1.57,
+    "FanDuel": 1.58,
+    "theScore Bet": 1.54
+   },
+   "links": {
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML84695506_1",
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578347341&selectionId=43010249",
+    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=1dc5e6fe-4fa3-4f72-8b37-2bf7d3ed3f55&odds_numerator[0]=2&odds_denominator[0]=1"
+   },
+   "fair_odds": 1.58,
+   "now_edge": -0.0026,
+   "open": [
+    "2026-11-22T19:37:22+00:00",
+    1.58,
+    0.6312
+   ],
+   "hist": [
+    [
+     "2026-11-22T19:37:22+00:00",
+     1.58,
+     0.6312
+    ]
+   ],
+   "injuries": []
   }
  ],
  "parlays": [],
@@ -155,7 +202,7 @@
    "won": 4,
    "lost": 4,
    "push": 0,
-   "open": 4,
+   "open": 5,
    "units": -0.8,
    "dollars": -3.98,
    "clv": -0.0019,
@@ -306,7 +353,7 @@
    "on": true
   }
  },
- "watching": 88,
+ "watching": 94,
  "history": [
   {
    "type": "lean",
@@ -503,6 +550,20 @@
    "profit_u": 0.0,
    "clv": null,
    "start": "2026-11-22T22:30:00+00:00"
+  },
+  {
+   "type": "lean",
+   "sport": "NFL",
+   "pick": "San Francisco 49ers",
+   "event": "Minnesota Vikings @ San Francisco 49ers",
+   "book": "FanDuel",
+   "odds": 1.58,
+   "units": 0.5,
+   "edge": -0.0026,
+   "status": "open",
+   "profit_u": 0.0,
+   "clv": null,
+   "start": "2026-11-23T01:20:00+00:00"
   }
  ],
  "games": [
@@ -1180,6 +1241,202 @@
      "2026-11-22T19:02:06+00:00",
      1.111,
      0.8487
+    ]
+   ]
+  },
+  {
+   "sport": "NFL",
+   "event": "New York Jets @ Los Angeles Chargers",
+   "pick": "Los Angeles Chargers",
+   "opp": "New York Jets",
+   "start": "2026-11-22T21:05:00+00:00",
+   "book": "theScore Bet",
+   "odds": 1.59,
+   "prob": 0.6131,
+   "edge": -0.0252,
+   "value": "over",
+   "value_txt": "Overpriced: the book is charging a lot here",
+   "units": 0.0,
+   "stake": 0.0,
+   "to_win": 0.0,
+   "tier": null,
+   "fair_odds": 1.63,
+   "why": [
+    "Sharp books give Los Angeles Chargers a 61% chance to win (New York Jets 39%).",
+    "Los Angeles Chargers: 1-8, 0-4 at home.",
+    "New York Jets: 2-8, 1-4 on the road."
+   ],
+   "injuries": [
+    {
+     "team": "Los Angeles Chargers",
+     "list": [
+      "Ladd McConkey (WR, Questionable)",
+      "Rodney Shelley (CB, Injured Reserve)",
+      "Trey Pipkins III (OT, Questionable)",
+      "Isas Waxter (CB, Questionable)"
+     ]
+    },
+    {
+     "team": "New York Jets",
+     "list": [
+      "Dylan Parham (G, Questionable)",
+      "Harrison Phillips (DT, Questionable)",
+      "David Onyemata (DT, Injured Reserve)",
+      "Trevin Wallace (LB, Questionable)"
+     ]
+    }
+   ],
+   "n_sharp": 5,
+   "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=6fbd53d1-947b-491f-b278-891cc96dba84&odds_numerator[0]=2&odds_denominator[0]=1",
+   "prices": {
+    "DraftKings": 1.56,
+    "FanDuel": 1.57,
+    "theScore Bet": 1.59
+   },
+   "links": {
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML84695590_1",
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624292659&selectionId=12481798",
+    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=6fbd53d1-947b-491f-b278-891cc96dba84&odds_numerator[0]=2&odds_denominator[0]=1"
+   },
+   "open": [
+    "2026-11-22T19:37:22+00:00",
+    1.59,
+    0.6131
+   ],
+   "hist": [
+    [
+     "2026-11-22T19:37:22+00:00",
+     1.59,
+     0.6131
+    ]
+   ]
+  },
+  {
+   "sport": "NFL",
+   "event": "Las Vegas Raiders @ Denver Broncos",
+   "pick": "Denver Broncos",
+   "opp": "Las Vegas Raiders",
+   "start": "2026-11-22T21:25:00+00:00",
+   "book": "DraftKings",
+   "odds": 1.17,
+   "prob": 0.8465,
+   "edge": -0.0096,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.25,
+   "stake": 1.25,
+   "to_win": 0.21,
+   "tier": null,
+   "fair_odds": 1.18,
+   "why": [
+    "Sharp books give Denver Broncos a 85% chance to win (Las Vegas Raiders 13%).",
+    "Denver Broncos: 7-2, 4-0 at home.",
+    "Las Vegas Raiders: 4-6, 3-2 on the road."
+   ],
+   "injuries": [
+    {
+     "team": "Denver Broncos",
+     "list": [
+      "Caleb Lohner (TE, Injured Reserve)",
+      "Brandon Jones (S, Questionable)"
+     ]
+    },
+    {
+     "team": "Las Vegas Raiders",
+     "list": [
+      "Brock Bowers (TE, Questionable)",
+      "Folorunso Fatukasi (DT, Questionable)",
+      "Tonka Hemingway (DT, Out)",
+      "Matt Gay (PK, Questionable)"
+     ]
+    }
+   ],
+   "n_sharp": 5,
+   "link": "https://sportsbook.draftkings.com/?outcomes=0ML84695710_1",
+   "prices": {
+    "DraftKings": 1.17,
+    "FanDuel": 1.14,
+    "theScore Bet": 1.12
+   },
+   "links": {
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML84695710_1",
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624292680&selectionId=50211",
+    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=cbe4a8a6-04a7-4210-a1b4-96701ab7e50f&odds_numerator[0]=2&odds_denominator[0]=1"
+   },
+   "open": [
+    "2026-11-22T19:37:22+00:00",
+    1.17,
+    0.8465
+   ],
+   "hist": [
+    [
+     "2026-11-22T19:37:22+00:00",
+     1.17,
+     0.8465
+    ]
+   ]
+  },
+  {
+   "sport": "NFL",
+   "event": "Jacksonville Jaguars @ New York Giants",
+   "pick": "Jacksonville Jaguars",
+   "opp": "New York Giants",
+   "start": "2026-11-22T21:25:00+00:00",
+   "book": "DraftKings",
+   "odds": 1.38,
+   "prob": 0.7226,
+   "edge": -0.0028,
+   "value": "fair",
+   "value_txt": "Fair price",
+   "units": 0.5,
+   "stake": 2.5,
+   "to_win": 0.95,
+   "tier": null,
+   "fair_odds": 1.38,
+   "why": [
+    "Sharp books give Jacksonville Jaguars a 72% chance to win (New York Giants 26%).",
+    "Jacksonville Jaguars: 7-2, 3-1 on the road.",
+    "New York Giants: 5-3-1, 3-2 at home."
+   ],
+   "injuries": [
+    {
+     "team": "Jacksonville Jaguars",
+     "list": [
+      "Danny Striggow (DE, Out)",
+      "B.J. Green II (DE, Injured Reserve)",
+      "Matt Dickerson (DE, Questionable)",
+      "Robert Hainsey (C, Out)"
+     ]
+    },
+    {
+     "team": "New York Giants",
+     "list": [
+      "Tyrone Tracy Jr. (RB, Injured Reserve)"
+     ]
+    }
+   ],
+   "n_sharp": 4,
+   "link": "https://sportsbook.draftkings.com/?outcomes=0ML84695543_3",
+   "prices": {
+    "DraftKings": 1.38,
+    "FanDuel": 1.38,
+    "theScore Bet": 1.36
+   },
+   "links": {
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML84695543_3",
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624292670&selectionId=50207",
+    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=40c5e728-8d26-410a-97ba-5f4a7b297b72&odds_numerator[0]=2&odds_denominator[0]=1"
+   },
+   "open": [
+    "2026-11-22T19:37:22+00:00",
+    1.38,
+    0.7226
+   ],
+   "hist": [
+    [
+     "2026-11-22T19:37:22+00:00",
+     1.38,
+     0.7226
     ]
    ]
   },
@@ -2560,6 +2817,73 @@
    ]
   },
   {
+   "sport": "NFL",
+   "event": "Minnesota Vikings @ San Francisco 49ers",
+   "pick": "San Francisco 49ers",
+   "opp": "Minnesota Vikings",
+   "start": "2026-11-23T01:20:00+00:00",
+   "book": "FanDuel",
+   "odds": 1.58,
+   "prob": 0.6312,
+   "edge": -0.0026,
+   "value": "fair",
+   "value_txt": "Fair price",
+   "units": 0.5,
+   "stake": 2.5,
+   "to_win": 1.45,
+   "tier": "lean",
+   "fair_odds": 1.58,
+   "why": [
+    "Sharp books give San Francisco 49ers a 63% chance to win (Minnesota Vikings 37%).",
+    "San Francisco 49ers: 8-1, 5-0 at home.",
+    "Minnesota Vikings: 7-2, 4-1 on the road."
+   ],
+   "injuries": [
+    {
+     "team": "San Francisco 49ers",
+     "list": [
+      "Mike Evans (WR, Questionable)",
+      "Nate Hobbs (CB, Injured Reserve)",
+      "Dre Greenlaw (LB, Questionable)",
+      "Jordan James (RB, Questionable)"
+     ]
+    },
+    {
+     "team": "Minnesota Vikings",
+     "list": [
+      "Isaiah Rodgers (CB, Questionable)",
+      "Kyler Murray (QB, Out)",
+      "Bo Richter (LB, Injured Reserve)",
+      "Jay Ward (S, Questionable)"
+     ]
+    }
+   ],
+   "n_sharp": 5,
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578347341&selectionId=43010249",
+   "prices": {
+    "DraftKings": 1.57,
+    "FanDuel": 1.58,
+    "theScore Bet": 1.54
+   },
+   "links": {
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML84695506_1",
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578347341&selectionId=43010249",
+    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=1dc5e6fe-4fa3-4f72-8b37-2bf7d3ed3f55&odds_numerator[0]=2&odds_denominator[0]=1"
+   },
+   "open": [
+    "2026-11-22T19:37:22+00:00",
+    1.58,
+    0.6312
+   ],
+   "hist": [
+    [
+     "2026-11-22T19:37:22+00:00",
+     1.58,
+     0.6312
+    ]
+   ]
+  },
+  {
    "sport": "NBA",
    "event": "Boston Celtics @ Golden State Warriors",
    "pick": "Boston Celtics",
@@ -2805,12 +3129,12 @@
   {
    "label": "Next safest 4x+",
    "book": "FanDuel",
-   "odds": 4.07,
-   "prob": 0.2414,
-   "ev": -0.0169,
+   "odds": 4.0,
+   "prob": 0.2467,
+   "ev": -0.0121,
    "units": 0.5,
    "stake": 2.5,
-   "to_win": 7.68,
+   "to_win": 7.51,
    "legs": [
     {
      "pick": "Portland Pilots",
@@ -2827,17 +3151,31 @@
      ]
     },
     {
-     "pick": "Utah Valley Wolverines",
-     "event": "Tenn-Martin Skyhawks @ Utah Valley Wolverines",
-     "sport": "COLLEGE BASKETBALL",
-     "odds": 1.34,
-     "prob": 0.745,
-     "start": "2026-11-23T01:00:00+00:00",
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627720850&selectionId=4324485",
+     "pick": "Jacksonville Jaguars",
+     "event": "Jacksonville Jaguars @ New York Giants",
+     "sport": "NFL",
+     "odds": 1.38,
+     "prob": 0.723,
+     "start": "2026-11-22T21:25:00+00:00",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624292670&selectionId=50207",
      "sid": [
       null,
-      "4324485",
-      "36350094"
+      "50207",
+      "36305243"
+     ]
+    },
+    {
+     "pick": "Tampa Bay Lightning",
+     "event": "Buffalo Sabres @ Tampa Bay Lightning",
+     "sport": "NHL",
+     "odds": 1.48,
+     "prob": 0.673,
+     "start": "2026-11-22T22:10:00+00:00",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626715017&selectionId=25609",
+     "sid": [
+      null,
+      "25609",
+      "36336508"
      ]
     },
     {
@@ -2853,28 +3191,19 @@
       "2909529",
       "36349531"
      ]
-    },
-    {
-     "pick": "Loyola (Chi) Ramblers",
-     "event": "San Jos\u00e9 St Spartans @ Loyola (Chi) Ramblers",
-     "sport": "COLLEGE BASKETBALL",
-     "odds": 1.55,
-     "prob": 0.639,
-     "start": "2026-11-23T04:59:00+00:00",
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627663095&selectionId=742998",
-     "sid": [
-      null,
-      "742998",
-      "36349276"
-     ]
     }
    ],
-   "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.627663352&selectionId[0]=13129&marketId[1]=42.627720850&selectionId[1]=4324485&marketId[2]=42.627692925&selectionId[2]=2909529&marketId[3]=42.627663095&selectionId[3]=742998",
+   "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.627663352&selectionId[0]=13129&marketId[1]=42.624292670&selectionId[1]=50207&marketId[2]=42.626715017&selectionId[2]=25609&marketId[3]=42.627692925&selectionId[3]=2909529",
    "alts": [
     {
      "book": "DraftKings",
-     "odds": 3.81,
-     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87358717_1+0ML87360257_1+0ML87358711_1+0ML87358722_1"
+     "odds": 3.75,
+     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87358717_1+0ML84695543_3+0ML87329215_1+0ML87358711_1"
+    },
+    {
+     "book": "theScore Bet",
+     "odds": 3.8,
+     "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=bbeadedb-a609-43b6-a51d-5b30af520924&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=40c5e728-8d26-410a-97ba-5f4a7b297b72&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=c5162444-39e1-46d0-b903-7f4b533cb914&odds_numerator[2]=2&odds_denominator[2]=1&market_selection_id[3]=9b9ed8ec-1302-4e54-b19d-30cd86739353&odds_numerator[3]=2&odds_denominator[3]=1"
     }
    ]
   }

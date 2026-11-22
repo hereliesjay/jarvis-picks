@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-22T22:25:41+00:00",
+ "updated": "2026-11-22T22:30:44+00:00",
  "last_scan": "2026-11-22T22:25:41+00:00",
  "unit": 5.0,
  "bankroll": 238.53,
@@ -88,7 +88,7 @@
    "to_win": 1.93,
    "min_odds": 1.77,
    "start": "2026-11-22T22:30:00+00:00",
-   "started": false,
+   "started": true,
    "status": "open",
    "n_sharp": 2,
    "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=bb16bced-847f-4b07-b3f1-35ac18a04f13&odds_numerator[0]=2&odds_denominator[0]=1",
@@ -539,54 +539,6 @@
   }
  ],
  "games": [
-  {
-   "sport": "COLLEGE BASKETBALL",
-   "event": "Temple Owls @ Stephen F. Austin Lumberjacks",
-   "pick": "Temple Owls",
-   "opp": "Stephen F. Austin Lumberjacks",
-   "start": "2026-11-22T22:30:00+00:00",
-   "book": "theScore Bet",
-   "odds": 1.77,
-   "prob": 0.5656,
-   "edge": 0.0012,
-   "value": "fair",
-   "value_txt": "Fair price",
-   "units": 0.5,
-   "stake": 2.5,
-   "to_win": 1.93,
-   "tier": "lean",
-   "fair_odds": 1.77,
-   "why": [
-    "Sharp books give Temple Owls a 57% chance to win (Stephen F. Austin Lumberjacks 43%).",
-    "Temple Owls: 3-2, 1-0 on the road, 74.2 pts/game, top: Cam Scott 16.0 PPG.",
-    "Stephen F. Austin Lumberjacks: 4-1, 2-1 at home, 89.8 pts/game, top: Erik Makke 16.4 PPG."
-   ],
-   "injuries": [],
-   "n_sharp": 2,
-   "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=bb16bced-847f-4b07-b3f1-35ac18a04f13&odds_numerator[0]=2&odds_denominator[0]=1",
-   "prices": {
-    "theScore Bet": 1.77,
-    "DraftKings": 1.77,
-    "FanDuel": 1.76
-   },
-   "links": {
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=bb16bced-847f-4b07-b3f1-35ac18a04f13&odds_numerator[0]=2&odds_denominator[0]=1",
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87360256_3",
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627755077&selectionId=29839"
-   },
-   "open": [
-    "2026-11-22T19:02:11+00:00",
-    1.77,
-    0.5656
-   ],
-   "hist": [
-    [
-     "2026-11-22T19:02:11+00:00",
-     1.77,
-     0.5656
-    ]
-   ]
-  },
   {
    "sport": "COLLEGE BASKETBALL",
    "event": "Utah Utes @ Minnesota Golden Gophers",
@@ -1825,27 +1777,13 @@
   {
    "label": "Safest 4x+",
    "book": "theScore Bet",
-   "odds": 4.06,
-   "prob": 0.2421,
-   "ev": -0.0171,
+   "odds": 4.02,
+   "prob": 0.2382,
+   "ev": -0.0421,
    "units": 0.5,
    "stake": 2.5,
-   "to_win": 7.65,
+   "to_win": 7.55,
    "legs": [
-    {
-     "pick": "Valparaiso Beacons",
-     "event": "Valparaiso Beacons @ Southern Miss Golden Eagles",
-     "sport": "COLLEGE BASKETBALL",
-     "odds": 1.24,
-     "prob": 0.792,
-     "start": "2026-11-22T23:00:00+00:00",
-     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=c03e4eaf-75bb-4fe2-a93b-78a9f51dbcc6&odds_numerator[0]=2&odds_denominator[0]=1",
-     "sid": [
-      "ea988c0d-3e9e-4dce-8869-073964351f2d",
-      "c03e4eaf-75bb-4fe2-a93b-78a9f51dbcc6",
-      "88345443-8fd7-455b-8c35-78f8d9c15348"
-     ]
-    },
     {
      "pick": "Boston Celtics",
      "event": "Boston Celtics @ Golden State Warriors",
@@ -1875,56 +1813,70 @@
      ]
     },
     {
-     "pick": "Temple Owls",
-     "event": "Temple Owls @ Stephen F. Austin Lumberjacks",
-     "sport": "COLLEGE BASKETBALL",
-     "odds": 1.77,
-     "prob": 0.566,
-     "start": "2026-11-22T22:30:00+00:00",
-     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=bb16bced-847f-4b07-b3f1-35ac18a04f13&odds_numerator[0]=2&odds_denominator[0]=1",
+     "pick": "Dallas Stars",
+     "event": "Pittsburgh Penguins @ Dallas Stars",
+     "sport": "NHL",
+     "odds": 1.44,
+     "prob": 0.683,
+     "start": "2026-11-23T00:10:00+00:00",
+     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=0e37d3f8-d343-4a41-8a83-a57a93427b70&odds_numerator[0]=2&odds_denominator[0]=1",
      "sid": [
-      "f3619e8f-fcc7-4043-8a7a-7dac033a0ee5",
-      "bb16bced-847f-4b07-b3f1-35ac18a04f13",
-      "7ad41eb0-0f8f-41ef-a5c8-1d58ff902963"
+      "3361fdd1-da12-4d5c-8854-232c85ed1383",
+      "0e37d3f8-d343-4a41-8a83-a57a93427b70",
+      "a3461df2-ca0d-40ea-b1ac-49b9d201ef1e"
+     ]
+    },
+    {
+     "pick": "Orlando Magic",
+     "event": "Orlando Magic @ Washington Wizards",
+     "sport": "NBA",
+     "odds": 1.51,
+     "prob": 0.645,
+     "start": "2026-11-23T00:10:00+00:00",
+     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=2b54e249-b3ac-4993-ab03-7568908707f6&odds_numerator[0]=2&odds_denominator[0]=1",
+     "sid": [
+      "4c943e40-3ef8-423b-963d-6348cefaeb2e",
+      "2b54e249-b3ac-4993-ab03-7568908707f6",
+      "6b668693-0798-4715-a938-abdb8198cbd0"
      ]
     }
    ],
-   "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=c03e4eaf-75bb-4fe2-a93b-78a9f51dbcc6&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=14f820ce-5c21-4664-9f39-48a8c4d7bc5e&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=1e1dcf3f-644e-4d8e-9212-8f93e3889266&odds_numerator[2]=2&odds_denominator[2]=1&market_selection_id[3]=bb16bced-847f-4b07-b3f1-35ac18a04f13&odds_numerator[3]=2&odds_denominator[3]=1",
+   "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=14f820ce-5c21-4664-9f39-48a8c4d7bc5e&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=1e1dcf3f-644e-4d8e-9212-8f93e3889266&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=0e37d3f8-d343-4a41-8a83-a57a93427b70&odds_numerator[2]=2&odds_denominator[2]=1&market_selection_id[3]=2b54e249-b3ac-4993-ab03-7568908707f6&odds_numerator[3]=2&odds_denominator[3]=1",
    "alts": [
     {
      "book": "DraftKings",
-     "odds": 3.94,
-     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87358715_1+0ML87336798_3+0ML87336793_1+0ML87360256_3"
+     "odds": 3.85,
+     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87336798_3+0ML87336793_1+0ML87329207_1+0ML87336792_3"
     },
     {
      "book": "FanDuel",
      "odds": 3.74,
-     "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.627692929&selectionId[0]=732125&marketId[1]=42.627104560&selectionId[1]=60427&marketId[2]=42.627104563&selectionId[2]=237482&marketId[3]=42.627755077&selectionId[3]=29839"
+     "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.627104560&selectionId[0]=60427&marketId[1]=42.627104563&selectionId[1]=237482&marketId[2]=42.626715049&selectionId[2]=25612&marketId[3]=42.627104551&selectionId[3]=237475"
     }
    ]
   },
   {
    "label": "Next safest 4x+",
    "book": "FanDuel",
-   "odds": 4.05,
-   "prob": 0.2381,
-   "ev": -0.0367,
+   "odds": 4.0,
+   "prob": 0.238,
+   "ev": -0.0471,
    "units": 0.5,
    "stake": 2.5,
-   "to_win": 7.61,
+   "to_win": 7.51,
    "legs": [
     {
-     "pick": "Portland Pilots",
-     "event": "Cal Baptist Lancers @ Portland Pilots",
-     "sport": "COLLEGE BASKETBALL",
-     "odds": 1.29,
-     "prob": 0.776,
-     "start": "2026-11-23T00:00:00+00:00",
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627663352&selectionId=13129",
+     "pick": "Denver Nuggets",
+     "event": "Denver Nuggets @ Chicago Bulls",
+     "sport": "NBA",
+     "odds": 1.22,
+     "prob": 0.793,
+     "start": "2026-11-23T00:10:00+00:00",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627104568&selectionId=237492",
      "sid": [
       null,
-      "13129",
-      "36349280"
+      "237492",
+      "36341637"
      ]
     },
     {
@@ -1942,20 +1894,6 @@
      ]
     },
     {
-     "pick": "Orlando Magic",
-     "event": "Orlando Magic @ Washington Wizards",
-     "sport": "NBA",
-     "odds": 1.51,
-     "prob": 0.645,
-     "start": "2026-11-23T00:10:00+00:00",
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627104551&selectionId=237475",
-     "sid": [
-      null,
-      "237475",
-      "36341633"
-     ]
-    },
-    {
      "pick": "Loyola (Chi) Ramblers",
      "event": "San Jos\u00e9 St Spartans @ Loyola (Chi) Ramblers",
      "sport": "COLLEGE BASKETBALL",
@@ -1968,14 +1906,28 @@
       "742998",
       "36349276"
      ]
+    },
+    {
+     "pick": "San Francisco 49ers",
+     "event": "Minnesota Vikings @ San Francisco 49ers",
+     "sport": "NFL",
+     "odds": 1.58,
+     "prob": 0.631,
+     "start": "2026-11-23T01:20:00+00:00",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578347341&selectionId=43010249",
+     "sid": [
+      null,
+      "43010249",
+      "35605987"
+     ]
     }
    ],
-   "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.627663352&selectionId[0]=13129&marketId[1]=42.627720850&selectionId[1]=4324485&marketId[2]=42.627104551&selectionId[2]=237475&marketId[3]=42.627663095&selectionId[3]=742998",
+   "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.627104568&selectionId[0]=237492&marketId[1]=42.627720850&selectionId[1]=4324485&marketId[2]=42.627663095&selectionId[2]=742998&marketId[3]=42.578347341&selectionId[3]=43010249",
    "alts": [
     {
      "book": "DraftKings",
-     "odds": 3.87,
-     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87358717_1+0ML87360257_1+0ML87336792_3+0ML87358722_1"
+     "odds": 3.96,
+     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87336715_3+0ML87360257_1+0ML87358722_1+0ML84695506_1"
     }
    ]
   }

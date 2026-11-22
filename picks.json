@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-22T23:06:57+00:00",
+ "updated": "2026-11-22T23:10:00+00:00",
  "last_scan": "2026-11-22T23:05:55+00:00",
  "unit": 5.0,
  "bankroll": 240.43,
@@ -531,75 +531,6 @@
   }
  ],
  "games": [
-  {
-   "sport": "NBA",
-   "event": "Oklahoma City Thunder @ Miami Heat",
-   "pick": "Miami Heat",
-   "opp": "Oklahoma City Thunder",
-   "start": "2026-11-22T23:10:00+00:00",
-   "book": "theScore Bet",
-   "odds": 1.59,
-   "prob": 0.6107,
-   "edge": -0.0289,
-   "value": "over",
-   "value_txt": "Overpriced: the book is charging a lot here",
-   "units": 0.0,
-   "stake": 0.0,
-   "to_win": 0.0,
-   "tier": null,
-   "fair_odds": 1.64,
-   "why": [
-    "Sharp books give Miami Heat a 61% chance to win (Oklahoma City Thunder 39%).",
-    "Miami Heat: 9-6, 5-3 at home, 120.5 pts/game, top: Bam Adebayo 18.9 PPG.",
-    "Oklahoma City Thunder: 10-6, 4-5 on the road, 113.0 pts/game, top: Ajay Mitchell 17.0 PPG."
-   ],
-   "injuries": [
-    {
-     "team": "Miami Heat",
-     "list": [
-      "Giannis Antetokounmpo (F, Out)"
-     ]
-    },
-    {
-     "team": "Oklahoma City Thunder",
-     "list": [
-      "Aday Mara (C, Out)",
-      "Shai Gilgeous-Alexander (G, Out)",
-      "Nikola Topic (G, Out)",
-      "Jaylin Williams (F, Out)"
-     ]
-    }
-   ],
-   "n_sharp": 5,
-   "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=7f7639f5-95cf-4563-8b49-2c5e5c2eee0b&odds_numerator[0]=2&odds_denominator[0]=1",
-   "prices": {
-    "FanDuel": 1.58,
-    "DraftKings": 1.58,
-    "theScore Bet": 1.59
-   },
-   "links": {
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627104557&selectionId=237486",
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87336648_1",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=7f7639f5-95cf-4563-8b49-2c5e5c2eee0b&odds_numerator[0]=2&odds_denominator[0]=1"
-   },
-   "open": [
-    "2026-11-22T19:02:11+00:00",
-    1.59,
-    0.6189
-   ],
-   "hist": [
-    [
-     "2026-11-22T19:02:11+00:00",
-     1.59,
-     0.6189
-    ],
-    [
-     "2026-11-22T21:00:30+00:00",
-     1.59,
-     0.6107
-    ]
-   ]
-  },
   {
    "sport": "TENNIS",
    "event": "Evan Zhu vs Ethan Cook (ATP Challenger Playford City, Australia Men Singles)",

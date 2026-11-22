@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-22T21:30:41+00:00",
+ "updated": "2026-11-22T21:34:45+00:00",
  "last_scan": "2026-11-22T21:05:32+00:00",
  "unit": 5.0,
  "bankroll": 238.53,
@@ -969,13 +969,12 @@
    "why": [
     "Sharp books give Miami Heat a 61% chance to win (Oklahoma City Thunder 39%).",
     "Miami Heat: 9-6, 5-3 at home, 120.5 pts/game, top: Giannis Antetokounmpo 28.2 PPG.",
-    "Oklahoma City Thunder: 10-6, 4-5 on the road, 113.0 pts/game, top: Shai Gilgeous-Alexander 31.7 PPG."
+    "Oklahoma City Thunder: 10-6, 4-5 on the road, 113.0 pts/game, top: Ajay Mitchell 17.0 PPG."
    ],
    "injuries": [
     {
      "team": "Miami Heat",
      "list": [
-      "Myron Gardner (F, day-to-day)",
       "Giannis Antetokounmpo (F, day-to-day)"
      ]
     },
@@ -1939,9 +1938,8 @@
     {
      "team": "Boston Celtics",
      "list": [
-      "Derrick White (G, day-to-day)",
-      "Mitchell Robinson (C, day-to-day)",
-      "Jayson Tatum (F, day-to-day)"
+      "Mitchell Robinson (C, Out)",
+      "Paul George (F, Out)"
      ]
     },
     {

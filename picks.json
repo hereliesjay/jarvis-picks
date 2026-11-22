@@ -1,7 +1,7 @@
 {
  "version": 25,
- "updated": "2026-11-22T21:03:55+00:00",
- "last_scan": "2026-11-22T21:00:30+00:00",
+ "updated": "2026-11-22T21:06:32+00:00",
+ "last_scan": "2026-11-22T21:05:32+00:00",
  "unit": 5.0,
  "bankroll": 238.53,
  "bank_start": 250.0,
@@ -81,7 +81,15 @@
      0.6727
     ]
    ],
-   "injuries": []
+   "injuries": [
+    {
+     "name": "Zemgus Girgensons",
+     "status": "Out",
+     "at": "2026-11-22T21:05:32+00:00",
+     "edge_then": -0.0043,
+     "edge_now": -0.0043
+    }
+   ]
   },
   {
    "tier": "lean",
@@ -551,73 +559,6 @@
  "games": [
   {
    "sport": "NFL",
-   "event": "New York Jets @ Los Angeles Chargers",
-   "pick": "Los Angeles Chargers",
-   "opp": "New York Jets",
-   "start": "2026-11-22T21:05:00+00:00",
-   "book": "theScore Bet",
-   "odds": 1.59,
-   "prob": 0.6131,
-   "edge": -0.0252,
-   "value": "over",
-   "value_txt": "Overpriced: the book is charging a lot here",
-   "units": 0.0,
-   "stake": 0.0,
-   "to_win": 0.0,
-   "tier": null,
-   "fair_odds": 1.63,
-   "why": [
-    "Sharp books give Los Angeles Chargers a 61% chance to win (New York Jets 39%).",
-    "Los Angeles Chargers: 1-8, 0-4 at home.",
-    "New York Jets: 2-8, 1-4 on the road."
-   ],
-   "injuries": [
-    {
-     "team": "Los Angeles Chargers",
-     "list": [
-      "Tarheeb Still (CB, Out)",
-      "Brenen Thompson (WR, Out)",
-      "KeAndre Lambert-Smith (WR, Out)",
-      "Kendall Williamson (S, Out)"
-     ]
-    },
-    {
-     "team": "New York Jets",
-     "list": [
-      "Trevin Wallace (LB, Out)",
-      "Isaiah Williams (WR, Out)",
-      "Jelani Woods (TE, Out)",
-      "Nate Lynn (DE, Out)"
-     ]
-    }
-   ],
-   "n_sharp": 5,
-   "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=6fbd53d1-947b-491f-b278-891cc96dba84&odds_numerator[0]=2&odds_denominator[0]=1",
-   "prices": {
-    "DraftKings": 1.56,
-    "FanDuel": 1.57,
-    "theScore Bet": 1.59
-   },
-   "links": {
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML84695590_1",
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624292659&selectionId=12481798",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=6fbd53d1-947b-491f-b278-891cc96dba84&odds_numerator[0]=2&odds_denominator[0]=1"
-   },
-   "open": [
-    "2026-11-22T19:37:22+00:00",
-    1.59,
-    0.6131
-   ],
-   "hist": [
-    [
-     "2026-11-22T19:37:22+00:00",
-     1.59,
-     0.6131
-    ]
-   ]
-  },
-  {
-   "sport": "NFL",
    "event": "Las Vegas Raiders @ Denver Broncos",
    "pick": "Denver Broncos",
    "opp": "Las Vegas Raiders",
@@ -890,6 +831,47 @@
      "2026-11-22T19:02:11+00:00",
      1.83,
      0.5359
+    ]
+   ]
+  },
+  {
+   "sport": "TENNIS",
+   "event": "Ann Li vs Dalma Galfi (Billie Jean King Cup)",
+   "pick": "Ann Li",
+   "opp": "Dalma Galfi",
+   "start": "2026-11-22T21:50:00+00:00",
+   "book": "DraftKings",
+   "odds": 1.111,
+   "prob": 0.8487,
+   "edge": -0.0571,
+   "value": "over",
+   "value_txt": "Overpriced: the book is charging a lot here",
+   "units": 0.0,
+   "stake": 0.0,
+   "to_win": 0.0,
+   "tier": null,
+   "fair_odds": 1.18,
+   "why": [
+    "Sharp books give Ann Li a 85% chance to win (Dalma Galfi 13%)."
+   ],
+   "injuries": [],
+   "n_sharp": 1,
+   "link": null,
+   "prices": {
+    "DraftKings": 1.111,
+    "FanDuel": 1.11
+   },
+   "links": {},
+   "open": [
+    "2026-11-22T21:05:32+00:00",
+    1.111,
+    0.8487
+   ],
+   "hist": [
+    [
+     "2026-11-22T21:05:32+00:00",
+     1.111,
+     0.8487
     ]
    ]
   },
@@ -1322,17 +1304,17 @@
    "start": "2026-11-22T23:30:00+00:00",
    "book": "theScore Bet",
    "odds": 1.174,
-   "prob": 0.8096,
-   "edge": -0.0495,
+   "prob": 0.8122,
+   "edge": -0.0465,
    "value": "over",
    "value_txt": "Overpriced: the book is charging a lot here",
    "units": 0.0,
    "stake": 0.0,
    "to_win": 0.0,
    "tier": null,
-   "fair_odds": 1.24,
+   "fair_odds": 1.23,
    "why": [
-    "Sharp books give Evan Zhu a 81% chance to win (Ethan Cook 17%)."
+    "Sharp books give Evan Zhu a 81% chance to win (Ethan Cook 16%)."
    ],
    "injuries": [],
    "n_sharp": 1,
@@ -1362,27 +1344,27 @@
    "pick": "Jesse Delaney",
    "opp": "Eric Padgham",
    "start": "2026-11-22T23:30:00+00:00",
-   "book": "DraftKings",
-   "odds": 1.333,
-   "prob": 0.6969,
-   "edge": -0.071,
+   "book": "theScore Bet",
+   "odds": 1.294,
+   "prob": 0.7359,
+   "edge": -0.0478,
    "value": "over",
    "value_txt": "Overpriced: the book is charging a lot here",
    "units": 0.0,
    "stake": 0.0,
    "to_win": 0.0,
    "tier": null,
-   "fair_odds": 1.43,
+   "fair_odds": 1.36,
    "why": [
-    "Sharp books give Jesse Delaney a 70% chance to win (Eric Padgham 29%)."
+    "Sharp books give Jesse Delaney a 74% chance to win (Eric Padgham 25%)."
    ],
    "injuries": [],
    "n_sharp": 1,
    "link": null,
    "prices": {
-    "DraftKings": 1.333,
+    "DraftKings": 1.286,
     "FanDuel": 1.29,
-    "theScore Bet": 1.323
+    "theScore Bet": 1.294
    },
    "links": {},
    "open": [
@@ -1395,6 +1377,11 @@
      "2026-11-22T19:02:06+00:00",
      1.333,
      0.6969
+    ],
+    [
+     "2026-11-22T21:05:32+00:00",
+     1.294,
+     0.7359
     ]
    ]
   },
@@ -1406,8 +1393,8 @@
    "start": "2026-11-22T23:30:00+00:00",
    "book": "DraftKings",
    "odds": 1.033,
-   "prob": 0.9353,
-   "edge": -0.0339,
+   "prob": 0.9375,
+   "edge": -0.0316,
    "value": "over",
    "value_txt": "Overpriced: the book is charging a lot here",
    "units": 0.0,
@@ -1416,7 +1403,7 @@
    "tier": null,
    "fair_odds": 1.07,
    "why": [
-    "Sharp books give Jason Kubler a 94% chance to win (Reece Falck 5%)."
+    "Sharp books give Jason Kubler a 94% chance to win (Reece Falck 4%)."
    ],
    "injuries": [],
    "n_sharp": 1,

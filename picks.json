@@ -1,7 +1,7 @@
 {
  "version": 25,
- "updated": "2026-11-22T20:40:22+00:00",
- "last_scan": "2026-11-22T19:37:22+00:00",
+ "updated": "2026-11-22T21:00:30+00:00",
+ "last_scan": "2026-11-22T21:00:30+00:00",
  "unit": 5.0,
  "bankroll": 238.53,
  "bank_start": 250.0,
@@ -14,7 +14,7 @@
    "pick": "Texas State Bobcats",
    "book": "FanDuel",
    "odds": 1.76,
-   "now_odds": 1.76,
+   "now_odds": null,
    "prob": 0.5685,
    "edge": 0.0006,
    "units": 0.5,
@@ -24,34 +24,16 @@
    "start": "2026-11-22T20:30:00+00:00",
    "started": true,
    "status": "open",
-   "n_sharp": 2,
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627664331&selectionId=732114",
+   "n_sharp": null,
+   "link": null,
    "flag": null,
    "posted_at": "2026-11-22T19:02:12+00:00",
-   "prices": {
-    "theScore Bet": 1.71,
-    "FanDuel": 1.76,
-    "DraftKings": 1.7
-   },
-   "links": {
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=e8a4778d-16d0-4a73-a803-4b457dbbf792&odds_numerator[0]=2&odds_denominator[0]=1",
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627664331&selectionId=732114",
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87358705_1"
-   },
+   "prices": {},
+   "links": {},
    "fair_odds": 1.76,
-   "now_edge": 0.0006,
-   "open": [
-    "2026-11-22T19:02:11+00:00",
-    1.76,
-    0.5685
-   ],
-   "hist": [
-    [
-     "2026-11-22T19:02:11+00:00",
-     1.76,
-     0.5685
-    ]
-   ],
+   "now_edge": null,
+   "open": null,
+   "hist": [],
    "injuries": []
   },
   {
@@ -353,7 +335,7 @@
    "on": true
   }
  },
- "watching": 94,
+ "watching": 64,
  "history": [
   {
    "type": "lean",
@@ -567,89 +549,6 @@
   }
  ],
  "games": [
-  {
-   "sport": "TENNIS",
-   "event": "Leyre Romero Gormaz vs Rebeka Masarova (WTA 125K Colina, Chile Women Singles)",
-   "pick": "Rebeka Masarova",
-   "opp": "Leyre Romero Gormaz",
-   "start": "2026-11-22T21:00:00+00:00",
-   "book": "DraftKings",
-   "odds": 1.69,
-   "prob": 0.5625,
-   "edge": -0.0494,
-   "value": "over",
-   "value_txt": "Overpriced: the book is charging a lot here",
-   "units": 0.0,
-   "stake": 0.0,
-   "to_win": 0.0,
-   "tier": null,
-   "fair_odds": 1.78,
-   "why": [
-    "Sharp books give Rebeka Masarova a 56% chance to win (Leyre Romero Gormaz 44%)."
-   ],
-   "injuries": [],
-   "n_sharp": 1,
-   "link": null,
-   "prices": {
-    "DraftKings": 1.69,
-    "FanDuel": 1.68,
-    "theScore Bet": 1.69
-   },
-   "links": {},
-   "open": [
-    "2026-11-22T19:02:06+00:00",
-    1.69,
-    0.5625
-   ],
-   "hist": [
-    [
-     "2026-11-22T19:02:06+00:00",
-     1.69,
-     0.5625
-    ]
-   ]
-  },
-  {
-   "sport": "TENNIS",
-   "event": "Ann Li vs Dalma Galfi (Billie Jean King Cup)",
-   "pick": "Ann Li",
-   "opp": "Dalma Galfi",
-   "start": "2026-11-22T21:00:00+00:00",
-   "book": "DraftKings",
-   "odds": 1.111,
-   "prob": 0.8487,
-   "edge": -0.0571,
-   "value": "over",
-   "value_txt": "Overpriced: the book is charging a lot here",
-   "units": 0.0,
-   "stake": 0.0,
-   "to_win": 0.0,
-   "tier": null,
-   "fair_odds": 1.18,
-   "why": [
-    "Sharp books give Ann Li a 85% chance to win (Dalma Galfi 13%)."
-   ],
-   "injuries": [],
-   "n_sharp": 1,
-   "link": null,
-   "prices": {
-    "DraftKings": 1.111,
-    "FanDuel": 1.11
-   },
-   "links": {},
-   "open": [
-    "2026-11-22T19:02:06+00:00",
-    1.111,
-    0.8487
-   ],
-   "hist": [
-    [
-     "2026-11-22T19:02:06+00:00",
-     1.111,
-     0.8487
-    ]
-   ]
-  },
   {
    "sport": "NFL",
    "event": "New York Jets @ Los Angeles Chargers",
@@ -1353,17 +1252,17 @@
    "start": "2026-11-22T23:10:00+00:00",
    "book": "theScore Bet",
    "odds": 1.59,
-   "prob": 0.6189,
-   "edge": -0.0159,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.25,
-   "to_win": 0.74,
+   "prob": 0.6107,
+   "edge": -0.0289,
+   "value": "over",
+   "value_txt": "Overpriced: the book is charging a lot here",
+   "units": 0.0,
+   "stake": 0.0,
+   "to_win": 0.0,
    "tier": null,
-   "fair_odds": 1.62,
+   "fair_odds": 1.64,
    "why": [
-    "Sharp books give Miami Heat a 62% chance to win (Oklahoma City Thunder 38%).",
+    "Sharp books give Miami Heat a 61% chance to win (Oklahoma City Thunder 39%).",
     "Miami Heat: 9-6, 5-3 at home, 120.5 pts/game, top: Giannis Antetokounmpo 28.2 PPG.",
     "Oklahoma City Thunder: 10-6, 4-5 on the road, 113.0 pts/game, top: Shai Gilgeous-Alexander 31.7 PPG."
    ],
@@ -1407,6 +1306,11 @@
      "2026-11-22T19:02:11+00:00",
      1.59,
      0.6189
+    ],
+    [
+     "2026-11-22T21:00:30+00:00",
+     1.59,
+     0.6107
     ]
    ]
   },
@@ -1683,17 +1587,17 @@
    "start": "2026-11-23T00:10:00+00:00",
    "book": "DraftKings",
    "odds": 1.23,
-   "prob": 0.7936,
-   "edge": -0.0239,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.25,
-   "to_win": 0.29,
+   "prob": 0.7927,
+   "edge": -0.025,
+   "value": "over",
+   "value_txt": "Overpriced: the book is charging a lot here",
+   "units": 0.0,
+   "stake": 0.0,
+   "to_win": 0.0,
    "tier": null,
    "fair_odds": 1.26,
    "why": [
-    "Sharp books give Denver Nuggets a 79% chance to win (Chicago Bulls 18%).",
+    "Sharp books give Denver Nuggets a 79% chance to win (Chicago Bulls 19%).",
     "Denver Nuggets: 9-5, 4-2 on the road, 114.6 pts/game, top: Jamal Murray 24.9 PPG.",
     "Chicago Bulls: 4-11, 1-5 at home, 114.7 pts/game, top: Matas Buzelis 14.7 PPG."
    ],
@@ -1745,19 +1649,19 @@
    "pick": "Dallas Mavericks",
    "opp": "Utah Jazz",
    "start": "2026-11-23T00:10:00+00:00",
-   "book": "DraftKings",
-   "odds": 1.93,
-   "prob": 0.5138,
-   "edge": -0.0084,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
+   "book": "FanDuel",
+   "odds": 1.74,
+   "prob": 0.5529,
+   "edge": -0.038,
+   "value": "over",
+   "value_txt": "Overpriced: the book is charging a lot here",
    "units": 0.0,
    "stake": 0.0,
    "to_win": 0.0,
    "tier": null,
-   "fair_odds": 1.95,
+   "fair_odds": 1.81,
    "why": [
-    "Sharp books give Dallas Mavericks a 51% chance to win (Utah Jazz 49%).",
+    "Sharp books give Dallas Mavericks a 55% chance to win (Utah Jazz 45%).",
     "Dallas Mavericks: 9-7, 2-5 on the road, 112.2 pts/game, top: Cooper Flagg 24.1 PPG.",
     "Utah Jazz: 3-14, 2-6 on the road, 108.3 pts/game, top: Keyonte George 21.1 PPG."
    ],
@@ -1781,11 +1685,11 @@
     }
    ],
    "n_sharp": 5,
-   "link": "https://sportsbook.draftkings.com/?outcomes=0ML87336791_3",
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627104554&selectionId=237472",
    "prices": {
-    "FanDuel": 1.89,
-    "DraftKings": 1.93,
-    "theScore Bet": 1.87
+    "FanDuel": 1.74,
+    "DraftKings": 1.74,
+    "theScore Bet": 1.74
    },
    "links": {
     "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627104554&selectionId=237472",
@@ -1802,6 +1706,11 @@
      "2026-11-22T19:02:11+00:00",
      1.93,
      0.5138
+    ],
+    [
+     "2026-11-22T21:00:30+00:00",
+     1.74,
+     0.5529
     ]
    ]
   },
@@ -1813,17 +1722,17 @@
    "start": "2026-11-23T00:10:00+00:00",
    "book": "FanDuel",
    "odds": 1.51,
-   "prob": 0.6468,
-   "edge": -0.0234,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.25,
-   "to_win": 0.64,
+   "prob": 0.645,
+   "edge": -0.0261,
+   "value": "over",
+   "value_txt": "Overpriced: the book is charging a lot here",
+   "units": 0.0,
+   "stake": 0.0,
+   "to_win": 0.0,
    "tier": null,
    "fair_odds": 1.55,
    "why": [
-    "Sharp books give Orlando Magic a 65% chance to win (Washington Wizards 35%).",
+    "Sharp books give Orlando Magic a 64% chance to win (Washington Wizards 35%).",
     "Orlando Magic: 7-8, 6-3 on the road, 109.6 pts/game, top: Franz Wagner 25.1 PPG.",
     "Washington Wizards: 6-11, 2-5 at home, 110.0 pts/game, top: Anthony Davis 25.3 PPG."
    ],
@@ -2103,8 +2012,8 @@
    "start": "2026-11-23T01:10:00+00:00",
    "book": "theScore Bet",
    "odds": 1.36,
-   "prob": 0.7304,
-   "edge": -0.0067,
+   "prob": 0.7305,
+   "edge": -0.0065,
    "value": "slight",
    "value_txt": "A bit overpriced (books' cut)",
    "units": 0.25,
@@ -2301,18 +2210,18 @@
    "opp": "Golden State Warriors",
    "start": "2026-11-23T01:40:00+00:00",
    "book": "theScore Bet",
-   "odds": 1.29,
-   "prob": 0.7538,
-   "edge": -0.0276,
-   "value": "over",
-   "value_txt": "Overpriced: the book is charging a lot here",
-   "units": 0.0,
-   "stake": 0.0,
-   "to_win": 0.0,
+   "odds": 1.36,
+   "prob": 0.7402,
+   "edge": 0.0067,
+   "value": "fair",
+   "value_txt": "Fair price",
+   "units": 0.5,
+   "stake": 2.5,
+   "to_win": 0.9,
    "tier": null,
-   "fair_odds": 1.33,
+   "fair_odds": 1.35,
    "why": [
-    "Sharp books give Boston Celtics a 75% chance to win (Golden State Warriors 23%).",
+    "Sharp books give Boston Celtics a 74% chance to win (Golden State Warriors 24%).",
     "Boston Celtics: 11-5, 5-4 on the road, 112.8 pts/game, top: Jayson Tatum 26.4 PPG.",
     "Golden State Warriors: 8-8, 6-1 at home, 112.7 pts/game, top: Yaxel Lendeborg 19.7 PPG."
    ],
@@ -2338,9 +2247,9 @@
    "n_sharp": 5,
    "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=14f820ce-5c21-4664-9f39-48a8c4d7bc5e&odds_numerator[0]=2&odds_denominator[0]=1",
    "prices": {
-    "FanDuel": 1.28,
-    "theScore Bet": 1.29,
-    "DraftKings": 1.29
+    "FanDuel": 1.3,
+    "theScore Bet": 1.36,
+    "DraftKings": 1.33
    },
    "links": {
     "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627104560&selectionId=60427",
@@ -2357,6 +2266,11 @@
      "2026-11-22T19:02:11+00:00",
      1.29,
      0.7538
+    ],
+    [
+     "2026-11-22T21:00:30+00:00",
+     1.36,
+     0.7402
     ]
    ]
   },
@@ -2548,82 +2462,82 @@
   },
   {
    "label": "Next safest 4x+",
-   "book": "FanDuel",
-   "odds": 4.01,
-   "prob": 0.2344,
-   "ev": -0.0591,
+   "book": "theScore Bet",
+   "odds": 4.13,
+   "prob": 0.2379,
+   "ev": -0.0167,
    "units": 0.5,
    "stake": 2.5,
-   "to_win": 7.54,
+   "to_win": 7.83,
    "legs": [
     {
-     "pick": "Minnesota Golden Gophers",
-     "event": "Utah Utes @ Minnesota Golden Gophers",
-     "sport": "COLLEGE BASKETBALL",
-     "odds": 1.2,
-     "prob": 0.822,
-     "start": "2026-11-22T23:00:00+00:00",
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627627455&selectionId=13118",
+     "pick": "Boston Celtics",
+     "event": "Boston Celtics @ Golden State Warriors",
+     "sport": "NBA",
+     "odds": 1.36,
+     "prob": 0.74,
+     "start": "2026-11-23T01:40:00+00:00",
+     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=14f820ce-5c21-4664-9f39-48a8c4d7bc5e&odds_numerator[0]=2&odds_denominator[0]=1",
      "sid": [
-      null,
-      "13118",
-      "36348371"
+      "09aae7a3-d0c6-4485-b655-6d6df252d43e",
+      "14f820ce-5c21-4664-9f39-48a8c4d7bc5e",
+      "c2bf1df4-431d-4a2e-8d8f-19e61d529d14"
      ]
     },
     {
      "pick": "New York Knicks",
      "event": "Indiana Pacers @ New York Knicks",
      "sport": "NBA",
-     "odds": 1.34,
-     "prob": 0.73,
+     "odds": 1.36,
+     "prob": 0.731,
      "start": "2026-11-23T01:10:00+00:00",
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627104563&selectionId=237482",
+     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=1e1dcf3f-644e-4d8e-9212-8f93e3889266&odds_numerator[0]=2&odds_denominator[0]=1",
      "sid": [
-      null,
-      "237482",
-      "36341636"
+      "7b0cc18c-9e00-493c-b6a8-034d765d811a",
+      "1e1dcf3f-644e-4d8e-9212-8f93e3889266",
+      "98e5b92a-1e8b-494e-aa0b-cc017e4c9710"
      ]
     },
     {
-     "pick": "San Francisco 49ers",
-     "event": "Minnesota Vikings @ San Francisco 49ers",
-     "sport": "NFL",
-     "odds": 1.58,
-     "prob": 0.631,
-     "start": "2026-11-23T01:20:00+00:00",
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578347341&selectionId=43010249",
+     "pick": "Tampa Bay Lightning",
+     "event": "Buffalo Sabres @ Tampa Bay Lightning",
+     "sport": "NHL",
+     "odds": 1.48,
+     "prob": 0.673,
+     "start": "2026-11-22T22:10:00+00:00",
+     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=c5162444-39e1-46d0-b903-7f4b533cb914&odds_numerator[0]=2&odds_denominator[0]=1",
      "sid": [
-      null,
-      "43010249",
-      "35605987"
+      "0a71c368-976d-446b-af51-4049ee298c7e",
+      "c5162444-39e1-46d0-b903-7f4b533cb914",
+      "eb92daea-dd57-4a07-a095-f36ab1d5c759"
      ]
     },
     {
-     "pick": "Miami Heat",
-     "event": "Oklahoma City Thunder @ Miami Heat",
-     "sport": "NBA",
-     "odds": 1.58,
-     "prob": 0.619,
-     "start": "2026-11-22T23:10:00+00:00",
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627104557&selectionId=237486",
+     "pick": "Portland St Vikings",
+     "event": "CSU Fullerton Titans @ Portland St Vikings",
+     "sport": "COLLEGE BASKETBALL",
+     "odds": 1.51,
+     "prob": 0.654,
+     "start": "2026-11-22T22:00:00+00:00",
+     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=9b9ed8ec-1302-4e54-b19d-30cd86739353&odds_numerator[0]=2&odds_denominator[0]=1",
      "sid": [
-      null,
-      "237486",
-      "36341632"
+      "f40ad5b1-ac93-48b8-9af4-8182c5ac68a7",
+      "9b9ed8ec-1302-4e54-b19d-30cd86739353",
+      "a60c55ac-f212-4914-ab57-0acec96eeb3b"
      ]
     }
    ],
-   "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.627627455&selectionId[0]=13118&marketId[1]=42.627104563&selectionId[1]=237482&marketId[2]=42.578347341&selectionId[2]=43010249&marketId[3]=42.627104557&selectionId[3]=237486",
+   "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=14f820ce-5c21-4664-9f39-48a8c4d7bc5e&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=1e1dcf3f-644e-4d8e-9212-8f93e3889266&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=c5162444-39e1-46d0-b903-7f4b533cb914&odds_numerator[2]=2&odds_denominator[2]=1&market_selection_id[3]=9b9ed8ec-1302-4e54-b19d-30cd86739353&odds_numerator[3]=2&odds_denominator[3]=1",
    "alts": [
     {
      "book": "DraftKings",
-     "odds": 3.92,
-     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87358716_1+0ML87336793_1+0ML84695506_1+0ML87336648_1"
+     "odds": 3.88,
+     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87336798_3+0ML87336793_1+0ML87329215_1+0ML87358711_1"
     },
     {
-     "book": "theScore Bet",
-     "odds": 3.83,
-     "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=8859ef3a-6197-47d8-ace3-f99f0b112476&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=1e1dcf3f-644e-4d8e-9212-8f93e3889266&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=1dc5e6fe-4fa3-4f72-8b37-2bf7d3ed3f55&odds_numerator[2]=2&odds_denominator[2]=1&market_selection_id[3]=7f7639f5-95cf-4563-8b49-2c5e5c2eee0b&odds_numerator[3]=2&odds_denominator[3]=1"
+     "book": "FanDuel",
+     "odds": 3.92,
+     "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.627104560&selectionId[0]=60427&marketId[1]=42.627104563&selectionId[1]=237482&marketId[2]=42.626715017&selectionId[2]=25609&marketId[3]=42.627692925&selectionId[3]=2909529"
     }
    ]
   }

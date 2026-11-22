@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-22T21:51:54+00:00",
+ "updated": "2026-11-22T22:00:58+00:00",
  "last_scan": "2026-11-22T21:05:32+00:00",
  "unit": 5.0,
  "bankroll": 238.53,
@@ -557,148 +557,6 @@
   }
  ],
  "games": [
-  {
-   "sport": "COLLEGE BASKETBALL",
-   "event": "CSU Fullerton Titans @ Portland St Vikings",
-   "pick": "Portland St Vikings",
-   "opp": "CSU Fullerton Titans",
-   "start": "2026-11-22T22:00:00+00:00",
-   "book": "FanDuel",
-   "odds": 1.52,
-   "prob": 0.6539,
-   "edge": -0.0061,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.25,
-   "to_win": 0.65,
-   "tier": null,
-   "fair_odds": 1.53,
-   "why": [
-    "Sharp books give Portland St Vikings a 65% chance to win (CSU Fullerton Titans 34%)."
-   ],
-   "injuries": [],
-   "n_sharp": 2,
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627692925&selectionId=2909529",
-   "prices": {
-    "theScore Bet": 1.51,
-    "DraftKings": 1.49,
-    "FanDuel": 1.52
-   },
-   "links": {
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=9b9ed8ec-1302-4e54-b19d-30cd86739353&odds_numerator[0]=2&odds_denominator[0]=1",
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87358711_1",
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627692925&selectionId=2909529"
-   },
-   "open": [
-    "2026-11-22T19:02:11+00:00",
-    1.52,
-    0.6539
-   ],
-   "hist": [
-    [
-     "2026-11-22T19:02:11+00:00",
-     1.52,
-     0.6539
-    ]
-   ]
-  },
-  {
-   "sport": "COLLEGE BASKETBALL",
-   "event": "Lamar Cardinals @ Rice Owls",
-   "pick": "Lamar Cardinals",
-   "opp": "Rice Owls",
-   "start": "2026-11-22T22:00:00+00:00",
-   "book": "FanDuel",
-   "odds": 1.78,
-   "prob": 0.5496,
-   "edge": -0.0218,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.0,
-   "stake": 0.0,
-   "to_win": 0.0,
-   "tier": null,
-   "fair_odds": 1.82,
-   "why": [
-    "Sharp books give Lamar Cardinals a 55% chance to win (Rice Owls 45%).",
-    "Lamar Cardinals: 3-1, 2-0 at home, 107.8 pts/game, top: Quante Berry 22.8 PPG.",
-    "Rice Owls: 3-2, 1-1 on the road, 81.2 pts/game, top: Jaxson Thompson 15.6 PPG."
-   ],
-   "injuries": [],
-   "n_sharp": 2,
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627663737&selectionId=739715",
-   "prices": {
-    "theScore Bet": 1.77,
-    "FanDuel": 1.78,
-    "DraftKings": 1.77
-   },
-   "links": {
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=46568aa6-f42e-453f-87eb-e6fa3dec0a2f&odds_numerator[0]=2&odds_denominator[0]=1",
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627663737&selectionId=739715",
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87358713_1"
-   },
-   "open": [
-    "2026-11-22T19:02:11+00:00",
-    1.78,
-    0.5496
-   ],
-   "hist": [
-    [
-     "2026-11-22T19:02:11+00:00",
-     1.78,
-     0.5496
-    ]
-   ]
-  },
-  {
-   "sport": "COLLEGE BASKETBALL",
-   "event": "UNC Asheville Bulldogs @ Samford Bulldogs",
-   "pick": "Samford Bulldogs",
-   "opp": "UNC Asheville Bulldogs",
-   "start": "2026-11-22T22:00:00+00:00",
-   "book": "DraftKings",
-   "odds": 1.19,
-   "prob": 0.8275,
-   "edge": -0.0153,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.25,
-   "to_win": 0.24,
-   "tier": null,
-   "fair_odds": 1.21,
-   "why": [
-    "Sharp books give Samford Bulldogs a 83% chance to win (UNC Asheville Bulldogs 15%).",
-    "Samford Bulldogs: 2-2, 1-1 at home, 76.5 pts/game, top: Will Shaver 15.2 PPG.",
-    "UNC Asheville Bulldogs: 2-4, 1-2 on the road, 79.5 pts/game, top: Connor Dubsky 12.5 PPG."
-   ],
-   "injuries": [],
-   "n_sharp": 2,
-   "link": "https://sportsbook.draftkings.com/?outcomes=0ML87358714_1",
-   "prices": {
-    "theScore Bet": 1.17,
-    "DraftKings": 1.19,
-    "FanDuel": 1.17
-   },
-   "links": {
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=297ccbb4-1eb8-4313-814f-863b187fdc48&odds_numerator[0]=2&odds_denominator[0]=1",
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87358714_1",
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627741084&selectionId=719426"
-   },
-   "open": [
-    "2026-11-22T19:02:11+00:00",
-    1.19,
-    0.8275
-   ],
-   "hist": [
-    [
-     "2026-11-22T19:02:11+00:00",
-     1.19,
-     0.8275
-    ]
-   ]
-  },
   {
    "sport": "NHL",
    "event": "Buffalo Sabres @ Tampa Bay Lightning",
@@ -2039,87 +1897,6 @@
  "big_parlays": [
   {
    "label": "Safest 4x+",
-   "book": "theScore Bet",
-   "odds": 4.02,
-   "prob": 0.241,
-   "ev": -0.0306,
-   "units": 0.5,
-   "stake": 2.5,
-   "to_win": 7.55,
-   "legs": [
-    {
-     "pick": "Boston Celtics",
-     "event": "Boston Celtics @ Golden State Warriors",
-     "sport": "NBA",
-     "odds": 1.36,
-     "prob": 0.74,
-     "start": "2026-11-23T01:40:00+00:00",
-     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=14f820ce-5c21-4664-9f39-48a8c4d7bc5e&odds_numerator[0]=2&odds_denominator[0]=1",
-     "sid": [
-      "09aae7a3-d0c6-4485-b655-6d6df252d43e",
-      "14f820ce-5c21-4664-9f39-48a8c4d7bc5e",
-      "c2bf1df4-431d-4a2e-8d8f-19e61d529d14"
-     ]
-    },
-    {
-     "pick": "New York Knicks",
-     "event": "Indiana Pacers @ New York Knicks",
-     "sport": "NBA",
-     "odds": 1.36,
-     "prob": 0.731,
-     "start": "2026-11-23T01:10:00+00:00",
-     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=1e1dcf3f-644e-4d8e-9212-8f93e3889266&odds_numerator[0]=2&odds_denominator[0]=1",
-     "sid": [
-      "7b0cc18c-9e00-493c-b6a8-034d765d811a",
-      "1e1dcf3f-644e-4d8e-9212-8f93e3889266",
-      "98e5b92a-1e8b-494e-aa0b-cc017e4c9710"
-     ]
-    },
-    {
-     "pick": "Dallas Stars",
-     "event": "Pittsburgh Penguins @ Dallas Stars",
-     "sport": "NHL",
-     "odds": 1.44,
-     "prob": 0.682,
-     "start": "2026-11-23T00:10:00+00:00",
-     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=0e37d3f8-d343-4a41-8a83-a57a93427b70&odds_numerator[0]=2&odds_denominator[0]=1",
-     "sid": [
-      "3361fdd1-da12-4d5c-8854-232c85ed1383",
-      "0e37d3f8-d343-4a41-8a83-a57a93427b70",
-      "a3461df2-ca0d-40ea-b1ac-49b9d201ef1e"
-     ]
-    },
-    {
-     "pick": "Portland St Vikings",
-     "event": "CSU Fullerton Titans @ Portland St Vikings",
-     "sport": "COLLEGE BASKETBALL",
-     "odds": 1.51,
-     "prob": 0.654,
-     "start": "2026-11-22T22:00:00+00:00",
-     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=9b9ed8ec-1302-4e54-b19d-30cd86739353&odds_numerator[0]=2&odds_denominator[0]=1",
-     "sid": [
-      "f40ad5b1-ac93-48b8-9af4-8182c5ac68a7",
-      "9b9ed8ec-1302-4e54-b19d-30cd86739353",
-      "a60c55ac-f212-4914-ab57-0acec96eeb3b"
-     ]
-    }
-   ],
-   "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=14f820ce-5c21-4664-9f39-48a8c4d7bc5e&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=1e1dcf3f-644e-4d8e-9212-8f93e3889266&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=0e37d3f8-d343-4a41-8a83-a57a93427b70&odds_numerator[2]=2&odds_denominator[2]=1&market_selection_id[3]=9b9ed8ec-1302-4e54-b19d-30cd86739353&odds_numerator[3]=2&odds_denominator[3]=1",
-   "alts": [
-    {
-     "book": "DraftKings",
-     "odds": 3.77,
-     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87336798_3+0ML87336793_1+0ML87329207_1+0ML87358711_1"
-    },
-    {
-     "book": "FanDuel",
-     "odds": 3.79,
-     "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.627104560&selectionId[0]=60427&marketId[1]=42.627104563&selectionId[1]=237482&marketId[2]=42.626715049&selectionId[2]=25612&marketId[3]=42.627692925&selectionId[3]=2909529"
-    }
-   ]
-  },
-  {
-   "label": "Next safest 4x+",
    "book": "FanDuel",
    "odds": 4.04,
    "prob": 0.2454,
@@ -2191,6 +1968,87 @@
      "book": "DraftKings",
      "odds": 3.81,
      "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87358717_1+0ML87360257_1+0ML87329215_1+0ML84695506_1"
+    }
+   ]
+  },
+  {
+   "label": "Next safest 4x+",
+   "book": "theScore Bet",
+   "odds": 4.06,
+   "prob": 0.2421,
+   "ev": -0.0171,
+   "units": 0.5,
+   "stake": 2.5,
+   "to_win": 7.65,
+   "legs": [
+    {
+     "pick": "Valparaiso Beacons",
+     "event": "Valparaiso Beacons @ Southern Miss Golden Eagles",
+     "sport": "COLLEGE BASKETBALL",
+     "odds": 1.24,
+     "prob": 0.792,
+     "start": "2026-11-22T23:00:00+00:00",
+     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=c03e4eaf-75bb-4fe2-a93b-78a9f51dbcc6&odds_numerator[0]=2&odds_denominator[0]=1",
+     "sid": [
+      "ea988c0d-3e9e-4dce-8869-073964351f2d",
+      "c03e4eaf-75bb-4fe2-a93b-78a9f51dbcc6",
+      "88345443-8fd7-455b-8c35-78f8d9c15348"
+     ]
+    },
+    {
+     "pick": "Boston Celtics",
+     "event": "Boston Celtics @ Golden State Warriors",
+     "sport": "NBA",
+     "odds": 1.36,
+     "prob": 0.74,
+     "start": "2026-11-23T01:40:00+00:00",
+     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=14f820ce-5c21-4664-9f39-48a8c4d7bc5e&odds_numerator[0]=2&odds_denominator[0]=1",
+     "sid": [
+      "09aae7a3-d0c6-4485-b655-6d6df252d43e",
+      "14f820ce-5c21-4664-9f39-48a8c4d7bc5e",
+      "c2bf1df4-431d-4a2e-8d8f-19e61d529d14"
+     ]
+    },
+    {
+     "pick": "New York Knicks",
+     "event": "Indiana Pacers @ New York Knicks",
+     "sport": "NBA",
+     "odds": 1.36,
+     "prob": 0.731,
+     "start": "2026-11-23T01:10:00+00:00",
+     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=1e1dcf3f-644e-4d8e-9212-8f93e3889266&odds_numerator[0]=2&odds_denominator[0]=1",
+     "sid": [
+      "7b0cc18c-9e00-493c-b6a8-034d765d811a",
+      "1e1dcf3f-644e-4d8e-9212-8f93e3889266",
+      "98e5b92a-1e8b-494e-aa0b-cc017e4c9710"
+     ]
+    },
+    {
+     "pick": "Temple Owls",
+     "event": "Temple Owls @ Stephen F. Austin Lumberjacks",
+     "sport": "COLLEGE BASKETBALL",
+     "odds": 1.77,
+     "prob": 0.566,
+     "start": "2026-11-22T22:30:00+00:00",
+     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=bb16bced-847f-4b07-b3f1-35ac18a04f13&odds_numerator[0]=2&odds_denominator[0]=1",
+     "sid": [
+      "f3619e8f-fcc7-4043-8a7a-7dac033a0ee5",
+      "bb16bced-847f-4b07-b3f1-35ac18a04f13",
+      "7ad41eb0-0f8f-41ef-a5c8-1d58ff902963"
+     ]
+    }
+   ],
+   "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=c03e4eaf-75bb-4fe2-a93b-78a9f51dbcc6&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=14f820ce-5c21-4664-9f39-48a8c4d7bc5e&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=1e1dcf3f-644e-4d8e-9212-8f93e3889266&odds_numerator[2]=2&odds_denominator[2]=1&market_selection_id[3]=bb16bced-847f-4b07-b3f1-35ac18a04f13&odds_numerator[3]=2&odds_denominator[3]=1",
+   "alts": [
+    {
+     "book": "DraftKings",
+     "odds": 3.94,
+     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87358715_1+0ML87336798_3+0ML87336793_1+0ML87360256_3"
+    },
+    {
+     "book": "FanDuel",
+     "odds": 3.74,
+     "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.627692929&selectionId[0]=732125&marketId[1]=42.627104560&selectionId[1]=60427&marketId[2]=42.627104563&selectionId[2]=237482&marketId[3]=42.627755077&selectionId[3]=29839"
     }
    ]
   }

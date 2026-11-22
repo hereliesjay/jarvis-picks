@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-22T20:38:19+00:00",
+ "updated": "2026-11-22T20:40:22+00:00",
  "last_scan": "2026-11-22T19:37:22+00:00",
  "unit": 5.0,
  "bankroll": 238.53,
@@ -567,73 +567,6 @@
   }
  ],
  "games": [
-  {
-   "sport": "NBA",
-   "event": "Detroit Pistons @ Atlanta Hawks",
-   "pick": "Detroit Pistons",
-   "opp": "Atlanta Hawks",
-   "start": "2026-11-22T20:40:00+00:00",
-   "book": "FanDuel",
-   "odds": 1.83,
-   "prob": 0.5339,
-   "edge": -0.023,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.0,
-   "stake": 0.0,
-   "to_win": 0.0,
-   "tier": null,
-   "fair_odds": 1.87,
-   "why": [
-    "Sharp books give Detroit Pistons a 53% chance to win (Atlanta Hawks 47%).",
-    "Detroit Pistons: 10-5, 7-2 on the road, 114.5 pts/game, top: Cade Cunningham 25.6 PPG.",
-    "Atlanta Hawks: 10-6, 4-3 at home, 117.3 pts/game, top: Nickeil Alexander-Walker 20.9 PPG."
-   ],
-   "injuries": [
-    {
-     "team": "Detroit Pistons",
-     "list": [
-      "Ebuka Okorie (G, Out)",
-      "Taurean Prince (F, Out)",
-      "Duncan Robinson (F, Out)",
-      "Jalen Duren (C, Out)"
-     ]
-    },
-    {
-     "team": "Atlanta Hawks",
-     "list": [
-      "Jock Landale (C, Out)",
-      "Asa Newell (F, Out)",
-      "CJ McCollum (G, Out)",
-      "Mouhamed Gueye (F, Out)"
-     ]
-    }
-   ],
-   "n_sharp": 5,
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627104547&selectionId=237474",
-   "prices": {
-    "FanDuel": 1.83,
-    "DraftKings": 1.81,
-    "theScore Bet": 1.8
-   },
-   "links": {
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627104547&selectionId=237474",
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87336647_3",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=0687f259-26e3-49d4-a099-dee09b5ff904&odds_numerator[0]=2&odds_denominator[0]=1"
-   },
-   "open": [
-    "2026-11-22T19:02:11+00:00",
-    1.83,
-    0.5339
-   ],
-   "hist": [
-    [
-     "2026-11-22T19:02:11+00:00",
-     1.83,
-     0.5339
-    ]
-   ]
-  },
   {
    "sport": "TENNIS",
    "event": "Leyre Romero Gormaz vs Rebeka Masarova (WTA 125K Colina, Chile Women Singles)",

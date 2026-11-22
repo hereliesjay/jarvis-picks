@@ -1,7 +1,7 @@
 {
  "version": 25,
- "updated": "2026-11-22T22:11:34+00:00",
- "last_scan": "2026-11-22T21:05:32+00:00",
+ "updated": "2026-11-22T22:25:41+00:00",
+ "last_scan": "2026-11-22T22:25:41+00:00",
  "unit": 5.0,
  "bankroll": 238.53,
  "bank_start": 250.0,
@@ -43,7 +43,7 @@
    "pick": "Tampa Bay Lightning",
    "book": "FanDuel",
    "odds": 1.48,
-   "now_odds": 1.48,
+   "now_odds": null,
    "prob": 0.6727,
    "edge": -0.0043,
    "units": 0.5,
@@ -53,34 +53,16 @@
    "start": "2026-11-22T22:10:00+00:00",
    "started": true,
    "status": "open",
-   "n_sharp": 4,
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626715017&selectionId=25609",
+   "n_sharp": null,
+   "link": null,
    "flag": "New injury since posted: Zemgus Girgensons (Out) \u2014 check the price moved before betting",
    "posted_at": "2026-11-22T19:02:12+00:00",
-   "prices": {
-    "DraftKings": 1.46,
-    "FanDuel": 1.48,
-    "theScore Bet": 1.48
-   },
-   "links": {
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87329215_1",
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626715017&selectionId=25609",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=c5162444-39e1-46d0-b903-7f4b533cb914&odds_numerator[0]=2&odds_denominator[0]=1"
-   },
+   "prices": {},
+   "links": {},
    "fair_odds": 1.49,
-   "now_edge": -0.0043,
-   "open": [
-    "2026-11-22T19:02:11+00:00",
-    1.48,
-    0.6727
-   ],
-   "hist": [
-    [
-     "2026-11-22T19:02:11+00:00",
-     1.48,
-     0.6727
-    ]
-   ],
+   "now_edge": null,
+   "open": null,
+   "hist": [],
    "injuries": [
     {
      "name": "Zemgus Girgensons",
@@ -343,7 +325,7 @@
    "on": true
   }
  },
- "watching": 64,
+ "watching": 44,
  "history": [
   {
    "type": "lean",
@@ -1250,15 +1232,15 @@
    "start": "2026-11-23T00:10:00+00:00",
    "book": "theScore Bet",
    "odds": 1.44,
-   "prob": 0.6817,
-   "edge": -0.0184,
+   "prob": 0.683,
+   "edge": -0.0165,
    "value": "slight",
    "value_txt": "A bit overpriced (books' cut)",
    "units": 0.25,
    "stake": 1.25,
    "to_win": 0.55,
    "tier": null,
-   "fair_odds": 1.47,
+   "fair_odds": 1.46,
    "why": [
     "Sharp books give Dallas Stars a 68% chance to win (Pittsburgh Penguins 31%).",
     "Dallas Stars: 14-6-2, 8-5-0 at home, top: Mikko Rantanen 10 Goals.",
@@ -1287,8 +1269,8 @@
    "n_sharp": 4,
    "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=0e37d3f8-d343-4a41-8a83-a57a93427b70&odds_numerator[0]=2&odds_denominator[0]=1",
    "prices": {
-    "DraftKings": 1.42,
-    "FanDuel": 1.43,
+    "DraftKings": 1.43,
+    "FanDuel": 1.42,
     "theScore Bet": 1.44
    },
    "links": {
@@ -1317,15 +1299,15 @@
    "start": "2026-11-23T00:10:00+00:00",
    "book": "DraftKings",
    "odds": 1.8,
-   "prob": 0.5338,
-   "edge": -0.0392,
+   "prob": 0.5276,
+   "edge": -0.0503,
    "value": "over",
    "value_txt": "Overpriced: the book is charging a lot here",
    "units": 0.0,
    "stake": 0.0,
    "to_win": 0.0,
    "tier": null,
-   "fair_odds": 1.87,
+   "fair_odds": 1.9,
    "why": [
     "Sharp books give St Louis Blues a 53% chance to win (Edmonton Oilers 47%).",
     "St Louis Blues: 12-9-2, 7-3-1 at home, top: Jimmy Snuggerud 13 Goals.",
@@ -1373,6 +1355,11 @@
      "2026-11-22T19:02:11+00:00",
      1.8,
      0.5338
+    ],
+    [
+     "2026-11-22T22:25:41+00:00",
+     1.8,
+     0.5276
     ]
    ]
   },
@@ -1539,17 +1526,17 @@
    "start": "2026-11-23T01:10:00+00:00",
    "book": "FanDuel",
    "odds": 1.88,
-   "prob": 0.5157,
-   "edge": -0.0305,
+   "prob": 0.5083,
+   "edge": -0.0444,
    "value": "over",
    "value_txt": "Overpriced: the book is charging a lot here",
    "units": 0.0,
    "stake": 0.0,
    "to_win": 0.0,
    "tier": null,
-   "fair_odds": 1.94,
+   "fair_odds": 1.97,
    "why": [
-    "Sharp books give Chicago Blackhawks a 52% chance to win (Vancouver Canucks 48%).",
+    "Sharp books give Chicago Blackhawks a 51% chance to win (Vancouver Canucks 49%).",
     "Chicago Blackhawks: 7-14-2, 1-8-1 on the road, top: Frank Nazar 11 Goals.",
     "Vancouver Canucks: 6-18-1, 2-9-0 at home, top: Brock Boeser 8 Goals."
    ],
@@ -1577,7 +1564,7 @@
    "prices": {
     "DraftKings": 1.87,
     "FanDuel": 1.88,
-    "theScore Bet": 1.83
+    "theScore Bet": 1.87
    },
    "links": {
     "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87329213_3",
@@ -1594,6 +1581,11 @@
      "2026-11-22T19:02:11+00:00",
      1.88,
      0.5157
+    ],
+    [
+     "2026-11-22T22:25:41+00:00",
+     1.88,
+     0.5083
     ]
    ]
   },

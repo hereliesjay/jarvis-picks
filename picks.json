@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-22T20:20:06+00:00",
+ "updated": "2026-11-22T20:30:10+00:00",
  "last_scan": "2026-11-22T19:37:22+00:00",
  "unit": 5.0,
  "bankroll": 238.53,
@@ -22,7 +22,7 @@
    "to_win": 1.9,
    "min_odds": 1.76,
    "start": "2026-11-22T20:30:00+00:00",
-   "started": false,
+   "started": true,
    "status": "open",
    "n_sharp": 2,
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627664331&selectionId=732114",
@@ -567,189 +567,6 @@
   }
  ],
  "games": [
-  {
-   "sport": "TENNIS",
-   "event": "Agustin Eduardo Cuellar Lorberg vs Felipe De Dios (Santa Cruz)",
-   "pick": "Agustin Eduardo Cuellar Lorberg",
-   "opp": "Felipe De Dios",
-   "start": "2026-11-22T20:30:00+00:00",
-   "book": "DraftKings",
-   "odds": 1.333,
-   "prob": 0.7065,
-   "edge": -0.0582,
-   "value": "over",
-   "value_txt": "Overpriced: the book is charging a lot here",
-   "units": 0.0,
-   "stake": 0.0,
-   "to_win": 0.0,
-   "tier": null,
-   "fair_odds": 1.42,
-   "why": [
-    "Sharp books give Agustin Eduardo Cuellar Lorberg a 71% chance to win (Felipe De Dios 28%)."
-   ],
-   "injuries": [],
-   "n_sharp": 1,
-   "link": null,
-   "prices": {
-    "DraftKings": 1.333,
-    "FanDuel": 1.31
-   },
-   "links": {},
-   "open": [
-    "2026-11-22T19:02:06+00:00",
-    1.333,
-    0.7065
-   ],
-   "hist": [
-    [
-     "2026-11-22T19:02:06+00:00",
-     1.333,
-     0.7065
-    ]
-   ]
-  },
-  {
-   "sport": "COLLEGE BASKETBALL",
-   "event": "Mercyhurst Lakers @ Albany Great Danes",
-   "pick": "Mercyhurst Lakers",
-   "opp": "Albany Great Danes",
-   "start": "2026-11-22T20:30:00+00:00",
-   "book": "DraftKings",
-   "odds": 1.83,
-   "prob": 0.5401,
-   "edge": -0.0116,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.0,
-   "stake": 0.0,
-   "to_win": 0.0,
-   "tier": null,
-   "fair_odds": 1.85,
-   "why": [
-    "Sharp books give Mercyhurst Lakers a 54% chance to win (Albany Great Danes 46%).",
-    "Mercyhurst Lakers: 2-5, 0-5 on the road, 62.9 pts/game, top: Jake Lemelman 17.4 PPG."
-   ],
-   "injuries": [],
-   "n_sharp": 2,
-   "link": "https://sportsbook.draftkings.com/?outcomes=0ML87358706_3",
-   "prices": {
-    "theScore Bet": 1.8,
-    "DraftKings": 1.83,
-    "FanDuel": 1.83
-   },
-   "links": {
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=dc63d566-a413-4d4b-8de3-6028c29d2e77&odds_numerator[0]=2&odds_denominator[0]=1",
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87358706_3",
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627700017&selectionId=62502354"
-   },
-   "open": [
-    "2026-11-22T19:02:11+00:00",
-    1.83,
-    0.5401
-   ],
-   "hist": [
-    [
-     "2026-11-22T19:02:11+00:00",
-     1.83,
-     0.5401
-    ]
-   ]
-  },
-  {
-   "sport": "COLLEGE BASKETBALL",
-   "event": "McNeese Cowboys @ Texas State Bobcats",
-   "pick": "Texas State Bobcats",
-   "opp": "McNeese Cowboys",
-   "start": "2026-11-22T20:30:00+00:00",
-   "book": "FanDuel",
-   "odds": 1.76,
-   "prob": 0.5685,
-   "edge": 0.0006,
-   "value": "fair",
-   "value_txt": "Fair price",
-   "units": 0.5,
-   "stake": 2.5,
-   "to_win": 1.9,
-   "tier": "lean",
-   "fair_odds": 1.76,
-   "why": [
-    "Sharp books give Texas State Bobcats a 57% chance to win (McNeese Cowboys 43%).",
-    "Texas State Bobcats: 6-0, 4-0 at home, 88.3 pts/game, top: DJ Hall 14.5 PPG.",
-    "McNeese Cowboys: 2-1, 0-1 on the road, 100.3 pts/game, top: Larry Johnson 23.3 PPG."
-   ],
-   "injuries": [],
-   "n_sharp": 2,
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627664331&selectionId=732114",
-   "prices": {
-    "theScore Bet": 1.71,
-    "FanDuel": 1.76,
-    "DraftKings": 1.7
-   },
-   "links": {
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=e8a4778d-16d0-4a73-a803-4b457dbbf792&odds_numerator[0]=2&odds_denominator[0]=1",
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627664331&selectionId=732114",
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87358705_1"
-   },
-   "open": [
-    "2026-11-22T19:02:11+00:00",
-    1.76,
-    0.5685
-   ],
-   "hist": [
-    [
-     "2026-11-22T19:02:11+00:00",
-     1.76,
-     0.5685
-    ]
-   ]
-  },
-  {
-   "sport": "COLLEGE BASKETBALL",
-   "event": "Virginia Tech Hokies @ Oklahoma St Cowboys",
-   "pick": "Virginia Tech Hokies",
-   "opp": "Oklahoma St Cowboys",
-   "start": "2026-11-22T20:30:00+00:00",
-   "book": "theScore Bet",
-   "odds": 1.83,
-   "prob": 0.5288,
-   "edge": -0.0324,
-   "value": "over",
-   "value_txt": "Overpriced: the book is charging a lot here",
-   "units": 0.0,
-   "stake": 0.0,
-   "to_win": 0.0,
-   "tier": null,
-   "fair_odds": 1.89,
-   "why": [
-    "Sharp books give Virginia Tech Hokies a 53% chance to win (Oklahoma St Cowboys 47%).",
-    "Virginia Tech Hokies: 6-0, 0-0 on the road, 88.5 pts/game, top: Ben Hammond 20.0 PPG."
-   ],
-   "injuries": [],
-   "n_sharp": 3,
-   "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=4cf27122-2e04-4507-8935-672ac7da5fb0&odds_numerator[0]=2&odds_denominator[0]=1",
-   "prices": {
-    "FanDuel": 1.77,
-    "theScore Bet": 1.83,
-    "DraftKings": 1.8
-   },
-   "links": {
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627627823&selectionId=708786",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=4cf27122-2e04-4507-8935-672ac7da5fb0&odds_numerator[0]=2&odds_denominator[0]=1",
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87358707_3"
-   },
-   "open": [
-    "2026-11-22T19:02:11+00:00",
-    1.83,
-    0.5288
-   ],
-   "hist": [
-    [
-     "2026-11-22T19:02:11+00:00",
-     1.83,
-     0.5288
-    ]
-   ]
-  },
   {
    "sport": "NBA",
    "event": "Detroit Pistons @ Atlanta Hawks",

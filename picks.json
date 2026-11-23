@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-23T19:20:03+00:00",
+ "updated": "2026-11-23T19:30:09+00:00",
  "last_scan": "2026-11-23T18:49:31+00:00",
  "unit": 4.5,
  "bankroll": 236.88,
@@ -548,53 +548,6 @@
  ],
  "arbs": [],
  "games": [
-  {
-   "sport": "COLLEGE BASKETBALL",
-   "event": "Ole Miss Rebels @ Clemson Tigers",
-   "pick": "Ole Miss Rebels",
-   "opp": "Clemson Tigers",
-   "start": "2026-11-23T19:30:00+00:00",
-   "book": "DraftKings",
-   "odds": 1.4,
-   "prob": 0.6923,
-   "edge": -0.0308,
-   "value": "over",
-   "value_txt": "Overpriced: the book is charging a lot here",
-   "units": 0.0,
-   "stake": 0.0,
-   "to_win": 0.0,
-   "tier": null,
-   "fair_odds": 1.44,
-   "why": [
-    "Sharp books give Ole Miss Rebels a 69% chance to win (Clemson Tigers 30%).",
-    "Ole Miss Rebels: 4-0, 0-0 on the road, 89.5 pts/game, top: Adam Clark 15.5 PPG.",
-    "Clemson Tigers: 4-1, 4-1 at home, 84.8 pts/game, top: Ace Buckner 17.0 PPG."
-   ],
-   "injuries": [],
-   "n_sharp": 3,
-   "link": "https://sportsbook.draftkings.com/?outcomes=0ML87374492_3",
-   "prices": {
-    "DraftKings": 1.4,
-    "FanDuel": 1.4
-   },
-   "links": {
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87374492_3",
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627897168&selectionId=5991319"
-   },
-   "open": [
-    "2026-11-23T09:00:43+00:00",
-    1.4,
-    0.6923
-   ],
-   "hist": [
-    [
-     "2026-11-23T09:00:43+00:00",
-     1.4,
-     0.6923
-    ]
-   ],
-   "lag": false
-  },
   {
    "sport": "COLLEGE BASKETBALL",
    "event": "Middle Tennessee Blue Raiders @ Southern Illinois Salukis",

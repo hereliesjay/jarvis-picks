@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-23T21:51:59+00:00",
+ "updated": "2026-11-23T22:22:07+00:00",
  "last_scan": "2026-11-23T21:00:23+00:00",
  "unit": 4.5,
  "bankroll": 235.62,
@@ -594,9 +594,9 @@
      "team": "Charlotte Hornets",
      "list": [
       "Grayson Allen (G, Out)",
-      "Brandon Miller (F, day-to-day)",
       "Grant Williams (F, Out)",
-      "Kon Knueppel (G, Out)"
+      "Kon Knueppel (G, Out)",
+      "Dennis Schroder (G, Out)"
      ]
     }
    ],
@@ -1061,7 +1061,7 @@
     {
      "team": "Los Angeles Kings",
      "list": [
-      "Erik Gustafsson (D, day-to-day)",
+      "Erik Gustafsson (D, Injured Reserve)",
       "Joel Edmundson (D, day-to-day)",
       "Trevor Moore (LW, day-to-day)",
       "Jakub Dvorak (D, Injured Reserve)"
@@ -1197,8 +1197,8 @@
      "list": [
       "John Marino (D, Injured Reserve)",
       "Michael Carcone (LW, Out)",
-      "Dylan Guenther (RW, Injured Reserve)",
-      "Nick Schmaltz (C, Injured Reserve)"
+      "Nick Schmaltz (C, Injured Reserve)",
+      "Nate Schmidt (D, Injured Reserve)"
      ]
     }
    ],

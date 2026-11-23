@@ -2,6 +2,7 @@
 <html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Jarvis Picks</title>
+<link rel="manifest" href="manifest.json"><link rel="apple-touch-icon" href="icon-180.png"><link rel="icon" href="icon-192.png"><meta name="theme-color" content="#17110d"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Jarvis">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
 :root{--bg1:#070a14;--bg2:#10162b;--card:rgba(22,28,52,.78);--line:rgba(140,160,255,.14);--ink:#e8ecf8;--mute:#8f9ab8;--acc:#7c8cff;--acc2:#2fd4c0;--gold:#e6b450;--pos:#46d9a0;--neg:#ff7a90}
@@ -178,6 +179,22 @@ tbody tr:hover td{background:rgba(242,232,219,.03)}
 .askin{flex:1;min-width:0;background:var(--bean);border:1px solid var(--seam);color:var(--cream);border-radius:11px;padding:.65rem .8rem;font:inherit;font-size:.92rem}
 .askin:focus{outline:2px solid var(--caramel);outline-offset:1px}
 .askrow .go{margin:0}
+
+.hero{margin-top:1.2rem;border-color:rgba(219,165,100,.45);background:linear-gradient(180deg,rgba(219,165,100,.07),transparent 60%),var(--bean)}
+.herot{font-size:1.35rem;font-weight:800;letter-spacing:-.03em}
+.herop{color:var(--mute);margin:.35rem 0 0;font-size:.9rem;max-width:42rem}.herop.dim{font-size:.82rem}
+.herol{margin-top:.8rem;display:grid;gap:.5rem}
+.heror{display:grid;grid-template-columns:1fr auto auto;gap:.8rem;align-items:center;padding:.6rem .7rem;border:1px solid var(--seam);border-radius:12px;background:var(--bean2)}
+.heror .go{margin:0}.herop1{font-weight:700}.herop2{font-size:.75rem;color:var(--mute)}.heros{text-align:right;font-weight:800}
+details.fold{margin-top:1.2rem}details.fold>summary{font-weight:700;color:var(--mute);font-size:.95rem;padding:.6rem 0}details.fold[open]>summary{color:var(--cream)}
+.seg{display:flex;flex-wrap:wrap;gap:.4rem}.segb{background:transparent;border:1px solid var(--seam);color:var(--mute);font:inherit;font-size:.82rem;font-weight:600;padding:.45rem .75rem;border-radius:10px;cursor:pointer}
+.segb.on{color:var(--cream);border-color:var(--caramel);background:rgba(219,165,100,.1)}
+.bcard{display:grid;gap:.8rem;max-width:40rem}.bcard .srow input,.bcard .srow select{width:min(100%,24rem)}
+.bverdict{display:flex;justify-content:space-between;align-items:baseline;padding:.8rem 1rem;border-radius:12px;border:1px solid var(--seam)}
+.bverdict.pos{background:rgba(174,195,141,.12);border-color:rgba(174,195,141,.4)}.bverdict.neg{background:rgba(222,143,143,.1);border-color:rgba(222,143,143,.35)}.bverdict.fair{background:rgba(167,184,203,.1)}
+.bv1{font-size:1.3rem;font-weight:800;letter-spacing:-.02em}.bv2{font-weight:700}
+.how p{max-width:44rem;line-height:1.65;color:#ddd0bf}.how a{color:var(--caramel)}.rg{margin-top:1rem}
+#extras h2{margin-top:2rem}
 </style></head>
 <body><div class="wrap">
 <header><div><h1>Jarvis<span class="tonight" id="tonight">Tonight's card</span></h1><div class="status" id="status"><span class="dot"></span><span>Loading…</span></div></div>
@@ -189,13 +206,13 @@ tbody tr:hover td{background:rgba(242,232,219,.03)}
 <nav class="tabs" id="tabs"></nav>
 <div id="sections"></div>
 
-<h2>Recent results</h2>
+<div id="extras" hidden><h2>Recent results</h2>
 <div class="card scroll"><table><thead><tr><th>Date</th><th>Pick</th><th>Type</th><th class="r">Odds</th><th class="r">Units</th><th class="r">Result</th></tr></thead><tbody id="recent"></tbody></table></div>
 
 <h2>Bot rules · a sport switches off only after 100+ plays with both ROI and closing-line value negative</h2>
 <div class="card scroll"><table><thead><tr><th>Sport</th><th class="r">Plays</th><th class="r">ROI</th><th class="r">CLV</th><th class="r">Status</th></tr></thead><tbody id="rules"></tbody></table></div>
 
-<p class="note">Every game card shows the side the bot thinks is more likely to win, with its price check: VALUE = pays more than the real chance, FAIR = about right, OVERPRICED = the book is taking a big cut ("Pick only", no stake). Bet sizes: 1 unit = 2% of the paper bankroll (it grows as picks win). Best bets are sized by edge, 0.5u–3u (capped at 1u when only one sharp book prices it). A red ⚠ means a key player on that team was ruled out after the pick was posted. Best bet = your book pays at least 2% more than the sharp books' fair price (Pinnacle, devigged), odds 1.50–2.30. 1.5 units when the edge is 4%+ and 2+ sharp books agree. Lean = an action play: a solid favourite priced about fair, 0.25 units, tracked separately because it has no real edge. Best bets need 2+ sharp books agreeing (or a 3%+ edge). Parlays are half a unit and usually have no real edge: they're for fun. Don't take a pick if the odds drop below its "min odds". Paper-trade until the record proves itself. Gambling has real risk; never bet money you need.</p>
+</div>
 </div>
 <script>
 const $=id=>document.getElementById(id);
@@ -334,7 +351,7 @@ function pickCard(p){
   const stl=steamLine(p.open,p.hist);if(stl){const d=el('div','meta '+stl.cls,stl.txt);c.append(d)}
   (p.injuries||[]).forEach(i=>c.append(el('div','flag',i.status+': '+i.name+' ('+hm(i.at)+') — Edge '+pct(i.edge_then)+' → '+(i.edge_now==null?'?':pct(i.edge_now)))));
   if(p.flag&&!(p.injuries||[]).length)c.append(el('div','flag',p.flag));
-  c.append(el('div','meta',(p.posted_at?'Posted '+hm(p.posted_at)+', ':'')+'starts '+when(p.start)+(p.n_sharp?', '+p.n_sharp+' sharp book'+(p.n_sharp>1?'s':''):'')));
+  c.append(el('div','meta',(p.posted_at?'Posted '+hm(p.posted_at)+', ':'')+'starts '+when(p.start)+' ('+until(p.start)+')'+(p.n_sharp?', '+p.n_sharp+' sharp book'+(p.n_sharp>1?'s':''):'')));
   const lk=(p.links||{})[live.book]||p.link;if(lk&&!dead&&!p.started)c.append(goBtn(lk,'Bet at '+live.book));
   if(!p.started)tookForm(c,{pick:p.pick,event:p.event,sport:p.sport,start:p.start,tier:p.tier,odds:live.odds,stake,book:live.book});
   return c}
@@ -370,13 +387,13 @@ function settingsPanel(){
 function myBetsSection(S){
   const sec=el('section','sec');const h=el('h3');h.append('My bets',el('span','c','logged with "I took this", on this device'));sec.append(h);
   if(!MY.length){sec.append(el('div','card empty','Tap "I took this" on any pick to log the odds you actually got. Your ROI shows up here next to the bot\'s.'));S.append(sec);return}
-  const hist=FEED&&FEED.history||[];const st=m=>{const r=hist.find(x=>x.pick===m.pick&&x.start===m.start);return r?r.status:'open'};
+  const hist=FEED&&FEED.history||[];const st=m=>{if(m.result)return m.result;const r=hist.find(x=>x.pick===m.pick&&x.start===m.start);return r?r.status:'open'};
   let staked=0,prof=0,bs=0,bp=0;const rows=MY.map(m=>{const s=st(m);const pr=s==='won'?m.stake*(m.odds-1):s==='lost'?-m.stake:0;if(s==='won'||s==='lost'){staked+=m.stake;prof+=pr;
     const r=hist.find(x=>x.pick===m.pick&&x.start===m.start);if(r){bs+=r.units;bp+=r.profit_u}}return Object.assign({},m,{status:s,profit:pr})});
   const T=el('div','tiles');T.append(tile('My profit',money(prof),staked?'on '+money(staked)+' staked':'nothing graded yet',prof>0?'pos':prof<0?'neg':''),tile('My ROI',staked?pct(prof/staked):'—','your real odds'),tile('Bot ROI, same picks',bs?pct(bp/bs):'—','official prices'));sec.append(T);
   const card=el('div','card scroll');card.style.marginTop='.75rem';const t=el('table');const tr=el('tr');['Date','Pick','Book','Odds','Stake','Result',''].forEach((x,i)=>tr.append(el('th',i>=3&&i<6?'r':null,x)));const th=el('thead');th.append(tr);t.append(th);const tb=el('tbody');
   rows.slice().reverse().forEach(m=>{const e=el('tr');e.append(el('td',null,new Date(m.start).toLocaleDateString([], {month:'short',day:'numeric'})),el('td',null,m.pick),el('td',null,m.book),el('td','r',fo(m.odds)),el('td','r',money(m.stake)));
-    const td=el('td','r');td.append(el('span','badge '+(m.status==='won'?'won':m.status==='lost'?'lost':''),m.status));e.append(td);const x=el('button','xbtn','Remove');x.onclick=()=>{MY=MY.filter(z=>z!==MY.find(y=>y.key===m.key&&y.at===m.at));saveMy();render()};const tdx=el('td');tdx.append(x);e.append(tdx);tb.append(e)});
+    const td=el('td','r');td.append(el('span','badge '+(m.status==='won'?'won':m.status==='lost'?'lost':''),m.status));if(m.status==='open'&&!hist.find(x=>x.pick===m.pick&&x.start===m.start)){['won','lost'].forEach(rr=>{const bb=el('button','xbtn',rr==='won'?'W':'L');bb.title='Mark '+rr;bb.onclick=()=>{const t=MY.find(y=>y.key===m.key&&y.at===m.at);if(t){t.result=rr;saveMy();render()}};td.append(' ',bb)})}e.append(td);const x=el('button','xbtn','Remove');x.onclick=()=>{MY=MY.filter(z=>z!==MY.find(y=>y.key===m.key&&y.at===m.at));saveMy();render()};const tdx=el('td');tdx.append(x);e.append(tdx);tb.append(e)});
   t.append(tb);card.append(t);sec.append(card);
   const ex=el('button','more','Download my bets (CSV)');ex.onclick=()=>{const head='date,pick,event,sport,book,odds,stake,status,profit\n';const body=rows.map(m=>[m.start,m.pick,m.event,m.sport,m.book,m.odds,m.stake,m.status,m.profit.toFixed(2)].map(v=>'"'+String(v).replace(/"/g,'""')+'"').join(',')).join('\n');
     const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([head+body],{type:'text/csv'}));a.download='jarvis-my-bets.csv';document.body.append(a);a.click();a.remove()};sec.append(ex);S.append(sec)}
@@ -434,30 +451,107 @@ function renderBuilder(S){
   res.forEach(o=>w.append(builderCard(o)));sec.append(w);
   sec.append(el('p','note','Parlays multiply the books\' cut: if each leg is 2% overpriced, a 5-leg parlay is about 10% overpriced. EV shows that honestly; green means real value. Built from the side the bot thinks wins in each game, priced at your books.'));
   S.append(sec)}
+
+// ---------- helpers: countdowns, safe auto-refresh ----------
+function until(iso){const m=Math.round((new Date(iso)-Date.now())/60000);if(m<=0)return 'started';if(m<60)return 'in '+m+'m';const hh=Math.floor(m/60),mm=m%60;return hh<24?'in '+hh+'h'+(mm?' '+mm+'m':''):when(iso)}
+function busy(){const a=document.activeElement;return document.hidden||(a&&/INPUT|SELECT|TEXTAREA/.test(a.tagName))||!!document.querySelector('.tookf')||!!document.querySelector('details[open]')}
+let LASTUPD=null;
+function autoLoad(){if(busy())return;load(true)}
+// ---------- hero: what to bet right now ----------
+function actionable(){const now=Date.now();return (FEED&&FEED.picks||[]).filter(p=>p.tier==='best'&&!p.started&&new Date(p.start)>now).map(p=>{const live=bestOf(p.prices)||{book:p.book,odds:p.now_odds||p.odds};const dead=p.min_odds&&live.odds<p.min_odds;return {p,live,dead}}).filter(x=>!x.dead)}
+function heroCard(G){
+  const c=el('div','card hero');const act=actionable();
+  const nAct=(FEED&&FEED.picks||[]).filter(p=>p.tier==='lean'&&!p.started).length;
+  if(!act.length){c.append(el('div','herot','Nothing worth betting right now'));
+    const nx=(FEED&&FEED.games||[]).map(g=>g.start).filter(s=>new Date(s)>Date.now()).sort()[0];
+    c.append(el('p','herop','No book is paying more than the sharp fair price on a game the bot trusts. That happens: no edge, no bet. The bot rescans NBA and NHL hourly and everything else every few hours'+(nx?'; next game starts '+until(nx)+'.':'.')));
+    if(nAct)c.append(el('p','herop dim',nAct+' action play'+(nAct>1?'s are':' is')+' below if you want a small sweat (no real edge).'));
+    return c}
+  const tot=act.reduce((a,x)=>a+stakeFor(x.p.units,x.p.fair_odds?x.live.odds/x.p.fair_odds-1:x.p.edge,x.live.odds),0);
+  c.append(el('div','herot',act.length+' bet'+(act.length>1?'s':'')+' worth taking right now'));
+  c.append(el('p','herop','Total stake '+money(tot)+' on your bankroll. Tap a book to open the bet slip.'));
+  const list=el('div','herol');act.forEach(({p,live})=>{const ev=p.fair_odds?live.odds/p.fair_odds-1:p.edge;const st=stakeFor(p.units,ev,live.odds);
+    const r=el('div','heror');const L=el('div');L.append(el('div','herop1',p.pick),el('div','herop2',p.sport+', '+until(p.start)+', EV '+pct(ev)));
+    const M=el('div','heros');M.append(el('div',null,money(st)),el('div','herop2',fo(live.odds)+' at '+live.book));r.append(L,M);
+    const lk=(p.links||{})[live.book]||p.link;if(lk)r.append(goBtn(lk,'Bet'));list.append(r)});c.append(list);return c}
+// ---------- boost checker ----------
+let BC={mode:'game',game:'',side:'pick',orig:'',origOther:'',boosted:'',boostPct:'',maxStake:'',type:'odds'};
+function parseOdds(s){s=String(s||'').trim();if(!s)return null;const v=parseFloat(s.replace('+',''));if(isNaN(v))return null;
+  if(/^[+-]/.test(s)||Math.abs(v)>=100){return v>0?1+v/100:1+100/Math.abs(v)}return v>1?v:null}
+function boostSection(S){
+  const sec=el('section','sec');const h=el('h3');h.append('Boost checker',el('span','c','is this odds boost actually worth it?'));sec.append(h);
+  sec.append(el('p','note','Books post odds boosts and profit boosts every day. Most are fair-ish, some are genuinely great, a few are traps. Enter one here and the bot compares it to the sharp fair price.'));
+  const card=el('div','card bcard');
+  const md=el('div','seg');[['game','A game the bot has priced'],['manual','Any bet (enter both sides\' normal odds)']].forEach(([v,t])=>{const b=el('button','segb'+(BC.mode===v?' on':''),t);b.onclick=()=>{BC.mode=v;render()};md.append(b)});card.append(md);
+  const row=(t,x)=>{const l=el('label','srow');l.append(el('span',null,t),x);return l};
+  const inp=(k,ph)=>{const i=el('input');i.value=BC[k];i.placeholder=ph;i.inputMode='decimal';i.oninput=()=>{BC[k]=i.value;out()};return i};
+  let fairP=null,label='';
+  if(BC.mode==='game'){
+    const games=(FEED&&FEED.games||[]).filter(g=>new Date(g.start)>Date.now());
+    const sg=el('select');sg.append(new Option('Pick a game…',''));games.forEach((g,i)=>{const o=new Option(g.sport+': '+g.pick+' vs '+g.opp+' ('+when(g.start)+')',String(i));if(BC.game===String(i))o.selected=true;sg.append(o)});
+    sg.onchange=()=>{BC.game=sg.value;render()};card.append(row('Game',sg));
+    const g=games[+BC.game];
+    if(BC.game!==''&&g){const ss=el('select');[['pick',g.pick+' to win'],['other',g.opp+' to win']].forEach(([v,t])=>{const o=new Option(t,v);if(BC.side===v)o.selected=true;ss.append(o)});ss.onchange=()=>{BC.side=ss.value;out()};card.append(row('Side',ss));}
+    fairP=()=>{const g=games[+BC.game];if(!g)return null;return BC.side==='pick'?g.prob:Math.max(0.01,1-g.prob)};
+    label=()=>{const g=games[+BC.game];return g?(BC.side==='pick'?g.pick:g.opp):''};
+  }else{
+    card.append(row('Normal odds, your side (e.g. 1.80 or -125)',inp('orig','1.80')),row('Normal odds, other side',inp('origOther','2.05')));
+    fairP=()=>{const a=parseOdds(BC.orig),b=parseOdds(BC.origOther);if(!a||!b)return null;const ia=1/a,ib=1/b;return ia/(ia+ib)};label=()=>'your side';
+  }
+  const ty=el('div','seg');[['odds','Odds boost (new price)'],['profit','Profit boost (% extra winnings)']].forEach(([v,t])=>{const b=el('button','segb'+(BC.type===v?' on':''),t);b.onclick=()=>{BC.type=v;render()};ty.append(b)});card.append(ty);
+  if(BC.type==='odds')card.append(row('Boosted odds',inp('boosted','2.20 or +120')));
+  else{card.append(row('Normal odds you get',inp('orig','1.80')),row('Profit boost %',inp('boostPct','25')))}
+  card.append(row('Max stake allowed on the boost ($, optional)',inp('maxStake','25')));
+  const res=el('div','bres');card.append(res);sec.append(card);S.append(sec);
+  function out(){res.replaceChildren();const p=fairP();let odds=null;
+    if(BC.type==='odds')odds=parseOdds(BC.boosted);else{const o=parseOdds(BC.orig),b=parseFloat(BC.boostPct);if(o&&b>0)odds=1+(o-1)*(1+b/100)}
+    if(!p||!odds){res.append(el('div','meta','Fill in the fields to see the verdict.'));return}
+    const ev=p*odds-1;const k=Math.max(0,0.25*ev/(odds-1));let st=Math.round(myBank()*k*2)/2;const mx=parseFloat(BC.maxStake);if(mx>0)st=Math.min(st,mx);
+    const v=ev>=0.03?['Bet it','pos']:ev>=0?['Small edge, optional','fair']:['Skip it','neg'];
+    const big=el('div','bverdict '+v[1]);big.append(el('div','bv1',v[0]),el('div','bv2','EV '+pct(ev)));res.append(big);
+    res.append(el('div','meta','Fair chance '+Math.round(p*100)+'% (fair odds '+fo(1/p)+'), boosted price '+fo(odds)+'.'));
+    if(ev>0){res.append(el('div','meta','Suggested stake (¼ Kelly on your bankroll'+(mx>0?', capped at the max':'')+'): '+money(st)+'. Expected profit about '+money(st*ev)+'.'));
+      const lg=el('button','took-btn','Log this boost in My bets');lg.onclick=()=>{MY.push({key:'boost|'+Date.now(),pick:label()+' (boost)',event:'',sport:'BOOST',start:new Date().toISOString(),tier:'boost',odds:+odds.toFixed(3),stake:st||unitSize(),book:'',at:new Date().toISOString()});saveMy();lg.replaceWith(el('div','meta took','✓ Logged. Mark it won or lost in Results when it settles.'))};res.append(lg)}
+    else res.append(el('div','meta','The boosted price is still below the fair price, so it loses money over time even though it looks bigger.'))}
+  out()}
+// ---------- how it works ----------
+function howSection(S){
+  const sec=el('section','sec how');const h=el('h3');h.append('How Jarvis works');sec.append(h);
+  const P=(t)=>sec.append(el('p',null,t));
+  P('Jarvis compares your sportsbooks (FanDuel, DraftKings, theScore Bet) against the sharpest books in the world, mainly Pinnacle. Pinnacle\'s prices, with their margin removed, are the best public estimate of each team\'s real chance to win.');
+  P('Best bet: one of your books pays at least 2% more than that fair price, with 2+ sharp books agreeing (or a 3%+ edge when only one prices it). Sized from 0.5 to 3 units by edge. These are the real record.');
+  P('Action plays (leans): solid favourites priced about fair. 0.25 units, tracked separately, no real edge. Parlays and the parlay builder are for fun; their EV is shown honestly.');
+  P('Closing-line value (CLV) is the scoreboard that matters: did the price we took beat the final price before the game? Positive CLV over 100+ bets is the clearest sign of a real edge. Wins and losses take 1,000+ bets to mean anything.');
+  const a=el('a',null,'Every pick is timestamped in the public GitHub history');a.href='https://github.com/hereliesjay/jarvis-picks/commits/main/picks.json';a.target='_blank';a.rel='noopener';const pp=el('p');pp.append(a,', so the record can\'t be edited after the fact.');sec.append(pp);
+  const rg=el('div','card rg');rg.append(el('div','sub','Bet responsibly'),el('p',null,'Past results are not a promise of future profit. Only bet money you can afford to lose, set a limit before you start, and never chase losses. If betting stops being fun, take a break and talk to someone you trust or a local support line. You must be of legal age in your province.'));sec.append(rg);
+  S.append(sec)}
 const SPORTS=[{id:'nba',name:'NBA',ic:'🏀'},{id:'nhl',name:'NHL',ic:'🏒'},{id:'nfl',name:'NFL & College Football',ic:'🏈'},{id:'ufc',name:'UFC',ic:'🥊'},{id:'tennis',name:'Tennis',ic:'🎾'},{id:'more',name:'More (college hoops, soccer…)',ic:'⭐'}];
 function group(s){s=(s||'').toUpperCase();if(s.includes('NBA'))return 'nba';if(s.includes('NHL')||s.includes('HOCKEY'))return 'nhl';if(s.includes('NFL')||s.includes('FOOTBALL'))return 'nfl';if(s.includes('MMA')||s.includes('UFC')||s.includes('BOX'))return 'ufc';if(s.includes('TENNIS')||s.includes('ATP')||s.includes('WTA'))return 'tennis';return 'more'}
 let TAB='all';
 function render(){const G=window._G;if(!G)return;
   const T=$('tabs');T.replaceChildren();const total=SPORTS.reduce((a,s)=>a+(G[s.id].games.length||(G[s.id].picks.length+G[s.id].parlays.length)),0);
-  [{id:'all',name:'All'}].concat(SPORTS.map(s=>({id:s.id,name:s.id==='nfl'?'NFL':s.id==='more'?'More':s.name})),[{id:'builder',name:'Parlay builder'},{id:'results',name:'Results'}]).forEach(t=>{
-    const n=t.id==='builder'?'':t.id==='results'?HIST.filter(r=>r.status!=='open').length:t.id==='all'?total:G[t.id].games.length||(G[t.id].picks.length+G[t.id].parlays.length);
+  [{id:'all',name:'All'}].concat(SPORTS.map(s=>({id:s.id,name:s.id==='nfl'?'NFL':s.id==='more'?'More':s.name})),[{id:'builder',name:'Parlay builder'},{id:'boost',name:'Boost checker'},{id:'results',name:'Results'},{id:'how',name:'How it works'}]).forEach(t=>{
+    const n=(t.id==='builder'||t.id==='boost'||t.id==='how')?'':t.id==='results'?HIST.filter(r=>r.status!=='open').length:t.id==='all'?total:G[t.id].games.length||(G[t.id].picks.length+G[t.id].parlays.length);
     const b=el('button','tab'+(TAB===t.id?' on':''),t.name);b.append(el('span','n',n));b.onclick=()=>{TAB=t.id;render()};T.append(b)});
   const S=$('sections');S.replaceChildren();
+  $('extras').hidden=TAB!=='results';
+  if(TAB==='boost'){boostSection(S);return}
+  if(TAB==='how'){howSection(S);return}
   if(TAB==='results'){myBetsSection(S);renderResults(S);return}
   if(TAB==='builder'){renderBuilder(S);return}
   if(TAB==='all'){
+    S.append(heroCard(G));
     const all=[];SPORTS.forEach(s=>G[s.id].picks.forEach(p=>all.push(p)));
-    all.sort((a,b)=>(a.started-b.started)||((b.tier==='best')-(a.tier==='best'))||(b.edge-a.edge));
-    const sec=el('section','sec');const h=el('h3');h.append(el('span','ic','🔥'),'Tonight\'s bets',el('span','c',all.length+' pick'+(all.length===1?'':'s')+', strongest first'));sec.append(h);
-    if(!all.length)sec.append(el('div','card empty','No bets on the board right now. No edge = no bet — the bot checks again soon.'));
-    else{const w=el('div','picks');all.forEach(p=>w.append(pickCard(p)));sec.append(w)}
+    const best=all.filter(p=>p.tier==='best').sort((a,b)=>(a.started-b.started)||(b.edge-a.edge));
+    const lean=all.filter(p=>p.tier!=='best').sort((a,b)=>(a.started-b.started)||(a.start<b.start?-1:1));
+    const sec=el('section','sec');const h=el('h3');h.append('Best bets',el('span','c',best.length?best.length+' today, the real record':'none yet today'));sec.append(h);
+    if(best.length){const w=el('div','picks');best.forEach(p=>w.append(pickCard(p)));sec.append(w)}else sec.append(el('div','card empty','No best bets yet today. When a book misprices a game, it shows up here first.'));
     S.append(sec);
-    if((window._BIG||[]).length){const bs=el('section','sec');const bh=el('h3');bh.append(el('span','ic','🎯'),'Safest parlays that pay 4x+',el('span','c','highest hit chance'));bs.append(bh);const w=el('div','picks');window._BIG.forEach(p=>w.append(bigParlayCard(p)));bs.append(w);S.append(bs)}
-    const gs=el('section','sec');const gh=el('h3');gh.append(el('span','ic','📋'),'Every game, and who the bot likes');gs.append(gh);
-    let any=false;SPORTS.forEach(s=>{const gg=G[s.id].games;if(!gg.length)return;any=true;gs.append(el('div','gsec',s.name+', '+gg.length+' game'+(gg.length===1?'':'s')));gameList(gs,gg,s.id==='more'?4:6)});
+    if(lean.length){const d=el('details','fold');d.append(el('summary',null,lean.length+' action play'+(lean.length>1?'s':'')+' (0.25u, no real edge)'));const w=el('div','picks');lean.forEach(p=>w.append(pickCard(p)));d.append(w);S.append(d)}
+    if((window._BIG||[]).length){const bs=el('section','sec');const bh=el('h3');bh.append('Safest parlays that pay 4x+',el('span','c','for fun, EV shown honestly'));bs.append(bh);const w=el('div','picks');window._BIG.forEach(p=>w.append(bigParlayCard(p)));bs.append(w);S.append(bs)}
+    const gs=el('section','sec');const gh=el('h3');gh.append('Every game, and who the bot likes');gs.append(gh);
+    let any=false;SPORTS.forEach(s=>{const gg=G[s.id].games;if(!gg.length)return;any=true;gs.append(el('div','gsec',s.name+', '+gg.length+' game'+(gg.length===1?'':'s')));gameList(gs,gg,s.id==='more'?2:4)});
     if(!any)gs.append(el('div','card empty','No upcoming games priced yet.'));S.append(gs);
-    const pars=[];SPORTS.forEach(s=>G[s.id].parlays.forEach(p=>pars.push(p)));
-    if(pars.length){const ps=el('section','sec');const ph=el('h3');ph.append(el('span','ic','🎟️'),'Parlays');ps.append(ph);const w=el('div','picks');pars.forEach(p=>w.append(parlayCard(p)));ps.append(w);S.append(ps)}
     return;
   }
   SPORTS.filter(s=>TAB===s.id).forEach(s=>{const g=G[s.id];const n=g.picks.length+g.parlays.length;
@@ -469,9 +563,10 @@ function render(){const G=window._G;if(!G)return;
     if(g.games.length){sec.append(el('div','sub','Every game, and who the bot likes'));gameList(sec,g.games,50)}
     S.append(sec)});
 }
-async function load(){
+async function load(auto){
   $('tonight').textContent=new Date().toLocaleDateString([], {weekday:'long',month:'long',day:'numeric'});
   let f;try{const r=await fetch('picks.json?t='+Date.now(),{cache:'no-store'});f=await r.json()}catch(e){$('status').lastChild.textContent='No picks file yet — the bot will post one after its next scan.';return}
+  if(auto&&f.updated===LASTUPD){return}LASTUPD=f.updated;
   const fresh=f.updated&&(Date.now()-new Date(f.updated))<75*60000;
   $('status').firstChild.className='dot'+(fresh?'':' off');
   $('status').lastChild.textContent=(fresh?'Bot online':'Bot offline (PC off?)')+' · updated '+ago(f.updated)+' · last scan '+ago(f.last_scan)+' · watching '+f.watching+' prices';
@@ -498,6 +593,6 @@ async function load(){
     tr.append(el('td',null,k.replace('americanfootball','football').replace('icehockey','hockey')),el('td','r',v.n),el('td','r '+(v.roi>0?'pos':'neg'),pct(v.roi)),el('td','r',v.clv==null?'—':pct(v.clv)));
     const td=el('td','r');td.append(el('span','badge '+(v.on?'won':'lost'),v.on?'ON':'OFF'));tr.append(td);ru.append(tr)});
 }
-load();setInterval(load,120000);
+load();setInterval(autoLoad,120000);
 </script>
 </body></html>

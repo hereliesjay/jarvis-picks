@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-23T23:48:16+00:00",
+ "updated": "2026-11-23T23:53:19+00:00",
  "last_scan": "2026-11-23T23:48:16+00:00",
  "unit": 4.5,
  "bankroll": 235.62,
@@ -584,8 +584,8 @@
     {
      "team": "Memphis Grizzlies",
      "list": [
-      "Jerami Grant (F, Out)",
       "Cameron Boozer (F, Out)",
+      "Jerami Grant (F, Out)",
       "GG Jackson (F, Out)",
       "Scotty Pippen Jr. (G, Out)"
      ]
@@ -672,7 +672,6 @@
      "team": "Philadelphia 76ers",
      "list": [
       "Joel Embiid (C, Out)",
-      "Dean Wade (F, day-to-day)",
       "Ariel Hukporti (C, Out)"
      ]
     }
@@ -1300,8 +1299,6 @@
     {
      "team": "Chicago Bulls",
      "list": [
-      "Jalen Smith (F, day-to-day)",
-      "Nic Claxton (C, day-to-day)",
       "Norman Powell (G, Out)",
       "Caleb Wilson (F, Out)"
      ]
@@ -1455,7 +1452,6 @@
      "list": [
       "Lucas Patrick (G, Questionable)",
       "Amik Robertson (CB, Questionable)",
-      "Rachaad White (RB, Questionable)",
       "Laremy Tunsil (OT, Injured Reserve)"
      ]
     }

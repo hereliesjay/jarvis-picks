@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-23T00:00:22+00:00",
+ "updated": "2026-11-23T00:06:48+00:00",
  "last_scan": "2026-11-22T23:48:18+00:00",
  "unit": 5.0,
  "bankroll": 240.43,
@@ -1062,8 +1062,8 @@
     {
      "team": "Chicago Blackhawks",
      "list": [
+      "Anton Frondell (C, Out)",
       "Connor Bedard (C, Injured Reserve)",
-      "Anton Frondell (C, day-to-day)",
       "Bowen Byram (D, Injured Reserve)"
      ]
     },

@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-23T22:52:30+00:00",
+ "updated": "2026-11-23T23:22:40+00:00",
  "last_scan": "2026-11-23T22:25:14+00:00",
  "unit": 4.5,
  "bankroll": 235.62,
@@ -657,10 +657,9 @@
     {
      "team": "Philadelphia 76ers",
      "list": [
-      "Joel Embiid (C, day-to-day)",
-      "Adem Bona (C, Out)",
-      "Jaylen Brown (G, day-to-day)",
-      "Dean Wade (F, day-to-day)"
+      "Joel Embiid (C, Out)",
+      "Dean Wade (F, day-to-day)",
+      "Ariel Hukporti (C, Out)"
      ]
     },
     {
@@ -864,8 +863,8 @@
      "list": [
       "T.J. McConnell (G, Out)",
       "Aaron Nesmith (G, Out)",
-      "Pascal Siakam (F, day-to-day)",
-      "Tyrese Haliburton (G, Out)"
+      "Tyrese Haliburton (G, Out)",
+      "Johnny Furphy (G, Out)"
      ]
     }
    ],
@@ -921,10 +920,9 @@
     {
      "team": "Toronto Raptors",
      "list": [
-      "Jaden Bradley (G, day-to-day)",
-      "Collin Murray-Boyles (F, day-to-day)",
       "Nate Bittle (C, Out)",
-      "Kawhi Leonard (F, Out)"
+      "Kawhi Leonard (F, Out)",
+      "RJ Barrett (F, Out)"
      ]
     }
    ],

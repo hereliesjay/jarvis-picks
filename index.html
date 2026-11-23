@@ -195,7 +195,7 @@ tbody tr:hover td{background:rgba(242,232,219,.03)}
 <h2>Bot rules · a sport switches off only after 100+ plays with both ROI and closing-line value negative</h2>
 <div class="card scroll"><table><thead><tr><th>Sport</th><th class="r">Plays</th><th class="r">ROI</th><th class="r">CLV</th><th class="r">Status</th></tr></thead><tbody id="rules"></tbody></table></div>
 
-<p class="note">Every game card shows the side the bot thinks is more likely to win, with its price check: VALUE = pays more than the real chance, FAIR = about right, OVERPRICED = the book is taking a big cut ("Pick only", no stake). Bet sizes: 1 unit = 2% of the paper bankroll (it grows as picks win). Best bets are sized by edge, 0.5u–3u (capped at 1u when only one sharp book prices it). A red ⚠ means a key player on that team was ruled out after the pick was posted. Best bet = your book pays at least 2% more than the sharp books' fair price (Pinnacle, devigged), odds 1.50–2.30. 1.5 units when the edge is 4%+ and 2+ sharp books agree. Lean = solid favourite priced about fair, half a unit. Parlays are half a unit and usually have no real edge: they're for fun. Don't take a pick if the odds drop below its "min odds". Paper-trade until the record proves itself. Gambling has real risk; never bet money you need.</p>
+<p class="note">Every game card shows the side the bot thinks is more likely to win, with its price check: VALUE = pays more than the real chance, FAIR = about right, OVERPRICED = the book is taking a big cut ("Pick only", no stake). Bet sizes: 1 unit = 2% of the paper bankroll (it grows as picks win). Best bets are sized by edge, 0.5u–3u (capped at 1u when only one sharp book prices it). A red ⚠ means a key player on that team was ruled out after the pick was posted. Best bet = your book pays at least 2% more than the sharp books' fair price (Pinnacle, devigged), odds 1.50–2.30. 1.5 units when the edge is 4%+ and 2+ sharp books agree. Lean = an action play: a solid favourite priced about fair, 0.25 units, tracked separately because it has no real edge. Best bets need 2+ sharp books agreeing (or a 3%+ edge). Parlays are half a unit and usually have no real edge: they're for fun. Don't take a pick if the odds drop below its "min odds". Paper-trade until the record proves itself. Gambling has real risk; never bet money you need.</p>
 </div>
 <script>
 const $=id=>document.getElementById(id);
@@ -465,7 +465,7 @@ function render(){const G=window._G;if(!G)return;
     const sec=el('section','sec');const h=el('h3');h.append(el('span','ic',s.ic),s.name,el('span','c',n?n+' bet'+(n>1?'s':''):''));sec.append(h);
     if(!n&&!g.games.length){sec.append(el('div','card empty','No '+s.name+' games priced right now — the bot checks again soon.'))}
     const best=g.picks.filter(p=>p.tier==='best'),lean=g.picks.filter(p=>p.tier==='lean');
-    [['Best bets',best,pickCard],['Leans · half unit, priced about fair',lean,pickCard],['Parlay',g.parlays,parlayCard]].forEach(([lab,arr,fn])=>{if(!arr.length)return;sec.append(el('div','sub',lab));const w=el('div','picks');arr.forEach(x=>w.append(fn(x)));sec.append(w)});
+    [['Best bets',best,pickCard],['Action plays (leans): 0.25u, priced about fair, not part of the real record',lean,pickCard],['Parlay',g.parlays,parlayCard]].forEach(([lab,arr,fn])=>{if(!arr.length)return;sec.append(el('div','sub',lab));const w=el('div','picks');arr.forEach(x=>w.append(fn(x)));sec.append(w)});
     if(g.games.length){sec.append(el('div','sub','Every game, and who the bot likes'));gameList(sec,g.games,50)}
     S.append(sec)});
 }
@@ -478,9 +478,9 @@ async function load(){
   FEED=f;$('unit').replaceChildren();$('unit').append((SET.bank?'Your bankroll ':'Bankroll ')+money(myBank())+', 1 unit = '+money(unitSize())+(SET.model==='kelly'?' (¼ Kelly on)':'')+'  ');{const sb=el('button','setbtn','Settings');sb.onclick=()=>{const s=$('settings');s.hidden=!s.hidden};$('unit').append(sb)}
   const rec=f.record||{};const T=$('tiles');T.replaceChildren();
   let u=0,w=0,l=0;['best','lean','parlay'].forEach(k=>{const r=rec[k];if(r){u+=r.units;w+=r.won;l+=r.lost}});
-  T.append(tile('Profit (all picks)',money(u*f.unit),sgn(u)+' units',u>0?'pos':u<0?'neg':''));
-  T.append(tile('Record',w+'–'+l,(w+l?Math.round(w/(w+l)*100):0)+'% wins'));
-  const b=rec.best||{won:0,lost:0,units:0};T.append(tile('Best bets',b.won+'–'+b.lost,sgn(b.units)+'u · '+money(b.units*f.unit)));
+  {const hb=stats((f.history||[]).filter(r=>r.type==='best'));T.append(tile('Best bets profit',money(hb.units*f.unit),hb.w+'–'+hb.l+', '+sgn(hb.units)+'u (the real record)',hb.units>0?'pos':hb.units<0?'neg':''))}
+  {const hl=stats((f.history||[]).filter(r=>r.type==='lean'));T.append(tile('Action plays (leans)',hl.w+'–'+hl.l,sgn(hl.units)+'u, tracked separately'))}
+  T.append(tile('All picks',w+'–'+l,sgn(u)+'u overall'));
   {const hs=stats(f.history||[]);T.append(tile('Closing-line value',fmtPct(hs.clv),hs.clvn?Math.round(hs.beat*100)+'% beat the close ('+hs.clvn+')':'needs graded picks',hs.clv>0?'pos':hs.clv<0?'neg':''))}
 
   const picks=f.picks||[];

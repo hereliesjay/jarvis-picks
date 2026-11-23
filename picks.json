@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-23T18:49:31+00:00",
+ "updated": "2026-11-23T19:00:58+00:00",
  "last_scan": "2026-11-23T18:49:31+00:00",
  "unit": 4.5,
  "bankroll": 236.88,
@@ -548,54 +548,6 @@
  ],
  "arbs": [],
  "games": [
-  {
-   "sport": "COLLEGE BASKETBALL",
-   "event": "Tulsa Golden Hurricane @ Oregon St Beavers",
-   "pick": "Oregon St Beavers",
-   "opp": "Tulsa Golden Hurricane",
-   "start": "2026-11-23T19:00:00+00:00",
-   "book": "FanDuel",
-   "odds": 1.38,
-   "prob": 0.7132,
-   "edge": -0.0158,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.12,
-   "to_win": 0.43,
-   "tier": null,
-   "fair_odds": 1.4,
-   "why": [
-    "Sharp books give Oregon St Beavers a 71% chance to win (Tulsa Golden Hurricane 27%).",
-    "Tulsa Golden Hurricane: 4-1, 0-0 on the road, 80.0 pts/game, top: Jaylen Lawal 15.0 PPG."
-   ],
-   "injuries": [],
-   "n_sharp": 3,
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627897095&selectionId=697700",
-   "prices": {
-    "DraftKings": 1.35,
-    "FanDuel": 1.38,
-    "theScore Bet": 1.38
-   },
-   "links": {
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87374491_1",
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627897095&selectionId=697700",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=75a58ccd-b0ed-4b76-bda6-a93f55db4500&odds_numerator[0]=2&odds_denominator[0]=1"
-   },
-   "open": [
-    "2026-11-23T09:00:43+00:00",
-    1.38,
-    0.7132
-   ],
-   "hist": [
-    [
-     "2026-11-23T09:00:43+00:00",
-     1.38,
-     0.7132
-    ]
-   ],
-   "lag": false
-  },
   {
    "sport": "COLLEGE BASKETBALL",
    "event": "Ole Miss Rebels @ Clemson Tigers",
@@ -2078,39 +2030,25 @@
   {
    "label": "Next safest 4x+",
    "book": "theScore Bet",
-   "odds": 4.06,
-   "prob": 0.2337,
-   "ev": -0.0504,
+   "odds": 4.05,
+   "prob": 0.2364,
+   "ev": -0.0433,
    "units": 0.5,
    "stake": 2.25,
-   "to_win": 6.89,
+   "to_win": 6.85,
    "legs": [
     {
-     "pick": "Oklahoma City Thunder",
-     "event": "Oklahoma City Thunder @ Indiana Pacers",
-     "sport": "NBA",
-     "odds": 1.44,
-     "prob": 0.671,
-     "start": "2026-11-24T00:40:00+00:00",
-     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=bc58f07b-8e76-48ca-878e-2c83950bff98&odds_numerator[0]=2&odds_denominator[0]=1",
+     "pick": "Cincinnati Bengals",
+     "event": "Cincinnati Bengals @ Washington Commanders",
+     "sport": "NFL",
+     "odds": 1.36,
+     "prob": 0.728,
+     "start": "2026-11-24T01:15:00+00:00",
+     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=c3abe1a6-e97a-4f3b-b936-da9808bc3452&odds_numerator[0]=2&odds_denominator[0]=1",
      "sid": [
-      "4b7bb24c-62e3-44b7-87fe-e8b2329e9f1b",
-      "bc58f07b-8e76-48ca-878e-2c83950bff98",
-      "a810c75a-6469-4b04-af7f-b0f419b4e20c"
-     ]
-    },
-    {
-     "pick": "New York Islanders",
-     "event": "Toronto Maple Leafs @ New York Islanders",
-     "sport": "NHL",
-     "odds": 1.65,
-     "prob": 0.6,
-     "start": "2026-11-24T00:40:00+00:00",
-     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=3c3cdb02-6202-41aa-a976-18d7784ef194&odds_numerator[0]=2&odds_denominator[0]=1",
-     "sid": [
-      "06cb14da-b261-4158-8881-2fb6ddf0cb88",
-      "3c3cdb02-6202-41aa-a976-18d7784ef194",
-      "b85705e8-d747-4cfd-ae11-9a75c43edbd5"
+      "77bded8e-f798-4545-b4a5-431ff5904a6d",
+      "c3abe1a6-e97a-4f3b-b936-da9808bc3452",
+      "76d1b666-c180-474b-b512-07a84d11c22f"
      ]
     },
     {
@@ -2126,19 +2064,33 @@
       "ef972490-93e5-41f4-8312-5bb77763f654",
       "e5960aec-cd2d-4577-b846-1e22e4552c1a"
      ]
+    },
+    {
+     "pick": "Philadelphia 76ers",
+     "event": "Portland Trail Blazers @ Philadelphia 76ers",
+     "sport": "NBA",
+     "odds": 1.74,
+     "prob": 0.56,
+     "start": "2026-11-24T00:10:00+00:00",
+     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=df53f30a-3ec0-4e1e-828d-c0acd187082e&odds_numerator[0]=2&odds_denominator[0]=1",
+     "sid": [
+      "29f3e83e-ddd6-47db-873e-83628bb094b5",
+      "df53f30a-3ec0-4e1e-828d-c0acd187082e",
+      "b4c48b69-df45-44ec-b41c-fe0d122e4026"
+     ]
     }
    ],
-   "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=bc58f07b-8e76-48ca-878e-2c83950bff98&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=3c3cdb02-6202-41aa-a976-18d7784ef194&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=ef972490-93e5-41f4-8312-5bb77763f654&odds_numerator[2]=2&odds_denominator[2]=1",
+   "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=c3abe1a6-e97a-4f3b-b936-da9808bc3452&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=ef972490-93e5-41f4-8312-5bb77763f654&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=df53f30a-3ec0-4e1e-828d-c0acd187082e&odds_numerator[2]=2&odds_denominator[2]=1",
    "alts": [
     {
      "book": "DraftKings",
-     "odds": 3.92,
-     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87354220_3+0ML87329219_1+0ML87354218_3"
+     "odds": 3.89,
+     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML84695496_3+0ML87354218_3+0ML87354219_1"
     },
     {
      "book": "FanDuel",
-     "odds": 3.89,
-     "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.627423073&selectionId[0]=3319741&marketId[1]=42.626715187&selectionId[1]=136344&marketId[2]=42.627423058&selectionId[2]=237491"
+     "odds": 3.96,
+     "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.624292690&selectionId[0]=50210&marketId[1]=42.627423058&selectionId[1]=237491&marketId[2]=42.627423061&selectionId[2]=40274538"
     }
    ]
   }

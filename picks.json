@@ -1,9 +1,9 @@
 {
  "version": 25,
- "updated": "2026-11-23T01:00:09+00:00",
+ "updated": "2026-11-23T01:05:38+00:00",
  "last_scan": "2026-11-22T23:48:18+00:00",
- "unit": 5.0,
- "bankroll": 240.43,
+ "unit": 4.5,
+ "bankroll": 235.43,
  "bank_start": 250.0,
  "unit_pct": 0.02,
  "picks": [
@@ -18,8 +18,8 @@
    "prob": 0.5685,
    "edge": 0.0006,
    "units": 0.5,
-   "stake": 2.5,
-   "to_win": 1.9,
+   "stake": 2.25,
+   "to_win": 1.71,
    "min_odds": 1.76,
    "start": "2026-11-22T20:30:00+00:00",
    "started": true,
@@ -47,12 +47,12 @@
    "prob": 0.6727,
    "edge": -0.0043,
    "units": 0.5,
-   "stake": 2.5,
-   "to_win": 1.2,
+   "stake": 2.25,
+   "to_win": 1.08,
    "min_odds": 1.49,
    "start": "2026-11-22T22:10:00+00:00",
    "started": true,
-   "status": "open",
+   "status": "lost",
    "n_sharp": null,
    "link": null,
    "flag": "New injury since posted: Zemgus Girgensons (Out) \u2014 check the price moved before betting",
@@ -84,12 +84,12 @@
    "prob": 0.5656,
    "edge": 0.0012,
    "units": 0.5,
-   "stake": 2.5,
-   "to_win": 1.93,
+   "stake": 2.25,
+   "to_win": 1.73,
    "min_odds": 1.77,
    "start": "2026-11-22T22:30:00+00:00",
    "started": true,
-   "status": "open",
+   "status": "lost",
    "n_sharp": null,
    "link": null,
    "flag": null,
@@ -113,8 +113,8 @@
    "prob": 0.6312,
    "edge": -0.0026,
    "units": 0.5,
-   "stake": 2.5,
-   "to_win": 1.45,
+   "stake": 2.25,
+   "to_win": 1.31,
    "min_odds": 1.59,
    "start": "2026-11-23T01:20:00+00:00",
    "started": false,
@@ -154,11 +154,11 @@
  "record": {
   "lean": {
    "won": 5,
-   "lost": 4,
+   "lost": 6,
    "push": 0,
-   "open": 4,
-   "units": -0.42,
-   "dollars": -2.08,
+   "open": 2,
+   "units": -1.42,
+   "dollars": -6.37,
    "clv": -0.0103,
    "clv_n": 9
   },
@@ -168,7 +168,7 @@
    "push": 0,
    "open": 0,
    "units": -1.0,
-   "dollars": -5.0,
+   "dollars": -4.5,
    "clv": null,
    "clv_n": 0
   },
@@ -178,12 +178,32 @@
    "push": 0,
    "open": 0,
    "units": -0.5,
-   "dollars": -2.5,
+   "dollars": -2.25,
    "clv": null,
    "clv_n": 0
   }
  },
  "recent": [
+  {
+   "tier": "lean",
+   "pick": "Temple Owls",
+   "event": "Temple Owls @ Stephen F. Austin Lumberjacks",
+   "sport": "COLLEGE BASKETBALL",
+   "odds": 1.77,
+   "units": 0.5,
+   "status": "lost",
+   "start": "2026-11-22T22:30:00+00:00"
+  },
+  {
+   "tier": "lean",
+   "pick": "Tampa Bay Lightning",
+   "event": "Buffalo Sabres @ Tampa Bay Lightning",
+   "sport": "NHL",
+   "odds": 1.48,
+   "units": 0.5,
+   "status": "lost",
+   "start": "2026-11-22T22:10:00+00:00"
+  },
   {
    "tier": "lean",
    "pick": "Texas State Bobcats",
@@ -293,9 +313,9 @@
    "on": true
   },
   "basketball": {
-   "n": 57,
-   "roi": -0.0604,
-   "clv": -0.0013,
+   "n": 58,
+   "roi": -0.0766,
+   "clv": -0.0021,
    "on": true
   },
   "tennis": {
@@ -305,8 +325,8 @@
    "on": true
   },
   "icehockey": {
-   "n": 17,
-   "roi": -0.0235,
+   "n": 18,
+   "roi": -0.0778,
    "clv": null,
    "on": true
   },
@@ -496,8 +516,8 @@
    "odds": 1.48,
    "units": 0.5,
    "edge": -0.0043,
-   "status": "open",
-   "profit_u": 0.0,
+   "status": "lost",
+   "profit_u": -0.5,
    "clv": -0.0284,
    "start": "2026-11-22T22:10:00+00:00"
   },
@@ -510,8 +530,8 @@
    "odds": 1.77,
    "units": 0.5,
    "edge": 0.0012,
-   "status": "open",
-   "profit_u": 0.0,
+   "status": "lost",
+   "profit_u": -0.5,
    "clv": -0.0448,
    "start": "2026-11-22T22:30:00+00:00"
   },
@@ -544,8 +564,8 @@
    "value": "slight",
    "value_txt": "A bit overpriced (books' cut)",
    "units": 0.25,
-   "stake": 1.25,
-   "to_win": 0.45,
+   "stake": 1.12,
+   "to_win": 0.41,
    "tier": null,
    "fair_odds": 1.37,
    "why": [
@@ -681,8 +701,8 @@
    "value": "fair",
    "value_txt": "Fair price",
    "units": 0.5,
-   "stake": 2.5,
-   "to_win": 1.45,
+   "stake": 2.25,
+   "to_win": 1.31,
    "tier": "lean",
    "fair_odds": 1.58,
    "why": [
@@ -748,8 +768,8 @@
    "value": "slight",
    "value_txt": "A bit overpriced (books' cut)",
    "units": 0.25,
-   "stake": 1.25,
-   "to_win": 0.39,
+   "stake": 1.12,
+   "to_win": 0.35,
    "tier": null,
    "fair_odds": 1.33,
    "why": [
@@ -871,8 +891,8 @@
    "value": "slight",
    "value_txt": "A bit overpriced (books' cut)",
    "units": 0.25,
-   "stake": 1.25,
-   "to_win": 0.69,
+   "stake": 1.12,
+   "to_win": 0.62,
    "tier": null,
    "fair_odds": 1.57,
    "why": [
@@ -913,8 +933,8 @@
    "prob": 0.2201,
    "ev": -0.0661,
    "units": 0.5,
-   "stake": 2.5,
-   "to_win": 8.11,
+   "stake": 2.25,
+   "to_win": 7.3,
    "legs": [
     {
      "pick": "Boston Celtics",

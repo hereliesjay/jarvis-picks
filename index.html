@@ -195,6 +195,9 @@ details.fold{margin-top:1.2rem}details.fold>summary{font-weight:700;color:var(--
 .bv1{font-size:1.3rem;font-weight:800;letter-spacing:-.02em}.bv2{font-weight:700}
 .how p{max-width:44rem;line-height:1.65;color:#ddd0bf}.how a{color:var(--caramel)}.rg{margin-top:1rem}
 #extras h2{margin-top:2rem}
+
+.lagb{margin-top:.5rem;display:inline-block;justify-self:start;padding:.3rem .55rem;border-radius:8px;background:rgba(174,195,141,.14);color:var(--olive);font-size:.75rem;font-weight:700}
+.arb{border-color:rgba(174,195,141,.45)}
 </style></head>
 <body><div class="wrap">
 <header><div><h1>Jarvis<span class="tonight" id="tonight">Tonight's card</span></h1><div class="status" id="status"><span class="dot"></span><span>Loading…</span></div></div>
@@ -341,6 +344,7 @@ function pickCard(p){
   const c=el('div','card pick '+p.tier+(p.started?' started':'')+(dead?' dead':''));
   const top=el('div');top.append(el('span','badge'+(p.tier==='lean'?' lean':''),p.tier==='best'?(p.units>=1.5?'Strong bet':'Best bet'):'Lean'));top.append(el('span','sp',p.sport+', '+(p.started?'started':when(p.start))));c.append(top);
   c.append(el('div','pk',p.pick+' to win'));c.append(el('div','ev',p.event));
+  if(p.lag)c.append(el('div','lagb','Sharp line just moved, this book hasn\'t caught up'));
   if(dead)c.append(el('div','deadmsg','Below Min Odds — Do Not Bet'));
   const fair=p.fair_odds,ev=fair?(live.odds/fair-1):p.edge;
   const sum=el('div','fairline');sum.append('Fair ',el('b',null,fo(fair)),'  |  Best ',el('b',null,fo(live.odds)),' at '+live.book+'  ',el('span',ev>=0?'pos':'neg','('+pct(ev)+' EV)'));c.append(sum);
@@ -361,6 +365,7 @@ function gameCard(g){
   const gh=el('div','gh');gh.append(el('span','gt',g.sport+', '+when(g.start)+', vs '+g.opp));
   gh.append(el('span','vb '+g.value,{value:'Value',fair:'Fair price',slight:'Slightly overpriced',over:'Overpriced'}[g.value]));c.append(gh);
   const gp=el('div','gp','Bot picks: '+g.pick+' ');gp.append(el('small',null,Math.round(g.prob*100)+'% to win'));c.append(gp);
+  if(g.lag)c.append(el('div','lagb','Sharp line just moved, book lagging'));
   const sum=el('div','fairline');sum.append('Fair ',el('b',null,fo(fair)),'  |  Best ',el('b',null,fo(live.odds)),' at '+live.book+'  ',el('span',ev>=0?'pos':'neg','('+pct(ev)+' EV)'));c.append(sum);
   const l2=el('div','bet');const L=el('div');const stake=g.units>0?stakeFor(g.units,ev,live.odds):0;
   if(stake>0){L.append(el('div','u',(SET.model==='kelly'?'¼ Kelly':g.units+'u')+' · '+money(stake)));L.append(el('div','w','to win '+money(stake*(live.odds-1))))}
@@ -525,6 +530,12 @@ function howSection(S){
   const a=el('a',null,'Every pick is timestamped in the public GitHub history');a.href='https://github.com/hereliesjay/jarvis-picks/commits/main/picks.json';a.target='_blank';a.rel='noopener';const pp=el('p');pp.append(a,', so the record can\'t be edited after the fact.');sec.append(pp);
   const rg=el('div','card rg');rg.append(el('div','sub','Bet responsibly'),el('p',null,'Past results are not a promise of future profit. Only bet money you can afford to lose, set a limit before you start, and never chase losses. If betting stops being fun, take a break and talk to someone you trust or a local support line. You must be of legal age in your province.'));sec.append(rg);
   S.append(sec)}
+
+function arbCard(a){const c=el('div','card pick arb');const top=el('div');top.append(el('span','badge won','Guaranteed +'+(a.profit*100).toFixed(1)+'%'));top.append(el('span','sp',a.sport+', '+until(a.start)));c.append(top);
+  c.append(el('div','pk',a.event));const total=unitSize()*10;
+  const ul=el('div','herol');a.sides.forEach(s=>{const r=el('div','heror');const L=el('div');L.append(el('div','herop1',s.pick),el('div','herop2',fo(s.odds)+' at '+s.book));
+    const M=el('div','heros');M.append(el('div',null,money(total*s.share)),el('div','herop2',Math.round(s.share*100)+'% of stake'));r.append(L,M);if(s.link)r.append(goBtn(s.link,'Bet'));else r.append(el('span'));ul.append(r)});c.append(ul);
+  c.append(el('div','meta','Bet both sides as shown ('+money(total)+' total) and you win about '+money(total*a.profit)+' whoever wins. Place both fast: prices move. Books may limit accounts that do this a lot.'));return c}
 const SPORTS=[{id:'nba',name:'NBA',ic:'🏀'},{id:'nhl',name:'NHL',ic:'🏒'},{id:'nfl',name:'NFL & College Football',ic:'🏈'},{id:'ufc',name:'UFC',ic:'🥊'},{id:'tennis',name:'Tennis',ic:'🎾'},{id:'more',name:'More (college hoops, soccer…)',ic:'⭐'}];
 function group(s){s=(s||'').toUpperCase();if(s.includes('NBA'))return 'nba';if(s.includes('NHL')||s.includes('HOCKEY'))return 'nhl';if(s.includes('NFL')||s.includes('FOOTBALL'))return 'nfl';if(s.includes('MMA')||s.includes('UFC')||s.includes('BOX'))return 'ufc';if(s.includes('TENNIS')||s.includes('ATP')||s.includes('WTA'))return 'tennis';return 'more'}
 let TAB='all';
@@ -548,6 +559,7 @@ function render(){const G=window._G;if(!G)return;
     if(best.length){const w=el('div','picks');best.forEach(p=>w.append(pickCard(p)));sec.append(w)}else sec.append(el('div','card empty','No best bets yet today. When a book misprices a game, it shows up here first.'));
     S.append(sec);
     if(lean.length){const d=el('details','fold');d.append(el('summary',null,lean.length+' action play'+(lean.length>1?'s':'')+' (0.25u, no real edge)'));const w=el('div','picks');lean.forEach(p=>w.append(pickCard(p)));d.append(w);S.append(d)}
+    if((FEED.arbs||[]).length){const as=el('section','sec');const ah=el('h3');ah.append('Arbitrage',el('span','c','both sides at different books, profit either way'));as.append(ah);const w=el('div','picks');FEED.arbs.forEach(a=>w.append(arbCard(a)));as.append(w);S.append(as)}
     if((window._BIG||[]).length){const bs=el('section','sec');const bh=el('h3');bh.append('Safest parlays that pay 4x+',el('span','c','for fun, EV shown honestly'));bs.append(bh);const w=el('div','picks');window._BIG.forEach(p=>w.append(bigParlayCard(p)));bs.append(w);S.append(bs)}
     const gs=el('section','sec');const gh=el('h3');gh.append('Every game, and who the bot likes');gs.append(gh);
     let any=false;SPORTS.forEach(s=>{const gg=G[s.id].games;if(!gg.length)return;any=true;gs.append(el('div','gsec',s.name+', '+gg.length+' game'+(gg.length===1?'':'s')));gameList(gs,gg,s.id==='more'?2:4)});

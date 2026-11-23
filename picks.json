@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-22T23:48:18+00:00",
+ "updated": "2026-11-23T00:00:22+00:00",
  "last_scan": "2026-11-22T23:48:18+00:00",
  "unit": 5.0,
  "bankroll": 240.43,
@@ -531,145 +531,6 @@
   }
  ],
  "games": [
-  {
-   "sport": "COLLEGE BASKETBALL",
-   "event": "Cal Baptist Lancers @ Portland Pilots",
-   "pick": "Portland Pilots",
-   "opp": "Cal Baptist Lancers",
-   "start": "2026-11-23T00:00:00+00:00",
-   "book": "FanDuel",
-   "odds": 1.29,
-   "prob": 0.7761,
-   "edge": 0.0011,
-   "value": "fair",
-   "value_txt": "Fair price",
-   "units": 0.5,
-   "stake": 2.5,
-   "to_win": 0.73,
-   "tier": null,
-   "fair_odds": 1.29,
-   "why": [
-    "Sharp books give Portland Pilots a 78% chance to win (Cal Baptist Lancers 20%).",
-    "Portland Pilots: 4-3, 1-1 at home, 93.6 pts/game, top: James O'Donnell 18.0 PPG."
-   ],
-   "injuries": [],
-   "n_sharp": 2,
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627663352&selectionId=13129",
-   "prices": {
-    "theScore Bet": 1.25,
-    "FanDuel": 1.29,
-    "DraftKings": 1.25
-   },
-   "links": {
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=bbeadedb-a609-43b6-a51d-5b30af520924&odds_numerator[0]=2&odds_denominator[0]=1",
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627663352&selectionId=13129",
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87358717_1"
-   },
-   "open": [
-    "2026-11-22T19:02:11+00:00",
-    1.29,
-    0.7761
-   ],
-   "hist": [
-    [
-     "2026-11-22T19:02:11+00:00",
-     1.29,
-     0.7761
-    ]
-   ]
-  },
-  {
-   "sport": "COLLEGE BASKETBALL",
-   "event": "Delaware Blue Hens @ UCLA Bruins",
-   "pick": "UCLA Bruins",
-   "opp": "Delaware Blue Hens",
-   "start": "2026-11-23T00:00:00+00:00",
-   "book": "FanDuel",
-   "odds": 1.0,
-   "prob": 0.9887,
-   "edge": -0.0113,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.25,
-   "to_win": 0.0,
-   "tier": null,
-   "fair_odds": 1.01,
-   "why": [
-    "Sharp books give UCLA Bruins a 99% chance to win.",
-    "UCLA Bruins: 5-0, 4-0 at home, 96.8 pts/game, top: Trent Perry 15.6 PPG.",
-    "Delaware Blue Hens: 4-2, 1-1 on the road, 80.7 pts/game, top: Chuck Bailey III 19.7 PPG."
-   ],
-   "injuries": [],
-   "n_sharp": 1,
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627627629&selectionId=697690",
-   "prices": {
-    "FanDuel": 1.0
-   },
-   "links": {
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627627629&selectionId=697690"
-   },
-   "open": [
-    "2026-11-22T19:02:11+00:00",
-    1.0,
-    0.9887
-   ],
-   "hist": [
-    [
-     "2026-11-22T19:02:11+00:00",
-     1.0,
-     0.9887
-    ]
-   ]
-  },
-  {
-   "sport": "COLLEGE BASKETBALL",
-   "event": "UAB Blazers @ Rhode Island Rams",
-   "pick": "Rhode Island Rams",
-   "opp": "UAB Blazers",
-   "start": "2026-11-23T00:00:00+00:00",
-   "book": "FanDuel",
-   "odds": 1.76,
-   "prob": 0.5518,
-   "edge": -0.0288,
-   "value": "over",
-   "value_txt": "Overpriced: the book is charging a lot here",
-   "units": 0.0,
-   "stake": 0.0,
-   "to_win": 0.0,
-   "tier": null,
-   "fair_odds": 1.81,
-   "why": [
-    "Sharp books give Rhode Island Rams a 55% chance to win (UAB Blazers 45%).",
-    "Rhode Island Rams: 5-1, 0-0 on the road, 78.7 pts/game, top: Jonah Hinton 14.2 PPG.",
-    "UAB Blazers: 4-2, 3-0 at home, 80.5 pts/game, top: Deuce Jones 17.6 PPG."
-   ],
-   "injuries": [],
-   "n_sharp": 2,
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627668295&selectionId=721613",
-   "prices": {
-    "theScore Bet": 1.74,
-    "FanDuel": 1.76,
-    "DraftKings": 1.74
-   },
-   "links": {
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=9b32ae3a-14e5-44fe-b98b-54fdf0c9e674&odds_numerator[0]=2&odds_denominator[0]=1",
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627668295&selectionId=721613",
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87358719_3"
-   },
-   "open": [
-    "2026-11-22T19:02:11+00:00",
-    1.76,
-    0.5518
-   ],
-   "hist": [
-    [
-     "2026-11-22T19:02:11+00:00",
-     1.76,
-     0.5518
-    ]
-   ]
-  },
   {
    "sport": "NBA",
    "event": "Denver Nuggets @ Chicago Bulls",
@@ -1563,13 +1424,27 @@
   {
    "label": "Next safest 4x+",
    "book": "DraftKings",
-   "odds": 4.06,
-   "prob": 0.2251,
-   "ev": -0.0866,
+   "odds": 4.37,
+   "prob": 0.209,
+   "ev": -0.0872,
    "units": 0.5,
    "stake": 2.5,
-   "to_win": 7.64,
+   "to_win": 8.42,
    "legs": [
+    {
+     "pick": "Boston Celtics",
+     "event": "Boston Celtics @ Golden State Warriors",
+     "sport": "NBA",
+     "odds": 1.31,
+     "prob": 0.75,
+     "start": "2026-11-23T01:40:00+00:00",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0ML87336798_3",
+     "sid": [
+      null,
+      "0ML87336798_3",
+      "35056429"
+     ]
+    },
     {
      "pick": "New York Knicks",
      "event": "Indiana Pacers @ New York Knicks",
@@ -1585,6 +1460,20 @@
      ]
     },
     {
+     "pick": "Dallas Stars",
+     "event": "Pittsburgh Penguins @ Dallas Stars",
+     "sport": "NHL",
+     "odds": 1.43,
+     "prob": 0.683,
+     "start": "2026-11-23T00:10:00+00:00",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0ML87329207_1",
+     "sid": [
+      null,
+      "0ML87329207_1",
+      "35053484"
+     ]
+    },
+    {
      "pick": "Dallas Mavericks",
      "event": "Dallas Mavericks @ Utah Jazz",
      "sport": "NBA",
@@ -1597,33 +1486,19 @@
       "0ML87336791_3",
       "35056422"
      ]
-    },
-    {
-     "pick": "Rhode Island Rams",
-     "event": "UAB Blazers @ Rhode Island Rams",
-     "sport": "COLLEGE BASKETBALL",
-     "odds": 1.74,
-     "prob": 0.552,
-     "start": "2026-11-23T00:00:00+00:00",
-     "link": "https://sportsbook.draftkings.com/?outcomes=0ML87358719_3",
-     "sid": [
-      null,
-      "0ML87358719_3",
-      "35064702"
-     ]
     }
    ],
-   "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87336793_1+0ML87336791_3+0ML87358719_3",
+   "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87336798_3+0ML87336793_1+0ML87329207_1+0ML87336791_3",
    "alts": [
     {
      "book": "theScore Bet",
-     "odds": 4.12,
-     "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=1e1dcf3f-644e-4d8e-9212-8f93e3889266&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=cafbedf2-0fd8-4034-b3b6-1e4a2860a0c9&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=9b32ae3a-14e5-44fe-b98b-54fdf0c9e674&odds_numerator[2]=2&odds_denominator[2]=1"
+     "odds": 4.46,
+     "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=14f820ce-5c21-4664-9f39-48a8c4d7bc5e&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=1e1dcf3f-644e-4d8e-9212-8f93e3889266&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=0e37d3f8-d343-4a41-8a83-a57a93427b70&odds_numerator[2]=2&odds_denominator[2]=1&market_selection_id[3]=cafbedf2-0fd8-4034-b3b6-1e4a2860a0c9&odds_numerator[3]=2&odds_denominator[3]=1"
     },
     {
      "book": "FanDuel",
-     "odds": 4.01,
-     "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.627104563&selectionId[0]=237482&marketId[1]=42.627104554&selectionId[1]=237472&marketId[2]=42.627668295&selectionId[2]=721613"
+     "odds": 4.21,
+     "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.627104560&selectionId[0]=60427&marketId[1]=42.627104563&selectionId[1]=237482&marketId[2]=42.626715049&selectionId[2]=25612&marketId[3]=42.627104554&selectionId[3]=237472"
     }
    ]
   }

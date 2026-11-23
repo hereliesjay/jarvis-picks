@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-23T00:06:48+00:00",
+ "updated": "2026-11-23T00:10:53+00:00",
  "last_scan": "2026-11-22T23:48:18+00:00",
  "unit": 5.0,
  "bankroll": 240.43,
@@ -121,7 +121,7 @@
    "status": "open",
    "n_sharp": 5,
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578347341&selectionId=43010249",
-   "flag": null,
+   "flag": "New injury since posted: Christian Kirk (Injured Reserve) \u2014 check the price moved before betting",
    "posted_at": "2026-11-22T19:37:23+00:00",
    "prices": {
     "DraftKings": 1.57,
@@ -532,356 +532,6 @@
  ],
  "games": [
   {
-   "sport": "NBA",
-   "event": "Denver Nuggets @ Chicago Bulls",
-   "pick": "Denver Nuggets",
-   "opp": "Chicago Bulls",
-   "start": "2026-11-23T00:10:00+00:00",
-   "book": "FanDuel",
-   "odds": 1.25,
-   "prob": 0.7849,
-   "edge": -0.0189,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.25,
-   "to_win": 0.31,
-   "tier": null,
-   "fair_odds": 1.27,
-   "why": [
-    "Sharp books give Denver Nuggets a 78% chance to win (Chicago Bulls 19%).",
-    "Denver Nuggets: 9-5, 4-2 on the road, 114.6 pts/game, top: Jamal Murray 24.9 PPG.",
-    "Chicago Bulls: 4-11, 1-5 at home, 114.7 pts/game, top: Matas Buzelis 14.7 PPG."
-   ],
-   "injuries": [
-    {
-     "team": "Denver Nuggets",
-     "list": [
-      "Julian Strawther (G, Out)"
-     ]
-    },
-    {
-     "team": "Chicago Bulls",
-     "list": [
-      "Nic Claxton (C, Out)",
-      "Norman Powell (G, Out)",
-      "Caleb Wilson (F, Out)"
-     ]
-    }
-   ],
-   "n_sharp": 5,
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627104568&selectionId=237492",
-   "prices": {
-    "FanDuel": 1.25,
-    "DraftKings": 1.24,
-    "theScore Bet": 1.22
-   },
-   "links": {
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627104568&selectionId=237492",
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87336715_3",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=2455c5ac-ad02-4498-95ba-bbcf14d67248&odds_numerator[0]=2&odds_denominator[0]=1"
-   },
-   "open": [
-    "2026-11-22T19:02:11+00:00",
-    1.23,
-    0.7936
-   ],
-   "hist": [
-    [
-     "2026-11-22T19:02:11+00:00",
-     1.23,
-     0.7936
-    ],
-    [
-     "2026-11-22T23:48:18+00:00",
-     1.25,
-     0.7849
-    ]
-   ]
-  },
-  {
-   "sport": "NBA",
-   "event": "Dallas Mavericks @ Utah Jazz",
-   "pick": "Dallas Mavericks",
-   "opp": "Utah Jazz",
-   "start": "2026-11-23T00:10:00+00:00",
-   "book": "DraftKings",
-   "odds": 1.74,
-   "prob": 0.5607,
-   "edge": -0.0244,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.25,
-   "to_win": 0.93,
-   "tier": null,
-   "fair_odds": 1.78,
-   "why": [
-    "Sharp books give Dallas Mavericks a 56% chance to win (Utah Jazz 44%).",
-    "Dallas Mavericks: 9-7, 2-5 on the road, 112.2 pts/game, top: Cooper Flagg 24.1 PPG.",
-    "Utah Jazz: 3-14, 2-6 on the road, 108.3 pts/game, top: Keyonte George 21.1 PPG."
-   ],
-   "injuries": [
-    {
-     "team": "Dallas Mavericks",
-     "list": [
-      "P.J. Washington (F, Out)",
-      "Tobi Lawal (F, Out)",
-      "Dereck Lively II (C, Out)",
-      "Sergio de Larrea (F, Out)"
-     ]
-    },
-    {
-     "team": "Utah Jazz",
-     "list": [
-      "Jusuf Nurkic (C, Out)",
-      "Lauri Markkanen (F, Out)",
-      "Jaren Jackson Jr. (F, Out)"
-     ]
-    }
-   ],
-   "n_sharp": 5,
-   "link": "https://sportsbook.draftkings.com/?outcomes=0ML87336791_3",
-   "prices": {
-    "FanDuel": 1.7,
-    "DraftKings": 1.74,
-    "theScore Bet": 1.74
-   },
-   "links": {
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627104554&selectionId=237472",
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87336791_3",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=cafbedf2-0fd8-4034-b3b6-1e4a2860a0c9&odds_numerator[0]=2&odds_denominator[0]=1"
-   },
-   "open": [
-    "2026-11-22T19:02:11+00:00",
-    1.93,
-    0.5138
-   ],
-   "hist": [
-    [
-     "2026-11-22T19:02:11+00:00",
-     1.93,
-     0.5138
-    ],
-    [
-     "2026-11-22T21:00:30+00:00",
-     1.74,
-     0.5529
-    ],
-    [
-     "2026-11-22T23:48:18+00:00",
-     1.74,
-     0.5607
-    ]
-   ]
-  },
-  {
-   "sport": "NBA",
-   "event": "Orlando Magic @ Washington Wizards",
-   "pick": "Orlando Magic",
-   "opp": "Washington Wizards",
-   "start": "2026-11-23T00:10:00+00:00",
-   "book": "theScore Bet",
-   "odds": 1.51,
-   "prob": 0.6434,
-   "edge": -0.0285,
-   "value": "over",
-   "value_txt": "Overpriced: the book is charging a lot here",
-   "units": 0.0,
-   "stake": 0.0,
-   "to_win": 0.0,
-   "tier": null,
-   "fair_odds": 1.55,
-   "why": [
-    "Sharp books give Orlando Magic a 64% chance to win (Washington Wizards 35%).",
-    "Orlando Magic: 7-8, 6-3 on the road, 109.6 pts/game, top: Franz Wagner 25.1 PPG.",
-    "Washington Wizards: 6-11, 2-5 at home, 110.0 pts/game, top: Anthony Davis 25.3 PPG."
-   ],
-   "injuries": [
-    {
-     "team": "Orlando Magic",
-     "list": [
-      "Jonathan Isaac (F, Out)",
-      "Izaiyah Nelson (F, Out)",
-      "Noah Penda (F, Out)",
-      "Paolo Banchero (F, Out)"
-     ]
-    },
-    {
-     "team": "Washington Wizards",
-     "list": [
-      "Tristan Vukcevic (F, Out)",
-      "Reece Beekman (G, Out)",
-      "Justin Champagnie (F, Out)",
-      "Jamir Watkins (G, Out)"
-     ]
-    }
-   ],
-   "n_sharp": 5,
-   "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=2b54e249-b3ac-4993-ab03-7568908707f6&odds_numerator[0]=2&odds_denominator[0]=1",
-   "prices": {
-    "FanDuel": 1.48,
-    "theScore Bet": 1.51,
-    "DraftKings": 1.51
-   },
-   "links": {
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627104551&selectionId=237475",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=2b54e249-b3ac-4993-ab03-7568908707f6&odds_numerator[0]=2&odds_denominator[0]=1",
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87336792_3"
-   },
-   "open": [
-    "2026-11-22T19:02:11+00:00",
-    1.51,
-    0.6468
-   ],
-   "hist": [
-    [
-     "2026-11-22T19:02:11+00:00",
-     1.51,
-     0.6468
-    ]
-   ]
-  },
-  {
-   "sport": "NHL",
-   "event": "Pittsburgh Penguins @ Dallas Stars",
-   "pick": "Dallas Stars",
-   "opp": "Pittsburgh Penguins",
-   "start": "2026-11-23T00:10:00+00:00",
-   "book": "theScore Bet",
-   "odds": 1.44,
-   "prob": 0.683,
-   "edge": -0.0165,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.25,
-   "to_win": 0.55,
-   "tier": null,
-   "fair_odds": 1.46,
-   "why": [
-    "Sharp books give Dallas Stars a 68% chance to win (Pittsburgh Penguins 31%).",
-    "Dallas Stars: 14-6-2, 8-5-0 at home, top: Mikko Rantanen 10 Goals.",
-    "Pittsburgh Penguins: 7-13-2, 3-8-1 on the road, top: Tommy Novak 8 Goals."
-   ],
-   "injuries": [
-    {
-     "team": "Dallas Stars",
-     "list": [
-      "Tyler Myers (D, Out)",
-      "Oskar Back (C, Injured Reserve)",
-      "Kyle Capobianco (D, Injured Reserve)",
-      "Lian Bichsel (D, Injured Reserve)"
-     ]
-    },
-    {
-     "team": "Pittsburgh Penguins",
-     "list": [
-      "Declan Carlile (D, Out)",
-      "Bryan Rust (RW, Injured Reserve)",
-      "Evgeni Malkin (C, Out)",
-      "Nick Robertson (LW, Injured Reserve)"
-     ]
-    }
-   ],
-   "n_sharp": 4,
-   "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=0e37d3f8-d343-4a41-8a83-a57a93427b70&odds_numerator[0]=2&odds_denominator[0]=1",
-   "prices": {
-    "DraftKings": 1.43,
-    "FanDuel": 1.42,
-    "theScore Bet": 1.44
-   },
-   "links": {
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87329207_1",
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626715049&selectionId=25612",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=0e37d3f8-d343-4a41-8a83-a57a93427b70&odds_numerator[0]=2&odds_denominator[0]=1"
-   },
-   "open": [
-    "2026-11-22T19:02:11+00:00",
-    1.44,
-    0.6817
-   ],
-   "hist": [
-    [
-     "2026-11-22T19:02:11+00:00",
-     1.44,
-     0.6817
-    ]
-   ]
-  },
-  {
-   "sport": "NHL",
-   "event": "Edmonton Oilers @ St Louis Blues",
-   "pick": "St Louis Blues",
-   "opp": "Edmonton Oilers",
-   "start": "2026-11-23T00:10:00+00:00",
-   "book": "DraftKings",
-   "odds": 1.8,
-   "prob": 0.5276,
-   "edge": -0.0503,
-   "value": "over",
-   "value_txt": "Overpriced: the book is charging a lot here",
-   "units": 0.0,
-   "stake": 0.0,
-   "to_win": 0.0,
-   "tier": null,
-   "fair_odds": 1.9,
-   "why": [
-    "Sharp books give St Louis Blues a 53% chance to win (Edmonton Oilers 47%).",
-    "St Louis Blues: 12-9-2, 7-3-1 at home, top: Jimmy Snuggerud 13 Goals.",
-    "Edmonton Oilers: 17-5-3, 10-2-1 on the road, top: Leon Draisaitl 22 Goals."
-   ],
-   "injuries": [
-    {
-     "team": "St Louis Blues",
-     "list": [
-      "Connor McMichael (LW, Out)",
-      "Torey Krug (D, Injured Reserve)",
-      "Dillon Dube (C, Injured Reserve)",
-      "Tyler Tucker (D, Injured Reserve)"
-     ]
-    },
-    {
-     "team": "Edmonton Oilers",
-     "list": [
-      "Zach Hyman (LW, Out)",
-      "Ryan Nugent-Hopkins (C, Out)",
-      "Alec Regula (D, Injured Reserve)",
-      "Matt Savoie (C, Injured Reserve)"
-     ]
-    }
-   ],
-   "n_sharp": 4,
-   "link": "https://sportsbook.draftkings.com/?outcomes=0ML87329225_1",
-   "prices": {
-    "DraftKings": 1.8,
-    "FanDuel": 1.79,
-    "theScore Bet": 1.8
-   },
-   "links": {
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87329225_1",
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626715031&selectionId=25595",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=7b3c32e5-6e39-4716-8002-7e64943aea3b&odds_numerator[0]=2&odds_denominator[0]=1"
-   },
-   "open": [
-    "2026-11-22T19:02:11+00:00",
-    1.8,
-    0.5338
-   ],
-   "hist": [
-    [
-     "2026-11-22T19:02:11+00:00",
-     1.8,
-     0.5338
-    ],
-    [
-     "2026-11-22T22:25:41+00:00",
-     1.8,
-     0.5276
-    ]
-   ]
-  },
-  {
    "sport": "COLLEGE BASKETBALL",
    "event": "Louisiana Ragin' Cajuns @ USC Trojans",
    "pick": "USC Trojans",
@@ -1133,19 +783,19 @@
     {
      "team": "San Francisco 49ers",
      "list": [
-      "Mike Evans (WR, Questionable)",
       "Nate Hobbs (CB, Injured Reserve)",
       "Dre Greenlaw (LB, Questionable)",
-      "Jordan James (RB, Questionable)"
+      "Jordan James (RB, Questionable)",
+      "Mac Jones (QB, Questionable)"
      ]
     },
     {
      "team": "Minnesota Vikings",
      "list": [
-      "Isaiah Rodgers (CB, Questionable)",
+      "Jay Ward (S, Out)",
       "Kyler Murray (QB, Out)",
-      "Bo Richter (LB, Injured Reserve)",
-      "Jay Ward (S, Questionable)"
+      "Isaiah Rodgers (CB, Out)",
+      "Jordan Addison (WR, Out)"
      ]
     }
    ],
@@ -1347,89 +997,13 @@
  "big_parlays": [
   {
    "label": "Safest 4x+",
-   "book": "FanDuel",
-   "odds": 4.1,
-   "prob": 0.2357,
-   "ev": -0.0332,
-   "units": 0.5,
-   "stake": 2.5,
-   "to_win": 7.76,
-   "legs": [
-    {
-     "pick": "Denver Nuggets",
-     "event": "Denver Nuggets @ Chicago Bulls",
-     "sport": "NBA",
-     "odds": 1.25,
-     "prob": 0.785,
-     "start": "2026-11-23T00:10:00+00:00",
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627104568&selectionId=237492",
-     "sid": [
-      null,
-      "237492",
-      "36341637"
-     ]
-    },
-    {
-     "pick": "Utah Valley Wolverines",
-     "event": "Tenn-Martin Skyhawks @ Utah Valley Wolverines",
-     "sport": "COLLEGE BASKETBALL",
-     "odds": 1.34,
-     "prob": 0.745,
-     "start": "2026-11-23T01:00:00+00:00",
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627720850&selectionId=4324485",
-     "sid": [
-      null,
-      "4324485",
-      "36350094"
-     ]
-    },
-    {
-     "pick": "Loyola (Chi) Ramblers",
-     "event": "San Jos\u00e9 St Spartans @ Loyola (Chi) Ramblers",
-     "sport": "COLLEGE BASKETBALL",
-     "odds": 1.55,
-     "prob": 0.639,
-     "start": "2026-11-23T04:59:00+00:00",
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627663095&selectionId=742998",
-     "sid": [
-      null,
-      "742998",
-      "36349276"
-     ]
-    },
-    {
-     "pick": "San Francisco 49ers",
-     "event": "Minnesota Vikings @ San Francisco 49ers",
-     "sport": "NFL",
-     "odds": 1.58,
-     "prob": 0.631,
-     "start": "2026-11-23T01:20:00+00:00",
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578347341&selectionId=43010249",
-     "sid": [
-      null,
-      "43010249",
-      "35605987"
-     ]
-    }
-   ],
-   "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.627104568&selectionId[0]=237492&marketId[1]=42.627720850&selectionId[1]=4324485&marketId[2]=42.627663095&selectionId[2]=742998&marketId[3]=42.578347341&selectionId[3]=43010249",
-   "alts": [
-    {
-     "book": "DraftKings",
-     "odds": 3.99,
-     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87336715_3+0ML87360257_1+0ML87358722_1+0ML84695506_1"
-    }
-   ]
-  },
-  {
-   "label": "Next safest 4x+",
    "book": "DraftKings",
-   "odds": 4.37,
-   "prob": 0.209,
-   "ev": -0.0872,
+   "odds": 4.21,
+   "prob": 0.2252,
+   "ev": -0.0514,
    "units": 0.5,
    "stake": 2.5,
-   "to_win": 8.42,
+   "to_win": 8.03,
    "legs": [
     {
      "pick": "Boston Celtics",
@@ -1446,59 +1020,54 @@
      ]
     },
     {
-     "pick": "New York Knicks",
-     "event": "Indiana Pacers @ New York Knicks",
-     "sport": "NBA",
-     "odds": 1.34,
-     "prob": 0.728,
-     "start": "2026-11-23T01:10:00+00:00",
-     "link": "https://sportsbook.draftkings.com/?outcomes=0ML87336793_1",
+     "pick": "Utah Valley Wolverines",
+     "event": "Tenn-Martin Skyhawks @ Utah Valley Wolverines",
+     "sport": "COLLEGE BASKETBALL",
+     "odds": 1.33,
+     "prob": 0.745,
+     "start": "2026-11-23T01:00:00+00:00",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0ML87360257_1",
      "sid": [
       null,
-      "0ML87336793_1",
-      "35056424"
+      "0ML87360257_1",
+      "35065424"
      ]
     },
     {
-     "pick": "Dallas Stars",
-     "event": "Pittsburgh Penguins @ Dallas Stars",
-     "sport": "NHL",
-     "odds": 1.43,
-     "prob": 0.683,
-     "start": "2026-11-23T00:10:00+00:00",
-     "link": "https://sportsbook.draftkings.com/?outcomes=0ML87329207_1",
+     "pick": "Loyola (Chi) Ramblers",
+     "event": "San Jos\u00e9 St Spartans @ Loyola (Chi) Ramblers",
+     "sport": "COLLEGE BASKETBALL",
+     "odds": 1.54,
+     "prob": 0.639,
+     "start": "2026-11-23T04:59:00+00:00",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0ML87358722_1",
      "sid": [
       null,
-      "0ML87329207_1",
-      "35053484"
+      "0ML87358722_1",
+      "35064705"
      ]
     },
     {
-     "pick": "Dallas Mavericks",
-     "event": "Dallas Mavericks @ Utah Jazz",
-     "sport": "NBA",
-     "odds": 1.74,
-     "prob": 0.561,
-     "start": "2026-11-23T00:10:00+00:00",
-     "link": "https://sportsbook.draftkings.com/?outcomes=0ML87336791_3",
+     "pick": "San Francisco 49ers",
+     "event": "Minnesota Vikings @ San Francisco 49ers",
+     "sport": "NFL",
+     "odds": 1.57,
+     "prob": 0.631,
+     "start": "2026-11-23T01:20:00+00:00",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0ML84695506_1",
      "sid": [
       null,
-      "0ML87336791_3",
-      "35056422"
+      "0ML84695506_1",
+      "34118073"
      ]
     }
    ],
-   "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87336798_3+0ML87336793_1+0ML87329207_1+0ML87336791_3",
+   "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87336798_3+0ML87360257_1+0ML87358722_1+0ML84695506_1",
    "alts": [
     {
-     "book": "theScore Bet",
-     "odds": 4.46,
-     "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=14f820ce-5c21-4664-9f39-48a8c4d7bc5e&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=1e1dcf3f-644e-4d8e-9212-8f93e3889266&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=0e37d3f8-d343-4a41-8a83-a57a93427b70&odds_numerator[2]=2&odds_denominator[2]=1&market_selection_id[3]=cafbedf2-0fd8-4034-b3b6-1e4a2860a0c9&odds_numerator[3]=2&odds_denominator[3]=1"
-    },
-    {
      "book": "FanDuel",
-     "odds": 4.21,
-     "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.627104560&selectionId[0]=60427&marketId[1]=42.627104563&selectionId[1]=237482&marketId[2]=42.626715049&selectionId[2]=25612&marketId[3]=42.627104554&selectionId[3]=237472"
+     "odds": 4.27,
+     "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.627104560&selectionId[0]=60427&marketId[1]=42.627720850&selectionId[1]=4324485&marketId[2]=42.627663095&selectionId[2]=742998&marketId[3]=42.578347341&selectionId[3]=43010249"
     }
    ]
   }

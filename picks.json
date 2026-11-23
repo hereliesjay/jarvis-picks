@@ -1,7 +1,7 @@
 {
  "version": 25,
- "updated": "2026-11-23T20:51:14+00:00",
- "last_scan": "2026-11-23T19:37:14+00:00",
+ "updated": "2026-11-23T21:00:23+00:00",
+ "last_scan": "2026-11-23T21:00:23+00:00",
  "unit": 4.5,
  "bankroll": 235.62,
  "bank_start": 250.0,
@@ -301,7 +301,7 @@
    "on": true
   }
  },
- "watching": 46,
+ "watching": 35,
  "history": [
   {
    "type": "lean",
@@ -559,115 +559,20 @@
  "arbs": [],
  "games": [
   {
-   "sport": "COLLEGE BASKETBALL",
-   "event": "Yale Bulldogs @ Belmont Bruins",
-   "pick": "Belmont Bruins",
-   "opp": "Yale Bulldogs",
-   "start": "2026-11-23T21:00:00+00:00",
-   "book": "theScore Bet",
-   "odds": 1.67,
-   "prob": 0.5895,
-   "edge": -0.0155,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.12,
-   "to_win": 0.75,
-   "tier": null,
-   "fair_odds": 1.7,
-   "why": [
-    "Sharp books give Belmont Bruins a 59% chance to win (Yale Bulldogs 41%).",
-    "Belmont Bruins: 4-1, 0-1 on the road, 76.0 pts/game, top: Jack Smiley 19.2 PPG.",
-    "Yale Bulldogs: 3-3, 3-0 at home, 76.7 pts/game, top: Trevor Mullin 16.0 PPG."
-   ],
-   "injuries": [],
-   "n_sharp": 2,
-   "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=488c66c2-9815-4fa9-a27c-253aaa7f8f63&odds_numerator[0]=2&odds_denominator[0]=1",
-   "prices": {
-    "DraftKings": 1.65,
-    "theScore Bet": 1.67,
-    "FanDuel": 1.67
-   },
-   "links": {
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87374497_1",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=488c66c2-9815-4fa9-a27c-253aaa7f8f63&odds_numerator[0]=2&odds_denominator[0]=1",
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627913567&selectionId=719467"
-   },
-   "open": [
-    "2026-11-23T09:00:43+00:00",
-    1.67,
-    0.5895
-   ],
-   "hist": [
-    [
-     "2026-11-23T09:00:43+00:00",
-     1.67,
-     0.5895
-    ]
-   ],
-   "lag": false
-  },
-  {
-   "sport": "COLLEGE BASKETBALL",
-   "event": "Tulane Green Wave @ Georgia St Panthers",
-   "pick": "Georgia St Panthers",
-   "opp": "Tulane Green Wave",
-   "start": "2026-11-23T21:00:00+00:00",
-   "book": "FanDuel",
-   "odds": 1.82,
-   "prob": 0.5301,
-   "edge": -0.0353,
-   "value": "over",
-   "value_txt": "Overpriced: the book is charging a lot here",
-   "units": 0.0,
-   "stake": 0.0,
-   "to_win": 0.0,
-   "tier": null,
-   "fair_odds": 1.89,
-   "why": [
-    "Sharp books give Georgia St Panthers a 53% chance to win (Tulane Green Wave 47%).",
-    "Tulane Green Wave: 2-3, 0-2 on the road, 78.4 pts/game, top: Krystian Lewis 23.2 PPG."
-   ],
-   "injuries": [],
-   "n_sharp": 3,
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627899856&selectionId=707381",
-   "prices": {
-    "FanDuel": 1.82,
-    "DraftKings": 1.8
-   },
-   "links": {
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627899856&selectionId=707381",
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87374496_1"
-   },
-   "open": [
-    "2026-11-23T09:00:43+00:00",
-    1.82,
-    0.5301
-   ],
-   "hist": [
-    [
-     "2026-11-23T09:00:43+00:00",
-     1.82,
-     0.5301
-    ]
-   ],
-   "lag": false
-  },
-  {
    "sport": "NBA",
    "event": "Memphis Grizzlies @ Charlotte Hornets",
    "pick": "Memphis Grizzlies",
    "opp": "Charlotte Hornets",
    "start": "2026-11-24T00:10:00+00:00",
-   "book": "theScore Bet",
-   "odds": 1.71,
+   "book": "FanDuel",
+   "odds": 1.68,
    "prob": 0.58,
-   "edge": -0.0082,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.12,
-   "to_win": 0.8,
+   "edge": -0.0256,
+   "value": "over",
+   "value_txt": "Overpriced: the book is charging a lot here",
+   "units": 0.0,
+   "stake": 0.0,
+   "to_win": 0.0,
    "tier": null,
    "fair_odds": 1.72,
    "why": [
@@ -696,11 +601,11 @@
     }
    ],
    "n_sharp": 5,
-   "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=ef972490-93e5-41f4-8312-5bb77763f654&odds_numerator[0]=2&odds_denominator[0]=1",
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627423058&selectionId=237491",
    "prices": {
-    "FanDuel": 1.69,
-    "DraftKings": 1.68,
-    "theScore Bet": 1.71
+    "FanDuel": 1.68,
+    "DraftKings": 1.65,
+    "theScore Bet": 1.65
    },
    "links": {
     "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627423058&selectionId=237491",
@@ -717,6 +622,11 @@
      "2026-11-23T18:49:31+00:00",
      1.71,
      0.58
+    ],
+    [
+     "2026-11-23T21:00:23+00:00",
+     1.68,
+     0.58
     ]
    ],
    "lag": false
@@ -729,8 +639,8 @@
    "start": "2026-11-24T00:10:00+00:00",
    "book": "FanDuel",
    "odds": 1.75,
-   "prob": 0.5602,
-   "edge": -0.0197,
+   "prob": 0.5579,
+   "edge": -0.0236,
    "value": "slight",
    "value_txt": "A bit overpriced (books' cut)",
    "units": 0.25,
@@ -767,8 +677,8 @@
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627423061&selectionId=40274538",
    "prices": {
     "FanDuel": 1.75,
-    "DraftKings": 1.74,
-    "theScore Bet": 1.74
+    "DraftKings": 1.7,
+    "theScore Bet": 1.71
    },
    "links": {
     "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627423061&selectionId=40274538",
@@ -861,13 +771,13 @@
    "start": "2026-11-24T00:40:00+00:00",
    "book": "FanDuel",
    "odds": 1.2,
-   "prob": 0.8296,
-   "edge": -0.0045,
-   "value": "fair",
-   "value_txt": "Fair price",
-   "units": 0.5,
-   "stake": 2.25,
-   "to_win": 0.45,
+   "prob": 0.8279,
+   "edge": -0.0065,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.25,
+   "stake": 1.12,
+   "to_win": 0.22,
    "tier": null,
    "fair_odds": 1.21,
    "why": [
@@ -895,8 +805,8 @@
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627423055&selectionId=237478",
    "prices": {
     "FanDuel": 1.2,
-    "DraftKings": 1.16,
-    "theScore Bet": 1.14
+    "DraftKings": 1.18,
+    "theScore Bet": 1.17
    },
    "links": {
     "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627423055&selectionId=237478",
@@ -925,8 +835,8 @@
    "start": "2026-11-24T00:40:00+00:00",
    "book": "theScore Bet",
    "odds": 1.44,
-   "prob": 0.6711,
-   "edge": -0.0336,
+   "prob": 0.6725,
+   "edge": -0.0316,
    "value": "over",
    "value_txt": "Overpriced: the book is charging a lot here",
    "units": 0.0,
@@ -992,14 +902,14 @@
    "opp": "Milwaukee Bucks",
    "start": "2026-11-24T00:40:00+00:00",
    "book": "FanDuel",
-   "odds": 1.21,
-   "prob": 0.8021,
-   "edge": -0.0295,
-   "value": "over",
-   "value_txt": "Overpriced: the book is charging a lot here",
-   "units": 0.0,
-   "stake": 0.0,
-   "to_win": 0.0,
+   "odds": 1.22,
+   "prob": 0.8007,
+   "edge": -0.0232,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.25,
+   "stake": 1.12,
+   "to_win": 0.25,
    "tier": null,
    "fair_odds": 1.25,
    "why": [
@@ -1021,7 +931,7 @@
    "n_sharp": 5,
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627423067&selectionId=237476",
    "prices": {
-    "FanDuel": 1.21,
+    "FanDuel": 1.22,
     "DraftKings": 1.21,
     "theScore Bet": 1.2
    },
@@ -1040,6 +950,11 @@
      "2026-11-23T18:49:31+00:00",
      1.21,
      0.8021
+    ],
+    [
+     "2026-11-23T21:00:23+00:00",
+     1.22,
+     0.8007
     ]
    ],
    "lag": false
@@ -1321,17 +1236,17 @@
    "start": "2026-11-24T01:10:00+00:00",
    "book": "FanDuel",
    "odds": 1.31,
-   "prob": 0.7493,
-   "edge": -0.0185,
+   "prob": 0.7577,
+   "edge": -0.0075,
    "value": "slight",
    "value_txt": "A bit overpriced (books' cut)",
    "units": 0.25,
    "stake": 1.12,
    "to_win": 0.35,
    "tier": null,
-   "fair_odds": 1.33,
+   "fair_odds": 1.32,
    "why": [
-    "Sharp books give Cleveland Cavaliers a 75% chance to win (Chicago Bulls 23%).",
+    "Sharp books give Cleveland Cavaliers a 76% chance to win (Chicago Bulls 22%).",
     "Cleveland Cavaliers: 9-8, 2-5 on the road, 118.8 pts/game, top: Donovan Mitchell 24.5 PPG.",
     "Chicago Bulls: 4-12, 1-6 at home, 116.6 pts/game, top: Matas Buzelis 15.1 PPG."
    ],
@@ -1376,6 +1291,11 @@
      "2026-11-23T18:49:31+00:00",
      1.31,
      0.7493
+    ],
+    [
+     "2026-11-23T21:00:23+00:00",
+     1.31,
+     0.7577
     ]
    ],
    "lag": false
@@ -1387,16 +1307,16 @@
    "opp": "New Orleans Pelicans",
    "start": "2026-11-24T01:10:00+00:00",
    "book": "FanDuel",
-   "odds": 1.65,
-   "prob": 0.5783,
-   "edge": -0.0458,
-   "value": "over",
-   "value_txt": "Overpriced: the book is charging a lot here",
-   "units": 0.0,
-   "stake": 0.0,
-   "to_win": 0.0,
+   "odds": 1.68,
+   "prob": 0.5817,
+   "edge": -0.0227,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.25,
+   "stake": 1.12,
+   "to_win": 0.76,
    "tier": null,
-   "fair_odds": 1.73,
+   "fair_odds": 1.72,
    "why": [
     "Sharp books give Phoenix Suns a 58% chance to win (New Orleans Pelicans 42%).",
     "Phoenix Suns: 8-7, 3-3 on the road, 113.9 pts/game, top: Devin Booker 24.7 PPG.",
@@ -1422,7 +1342,7 @@
    "n_sharp": 5,
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627423070&selectionId=237487",
    "prices": {
-    "FanDuel": 1.65,
+    "FanDuel": 1.68,
     "DraftKings": 1.65,
     "theScore Bet": 1.65
    },
@@ -1441,6 +1361,11 @@
      "2026-11-23T18:49:31+00:00",
      1.65,
      0.5783
+    ],
+    [
+     "2026-11-23T21:00:23+00:00",
+     1.68,
+     0.5817
     ]
    ],
    "lag": false
@@ -1520,14 +1445,14 @@
    "opp": "Los Angeles Clippers",
    "start": "2026-11-24T01:40:00+00:00",
    "book": "FanDuel",
-   "odds": 1.16,
+   "odds": 1.17,
    "prob": 0.8518,
-   "edge": -0.0119,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.12,
-   "to_win": 0.18,
+   "edge": -0.0034,
+   "value": "fair",
+   "value_txt": "Fair price",
+   "units": 0.5,
+   "stake": 2.25,
+   "to_win": 0.38,
    "tier": null,
    "fair_odds": 1.17,
    "why": [
@@ -1538,7 +1463,7 @@
    "n_sharp": 5,
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627423052&selectionId=237488",
    "prices": {
-    "FanDuel": 1.16,
+    "FanDuel": 1.17,
     "DraftKings": 1.15,
     "theScore Bet": 1.13
    },
@@ -1556,6 +1481,11 @@
     [
      "2026-11-23T18:49:31+00:00",
      1.16,
+     0.8518
+    ],
+    [
+     "2026-11-23T21:00:23+00:00",
+     1.17,
      0.8518
     ]
    ],
@@ -1635,8 +1565,8 @@
    "start": "2026-11-24T03:10:00+00:00",
    "book": "FanDuel",
    "odds": 1.13,
-   "prob": 0.8729,
-   "edge": -0.0137,
+   "prob": 0.8724,
+   "edge": -0.0142,
    "value": "slight",
    "value_txt": "A bit overpriced (books' cut)",
    "units": 0.25,
@@ -1698,19 +1628,19 @@
    "pick": "San Antonio Spurs",
    "opp": "Sacramento Kings",
    "start": "2026-11-24T03:10:00+00:00",
-   "book": "FanDuel",
-   "odds": 1.21,
-   "prob": 0.8088,
-   "edge": -0.0213,
+   "book": "DraftKings",
+   "odds": 1.17,
+   "prob": 0.8457,
+   "edge": -0.0105,
    "value": "slight",
    "value_txt": "A bit overpriced (books' cut)",
    "units": 0.25,
    "stake": 1.12,
-   "to_win": 0.24,
+   "to_win": 0.19,
    "tier": null,
-   "fair_odds": 1.24,
+   "fair_odds": 1.18,
    "why": [
-    "Sharp books give San Antonio Spurs a 81% chance to win (Sacramento Kings 17%).",
+    "Sharp books give San Antonio Spurs a 85% chance to win (Sacramento Kings 13%).",
     "San Antonio Spurs: 14-3, 7-0 on the road, 117.3 pts/game, top: Victor Wembanyama 29.9 PPG.",
     "Sacramento Kings: 2-14, 1-9 at home, 106.8 pts/game, top: Darius Acuff Jr. 25.4 PPG."
    ],
@@ -1733,11 +1663,11 @@
     }
    ],
    "n_sharp": 5,
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627423046&selectionId=237471",
+   "link": "https://sportsbook.draftkings.com/?outcomes=0ML87354227_3",
    "prices": {
-    "FanDuel": 1.21,
-    "DraftKings": 1.21,
-    "theScore Bet": 1.18
+    "FanDuel": 1.16,
+    "DraftKings": 1.17,
+    "theScore Bet": 1.14
    },
    "links": {
     "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627423046&selectionId=237471",
@@ -1754,6 +1684,11 @@
      "2026-11-23T18:49:31+00:00",
      1.21,
      0.8088
+    ],
+    [
+     "2026-11-23T21:00:23+00:00",
+     1.17,
+     0.8457
     ]
    ],
    "lag": false
@@ -1829,80 +1764,27 @@
   {
    "label": "Safest 4x+",
    "book": "theScore Bet",
-   "odds": 4.01,
-   "prob": 0.2371,
-   "ev": -0.0493,
-   "units": 0.5,
-   "stake": 2.25,
-   "to_win": 6.77,
-   "legs": [
-    {
-     "pick": "New Jersey Devils",
-     "event": "Columbus Blue Jackets @ New Jersey Devils",
-     "sport": "NHL",
-     "odds": 1.51,
-     "prob": 0.645,
-     "start": "2026-11-24T00:10:00+00:00",
-     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=88f27a21-c348-4e19-a5c6-48a1d26a1cb6&odds_numerator[0]=2&odds_denominator[0]=1",
-     "sid": [
-      "b67c4bee-230f-4465-997e-b58f37fae846",
-      "88f27a21-c348-4e19-a5c6-48a1d26a1cb6",
-      "4e1e34bb-f2c8-4723-b732-e42a629e93e9"
-     ]
-    },
-    {
-     "pick": "Minnesota Wild",
-     "event": "Minnesota Wild @ San Jose Sharks",
-     "sport": "NHL",
-     "odds": 1.59,
-     "prob": 0.623,
-     "start": "2026-11-24T03:10:00+00:00",
-     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=4c7ae6ed-0e5e-4ae5-b02a-36f9a15acd1f&odds_numerator[0]=2&odds_denominator[0]=1",
-     "sid": [
-      "da10e45b-0238-48cd-a7d2-ec908c63a318",
-      "4c7ae6ed-0e5e-4ae5-b02a-36f9a15acd1f",
-      "a92a148c-44a7-427e-a900-12c677bc8b26"
-     ]
-    },
-    {
-     "pick": "Belmont Bruins",
-     "event": "Yale Bulldogs @ Belmont Bruins",
-     "sport": "COLLEGE BASKETBALL",
-     "odds": 1.67,
-     "prob": 0.59,
-     "start": "2026-11-23T21:00:00+00:00",
-     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=488c66c2-9815-4fa9-a27c-253aaa7f8f63&odds_numerator[0]=2&odds_denominator[0]=1",
-     "sid": [
-      "77aadd3e-0e21-4fbb-a6e0-adee3af9ee1c",
-      "488c66c2-9815-4fa9-a27c-253aaa7f8f63",
-      "78b96e75-ef36-4ee1-a5fd-454f0827d628"
-     ]
-    }
-   ],
-   "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=88f27a21-c348-4e19-a5c6-48a1d26a1cb6&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=4c7ae6ed-0e5e-4ae5-b02a-36f9a15acd1f&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=488c66c2-9815-4fa9-a27c-253aaa7f8f63&odds_numerator[2]=2&odds_denominator[2]=1",
-   "alts": [
-    {
-     "book": "DraftKings",
-     "odds": 3.74,
-     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87329223_1+0ML87329229_3+0ML87374497_1"
-    },
-    {
-     "book": "FanDuel",
-     "odds": 3.83,
-     "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.626715130&selectionId[0]=25586&marketId[1]=42.626715430&selectionId[1]=25604&marketId[2]=42.627913567&selectionId[2]=719467"
-    }
-   ]
-  },
-  {
-   "label": "Next safest 4x+",
-   "book": "theScore Bet",
    "odds": 4.05,
-   "prob": 0.2364,
-   "ev": -0.0433,
+   "prob": 0.2322,
+   "ev": -0.059,
    "units": 0.5,
    "stake": 2.25,
-   "to_win": 6.85,
+   "to_win": 6.87,
    "legs": [
+    {
+     "pick": "Cleveland Cavaliers",
+     "event": "Cleveland Cavaliers @ Chicago Bulls",
+     "sport": "NBA",
+     "odds": 1.29,
+     "prob": 0.758,
+     "start": "2026-11-24T01:10:00+00:00",
+     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=c51c5f73-348f-48c6-8810-94dc28d8d14d&odds_numerator[0]=2&odds_denominator[0]=1",
+     "sid": [
+      "e808aff1-9e85-4ee8-9f6a-d37cc4e17847",
+      "c51c5f73-348f-48c6-8810-94dc28d8d14d",
+      "f5c2b34f-6758-4e3c-b01d-3cfb14cefbf5"
+     ]
+    },
     {
      "pick": "Cincinnati Bengals",
      "event": "Cincinnati Bengals @ Washington Commanders",
@@ -1918,45 +1800,126 @@
      ]
     },
     {
-     "pick": "Memphis Grizzlies",
-     "event": "Memphis Grizzlies @ Charlotte Hornets",
-     "sport": "NBA",
-     "odds": 1.71,
-     "prob": 0.58,
-     "start": "2026-11-24T00:10:00+00:00",
-     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=ef972490-93e5-41f4-8312-5bb77763f654&odds_numerator[0]=2&odds_denominator[0]=1",
+     "pick": "Ottawa Senators",
+     "event": "Calgary Flames @ Ottawa Senators",
+     "sport": "NHL",
+     "odds": 1.4,
+     "prob": 0.701,
+     "start": "2026-11-24T00:40:00+00:00",
+     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=ee62fc21-57d1-4fa0-af2e-0c65cb22b88c&odds_numerator[0]=2&odds_denominator[0]=1",
      "sid": [
-      "2bd86339-6683-4375-8b5a-9929c89bfe2e",
-      "ef972490-93e5-41f4-8312-5bb77763f654",
-      "e5960aec-cd2d-4577-b846-1e22e4552c1a"
+      "68270035-09c5-4297-82f9-c14f160688cf",
+      "ee62fc21-57d1-4fa0-af2e-0c65cb22b88c",
+      "f87a34d0-46f0-4e22-aaef-1a0067c586e8"
      ]
     },
     {
-     "pick": "Philadelphia 76ers",
-     "event": "Portland Trail Blazers @ Philadelphia 76ers",
-     "sport": "NBA",
-     "odds": 1.74,
-     "prob": 0.56,
-     "start": "2026-11-24T00:10:00+00:00",
-     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=df53f30a-3ec0-4e1e-828d-c0acd187082e&odds_numerator[0]=2&odds_denominator[0]=1",
+     "pick": "New York Islanders",
+     "event": "Toronto Maple Leafs @ New York Islanders",
+     "sport": "NHL",
+     "odds": 1.65,
+     "prob": 0.6,
+     "start": "2026-11-24T00:40:00+00:00",
+     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=3c3cdb02-6202-41aa-a976-18d7784ef194&odds_numerator[0]=2&odds_denominator[0]=1",
      "sid": [
-      "29f3e83e-ddd6-47db-873e-83628bb094b5",
-      "df53f30a-3ec0-4e1e-828d-c0acd187082e",
-      "b4c48b69-df45-44ec-b41c-fe0d122e4026"
+      "06cb14da-b261-4158-8881-2fb6ddf0cb88",
+      "3c3cdb02-6202-41aa-a976-18d7784ef194",
+      "b85705e8-d747-4cfd-ae11-9a75c43edbd5"
      ]
     }
    ],
-   "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=c3abe1a6-e97a-4f3b-b936-da9808bc3452&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=ef972490-93e5-41f4-8312-5bb77763f654&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=df53f30a-3ec0-4e1e-828d-c0acd187082e&odds_numerator[2]=2&odds_denominator[2]=1",
+   "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=c51c5f73-348f-48c6-8810-94dc28d8d14d&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=c3abe1a6-e97a-4f3b-b936-da9808bc3452&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=ee62fc21-57d1-4fa0-af2e-0c65cb22b88c&odds_numerator[2]=2&odds_denominator[2]=1&market_selection_id[3]=3c3cdb02-6202-41aa-a976-18d7784ef194&odds_numerator[3]=2&odds_denominator[3]=1",
    "alts": [
     {
      "book": "DraftKings",
      "odds": 3.89,
-     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML84695496_3+0ML87354218_3+0ML87354219_1"
+     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87354223_3+0ML84695496_3+0ML87329227_1+0ML87329219_1"
     },
     {
      "book": "FanDuel",
-     "odds": 3.96,
-     "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.624292690&selectionId[0]=50210&marketId[1]=42.627423058&selectionId[1]=237491&marketId[2]=42.627423061&selectionId[2]=40274538"
+     "odds": 3.93,
+     "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.627423064&selectionId[0]=60424&marketId[1]=42.624292690&selectionId[1]=50210&marketId[2]=42.626715370&selectionId[2]=25599&marketId[3]=42.626715187&selectionId[3]=136344"
+    }
+   ]
+  },
+  {
+   "label": "Next safest 4x+",
+   "book": "FanDuel",
+   "odds": 4.03,
+   "prob": 0.2301,
+   "ev": -0.0729,
+   "units": 0.5,
+   "stake": 2.25,
+   "to_win": 6.81,
+   "legs": [
+    {
+     "pick": "Houston Rockets",
+     "event": "Los Angeles Clippers @ Houston Rockets",
+     "sport": "NBA",
+     "odds": 1.17,
+     "prob": 0.852,
+     "start": "2026-11-24T01:40:00+00:00",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627423052&selectionId=237488",
+     "sid": [
+      null,
+      "237488",
+      "36345803"
+     ]
+    },
+    {
+     "pick": "Toronto Raptors",
+     "event": "Milwaukee Bucks @ Toronto Raptors",
+     "sport": "NBA",
+     "odds": 1.22,
+     "prob": 0.801,
+     "start": "2026-11-24T00:40:00+00:00",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627423067&selectionId=237476",
+     "sid": [
+      null,
+      "237476",
+      "36345810"
+     ]
+    },
+    {
+     "pick": "Phoenix Suns",
+     "event": "Phoenix Suns @ New Orleans Pelicans",
+     "sport": "NBA",
+     "odds": 1.68,
+     "prob": 0.582,
+     "start": "2026-11-24T01:10:00+00:00",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627423070&selectionId=237487",
+     "sid": [
+      null,
+      "237487",
+      "36345811"
+     ]
+    },
+    {
+     "pick": "Memphis Grizzlies",
+     "event": "Memphis Grizzlies @ Charlotte Hornets",
+     "sport": "NBA",
+     "odds": 1.68,
+     "prob": 0.58,
+     "start": "2026-11-24T00:10:00+00:00",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627423058&selectionId=237491",
+     "sid": [
+      null,
+      "237491",
+      "36345809"
+     ]
+    }
+   ],
+   "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.627423052&selectionId[0]=237488&marketId[1]=42.627423067&selectionId[1]=237476&marketId[2]=42.627423070&selectionId[2]=237487&marketId[3]=42.627423058&selectionId[3]=237491",
+   "alts": [
+    {
+     "book": "DraftKings",
+     "odds": 3.79,
+     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87354225_1+0ML87354222_1+0ML87354224_3+0ML87354218_3"
+    },
+    {
+     "book": "theScore Bet",
+     "odds": 3.69,
+     "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=7d7d1d61-3e35-4294-a693-a74df18bf40e&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=ad7592b2-7a45-4049-ac27-6e7286c91520&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=143e1c19-5677-4d17-ae37-7352e5629c5a&odds_numerator[2]=2&odds_denominator[2]=1&market_selection_id[3]=ef972490-93e5-41f4-8312-5bb77763f654&odds_numerator[3]=2&odds_denominator[3]=1"
     }
    ]
   }

@@ -1,7 +1,7 @@
 {
  "version": 25,
- "updated": "2026-11-23T08:32:13+00:00",
- "last_scan": "2026-11-23T08:02:03+00:00",
+ "updated": "2026-11-23T09:00:43+00:00",
+ "last_scan": "2026-11-23T09:00:43+00:00",
  "unit": 4.5,
  "bankroll": 236.88,
  "bank_start": 250.0,
@@ -14,13 +14,13 @@
    "pick": "St. Bonaventure Bonnies",
    "book": "FanDuel",
    "odds": 1.49,
-   "now_odds": 1.49,
+   "now_odds": 1.52,
    "prob": 0.6682,
    "edge": -0.0044,
    "units": 0.25,
    "stake": 1.12,
    "to_win": 0.55,
-   "min_odds": 1.5,
+   "min_odds": 1.53,
    "start": "2026-11-23T16:00:00+00:00",
    "started": false,
    "status": "open",
@@ -29,7 +29,7 @@
    "flag": null,
    "posted_at": "2026-11-23T06:00:34+00:00",
    "prices": {
-    "FanDuel": 1.49,
+    "FanDuel": 1.52,
     "DraftKings": 1.44,
     "theScore Bet": 1.47
    },
@@ -38,8 +38,8 @@
     "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87374486_3",
     "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=b94691c2-3c97-4961-944a-b84eb6803f36&odds_numerator[0]=2&odds_denominator[0]=1"
    },
-   "fair_odds": 1.5,
-   "now_edge": -0.0044,
+   "fair_odds": 1.53,
+   "now_edge": -0.0063,
    "open": [
     "2026-11-23T06:00:34+00:00",
     1.49,
@@ -50,6 +50,11 @@
      "2026-11-23T06:00:34+00:00",
      1.49,
      0.6682
+    ],
+    [
+     "2026-11-23T09:00:43+00:00",
+     1.52,
+     0.6537
     ]
    ],
    "injuries": [],
@@ -68,7 +73,7 @@
    "units": 0.25,
    "stake": 1.12,
    "to_win": 0.82,
-   "min_odds": 1.74,
+   "min_odds": 1.73,
    "start": "2026-11-23T17:30:00+00:00",
    "started": false,
    "status": "open",
@@ -86,8 +91,8 @@
     "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87374487_1",
     "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=4168c83d-e9b2-4e65-aba3-8e877eddabd4&odds_numerator[0]=2&odds_denominator[0]=1"
    },
-   "fair_odds": 1.73,
-   "now_edge": -0.0001,
+   "fair_odds": 1.72,
+   "now_edge": 0.0048,
    "open": [
     "2026-11-23T06:00:34+00:00",
     1.73,
@@ -301,7 +306,7 @@
    "on": true
   }
  },
- "watching": 11,
+ "watching": 25,
  "history": [
   {
    "type": "lean",
@@ -551,25 +556,25 @@
    "opp": "Appalachian St Mountaineers",
    "start": "2026-11-23T16:00:00+00:00",
    "book": "FanDuel",
-   "odds": 1.49,
-   "prob": 0.6682,
-   "edge": -0.0044,
-   "value": "fair",
-   "value_txt": "Fair price",
-   "units": 0.5,
-   "stake": 2.25,
-   "to_win": 1.1,
+   "odds": 1.52,
+   "prob": 0.6537,
+   "edge": -0.0063,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.25,
+   "stake": 1.12,
+   "to_win": 0.58,
    "tier": "lean",
-   "fair_odds": 1.5,
+   "fair_odds": 1.53,
    "why": [
-    "Sharp books give St. Bonaventure Bonnies a 67% chance to win (Appalachian St Mountaineers 33%).",
+    "Sharp books give St. Bonaventure Bonnies a 65% chance to win (Appalachian St Mountaineers 34%).",
     "St. Bonaventure Bonnies: 4-1, 3-1 at home, 81.2 pts/game, top: Benjamin Bill 15.6 PPG."
    ],
    "injuries": [],
    "n_sharp": 3,
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627911683&selectionId=701609",
    "prices": {
-    "FanDuel": 1.49,
+    "FanDuel": 1.52,
     "DraftKings": 1.44,
     "theScore Bet": 1.47
    },
@@ -588,6 +593,11 @@
      "2026-11-23T06:00:34+00:00",
      1.49,
      0.6682
+    ],
+    [
+     "2026-11-23T09:00:43+00:00",
+     1.52,
+     0.6537
     ]
    ],
    "lag": false
@@ -600,15 +610,15 @@
    "start": "2026-11-23T16:00:00+00:00",
    "book": "theScore Bet",
    "odds": 1.47,
-   "prob": 0.6724,
-   "edge": -0.0116,
+   "prob": 0.6748,
+   "edge": -0.008,
    "value": "slight",
    "value_txt": "A bit overpriced (books' cut)",
    "units": 0.25,
    "stake": 1.12,
    "to_win": 0.53,
    "tier": null,
-   "fair_odds": 1.49,
+   "fair_odds": 1.48,
    "why": [
     "Sharp books give Davidson Wildcats a 67% chance to win (Northern Iowa Panthers 32%).",
     "Davidson Wildcats: 3-2, 2-2 at home, 70.0 pts/game, top: Nick Janowski 16.0 PPG.",
@@ -649,15 +659,15 @@
    "start": "2026-11-23T17:30:00+00:00",
    "book": "FanDuel",
    "odds": 1.73,
-   "prob": 0.578,
-   "edge": -0.0001,
+   "prob": 0.5808,
+   "edge": 0.0048,
    "value": "fair",
    "value_txt": "Fair price",
    "units": 0.5,
    "stake": 2.25,
    "to_win": 1.64,
    "tier": "lean",
-   "fair_odds": 1.73,
+   "fair_odds": 1.72,
    "why": [
     "Sharp books give East Carolina Pirates a 58% chance to win (Indiana St Sycamores 42%).",
     "East Carolina Pirates: 3-3, 3-1 at home, 75.0 pts/game, top: Trevor Best 14.3 PPG."
@@ -695,15 +705,15 @@
    "pick": "Florida Int'l Golden Panthers",
    "opp": "Long Beach St 49ers",
    "start": "2026-11-23T18:00:00+00:00",
-   "book": "DraftKings",
-   "odds": 1.21,
-   "prob": 0.8174,
-   "edge": -0.011,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.12,
-   "to_win": 0.24,
+   "book": "FanDuel",
+   "odds": 1.19,
+   "prob": 0.8166,
+   "edge": -0.0282,
+   "value": "over",
+   "value_txt": "Overpriced: the book is charging a lot here",
+   "units": 0.0,
+   "stake": 0.0,
+   "to_win": 0.0,
    "tier": null,
    "fair_odds": 1.22,
    "why": [
@@ -711,14 +721,16 @@
    ],
    "injuries": [],
    "n_sharp": 2,
-   "link": "https://sportsbook.draftkings.com/?outcomes=0ML87374488_1",
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627896096&selectionId=723297",
    "prices": {
     "FanDuel": 1.19,
-    "DraftKings": 1.21
+    "DraftKings": 1.19,
+    "theScore Bet": 1.17
    },
    "links": {
     "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627896096&selectionId=723297",
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87374488_1"
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87374488_1",
+    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=5812d3c6-1dd5-4d4d-97d6-b5da42e5628d&odds_numerator[0]=2&odds_denominator[0]=1"
    },
    "open": [
     "2026-11-23T06:00:34+00:00",
@@ -730,6 +742,344 @@
      "2026-11-23T06:00:34+00:00",
      1.21,
      0.8174
+    ],
+    [
+     "2026-11-23T09:00:43+00:00",
+     1.19,
+     0.8166
+    ]
+   ],
+   "lag": false
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "Akron Zips @ Wright St Raiders",
+   "pick": "Wright St Raiders",
+   "opp": "Akron Zips",
+   "start": "2026-11-23T18:30:00+00:00",
+   "book": "FanDuel",
+   "odds": 1.82,
+   "prob": 0.5454,
+   "edge": -0.0074,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.0,
+   "stake": 0.0,
+   "to_win": 0.0,
+   "tier": null,
+   "fair_odds": 1.83,
+   "why": [
+    "Sharp books give Wright St Raiders a 55% chance to win (Akron Zips 45%).",
+    "Akron Zips: 4-1, 3-0 at home, 83.4 pts/game, top: Tahj Staveskie 16.8 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 3,
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627897089&selectionId=705249",
+   "prices": {
+    "FanDuel": 1.82,
+    "DraftKings": 1.82,
+    "theScore Bet": 1.8
+   },
+   "links": {
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627897089&selectionId=705249",
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87374489_1",
+    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=2d926266-df6f-4d20-b72a-f23fb6b04d2b&odds_numerator[0]=2&odds_denominator[0]=1"
+   },
+   "open": [
+    "2026-11-23T09:00:43+00:00",
+    1.82,
+    0.5454
+   ],
+   "hist": [
+    [
+     "2026-11-23T09:00:43+00:00",
+     1.82,
+     0.5454
+    ]
+   ],
+   "lag": false
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "Tulsa Golden Hurricane @ Oregon St Beavers",
+   "pick": "Oregon St Beavers",
+   "opp": "Tulsa Golden Hurricane",
+   "start": "2026-11-23T19:00:00+00:00",
+   "book": "FanDuel",
+   "odds": 1.38,
+   "prob": 0.7132,
+   "edge": -0.0158,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.25,
+   "stake": 1.12,
+   "to_win": 0.43,
+   "tier": null,
+   "fair_odds": 1.4,
+   "why": [
+    "Sharp books give Oregon St Beavers a 71% chance to win (Tulsa Golden Hurricane 27%).",
+    "Tulsa Golden Hurricane: 4-1, 0-0 on the road, 80.0 pts/game, top: Jaylen Lawal 15.0 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 3,
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627897095&selectionId=697700",
+   "prices": {
+    "DraftKings": 1.35,
+    "FanDuel": 1.38,
+    "theScore Bet": 1.38
+   },
+   "links": {
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87374491_1",
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627897095&selectionId=697700",
+    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=75a58ccd-b0ed-4b76-bda6-a93f55db4500&odds_numerator[0]=2&odds_denominator[0]=1"
+   },
+   "open": [
+    "2026-11-23T09:00:43+00:00",
+    1.38,
+    0.7132
+   ],
+   "hist": [
+    [
+     "2026-11-23T09:00:43+00:00",
+     1.38,
+     0.7132
+    ]
+   ],
+   "lag": false
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "Ole Miss Rebels @ Clemson Tigers",
+   "pick": "Ole Miss Rebels",
+   "opp": "Clemson Tigers",
+   "start": "2026-11-23T19:30:00+00:00",
+   "book": "DraftKings",
+   "odds": 1.4,
+   "prob": 0.6923,
+   "edge": -0.0308,
+   "value": "over",
+   "value_txt": "Overpriced: the book is charging a lot here",
+   "units": 0.0,
+   "stake": 0.0,
+   "to_win": 0.0,
+   "tier": null,
+   "fair_odds": 1.44,
+   "why": [
+    "Sharp books give Ole Miss Rebels a 69% chance to win (Clemson Tigers 30%).",
+    "Ole Miss Rebels: 4-0, 0-0 on the road, 89.5 pts/game, top: Adam Clark 15.5 PPG.",
+    "Clemson Tigers: 4-1, 4-1 at home, 84.8 pts/game, top: Ace Buckner 17.0 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 3,
+   "link": "https://sportsbook.draftkings.com/?outcomes=0ML87374492_3",
+   "prices": {
+    "DraftKings": 1.4,
+    "FanDuel": 1.4
+   },
+   "links": {
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87374492_3",
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627897168&selectionId=5991319"
+   },
+   "open": [
+    "2026-11-23T09:00:43+00:00",
+    1.4,
+    0.6923
+   ],
+   "hist": [
+    [
+     "2026-11-23T09:00:43+00:00",
+     1.4,
+     0.6923
+    ]
+   ],
+   "lag": false
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "Middle Tennessee Blue Raiders @ Southern Illinois Salukis",
+   "pick": "Southern Illinois Salukis",
+   "opp": "Middle Tennessee Blue Raiders",
+   "start": "2026-11-23T20:00:00+00:00",
+   "book": "FanDuel",
+   "odds": 1.75,
+   "prob": 0.5625,
+   "edge": -0.0156,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.25,
+   "stake": 1.12,
+   "to_win": 0.84,
+   "tier": null,
+   "fair_odds": 1.78,
+   "why": [
+    "Sharp books give Southern Illinois Salukis a 56% chance to win (Middle Tennessee Blue Raiders 44%).",
+    "Southern Illinois Salukis: 3-3, 2-0 at home, 81.8 pts/game, top: Jalen Haynes 25.2 PPG.",
+    "Middle Tennessee Blue Raiders: 5-2, 1-1 on the road, 79.0 pts/game, top: Quintero Barnett 17.1 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 1,
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627985315&selectionId=725097",
+   "prices": {
+    "DraftKings": 1.74,
+    "FanDuel": 1.75
+   },
+   "links": {
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87374493_1",
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627985315&selectionId=725097"
+   },
+   "open": [
+    "2026-11-23T09:00:43+00:00",
+    1.75,
+    0.5625
+   ],
+   "hist": [
+    [
+     "2026-11-23T09:00:43+00:00",
+     1.75,
+     0.5625
+    ]
+   ],
+   "lag": false
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "Arkansas St Red Wolves @ Southern Utah Thunderbirds",
+   "pick": "Arkansas St Red Wolves",
+   "opp": "Southern Utah Thunderbirds",
+   "start": "2026-11-23T20:30:00+00:00",
+   "book": "theScore Bet",
+   "odds": 1.33,
+   "prob": 0.743,
+   "edge": -0.0118,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.25,
+   "stake": 1.12,
+   "to_win": 0.37,
+   "tier": null,
+   "fair_odds": 1.35,
+   "why": [
+    "Sharp books give Arkansas St Red Wolves a 74% chance to win (Southern Utah Thunderbirds 24%).",
+    "Southern Utah Thunderbirds: 3-3, 0-3 on the road, 92.0 pts/game, top: Anthony Breland 11.7 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 1,
+   "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=cfbeb38d-4903-4ae9-98f2-f74ed0242136&odds_numerator[0]=2&odds_denominator[0]=1",
+   "prices": {
+    "DraftKings": 1.31,
+    "theScore Bet": 1.33,
+    "FanDuel": 1.31
+   },
+   "links": {
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87374494_3",
+    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=cfbeb38d-4903-4ae9-98f2-f74ed0242136&odds_numerator[0]=2&odds_denominator[0]=1",
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627911500&selectionId=715478"
+   },
+   "open": [
+    "2026-11-23T09:00:43+00:00",
+    1.33,
+    0.743
+   ],
+   "hist": [
+    [
+     "2026-11-23T09:00:43+00:00",
+     1.33,
+     0.743
+    ]
+   ],
+   "lag": false
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "Yale Bulldogs @ Belmont Bruins",
+   "pick": "Belmont Bruins",
+   "opp": "Yale Bulldogs",
+   "start": "2026-11-23T21:00:00+00:00",
+   "book": "theScore Bet",
+   "odds": 1.67,
+   "prob": 0.5895,
+   "edge": -0.0155,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.25,
+   "stake": 1.12,
+   "to_win": 0.75,
+   "tier": null,
+   "fair_odds": 1.7,
+   "why": [
+    "Sharp books give Belmont Bruins a 59% chance to win (Yale Bulldogs 41%).",
+    "Belmont Bruins: 4-1, 0-1 on the road, 76.0 pts/game, top: Jack Smiley 19.2 PPG.",
+    "Yale Bulldogs: 3-3, 3-0 at home, 76.7 pts/game, top: Trevor Mullin 16.0 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 2,
+   "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=488c66c2-9815-4fa9-a27c-253aaa7f8f63&odds_numerator[0]=2&odds_denominator[0]=1",
+   "prices": {
+    "DraftKings": 1.65,
+    "theScore Bet": 1.67,
+    "FanDuel": 1.67
+   },
+   "links": {
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87374497_1",
+    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=488c66c2-9815-4fa9-a27c-253aaa7f8f63&odds_numerator[0]=2&odds_denominator[0]=1",
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627913567&selectionId=719467"
+   },
+   "open": [
+    "2026-11-23T09:00:43+00:00",
+    1.67,
+    0.5895
+   ],
+   "hist": [
+    [
+     "2026-11-23T09:00:43+00:00",
+     1.67,
+     0.5895
+    ]
+   ],
+   "lag": false
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "Tulane Green Wave @ Georgia St Panthers",
+   "pick": "Georgia St Panthers",
+   "opp": "Tulane Green Wave",
+   "start": "2026-11-23T21:00:00+00:00",
+   "book": "FanDuel",
+   "odds": 1.82,
+   "prob": 0.5301,
+   "edge": -0.0353,
+   "value": "over",
+   "value_txt": "Overpriced: the book is charging a lot here",
+   "units": 0.0,
+   "stake": 0.0,
+   "to_win": 0.0,
+   "tier": null,
+   "fair_odds": 1.89,
+   "why": [
+    "Sharp books give Georgia St Panthers a 53% chance to win (Tulane Green Wave 47%).",
+    "Tulane Green Wave: 2-3, 0-2 on the road, 78.4 pts/game, top: Krystian Lewis 23.2 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 3,
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627899856&selectionId=707381",
+   "prices": {
+    "FanDuel": 1.82,
+    "DraftKings": 1.8
+   },
+   "links": {
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627899856&selectionId=707381",
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87374496_1"
+   },
+   "open": [
+    "2026-11-23T09:00:43+00:00",
+    1.82,
+    0.5301
+   ],
+   "hist": [
+    [
+     "2026-11-23T09:00:43+00:00",
+     1.82,
+     0.5301
     ]
    ],
    "lag": false
@@ -738,77 +1088,139 @@
  "big_parlays": [
   {
    "label": "Safest 4x+",
-   "book": "DraftKings",
-   "odds": 4.14,
-   "prob": 0.2122,
-   "ev": -0.1213,
+   "book": "FanDuel",
+   "odds": 4.04,
+   "prob": 0.237,
+   "ev": -0.0413,
    "units": 0.5,
    "stake": 2.25,
-   "to_win": 7.06,
+   "to_win": 6.85,
    "legs": [
     {
-     "pick": "Florida Int'l Golden Panthers",
-     "event": "Long Beach St 49ers @ Florida Int'l Golden Panthers",
+     "pick": "Ole Miss Rebels",
+     "event": "Ole Miss Rebels @ Clemson Tigers",
      "sport": "COLLEGE BASKETBALL",
-     "odds": 1.21,
-     "prob": 0.817,
-     "start": "2026-11-23T18:00:00+00:00",
-     "link": "https://sportsbook.draftkings.com/?outcomes=0ML87374488_1",
+     "odds": 1.4,
+     "prob": 0.692,
+     "start": "2026-11-23T19:30:00+00:00",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627897168&selectionId=5991319",
      "sid": [
       null,
-      "0ML87374488_1",
-      "35070612"
+      "5991319",
+      "36352786"
      ]
     },
     {
-     "pick": "Davidson Wildcats",
-     "event": "Northern Iowa Panthers @ Davidson Wildcats",
+     "pick": "Belmont Bruins",
+     "event": "Yale Bulldogs @ Belmont Bruins",
      "sport": "COLLEGE BASKETBALL",
-     "odds": 1.44,
-     "prob": 0.672,
-     "start": "2026-11-23T16:00:00+00:00",
-     "link": "https://sportsbook.draftkings.com/?outcomes=0ML87374485_1",
+     "odds": 1.67,
+     "prob": 0.59,
+     "start": "2026-11-23T21:00:00+00:00",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627913567&selectionId=719467",
      "sid": [
       null,
-      "0ML87374485_1",
-      "35070609"
-     ]
-    },
-    {
-     "pick": "St. Bonaventure Bonnies",
-     "event": "St. Bonaventure Bonnies @ Appalachian St Mountaineers",
-     "sport": "COLLEGE BASKETBALL",
-     "odds": 1.44,
-     "prob": 0.668,
-     "start": "2026-11-23T16:00:00+00:00",
-     "link": "https://sportsbook.draftkings.com/?outcomes=0ML87374486_3",
-     "sid": [
-      null,
-      "0ML87374486_3",
-      "35070610"
+      "719467",
+      "36353063"
      ]
     },
     {
      "pick": "East Carolina Pirates",
      "event": "Indiana St Sycamores @ East Carolina Pirates",
      "sport": "COLLEGE BASKETBALL",
-     "odds": 1.65,
-     "prob": 0.578,
+     "odds": 1.73,
+     "prob": 0.581,
      "start": "2026-11-23T17:30:00+00:00",
-     "link": "https://sportsbook.draftkings.com/?outcomes=0ML87374487_1",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627891912&selectionId=690520",
      "sid": [
       null,
-      "0ML87374487_1",
-      "35070611"
+      "690520",
+      "36352741"
      ]
     }
    ],
-   "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87374488_1+0ML87374485_1+0ML87374486_3+0ML87374487_1",
+   "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.627897168&selectionId[0]=5991319&marketId[1]=42.627913567&selectionId[1]=719467&marketId[2]=42.627891912&selectionId[2]=690520",
    "alts": [
     {
-     "book": "FanDuel",
-     "odds": 4.45,
-     "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.627896096&selectionId[0]=723297&marketId[1]=42.627911462&selectionId[1]=705251&marketId[2]=42.627911683&selectionId[2]=701609&marketId[3]=42.627891912&selectionId[3]=690520"
+     "book": "DraftKings",
+     "odds": 3.81,
+     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87374492_3+0ML87374497_1+0ML87374487_1"
+    }
+   ]
+  },
+  {
+   "label": "Next safest 4x+",
+   "book": "FanDuel",
+   "odds": 4.15,
+   "prob": 0.2231,
+   "ev": -0.0748,
+   "units": 0.5,
+   "stake": 2.25,
+   "to_win": 7.08,
+   "legs": [
+    {
+     "pick": "Florida Int'l Golden Panthers",
+     "event": "Long Beach St 49ers @ Florida Int'l Golden Panthers",
+     "sport": "COLLEGE BASKETBALL",
+     "odds": 1.19,
+     "prob": 0.817,
+     "start": "2026-11-23T18:00:00+00:00",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627896096&selectionId=723297",
+     "sid": [
+      null,
+      "723297",
+      "36352775"
+     ]
+    },
+    {
+     "pick": "Arkansas St Red Wolves",
+     "event": "Arkansas St Red Wolves @ Southern Utah Thunderbirds",
+     "sport": "COLLEGE BASKETBALL",
+     "odds": 1.31,
+     "prob": 0.743,
+     "start": "2026-11-23T20:30:00+00:00",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627911500&selectionId=715478",
+     "sid": [
+      null,
+      "715478",
+      "36353030"
+     ]
+    },
+    {
+     "pick": "St. Bonaventure Bonnies",
+     "event": "St. Bonaventure Bonnies @ Appalachian St Mountaineers",
+     "sport": "COLLEGE BASKETBALL",
+     "odds": 1.52,
+     "prob": 0.654,
+     "start": "2026-11-23T16:00:00+00:00",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627911683&selectionId=701609",
+     "sid": [
+      null,
+      "701609",
+      "36353032"
+     ]
+    },
+    {
+     "pick": "Southern Illinois Salukis",
+     "event": "Middle Tennessee Blue Raiders @ Southern Illinois Salukis",
+     "sport": "COLLEGE BASKETBALL",
+     "odds": 1.75,
+     "prob": 0.563,
+     "start": "2026-11-23T20:00:00+00:00",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627985315&selectionId=725097",
+     "sid": [
+      null,
+      "725097",
+      "36354162"
+     ]
+    }
+   ],
+   "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.627896096&selectionId[0]=723297&marketId[1]=42.627911500&selectionId[1]=715478&marketId[2]=42.627911683&selectionId[2]=701609&marketId[3]=42.627985315&selectionId[3]=725097",
+   "alts": [
+    {
+     "book": "DraftKings",
+     "odds": 3.91,
+     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87374488_1+0ML87374494_3+0ML87374486_3+0ML87374493_1"
     }
    ]
   }

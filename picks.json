@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-23T19:37:14+00:00",
+ "updated": "2026-11-23T19:50:39+00:00",
  "last_scan": "2026-11-23T19:37:14+00:00",
  "unit": 4.5,
  "bankroll": 236.88,
@@ -1028,8 +1028,8 @@
     {
      "team": "Oklahoma City Thunder",
      "list": [
-      "Nikola Topic (G, Out)",
       "Jaylin Williams (F, Out)",
+      "Nikola Topic (G, Out)",
       "Aday Mara (C, Out)",
       "Jalen Williams (G, Out)"
      ]
@@ -1869,17 +1869,17 @@
     {
      "team": "Minnesota Wild",
      "list": [
-      "Quinn Hughes (D, Out)",
+      "Quinn Hughes (D, Injured Reserve)",
       "Olli Maatta (D, Injured Reserve)"
      ]
     },
     {
      "team": "San Jose Sharks",
      "list": [
+      "Jacob Trouba (D, Out)",
       "Kiefer Sherwood (LW, Injured Reserve)",
       "Igor Chernyshov (LW, Injured Reserve)",
-      "Quentin Musty (LW, Injured Reserve)",
-      "Kyle Keyser (G, Injured Reserve)"
+      "Quentin Musty (LW, Injured Reserve)"
      ]
     }
    ],

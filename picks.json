@@ -1,7 +1,7 @@
 {
  "version": 25,
- "updated": "2026-11-23T22:22:07+00:00",
- "last_scan": "2026-11-23T21:00:23+00:00",
+ "updated": "2026-11-23T22:25:14+00:00",
+ "last_scan": "2026-11-23T22:25:14+00:00",
  "unit": 4.5,
  "bankroll": 235.62,
  "bank_start": 250.0,
@@ -707,8 +707,8 @@
    "start": "2026-11-24T00:10:00+00:00",
    "book": "theScore Bet",
    "odds": 1.51,
-   "prob": 0.6453,
-   "edge": -0.0256,
+   "prob": 0.645,
+   "edge": -0.0261,
    "value": "over",
    "value_txt": "Overpriced: the book is charging a lot here",
    "units": 0.0,
@@ -717,7 +717,7 @@
    "tier": null,
    "fair_odds": 1.55,
    "why": [
-    "Sharp books give New Jersey Devils a 65% chance to win (Columbus Blue Jackets 35%).",
+    "Sharp books give New Jersey Devils a 64% chance to win (Columbus Blue Jackets 35%).",
     "New Jersey Devils: 15-8-0, 9-3-0 at home, top: Jack Hughes 10 Goals.",
     "Columbus Blue Jackets: 9-12-0, 3-6-0 on the road, top: Kent Johnson 9 Goals."
    ],
@@ -967,15 +967,15 @@
    "start": "2026-11-24T00:40:00+00:00",
    "book": "theScore Bet",
    "odds": 1.4,
-   "prob": 0.7014,
-   "edge": -0.018,
+   "prob": 0.702,
+   "edge": -0.0172,
    "value": "slight",
    "value_txt": "A bit overpriced (books' cut)",
    "units": 0.25,
    "stake": 1.12,
    "to_win": 0.45,
    "tier": null,
-   "fair_odds": 1.43,
+   "fair_odds": 1.42,
    "why": [
     "Sharp books give Ottawa Senators a 70% chance to win (Calgary Flames 29%).",
     "Ottawa Senators: 15-6-3, 8-2-2 at home, top: Tim Stutzle 13 Goals.",
@@ -1034,8 +1034,8 @@
    "start": "2026-11-24T00:40:00+00:00",
    "book": "DraftKings",
    "odds": 1.65,
-   "prob": 0.5845,
-   "edge": -0.0355,
+   "prob": 0.5838,
+   "edge": -0.0368,
    "value": "over",
    "value_txt": "Overpriced: the book is charging a lot here",
    "units": 0.0,
@@ -1072,8 +1072,8 @@
    "link": "https://sportsbook.draftkings.com/?outcomes=0ML87329231_1",
    "prices": {
     "DraftKings": 1.65,
-    "FanDuel": 1.62,
-    "theScore Bet": 1.61
+    "FanDuel": 1.65,
+    "theScore Bet": 1.65
    },
    "links": {
     "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87329231_1",
@@ -1101,18 +1101,18 @@
    "opp": "Toronto Maple Leafs",
    "start": "2026-11-24T00:40:00+00:00",
    "book": "theScore Bet",
-   "odds": 1.65,
-   "prob": 0.6005,
-   "edge": -0.0092,
+   "odds": 1.67,
+   "prob": 0.5881,
+   "edge": -0.0179,
    "value": "slight",
    "value_txt": "A bit overpriced (books' cut)",
    "units": 0.25,
    "stake": 1.12,
-   "to_win": 0.73,
+   "to_win": 0.75,
    "tier": null,
-   "fair_odds": 1.67,
+   "fair_odds": 1.7,
    "why": [
-    "Sharp books give New York Islanders a 60% chance to win (Toronto Maple Leafs 40%).",
+    "Sharp books give New York Islanders a 59% chance to win (Toronto Maple Leafs 41%).",
     "New York Islanders: 11-6-5, 5-3-2 at home, top: Simon Holmstrom 10 Goals.",
     "Toronto Maple Leafs: 8-14-3, 4-4-1 on the road, top: Auston Matthews 14 Goals."
    ],
@@ -1138,8 +1138,8 @@
    "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=3c3cdb02-6202-41aa-a976-18d7784ef194&odds_numerator[0]=2&odds_denominator[0]=1",
    "prices": {
     "DraftKings": 1.62,
-    "FanDuel": 1.61,
-    "theScore Bet": 1.65
+    "FanDuel": 1.62,
+    "theScore Bet": 1.67
    },
    "links": {
     "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87329219_1",
@@ -1156,6 +1156,11 @@
      "2026-11-23T18:49:31+00:00",
      1.65,
      0.6005
+    ],
+    [
+     "2026-11-23T22:25:14+00:00",
+     1.67,
+     0.5881
     ]
    ],
    "lag": false
@@ -1163,35 +1168,26 @@
   {
    "sport": "NHL",
    "event": "Utah Mammoth @ Winnipeg Jets",
-   "pick": "Winnipeg Jets",
-   "opp": "Utah Mammoth",
+   "pick": "Utah Mammoth",
+   "opp": "Winnipeg Jets",
    "start": "2026-11-24T00:40:00+00:00",
-   "book": "DraftKings",
-   "odds": 1.93,
-   "prob": 0.5063,
-   "edge": -0.0228,
+   "book": "theScore Bet",
+   "odds": 1.95,
+   "prob": 0.5014,
+   "edge": -0.0222,
    "value": "slight",
    "value_txt": "A bit overpriced (books' cut)",
    "units": 0.0,
    "stake": 0.0,
    "to_win": 0.0,
    "tier": null,
-   "fair_odds": 1.98,
+   "fair_odds": 1.99,
    "why": [
-    "Sharp books give Winnipeg Jets a 51% chance to win (Utah Mammoth 49%).",
-    "Winnipeg Jets: 11-9-4, 6-5-2 at home, top: Kyle Connor 19 Goals.",
-    "Utah Mammoth: 12-9-3, 6-6-1 on the road, top: Logan Cooley 12 Goals."
+    "Sharp books give Utah Mammoth a 50% chance to win (Winnipeg Jets 50%).",
+    "Utah Mammoth: 12-9-3, 6-6-1 on the road, top: Logan Cooley 12 Goals.",
+    "Winnipeg Jets: 11-9-4, 6-5-2 at home, top: Kyle Connor 19 Goals."
    ],
    "injuries": [
-    {
-     "team": "Winnipeg Jets",
-     "list": [
-      "Dylan DeMelo (D, Injured Reserve)",
-      "Isak Rosen (RW, Injured Reserve)",
-      "Vladislav Namestnikov (C, Injured Reserve)",
-      "Nick Bjugstad (C, Injured Reserve)"
-     ]
-    },
     {
      "team": "Utah Mammoth",
      "list": [
@@ -1200,30 +1196,44 @@
       "Nick Schmaltz (C, Injured Reserve)",
       "Nate Schmidt (D, Injured Reserve)"
      ]
+    },
+    {
+     "team": "Winnipeg Jets",
+     "list": [
+      "Dylan DeMelo (D, Injured Reserve)",
+      "Isak Rosen (RW, Injured Reserve)",
+      "Vladislav Namestnikov (C, Injured Reserve)",
+      "Nick Bjugstad (C, Injured Reserve)"
+     ]
     }
    ],
    "n_sharp": 4,
-   "link": "https://sportsbook.draftkings.com/?outcomes=0ML87329221_1",
+   "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=1b3c8e20-24c5-4c9e-bd4b-eff4f2501af4&odds_numerator[0]=2&odds_denominator[0]=1",
    "prices": {
-    "DraftKings": 1.93,
-    "FanDuel": 1.91,
-    "theScore Bet": 1.87
+    "DraftKings": 1.89,
+    "FanDuel": 1.88,
+    "theScore Bet": 1.95
    },
    "links": {
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87329221_1",
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626715296&selectionId=5662327",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=5fb1b886-a020-498d-8bcf-d087b6e7bb12&odds_numerator[0]=2&odds_denominator[0]=1"
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87329221_3",
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626715296&selectionId=83920082",
+    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=1b3c8e20-24c5-4c9e-bd4b-eff4f2501af4&odds_numerator[0]=2&odds_denominator[0]=1"
    },
    "open": [
     "2026-11-23T18:49:31+00:00",
-    1.93,
-    0.5063
+    1.95,
+    0.4937
    ],
    "hist": [
     [
      "2026-11-23T18:49:31+00:00",
-     1.93,
-     0.5063
+     1.95,
+     0.4937
+    ],
+    [
+     "2026-11-23T22:25:14+00:00",
+     1.95,
+     0.5014
     ]
    ],
    "lag": false
@@ -1499,17 +1509,17 @@
    "start": "2026-11-24T02:50:00+00:00",
    "book": "DraftKings",
    "odds": 1.85,
-   "prob": 0.5252,
-   "edge": -0.0283,
+   "prob": 0.5217,
+   "edge": -0.0348,
    "value": "over",
    "value_txt": "Overpriced: the book is charging a lot here",
    "units": 0.0,
    "stake": 0.0,
    "to_win": 0.0,
    "tier": null,
-   "fair_odds": 1.9,
+   "fair_odds": 1.92,
    "why": [
-    "Sharp books give Seattle Kraken a 53% chance to win (Anaheim Ducks 47%).",
+    "Sharp books give Seattle Kraken a 52% chance to win (Anaheim Ducks 48%).",
     "Seattle Kraken: 10-9-1, 6-4-0 at home, top: Berkly Catton 8 Goals.",
     "Anaheim Ducks: 11-12-1, 7-6-0 on the road, top: Cutter Gauthier 21 Goals."
    ],
@@ -1699,17 +1709,17 @@
    "pick": "Minnesota Wild",
    "opp": "San Jose Sharks",
    "start": "2026-11-24T03:10:00+00:00",
-   "book": "theScore Bet",
-   "odds": 1.59,
-   "prob": 0.6233,
-   "edge": -0.0089,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.12,
-   "to_win": 0.66,
+   "book": "DraftKings",
+   "odds": 1.57,
+   "prob": 0.6156,
+   "edge": -0.0336,
+   "value": "over",
+   "value_txt": "Overpriced: the book is charging a lot here",
+   "units": 0.0,
+   "stake": 0.0,
+   "to_win": 0.0,
    "tier": null,
-   "fair_odds": 1.6,
+   "fair_odds": 1.62,
    "why": [
     "Sharp books give Minnesota Wild a 62% chance to win (San Jose Sharks 38%).",
     "Minnesota Wild: 17-3-5, 11-3-3 on the road, top: Kirill Kaprizov 18 Goals.",
@@ -1734,11 +1744,11 @@
     }
    ],
    "n_sharp": 4,
-   "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=4c7ae6ed-0e5e-4ae5-b02a-36f9a15acd1f&odds_numerator[0]=2&odds_denominator[0]=1",
+   "link": "https://sportsbook.draftkings.com/?outcomes=0ML87329229_3",
    "prices": {
-    "DraftKings": 1.52,
-    "FanDuel": 1.54,
-    "theScore Bet": 1.59
+    "DraftKings": 1.57,
+    "FanDuel": 1.57,
+    "theScore Bet": 1.57
    },
    "links": {
     "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87329229_3",
@@ -1755,6 +1765,11 @@
      "2026-11-23T18:49:31+00:00",
      1.59,
      0.6233
+    ],
+    [
+     "2026-11-23T22:25:14+00:00",
+     1.57,
+     0.6156
     ]
    ],
    "lag": false
@@ -1763,94 +1778,13 @@
  "big_parlays": [
   {
    "label": "Safest 4x+",
-   "book": "theScore Bet",
-   "odds": 4.05,
-   "prob": 0.2322,
-   "ev": -0.059,
-   "units": 0.5,
-   "stake": 2.25,
-   "to_win": 6.87,
-   "legs": [
-    {
-     "pick": "Cleveland Cavaliers",
-     "event": "Cleveland Cavaliers @ Chicago Bulls",
-     "sport": "NBA",
-     "odds": 1.29,
-     "prob": 0.758,
-     "start": "2026-11-24T01:10:00+00:00",
-     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=c51c5f73-348f-48c6-8810-94dc28d8d14d&odds_numerator[0]=2&odds_denominator[0]=1",
-     "sid": [
-      "e808aff1-9e85-4ee8-9f6a-d37cc4e17847",
-      "c51c5f73-348f-48c6-8810-94dc28d8d14d",
-      "f5c2b34f-6758-4e3c-b01d-3cfb14cefbf5"
-     ]
-    },
-    {
-     "pick": "Cincinnati Bengals",
-     "event": "Cincinnati Bengals @ Washington Commanders",
-     "sport": "NFL",
-     "odds": 1.36,
-     "prob": 0.728,
-     "start": "2026-11-24T01:15:00+00:00",
-     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=c3abe1a6-e97a-4f3b-b936-da9808bc3452&odds_numerator[0]=2&odds_denominator[0]=1",
-     "sid": [
-      "77bded8e-f798-4545-b4a5-431ff5904a6d",
-      "c3abe1a6-e97a-4f3b-b936-da9808bc3452",
-      "76d1b666-c180-474b-b512-07a84d11c22f"
-     ]
-    },
-    {
-     "pick": "Ottawa Senators",
-     "event": "Calgary Flames @ Ottawa Senators",
-     "sport": "NHL",
-     "odds": 1.4,
-     "prob": 0.701,
-     "start": "2026-11-24T00:40:00+00:00",
-     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=ee62fc21-57d1-4fa0-af2e-0c65cb22b88c&odds_numerator[0]=2&odds_denominator[0]=1",
-     "sid": [
-      "68270035-09c5-4297-82f9-c14f160688cf",
-      "ee62fc21-57d1-4fa0-af2e-0c65cb22b88c",
-      "f87a34d0-46f0-4e22-aaef-1a0067c586e8"
-     ]
-    },
-    {
-     "pick": "New York Islanders",
-     "event": "Toronto Maple Leafs @ New York Islanders",
-     "sport": "NHL",
-     "odds": 1.65,
-     "prob": 0.6,
-     "start": "2026-11-24T00:40:00+00:00",
-     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=3c3cdb02-6202-41aa-a976-18d7784ef194&odds_numerator[0]=2&odds_denominator[0]=1",
-     "sid": [
-      "06cb14da-b261-4158-8881-2fb6ddf0cb88",
-      "3c3cdb02-6202-41aa-a976-18d7784ef194",
-      "b85705e8-d747-4cfd-ae11-9a75c43edbd5"
-     ]
-    }
-   ],
-   "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=c51c5f73-348f-48c6-8810-94dc28d8d14d&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=c3abe1a6-e97a-4f3b-b936-da9808bc3452&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=ee62fc21-57d1-4fa0-af2e-0c65cb22b88c&odds_numerator[2]=2&odds_denominator[2]=1&market_selection_id[3]=3c3cdb02-6202-41aa-a976-18d7784ef194&odds_numerator[3]=2&odds_denominator[3]=1",
-   "alts": [
-    {
-     "book": "DraftKings",
-     "odds": 3.89,
-     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87354223_3+0ML84695496_3+0ML87329227_1+0ML87329219_1"
-    },
-    {
-     "book": "FanDuel",
-     "odds": 3.93,
-     "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.627423064&selectionId[0]=60424&marketId[1]=42.624292690&selectionId[1]=50210&marketId[2]=42.626715370&selectionId[2]=25599&marketId[3]=42.626715187&selectionId[3]=136344"
-    }
-   ]
-  },
-  {
-   "label": "Next safest 4x+",
    "book": "FanDuel",
-   "odds": 4.03,
-   "prob": 0.2301,
-   "ev": -0.0729,
+   "odds": 4.01,
+   "prob": 0.2309,
+   "ev": -0.0733,
    "units": 0.5,
    "stake": 2.25,
-   "to_win": 6.81,
+   "to_win": 6.78,
    "legs": [
     {
      "pick": "Houston Rockets",
@@ -1867,17 +1801,98 @@
      ]
     },
     {
-     "pick": "Toronto Raptors",
-     "event": "Milwaukee Bucks @ Toronto Raptors",
+     "pick": "Minnesota Timberwolves",
+     "event": "Brooklyn Nets @ Minnesota Timberwolves",
      "sport": "NBA",
-     "odds": 1.22,
-     "prob": 0.801,
+     "odds": 1.2,
+     "prob": 0.828,
      "start": "2026-11-24T00:40:00+00:00",
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627423067&selectionId=237476",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627423055&selectionId=237478",
      "sid": [
       null,
-      "237476",
-      "36345810"
+      "237478",
+      "36345808"
+     ]
+    },
+    {
+     "pick": "Cleveland Cavaliers",
+     "event": "Cleveland Cavaliers @ Chicago Bulls",
+     "sport": "NBA",
+     "odds": 1.31,
+     "prob": 0.758,
+     "start": "2026-11-24T01:10:00+00:00",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627423064&selectionId=60424",
+     "sid": [
+      null,
+      "60424",
+      "36345812"
+     ]
+    },
+    {
+     "pick": "Ottawa Senators",
+     "event": "Calgary Flames @ Ottawa Senators",
+     "sport": "NHL",
+     "odds": 1.39,
+     "prob": 0.702,
+     "start": "2026-11-24T00:40:00+00:00",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626715370&selectionId=25599",
+     "sid": [
+      null,
+      "25599",
+      "36336519"
+     ]
+    },
+    {
+     "pick": "Minnesota Wild",
+     "event": "Minnesota Wild @ San Jose Sharks",
+     "sport": "NHL",
+     "odds": 1.57,
+     "prob": 0.616,
+     "start": "2026-11-24T03:10:00+00:00",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626715430&selectionId=25604",
+     "sid": [
+      null,
+      "25604",
+      "36336522"
+     ]
+    }
+   ],
+   "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.627423052&selectionId[0]=237488&marketId[1]=42.627423055&selectionId[1]=237478&marketId[2]=42.627423064&selectionId[2]=60424&marketId[3]=42.626715370&selectionId[3]=25599&marketId[4]=42.626715430&selectionId[4]=25604",
+   "alts": [
+    {
+     "book": "DraftKings",
+     "odds": 3.85,
+     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87354225_1+0ML87354221_1+0ML87354223_3+0ML87329227_1+0ML87329229_3"
+    },
+    {
+     "book": "theScore Bet",
+     "odds": 3.75,
+     "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=7d7d1d61-3e35-4294-a693-a74df18bf40e&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=72b3acb3-3210-4583-ab17-b3b06cf6f879&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=c51c5f73-348f-48c6-8810-94dc28d8d14d&odds_numerator[2]=2&odds_denominator[2]=1&market_selection_id[3]=ee62fc21-57d1-4fa0-af2e-0c65cb22b88c&odds_numerator[3]=2&odds_denominator[3]=1&market_selection_id[4]=4c7ae6ed-0e5e-4ae5-b02a-36f9a15acd1f&odds_numerator[4]=2&odds_denominator[4]=1"
+    }
+   ]
+  },
+  {
+   "label": "Next safest 4x+",
+   "book": "FanDuel",
+   "odds": 4.04,
+   "prob": 0.2269,
+   "ev": -0.0842,
+   "units": 0.5,
+   "stake": 2.25,
+   "to_win": 6.83,
+   "legs": [
+    {
+     "pick": "Oklahoma City Thunder",
+     "event": "Oklahoma City Thunder @ Indiana Pacers",
+     "sport": "NBA",
+     "odds": 1.43,
+     "prob": 0.673,
+     "start": "2026-11-24T00:40:00+00:00",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627423073&selectionId=3319741",
+     "sid": [
+      null,
+      "3319741",
+      "36345813"
      ]
     },
     {
@@ -1909,17 +1924,17 @@
      ]
     }
    ],
-   "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.627423052&selectionId[0]=237488&marketId[1]=42.627423067&selectionId[1]=237476&marketId[2]=42.627423070&selectionId[2]=237487&marketId[3]=42.627423058&selectionId[3]=237491",
+   "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.627423073&selectionId[0]=3319741&marketId[1]=42.627423070&selectionId[1]=237487&marketId[2]=42.627423058&selectionId[2]=237491",
    "alts": [
     {
      "book": "DraftKings",
-     "odds": 3.79,
-     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87354225_1+0ML87354222_1+0ML87354224_3+0ML87354218_3"
+     "odds": 3.92,
+     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87354220_3+0ML87354224_3+0ML87354218_3"
     },
     {
      "book": "theScore Bet",
-     "odds": 3.69,
-     "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=7d7d1d61-3e35-4294-a693-a74df18bf40e&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=ad7592b2-7a45-4049-ac27-6e7286c91520&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=143e1c19-5677-4d17-ae37-7352e5629c5a&odds_numerator[2]=2&odds_denominator[2]=1&market_selection_id[3]=ef972490-93e5-41f4-8312-5bb77763f654&odds_numerator[3]=2&odds_denominator[3]=1"
+     "odds": 3.92,
+     "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=bc58f07b-8e76-48ca-878e-2c83950bff98&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=143e1c19-5677-4d17-ae37-7352e5629c5a&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=ef972490-93e5-41f4-8312-5bb77763f654&odds_numerator[2]=2&odds_denominator[2]=1"
     }
    ]
   }

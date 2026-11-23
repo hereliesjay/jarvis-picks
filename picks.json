@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-23T01:05:38+00:00",
+ "updated": "2026-11-23T01:07:41+00:00",
  "last_scan": "2026-11-22T23:48:18+00:00",
  "unit": 4.5,
  "bankroll": 235.43,
@@ -586,9 +586,9 @@
      "team": "Indiana Pacers",
      "list": [
       "T.J. McConnell (G, Out)",
-      "Pascal Siakam (F, day-to-day)",
       "Tyrese Haliburton (G, Out)",
-      "Johnny Furphy (G, Out)"
+      "Johnny Furphy (G, Out)",
+      "Ben Sheppard (G, Out)"
      ]
     }
    ],

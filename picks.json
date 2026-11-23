@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-23T19:50:39+00:00",
+ "updated": "2026-11-23T20:00:45+00:00",
  "last_scan": "2026-11-23T19:37:14+00:00",
  "unit": 4.5,
  "bankroll": 236.88,
@@ -548,53 +548,6 @@
  ],
  "arbs": [],
  "games": [
-  {
-   "sport": "COLLEGE BASKETBALL",
-   "event": "Middle Tennessee Blue Raiders @ Southern Illinois Salukis",
-   "pick": "Southern Illinois Salukis",
-   "opp": "Middle Tennessee Blue Raiders",
-   "start": "2026-11-23T20:00:00+00:00",
-   "book": "FanDuel",
-   "odds": 1.75,
-   "prob": 0.5625,
-   "edge": -0.0156,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.12,
-   "to_win": 0.84,
-   "tier": null,
-   "fair_odds": 1.78,
-   "why": [
-    "Sharp books give Southern Illinois Salukis a 56% chance to win (Middle Tennessee Blue Raiders 44%).",
-    "Southern Illinois Salukis: 3-3, 2-0 at home, 81.8 pts/game, top: Jalen Haynes 25.2 PPG.",
-    "Middle Tennessee Blue Raiders: 5-2, 1-1 on the road, 79.0 pts/game, top: Quintero Barnett 17.1 PPG."
-   ],
-   "injuries": [],
-   "n_sharp": 1,
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627985315&selectionId=725097",
-   "prices": {
-    "DraftKings": 1.74,
-    "FanDuel": 1.75
-   },
-   "links": {
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87374493_1",
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627985315&selectionId=725097"
-   },
-   "open": [
-    "2026-11-23T09:00:43+00:00",
-    1.75,
-    0.5625
-   ],
-   "hist": [
-    [
-     "2026-11-23T09:00:43+00:00",
-     1.75,
-     0.5625
-    ]
-   ],
-   "lag": false
-  },
   {
    "sport": "COLLEGE BASKETBALL",
    "event": "Arkansas St Red Wolves @ Southern Utah Thunderbirds",

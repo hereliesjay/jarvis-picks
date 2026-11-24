@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-24T00:10:26+00:00",
+ "updated": "2026-11-24T00:23:30+00:00",
  "last_scan": "2026-11-23T23:48:16+00:00",
  "unit": 4.5,
  "bankroll": 235.62,
@@ -861,18 +861,16 @@
     {
      "team": "Montr\u00e9al Canadiens",
      "list": [
+      "Ivan Demidov (RW, Injured Reserve)",
       "Mike Matheson (D, Out)",
       "Josh Anderson (RW, Injured Reserve)",
-      "Chris Kreider (LW, Injured Reserve)",
-      "Ivan Demidov (RW, Injured Reserve)"
+      "Chris Kreider (LW, Injured Reserve)"
      ]
     },
     {
      "team": "Los Angeles Kings",
      "list": [
       "Erik Gustafsson (D, Injured Reserve)",
-      "Joel Edmundson (D, day-to-day)",
-      "Trevor Moore (LW, day-to-day)",
       "Jakub Dvorak (D, Injured Reserve)"
      ]
     }
@@ -936,7 +934,7 @@
     {
      "team": "Toronto Maple Leafs",
      "list": [
-      "Jack Roslovic (C, day-to-day)",
+      "Jack Roslovic (C, Out)",
       "Colton Sissons (C, Injured Reserve)",
       "Kirill Marchenko (RW, Injured Reserve)",
       "Cole McWard (D, Injured Reserve)"
@@ -1223,18 +1221,19 @@
     {
      "team": "Cincinnati Bengals",
      "list": [
-      "Swayze Bozeman (LB, Questionable)",
-      "Brian Parker II (OT, Questionable)",
-      "Andrei Iosivas (WR, Injured Reserve)",
-      "Jalen Davis (CB, Injured Reserve)"
+      "Kyle Dugger (S, Out)",
+      "Jalen Davis (CB, Injured Reserve)",
+      "Dalton Risner (G, Out)",
+      "Landon Robinson (DT, Out)"
      ]
     },
     {
      "team": "Washington Commanders",
      "list": [
-      "Lucas Patrick (G, Questionable)",
-      "Amik Robertson (CB, Questionable)",
-      "Laremy Tunsil (OT, Injured Reserve)"
+      "Amik Robertson (CB, Out)",
+      "Athan Kaliakmanis (QB, Out)",
+      "Tanoa Togiai (G, Out)",
+      "Robert Henry Jr. (RB, Out)"
      ]
     }
    ],

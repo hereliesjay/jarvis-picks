@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-24T17:31:28+00:00",
+ "updated": "2026-11-24T17:45:33+00:00",
  "last_scan": "2026-11-24T16:49:36+00:00",
  "unit": 4.5,
  "bankroll": 234.28,
@@ -130,7 +130,7 @@
    "to_win": 0.54,
    "min_odds": 1.5,
    "start": "2026-11-24T17:45:00+00:00",
-   "started": false,
+   "started": true,
    "status": "open",
    "n_sharp": 5,
    "link": "https://sportsbook.draftkings.com/?outcomes=0ML87108465_1",
@@ -183,7 +183,7 @@
    "to_win": 1.41,
    "min_odds": 2.28,
    "start": "2026-11-24T17:45:00+00:00",
-   "started": false,
+   "started": true,
    "status": "open",
    "n_sharp": 5,
    "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=6d581b85-f0d6-4317-940e-020b1dd064f2&odds_numerator[0]=2&odds_denominator[0]=1",
@@ -977,28 +977,6 @@
      "link": "https://sportsbook.draftkings.com/?outcomes=0ML87108466_3"
     }
    ]
-  },
-  {
-   "event": "LASK @ Bod\u00f8/Glimt",
-   "sport": "SOCCER",
-   "start": "2026-11-24T17:45:00+00:00",
-   "profit": 0.1832,
-   "sides": [
-    {
-     "pick": "Bod\u00f8/Glimt",
-     "book": "DraftKings",
-     "odds": 1.48,
-     "share": 0.7995,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0ML87108465_1"
-    },
-    {
-     "pick": "LASK",
-     "book": "FanDuel",
-     "odds": 5.9,
-     "share": 0.2005,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623322491&selectionId=8587663"
-    }
-   ]
   }
  ],
  "games": [
@@ -1305,13 +1283,13 @@
  "big_parlays": [
   {
    "label": "Safest 4x+",
-   "book": "DraftKings",
-   "odds": 4.03,
-   "prob": 0.2266,
-   "ev": -0.0877,
+   "book": "theScore Bet",
+   "odds": 4.01,
+   "prob": 0.2256,
+   "ev": -0.0959,
    "units": 0.5,
    "stake": 2.25,
-   "to_win": 6.81,
+   "to_win": 6.76,
    "legs": [
     {
      "pick": "Como",
@@ -1320,11 +1298,11 @@
      "odds": 1.25,
      "prob": 0.788,
      "start": "2026-11-24T20:00:00+00:00",
-     "link": "https://sportsbook.draftkings.com/?outcomes=0ML87108464_1",
+     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=4e862ad2-5080-4814-8ae0-9860c966b61f&odds_numerator[0]=2&odds_denominator[0]=1",
      "sid": [
-      null,
-      "0ML87108464_1",
-      "34967459"
+      "1e2f4bf5-b5da-4ba4-b7c2-393591035118",
+      "4e862ad2-5080-4814-8ae0-9860c966b61f",
+      "968ae00a-6402-4c6f-a865-94ec6856f740"
      ]
     },
     {
@@ -1334,25 +1312,25 @@
      "odds": 1.26,
      "prob": 0.781,
      "start": "2026-11-24T20:00:00+00:00",
-     "link": "https://sportsbook.draftkings.com/?outcomes=0ML87108460_3",
+     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=b39d57ea-d206-4f9d-bf00-cc37ed9a89ec&odds_numerator[0]=2&odds_denominator[0]=1",
      "sid": [
-      null,
-      "0ML87108460_3",
-      "34967457"
+      "4e5ff7bf-3889-47ac-8115-4d318e2b7eb1",
+      "b39d57ea-d206-4f9d-bf00-cc37ed9a89ec",
+      "e97905c5-549b-4f60-ab1e-527727b0cfdd"
      ]
     },
     {
-     "pick": "Florida Int'l Golden Panthers",
-     "event": "Southern Utah Thunderbirds @ Florida Int'l Golden Panthers",
-     "sport": "COLLEGE BASKETBALL",
-     "odds": 1.27,
-     "prob": 0.77,
-     "start": "2026-11-24T18:00:00+00:00",
-     "link": "https://sportsbook.draftkings.com/?outcomes=0ML87392866_1",
+     "pick": "Manchester City",
+     "event": "Napoli @ Manchester City",
+     "sport": "SOCCER",
+     "odds": 1.29,
+     "prob": 0.76,
+     "start": "2026-11-24T20:00:00+00:00",
+     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=d6c79fad-9861-4e7a-96e7-aa3bd955ba2d&odds_numerator[0]=2&odds_denominator[0]=1",
      "sid": [
-      null,
-      "0ML87392866_1",
-      "35078387"
+      "6bb1c166-0486-408c-a9ef-6e4591168fcc",
+      "d6c79fad-9861-4e7a-96e7-aa3bd955ba2d",
+      "86fe7e2d-bea8-41e4-baa4-08cc362e4524"
      ]
     },
     {
@@ -1362,120 +1340,39 @@
      "odds": 1.36,
      "prob": 0.716,
      "start": "2026-11-24T20:00:00+00:00",
-     "link": "https://sportsbook.draftkings.com/?outcomes=0ML87106305_1",
+     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=78f79abb-1d4a-4155-9ffa-9b70ebb8d467&odds_numerator[0]=2&odds_denominator[0]=1",
      "sid": [
-      null,
-      "0ML87106305_1",
-      "34966676"
-     ]
-    },
-    {
-     "pick": "Bod\u00f8/Glimt",
-     "event": "LASK @ Bod\u00f8/Glimt",
-     "sport": "SOCCER",
-     "odds": 1.48,
-     "prob": 0.668,
-     "start": "2026-11-24T17:45:00+00:00",
-     "link": "https://sportsbook.draftkings.com/?outcomes=0ML87108465_1",
-     "sid": [
-      null,
-      "0ML87108465_1",
-      "34967463"
-     ]
-    }
-   ],
-   "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87108464_1+0ML87108460_3+0ML87392866_1+0ML87106305_1+0ML87108465_1",
-   "alts": [
-    {
-     "book": "theScore Bet",
-     "odds": 3.91,
-     "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=4e862ad2-5080-4814-8ae0-9860c966b61f&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=b39d57ea-d206-4f9d-bf00-cc37ed9a89ec&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=8ef93986-abcd-4dcb-9071-2c64be70d822&odds_numerator[2]=2&odds_denominator[2]=1&market_selection_id[3]=78f79abb-1d4a-4155-9ffa-9b70ebb8d467&odds_numerator[3]=2&odds_denominator[3]=1&market_selection_id[4]=30089786-d665-44be-a77e-229dd4eff13f&odds_numerator[4]=2&odds_denominator[4]=1"
-    },
-    {
-     "book": "FanDuel",
-     "odds": 3.73,
-     "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.623323383&selectionId[0]=60298&marketId[1]=42.623324127&selectionId[1]=44507&marketId[2]=42.628145963&selectionId[2]=723297&marketId[3]=42.623324045&selectionId[3]=5340398&marketId[4]=42.623322491&selectionId[4]=373549"
-    }
-   ]
-  },
-  {
-   "label": "Next safest 4x+",
-   "book": "DraftKings",
-   "odds": 4.17,
-   "prob": 0.2096,
-   "ev": -0.1265,
-   "units": 0.5,
-   "stake": 2.25,
-   "to_win": 7.13,
-   "legs": [
-    {
-     "pick": "Manchester City",
-     "event": "Napoli @ Manchester City",
-     "sport": "SOCCER",
-     "odds": 1.29,
-     "prob": 0.76,
-     "start": "2026-11-24T20:00:00+00:00",
-     "link": "https://sportsbook.draftkings.com/?outcomes=0ML87106310_1",
-     "sid": [
-      null,
-      "0ML87106310_1",
-      "34966684"
-     ]
-    },
-    {
-     "pick": "Denver Nuggets",
-     "event": "Dallas Mavericks @ Denver Nuggets",
-     "sport": "NBA",
-     "odds": 1.32,
-     "prob": 0.734,
-     "start": "2026-11-25T03:10:00+00:00",
-     "link": "https://sportsbook.draftkings.com/?outcomes=0ML85859635_1",
-     "sid": [
-      null,
-      "0ML85859635_1",
-      "34516246"
+      "07af73d9-c2ae-43f3-a98b-9058b6c9779c",
+      "78f79abb-1d4a-4155-9ffa-9b70ebb8d467",
+      "bc30afdb-3933-4404-993f-547aebf693da"
      ]
     },
     {
      "pick": "Arsenal",
      "event": "Borussia Dortmund @ Arsenal",
      "sport": "SOCCER",
-     "odds": 1.44,
+     "odds": 1.45,
      "prob": 0.674,
      "start": "2026-11-24T20:00:00+00:00",
-     "link": "https://sportsbook.draftkings.com/?outcomes=0ML87108461_1",
+     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=eda2308c-22e9-4c01-a33a-d31b706751b9&odds_numerator[0]=2&odds_denominator[0]=1",
      "sid": [
-      null,
-      "0ML87108461_1",
-      "34967458"
-     ]
-    },
-    {
-     "pick": "Detroit Pistons",
-     "event": "Detroit Pistons @ Orlando Magic",
-     "sport": "NBA",
-     "odds": 1.7,
-     "prob": 0.558,
-     "start": "2026-11-25T00:11:00+00:00",
-     "link": "https://sportsbook.draftkings.com/?outcomes=0ML87369678_3",
-     "sid": [
-      null,
-      "0ML87369678_3",
-      "35068687"
+      "c8934b03-1361-4166-a1a0-33886d740494",
+      "eda2308c-22e9-4c01-a33a-d31b706751b9",
+      "1ebf22ae-fa0b-4b93-b258-be4eedf5c944"
      ]
     }
    ],
-   "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87106310_1+0ML85859635_1+0ML87108461_1+0ML87369678_3",
+   "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=4e862ad2-5080-4814-8ae0-9860c966b61f&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=b39d57ea-d206-4f9d-bf00-cc37ed9a89ec&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=d6c79fad-9861-4e7a-96e7-aa3bd955ba2d&odds_numerator[2]=2&odds_denominator[2]=1&market_selection_id[3]=78f79abb-1d4a-4155-9ffa-9b70ebb8d467&odds_numerator[3]=2&odds_denominator[3]=1&market_selection_id[4]=eda2308c-22e9-4c01-a33a-d31b706751b9&odds_numerator[4]=2&odds_denominator[4]=1",
    "alts": [
     {
-     "book": "theScore Bet",
-     "odds": 4.15,
-     "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=d6c79fad-9861-4e7a-96e7-aa3bd955ba2d&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=f6ab4525-3abc-401a-8f97-3d1816213558&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=eda2308c-22e9-4c01-a33a-d31b706751b9&odds_numerator[2]=2&odds_denominator[2]=1&market_selection_id[3]=6af3c25f-b0a2-4a2f-ab2b-fdb21d915bce&odds_numerator[3]=2&odds_denominator[3]=1"
+     "book": "DraftKings",
+     "odds": 3.98,
+     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87108464_1+0ML87108460_3+0ML87106310_1+0ML87106305_1+0ML87108461_1"
     },
     {
      "book": "FanDuel",
-     "odds": 4.22,
-     "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.623322925&selectionId[0]=47999&marketId[1]=42.627757402&selectionId[1]=237492&marketId[2]=42.623322612&selectionId[2]=1096&marketId[3]=42.627757387&selectionId[3]=237474"
+     "odds": 3.77,
+     "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.623323383&selectionId[0]=60298&marketId[1]=42.623324127&selectionId[1]=44507&marketId[2]=42.623322925&selectionId[2]=47999&marketId[3]=42.623324045&selectionId[3]=5340398&marketId[4]=42.623322612&selectionId[4]=1096"
     }
    ]
   }

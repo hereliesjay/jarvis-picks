@@ -198,6 +198,7 @@ details.fold{margin-top:1.2rem}details.fold>summary{font-weight:700;color:var(--
 
 .lagb{margin-top:.5rem;display:inline-block;justify-self:start;padding:.3rem .55rem;border-radius:8px;background:rgba(174,195,141,.14);color:var(--olive);font-size:.75rem;font-weight:700}
 .arb{border-color:rgba(174,195,141,.45)}
+.gbar{height:6px;border-radius:9px;background:rgba(242,232,219,.08);margin-top:.5rem;overflow:hidden}.gbar i{display:block;height:100%;background:var(--olive)}
 </style></head>
 <body><div class="wrap">
 <header><div><h1>Jarvis<span class="tonight" id="tonight">Tonight's card</span></h1><div class="status" id="status"><span class="dot"></span><span>Loading…</span></div></div>
@@ -280,7 +281,7 @@ function renderResults(S){
   const sec=el('section','sec');const h=el('h3');h.append(el('span','ic','📈'),'Results',el('span','c','every pick the site posted'));sec.append(h);
   const F=el('div','filters');const sel=(id,opts)=>{const s=el('select');s.id=id;opts.forEach(([v,t])=>{const o=el('option',null,t);o.value=v;s.append(o)});s.onchange=()=>{window['_F_'+id]=s.value;render()};return s};
   const sports=[...new Set(HIST.map(r=>r.sport))].sort();
-  F.append(sel('fs',[['all','All sports'],...sports.map(x=>[x,x])]),sel('ft',[['all','All types'],['best','Best bets'],['lean','Leans'],['parlay','Parlays']]),
+  F.append(sel('fs',[['all','All sports'],...sports.map(x=>[x,x])]),sel('ft',[['all','All types'],['best','Best bets'],['lean','Leans'],['card','Daily card'],['parlay','Parlays']]),
     sel('fo',[['all','All odds'],['under 1.60','Under 1.60'],['1.60–1.99','1.60–1.99'],['2.00–2.49','2.00–2.49'],['2.50+','2.50+']]),sel('fv',[['all','Any price'],['value','Edge 2%+ only'],['fair','Under 2% edge']]));
   sec.append(F);
   ['fs','ft','fo','fv'].forEach(id=>{const v=window['_F_'+id];if(v){const e=F.querySelector('#'+id);if(e)e.value=v}});
@@ -291,7 +292,7 @@ function renderResults(S){
   T.append(tile('Closing-line value',fmtPct(s.clv),s.clvn?Math.round(s.beat*100)+'% beat the close ('+s.clvn+')':'not enough yet',s.clv>0?'pos':s.clv<0?'neg':''));
   sec.append(T);
   const cc=el('div','card rel');cc.style.marginTop='.75rem';cc.append(el('div','sub','Units over time'));const box=el('div','rel');cc.append(box);sec.append(cc);
-  const bk=el('div','bkg');bk.append(breakdown(rows,r=>r.sport,'By sport'),breakdown(rows,r=>({best:'Best bets',lean:'Leans',parlay:'Parlays'})[r.type],'By type'),breakdown(rows,r=>oddsBand(r.odds),'By odds'));sec.append(bk);
+  const bk=el('div','bkg');bk.append(breakdown(rows,r=>r.sport,'By sport'),breakdown(rows,r=>({best:'Best bets',lean:'Leans',card:'Daily card',parlay:'Parlays'})[r.type],'By type'),breakdown(rows,r=>oddsBand(r.odds),'By odds'));sec.append(bk);
   const lc=el('div','card scroll');lc.style.marginTop='.75rem';lc.append(el('div','sub','Every pick'));const t=el('table');const th=el('thead'),tr=el('tr');
   ['Date','Pick','Type','Odds','Units','CLV','Result'].forEach((x,i)=>tr.append(el('th',i>=3?'r':null,x)));th.append(tr);t.append(th);const tb=el('tbody');
   rows.slice().reverse().forEach(r=>{const e=el('tr');const d=new Date(r.start);e.append(el('td',null,d.toLocaleDateString([], {month:'short',day:'numeric'})),el('td',null,r.pick+' · '+r.sport),el('td',null,r.type),el('td','r',r.odds.toFixed(2)),el('td','r',r.units+'u'),el('td','r '+(r.clv>0?'pos':r.clv<0?'neg':''),fmtPct(r.clv)));
@@ -340,10 +341,10 @@ function tookForm(c,info){
     f.append(lab('Odds (decimal)',o),lab('Stake $',s),lab('Book',bk),sv);c.append(f);o.focus()}}
 function pickCard(p){
   const live=bestOf(p.prices)||(p.now_odds?{book:p.book,odds:p.now_odds}:{book:p.book,odds:p.odds});
-  const dead=!p.started&&p.min_odds&&live.odds<p.min_odds;
+  const dead=!p.started&&(p.tier==='best'?(p.min_odds&&live.odds<p.min_odds):(live.odds<p.odds*0.97));   // action plays: only if the price dropped 3%+ since posted
   const c=el('div','card pick '+p.tier+(p.started?' started':'')+(dead?' dead':''));
-  const top=el('div');top.append(el('span','badge'+(p.tier==='lean'?' lean':''),p.tier==='best'?(p.units>=1.5?'Strong bet':'Best bet'):'Lean'));top.append(el('span','sp',p.sport+', '+(p.started?'started':when(p.start))));c.append(top);
-  c.append(el('div','pk',p.pick+' to win'));c.append(el('div','ev',p.event));
+  const top=el('div');top.append(el('span','badge'+(p.tier!=='best'?' lean':''),p.tier==='best'?(p.units>=1.5?'Strong bet':'Best bet'):p.tier==='card'?'Daily card':'Lean'));top.append(el('span','sp',p.sport+', '+(p.started?'started':when(p.start))));c.append(top);
+  c.append(el('div','pk',/^(Over|Under) |[+-]\d/.test(p.pick)?p.pick:p.pick+' to win'));c.append(el('div','ev',p.event));
   if(p.lag)c.append(el('div','lagb','Sharp line just moved, this book hasn\'t caught up'));
   if(dead)c.append(el('div','deadmsg','Below Min Odds — Do Not Bet'));
   const fair=p.fair_odds,ev=fair?(live.odds/fair-1):p.edge;
@@ -459,14 +460,14 @@ function renderBuilder(S){
 
 // ---------- helpers: countdowns, safe auto-refresh ----------
 function until(iso){const m=Math.round((new Date(iso)-Date.now())/60000);if(m<=0)return 'started';if(m<60)return 'in '+m+'m';const hh=Math.floor(m/60),mm=m%60;return hh<24?'in '+hh+'h'+(mm?' '+mm+'m':''):when(iso)}
-function busy(){const a=document.activeElement;return document.hidden||(a&&/INPUT|SELECT|TEXTAREA/.test(a.tagName))||!!document.querySelector('.tookf')||!!document.querySelector('details[open]')}
+function busy(){const a=document.activeElement;return document.hidden||(a&&/INPUT|SELECT|TEXTAREA/.test(a.tagName))||!!document.querySelector('.tookf')||!!document.querySelector('details[open]:not(.fold)')}
 let LASTUPD=null;
 function autoLoad(){if(busy())return;load(true)}
 // ---------- hero: what to bet right now ----------
 function actionable(){const now=Date.now();return (FEED&&FEED.picks||[]).filter(p=>p.tier==='best'&&!p.started&&new Date(p.start)>now).map(p=>{const live=bestOf(p.prices)||{book:p.book,odds:p.now_odds||p.odds};const dead=p.min_odds&&live.odds<p.min_odds;return {p,live,dead}}).filter(x=>!x.dead)}
 function heroCard(G){
   const c=el('div','card hero');const act=actionable();
-  const nAct=(FEED&&FEED.picks||[]).filter(p=>p.tier==='lean'&&!p.started).length;
+  const nAct=(FEED&&FEED.picks||[]).filter(p=>p.tier!=='best'&&!p.started).length;
   if(!act.length){c.append(el('div','herot','Nothing worth betting right now'));
     const nx=(FEED&&FEED.games||[]).map(g=>g.start).filter(s=>new Date(s)>Date.now()).sort()[0];
     c.append(el('p','herop','No book is paying more than the sharp fair price on a game the bot trusts. That happens: no edge, no bet. The bot rescans NBA and NHL hourly and everything else every few hours'+(nx?'; next game starts '+until(nx)+'.':'.')));
@@ -558,7 +559,7 @@ function render(){const G=window._G;if(!G)return;
     const sec=el('section','sec');const h=el('h3');h.append('Best bets',el('span','c',best.length?best.length+' today, the real record':'none yet today'));sec.append(h);
     if(best.length){const w=el('div','picks');best.forEach(p=>w.append(pickCard(p)));sec.append(w)}else sec.append(el('div','card empty','No best bets yet today. When a book misprices a game, it shows up here first.'));
     S.append(sec);
-    if(lean.length){const d=el('details','fold');d.append(el('summary',null,lean.length+' action play'+(lean.length>1?'s':'')+' (0.25u, no real edge)'));const w=el('div','picks');lean.forEach(p=>w.append(pickCard(p)));d.append(w);S.append(d)}
+    if(lean.length){const d=el('details','fold');d.append(el('summary',null,'Daily card: '+lean.length+' action play'+(lean.length>1?'s':'')+' (0.25u each, no real edge, separate record)'));d.open=true;const w=el('div','picks');lean.forEach(p=>w.append(pickCard(p)));d.append(w);S.append(d)}
     if((FEED.arbs||[]).length){const as=el('section','sec');const ah=el('h3');ah.append('Arbitrage',el('span','c','both sides at different books, profit either way'));as.append(ah);const w=el('div','picks');FEED.arbs.forEach(a=>w.append(arbCard(a)));as.append(w);S.append(as)}
     if((window._BIG||[]).length){const bs=el('section','sec');const bh=el('h3');bh.append('Safest parlays that pay 4x+',el('span','c','for fun, EV shown honestly'));bs.append(bh);const w=el('div','picks');window._BIG.forEach(p=>w.append(bigParlayCard(p)));bs.append(w);S.append(bs)}
     const gs=el('section','sec');const gh=el('h3');gh.append('Every game, and who the bot likes');gs.append(gh);
@@ -586,8 +587,12 @@ async function load(auto){
   const rec=f.record||{};const T=$('tiles');T.replaceChildren();
   let u=0,w=0,l=0;['best','lean','parlay'].forEach(k=>{const r=rec[k];if(r){u+=r.units;w+=r.won;l+=r.lost}});
   {const hb=stats((f.history||[]).filter(r=>r.type==='best'));T.append(tile('Best bets profit',money(hb.units*f.unit),hb.w+'–'+hb.l+', '+sgn(hb.units)+'u (the real record)',hb.units>0?'pos':hb.units<0?'neg':''))}
-  {const hl=stats((f.history||[]).filter(r=>r.type==='lean'));T.append(tile('Action plays (leans)',hl.w+'–'+hl.l,sgn(hl.units)+'u, tracked separately'))}
+  {const hl=stats((f.history||[]).filter(r=>r.type==='lean'||r.type==='card'));T.append(tile('Action plays (card + leans)',hl.w+'–'+hl.l,sgn(hl.units)+'u, tracked separately'))}
   T.append(tile('All picks',w+'–'+l,sgn(u)+'u overall'));
+  {const mo=new Date().toISOString().slice(0,7);const mh=(f.history||[]).filter(r=>(r.start||'').slice(0,7)===mo);const mb=stats(mh.filter(r=>r.type==='best')),ma=stats(mh);
+   const goal=6;const c=el('div','card tile goal');c.append(el('div','l','API goal this month'));c.append(el('div','v'+(mb.units>0?' pos':mb.units<0?' neg':''),sgn(mb.units)+'u'));
+   const bar=el('div','gbar');const i=el('i');i.style.width=Math.max(0,Math.min(100,mb.units/goal*100))+'%';bar.append(i);c.append(bar);
+   c.append(el('div','s','goal +'+goal+'u covers the $30 data plan (all picks '+sgn(ma.units)+'u)'));T.append(c)}
   {const hs=stats(f.history||[]);T.append(tile('Closing-line value',fmtPct(hs.clv),hs.clvn?Math.round(hs.beat*100)+'% beat the close ('+hs.clvn+')':'needs graded picks',hs.clv>0?'pos':hs.clv<0?'neg':''))}
 
   const picks=f.picks||[];

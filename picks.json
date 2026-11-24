@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-23T23:53:19+00:00",
+ "updated": "2026-11-24T00:10:26+00:00",
  "last_scan": "2026-11-23T23:48:16+00:00",
  "unit": 4.5,
  "bankroll": 235.62,
@@ -558,224 +558,6 @@
  ],
  "arbs": [],
  "games": [
-  {
-   "sport": "NBA",
-   "event": "Memphis Grizzlies @ Charlotte Hornets",
-   "pick": "Memphis Grizzlies",
-   "opp": "Charlotte Hornets",
-   "start": "2026-11-24T00:10:00+00:00",
-   "book": "theScore Bet",
-   "odds": 1.69,
-   "prob": 0.5774,
-   "edge": -0.0242,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.12,
-   "to_win": 0.78,
-   "tier": null,
-   "fair_odds": 1.73,
-   "why": [
-    "Sharp books give Memphis Grizzlies a 58% chance to win (Charlotte Hornets 42%).",
-    "Memphis Grizzlies: 12-5, 8-1 on the road, 120.5 pts/game, top: Ty Jerome 24.8 PPG.",
-    "Charlotte Hornets: 4-11, 3-4 at home, 99.9 pts/game, top: Brandon Miller 19.8 PPG."
-   ],
-   "injuries": [
-    {
-     "team": "Memphis Grizzlies",
-     "list": [
-      "Cameron Boozer (F, Out)",
-      "Jerami Grant (F, Out)",
-      "GG Jackson (F, Out)",
-      "Scotty Pippen Jr. (G, Out)"
-     ]
-    },
-    {
-     "team": "Charlotte Hornets",
-     "list": [
-      "Grayson Allen (G, Out)",
-      "Grant Williams (F, Out)",
-      "Kon Knueppel (G, Out)",
-      "Dennis Schroder (G, Out)"
-     ]
-    }
-   ],
-   "n_sharp": 5,
-   "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=ef972490-93e5-41f4-8312-5bb77763f654&odds_numerator[0]=2&odds_denominator[0]=1",
-   "prices": {
-    "FanDuel": 1.68,
-    "DraftKings": 1.68,
-    "theScore Bet": 1.69
-   },
-   "links": {
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627423058&selectionId=237491",
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87354218_3",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=ef972490-93e5-41f4-8312-5bb77763f654&odds_numerator[0]=2&odds_denominator[0]=1"
-   },
-   "open": [
-    "2026-11-23T18:49:31+00:00",
-    1.71,
-    0.58
-   ],
-   "hist": [
-    [
-     "2026-11-23T18:49:31+00:00",
-     1.71,
-     0.58
-    ],
-    [
-     "2026-11-23T21:00:23+00:00",
-     1.68,
-     0.58
-    ],
-    [
-     "2026-11-23T23:48:16+00:00",
-     1.69,
-     0.5774
-    ]
-   ],
-   "lag": false
-  },
-  {
-   "sport": "NBA",
-   "event": "Portland Trail Blazers @ Philadelphia 76ers",
-   "pick": "Portland Trail Blazers",
-   "opp": "Philadelphia 76ers",
-   "start": "2026-11-24T00:10:00+00:00",
-   "book": "FanDuel",
-   "odds": 1.91,
-   "prob": 0.5017,
-   "edge": -0.0418,
-   "value": "over",
-   "value_txt": "Overpriced: the book is charging a lot here",
-   "units": 0.0,
-   "stake": 0.0,
-   "to_win": 0.0,
-   "tier": null,
-   "fair_odds": 1.99,
-   "why": [
-    "Sharp books give Portland Trail Blazers a 50% chance to win (Philadelphia 76ers 50%).",
-    "Portland Trail Blazers: 10-6, 7-4 on the road, 116.1 pts/game, top: Deni Avdija 23.9 PPG.",
-    "Philadelphia 76ers: 14-3, 7-2 at home, 115.5 pts/game, top: Tyrese Maxey 25.9 PPG."
-   ],
-   "injuries": [
-    {
-     "team": "Portland Trail Blazers",
-     "list": [
-      "Chris Youngblood (G, Out)",
-      "Vit Krejci (G, Out)",
-      "Ja Morant (G, Out)",
-      "Shaedon Sharpe (G, Out)"
-     ]
-    },
-    {
-     "team": "Philadelphia 76ers",
-     "list": [
-      "Joel Embiid (C, Out)",
-      "Ariel Hukporti (C, Out)"
-     ]
-    }
-   ],
-   "n_sharp": 5,
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627423061&selectionId=237480",
-   "prices": {
-    "FanDuel": 1.91,
-    "DraftKings": 1.91,
-    "theScore Bet": 1.87
-   },
-   "links": {
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627423061&selectionId=237480",
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87354219_3",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=218702a7-dca8-4d26-ad40-62f13147b2da&odds_numerator[0]=2&odds_denominator[0]=1"
-   },
-   "open": [
-    "2026-11-23T18:49:31+00:00",
-    2.15,
-    0.4398
-   ],
-   "hist": [
-    [
-     "2026-11-23T18:49:31+00:00",
-     2.15,
-     0.4398
-    ],
-    [
-     "2026-11-23T21:00:23+00:00",
-     2.2,
-     0.4421
-    ],
-    [
-     "2026-11-23T23:48:16+00:00",
-     1.91,
-     0.5017
-    ]
-   ],
-   "lag": false
-  },
-  {
-   "sport": "NHL",
-   "event": "Columbus Blue Jackets @ New Jersey Devils",
-   "pick": "New Jersey Devils",
-   "opp": "Columbus Blue Jackets",
-   "start": "2026-11-24T00:10:00+00:00",
-   "book": "theScore Bet",
-   "odds": 1.51,
-   "prob": 0.645,
-   "edge": -0.0261,
-   "value": "over",
-   "value_txt": "Overpriced: the book is charging a lot here",
-   "units": 0.0,
-   "stake": 0.0,
-   "to_win": 0.0,
-   "tier": null,
-   "fair_odds": 1.55,
-   "why": [
-    "Sharp books give New Jersey Devils a 64% chance to win (Columbus Blue Jackets 35%).",
-    "New Jersey Devils: 15-8-0, 9-3-0 at home, top: Jack Hughes 10 Goals.",
-    "Columbus Blue Jackets: 9-12-0, 3-6-0 on the road, top: Kent Johnson 9 Goals."
-   ],
-   "injuries": [
-    {
-     "team": "New Jersey Devils",
-     "list": [
-      "Anthony Mantha (RW, Injured Reserve)",
-      "Johnathan Kovacevic (D, Injured Reserve)",
-      "Seamus Casey (D, Injured Reserve)"
-     ]
-    },
-    {
-     "team": "Columbus Blue Jackets",
-     "list": [
-      "Sean Monahan (C, Out)"
-     ]
-    }
-   ],
-   "n_sharp": 4,
-   "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=88f27a21-c348-4e19-a5c6-48a1d26a1cb6&odds_numerator[0]=2&odds_denominator[0]=1",
-   "prices": {
-    "DraftKings": 1.49,
-    "FanDuel": 1.49,
-    "theScore Bet": 1.51
-   },
-   "links": {
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87329223_1",
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626715130&selectionId=25586",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=88f27a21-c348-4e19-a5c6-48a1d26a1cb6&odds_numerator[0]=2&odds_denominator[0]=1"
-   },
-   "open": [
-    "2026-11-23T18:49:31+00:00",
-    1.51,
-    0.6453
-   ],
-   "hist": [
-    [
-     "2026-11-23T18:49:31+00:00",
-     1.51,
-     0.6453
-    ]
-   ],
-   "lag": false
-  },
   {
    "sport": "NBA",
    "event": "Brooklyn Nets @ Minnesota Timberwolves",
@@ -1828,73 +1610,6 @@
   {
    "label": "Safest 4x+",
    "book": "theScore Bet",
-   "odds": 4.01,
-   "prob": 0.2292,
-   "ev": -0.0815,
-   "units": 0.5,
-   "stake": 2.25,
-   "to_win": 6.76,
-   "legs": [
-    {
-     "pick": "New Jersey Devils",
-     "event": "Columbus Blue Jackets @ New Jersey Devils",
-     "sport": "NHL",
-     "odds": 1.51,
-     "prob": 0.645,
-     "start": "2026-11-24T00:10:00+00:00",
-     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=88f27a21-c348-4e19-a5c6-48a1d26a1cb6&odds_numerator[0]=2&odds_denominator[0]=1",
-     "sid": [
-      "b67c4bee-230f-4465-997e-b58f37fae846",
-      "88f27a21-c348-4e19-a5c6-48a1d26a1cb6",
-      "4e1e34bb-f2c8-4723-b732-e42a629e93e9"
-     ]
-    },
-    {
-     "pick": "Minnesota Wild",
-     "event": "Minnesota Wild @ San Jose Sharks",
-     "sport": "NHL",
-     "odds": 1.57,
-     "prob": 0.616,
-     "start": "2026-11-24T03:10:00+00:00",
-     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=4c7ae6ed-0e5e-4ae5-b02a-36f9a15acd1f&odds_numerator[0]=2&odds_denominator[0]=1",
-     "sid": [
-      "da10e45b-0238-48cd-a7d2-ec908c63a318",
-      "4c7ae6ed-0e5e-4ae5-b02a-36f9a15acd1f",
-      "a92a148c-44a7-427e-a900-12c677bc8b26"
-     ]
-    },
-    {
-     "pick": "Memphis Grizzlies",
-     "event": "Memphis Grizzlies @ Charlotte Hornets",
-     "sport": "NBA",
-     "odds": 1.69,
-     "prob": 0.577,
-     "start": "2026-11-24T00:10:00+00:00",
-     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=ef972490-93e5-41f4-8312-5bb77763f654&odds_numerator[0]=2&odds_denominator[0]=1",
-     "sid": [
-      "2bd86339-6683-4375-8b5a-9929c89bfe2e",
-      "ef972490-93e5-41f4-8312-5bb77763f654",
-      "e5960aec-cd2d-4577-b846-1e22e4552c1a"
-     ]
-    }
-   ],
-   "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=88f27a21-c348-4e19-a5c6-48a1d26a1cb6&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=4c7ae6ed-0e5e-4ae5-b02a-36f9a15acd1f&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=ef972490-93e5-41f4-8312-5bb77763f654&odds_numerator[2]=2&odds_denominator[2]=1",
-   "alts": [
-    {
-     "book": "DraftKings",
-     "odds": 3.93,
-     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87329223_1+0ML87329229_3+0ML87354218_3"
-    },
-    {
-     "book": "FanDuel",
-     "odds": 3.93,
-     "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.626715130&selectionId[0]=25586&marketId[1]=42.626715430&selectionId[1]=25604&marketId[2]=42.627423058&selectionId[2]=237491"
-    }
-   ]
-  },
-  {
-   "label": "Next safest 4x+",
-   "book": "theScore Bet",
    "odds": 4.07,
    "prob": 0.2262,
    "ev": -0.0795,
@@ -1970,6 +1685,101 @@
      "book": "FanDuel",
      "odds": 3.92,
      "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.627423064&selectionId[0]=60424&marketId[1]=42.624292690&selectionId[1]=50210&marketId[2]=42.626715370&selectionId[2]=25599&marketId[3]=42.626715187&selectionId[3]=136344"
+    }
+   ]
+  },
+  {
+   "label": "Next safest 4x+",
+   "book": "FanDuel",
+   "odds": 4.07,
+   "prob": 0.2167,
+   "ev": -0.1187,
+   "units": 0.5,
+   "stake": 2.25,
+   "to_win": 6.9,
+   "legs": [
+    {
+     "pick": "Houston Rockets",
+     "event": "Los Angeles Clippers @ Houston Rockets",
+     "sport": "NBA",
+     "odds": 1.15,
+     "prob": 0.855,
+     "start": "2026-11-24T01:40:00+00:00",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627423052&selectionId=237488",
+     "sid": [
+      null,
+      "237488",
+      "36345803"
+     ]
+    },
+    {
+     "pick": "San Antonio Spurs",
+     "event": "San Antonio Spurs @ Sacramento Kings",
+     "sport": "NBA",
+     "odds": 1.16,
+     "prob": 0.843,
+     "start": "2026-11-24T03:10:00+00:00",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627423046&selectionId=237471",
+     "sid": [
+      null,
+      "237471",
+      "36345802"
+     ]
+    },
+    {
+     "pick": "Minnesota Timberwolves",
+     "event": "Brooklyn Nets @ Minnesota Timberwolves",
+     "sport": "NBA",
+     "odds": 1.2,
+     "prob": 0.815,
+     "start": "2026-11-24T00:40:00+00:00",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627423055&selectionId=237478",
+     "sid": [
+      null,
+      "237478",
+      "36345808"
+     ]
+    },
+    {
+     "pick": "Oklahoma City Thunder",
+     "event": "Oklahoma City Thunder @ Indiana Pacers",
+     "sport": "NBA",
+     "odds": 1.54,
+     "prob": 0.632,
+     "start": "2026-11-24T00:40:00+00:00",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627423073&selectionId=3319741",
+     "sid": [
+      null,
+      "3319741",
+      "36345813"
+     ]
+    },
+    {
+     "pick": "Montr\u00e9al Canadiens",
+     "event": "Los Angeles Kings @ Montr\u00e9al Canadiens",
+     "sport": "NHL",
+     "odds": 1.65,
+     "prob": 0.584,
+     "start": "2026-11-24T00:40:00+00:00",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626715265&selectionId=25598",
+     "sid": [
+      null,
+      "25598",
+      "36336516"
+     ]
+    }
+   ],
+   "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.627423052&selectionId[0]=237488&marketId[1]=42.627423046&selectionId[1]=237471&marketId[2]=42.627423055&selectionId[2]=237478&marketId[3]=42.627423073&selectionId[3]=3319741&marketId[4]=42.626715265&selectionId[4]=25598",
+   "alts": [
+    {
+     "book": "DraftKings",
+     "odds": 3.91,
+     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87354225_1+0ML87354227_3+0ML87354221_1+0ML87354220_3+0ML87329231_1"
+    },
+    {
+     "book": "theScore Bet",
+     "odds": 3.69,
+     "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=7d7d1d61-3e35-4294-a693-a74df18bf40e&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=101891e2-1f6b-4032-81cf-19f45b0a672b&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=72b3acb3-3210-4583-ab17-b3b06cf6f879&odds_numerator[2]=2&odds_denominator[2]=1&market_selection_id[3]=bc58f07b-8e76-48ca-878e-2c83950bff98&odds_numerator[3]=2&odds_denominator[3]=1&market_selection_id[4]=45f3ef95-00cd-4402-9119-d1c3bf76486d&odds_numerator[4]=2&odds_denominator[4]=1"
     }
    ]
   }

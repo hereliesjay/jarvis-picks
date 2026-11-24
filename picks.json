@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-24T01:10:59+00:00",
+ "updated": "2026-11-24T01:15:02+00:00",
  "last_scan": "2026-11-23T23:48:16+00:00",
  "unit": 4.5,
  "bankroll": 235.62,
@@ -558,74 +558,6 @@
  ],
  "arbs": [],
  "games": [
-  {
-   "sport": "NFL",
-   "event": "Cincinnati Bengals @ Washington Commanders",
-   "pick": "Cincinnati Bengals",
-   "opp": "Washington Commanders",
-   "start": "2026-11-24T01:15:00+00:00",
-   "book": "theScore Bet",
-   "odds": 1.36,
-   "prob": 0.7276,
-   "edge": -0.0104,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.12,
-   "to_win": 0.41,
-   "tier": null,
-   "fair_odds": 1.37,
-   "why": [
-    "Sharp books give Cincinnati Bengals a 73% chance to win (Washington Commanders 26%).",
-    "Cincinnati Bengals: 7-2, 4-1 on the road.",
-    "Washington Commanders: 3-5-1, 2-2-1 at home."
-   ],
-   "injuries": [
-    {
-     "team": "Cincinnati Bengals",
-     "list": [
-      "Kyle Dugger (S, Out)",
-      "Jalen Davis (CB, Injured Reserve)",
-      "Dalton Risner (G, Out)",
-      "Landon Robinson (DT, Out)"
-     ]
-    },
-    {
-     "team": "Washington Commanders",
-     "list": [
-      "Amik Robertson (CB, Out)",
-      "Athan Kaliakmanis (QB, Out)",
-      "Tanoa Togiai (G, Out)",
-      "Robert Henry Jr. (RB, Out)"
-     ]
-    }
-   ],
-   "n_sharp": 5,
-   "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=c3abe1a6-e97a-4f3b-b936-da9808bc3452&odds_numerator[0]=2&odds_denominator[0]=1",
-   "prices": {
-    "DraftKings": 1.33,
-    "FanDuel": 1.34,
-    "theScore Bet": 1.36
-   },
-   "links": {
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML84695496_3",
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624292690&selectionId=50210",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=c3abe1a6-e97a-4f3b-b936-da9808bc3452&odds_numerator[0]=2&odds_denominator[0]=1"
-   },
-   "open": [
-    "2026-11-23T18:49:31+00:00",
-    1.36,
-    0.7276
-   ],
-   "hist": [
-    [
-     "2026-11-23T18:49:31+00:00",
-     1.36,
-     0.7276
-    ]
-   ],
-   "lag": false
-  },
   {
    "sport": "NBA",
    "event": "Los Angeles Clippers @ Houston Rockets",

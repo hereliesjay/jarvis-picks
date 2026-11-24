@@ -1,7 +1,7 @@
 {
  "version": 25,
- "updated": "2026-11-24T20:33:09+00:00",
- "last_scan": "2026-11-24T19:37:27+00:00",
+ "updated": "2026-11-24T21:00:10+00:00",
+ "last_scan": "2026-11-24T21:00:10+00:00",
  "unit": 4.5,
  "bankroll": 232.44,
  "bank_start": 250.0,
@@ -164,7 +164,7 @@
    "pick": "Arsenal",
    "book": "theScore Bet",
    "odds": 1.45,
-   "now_odds": 1.45,
+   "now_odds": null,
    "prob": 0.6738,
    "edge": -0.023,
    "units": 0.25,
@@ -174,34 +174,16 @@
    "start": "2026-11-24T20:00:00+00:00",
    "started": true,
    "status": "open",
-   "n_sharp": 5,
-   "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=eda2308c-22e9-4c01-a33a-d31b706751b9&odds_numerator[0]=2&odds_denominator[0]=1",
+   "n_sharp": null,
+   "link": null,
    "flag": null,
    "posted_at": "2026-11-24T16:28:57+00:00",
-   "prices": {
-    "DraftKings": 1.44,
-    "FanDuel": 1.42,
-    "theScore Bet": 1.45
-   },
-   "links": {
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87108461_1",
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623322612&selectionId=1096",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=eda2308c-22e9-4c01-a33a-d31b706751b9&odds_numerator[0]=2&odds_denominator[0]=1"
-   },
+   "prices": {},
+   "links": {},
    "fair_odds": 1.48,
-   "now_edge": -0.023,
-   "open": [
-    "2026-11-24T09:00:58+00:00",
-    1.45,
-    0.6738
-   ],
-   "hist": [
-    [
-     "2026-11-24T09:00:58+00:00",
-     1.45,
-     0.6738
-    ]
-   ],
+   "now_edge": null,
+   "open": null,
+   "hist": [],
    "injuries": [],
    "lag": false
   },
@@ -212,7 +194,7 @@
    "pick": "Porto",
    "book": "DraftKings",
    "odds": 2.2,
-   "now_odds": 2.2,
+   "now_odds": null,
    "prob": 0.4429,
    "edge": -0.0256,
    "units": 0.25,
@@ -222,34 +204,16 @@
    "start": "2026-11-24T20:00:00+00:00",
    "started": true,
    "status": "open",
-   "n_sharp": 5,
-   "link": "https://sportsbook.draftkings.com/?outcomes=0ML87108466_3",
+   "n_sharp": null,
+   "link": null,
    "flag": null,
    "posted_at": "2026-11-24T16:28:57+00:00",
-   "prices": {
-    "DraftKings": 2.2,
-    "FanDuel": 2.15,
-    "theScore Bet": 2.2
-   },
-   "links": {
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87108466_3",
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623327908&selectionId=48785",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=3754f9d2-0bb7-441c-8afd-d4f41b28aad3&odds_numerator[0]=2&odds_denominator[0]=1"
-   },
+   "prices": {},
+   "links": {},
    "fair_odds": 2.26,
-   "now_edge": -0.0256,
-   "open": [
-    "2026-11-24T09:00:58+00:00",
-    2.2,
-    0.4429
-   ],
-   "hist": [
-    [
-     "2026-11-24T09:00:58+00:00",
-     2.2,
-     0.4429
-    ]
-   ],
+   "now_edge": null,
+   "open": null,
+   "hist": [],
    "injuries": [],
    "lag": false
   },
@@ -562,7 +526,7 @@
    "on": true
   }
  },
- "watching": 17,
+ "watching": 8,
  "history": [
   {
    "type": "lean",
@@ -934,8 +898,8 @@
   "sports": [
    {
     "sport": "NHL",
-    "scans": 1,
-    "prices": 2,
+    "scans": 2,
+    "prices": 4,
     "edges": 0
    }
   ],
@@ -1083,9 +1047,9 @@
    "opp": "Edmonton Oilers",
    "start": "2026-11-25T01:10:00+00:00",
    "book": "FanDuel",
-   "odds": 1.82,
-   "prob": 0.5252,
-   "edge": -0.0441,
+   "odds": 1.83,
+   "prob": 0.5266,
+   "edge": -0.0363,
    "value": "over",
    "value_txt": "Overpriced: the book is charging a lot here",
    "units": 0.0,
@@ -1112,7 +1076,7 @@
    "n_sharp": 4,
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626715467&selectionId=13305501",
    "prices": {
-    "FanDuel": 1.82,
+    "FanDuel": 1.83,
     "DraftKings": 1.8
    },
    "links": {
@@ -1134,6 +1098,11 @@
      "2026-11-24T19:37:27+00:00",
      1.82,
      0.5252
+    ],
+    [
+     "2026-11-24T21:00:10+00:00",
+     1.83,
+     0.5266
     ]
    ],
    "lag": false

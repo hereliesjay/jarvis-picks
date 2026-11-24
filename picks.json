@@ -1,7 +1,7 @@
 {
  "version": 25,
- "updated": "2026-11-24T18:00:38+00:00",
- "last_scan": "2026-11-24T16:49:36+00:00",
+ "updated": "2026-11-24T18:13:45+00:00",
+ "last_scan": "2026-11-24T18:13:45+00:00",
  "unit": 4.5,
  "bankroll": 234.28,
  "bank_start": 250.0,
@@ -74,7 +74,7 @@
    "pick": "N Colorado Bears",
    "book": "theScore Bet",
    "odds": 1.59,
-   "now_odds": 1.59,
+   "now_odds": null,
    "prob": 0.6227,
    "edge": -0.0099,
    "units": 0.25,
@@ -84,34 +84,16 @@
    "start": "2026-11-24T17:30:00+00:00",
    "started": true,
    "status": "open",
-   "n_sharp": 1,
-   "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=bad863c4-9ef3-47f7-a605-c0dc3374b44a&odds_numerator[0]=2&odds_denominator[0]=1",
+   "n_sharp": null,
+   "link": null,
    "flag": null,
    "posted_at": "2026-11-24T16:28:57+00:00",
-   "prices": {
-    "theScore Bet": 1.59,
-    "DraftKings": 1.57,
-    "FanDuel": 1.57
-   },
-   "links": {
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=bad863c4-9ef3-47f7-a605-c0dc3374b44a&odds_numerator[0]=2&odds_denominator[0]=1",
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87392865_1",
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628143895&selectionId=5145581"
-   },
+   "prices": {},
+   "links": {},
    "fair_odds": 1.61,
-   "now_edge": -0.0099,
-   "open": [
-    "2026-11-24T06:00:45+00:00",
-    1.59,
-    0.6227
-   ],
-   "hist": [
-    [
-     "2026-11-24T06:00:45+00:00",
-     1.59,
-     0.6227
-    ]
-   ],
+   "now_edge": null,
+   "open": null,
+   "hist": [],
    "injuries": [],
    "lag": false
   },
@@ -122,7 +104,7 @@
    "pick": "Bod\u00f8/Glimt",
    "book": "DraftKings",
    "odds": 1.48,
-   "now_odds": 1.48,
+   "now_odds": null,
    "prob": 0.6682,
    "edge": -0.0111,
    "units": 0.25,
@@ -132,39 +114,16 @@
    "start": "2026-11-24T17:45:00+00:00",
    "started": true,
    "status": "open",
-   "n_sharp": 5,
-   "link": "https://sportsbook.draftkings.com/?outcomes=0ML87108465_1",
+   "n_sharp": null,
+   "link": null,
    "flag": null,
    "posted_at": "2026-11-24T16:28:57+00:00",
-   "prices": {
-    "DraftKings": 1.48,
-    "FanDuel": 1.45,
-    "theScore Bet": 1.45
-   },
-   "links": {
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87108465_1",
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623322491&selectionId=373549",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=30089786-d665-44be-a77e-229dd4eff13f&odds_numerator[0]=2&odds_denominator[0]=1"
-   },
+   "prices": {},
+   "links": {},
    "fair_odds": 1.5,
-   "now_edge": -0.0111,
-   "open": [
-    "2026-11-24T06:00:45+00:00",
-    1.5,
-    0.6571
-   ],
-   "hist": [
-    [
-     "2026-11-24T06:00:45+00:00",
-     1.5,
-     0.6571
-    ],
-    [
-     "2026-11-24T09:00:58+00:00",
-     1.48,
-     0.6682
-    ]
-   ],
+   "now_edge": null,
+   "open": null,
+   "hist": [],
    "injuries": [],
    "lag": false
   },
@@ -175,7 +134,7 @@
    "pick": "Aston Villa",
    "book": "theScore Bet",
    "odds": 2.25,
-   "now_odds": 2.25,
+   "now_odds": null,
    "prob": 0.4392,
    "edge": -0.0118,
    "units": 0.25,
@@ -185,34 +144,16 @@
    "start": "2026-11-24T17:45:00+00:00",
    "started": true,
    "status": "open",
-   "n_sharp": 5,
-   "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=6d581b85-f0d6-4317-940e-020b1dd064f2&odds_numerator[0]=2&odds_denominator[0]=1",
+   "n_sharp": null,
+   "link": null,
    "flag": null,
    "posted_at": "2026-11-24T16:28:57+00:00",
-   "prices": {
-    "DraftKings": 2.2,
-    "FanDuel": 2.2,
-    "theScore Bet": 2.25
-   },
-   "links": {
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87108462_3",
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623322142&selectionId=63908",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=6d581b85-f0d6-4317-940e-020b1dd064f2&odds_numerator[0]=2&odds_denominator[0]=1"
-   },
+   "prices": {},
+   "links": {},
    "fair_odds": 2.28,
-   "now_edge": -0.0118,
-   "open": [
-    "2026-11-24T06:00:45+00:00",
-    2.25,
-    0.4381
-   ],
-   "hist": [
-    [
-     "2026-11-24T06:00:45+00:00",
-     2.25,
-     0.4381
-    ]
-   ],
+   "now_edge": null,
+   "open": null,
+   "hist": [],
    "injuries": [],
    "lag": false
   },
@@ -319,32 +260,30 @@
    "pick": "Orlando Magic",
    "book": "theScore Bet",
    "odds": 2.3,
-   "now_odds": 2.3,
+   "now_odds": 2.16,
    "prob": 0.4423,
    "edge": 0.0173,
    "units": 0.25,
    "stake": 1.12,
    "to_win": 1.46,
-   "min_odds": 2.27,
+   "min_odds": 2.22,
    "start": "2026-11-25T00:11:00+00:00",
    "started": false,
    "status": "open",
    "n_sharp": 4,
-   "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=22119947-f81a-4bd2-8da2-80baa52efc2a&odds_numerator[0]=2&odds_denominator[0]=1",
+   "link": null,
    "flag": null,
    "posted_at": "2026-11-24T16:28:57+00:00",
    "prices": {
-    "FanDuel": 2.18,
-    "DraftKings": 2.2,
-    "theScore Bet": 2.3
+    "FanDuel": 2.16,
+    "DraftKings": 2.14
    },
    "links": {
     "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627757387&selectionId=237475",
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87369678_1",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=22119947-f81a-4bd2-8da2-80baa52efc2a&odds_numerator[0]=2&odds_denominator[0]=1"
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87369678_1"
    },
-   "fair_odds": 2.26,
-   "now_edge": 0.0173,
+   "fair_odds": 2.22,
+   "now_edge": -0.0254,
    "open": [
     "2026-11-24T16:28:48+00:00",
     2.3,
@@ -355,6 +294,11 @@
      "2026-11-24T16:28:48+00:00",
      2.3,
      0.4423
+    ],
+    [
+     "2026-11-24T18:13:45+00:00",
+     2.16,
+     0.4512
     ]
    ],
    "injuries": [],
@@ -588,7 +532,7 @@
    "on": true
   }
  },
- "watching": 27,
+ "watching": 17,
  "history": [
   {
    "type": "lean",
@@ -987,18 +931,18 @@
    "opp": "Orlando Magic",
    "start": "2026-11-25T00:11:00+00:00",
    "book": "FanDuel",
-   "odds": 1.72,
-   "prob": 0.5577,
-   "edge": -0.0407,
+   "odds": 1.74,
+   "prob": 0.5488,
+   "edge": -0.0451,
    "value": "over",
    "value_txt": "Overpriced: the book is charging a lot here",
    "units": 0.0,
    "stake": 0.0,
    "to_win": 0.0,
    "tier": null,
-   "fair_odds": 1.79,
+   "fair_odds": 1.82,
    "why": [
-    "Sharp books give Detroit Pistons a 56% chance to win (Orlando Magic 44%).",
+    "Sharp books give Detroit Pistons a 55% chance to win (Orlando Magic 45%).",
     "Detroit Pistons: 10-6, 7-3 on the road, 113.4 pts/game, top: Cade Cunningham 24.2 PPG.",
     "Orlando Magic: 7-9, 1-5 at home, 108.8 pts/game, top: Franz Wagner 24.5 PPG."
    ],
@@ -1025,14 +969,12 @@
    "n_sharp": 4,
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627757387&selectionId=237474",
    "prices": {
-    "FanDuel": 1.72,
-    "DraftKings": 1.7,
-    "theScore Bet": 1.67
+    "FanDuel": 1.74,
+    "DraftKings": 1.74
    },
    "links": {
     "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627757387&selectionId=237474",
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87369678_3",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=6af3c25f-b0a2-4a2f-ab2b-fdb21d915bce&odds_numerator[0]=2&odds_denominator[0]=1"
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87369678_3"
    },
    "open": [
     "2026-11-24T16:28:48+00:00",
@@ -1044,6 +986,11 @@
      "2026-11-24T16:28:48+00:00",
      1.72,
      0.5577
+    ],
+    [
+     "2026-11-24T18:13:45+00:00",
+     1.74,
+     0.5488
     ]
    ],
    "lag": false
@@ -1056,8 +1003,8 @@
    "start": "2026-11-25T01:10:00+00:00",
    "book": "DraftKings",
    "odds": 1.22,
-   "prob": 0.7965,
-   "edge": -0.0283,
+   "prob": 0.7936,
+   "edge": -0.0318,
    "value": "over",
    "value_txt": "Overpriced: the book is charging a lot here",
    "units": 0.0,
@@ -1066,7 +1013,7 @@
    "tier": null,
    "fair_odds": 1.26,
    "why": [
-    "Sharp books give Boston Celtics a 80% chance to win (Washington Wizards 18%).",
+    "Sharp books give Boston Celtics a 79% chance to win (Washington Wizards 18%).",
     "Boston Celtics: 11-6, 5-5 on the road, 111.2 pts/game, top: Jayson Tatum 26.4 PPG.",
     "Washington Wizards: 7-11, 3-5 at home, 110.3 pts/game, top: Anthony Davis 25.1 PPG."
    ],
@@ -1091,13 +1038,11 @@
    "link": "https://sportsbook.draftkings.com/?outcomes=0ML85859634_3",
    "prices": {
     "DraftKings": 1.22,
-    "FanDuel": 1.22,
-    "theScore Bet": 1.2
+    "FanDuel": 1.22
    },
    "links": {
     "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML85859634_3",
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627757390&selectionId=60427",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=ff4366b2-8971-4e5c-901c-b4b1cd88573d&odds_numerator[0]=2&odds_denominator[0]=1"
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627757390&selectionId=60427"
    },
    "open": [
     "2026-11-24T16:28:48+00:00",
@@ -1179,16 +1124,16 @@
    "opp": "Dallas Mavericks",
    "start": "2026-11-25T03:10:00+00:00",
    "book": "FanDuel",
-   "odds": 1.34,
-   "prob": 0.7338,
-   "edge": -0.0167,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.12,
-   "to_win": 0.38,
+   "odds": 1.33,
+   "prob": 0.7304,
+   "edge": -0.0286,
+   "value": "over",
+   "value_txt": "Overpriced: the book is charging a lot here",
+   "units": 0.0,
+   "stake": 0.0,
+   "to_win": 0.0,
    "tier": null,
-   "fair_odds": 1.36,
+   "fair_odds": 1.37,
    "why": [
     "Sharp books give Denver Nuggets a 73% chance to win (Dallas Mavericks 25%).",
     "Denver Nuggets: 10-5, 4-3 at home, 117.0 pts/game, top: Jamal Murray 26.2 PPG.",
@@ -1209,13 +1154,11 @@
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627757402&selectionId=237492",
    "prices": {
     "DraftKings": 1.32,
-    "FanDuel": 1.34,
-    "theScore Bet": 1.33
+    "FanDuel": 1.33
    },
    "links": {
     "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML85859635_1",
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627757402&selectionId=237492",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=f6ab4525-3abc-401a-8f97-3d1816213558&odds_numerator[0]=2&odds_denominator[0]=1"
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627757402&selectionId=237492"
    },
    "open": [
     "2026-11-24T16:28:48+00:00",
@@ -1227,6 +1170,11 @@
      "2026-11-24T16:28:48+00:00",
      1.34,
      0.7338
+    ],
+    [
+     "2026-11-24T18:13:45+00:00",
+     1.33,
+     0.7304
     ]
    ],
    "lag": false

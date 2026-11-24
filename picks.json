@@ -1,7 +1,7 @@
 {
  "version": 25,
- "updated": "2026-11-24T05:48:39+00:00",
- "last_scan": "2026-11-23T23:48:16+00:00",
+ "updated": "2026-11-24T06:00:45+00:00",
+ "last_scan": "2026-11-24T06:00:45+00:00",
  "unit": 4.5,
  "bankroll": 233.12,
  "bank_start": 250.0,
@@ -10,97 +10,59 @@
   {
    "tier": "lean",
    "sport": "COLLEGE BASKETBALL",
-   "event": "St. Bonaventure Bonnies @ Appalachian St Mountaineers",
-   "pick": "St. Bonaventure Bonnies",
+   "event": "New Mexico St Aggies @ Ohio Bobcats",
+   "pick": "Ohio Bobcats",
    "book": "FanDuel",
-   "odds": 1.49,
-   "now_odds": null,
-   "prob": 0.6682,
-   "edge": -0.0044,
+   "odds": 1.52,
+   "now_odds": 1.52,
+   "prob": 0.6609,
+   "edge": 0.0046,
    "units": 0.25,
    "stake": 1.12,
-   "to_win": 0.55,
-   "min_odds": 1.5,
-   "start": "2026-11-23T16:00:00+00:00",
-   "started": true,
+   "to_win": 0.58,
+   "min_odds": 1.52,
+   "start": "2026-11-24T16:00:00+00:00",
+   "started": false,
    "status": "open",
-   "n_sharp": null,
-   "link": null,
+   "n_sharp": 2,
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628137281&selectionId=711052",
    "flag": null,
-   "posted_at": "2026-11-23T06:00:34+00:00",
-   "prices": {},
-   "links": {},
-   "fair_odds": 1.5,
-   "now_edge": null,
-   "open": null,
-   "hist": [],
-   "injuries": [],
-   "lag": false
-  },
-  {
-   "tier": "lean",
-   "sport": "COLLEGE BASKETBALL",
-   "event": "Indiana St Sycamores @ East Carolina Pirates",
-   "pick": "East Carolina Pirates",
-   "book": "FanDuel",
-   "odds": 1.73,
-   "now_odds": null,
-   "prob": 0.578,
-   "edge": -0.0001,
-   "units": 0.25,
-   "stake": 1.12,
-   "to_win": 0.82,
-   "min_odds": 1.74,
-   "start": "2026-11-23T17:30:00+00:00",
-   "started": true,
-   "status": "lost",
-   "n_sharp": null,
-   "link": null,
-   "flag": null,
-   "posted_at": "2026-11-23T06:00:34+00:00",
-   "prices": {},
-   "links": {},
-   "fair_odds": 1.73,
-   "now_edge": null,
-   "open": null,
-   "hist": [],
-   "injuries": [],
-   "lag": false
-  }
- ],
- "parlays": [
-  {
-   "sport": "icehockey_nhl",
-   "label": "NHL",
-   "book": "theScore Bet",
-   "odds": 2.62,
-   "prob": 0.3743,
-   "ev": -0.0181,
-   "units": 0.5,
-   "legs": [
-    {
-     "pick": "Minnesota Wild",
-     "event": "Minnesota Wild @ San Jose Sharks",
-     "odds": 1.59,
-     "start": "2026-11-24T03:10:00+00:00"
-    },
-    {
-     "pick": "New York Islanders",
-     "event": "Toronto Maple Leafs @ New York Islanders",
-     "odds": 1.65,
-     "start": "2026-11-24T00:40:00+00:00"
-    }
+   "posted_at": "2026-11-24T06:00:45+00:00",
+   "prices": {
+    "theScore Bet": 1.51,
+    "DraftKings": 1.51,
+    "FanDuel": 1.52
+   },
+   "links": {
+    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=b358779c-4a75-4703-a0ef-dae7508b1123&odds_numerator[0]=2&odds_denominator[0]=1",
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87392863_3",
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628137281&selectionId=711052"
+   },
+   "fair_odds": 1.51,
+   "now_edge": 0.0046,
+   "open": [
+    "2026-11-24T06:00:45+00:00",
+    1.52,
+    0.6609
    ],
-   "stake": 2.25,
-   "to_win": 3.65
+   "hist": [
+    [
+     "2026-11-24T06:00:45+00:00",
+     1.52,
+     0.6609
+    ]
+   ],
+   "injuries": [],
+   "lag": false
   }
  ],
+ "parlays": [],
  "record": {
   "lean": {
    "won": 6,
    "lost": 7,
    "push": 0,
-   "open": 2,
+   "open": 3,
    "units": -1.38,
    "dollars": -6.19,
    "clv": -0.0029,
@@ -301,7 +263,7 @@
    "on": true
   }
  },
- "watching": 35,
+ "watching": 15,
  "history": [
   {
    "type": "lean",
@@ -554,9 +516,356 @@
    "profit_u": -0.5,
    "clv": null,
    "start": "2026-11-24T03:10:00+00:00"
+  },
+  {
+   "type": "lean",
+   "sport": "COLLEGE BASKETBALL",
+   "pick": "Ohio Bobcats",
+   "event": "New Mexico St Aggies @ Ohio Bobcats",
+   "book": "FanDuel",
+   "odds": 1.52,
+   "units": 0.25,
+   "edge": 0.0046,
+   "status": "open",
+   "profit_u": 0.0,
+   "clv": null,
+   "start": "2026-11-24T16:00:00+00:00"
   }
  ],
- "arbs": [],
- "games": [],
- "big_parlays": []
+ "arbs": [
+  {
+   "event": "LASK @ Bod\u00f8/Glimt",
+   "sport": "SOCCER",
+   "start": "2026-11-24T17:45:00+00:00",
+   "profit": 0.1875,
+   "sides": [
+    {
+     "pick": "Bod\u00f8/Glimt",
+     "book": "DraftKings",
+     "odds": 1.5,
+     "share": 0.7917,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0ML87108465_1"
+    },
+    {
+     "pick": "LASK",
+     "book": "FanDuel",
+     "odds": 5.7,
+     "share": 0.2083,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623322491&selectionId=8587663"
+    }
+   ]
+  }
+ ],
+ "games": [
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "Wright St Raiders @ St. Bonaventure Bonnies",
+   "pick": "St. Bonaventure Bonnies",
+   "opp": "Wright St Raiders",
+   "start": "2026-11-24T15:00:00+00:00",
+   "book": "FanDuel",
+   "odds": 1.93,
+   "prob": 0.5062,
+   "edge": -0.0231,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.0,
+   "stake": 0.0,
+   "to_win": 0.0,
+   "tier": null,
+   "fair_odds": 1.98,
+   "why": [
+    "Sharp books give St. Bonaventure Bonnies a 51% chance to win (Wright St Raiders 49%).",
+    "St. Bonaventure Bonnies: 5-1, 1-0 on the road, 81.2 pts/game, top: Benjamin Bill 15.6 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 3,
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628137777&selectionId=701609",
+   "prices": {
+    "theScore Bet": 1.87,
+    "DraftKings": 1.87,
+    "FanDuel": 1.93
+   },
+   "links": {
+    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=d55b6589-c54e-4205-a84f-3172da78f074&odds_numerator[0]=2&odds_denominator[0]=1",
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87392862_1",
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628137777&selectionId=701609"
+   },
+   "open": [
+    "2026-11-24T06:00:45+00:00",
+    1.93,
+    0.5062
+   ],
+   "hist": [
+    [
+     "2026-11-24T06:00:45+00:00",
+     1.93,
+     0.5062
+    ]
+   ],
+   "lag": false
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "New Mexico St Aggies @ Ohio Bobcats",
+   "pick": "Ohio Bobcats",
+   "opp": "New Mexico St Aggies",
+   "start": "2026-11-24T16:00:00+00:00",
+   "book": "FanDuel",
+   "odds": 1.52,
+   "prob": 0.6609,
+   "edge": 0.0046,
+   "value": "fair",
+   "value_txt": "Fair price",
+   "units": 0.5,
+   "stake": 2.25,
+   "to_win": 1.17,
+   "tier": "lean",
+   "fair_odds": 1.51,
+   "why": [
+    "Sharp books give Ohio Bobcats a 66% chance to win (New Mexico St Aggies 33%).",
+    "Ohio Bobcats: 3-1, 2-0 at home, 79.8 pts/game, top: Jackson Paveletzke 17.5 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 2,
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628137281&selectionId=711052",
+   "prices": {
+    "theScore Bet": 1.51,
+    "DraftKings": 1.51,
+    "FanDuel": 1.52
+   },
+   "links": {
+    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=b358779c-4a75-4703-a0ef-dae7508b1123&odds_numerator[0]=2&odds_denominator[0]=1",
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87392863_3",
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628137281&selectionId=711052"
+   },
+   "open": [
+    "2026-11-24T06:00:45+00:00",
+    1.52,
+    0.6609
+   ],
+   "hist": [
+    [
+     "2026-11-24T06:00:45+00:00",
+     1.52,
+     0.6609
+    ]
+   ],
+   "lag": false
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "Belmont Bruins @ Akron Zips",
+   "pick": "Akron Zips",
+   "opp": "Belmont Bruins",
+   "start": "2026-11-24T17:30:00+00:00",
+   "book": "theScore Bet",
+   "odds": 1.67,
+   "prob": 0.5813,
+   "edge": -0.0292,
+   "value": "over",
+   "value_txt": "Overpriced: the book is charging a lot here",
+   "units": 0.0,
+   "stake": 0.0,
+   "to_win": 0.0,
+   "tier": null,
+   "fair_odds": 1.72,
+   "why": [
+    "Sharp books give Akron Zips a 58% chance to win (Belmont Bruins 42%).",
+    "Akron Zips: 4-2, 1-1 on the road, 83.4 pts/game, top: Tahj Staveskie 16.8 PPG.",
+    "Belmont Bruins: 5-1, 4-0 at home, 76.0 pts/game, top: Jack Smiley 19.2 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 3,
+   "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=769acb79-b258-4b7f-a851-537b402e2b88&odds_numerator[0]=2&odds_denominator[0]=1",
+   "prices": {
+    "theScore Bet": 1.67,
+    "DraftKings": 1.65,
+    "FanDuel": 1.66
+   },
+   "links": {
+    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=769acb79-b258-4b7f-a851-537b402e2b88&odds_numerator[0]=2&odds_denominator[0]=1",
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87392864_1",
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628138273&selectionId=711054"
+   },
+   "open": [
+    "2026-11-24T06:00:45+00:00",
+    1.67,
+    0.5813
+   ],
+   "hist": [
+    [
+     "2026-11-24T06:00:45+00:00",
+     1.67,
+     0.5813
+    ]
+   ],
+   "lag": false
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "SE Louisiana Lions @ N Colorado Bears",
+   "pick": "N Colorado Bears",
+   "opp": "SE Louisiana Lions",
+   "start": "2026-11-24T17:30:00+00:00",
+   "book": "theScore Bet",
+   "odds": 1.59,
+   "prob": 0.6227,
+   "edge": -0.0099,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.25,
+   "stake": 1.12,
+   "to_win": 0.66,
+   "tier": null,
+   "fair_odds": 1.61,
+   "why": [
+    "Sharp books give N Colorado Bears a 62% chance to win (SE Louisiana Lions 38%).",
+    "SE Louisiana Lions: 1-4, 1-4 on the road, 64.2 pts/game, top: Tyler Rolison 14.8 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 1,
+   "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=bad863c4-9ef3-47f7-a605-c0dc3374b44a&odds_numerator[0]=2&odds_denominator[0]=1",
+   "prices": {
+    "theScore Bet": 1.59,
+    "DraftKings": 1.57,
+    "FanDuel": 1.57
+   },
+   "links": {
+    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=bad863c4-9ef3-47f7-a605-c0dc3374b44a&odds_numerator[0]=2&odds_denominator[0]=1",
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87392865_1",
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628143895&selectionId=5145581"
+   },
+   "open": [
+    "2026-11-24T06:00:45+00:00",
+    1.59,
+    0.6227
+   ],
+   "hist": [
+    [
+     "2026-11-24T06:00:45+00:00",
+     1.59,
+     0.6227
+    ]
+   ],
+   "lag": false
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "Southern Utah Thunderbirds @ Florida Int'l Golden Panthers",
+   "pick": "Florida Int'l Golden Panthers",
+   "opp": "Southern Utah Thunderbirds",
+   "start": "2026-11-24T18:00:00+00:00",
+   "book": "DraftKings",
+   "odds": 1.27,
+   "prob": 0.7696,
+   "edge": -0.0226,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.25,
+   "stake": 1.12,
+   "to_win": 0.3,
+   "tier": null,
+   "fair_odds": 1.3,
+   "why": [
+    "Sharp books give Florida Int'l Golden Panthers a 77% chance to win (Southern Utah Thunderbirds 21%).",
+    "Southern Utah Thunderbirds: 3-4, 0-3 on the road, 92.0 pts/game, top: Anthony Breland 11.7 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 2,
+   "link": "https://sportsbook.draftkings.com/?outcomes=0ML87392866_1",
+   "prices": {
+    "FanDuel": 1.25,
+    "theScore Bet": 1.26,
+    "DraftKings": 1.27
+   },
+   "links": {
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628145963&selectionId=723297",
+    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=8ef93986-abcd-4dcb-9071-2c64be70d822&odds_numerator[0]=2&odds_denominator[0]=1",
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87392866_1"
+   },
+   "open": [
+    "2026-11-24T06:00:45+00:00",
+    1.27,
+    0.7696
+   ],
+   "hist": [
+    [
+     "2026-11-24T06:00:45+00:00",
+     1.27,
+     0.7696
+    ]
+   ],
+   "lag": false
+  }
+ ],
+ "big_parlays": [
+  {
+   "label": "Safest 4x+",
+   "book": "theScore Bet",
+   "odds": 4.01,
+   "prob": 0.2392,
+   "ev": -0.0407,
+   "units": 0.5,
+   "stake": 2.25,
+   "to_win": 6.77,
+   "legs": [
+    {
+     "pick": "Ohio Bobcats",
+     "event": "New Mexico St Aggies @ Ohio Bobcats",
+     "sport": "COLLEGE BASKETBALL",
+     "odds": 1.51,
+     "prob": 0.661,
+     "start": "2026-11-24T16:00:00+00:00",
+     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=b358779c-4a75-4703-a0ef-dae7508b1123&odds_numerator[0]=2&odds_denominator[0]=1",
+     "sid": [
+      "eb9746c6-7154-4321-ae05-48cf88c75d3b",
+      "b358779c-4a75-4703-a0ef-dae7508b1123",
+      "9cc4530e-76c7-4d3d-b606-5bae1d0eac40"
+     ]
+    },
+    {
+     "pick": "N Colorado Bears",
+     "event": "SE Louisiana Lions @ N Colorado Bears",
+     "sport": "COLLEGE BASKETBALL",
+     "odds": 1.59,
+     "prob": 0.623,
+     "start": "2026-11-24T17:30:00+00:00",
+     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=bad863c4-9ef3-47f7-a605-c0dc3374b44a&odds_numerator[0]=2&odds_denominator[0]=1",
+     "sid": [
+      "c229a3a5-3f40-4e5f-bdc8-83f647d20ae6",
+      "bad863c4-9ef3-47f7-a605-c0dc3374b44a",
+      "6ce2c4ef-5d06-4b33-bd01-e4d0de23e67d"
+     ]
+    },
+    {
+     "pick": "Akron Zips",
+     "event": "Belmont Bruins @ Akron Zips",
+     "sport": "COLLEGE BASKETBALL",
+     "odds": 1.67,
+     "prob": 0.581,
+     "start": "2026-11-24T17:30:00+00:00",
+     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=769acb79-b258-4b7f-a851-537b402e2b88&odds_numerator[0]=2&odds_denominator[0]=1",
+     "sid": [
+      "4052012f-90aa-49b7-9333-ba349b1e8a97",
+      "769acb79-b258-4b7f-a851-537b402e2b88",
+      "e0312375-ff09-434d-b224-d1cae86aae48"
+     ]
+    }
+   ],
+   "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=b358779c-4a75-4703-a0ef-dae7508b1123&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=bad863c4-9ef3-47f7-a605-c0dc3374b44a&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=769acb79-b258-4b7f-a851-537b402e2b88&odds_numerator[2]=2&odds_denominator[2]=1",
+   "alts": [
+    {
+     "book": "DraftKings",
+     "odds": 3.91,
+     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87392863_3+0ML87392865_1+0ML87392864_1"
+    },
+    {
+     "book": "FanDuel",
+     "odds": 3.96,
+     "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.628137281&selectionId[0]=711052&marketId[1]=42.628143895&selectionId[1]=5145581&marketId[2]=42.628138273&selectionId[2]=711054"
+    }
+   ]
+  }
+ ]
 }

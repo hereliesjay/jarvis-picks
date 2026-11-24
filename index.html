@@ -299,6 +299,10 @@ function renderResults(S){
     const td=el('td','r');td.append(el('span','badge '+(r.status==='won'?'won':r.status==='lost'?'lost':''),r.status.toUpperCase()));e.append(td);tb.append(e)});
   if(!rows.length){const e=el('tr');const td=el('td',null,'No picks match these filters.');td.colSpan=7;e.append(td);tb.append(e)}
   t.append(tb);lc.append(t);sec.append(lc);S.append(sec);requestAnimationFrame(()=>drawChart(box,rows));
+  const ES=(FEED&&FEED.edge_sources)||{};if((ES.sports||[]).length){const ec=el('div','card scroll');ec.style.marginTop='.75rem';ec.append(el('div','sub','Where the edges come from (last 30 days of scans)'));const et=el('table');const eh=el('tr');['Sport','Scans','Prices checked','2%+ edges','Per scan'].forEach((x,i)=>eh.append(el('th',i?'r':null,x)));const ethd=el('thead');ethd.append(eh);et.append(ethd);const eb=el('tbody');
+    ES.sports.forEach(r=>{const e=el('tr');e.append(el('td',null,r.sport),el('td','r',String(r.scans)),el('td','r',String(r.prices)),el('td','r'+(r.edges?' pos':''),String(r.edges)),el('td','r',(r.scans?r.edges/r.scans:0).toFixed(2)));eb.append(e)});et.append(eb);ec.append(et);
+    const bks=Object.entries(ES.books||{}).sort((x,y)=>y[1]-x[1]);if(bks.length)ec.append(el('p','note','Books with the most edges: '+bks.map(([k,v])=>k+' ('+v+')').join(', ')));
+    ec.append(el('p','note','The bot uses this to decide what to scan first, so the limited daily scans go where edges actually show up.'));sec.append(ec)}
   sec.append(el('p','note','CLV = how much better your price was than the closing price. Positive CLV over 100+ picks is the real sign the bot is sharp; win/loss alone takes 1,000+ picks to mean anything.'))}
 
 // ---------- per-device settings + my bets (browser only, never sent anywhere) ----------

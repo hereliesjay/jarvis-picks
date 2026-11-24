@@ -1,7 +1,7 @@
 {
  "version": 25,
- "updated": "2026-11-24T23:36:44+00:00",
- "last_scan": "2026-11-24T22:25:56+00:00",
+ "updated": "2026-11-24T23:48:50+00:00",
+ "last_scan": "2026-11-24T23:48:50+00:00",
  "unit": 4.5,
  "bankroll": 231.19,
  "bank_start": 250.0,
@@ -908,8 +908,8 @@
   "sports": [
    {
     "sport": "NHL",
-    "scans": 3,
-    "prices": 6,
+    "scans": 4,
+    "prices": 8,
     "edges": 0
    }
   ],
@@ -1056,17 +1056,17 @@
    "pick": "Vegas Golden Knights",
    "opp": "Edmonton Oilers",
    "start": "2026-11-25T01:10:00+00:00",
-   "book": "FanDuel",
+   "book": "DraftKings",
    "odds": 1.83,
-   "prob": 0.5292,
-   "edge": -0.0316,
+   "prob": 0.5274,
+   "edge": -0.0349,
    "value": "over",
    "value_txt": "Overpriced: the book is charging a lot here",
    "units": 0.0,
    "stake": 0.0,
    "to_win": 0.0,
    "tier": null,
-   "fair_odds": 1.89,
+   "fair_odds": 1.9,
    "why": [
     "Sharp books give Vegas Golden Knights a 53% chance to win (Edmonton Oilers 47%).",
     "Vegas Golden Knights: 14-6-5, 7-2-2 on the road, top: Mark Stone 11 Goals.",
@@ -1084,10 +1084,10 @@
     }
    ],
    "n_sharp": 4,
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626715467&selectionId=13305501",
+   "link": "https://sportsbook.draftkings.com/?outcomes=0ML87392223_3",
    "prices": {
-    "FanDuel": 1.83,
-    "DraftKings": 1.8
+    "FanDuel": 1.82,
+    "DraftKings": 1.83
    },
    "links": {
     "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626715467&selectionId=13305501",

@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-24T02:47:15+00:00",
+ "updated": "2026-11-24T02:51:06+00:00",
  "last_scan": "2026-11-23T23:48:16+00:00",
  "unit": 4.5,
  "bankroll": 235.62,
@@ -558,72 +558,6 @@
  ],
  "arbs": [],
  "games": [
-  {
-   "sport": "NHL",
-   "event": "Anaheim Ducks @ Seattle Kraken",
-   "pick": "Seattle Kraken",
-   "opp": "Anaheim Ducks",
-   "start": "2026-11-24T02:50:00+00:00",
-   "book": "DraftKings",
-   "odds": 1.85,
-   "prob": 0.5217,
-   "edge": -0.0348,
-   "value": "over",
-   "value_txt": "Overpriced: the book is charging a lot here",
-   "units": 0.0,
-   "stake": 0.0,
-   "to_win": 0.0,
-   "tier": null,
-   "fair_odds": 1.92,
-   "why": [
-    "Sharp books give Seattle Kraken a 52% chance to win (Anaheim Ducks 48%).",
-    "Seattle Kraken: 10-9-1, 6-4-0 at home, top: Berkly Catton 8 Goals.",
-    "Anaheim Ducks: 11-12-1, 7-6-0 on the road, top: Cutter Gauthier 21 Goals."
-   ],
-   "injuries": [
-    {
-     "team": "Seattle Kraken",
-     "list": [
-      "Jake O'Brien (C, Injured Reserve)",
-      "Jared McCann (LW, Injured Reserve)"
-     ]
-    },
-    {
-     "team": "Anaheim Ducks",
-     "list": [
-      "Leo Carlsson (C, day-to-day)",
-      "Beckett Sennecke (RW, Injured Reserve)",
-      "Ryan Poehling (C, Injured Reserve)",
-      "A.J. Greer (LW, Injured Reserve)"
-     ]
-    }
-   ],
-   "n_sharp": 4,
-   "link": "https://sportsbook.draftkings.com/?outcomes=0ML87329217_1",
-   "prices": {
-    "DraftKings": 1.85,
-    "FanDuel": 1.85,
-    "theScore Bet": 1.83
-   },
-   "links": {
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87329217_1",
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626715377&selectionId=40119153",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=b9c07592-6850-4d93-ba9c-048300c0de99&odds_numerator[0]=2&odds_denominator[0]=1"
-   },
-   "open": [
-    "2026-11-23T18:49:31+00:00",
-    1.85,
-    0.5252
-   ],
-   "hist": [
-    [
-     "2026-11-23T18:49:31+00:00",
-     1.85,
-     0.5252
-    ]
-   ],
-   "lag": false
-  },
   {
    "sport": "NBA",
    "event": "Utah Jazz @ Los Angeles Lakers",

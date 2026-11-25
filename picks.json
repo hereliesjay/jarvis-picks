@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-25T20:20:21+00:00",
+ "updated": "2026-11-25T20:30:27+00:00",
  "last_scan": "2026-11-25T19:37:32+00:00",
  "unit": 4.5,
  "bankroll": 228.1,
@@ -1386,58 +1386,6 @@
   }
  },
  "games": [
-  {
-   "sport": "COLLEGE BASKETBALL",
-   "event": "Arkansas St Red Wolves @ Florida Int'l Golden Panthers",
-   "pick": "Florida Int'l Golden Panthers",
-   "opp": "Arkansas St Red Wolves",
-   "start": "2026-11-25T20:30:00+00:00",
-   "book": "DraftKings",
-   "odds": 1.77,
-   "prob": 0.5369,
-   "edge": -0.0497,
-   "value": "over",
-   "value_txt": "Overpriced: the book is charging a lot here",
-   "units": 0.0,
-   "stake": 0.0,
-   "to_win": 0.0,
-   "tier": null,
-   "fair_odds": 1.86,
-   "why": [
-    "Sharp books give Florida Int'l Golden Panthers a 54% chance to win (Arkansas St Red Wolves 46%)."
-   ],
-   "injuries": [],
-   "n_sharp": 2,
-   "link": "https://sportsbook.draftkings.com/?outcomes=0ML87405604_1",
-   "prices": {
-    "DraftKings": 1.77,
-    "FanDuel": 1.76,
-    "theScore Bet": 1.77
-   },
-   "links": {
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87405604_1",
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628414462&selectionId=723297",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=8901037a-751d-408c-a62c-6778ee942aea&odds_numerator[0]=2&odds_denominator[0]=1"
-   },
-   "open": [
-    "2026-11-25T09:00:34+00:00",
-    1.8,
-    0.5455
-   ],
-   "hist": [
-    [
-     "2026-11-25T09:00:34+00:00",
-     1.8,
-     0.5455
-    ],
-    [
-     "2026-11-25T18:48:39+00:00",
-     1.77,
-     0.5369
-    ]
-   ],
-   "lag": false
-  },
   {
    "sport": "COLLEGE BASKETBALL",
    "event": "Georgia St Panthers @ Florida Gulf Coast Eagles",

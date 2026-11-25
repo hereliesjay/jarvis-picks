@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-25T21:21:02+00:00",
+ "updated": "2026-11-25T21:30:08+00:00",
  "last_scan": "2026-11-25T21:00:55+00:00",
  "unit": 4.5,
  "bankroll": 228.1,
@@ -1356,55 +1356,6 @@
   }
  },
  "games": [
-  {
-   "sport": "COLLEGE BASKETBALL",
-   "event": "South Carolina Gamecocks @ USC Trojans",
-   "pick": "USC Trojans",
-   "opp": "South Carolina Gamecocks",
-   "start": "2026-11-25T21:30:00+00:00",
-   "book": "FanDuel",
-   "odds": 1.19,
-   "prob": 0.8374,
-   "edge": -0.0035,
-   "value": "fair",
-   "value_txt": "Fair price",
-   "units": 0.5,
-   "stake": 2.25,
-   "to_win": 0.43,
-   "tier": null,
-   "fair_odds": 1.19,
-   "why": [
-    "Sharp books give USC Trojans a 84% chance to win (South Carolina Gamecocks 14%).",
-    "USC Trojans: 6-0, 4-0 at home, 94.2 pts/game, top: Alijah Arenas 21.3 PPG.",
-    "South Carolina Gamecocks: 5-0, 0-0 on the road, 79.0 pts/game, top: Juan Fernandez 15.2 PPG."
-   ],
-   "injuries": [],
-   "n_sharp": 3,
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628407572&selectionId=29830",
-   "prices": {
-    "FanDuel": 1.19,
-    "DraftKings": 1.17,
-    "theScore Bet": 1.15
-   },
-   "links": {
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628407572&selectionId=29830",
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87405609_1",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=e4e45d57-ffa0-4af1-9590-6fceee284837&odds_numerator[0]=2&odds_denominator[0]=1"
-   },
-   "open": [
-    "2026-11-25T18:48:39+00:00",
-    1.19,
-    0.8374
-   ],
-   "hist": [
-    [
-     "2026-11-25T18:48:39+00:00",
-     1.19,
-     0.8374
-    ]
-   ],
-   "lag": false
-  },
   {
    "sport": "COLLEGE BASKETBALL",
    "event": "Holy Cross Crusaders @ Dartmouth Big Green",
@@ -4231,27 +4182,13 @@
   {
    "label": "Safest 4x+",
    "book": "FanDuel",
-   "odds": 4.03,
-   "prob": 0.2331,
-   "ev": -0.0614,
+   "odds": 4.02,
+   "prob": 0.2337,
+   "ev": -0.0606,
    "units": 0.5,
    "stake": 2.25,
-   "to_win": 6.81,
+   "to_win": 6.79,
    "legs": [
-    {
-     "pick": "USC Trojans",
-     "event": "South Carolina Gamecocks @ USC Trojans",
-     "sport": "COLLEGE BASKETBALL",
-     "odds": 1.19,
-     "prob": 0.837,
-     "start": "2026-11-25T21:30:00+00:00",
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628407572&selectionId=29830",
-     "sid": [
-      null,
-      "29830",
-      "36359762"
-     ]
-    },
     {
      "pick": "Pepperdine Waves",
      "event": "CSU Bakersfield Roadrunners @ Pepperdine Waves",
@@ -4264,20 +4201,6 @@
       null,
       "712841",
       "36360315"
-     ]
-    },
-    {
-     "pick": "Northern Kentucky Norse",
-     "event": "Bellarmine Knights @ Northern Kentucky Norse",
-     "sport": "COLLEGE BASKETBALL",
-     "odds": 1.33,
-     "prob": 0.743,
-     "start": "2026-11-26T00:00:00+00:00",
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628411716&selectionId=6833626",
-     "sid": [
-      null,
-      "6833626",
-      "36360334"
      ]
     },
     {
@@ -4307,19 +4230,33 @@
       "5145586",
       "36359780"
      ]
+    },
+    {
+     "pick": "Pacific Tigers",
+     "event": "Jacksonville St Gamecocks @ Pacific Tigers",
+     "sport": "COLLEGE BASKETBALL",
+     "odds": 1.58,
+     "prob": 0.623,
+     "start": "2026-11-26T03:30:00+00:00",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628414052&selectionId=756685",
+     "sid": [
+      null,
+      "756685",
+      "36360376"
+     ]
     }
    ],
-   "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.628407572&selectionId[0]=29830&marketId[1]=42.628411130&selectionId[1]=712841&marketId[2]=42.628411716&selectionId[2]=6833626&marketId[3]=42.627991897&selectionId[3]=237491&marketId[4]=42.628444052&selectionId[4]=5145586",
+   "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.628411130&selectionId[0]=712841&marketId[1]=42.627991897&selectionId[1]=237491&marketId[2]=42.628444052&selectionId[2]=5145586&marketId[3]=42.628414052&selectionId[3]=756685",
    "alts": [
     {
      "book": "DraftKings",
-     "odds": 3.87,
-     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87405609_1+0ML87405629_1+0ML87405619_1+0ML87386541_1+0ML87405630_1"
+     "odds": 3.85,
+     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87405629_1+0ML87386541_1+0ML87405630_1+0ML87405633_3"
     },
     {
      "book": "theScore Bet",
-     "odds": 3.79,
-     "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=e4e45d57-ffa0-4af1-9590-6fceee284837&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=00a582e3-3726-47ee-ab37-a1f4e0e0be54&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=d3e8ddaa-8060-4acd-a3f0-79ee1e1a0982&odds_numerator[2]=2&odds_denominator[2]=1&market_selection_id[3]=4a3a9128-4de4-46dd-bc3c-5cb1819fd45e&odds_numerator[3]=2&odds_denominator[3]=1&market_selection_id[4]=b774e354-9f24-426a-8d8a-d87463e07f68&odds_numerator[4]=2&odds_denominator[4]=1"
+     "odds": 3.82,
+     "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=00a582e3-3726-47ee-ab37-a1f4e0e0be54&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=4a3a9128-4de4-46dd-bc3c-5cb1819fd45e&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=b774e354-9f24-426a-8d8a-d87463e07f68&odds_numerator[2]=2&odds_denominator[2]=1&market_selection_id[3]=1770d24e-f649-4af1-88f3-4ad874d02e86&odds_numerator[3]=2&odds_denominator[3]=1"
     }
    ]
   },

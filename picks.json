@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-25T22:00:45+00:00",
+ "updated": "2026-11-25T22:10:50+00:00",
  "last_scan": "2026-11-25T21:00:55+00:00",
  "unit": 4.5,
  "bankroll": 228.65,
@@ -1366,68 +1366,6 @@
   }
  },
  "games": [
-  {
-   "sport": "NBA",
-   "event": "Miami Heat @ Philadelphia 76ers",
-   "pick": "Miami Heat",
-   "opp": "Philadelphia 76ers",
-   "start": "2026-11-25T22:10:00+00:00",
-   "book": "FanDuel",
-   "odds": 1.83,
-   "prob": 0.5139,
-   "edge": -0.0596,
-   "value": "over",
-   "value_txt": "Overpriced: the book is charging a lot here",
-   "units": 0.0,
-   "stake": 0.0,
-   "to_win": 0.0,
-   "tier": null,
-   "fair_odds": 1.95,
-   "why": [
-    "Sharp books give Miami Heat a 51% chance to win (Philadelphia 76ers 49%).",
-    "Miami Heat: 10-6, 4-3 on the road, 120.7 pts/game, top: Giannis Antetokounmpo 28.2 PPG.",
-    "Philadelphia 76ers: 14-4, 7-3 at home, 115.3 pts/game, top: Tyrese Maxey 25.7 PPG."
-   ],
-   "injuries": [
-    {
-     "team": "Philadelphia 76ers",
-     "list": [
-      "Joel Embiid (C, Out)",
-      "Ariel Hukporti (C, Out)"
-     ]
-    }
-   ],
-   "n_sharp": 4,
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627991948&selectionId=237486",
-   "prices": {
-    "DraftKings": 1.8,
-    "FanDuel": 1.83,
-    "theScore Bet": 1.8
-   },
-   "links": {
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML85859638_3",
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627991948&selectionId=237486",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=3ab66f24-a3c8-45e4-87fa-caebf225c94b&odds_numerator[0]=2&odds_denominator[0]=1"
-   },
-   "open": [
-    "2026-11-25T18:48:39+00:00",
-    2.01,
-    0.4775
-   ],
-   "hist": [
-    [
-     "2026-11-25T18:48:39+00:00",
-     2.01,
-     0.4775
-    ],
-    [
-     "2026-11-25T21:00:55+00:00",
-     1.83,
-     0.5139
-    ]
-   ],
-   "lag": false
-  },
   {
    "sport": "COLLEGE BASKETBALL",
    "event": "BYU Cougars @ Providence Friars",

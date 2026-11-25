@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-25T20:00:13+00:00",
+ "updated": "2026-11-25T20:20:21+00:00",
  "last_scan": "2026-11-25T19:37:32+00:00",
  "unit": 4.5,
  "bankroll": 228.1,
@@ -1864,7 +1864,7 @@
     {
      "team": "Philadelphia 76ers",
      "list": [
-      "Joel Embiid (C, day-to-day)",
+      "Joel Embiid (C, Out)",
       "Ariel Hukporti (C, Out)"
      ]
     },

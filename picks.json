@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-25T20:49:42+00:00",
+ "updated": "2026-11-25T20:51:46+00:00",
  "last_scan": "2026-11-25T19:37:32+00:00",
  "unit": 4.5,
  "bankroll": 228.1,
@@ -4145,6 +4145,7 @@
     {
      "team": "Sacramento Kings",
      "list": [
+      "Zach LaVine (G, day-to-day)",
       "Maxime Raynaud (C, Out)",
       "Ben Simmons (G, Out)"
      ]

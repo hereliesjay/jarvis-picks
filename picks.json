@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-25T00:05:58+00:00",
+ "updated": "2026-11-25T00:11:01+00:00",
  "last_scan": "2026-11-24T23:48:50+00:00",
  "unit": 4.5,
  "bankroll": 231.19,
@@ -232,7 +232,7 @@
    "to_win": 1.46,
    "min_odds": 2.22,
    "start": "2026-11-25T00:11:00+00:00",
-   "started": false,
+   "started": true,
    "status": "open",
    "n_sharp": 4,
    "link": null,
@@ -916,77 +916,6 @@
   "books": {}
  },
  "games": [
-  {
-   "sport": "NBA",
-   "event": "Detroit Pistons @ Orlando Magic",
-   "pick": "Detroit Pistons",
-   "opp": "Orlando Magic",
-   "start": "2026-11-25T00:11:00+00:00",
-   "book": "FanDuel",
-   "odds": 1.74,
-   "prob": 0.5488,
-   "edge": -0.0451,
-   "value": "over",
-   "value_txt": "Overpriced: the book is charging a lot here",
-   "units": 0.0,
-   "stake": 0.0,
-   "to_win": 0.0,
-   "tier": null,
-   "fair_odds": 1.82,
-   "why": [
-    "Sharp books give Detroit Pistons a 55% chance to win (Orlando Magic 45%).",
-    "Detroit Pistons: 10-6, 7-3 on the road, 113.4 pts/game, top: Daniss Jenkins 14.1 PPG.",
-    "Orlando Magic: 7-9, 1-5 at home, 108.8 pts/game, top: Franz Wagner 24.5 PPG."
-   ],
-   "injuries": [
-    {
-     "team": "Detroit Pistons",
-     "list": [
-      "Cade Cunningham (G, Out)",
-      "Ebuka Okorie (G, Out)",
-      "Taurean Prince (F, Out)",
-      "Duncan Robinson (F, Out)"
-     ]
-    },
-    {
-     "team": "Orlando Magic",
-     "list": [
-      "Jonathan Isaac (F, Out)",
-      "Izaiyah Nelson (F, Out)",
-      "Noah Penda (F, Out)",
-      "Paolo Banchero (F, Out)"
-     ]
-    }
-   ],
-   "n_sharp": 4,
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627757387&selectionId=237474",
-   "prices": {
-    "FanDuel": 1.74,
-    "DraftKings": 1.74
-   },
-   "links": {
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627757387&selectionId=237474",
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87369678_3"
-   },
-   "open": [
-    "2026-11-24T16:28:48+00:00",
-    1.72,
-    0.5577
-   ],
-   "hist": [
-    [
-     "2026-11-24T16:28:48+00:00",
-     1.72,
-     0.5577
-    ],
-    [
-     "2026-11-24T18:13:45+00:00",
-     1.74,
-     0.5488
-    ]
-   ],
-   "lag": false
-  },
   {
    "sport": "NBA",
    "event": "Boston Celtics @ Washington Wizards",

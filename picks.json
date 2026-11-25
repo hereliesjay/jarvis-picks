@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-25T23:50:19+00:00",
+ "updated": "2026-11-25T23:53:22+00:00",
  "last_scan": "2026-11-25T23:48:15+00:00",
  "unit": 4.5,
  "bankroll": 227.78,
@@ -1899,10 +1899,10 @@
     {
      "team": "Buffalo Sabres",
      "list": [
-      "Mattias Samuelsson (D, day-to-day)",
-      "Tyson Kozak (C, day-to-day)",
+      "Tyson Kozak (C, Out)",
       "Konsta Helenius (C, Injured Reserve)",
-      "Justin Danforth (RW, Injured Reserve)"
+      "Justin Danforth (RW, Injured Reserve)",
+      "Matt Grzelcyk (D, Injured Reserve)"
      ]
     },
     {
@@ -2035,13 +2035,15 @@
     {
      "team": "Carolina Hurricanes",
      "list": [
-      "K'Andre Miller (D, day-to-day)",
+      "K'Andre Miller (D, Out)",
       "Nikolaj Ehlers (LW, Out)"
      ]
     },
     {
      "team": "Tampa Bay Lightning",
      "list": [
+      "Erik Cernak (D, Out)",
+      "Victor Hedman (D, Out)",
       "Conor Geekie (C, Injured Reserve)"
      ]
     }
@@ -2502,9 +2504,9 @@
     {
      "team": "New York Knicks",
      "list": [
+      "OG Anunoby (F, Out)",
       "Miles McBride (G, Out)",
-      "Jordan Clarkson (G, Out)",
-      "OG Anunoby (F, Out)"
+      "Jordan Clarkson (G, Out)"
      ]
     },
     {

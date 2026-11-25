@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-24T23:50:53+00:00",
+ "updated": "2026-11-25T00:05:58+00:00",
  "last_scan": "2026-11-24T23:48:50+00:00",
  "unit": 4.5,
  "bankroll": 231.19,
@@ -942,10 +942,10 @@
     {
      "team": "Detroit Pistons",
      "list": [
+      "Cade Cunningham (G, Out)",
       "Ebuka Okorie (G, Out)",
       "Taurean Prince (F, Out)",
-      "Duncan Robinson (F, Out)",
-      "Jalen Duren (C, Out)"
+      "Duncan Robinson (F, Out)"
      ]
     },
     {

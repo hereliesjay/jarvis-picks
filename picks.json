@@ -1,7 +1,7 @@
 {
  "version": 25,
- "updated": "2026-11-25T19:30:26+00:00",
- "last_scan": "2026-11-25T18:48:39+00:00",
+ "updated": "2026-11-25T19:37:33+00:00",
+ "last_scan": "2026-11-25T19:37:32+00:00",
  "unit": 4.5,
  "bankroll": 229.35,
  "bank_start": 250.0,
@@ -807,7 +807,7 @@
    "on": true
   }
  },
- "watching": 121,
+ "watching": 125,
  "history": [
   {
    "type": "lean",
@@ -1342,7 +1342,96 @@
    "start": "2026-11-26T02:50:00+00:00"
   }
  ],
- "arbs": [],
+ "arbs": [
+  {
+   "event": "Fenerbahce @ Shakhtar Donetsk",
+   "sport": "SOCCER",
+   "start": "2026-11-25T20:00:00+00:00",
+   "profit": 0.3231,
+   "sides": [
+    {
+     "pick": "Fenerbahce",
+     "book": "DraftKings",
+     "odds": 2.75,
+     "share": 0.4811,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0ML87106312_3"
+    },
+    {
+     "pick": "Shakhtar Donetsk",
+     "book": "DraftKings",
+     "odds": 2.55,
+     "share": 0.5189,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0ML87106312_1"
+    }
+   ]
+  },
+  {
+   "event": "Manchester United @ Sporting Lisbon",
+   "sport": "SOCCER",
+   "start": "2026-11-25T20:00:00+00:00",
+   "profit": 0.3095,
+   "sides": [
+    {
+     "pick": "Manchester United",
+     "book": "theScore Bet",
+     "odds": 2.5,
+     "share": 0.5238,
+     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=46a8e4f7-3a84-4fd2-809c-6c5799d48c2f&odds_numerator[0]=2&odds_denominator[0]=1"
+    },
+    {
+     "pick": "Sporting Lisbon",
+     "book": "DraftKings",
+     "odds": 2.75,
+     "share": 0.4762,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0ML87106314_1"
+    }
+   ]
+  },
+  {
+   "event": "Bayern Munich @ Lille",
+   "sport": "SOCCER",
+   "start": "2026-11-25T20:00:00+00:00",
+   "profit": 0.2462,
+   "sides": [
+    {
+     "pick": "Bayern Munich",
+     "book": "DraftKings",
+     "odds": 1.62,
+     "share": 0.7692,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0ML87106308_3"
+    },
+    {
+     "pick": "Lille",
+     "book": "FanDuel",
+     "odds": 5.4,
+     "share": 0.2308,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623325378&selectionId=44790"
+    }
+   ]
+  },
+  {
+   "event": "Liverpool @ Club Brugge",
+   "sport": "SOCCER",
+   "start": "2026-11-25T20:00:00+00:00",
+   "profit": 0.221,
+   "sides": [
+    {
+     "pick": "Club Brugge",
+     "book": "FanDuel",
+     "odds": 4.4,
+     "share": 0.2775,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623325300&selectionId=10762"
+    },
+    {
+     "pick": "Liverpool",
+     "book": "DraftKings",
+     "odds": 1.69,
+     "share": 0.7225,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0ML87106309_3"
+    }
+   ]
+  }
+ ],
  "edge_sources": {
   "sports": [
    {
@@ -1359,8 +1448,8 @@
    },
    {
     "sport": "SOCCER",
-    "scans": 1,
-    "prices": 4,
+    "scans": 2,
+    "prices": 22,
     "edges": 0
    },
    {
@@ -4733,26 +4822,26 @@
   },
   {
    "label": "Next safest 4x+",
-   "book": "FanDuel",
-   "odds": 4.0,
-   "prob": 0.2323,
-   "ev": -0.0699,
+   "book": "theScore Bet",
+   "odds": 4.01,
+   "prob": 0.2338,
+   "ev": -0.0612,
    "units": 0.5,
    "stake": 2.25,
-   "to_win": 6.76,
+   "to_win": 6.78,
    "legs": [
     {
      "pick": "Houston Rockets",
      "event": "Phoenix Suns @ Houston Rockets",
      "sport": "NBA",
-     "odds": 1.27,
+     "odds": 1.25,
      "prob": 0.777,
      "start": "2026-11-26T01:40:00+00:00",
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627991909&selectionId=237488",
+     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=df6e87a7-8e7d-417d-80e2-658d4f534414&odds_numerator[0]=2&odds_denominator[0]=1",
      "sid": [
-      null,
-      "237488",
-      "36354200"
+      "dc534a3f-147f-4483-a66c-849b8a11a4dc",
+      "df6e87a7-8e7d-417d-80e2-658d4f534414",
+      "b2149649-b460-4d9c-8c2c-c3e8e62ab7ff"
      ]
     },
     {
@@ -4762,53 +4851,53 @@
      "odds": 1.33,
      "prob": 0.743,
      "start": "2026-11-26T00:00:00+00:00",
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628411716&selectionId=6833626",
+     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=d3e8ddaa-8060-4acd-a3f0-79ee1e1a0982&odds_numerator[0]=2&odds_denominator[0]=1",
      "sid": [
-      null,
-      "6833626",
-      "36360334"
+      "b73cc701-d6ce-4b55-9f37-b77052039657",
+      "d3e8ddaa-8060-4acd-a3f0-79ee1e1a0982",
+      "e58f8cf4-e25b-4ee8-8afe-ad0a77b8e45b"
      ]
     },
     {
-     "pick": "UC Davis Aggies",
-     "event": "Omaha Mavericks @ UC Davis Aggies",
-     "sport": "COLLEGE BASKETBALL",
+     "pick": "Paris Saint Germain",
+     "event": "AS Roma @ Paris Saint Germain",
+     "sport": "SOCCER",
      "odds": 1.5,
-     "prob": 0.646,
-     "start": "2026-11-26T01:00:00+00:00",
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628444052&selectionId=5145586",
+     "prob": 0.652,
+     "start": "2026-11-25T20:00:00+00:00",
+     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=9082dead-f9b8-47e7-aa8c-c71b37737618&odds_numerator[0]=2&odds_denominator[0]=1",
      "sid": [
-      null,
-      "5145586",
-      "36359780"
+      "0e16cd79-4c64-4f4a-b565-54926bf135ec",
+      "9082dead-f9b8-47e7-aa8c-c71b37737618",
+      "c48dfbc4-f9ea-493e-baa0-a8f0888d6b1d"
      ]
     },
     {
-     "pick": "Pacific Tigers",
-     "event": "Jacksonville St Gamecocks @ Pacific Tigers",
+     "pick": "The Citadel Bulldogs",
+     "event": "South Carolina Upstate Spartans @ The Citadel Bulldogs",
      "sport": "COLLEGE BASKETBALL",
-     "odds": 1.58,
-     "prob": 0.623,
-     "start": "2026-11-26T03:30:00+00:00",
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628414052&selectionId=756685",
+     "odds": 1.61,
+     "prob": 0.622,
+     "start": "2026-11-26T00:00:00+00:00",
+     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=61cef713-7e8d-4d12-a2fb-2cdb8f3aac8d&odds_numerator[0]=2&odds_denominator[0]=1",
      "sid": [
-      null,
-      "756685",
-      "36360376"
+      "7175df0f-cec1-40d6-b039-cddfc6604a17",
+      "61cef713-7e8d-4d12-a2fb-2cdb8f3aac8d",
+      "ebc8be8a-7381-40cd-918b-cc3a660a52c4"
      ]
     }
    ],
-   "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.627991909&selectionId[0]=237488&marketId[1]=42.628411716&selectionId[1]=6833626&marketId[2]=42.628444052&selectionId[2]=5145586&marketId[3]=42.628414052&selectionId[3]=756685",
+   "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=df6e87a7-8e7d-417d-80e2-658d4f534414&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=d3e8ddaa-8060-4acd-a3f0-79ee1e1a0982&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=9082dead-f9b8-47e7-aa8c-c71b37737618&odds_numerator[2]=2&odds_denominator[2]=1&market_selection_id[3]=61cef713-7e8d-4d12-a2fb-2cdb8f3aac8d&odds_numerator[3]=2&odds_denominator[3]=1",
    "alts": [
     {
      "book": "DraftKings",
-     "odds": 3.84,
-     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87386543_1+0ML87405619_1+0ML87405630_1+0ML87405633_3"
+     "odds": 3.91,
+     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87386543_1+0ML87405619_1+0ML87106315_1+0ML87405627_1"
     },
     {
-     "book": "theScore Bet",
-     "odds": 3.84,
-     "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=df6e87a7-8e7d-417d-80e2-658d4f534414&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=d3e8ddaa-8060-4acd-a3f0-79ee1e1a0982&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=b774e354-9f24-426a-8d8a-d87463e07f68&odds_numerator[2]=2&odds_denominator[2]=1&market_selection_id[3]=1770d24e-f649-4af1-88f3-4ad874d02e86&odds_numerator[3]=2&odds_denominator[3]=1"
+     "book": "FanDuel",
+     "odds": 3.95,
+     "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.627991909&selectionId[0]=237488&marketId[1]=42.628411716&selectionId[1]=6833626&marketId[2]=42.623324891&selectionId[2]=489720&marketId[3]=42.628550361&selectionId[3]=3558411"
     }
    ]
   }

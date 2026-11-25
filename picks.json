@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-25T19:41:59+00:00",
+ "updated": "2026-11-25T19:44:03+00:00",
  "last_scan": "2026-11-25T19:37:32+00:00",
  "unit": 4.5,
  "bankroll": 228.1,
@@ -1494,8 +1494,8 @@
    "fair_odds": 1.64,
    "why": [
     "Sharp books give Texas A&M Aggies a 61% chance to win (Xavier Musketeers 39%).",
-    "Texas A&M Aggies: 6-0, 1-0 on the road, 99.2 pts/game, top: PJ Haggerty 20.7 PPG.",
-    "Xavier Musketeers: 5-1, 4-1 at home, 82.3 pts/game, top: Mike Nwoko 13.3 PPG."
+    "Texas A&M Aggies: 6-0, 1-0 on the road.",
+    "Xavier Musketeers: 5-1, 4-1 at home."
    ],
    "injuries": [],
    "n_sharp": 3,

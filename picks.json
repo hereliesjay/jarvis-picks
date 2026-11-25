@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-25T19:12:15+00:00",
+ "updated": "2026-11-25T19:19:20+00:00",
  "last_scan": "2026-11-25T18:48:39+00:00",
  "unit": 4.5,
  "bankroll": 229.35,
@@ -3148,7 +3148,7 @@
    "why": [
     "Sharp books give New York Islanders a 52% chance to win (St Louis Blues 48%).",
     "New York Islanders: 11-7-5, 5-4-2 at home, top: Simon Holmstrom 10 Goals.",
-    "St Louis Blues: 13-9-2, 5-6-1 on the road, top: Jimmy Snuggerud 14 Goals."
+    "St Louis Blues: 13-9-2, 5-6-1 on the road, top: Mason McTavish 8 Goals."
    ],
    "injuries": [
     {
@@ -3162,10 +3162,10 @@
     {
      "team": "St Louis Blues",
      "list": [
+      "Pavel Buchnevich (LW, Out)",
+      "Jimmy Snuggerud (RW, Out)",
       "Connor McMichael (LW, Injured Reserve)",
-      "Brandon Carlo (D, Injured Reserve)",
-      "Pavel Buchnevich (LW, day-to-day)",
-      "Jimmy Snuggerud (RW, day-to-day)"
+      "Brandon Carlo (D, Injured Reserve)"
      ]
     }
    ],
@@ -4320,9 +4320,9 @@
     {
      "team": "Anaheim Ducks",
      "list": [
-      "Leo Carlsson (C, day-to-day)",
-      "Beckett Sennecke (RW, Injured Reserve)",
       "Ryan Poehling (C, Injured Reserve)",
+      "Beckett Sennecke (RW, Injured Reserve)",
+      "Leo Carlsson (C, Out)",
       "A.J. Greer (LW, Injured Reserve)"
      ]
     },

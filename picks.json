@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-26T01:40:26+00:00",
+ "updated": "2026-11-26T01:54:56+00:00",
  "last_scan": "2026-11-25T23:48:15+00:00",
  "unit": 4.5,
  "bankroll": 227.78,
@@ -1652,8 +1652,8 @@
     {
      "team": "Chicago Blackhawks",
      "list": [
+      "Tyler Bertuzzi (LW, Out)",
       "Connor Bedard (C, Injured Reserve)",
-      "Anton Frondell (C, day-to-day)",
       "Bowen Byram (D, Injured Reserve)"
      ]
     }
@@ -1827,10 +1827,10 @@
     {
      "team": "Golden State Warriors",
      "list": [
-      "Yaxel Lendeborg (F, day-to-day)",
-      "Brandon Williams (G, Out)",
       "Stephen Curry (G, Out)",
-      "Kristaps Porzingis (C, Out)"
+      "Brandon Williams (G, Out)",
+      "Kristaps Porzingis (C, Out)",
+      "Moses Moody (G, Out)"
      ]
     },
     {

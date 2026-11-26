@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-26T00:30:45+00:00",
+ "updated": "2026-11-26T00:40:50+00:00",
  "last_scan": "2026-11-25T23:48:15+00:00",
  "unit": 4.5,
  "bankroll": 227.78,
@@ -1392,153 +1392,6 @@
  },
  "games": [
   {
-   "sport": "NBA",
-   "event": "Cleveland Cavaliers @ New York Knicks",
-   "pick": "New York Knicks",
-   "opp": "Cleveland Cavaliers",
-   "start": "2026-11-26T00:40:00+00:00",
-   "book": "theScore Bet",
-   "odds": 1.57,
-   "prob": 0.6252,
-   "edge": -0.0184,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.12,
-   "to_win": 0.64,
-   "tier": null,
-   "fair_odds": 1.6,
-   "why": [
-    "Sharp books give New York Knicks a 63% chance to win (Cleveland Cavaliers 37%).",
-    "New York Knicks: 11-6, 6-3 at home, 108.9 pts/game, top: Jalen Brunson 26.5 PPG.",
-    "Cleveland Cavaliers: 9-9, 2-6 on the road, 118.2 pts/game, top: Donovan Mitchell 24.7 PPG."
-   ],
-   "injuries": [
-    {
-     "team": "New York Knicks",
-     "list": [
-      "OG Anunoby (F, Out)",
-      "Miles McBride (G, Out)",
-      "Jordan Clarkson (G, Out)"
-     ]
-    },
-    {
-     "team": "Cleveland Cavaliers",
-     "list": [
-      "Nae'Qwan Tomlin (F, Out)",
-      "Evan Mobley (C, Out)"
-     ]
-    }
-   ],
-   "n_sharp": 4,
-   "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=320c3f32-40cf-4685-9a9a-f338378e2c02&odds_numerator[0]=2&odds_denominator[0]=1",
-   "prices": {
-    "FanDuel": 1.54,
-    "theScore Bet": 1.57,
-    "DraftKings": 1.56
-   },
-   "links": {
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627991912&selectionId=237482",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=320c3f32-40cf-4685-9a9a-f338378e2c02&odds_numerator[0]=2&odds_denominator[0]=1",
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87386540_1"
-   },
-   "open": [
-    "2026-11-25T18:48:39+00:00",
-    1.83,
-    0.546
-   ],
-   "hist": [
-    [
-     "2026-11-25T18:48:39+00:00",
-     1.83,
-     0.546
-    ],
-    [
-     "2026-11-25T21:00:55+00:00",
-     1.77,
-     0.5439
-    ],
-    [
-     "2026-11-25T23:48:15+00:00",
-     1.57,
-     0.6252
-    ]
-   ],
-   "lag": false
-  },
-  {
-   "sport": "NBA",
-   "event": "Minnesota Timberwolves @ Oklahoma City Thunder",
-   "pick": "Oklahoma City Thunder",
-   "opp": "Minnesota Timberwolves",
-   "start": "2026-11-26T00:40:00+00:00",
-   "book": "FanDuel",
-   "odds": 1.75,
-   "prob": 0.5595,
-   "edge": -0.0208,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.12,
-   "to_win": 0.84,
-   "tier": null,
-   "fair_odds": 1.79,
-   "why": [
-    "Sharp books give Oklahoma City Thunder a 56% chance to win (Minnesota Timberwolves 44%).",
-    "Oklahoma City Thunder: 10-8, 6-1 at home, 113.4 pts/game, top: Shai Gilgeous-Alexander 32.1 PPG.",
-    "Minnesota Timberwolves: 13-5, 4-2 on the road, 116.4 pts/game, top: Jaden McDaniels 18.4 PPG."
-   ],
-   "injuries": [
-    {
-     "team": "Oklahoma City Thunder",
-     "list": [
-      "Nikola Topic (G, Out)",
-      "Jaylin Williams (F, Out)",
-      "Aday Mara (C, Out)",
-      "Jalen Williams (G, Out)"
-     ]
-    },
-    {
-     "team": "Minnesota Timberwolves",
-     "list": [
-      "Donte DiVincenzo (G, Out)",
-      "Jaylen Clark (G, Out)",
-      "Anthony Edwards (G, Out)"
-     ]
-    }
-   ],
-   "n_sharp": 4,
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627991884&selectionId=3319741",
-   "prices": {
-    "DraftKings": 1.74,
-    "FanDuel": 1.75,
-    "theScore Bet": 1.74
-   },
-   "links": {
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML85859643_1",
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627991884&selectionId=3319741",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=9d50998e-9c4c-4a3c-8ce1-d5f3fe54eb31&odds_numerator[0]=2&odds_denominator[0]=1"
-   },
-   "open": [
-    "2026-11-25T18:48:39+00:00",
-    1.8,
-    0.5433
-   ],
-   "hist": [
-    [
-     "2026-11-25T18:48:39+00:00",
-     1.8,
-     0.5433
-    ],
-    [
-     "2026-11-25T23:48:15+00:00",
-     1.75,
-     0.5595
-    ]
-   ],
-   "lag": false
-  },
-  {
    "sport": "COLLEGE BASKETBALL",
    "event": "CSU Bakersfield Roadrunners @ Pepperdine Waves",
    "pick": "Pepperdine Waves",
@@ -2838,68 +2691,68 @@
   },
   {
    "label": "Next safest 4x+",
-   "book": "theScore Bet",
-   "odds": 4.02,
-   "prob": 0.2368,
-   "ev": -0.0483,
+   "book": "FanDuel",
+   "odds": 4.04,
+   "prob": 0.2348,
+   "ev": -0.0503,
    "units": 0.5,
    "stake": 2.25,
-   "to_win": 6.79,
+   "to_win": 6.85,
    "legs": [
     {
-     "pick": "New York Knicks",
-     "event": "Cleveland Cavaliers @ New York Knicks",
-     "sport": "NBA",
-     "odds": 1.57,
-     "prob": 0.625,
-     "start": "2026-11-26T00:40:00+00:00",
-     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=320c3f32-40cf-4685-9a9a-f338378e2c02&odds_numerator[0]=2&odds_denominator[0]=1",
+     "pick": "Pacific Tigers",
+     "event": "Jacksonville St Gamecocks @ Pacific Tigers",
+     "sport": "COLLEGE BASKETBALL",
+     "odds": 1.58,
+     "prob": 0.62,
+     "start": "2026-11-26T03:30:00+00:00",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628414052&selectionId=756685",
      "sid": [
-      "fb7e61e7-512f-46b9-aea3-bfa0b8d89671",
-      "320c3f32-40cf-4685-9a9a-f338378e2c02",
-      "3b7347fb-9390-4c32-a246-a39d28ee5619"
+      null,
+      "756685",
+      "36360376"
      ]
     },
     {
      "pick": "Dallas Stars",
      "event": "Nashville Predators @ Dallas Stars",
      "sport": "NHL",
-     "odds": 1.59,
+     "odds": 1.58,
      "prob": 0.617,
      "start": "2026-11-26T01:00:00+00:00",
-     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=378c486c-fa54-4bba-b0b1-b22526c46e4d&odds_numerator[0]=2&odds_denominator[0]=1",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627270160&selectionId=25612",
      "sid": [
-      "2a1efab5-8ee1-488e-8b33-26f6499acf3d",
-      "378c486c-fa54-4bba-b0b1-b22526c46e4d",
-      "6be90c4c-d470-4116-8a20-85e1e7bc53a4"
+      null,
+      "25612",
+      "36343834"
      ]
     },
     {
      "pick": "Clemson Tigers",
      "event": "Clemson Tigers @ Colorado St Rams",
      "sport": "COLLEGE BASKETBALL",
-     "odds": 1.61,
+     "odds": 1.62,
      "prob": 0.614,
      "start": "2026-11-26T05:30:00+00:00",
-     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=16ce9c4c-0093-4031-a42a-6f53aafa4371&odds_numerator[0]=2&odds_denominator[0]=1",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628616867&selectionId=671869",
      "sid": [
-      "d44d420c-abba-464e-b038-4e76ffe3626f",
-      "16ce9c4c-0093-4031-a42a-6f53aafa4371",
-      "461177df-6268-4b4b-9fe5-34e857c7ea2e"
+      null,
+      "671869",
+      "36362942"
      ]
     }
    ],
-   "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=320c3f32-40cf-4685-9a9a-f338378e2c02&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=378c486c-fa54-4bba-b0b1-b22526c46e4d&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=16ce9c4c-0093-4031-a42a-6f53aafa4371&odds_numerator[2]=2&odds_denominator[2]=1",
+   "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.628414052&selectionId[0]=756685&marketId[1]=42.627270160&selectionId[1]=25612&marketId[2]=42.628616867&selectionId[2]=671869",
    "alts": [
     {
      "book": "DraftKings",
-     "odds": 3.97,
-     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87386540_1+0ML87402748_1+0ML87407444_3"
+     "odds": 3.92,
+     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87405633_3+0ML87402748_1+0ML87407444_3"
     },
     {
-     "book": "FanDuel",
+     "book": "theScore Bet",
      "odds": 3.94,
-     "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.627991912&selectionId[0]=237482&marketId[1]=42.627270160&selectionId[1]=25612&marketId[2]=42.628616867&selectionId[2]=671869"
+     "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=1770d24e-f649-4af1-88f3-4ad874d02e86&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=378c486c-fa54-4bba-b0b1-b22526c46e4d&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=16ce9c4c-0093-4031-a42a-6f53aafa4371&odds_numerator[2]=2&odds_denominator[2]=1"
     }
    ]
   }

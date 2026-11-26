@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-26T02:46:47+00:00",
+ "updated": "2026-11-26T02:50:37+00:00",
  "last_scan": "2026-11-25T23:48:15+00:00",
  "unit": 4.5,
  "bankroll": 228.54,
@@ -1392,71 +1392,6 @@
  },
  "games": [
   {
-   "sport": "NHL",
-   "event": "Chicago Blackhawks @ Seattle Kraken",
-   "pick": "Seattle Kraken",
-   "opp": "Chicago Blackhawks",
-   "start": "2026-11-26T02:50:00+00:00",
-   "book": "theScore Bet",
-   "odds": 1.69,
-   "prob": 0.5885,
-   "edge": -0.0054,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.12,
-   "to_win": 0.78,
-   "tier": null,
-   "fair_odds": 1.7,
-   "why": [
-    "Sharp books give Seattle Kraken a 59% chance to win (Chicago Blackhawks 41%).",
-    "Seattle Kraken: 11-9-1, 7-4-0 at home, top: Berkly Catton 8 Goals.",
-    "Chicago Blackhawks: 8-14-2, 2-8-1 on the road, top: Roman Kantserov 13 Goals."
-   ],
-   "injuries": [
-    {
-     "team": "Seattle Kraken",
-     "list": [
-      "Jake O'Brien (C, Injured Reserve)",
-      "Jared McCann (LW, Injured Reserve)"
-     ]
-    },
-    {
-     "team": "Chicago Blackhawks",
-     "list": [
-      "Tyler Bertuzzi (LW, Out)",
-      "Connor Bedard (C, Injured Reserve)",
-      "Bowen Byram (D, Injured Reserve)"
-     ]
-    }
-   ],
-   "n_sharp": 4,
-   "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=3309bf97-a885-45b5-b4f5-8b100a0cc04f&odds_numerator[0]=2&odds_denominator[0]=1",
-   "prices": {
-    "DraftKings": 1.65,
-    "FanDuel": 1.65,
-    "theScore Bet": 1.69
-   },
-   "links": {
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87402754_1",
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627270136&selectionId=40119153",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=3309bf97-a885-45b5-b4f5-8b100a0cc04f&odds_numerator[0]=2&odds_denominator[0]=1"
-   },
-   "open": [
-    "2026-11-25T18:48:39+00:00",
-    1.69,
-    0.5885
-   ],
-   "hist": [
-    [
-     "2026-11-25T18:48:39+00:00",
-     1.69,
-     0.5885
-    ]
-   ],
-   "lag": false
-  },
-  {
    "sport": "COLLEGE BASKETBALL",
    "event": "Washington Huskies @ VCU Rams",
    "pick": "VCU Rams",
@@ -1999,12 +1934,12 @@
   {
    "label": "Next safest 4x+",
    "book": "DraftKings",
-   "odds": 4.19,
-   "prob": 0.2164,
-   "ev": -0.0929,
+   "odds": 4.42,
+   "prob": 0.2051,
+   "ev": -0.093,
    "units": 0.5,
    "stake": 2.25,
-   "to_win": 7.18,
+   "to_win": 7.7,
    "legs": [
     {
      "pick": "Pacific Tigers",
@@ -2035,31 +1970,31 @@
      ]
     },
     {
-     "pick": "Seattle Kraken",
-     "event": "Chicago Blackhawks @ Seattle Kraken",
+     "pick": "Anaheim Ducks",
+     "event": "San Jose Sharks @ Anaheim Ducks",
      "sport": "NHL",
-     "odds": 1.65,
-     "prob": 0.589,
-     "start": "2026-11-26T02:50:00+00:00",
-     "link": "https://sportsbook.draftkings.com/?outcomes=0ML87402754_1",
+     "odds": 1.74,
+     "prob": 0.558,
+     "start": "2026-11-26T03:10:00+00:00",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0ML87402728_1",
      "sid": [
       null,
-      "0ML87402754_1",
-      "35065687"
+      "0ML87402728_1",
+      "35065690"
      ]
     }
    ],
-   "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87405633_3+0ML85859644_3+0ML87402754_1",
+   "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87405633_3+0ML85859644_3+0ML87402728_1",
    "alts": [
     {
      "book": "theScore Bet",
-     "odds": 4.19,
-     "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=1770d24e-f649-4af1-88f3-4ad874d02e86&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=8aab936f-fc56-4d32-9865-d0a5e644a15d&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=3309bf97-a885-45b5-b4f5-8b100a0cc04f&odds_numerator[2]=2&odds_denominator[2]=1"
+     "odds": 4.39,
+     "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=1770d24e-f649-4af1-88f3-4ad874d02e86&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=8aab936f-fc56-4d32-9865-d0a5e644a15d&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=cd9d8a13-0e4a-487e-89c8-a11f5b965980&odds_numerator[2]=2&odds_denominator[2]=1"
     },
     {
      "book": "FanDuel",
-     "odds": 4.28,
-     "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.628414052&selectionId[0]=756685&marketId[1]=42.627991945&selectionId[1]=237471&marketId[2]=42.627270136&selectionId[2]=40119153"
+     "odds": 4.48,
+     "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.628414052&selectionId[0]=756685&marketId[1]=42.627991945&selectionId[1]=237471&marketId[2]=42.627270106&selectionId[2]=2294077"
     }
    ]
   }

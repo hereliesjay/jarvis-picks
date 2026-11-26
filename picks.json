@@ -1,9 +1,9 @@
 {
  "version": 25,
- "updated": "2026-11-26T21:09:46+00:00",
+ "updated": "2026-11-26T21:24:13+00:00",
  "last_scan": "2026-11-26T18:29:37+00:00",
  "unit": 4.5,
- "bankroll": 223.12,
+ "bankroll": 223.3,
  "bank_start": 250.0,
  "unit_pct": 0.02,
  "picks": [
@@ -83,7 +83,7 @@
    "min_odds": 1.53,
    "start": "2026-11-26T18:00:00+00:00",
    "started": true,
-   "status": "open",
+   "status": "lost",
    "n_sharp": null,
    "link": null,
    "flag": null,
@@ -113,7 +113,7 @@
    "min_odds": 2.08,
    "start": "2026-11-26T18:30:00+00:00",
    "started": true,
-   "status": "open",
+   "status": "won",
    "n_sharp": 3,
    "link": "https://sportsbook.draftkings.com/?outcomes=0ML87421770_3",
    "flag": null,
@@ -362,11 +362,11 @@
  "record": {
   "lean": {
    "won": 10,
-   "lost": 11,
+   "lost": 12,
    "push": 0,
-   "open": 6,
-   "units": -1.82,
-   "dollars": -8.17,
+   "open": 5,
+   "units": -2.07,
+   "dollars": -9.29,
    "clv": -0.0009,
    "clv_n": 17
   },
@@ -381,12 +381,12 @@
    "clv_n": 0
   },
   "card": {
-   "won": 3,
+   "won": 4,
    "lost": 7,
    "push": 0,
-   "open": 6,
-   "units": -1.06,
-   "dollars": -4.77,
+   "open": 5,
+   "units": -0.78,
+   "dollars": -3.49,
    "clv": 0.0335,
    "clv_n": 12
   },
@@ -402,6 +402,26 @@
   }
  },
  "recent": [
+  {
+   "tier": "card",
+   "pick": "Boston College Eagles",
+   "event": "Boston College Eagles @ UCF Knights",
+   "sport": "COLLEGE BASKETBALL",
+   "odds": 2.14,
+   "units": 0.25,
+   "status": "won",
+   "start": "2026-11-26T18:30:00+00:00"
+  },
+  {
+   "tier": "lean",
+   "pick": "Maryland Terrapins",
+   "event": "Maryland Terrapins @ San Diego St Aztecs",
+   "sport": "COLLEGE BASKETBALL",
+   "odds": 1.53,
+   "units": 0.25,
+   "status": "lost",
+   "start": "2026-11-26T18:00:00+00:00"
+  },
   {
    "tier": "lean",
    "pick": "Purdue Boilermakers",
@@ -631,26 +651,6 @@
    "units": 0.5,
    "status": "won",
    "start": "2026-11-22T20:30:00+00:00"
-  },
-  {
-   "tier": "lean",
-   "pick": "Montr\u00e9al Canadiens",
-   "event": "Philadelphia Flyers @ Montr\u00e9al Canadiens",
-   "sport": "NHL",
-   "odds": 1.69,
-   "units": 0.5,
-   "status": "lost",
-   "start": "2026-11-22T00:00:00+00:00"
-  },
-  {
-   "tier": "lean",
-   "pick": "Army Black Knights",
-   "event": "East Carolina Pirates @ Army Black Knights",
-   "sport": "COLLEGE FOOTBALL",
-   "odds": 1.47,
-   "units": 0.5,
-   "status": "lost",
-   "start": "2026-11-21T17:00:00+00:00"
   }
  ],
  "rules": {
@@ -661,9 +661,9 @@
    "on": true
   },
   "basketball": {
-   "n": 77,
-   "roi": -0.1144,
-   "clv": 0.0035,
+   "n": 80,
+   "roi": -0.1209,
+   "clv": 0.0041,
    "on": true
   },
   "tennis": {
@@ -1270,8 +1270,8 @@
    "odds": 1.53,
    "units": 0.25,
    "edge": 0.0059,
-   "status": "open",
-   "profit_u": 0.0,
+   "status": "lost",
+   "profit_u": -0.25,
    "clv": null,
    "start": "2026-11-26T18:00:00+00:00"
   },
@@ -1284,8 +1284,8 @@
    "odds": 2.14,
    "units": 0.25,
    "edge": -0.0015,
-   "status": "open",
-   "profit_u": 0.0,
+   "status": "won",
+   "profit_u": 0.285,
    "clv": 0.0407,
    "start": "2026-11-26T18:30:00+00:00"
   },

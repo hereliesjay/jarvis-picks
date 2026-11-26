@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-26T22:55:58+00:00",
+ "updated": "2026-11-26T23:00:02+00:00",
  "last_scan": "2026-11-26T22:25:02+00:00",
  "unit": 4.5,
  "bankroll": 222.05,
@@ -1282,60 +1282,6 @@
   }
  },
  "games": [
-  {
-   "sport": "COLLEGE BASKETBALL",
-   "event": "TCU Horned Frogs @ Creighton Bluejays",
-   "pick": "Creighton Bluejays",
-   "opp": "TCU Horned Frogs",
-   "start": "2026-11-26T23:00:00+00:00",
-   "book": "FanDuel",
-   "odds": 1.83,
-   "prob": 0.5237,
-   "edge": -0.0417,
-   "value": "over",
-   "value_txt": "Overpriced: the book is charging a lot here",
-   "units": 0.0,
-   "stake": 0.0,
-   "to_win": 0.0,
-   "tier": null,
-   "fair_odds": 1.91,
-   "why": [
-    "Sharp books give Creighton Bluejays a 52% chance to win (TCU Horned Frogs 48%).",
-    "Creighton Bluejays: 5-1, 3-0 at home, 83.0 pts/game, top: Wes Enis 17.8 PPG.",
-    "TCU Horned Frogs: 5-1, 0-0 on the road, 92.7 pts/game, top: Micah Robinson 19.5 PPG."
-   ],
-   "injuries": [],
-   "n_sharp": 3,
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628676159&selectionId=352167",
-   "prices": {
-    "DraftKings": 1.8,
-    "theScore Bet": 1.8,
-    "FanDuel": 1.83
-   },
-   "links": {
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87406886_1",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=03508c7f-72ab-46ce-a490-2c12b5e6ed28&odds_numerator[0]=2&odds_denominator[0]=1",
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628676159&selectionId=352167"
-   },
-   "open": [
-    "2026-11-26T18:29:37+00:00",
-    1.88,
-    0.5289
-   ],
-   "hist": [
-    [
-     "2026-11-26T18:29:37+00:00",
-     1.88,
-     0.5289
-    ],
-    [
-     "2026-11-26T21:30:22+00:00",
-     1.83,
-     0.5237
-    ]
-   ],
-   "lag": false
-  },
   {
    "sport": "COLLEGE BASKETBALL",
    "event": "DePaul Blue Demons @ Pittsburgh Panthers",

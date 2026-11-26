@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-26T20:32:30+00:00",
+ "updated": "2026-11-26T21:01:40+00:00",
  "last_scan": "2026-11-26T18:29:37+00:00",
  "unit": 4.5,
  "bankroll": 223.12,
@@ -1525,9 +1525,9 @@
      "team": "Philadelphia Eagles",
      "list": [
       "Cole Payton (QB, Out)",
-      "Jonathan Jones (CB, Out)",
       "Grant Calcaterra (TE, Out)",
-      "Ajani Cornelius (OT, Out)"
+      "Ajani Cornelius (OT, Out)",
+      "AJ Epenesa (DE, Out)"
      ]
     }
    ],

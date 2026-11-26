@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-26T03:10:50+00:00",
+ "updated": "2026-11-26T03:30:56+00:00",
  "last_scan": "2026-11-25T23:48:15+00:00",
  "unit": 4.5,
  "bankroll": 228.54,
@@ -1393,54 +1393,6 @@
  "games": [
   {
    "sport": "COLLEGE BASKETBALL",
-   "event": "Jacksonville St Gamecocks @ Pacific Tigers",
-   "pick": "Pacific Tigers",
-   "opp": "Jacksonville St Gamecocks",
-   "start": "2026-11-26T03:30:00+00:00",
-   "book": "FanDuel",
-   "odds": 1.58,
-   "prob": 0.62,
-   "edge": -0.0203,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.12,
-   "to_win": 0.65,
-   "tier": null,
-   "fair_odds": 1.61,
-   "why": [
-    "Sharp books give Pacific Tigers a 62% chance to win (Jacksonville St Gamecocks 38%).",
-    "Pacific Tigers: 5-1, 1-1 on the road, 79.3 pts/game, top: Adriel Nyorha 14.7 PPG."
-   ],
-   "injuries": [],
-   "n_sharp": 2,
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628414052&selectionId=756685",
-   "prices": {
-    "DraftKings": 1.54,
-    "FanDuel": 1.58,
-    "theScore Bet": 1.54
-   },
-   "links": {
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87405633_3",
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628414052&selectionId=756685",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=1770d24e-f649-4af1-88f3-4ad874d02e86&odds_numerator[0]=2&odds_denominator[0]=1"
-   },
-   "open": [
-    "2026-11-25T18:48:39+00:00",
-    1.58,
-    0.6234
-   ],
-   "hist": [
-    [
-     "2026-11-25T18:48:39+00:00",
-     1.58,
-     0.6234
-    ]
-   ],
-   "lag": false
-  },
-  {
-   "sport": "COLLEGE BASKETBALL",
    "event": "Incarnate Word Cardinals @ Hawai'i Rainbow Warriors",
    "pick": "Hawai'i Rainbow Warriors",
    "opp": "Incarnate Word Cardinals",
@@ -1596,73 +1548,5 @@
    "lag": false
   }
  ],
- "big_parlays": [
-  {
-   "label": "Safest 4x+",
-   "book": "FanDuel",
-   "odds": 4.15,
-   "prob": 0.2364,
-   "ev": -0.0196,
-   "units": 0.5,
-   "stake": 2.25,
-   "to_win": 7.08,
-   "legs": [
-    {
-     "pick": "Saint Louis Billikens",
-     "event": "Stanford Cardinal @ Saint Louis Billikens",
-     "sport": "COLLEGE BASKETBALL",
-     "odds": 1.62,
-     "prob": 0.622,
-     "start": "2026-11-26T04:59:00+00:00",
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628614254&selectionId=3602702",
-     "sid": [
-      null,
-      "3602702",
-      "36362882"
-     ]
-    },
-    {
-     "pick": "Pacific Tigers",
-     "event": "Jacksonville St Gamecocks @ Pacific Tigers",
-     "sport": "COLLEGE BASKETBALL",
-     "odds": 1.58,
-     "prob": 0.62,
-     "start": "2026-11-26T03:30:00+00:00",
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628414052&selectionId=756685",
-     "sid": [
-      null,
-      "756685",
-      "36360376"
-     ]
-    },
-    {
-     "pick": "Clemson Tigers",
-     "event": "Clemson Tigers @ Colorado St Rams",
-     "sport": "COLLEGE BASKETBALL",
-     "odds": 1.62,
-     "prob": 0.614,
-     "start": "2026-11-26T05:30:00+00:00",
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628616867&selectionId=671869",
-     "sid": [
-      null,
-      "671869",
-      "36362942"
-     ]
-    }
-   ],
-   "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.628614254&selectionId[0]=3602702&marketId[1]=42.628414052&selectionId[1]=756685&marketId[2]=42.628616867&selectionId[2]=671869",
-   "alts": [
-    {
-     "book": "DraftKings",
-     "odds": 3.84,
-     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87415368_1+0ML87405633_3+0ML87407444_3"
-    },
-    {
-     "book": "theScore Bet",
-     "odds": 3.89,
-     "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=69b04a0e-fce1-4252-a895-d666ac212feb&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=1770d24e-f649-4af1-88f3-4ad874d02e86&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=16ce9c4c-0093-4031-a42a-6f53aafa4371&odds_numerator[2]=2&odds_denominator[2]=1"
-    }
-   ]
-  }
- ]
+ "big_parlays": []
 }

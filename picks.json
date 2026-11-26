@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-26T04:59:58+00:00",
+ "updated": "2026-11-26T05:30:06+00:00",
  "last_scan": "2026-11-25T23:48:15+00:00",
  "unit": 4.5,
  "bankroll": 228.12,
@@ -1390,55 +1390,6 @@
    "FanDuel": 1
   }
  },
- "games": [
-  {
-   "sport": "COLLEGE BASKETBALL",
-   "event": "Clemson Tigers @ Colorado St Rams",
-   "pick": "Clemson Tigers",
-   "opp": "Colorado St Rams",
-   "start": "2026-11-26T05:30:00+00:00",
-   "book": "FanDuel",
-   "odds": 1.62,
-   "prob": 0.6135,
-   "edge": -0.0061,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.12,
-   "to_win": 0.7,
-   "tier": null,
-   "fair_odds": 1.63,
-   "why": [
-    "Sharp books give Clemson Tigers a 61% chance to win (Colorado St Rams 39%).",
-    "Clemson Tigers: 4-3, 0-0 on the road, 78.4 pts/game, top: Ace Buckner 17.0 PPG."
-   ],
-   "injuries": [],
-   "n_sharp": 2,
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628616867&selectionId=671869",
-   "prices": {
-    "DraftKings": 1.6,
-    "theScore Bet": 1.61,
-    "FanDuel": 1.62
-   },
-   "links": {
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87407444_3",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=16ce9c4c-0093-4031-a42a-6f53aafa4371&odds_numerator[0]=2&odds_denominator[0]=1",
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628616867&selectionId=671869"
-   },
-   "open": [
-    "2026-11-25T18:48:39+00:00",
-    1.62,
-    0.6135
-   ],
-   "hist": [
-    [
-     "2026-11-25T18:48:39+00:00",
-     1.62,
-     0.6135
-    ]
-   ],
-   "lag": false
-  }
- ],
+ "games": [],
  "big_parlays": []
 }

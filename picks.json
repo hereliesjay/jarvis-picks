@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-26T02:55:41+00:00",
+ "updated": "2026-11-26T03:00:46+00:00",
  "last_scan": "2026-11-25T23:48:15+00:00",
  "unit": 4.5,
  "bankroll": 228.54,
@@ -1392,55 +1392,6 @@
  },
  "games": [
   {
-   "sport": "COLLEGE BASKETBALL",
-   "event": "Washington Huskies @ VCU Rams",
-   "pick": "VCU Rams",
-   "opp": "Washington Huskies",
-   "start": "2026-11-26T03:00:00+00:00",
-   "book": "DraftKings",
-   "odds": 1.54,
-   "prob": 0.6299,
-   "edge": -0.03,
-   "value": "over",
-   "value_txt": "Overpriced: the book is charging a lot here",
-   "units": 0.0,
-   "stake": 0.0,
-   "to_win": 0.0,
-   "tier": null,
-   "fair_odds": 1.59,
-   "why": [
-    "Sharp books give VCU Rams a 63% chance to win (Washington Huskies 37%).",
-    "VCU Rams: 4-2, 2-0 at home, 81.7 pts/game, top: Blake Harper 19.2 PPG.",
-    "Washington Huskies: 5-1, 0-0 on the road, 81.0 pts/game, top: LeJuan Watts 15.0 PPG."
-   ],
-   "injuries": [],
-   "n_sharp": 2,
-   "link": "https://sportsbook.draftkings.com/?outcomes=0ML87407443_1",
-   "prices": {
-    "DraftKings": 1.54,
-    "theScore Bet": 1.53,
-    "FanDuel": 1.53
-   },
-   "links": {
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87407443_1",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=42c6c885-7fd5-411d-b4c5-9abbb53341f8&odds_numerator[0]=2&odds_denominator[0]=1",
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628611736&selectionId=2328616"
-   },
-   "open": [
-    "2026-11-25T18:48:39+00:00",
-    1.54,
-    0.6299
-   ],
-   "hist": [
-    [
-     "2026-11-25T18:48:39+00:00",
-     1.54,
-     0.6299
-    ]
-   ],
-   "lag": false
-  },
-  {
    "sport": "NHL",
    "event": "San Jose Sharks @ Anaheim Ducks",
    "pick": "Anaheim Ducks",
@@ -1867,27 +1818,13 @@
   {
    "label": "Safest 4x+",
    "book": "FanDuel",
-   "odds": 4.02,
-   "prob": 0.2402,
-   "ev": -0.0355,
+   "odds": 4.15,
+   "prob": 0.2364,
+   "ev": -0.0196,
    "units": 0.5,
    "stake": 2.25,
-   "to_win": 6.78,
+   "to_win": 7.08,
    "legs": [
-    {
-     "pick": "VCU Rams",
-     "event": "Washington Huskies @ VCU Rams",
-     "sport": "COLLEGE BASKETBALL",
-     "odds": 1.53,
-     "prob": 0.63,
-     "start": "2026-11-26T03:00:00+00:00",
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628611736&selectionId=2328616",
-     "sid": [
-      null,
-      "2328616",
-      "36362473"
-     ]
-    },
     {
      "pick": "Saint Louis Billikens",
      "event": "Stanford Cardinal @ Saint Louis Billikens",
@@ -1900,6 +1837,20 @@
       null,
       "3602702",
       "36362882"
+     ]
+    },
+    {
+     "pick": "Pacific Tigers",
+     "event": "Jacksonville St Gamecocks @ Pacific Tigers",
+     "sport": "COLLEGE BASKETBALL",
+     "odds": 1.58,
+     "prob": 0.62,
+     "start": "2026-11-26T03:30:00+00:00",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628414052&selectionId=756685",
+     "sid": [
+      null,
+      "756685",
+      "36360376"
      ]
     },
     {
@@ -1917,84 +1868,17 @@
      ]
     }
    ],
-   "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.628611736&selectionId[0]=2328616&marketId[1]=42.628614254&selectionId[1]=3602702&marketId[2]=42.628616867&selectionId[2]=671869",
+   "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.628614254&selectionId[0]=3602702&marketId[1]=42.628414052&selectionId[1]=756685&marketId[2]=42.628616867&selectionId[2]=671869",
    "alts": [
     {
      "book": "DraftKings",
      "odds": 3.84,
-     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87407443_1+0ML87415368_1+0ML87407444_3"
+     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87415368_1+0ML87405633_3+0ML87407444_3"
     },
     {
      "book": "theScore Bet",
-     "odds": 3.87,
-     "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=42c6c885-7fd5-411d-b4c5-9abbb53341f8&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=69b04a0e-fce1-4252-a895-d666ac212feb&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=16ce9c4c-0093-4031-a42a-6f53aafa4371&odds_numerator[2]=2&odds_denominator[2]=1"
-    }
-   ]
-  },
-  {
-   "label": "Next safest 4x+",
-   "book": "DraftKings",
-   "odds": 4.42,
-   "prob": 0.2051,
-   "ev": -0.093,
-   "units": 0.5,
-   "stake": 2.25,
-   "to_win": 7.7,
-   "legs": [
-    {
-     "pick": "Pacific Tigers",
-     "event": "Jacksonville St Gamecocks @ Pacific Tigers",
-     "sport": "COLLEGE BASKETBALL",
-     "odds": 1.54,
-     "prob": 0.62,
-     "start": "2026-11-26T03:30:00+00:00",
-     "link": "https://sportsbook.draftkings.com/?outcomes=0ML87405633_3",
-     "sid": [
-      null,
-      "0ML87405633_3",
-      "35083452"
-     ]
-    },
-    {
-     "pick": "San Antonio Spurs",
-     "event": "San Antonio Spurs @ Portland Trail Blazers",
-     "sport": "NBA",
-     "odds": 1.65,
-     "prob": 0.593,
-     "start": "2026-11-26T03:10:00+00:00",
-     "link": "https://sportsbook.draftkings.com/?outcomes=0ML85859644_3",
-     "sid": [
-      null,
-      "0ML85859644_3",
-      "34516253"
-     ]
-    },
-    {
-     "pick": "Anaheim Ducks",
-     "event": "San Jose Sharks @ Anaheim Ducks",
-     "sport": "NHL",
-     "odds": 1.74,
-     "prob": 0.558,
-     "start": "2026-11-26T03:10:00+00:00",
-     "link": "https://sportsbook.draftkings.com/?outcomes=0ML87402728_1",
-     "sid": [
-      null,
-      "0ML87402728_1",
-      "35065690"
-     ]
-    }
-   ],
-   "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87405633_3+0ML85859644_3+0ML87402728_1",
-   "alts": [
-    {
-     "book": "theScore Bet",
-     "odds": 4.39,
-     "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=1770d24e-f649-4af1-88f3-4ad874d02e86&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=8aab936f-fc56-4d32-9865-d0a5e644a15d&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=cd9d8a13-0e4a-487e-89c8-a11f5b965980&odds_numerator[2]=2&odds_denominator[2]=1"
-    },
-    {
-     "book": "FanDuel",
-     "odds": 4.48,
-     "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.628414052&selectionId[0]=756685&marketId[1]=42.627991945&selectionId[1]=237471&marketId[2]=42.627270106&selectionId[2]=2294077"
+     "odds": 3.89,
+     "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=69b04a0e-fce1-4252-a895-d666ac212feb&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=1770d24e-f649-4af1-88f3-4ad874d02e86&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=16ce9c4c-0093-4031-a42a-6f53aafa4371&odds_numerator[2]=2&odds_denominator[2]=1"
     }
    ]
   }

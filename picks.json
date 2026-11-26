@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-26T00:09:32+00:00",
+ "updated": "2026-11-26T00:15:36+00:00",
  "last_scan": "2026-11-25T23:48:15+00:00",
  "unit": 4.5,
  "bankroll": 227.78,
@@ -1391,83 +1391,6 @@
   }
  },
  "games": [
-  {
-   "sport": "NBA",
-   "event": "Chicago Bulls @ Charlotte Hornets",
-   "pick": "Charlotte Hornets",
-   "opp": "Chicago Bulls",
-   "start": "2026-11-26T00:15:00+00:00",
-   "book": "theScore Bet",
-   "odds": 1.59,
-   "prob": 0.6216,
-   "edge": -0.0116,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.12,
-   "to_win": 0.66,
-   "tier": null,
-   "fair_odds": 1.61,
-   "why": [
-    "Sharp books give Charlotte Hornets a 62% chance to win (Chicago Bulls 38%).",
-    "Charlotte Hornets: 4-12, 3-5 at home, 100.6 pts/game, top: Brandon Miller 19.9 PPG.",
-    "Chicago Bulls: 5-12, 3-6 on the road, 116.9 pts/game, top: Matas Buzelis 15.1 PPG."
-   ],
-   "injuries": [
-    {
-     "team": "Charlotte Hornets",
-     "list": [
-      "Ryan Kalkbrenner (C, Out)",
-      "Grayson Allen (G, Out)",
-      "Dennis Schroder (G, Out)",
-      "Kon Knueppel (G, Out)"
-     ]
-    },
-    {
-     "team": "Chicago Bulls",
-     "list": [
-      "Jalen Smith (F, Out)",
-      "Norman Powell (G, Out)",
-      "Caleb Wilson (F, Out)"
-     ]
-    }
-   ],
-   "n_sharp": 4,
-   "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=befa5ea4-d679-447c-bba4-3b5169b0f751&odds_numerator[0]=2&odds_denominator[0]=1",
-   "prices": {
-    "DraftKings": 1.56,
-    "FanDuel": 1.57,
-    "theScore Bet": 1.59
-   },
-   "links": {
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87386539_1",
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627991900&selectionId=8622709",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=befa5ea4-d679-447c-bba4-3b5169b0f751&odds_numerator[0]=2&odds_denominator[0]=1"
-   },
-   "open": [
-    "2026-11-25T18:48:39+00:00",
-    1.65,
-    0.5963
-   ],
-   "hist": [
-    [
-     "2026-11-25T18:48:39+00:00",
-     1.65,
-     0.5963
-    ],
-    [
-     "2026-11-25T21:00:55+00:00",
-     1.61,
-     0.6053
-    ],
-    [
-     "2026-11-25T23:48:15+00:00",
-     1.59,
-     0.6216
-    ]
-   ],
-   "lag": false
-  },
   {
    "sport": "NHL",
    "event": "Vancouver Canucks @ Detroit Red Wings",
@@ -2917,41 +2840,13 @@
   {
    "label": "Safest 4x+",
    "book": "FanDuel",
-   "odds": 4.1,
-   "prob": 0.2407,
-   "ev": -0.0143,
+   "odds": 4.07,
+   "prob": 0.2436,
+   "ev": -0.0087,
    "units": 0.5,
    "stake": 2.25,
-   "to_win": 6.97,
+   "to_win": 6.91,
    "legs": [
-    {
-     "pick": "Pepperdine Waves",
-     "event": "CSU Bakersfield Roadrunners @ Pepperdine Waves",
-     "sport": "COLLEGE BASKETBALL",
-     "odds": 1.22,
-     "prob": 0.816,
-     "start": "2026-11-26T01:00:00+00:00",
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628411130&selectionId=712841",
-     "sid": [
-      null,
-      "712841",
-      "36360315"
-     ]
-    },
-    {
-     "pick": "Loyola Marymount Lions",
-     "event": "Eastern Washington Eagles @ Loyola Marymount Lions",
-     "sport": "COLLEGE BASKETBALL",
-     "odds": 1.32,
-     "prob": 0.752,
-     "start": "2026-11-26T02:00:00+00:00",
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628411017&selectionId=3558390",
-     "sid": [
-      null,
-      "3558390",
-      "36360312"
-     ]
-    },
     {
      "pick": "UC Davis Aggies",
      "event": "Omaha Mavericks @ UC Davis Aggies",
@@ -2979,19 +2874,33 @@
       "3602702",
       "36362882"
      ]
+    },
+    {
+     "pick": "Mississippi St Bulldogs",
+     "event": "Wake Forest Demon Deacons @ Mississippi St Bulldogs",
+     "sport": "COLLEGE BASKETBALL",
+     "odds": 1.6,
+     "prob": 0.621,
+     "start": "2026-11-26T02:15:00+00:00",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628413512&selectionId=332211",
+     "sid": [
+      null,
+      "332211",
+      "36360355"
+     ]
     }
    ],
-   "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.628411130&selectionId[0]=712841&marketId[1]=42.628411017&selectionId[1]=3558390&marketId[2]=42.628444052&selectionId[2]=5145586&marketId[3]=42.628614254&selectionId[3]=3602702",
+   "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.628444052&selectionId[0]=5145586&marketId[1]=42.628614254&selectionId[1]=3602702&marketId[2]=42.628413512&selectionId[2]=332211",
    "alts": [
     {
      "book": "DraftKings",
-     "odds": 3.7,
-     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87405629_1+0ML87405631_1+0ML87405630_1+0ML87415368_1"
+     "odds": 3.72,
+     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87405630_1+0ML87415368_1+0ML87405628_1"
     },
     {
      "book": "theScore Bet",
-     "odds": 3.61,
-     "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=00a582e3-3726-47ee-ab37-a1f4e0e0be54&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=b1cbdd57-ae19-4ec0-bfff-8117dad77ca8&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=b774e354-9f24-426a-8d8a-d87463e07f68&odds_numerator[2]=2&odds_denominator[2]=1&market_selection_id[3]=69b04a0e-fce1-4252-a895-d666ac212feb&odds_numerator[3]=2&odds_denominator[3]=1"
+     "odds": 3.77,
+     "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=b774e354-9f24-426a-8d8a-d87463e07f68&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=69b04a0e-fce1-4252-a895-d666ac212feb&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=f99a18b9-f947-407a-abae-1eadbf1823dc&odds_numerator[2]=2&odds_denominator[2]=1"
     }
    ]
   },
@@ -2999,8 +2908,8 @@
    "label": "Next safest 4x+",
    "book": "theScore Bet",
    "odds": 4.02,
-   "prob": 0.2384,
-   "ev": -0.0417,
+   "prob": 0.2368,
+   "ev": -0.0483,
    "units": 0.5,
    "stake": 2.25,
    "to_win": 6.79,
@@ -3020,17 +2929,17 @@
      ]
     },
     {
-     "pick": "Charlotte Hornets",
-     "event": "Chicago Bulls @ Charlotte Hornets",
-     "sport": "NBA",
+     "pick": "Dallas Stars",
+     "event": "Nashville Predators @ Dallas Stars",
+     "sport": "NHL",
      "odds": 1.59,
-     "prob": 0.622,
-     "start": "2026-11-26T00:15:00+00:00",
-     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=befa5ea4-d679-447c-bba4-3b5169b0f751&odds_numerator[0]=2&odds_denominator[0]=1",
+     "prob": 0.617,
+     "start": "2026-11-26T01:00:00+00:00",
+     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=378c486c-fa54-4bba-b0b1-b22526c46e4d&odds_numerator[0]=2&odds_denominator[0]=1",
      "sid": [
-      "5c24f397-ceb0-4a87-8d8f-b0daf2efcef1",
-      "befa5ea4-d679-447c-bba4-3b5169b0f751",
-      "af92a03e-08f9-44bc-b533-ff1fdccee303"
+      "2a1efab5-8ee1-488e-8b33-26f6499acf3d",
+      "378c486c-fa54-4bba-b0b1-b22526c46e4d",
+      "6be90c4c-d470-4116-8a20-85e1e7bc53a4"
      ]
     },
     {
@@ -3048,17 +2957,17 @@
      ]
     }
    ],
-   "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=320c3f32-40cf-4685-9a9a-f338378e2c02&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=befa5ea4-d679-447c-bba4-3b5169b0f751&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=16ce9c4c-0093-4031-a42a-6f53aafa4371&odds_numerator[2]=2&odds_denominator[2]=1",
+   "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=320c3f32-40cf-4685-9a9a-f338378e2c02&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=378c486c-fa54-4bba-b0b1-b22526c46e4d&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=16ce9c4c-0093-4031-a42a-6f53aafa4371&odds_numerator[2]=2&odds_denominator[2]=1",
    "alts": [
     {
      "book": "DraftKings",
-     "odds": 3.89,
-     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87386540_1+0ML87386539_1+0ML87407444_3"
+     "odds": 3.97,
+     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87386540_1+0ML87402748_1+0ML87407444_3"
     },
     {
      "book": "FanDuel",
-     "odds": 3.92,
-     "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.627991912&selectionId[0]=237482&marketId[1]=42.627991900&selectionId[1]=8622709&marketId[2]=42.628616867&selectionId[2]=671869"
+     "odds": 3.94,
+     "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.627991912&selectionId[0]=237482&marketId[1]=42.627270160&selectionId[1]=25612&marketId[2]=42.628616867&selectionId[2]=671869"
     }
    ]
   }

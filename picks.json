@@ -1,9 +1,9 @@
 {
  "version": 25,
- "updated": "2026-11-26T18:29:37+00:00",
+ "updated": "2026-11-26T18:32:06+00:00",
  "last_scan": "2026-11-26T18:29:37+00:00",
  "unit": 4.5,
- "bankroll": 225.62,
+ "bankroll": 224.38,
  "bank_start": 250.0,
  "unit_pct": 0.02,
  "picks": [
@@ -23,7 +23,7 @@
    "min_odds": 2.21,
    "start": "2026-11-26T16:00:00+00:00",
    "started": true,
-   "status": "open",
+   "status": "lost",
    "n_sharp": null,
    "link": null,
    "flag": null,
@@ -112,7 +112,7 @@
    "to_win": 1.28,
    "min_odds": 2.08,
    "start": "2026-11-26T18:30:00+00:00",
-   "started": false,
+   "started": true,
    "status": "open",
    "n_sharp": 3,
    "link": "https://sportsbook.draftkings.com/?outcomes=0ML87421770_3",
@@ -382,11 +382,11 @@
   },
   "card": {
    "won": 3,
-   "lost": 6,
+   "lost": 7,
    "push": 0,
-   "open": 7,
-   "units": -0.81,
-   "dollars": -3.65,
+   "open": 6,
+   "units": -1.06,
+   "dollars": -4.77,
    "clv": 0.04,
    "clv_n": 10
   },
@@ -402,6 +402,16 @@
   }
  },
  "recent": [
+  {
+   "tier": "card",
+   "pick": "Georgia Bulldogs",
+   "event": "Georgia Bulldogs @ Cincinnati Bearcats",
+   "sport": "COLLEGE BASKETBALL",
+   "odds": 2.15,
+   "units": 0.25,
+   "status": "lost",
+   "start": "2026-11-26T16:00:00+00:00"
+  },
   {
    "tier": "lean",
    "pick": "Mississippi St Bulldogs",
@@ -641,16 +651,6 @@
    "units": 0.5,
    "status": "won",
    "start": "2026-11-21T17:00:00+00:00"
-  },
-  {
-   "tier": "lean",
-   "pick": "Indiana Hoosiers",
-   "event": "Kentucky Wildcats @ Indiana Hoosiers",
-   "sport": "COLLEGE BASKETBALL",
-   "odds": 1.66,
-   "units": 0.5,
-   "status": "won",
-   "start": "2026-11-21T01:00:00+00:00"
   }
  ],
  "rules": {
@@ -1242,8 +1242,8 @@
    "odds": 2.15,
    "units": 0.25,
    "edge": -0.0263,
-   "status": "open",
-   "profit_u": 0.0,
+   "status": "lost",
+   "profit_u": -0.25,
    "clv": null,
    "start": "2026-11-26T16:00:00+00:00"
   },
@@ -1392,60 +1392,6 @@
   }
  },
  "games": [
-  {
-   "sport": "COLLEGE BASKETBALL",
-   "event": "Boston College Eagles @ UCF Knights",
-   "pick": "UCF Knights",
-   "opp": "Boston College Eagles",
-   "start": "2026-11-26T18:30:00+00:00",
-   "book": "FanDuel",
-   "odds": 1.88,
-   "prob": 0.5173,
-   "edge": -0.0275,
-   "value": "over",
-   "value_txt": "Overpriced: the book is charging a lot here",
-   "units": 0.0,
-   "stake": 0.0,
-   "to_win": 0.0,
-   "tier": null,
-   "fair_odds": 1.93,
-   "why": [
-    "Sharp books give UCF Knights a 52% chance to win (Boston College Eagles 48%).",
-    "UCF Knights: 4-2, 0-1 on the road, 83.3 pts/game, top: Dior Johnson 29.0 PPG.",
-    "Boston College Eagles: 6-0, 4-0 at home, 74.8 pts/game, top: Zak Smrekar 14.0 PPG."
-   ],
-   "injuries": [],
-   "n_sharp": 3,
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628708619&selectionId=4399083",
-   "prices": {
-    "theScore Bet": 1.87,
-    "FanDuel": 1.88,
-    "DraftKings": 1.85
-   },
-   "links": {
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=c7b95b99-a734-4ee7-98e5-fc6a6e32684f&odds_numerator[0]=2&odds_denominator[0]=1",
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628708619&selectionId=4399083",
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87421770_1"
-   },
-   "open": [
-    "2026-11-26T09:01:09+00:00",
-    1.78,
-    0.5334
-   ],
-   "hist": [
-    [
-     "2026-11-26T09:01:09+00:00",
-     1.78,
-     0.5334
-    ],
-    [
-     "2026-11-26T18:29:37+00:00",
-     1.88,
-     0.5173
-    ]
-   ],
-   "lag": false
-  },
   {
    "sport": "COLLEGE BASKETBALL",
    "event": "South Carolina Gamecocks @ Arizona St Sun Devils",

@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-26T01:54:56+00:00",
+ "updated": "2026-11-26T02:00:01+00:00",
  "last_scan": "2026-11-25T23:48:15+00:00",
  "unit": 4.5,
  "bankroll": 227.78,
@@ -1393,60 +1393,6 @@
  "games": [
   {
    "sport": "COLLEGE BASKETBALL",
-   "event": "Eastern Washington Eagles @ Loyola Marymount Lions",
-   "pick": "Loyola Marymount Lions",
-   "opp": "Eastern Washington Eagles",
-   "start": "2026-11-26T02:00:00+00:00",
-   "book": "FanDuel",
-   "odds": 1.32,
-   "prob": 0.7519,
-   "edge": -0.0075,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.12,
-   "to_win": 0.36,
-   "tier": null,
-   "fair_odds": 1.33,
-   "why": [
-    "Sharp books give Loyola Marymount Lions a 75% chance to win (Eastern Washington Eagles 23%).",
-    "Loyola Marymount Lions: 4-3, 2-1 at home, 82.3 pts/game, top: Zion Sensley 16.3 PPG.",
-    "Eastern Washington Eagles: 2-4, 1-4 on the road, 75.7 pts/game, top: Jamil Miller 13.0 PPG."
-   ],
-   "injuries": [],
-   "n_sharp": 2,
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628411017&selectionId=3558390",
-   "prices": {
-    "FanDuel": 1.32,
-    "theScore Bet": 1.29,
-    "DraftKings": 1.29
-   },
-   "links": {
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628411017&selectionId=3558390",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=b1cbdd57-ae19-4ec0-bfff-8117dad77ca8&odds_numerator[0]=2&odds_denominator[0]=1",
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87405631_1"
-   },
-   "open": [
-    "2026-11-25T18:48:39+00:00",
-    1.32,
-    0.7442
-   ],
-   "hist": [
-    [
-     "2026-11-25T18:48:39+00:00",
-     1.32,
-     0.7442
-    ],
-    [
-     "2026-11-25T22:25:02+00:00",
-     1.32,
-     0.7519
-    ]
-   ],
-   "lag": false
-  },
-  {
-   "sport": "COLLEGE BASKETBALL",
    "event": "Wake Forest Demon Deacons @ Mississippi St Bulldogs",
    "pick": "Mississippi St Bulldogs",
    "opp": "Wake Forest Demon Deacons",
@@ -2227,41 +2173,13 @@
   {
    "label": "Next safest 4x+",
    "book": "FanDuel",
-   "odds": 4.0,
-   "prob": 0.236,
-   "ev": -0.055,
+   "odds": 4.15,
+   "prob": 0.2282,
+   "ev": -0.0539,
    "units": 0.5,
    "stake": 2.25,
-   "to_win": 6.76,
+   "to_win": 7.08,
    "legs": [
-    {
-     "pick": "Grand Canyon Antelopes",
-     "event": "Colorado Buffaloes @ Grand Canyon Antelopes",
-     "sport": "COLLEGE BASKETBALL",
-     "odds": 1.2,
-     "prob": 0.815,
-     "start": "2026-11-26T02:30:00+00:00",
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628595711&selectionId=8968499",
-     "sid": [
-      null,
-      "8968499",
-      "36362333"
-     ]
-    },
-    {
-     "pick": "Loyola Marymount Lions",
-     "event": "Eastern Washington Eagles @ Loyola Marymount Lions",
-     "sport": "COLLEGE BASKETBALL",
-     "odds": 1.32,
-     "prob": 0.752,
-     "start": "2026-11-26T02:00:00+00:00",
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628411017&selectionId=3558390",
-     "sid": [
-      null,
-      "3558390",
-      "36360312"
-     ]
-    },
     {
      "pick": "Mississippi St Bulldogs",
      "event": "Wake Forest Demon Deacons @ Mississippi St Bulldogs",
@@ -2289,19 +2207,33 @@
       "756685",
       "36360376"
      ]
+    },
+    {
+     "pick": "San Antonio Spurs",
+     "event": "San Antonio Spurs @ Portland Trail Blazers",
+     "sport": "NBA",
+     "odds": 1.64,
+     "prob": 0.593,
+     "start": "2026-11-26T03:10:00+00:00",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627991945&selectionId=237471",
+     "sid": [
+      null,
+      "237471",
+      "36354203"
+     ]
     }
    ],
-   "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.628595711&selectionId[0]=8968499&marketId[1]=42.628411017&selectionId[1]=3558390&marketId[2]=42.628413512&selectionId[2]=332211&marketId[3]=42.628414052&selectionId[3]=756685",
+   "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.628413512&selectionId[0]=332211&marketId[1]=42.628414052&selectionId[1]=756685&marketId[2]=42.627991945&selectionId[2]=237471",
    "alts": [
     {
      "book": "DraftKings",
-     "odds": 3.71,
-     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87415257_3+0ML87405631_1+0ML87405628_1+0ML87405633_3"
+     "odds": 3.99,
+     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87405628_1+0ML87405633_3+0ML85859644_3"
     },
     {
      "book": "theScore Bet",
-     "odds": 3.73,
-     "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=768ba749-1a31-4eb9-8d67-0914a63214ce&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=b1cbdd57-ae19-4ec0-bfff-8117dad77ca8&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=f99a18b9-f947-407a-abae-1eadbf1823dc&odds_numerator[2]=2&odds_denominator[2]=1&market_selection_id[3]=1770d24e-f649-4af1-88f3-4ad874d02e86&odds_numerator[3]=2&odds_denominator[3]=1"
+     "odds": 3.94,
+     "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=f99a18b9-f947-407a-abae-1eadbf1823dc&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=1770d24e-f649-4af1-88f3-4ad874d02e86&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=8aab936f-fc56-4d32-9865-d0a5e644a15d&odds_numerator[2]=2&odds_denominator[2]=1"
     }
    ]
   }

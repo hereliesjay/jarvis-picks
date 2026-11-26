@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-26T20:30:26+00:00",
+ "updated": "2026-11-26T20:32:30+00:00",
  "last_scan": "2026-11-26T18:29:37+00:00",
  "unit": 4.5,
  "bankroll": 223.12,
@@ -1515,19 +1515,19 @@
     {
      "team": "Dallas Cowboys",
      "list": [
-      "Devin Moore (CB, Injured Reserve)",
-      "P.J. Locke (S, Out)",
-      "Jonathan Mingo (WR, Out)",
-      "Jalen Thompson (S, Questionable)"
+      "Jake Ferguson (TE, Out)",
+      "Tyler Booker (G, Out)",
+      "Jonathan Bullard (DT, Out)",
+      "Devin Moore (CB, Injured Reserve)"
      ]
     },
     {
      "team": "Philadelphia Eagles",
      "list": [
-      "Arnold Ebiketie (LB, Out)",
+      "Cole Payton (QB, Out)",
       "Jonathan Jones (CB, Out)",
-      "Zack Baun (LB, Injured Reserve)",
-      "Dontayvion Wicks (WR, Injured Reserve)"
+      "Grant Calcaterra (TE, Out)",
+      "Ajani Cornelius (OT, Out)"
      ]
     }
    ],

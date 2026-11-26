@@ -1,401 +1,55 @@
 {
  "version": 25,
- "updated": "2026-11-26T05:48:36+00:00",
- "last_scan": "2026-11-25T23:48:15+00:00",
+ "updated": "2026-11-26T06:00:43+00:00",
+ "last_scan": "2026-11-26T06:00:43+00:00",
  "unit": 4.5,
  "bankroll": 225.62,
  "bank_start": 250.0,
  "unit_pct": 0.02,
  "picks": [
   {
-   "tier": "card",
+   "tier": "lean",
    "sport": "COLLEGE BASKETBALL",
-   "event": "St. Bonaventure Bonnies @ Belmont Bruins",
-   "pick": "St. Bonaventure Bonnies",
+   "event": "Oklahoma Sooners @ Purdue Boilermakers",
+   "pick": "Purdue Boilermakers",
    "book": "FanDuel",
    "odds": 1.53,
-   "now_odds": null,
-   "prob": 0.6405,
-   "edge": -0.0201,
+   "now_odds": 1.53,
+   "prob": 0.6531,
+   "edge": -0.0007,
    "units": 0.25,
    "stake": 1.12,
    "to_win": 0.6,
-   "min_odds": 1.57,
-   "start": "2026-11-25T15:00:00+00:00",
-   "started": true,
-   "status": "won",
-   "n_sharp": null,
-   "link": null,
-   "flag": null,
-   "posted_at": "2026-11-25T09:00:34+00:00",
-   "prices": {},
-   "links": {},
-   "fair_odds": 1.56,
-   "now_edge": null,
-   "open": null,
-   "hist": [],
-   "injuries": [],
-   "lag": false
-  },
-  {
-   "tier": "card",
-   "sport": "COLLEGE BASKETBALL",
-   "event": "Rice Owls @ Ohio Bobcats",
-   "pick": "Ohio Bobcats",
-   "book": "FanDuel",
-   "odds": 1.52,
-   "now_odds": null,
-   "prob": 0.6402,
-   "edge": -0.0269,
-   "units": 0.25,
-   "stake": 1.12,
-   "to_win": 0.58,
-   "min_odds": 1.57,
-   "start": "2026-11-25T16:00:00+00:00",
-   "started": true,
-   "status": "lost",
-   "n_sharp": null,
-   "link": null,
-   "flag": null,
-   "posted_at": "2026-11-25T09:00:34+00:00",
-   "prices": {},
-   "links": {},
-   "fair_odds": 1.56,
-   "now_edge": null,
-   "open": null,
-   "hist": [],
-   "injuries": [],
-   "lag": false
-  },
-  {
-   "tier": "lean",
-   "sport": "COLLEGE BASKETBALL",
-   "event": "Virginia Cavaliers @ Marquette Golden Eagles",
-   "pick": "Virginia Cavaliers",
-   "book": "theScore Bet",
-   "odds": 1.44,
-   "now_odds": null,
-   "prob": 0.6978,
-   "edge": 0.0049,
-   "units": 0.25,
-   "stake": 1.12,
-   "to_win": 0.49,
-   "min_odds": 1.44,
-   "start": "2026-11-25T17:00:00+00:00",
-   "started": true,
-   "status": "won",
-   "n_sharp": null,
-   "link": null,
-   "flag": null,
-   "posted_at": "2026-11-25T06:00:18+00:00",
-   "prices": {},
-   "links": {},
-   "fair_odds": 1.43,
-   "now_edge": null,
-   "open": null,
-   "hist": [],
-   "injuries": [],
-   "lag": false
-  },
-  {
-   "tier": "lean",
-   "sport": "COLLEGE BASKETBALL",
-   "event": "Yale Bulldogs @ Wright St Raiders",
-   "pick": "Wright St Raiders",
-   "book": "theScore Bet",
-   "odds": 1.42,
-   "now_odds": null,
-   "prob": 0.7021,
-   "edge": -0.003,
-   "units": 0.25,
-   "stake": 1.12,
-   "to_win": 0.47,
-   "min_odds": 1.43,
-   "start": "2026-11-25T17:30:00+00:00",
-   "started": true,
-   "status": "lost",
-   "n_sharp": null,
-   "link": null,
-   "flag": null,
-   "posted_at": "2026-11-25T09:00:34+00:00",
-   "prices": {},
-   "links": {},
-   "fair_odds": 1.42,
-   "now_edge": null,
-   "open": null,
-   "hist": [],
-   "injuries": [],
-   "lag": false
-  },
-  {
-   "tier": "card",
-   "sport": "COLLEGE BASKETBALL",
-   "event": "Texas A&M Aggies @ Xavier Musketeers",
-   "pick": "Texas A&M Aggies",
-   "book": "theScore Bet",
-   "odds": 1.48,
-   "now_odds": null,
-   "prob": 0.6639,
-   "edge": -0.0174,
-   "units": 0.25,
-   "stake": 1.12,
-   "to_win": 0.54,
-   "min_odds": 1.51,
-   "start": "2026-11-25T19:30:00+00:00",
-   "started": true,
-   "status": "lost",
-   "n_sharp": null,
-   "link": null,
-   "flag": null,
-   "posted_at": "2026-11-25T18:41:27+00:00",
-   "prices": {},
-   "links": {},
-   "fair_odds": 1.51,
-   "now_edge": null,
-   "open": null,
-   "hist": [],
-   "injuries": [],
-   "lag": false
-  },
-  {
-   "tier": "card",
-   "sport": "COLLEGE BASKETBALL",
-   "event": "Akron Zips @ Appalachian St Mountaineers",
-   "pick": "Akron Zips",
-   "book": "DraftKings",
-   "odds": 1.4,
-   "now_odds": null,
-   "prob": 0.7054,
-   "edge": -0.0124,
-   "units": 0.25,
-   "stake": 1.12,
-   "to_win": 0.45,
-   "min_odds": 1.42,
-   "start": "2026-11-25T20:00:00+00:00",
-   "started": true,
+   "min_odds": 1.54,
+   "start": "2026-11-26T17:00:00+00:00",
+   "started": false,
    "status": "open",
-   "n_sharp": null,
-   "link": null,
-   "flag": null,
-   "posted_at": "2026-11-25T18:41:27+00:00",
-   "prices": {},
-   "links": {},
-   "fair_odds": 1.42,
-   "now_edge": null,
-   "open": null,
-   "hist": [],
-   "injuries": [],
-   "lag": false
-  },
-  {
-   "tier": "lean",
-   "sport": "COLLEGE BASKETBALL",
-   "event": "Princeton Tigers @ Liberty Flames",
-   "pick": "Liberty Flames",
-   "book": "FanDuel",
-   "odds": 1.67,
-   "now_odds": null,
-   "prob": 0.608,
-   "edge": 0.0153,
-   "units": 0.25,
-   "stake": 1.12,
-   "to_win": 0.75,
-   "min_odds": 1.65,
-   "start": "2026-11-25T21:00:00+00:00",
-   "started": true,
-   "status": "lost",
-   "n_sharp": null,
-   "link": null,
-   "flag": null,
-   "posted_at": "2026-11-25T09:00:34+00:00",
-   "prices": {},
-   "links": {},
-   "fair_odds": 1.64,
-   "now_edge": null,
-   "open": null,
-   "hist": [],
-   "injuries": [],
-   "lag": false
-  },
-  {
-   "tier": "card",
-   "sport": "COLLEGE BASKETBALL",
-   "event": "Georgia St Panthers @ Florida Gulf Coast Eagles",
-   "pick": "Florida Gulf Coast Eagles",
-   "book": "DraftKings",
-   "odds": 2.3,
-   "now_odds": null,
-   "prob": 0.4334,
-   "edge": -0.0032,
-   "units": 0.25,
-   "stake": 1.12,
-   "to_win": 1.46,
-   "min_odds": 2.31,
-   "start": "2026-11-25T21:00:00+00:00",
-   "started": true,
-   "status": "won",
-   "n_sharp": null,
-   "link": null,
-   "flag": null,
-   "posted_at": "2026-11-25T18:41:27+00:00",
-   "prices": {},
-   "links": {},
-   "fair_odds": 2.31,
-   "now_edge": null,
-   "open": null,
-   "hist": [],
-   "injuries": [],
-   "lag": false
-  },
-  {
-   "tier": "lean",
-   "sport": "NHL",
-   "event": "Philadelphia Flyers @ Washington Capitals",
-   "pick": "Washington Capitals",
-   "book": "theScore Bet",
-   "odds": 1.67,
-   "now_odds": 1.67,
-   "prob": 0.6013,
-   "edge": 0.0041,
-   "units": 0.25,
-   "stake": 1.12,
-   "to_win": 0.75,
-   "min_odds": 1.67,
-   "start": "2026-11-26T00:00:00+00:00",
-   "started": true,
-   "status": "won",
-   "n_sharp": 4,
-   "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=2419ab21-284d-4f56-95bf-be313cda3c84&odds_numerator[0]=2&odds_denominator[0]=1",
-   "flag": null,
-   "posted_at": "2026-11-25T18:48:40+00:00",
-   "prices": {
-    "DraftKings": 1.62,
-    "FanDuel": 1.62,
-    "theScore Bet": 1.67
-   },
-   "links": {
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87402746_1",
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626715794&selectionId=25610",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=2419ab21-284d-4f56-95bf-be313cda3c84&odds_numerator[0]=2&odds_denominator[0]=1"
-   },
-   "fair_odds": 1.66,
-   "now_edge": 0.0041,
-   "open": [
-    "2026-11-25T18:48:39+00:00",
-    1.67,
-    0.6013
-   ],
-   "hist": [
-    [
-     "2026-11-25T18:48:39+00:00",
-     1.67,
-     0.6013
-    ]
-   ],
-   "injuries": [],
-   "lag": false
-  },
-  {
-   "tier": "lean",
-   "sport": "COLLEGE BASKETBALL",
-   "event": "South Carolina Upstate Spartans @ The Citadel Bulldogs",
-   "pick": "The Citadel Bulldogs",
-   "book": "theScore Bet",
-   "odds": 1.61,
-   "now_odds": 1.59,
-   "prob": 0.6216,
-   "edge": 0.0007,
-   "units": 0.25,
-   "stake": 1.12,
-   "to_win": 0.69,
-   "min_odds": 1.62,
-   "start": "2026-11-26T00:00:00+00:00",
-   "started": true,
-   "status": "won",
-   "n_sharp": 2,
-   "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=61cef713-7e8d-4d12-a2fb-2cdb8f3aac8d&odds_numerator[0]=2&odds_denominator[0]=1",
-   "flag": null,
-   "posted_at": "2026-11-25T18:48:40+00:00",
-   "prices": {
-    "DraftKings": 1.59,
-    "theScore Bet": 1.59,
-    "FanDuel": 1.58
-   },
-   "links": {
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87405627_1",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=61cef713-7e8d-4d12-a2fb-2cdb8f3aac8d&odds_numerator[0]=2&odds_denominator[0]=1",
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628550361&selectionId=3558411"
-   },
-   "fair_odds": 1.62,
-   "now_edge": -0.0166,
-   "open": [
-    "2026-11-25T18:48:39+00:00",
-    1.61,
-    0.6216
-   ],
-   "hist": [
-    [
-     "2026-11-25T18:48:39+00:00",
-     1.61,
-     0.6216
-    ],
-    [
-     "2026-11-25T22:25:02+00:00",
-     1.59,
-     0.6185
-    ]
-   ],
-   "injuries": [],
-   "lag": false
-  },
-  {
-   "tier": "lean",
-   "sport": "COLLEGE BASKETBALL",
-   "event": "Wake Forest Demon Deacons @ Mississippi St Bulldogs",
-   "pick": "Mississippi St Bulldogs",
-   "book": "theScore Bet",
-   "odds": 1.61,
-   "now_odds": 1.6,
-   "prob": 0.6188,
-   "edge": -0.0037,
-   "units": 0.25,
-   "stake": 1.12,
-   "to_win": 0.69,
-   "min_odds": 1.62,
-   "start": "2026-11-26T00:30:00+00:00",
-   "started": true,
-   "status": "lost",
    "n_sharp": 3,
-   "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=f99a18b9-f947-407a-abae-1eadbf1823dc&odds_numerator[0]=2&odds_denominator[0]=1",
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628710615&selectionId=697628",
    "flag": null,
-   "posted_at": "2026-11-25T18:48:40+00:00",
+   "posted_at": "2026-11-26T06:00:43+00:00",
    "prices": {
-    "DraftKings": 1.57,
-    "FanDuel": 1.6,
-    "theScore Bet": 1.59
+    "theScore Bet": 1.51,
+    "FanDuel": 1.53,
+    "DraftKings": 1.46
    },
    "links": {
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87405628_1",
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628413512&selectionId=332211",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=f99a18b9-f947-407a-abae-1eadbf1823dc&odds_numerator[0]=2&odds_denominator[0]=1"
+    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=28dd02d5-8fbd-4d02-a012-a0968d1ba87d&odds_numerator[0]=2&odds_denominator[0]=1",
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628710615&selectionId=697628",
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87421776_1"
    },
-   "fair_odds": 1.61,
-   "now_edge": -0.0068,
+   "fair_odds": 1.53,
+   "now_edge": -0.0007,
    "open": [
-    "2026-11-25T18:48:39+00:00",
-    1.61,
-    0.6188
+    "2026-11-26T06:00:43+00:00",
+    1.53,
+    0.6531
    ],
    "hist": [
     [
-     "2026-11-25T18:48:39+00:00",
-     1.61,
-     0.6188
-    ],
-    [
-     "2026-11-25T22:25:02+00:00",
-     1.6,
-     0.6207
+     "2026-11-26T06:00:43+00:00",
+     1.53,
+     0.6531
     ]
    ],
    "injuries": [],
@@ -403,91 +57,60 @@
   },
   {
    "tier": "lean",
-   "sport": "NBA",
-   "event": "Los Angeles Clippers @ Memphis Grizzlies",
-   "pick": "Memphis Grizzlies",
+   "sport": "COLLEGE BASKETBALL",
+   "event": "Maryland Terrapins @ San Diego St Aztecs",
+   "pick": "Maryland Terrapins",
    "book": "theScore Bet",
-   "odds": 1.4,
-   "now_odds": 1.37,
-   "prob": 0.7119,
-   "edge": -0.0033,
+   "odds": 1.53,
+   "now_odds": 1.53,
+   "prob": 0.6575,
+   "edge": 0.0059,
    "units": 0.25,
    "stake": 1.12,
-   "to_win": 0.45,
-   "min_odds": 1.41,
-   "start": "2026-11-26T01:10:00+00:00",
-   "started": true,
+   "to_win": 0.6,
+   "min_odds": 1.53,
+   "start": "2026-11-26T18:00:00+00:00",
+   "started": false,
    "status": "open",
-   "n_sharp": 4,
-   "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=4a3a9128-4de4-46dd-bc3c-5cb1819fd45e&odds_numerator[0]=2&odds_denominator[0]=1",
+   "n_sharp": 1,
+   "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=0140f78f-4be7-4d59-ac45-ac946530273c&odds_numerator[0]=2&odds_denominator[0]=1",
    "flag": null,
-   "posted_at": "2026-11-25T21:00:55+00:00",
+   "posted_at": "2026-11-26T06:00:43+00:00",
    "prices": {
-    "DraftKings": 1.37,
-    "FanDuel": 1.36,
-    "theScore Bet": 1.37
+    "DraftKings": 1.44,
+    "theScore Bet": 1.53,
+    "FanDuel": 1.53
    },
    "links": {
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87386541_1",
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627991897&selectionId=237491",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=4a3a9128-4de4-46dd-bc3c-5cb1819fd45e&odds_numerator[0]=2&odds_denominator[0]=1"
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87406927_3",
+    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=0140f78f-4be7-4d59-ac45-ac946530273c&odds_numerator[0]=2&odds_denominator[0]=1",
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628713108&selectionId=29832"
    },
-   "fair_odds": 1.41,
-   "now_edge": -0.0259,
+   "fair_odds": 1.52,
+   "now_edge": 0.0059,
    "open": [
-    "2026-11-25T18:48:39+00:00",
-    1.4,
-    0.7081
+    "2026-11-26T06:00:43+00:00",
+    1.53,
+    0.6575
    ],
    "hist": [
     [
-     "2026-11-25T18:48:39+00:00",
-     1.4,
-     0.7081
-    ],
-    [
-     "2026-11-25T23:48:15+00:00",
-     1.37,
-     0.711
+     "2026-11-26T06:00:43+00:00",
+     1.53,
+     0.6575
     ]
    ],
    "injuries": [],
    "lag": false
   }
  ],
- "parlays": [
-  {
-   "sport": "icehockey_nhl",
-   "label": "NHL",
-   "book": "theScore Bet",
-   "odds": 2.82,
-   "prob": 0.3539,
-   "ev": -0.0013,
-   "units": 0.5,
-   "legs": [
-    {
-     "pick": "Washington Capitals",
-     "event": "Philadelphia Flyers @ Washington Capitals",
-     "odds": 1.67,
-     "start": "2026-11-26T00:00:00+00:00"
-    },
-    {
-     "pick": "Seattle Kraken",
-     "event": "Chicago Blackhawks @ Seattle Kraken",
-     "odds": 1.69,
-     "start": "2026-11-26T02:50:00+00:00"
-    }
-   ],
-   "stake": 2.25,
-   "to_win": 4.09
-  }
- ],
+ "parlays": [],
  "record": {
   "lean": {
    "won": 10,
    "lost": 10,
    "push": 0,
-   "open": 3,
+   "open": 5,
    "units": -1.57,
    "dollars": -7.04,
    "clv": -0.0029,
@@ -808,7 +431,7 @@
    "on": true
   }
  },
- "watching": 79,
+ "watching": 8,
  "history": [
   {
    "type": "lean",
@@ -1355,6 +978,34 @@
    "profit_u": -0.5,
    "clv": null,
    "start": "2026-11-26T02:50:00+00:00"
+  },
+  {
+   "type": "lean",
+   "sport": "COLLEGE BASKETBALL",
+   "pick": "Purdue Boilermakers",
+   "event": "Oklahoma Sooners @ Purdue Boilermakers",
+   "book": "FanDuel",
+   "odds": 1.53,
+   "units": 0.25,
+   "edge": -0.0007,
+   "status": "open",
+   "profit_u": 0.0,
+   "clv": null,
+   "start": "2026-11-26T17:00:00+00:00"
+  },
+  {
+   "type": "lean",
+   "sport": "COLLEGE BASKETBALL",
+   "pick": "Maryland Terrapins",
+   "event": "Maryland Terrapins @ San Diego St Aztecs",
+   "book": "theScore Bet",
+   "odds": 1.53,
+   "units": 0.25,
+   "edge": 0.0059,
+   "status": "open",
+   "profit_u": 0.0,
+   "clv": null,
+   "start": "2026-11-26T18:00:00+00:00"
   }
  ],
  "arbs": [],
@@ -1362,8 +1013,8 @@
   "sports": [
    {
     "sport": "COLLEGE BASKETBALL",
-    "scans": 4,
-    "prices": 172,
+    "scans": 5,
+    "prices": 178,
     "edges": 2
    },
    {
@@ -1383,6 +1034,12 @@
     "scans": 3,
     "prices": 52,
     "edges": 0
+   },
+   {
+    "sport": "NFL",
+    "scans": 1,
+    "prices": 2,
+    "edges": 0
    }
   ],
   "books": {
@@ -1390,6 +1047,289 @@
    "FanDuel": 1
   }
  },
- "games": [],
- "big_parlays": []
+ "games": [
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "Georgia Bulldogs @ Cincinnati Bearcats",
+   "pick": "Cincinnati Bearcats",
+   "opp": "Georgia Bulldogs",
+   "start": "2026-11-26T16:00:00+00:00",
+   "book": "DraftKings",
+   "odds": 1.77,
+   "prob": 0.56,
+   "edge": -0.0088,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.25,
+   "stake": 1.12,
+   "to_win": 0.87,
+   "tier": null,
+   "fair_odds": 1.79,
+   "why": [
+    "Sharp books give Cincinnati Bearcats a 56% chance to win (Georgia Bulldogs 44%).",
+    "Cincinnati Bearcats: 5-1, 1-0 on the road, 80.8 pts/game, top: Tylen Riley 14.0 PPG.",
+    "Georgia Bulldogs: 6-0, 4-0 at home, 87.0 pts/game, top: Blue Cain 15.7 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 3,
+   "link": "https://sportsbook.draftkings.com/?outcomes=0ML87421773_1",
+   "prices": {
+    "theScore Bet": 1.74,
+    "FanDuel": 1.76,
+    "DraftKings": 1.77
+   },
+   "links": {
+    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=81ae61e8-df4c-4297-a95c-5f8d68546318&odds_numerator[0]=2&odds_denominator[0]=1",
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628708337&selectionId=332214",
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87421773_1"
+   },
+   "open": [
+    "2026-11-26T06:00:43+00:00",
+    1.77,
+    0.56
+   ],
+   "hist": [
+    [
+     "2026-11-26T06:00:43+00:00",
+     1.77,
+     0.56
+    ]
+   ],
+   "lag": false
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "Oklahoma Sooners @ Purdue Boilermakers",
+   "pick": "Purdue Boilermakers",
+   "opp": "Oklahoma Sooners",
+   "start": "2026-11-26T17:00:00+00:00",
+   "book": "FanDuel",
+   "odds": 1.53,
+   "prob": 0.6531,
+   "edge": -0.0007,
+   "value": "fair",
+   "value_txt": "Fair price",
+   "units": 0.5,
+   "stake": 2.25,
+   "to_win": 1.19,
+   "tier": "lean",
+   "fair_odds": 1.53,
+   "why": [
+    "Sharp books give Purdue Boilermakers a 65% chance to win (Oklahoma Sooners 34%).",
+    "Purdue Boilermakers: 4-3, 4-1 at home, 79.1 pts/game, top: Daniel Jacobsen 16.7 PPG.",
+    "Oklahoma Sooners: 4-2, 0-0 on the road, 76.3 pts/game, top: Xzayvier Brown 16.8 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 3,
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628710615&selectionId=697628",
+   "prices": {
+    "theScore Bet": 1.51,
+    "FanDuel": 1.53,
+    "DraftKings": 1.46
+   },
+   "links": {
+    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=28dd02d5-8fbd-4d02-a012-a0968d1ba87d&odds_numerator[0]=2&odds_denominator[0]=1",
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628710615&selectionId=697628",
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87421776_1"
+   },
+   "open": [
+    "2026-11-26T06:00:43+00:00",
+    1.53,
+    0.6531
+   ],
+   "hist": [
+    [
+     "2026-11-26T06:00:43+00:00",
+     1.53,
+     0.6531
+    ]
+   ],
+   "lag": false
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "Maryland Terrapins @ San Diego St Aztecs",
+   "pick": "Maryland Terrapins",
+   "opp": "San Diego St Aztecs",
+   "start": "2026-11-26T18:00:00+00:00",
+   "book": "theScore Bet",
+   "odds": 1.53,
+   "prob": 0.6575,
+   "edge": 0.0059,
+   "value": "fair",
+   "value_txt": "Fair price",
+   "units": 0.5,
+   "stake": 2.25,
+   "to_win": 1.19,
+   "tier": "lean",
+   "fair_odds": 1.52,
+   "why": [
+    "Sharp books give Maryland Terrapins a 66% chance to win (San Diego St Aztecs 34%).",
+    "Maryland Terrapins: 3-3, 3-1 at home, 82.7 pts/game, top: Pharrel Payne 17.2 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 1,
+   "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=0140f78f-4be7-4d59-ac45-ac946530273c&odds_numerator[0]=2&odds_denominator[0]=1",
+   "prices": {
+    "DraftKings": 1.44,
+    "theScore Bet": 1.53,
+    "FanDuel": 1.53
+   },
+   "links": {
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87406927_3",
+    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=0140f78f-4be7-4d59-ac45-ac946530273c&odds_numerator[0]=2&odds_denominator[0]=1",
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628713108&selectionId=29832"
+   },
+   "open": [
+    "2026-11-26T06:00:43+00:00",
+    1.53,
+    0.6575
+   ],
+   "hist": [
+    [
+     "2026-11-26T06:00:43+00:00",
+     1.53,
+     0.6575
+    ]
+   ],
+   "lag": false
+  },
+  {
+   "sport": "NFL",
+   "event": "Chicago Bears @ Detroit Lions",
+   "pick": "Chicago Bears",
+   "opp": "Detroit Lions",
+   "start": "2026-11-26T18:00:00+00:00",
+   "book": "DraftKings",
+   "odds": 1.83,
+   "prob": 0.5229,
+   "edge": -0.0431,
+   "value": "over",
+   "value_txt": "Overpriced: the book is charging a lot here",
+   "units": 0.0,
+   "stake": 0.0,
+   "to_win": 0.0,
+   "tier": null,
+   "fair_odds": 1.91,
+   "why": [
+    "Sharp books give Chicago Bears a 52% chance to win (Detroit Lions 48%).",
+    "Chicago Bears: 8-2, 3-1 on the road.",
+    "Detroit Lions: 8-2, 6-0 at home."
+   ],
+   "injuries": [
+    {
+     "team": "Chicago Bears",
+     "list": [
+      "D'Marco Jackson (LB, Questionable)",
+      "Tyrique Stevenson Sr. (CB, Questionable)",
+      "Kyler Gordon (CB, Out)",
+      "Roschon Johnson (RB, Out)"
+     ]
+    },
+    {
+     "team": "Detroit Lions",
+     "list": [
+      "Skyler Gill-Howard (DT, Injured Reserve)",
+      "Ennis Rakestraw Jr. (CB, Out)",
+      "Chuck Clark (S, Questionable)",
+      "DJ Wonnum (LB, Questionable)"
+     ]
+    }
+   ],
+   "n_sharp": 5,
+   "link": "https://sportsbook.draftkings.com/?outcomes=0ML84695633_3",
+   "prices": {
+    "DraftKings": 1.83,
+    "FanDuel": 1.82,
+    "theScore Bet": 1.8
+   },
+   "links": {
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML84695633_3",
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578397209&selectionId=50194",
+    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=4531de8e-811d-4e71-9525-bc1f46604d06&odds_numerator[0]=2&odds_denominator[0]=1"
+   },
+   "open": [
+    "2026-11-26T06:00:43+00:00",
+    1.83,
+    0.5229
+   ],
+   "hist": [
+    [
+     "2026-11-26T06:00:43+00:00",
+     1.83,
+     0.5229
+    ]
+   ],
+   "lag": false
+  }
+ ],
+ "big_parlays": [
+  {
+   "label": "Safest 4x+",
+   "book": "theScore Bet",
+   "odds": 4.02,
+   "prob": 0.2405,
+   "ev": -0.0334,
+   "units": 0.5,
+   "stake": 2.25,
+   "to_win": 6.79,
+   "legs": [
+    {
+     "pick": "Maryland Terrapins",
+     "event": "Maryland Terrapins @ San Diego St Aztecs",
+     "sport": "COLLEGE BASKETBALL",
+     "odds": 1.53,
+     "prob": 0.657,
+     "start": "2026-11-26T18:00:00+00:00",
+     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=0140f78f-4be7-4d59-ac45-ac946530273c&odds_numerator[0]=2&odds_denominator[0]=1",
+     "sid": [
+      "3134919f-abc0-4fb5-aa59-9f453577a5a6",
+      "0140f78f-4be7-4d59-ac45-ac946530273c",
+      "726fcf17-e80c-47ba-8b67-c35302292a2e"
+     ]
+    },
+    {
+     "pick": "Purdue Boilermakers",
+     "event": "Oklahoma Sooners @ Purdue Boilermakers",
+     "sport": "COLLEGE BASKETBALL",
+     "odds": 1.51,
+     "prob": 0.653,
+     "start": "2026-11-26T17:00:00+00:00",
+     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=28dd02d5-8fbd-4d02-a012-a0968d1ba87d&odds_numerator[0]=2&odds_denominator[0]=1",
+     "sid": [
+      "94b36bf4-1a50-4d8a-8d3a-f675acefd716",
+      "28dd02d5-8fbd-4d02-a012-a0968d1ba87d",
+      "d92ced3d-091b-4c9e-9e53-c86104139192"
+     ]
+    },
+    {
+     "pick": "Cincinnati Bearcats",
+     "event": "Georgia Bulldogs @ Cincinnati Bearcats",
+     "sport": "COLLEGE BASKETBALL",
+     "odds": 1.74,
+     "prob": 0.56,
+     "start": "2026-11-26T16:00:00+00:00",
+     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=81ae61e8-df4c-4297-a95c-5f8d68546318&odds_numerator[0]=2&odds_denominator[0]=1",
+     "sid": [
+      "f3c583fd-588c-4ec4-ad47-1b7a8ee8aef6",
+      "81ae61e8-df4c-4297-a95c-5f8d68546318",
+      "ef4dfa1d-a13f-403d-8f19-0a380f6d09b1"
+     ]
+    }
+   ],
+   "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=0140f78f-4be7-4d59-ac45-ac946530273c&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=28dd02d5-8fbd-4d02-a012-a0968d1ba87d&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=81ae61e8-df4c-4297-a95c-5f8d68546318&odds_numerator[2]=2&odds_denominator[2]=1",
+   "alts": [
+    {
+     "book": "DraftKings",
+     "odds": 3.72,
+     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87406927_3+0ML87421776_1+0ML87421773_1"
+    },
+    {
+     "book": "FanDuel",
+     "odds": 4.12,
+     "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.628713108&selectionId[0]=29832&marketId[1]=42.628710615&selectionId[1]=697628&marketId[2]=42.628708337&selectionId[2]=332214"
+    }
+   ]
+  }
+ ]
 }

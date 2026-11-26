@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-26T01:30:21+00:00",
+ "updated": "2026-11-26T01:40:26+00:00",
  "last_scan": "2026-11-25T23:48:15+00:00",
  "unit": 4.5,
  "bankroll": 227.78,
@@ -1391,62 +1391,6 @@
   }
  },
  "games": [
-  {
-   "sport": "NBA",
-   "event": "Phoenix Suns @ Houston Rockets",
-   "pick": "Houston Rockets",
-   "opp": "Phoenix Suns",
-   "start": "2026-11-26T01:40:00+00:00",
-   "book": "FanDuel",
-   "odds": 1.27,
-   "prob": 0.7725,
-   "edge": -0.0189,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.12,
-   "to_win": 0.3,
-   "tier": null,
-   "fair_odds": 1.29,
-   "why": [
-    "Sharp books give Houston Rockets a 77% chance to win (Phoenix Suns 21%).",
-    "Houston Rockets: 13-5, 8-1 at home, 118.1 pts/game, top: Alperen Sengun 21.9 PPG.",
-    "Phoenix Suns: 9-7, 4-3 on the road, 114.4 pts/game, top: Devin Booker 24.5 PPG."
-   ],
-   "injuries": [
-    {
-     "team": "Phoenix Suns",
-     "list": [
-      "Mark Williams (C, Out)"
-     ]
-    }
-   ],
-   "n_sharp": 4,
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627991909&selectionId=237488",
-   "prices": {
-    "FanDuel": 1.27,
-    "theScore Bet": 1.25,
-    "DraftKings": 1.25
-   },
-   "links": {
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627991909&selectionId=237488",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=df6e87a7-8e7d-417d-80e2-658d4f534414&odds_numerator[0]=2&odds_denominator[0]=1",
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87386543_1"
-   },
-   "open": [
-    "2026-11-25T18:48:39+00:00",
-    1.27,
-    0.777
-   ],
-   "hist": [
-    [
-     "2026-11-25T18:48:39+00:00",
-     1.27,
-     0.777
-    ]
-   ],
-   "lag": false
-  },
   {
    "sport": "COLLEGE BASKETBALL",
    "event": "Eastern Washington Eagles @ Loyola Marymount Lions",

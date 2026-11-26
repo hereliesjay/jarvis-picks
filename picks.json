@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-26T02:30:13+00:00",
+ "updated": "2026-11-26T02:40:18+00:00",
  "last_scan": "2026-11-25T23:48:15+00:00",
  "unit": 4.5,
  "bankroll": 227.78,
@@ -1391,74 +1391,6 @@
   }
  },
  "games": [
-  {
-   "sport": "NHL",
-   "event": "Montr\u00e9al Canadiens @ Colorado Avalanche",
-   "pick": "Colorado Avalanche",
-   "opp": "Montr\u00e9al Canadiens",
-   "start": "2026-11-26T02:40:00+00:00",
-   "book": "theScore Bet",
-   "odds": 1.87,
-   "prob": 0.5267,
-   "edge": -0.0151,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.0,
-   "stake": 0.0,
-   "to_win": 0.0,
-   "tier": null,
-   "fair_odds": 1.9,
-   "why": [
-    "Sharp books give Colorado Avalanche a 53% chance to win (Montr\u00e9al Canadiens 47%).",
-    "Colorado Avalanche: 13-7-3, 8-1-2 at home, top: Artturi Lehkonen 15 Goals.",
-    "Montr\u00e9al Canadiens: 14-7-4, 9-2-1 on the road, top: Cole Caufield 12 Goals."
-   ],
-   "injuries": [
-    {
-     "team": "Colorado Avalanche",
-     "list": [
-      "Gavin Brindley (C, Out)",
-      "Nathan MacKinnon (C, Out)",
-      "Josh Manson (D, Injured Reserve)",
-      "Zachary L'Heureux (LW, Injured Reserve)"
-     ]
-    },
-    {
-     "team": "Montr\u00e9al Canadiens",
-     "list": [
-      "Mike Matheson (D, Injured Reserve)",
-      "Ivan Demidov (RW, Injured Reserve)",
-      "Josh Anderson (RW, Injured Reserve)",
-      "Chris Kreider (LW, Injured Reserve)"
-     ]
-    }
-   ],
-   "n_sharp": 4,
-   "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=60decae3-cc1b-4474-b9ed-876e7da98456&odds_numerator[0]=2&odds_denominator[0]=1",
-   "prices": {
-    "DraftKings": 1.83,
-    "FanDuel": 1.83,
-    "theScore Bet": 1.87
-   },
-   "links": {
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87402750_1",
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627270147&selectionId=25602",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=60decae3-cc1b-4474-b9ed-876e7da98456&odds_numerator[0]=2&odds_denominator[0]=1"
-   },
-   "open": [
-    "2026-11-25T18:48:39+00:00",
-    1.87,
-    0.5267
-   ],
-   "hist": [
-    [
-     "2026-11-25T18:48:39+00:00",
-     1.87,
-     0.5267
-    ]
-   ],
-   "lag": false
-  },
   {
    "sport": "NHL",
    "event": "Chicago Blackhawks @ Seattle Kraken",

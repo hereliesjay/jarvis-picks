@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-26T18:54:14+00:00",
+ "updated": "2026-11-26T19:00:18+00:00",
  "last_scan": "2026-11-26T18:29:37+00:00",
  "unit": 4.5,
  "bankroll": 224.38,
@@ -165,7 +165,7 @@
    "to_win": 0.7,
    "min_odds": 1.56,
    "start": "2026-11-26T19:00:00+00:00",
-   "started": false,
+   "started": true,
    "status": "open",
    "n_sharp": 3,
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628710626&selectionId=712840",
@@ -1394,59 +1394,6 @@
  "games": [
   {
    "sport": "COLLEGE BASKETBALL",
-   "event": "South Carolina Gamecocks @ Arizona St Sun Devils",
-   "pick": "Arizona St Sun Devils",
-   "opp": "South Carolina Gamecocks",
-   "start": "2026-11-26T19:00:00+00:00",
-   "book": "FanDuel",
-   "odds": 1.52,
-   "prob": 0.6448,
-   "edge": -0.02,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.12,
-   "to_win": 0.58,
-   "tier": "lean",
-   "fair_odds": 1.55,
-   "why": [
-    "Sharp books give Arizona St Sun Devils a 64% chance to win (South Carolina Gamecocks 35%).",
-    "South Carolina Gamecocks: 5-1, 5-0 at home, 77.3 pts/game, top: Juan Fernandez 14.2 PPG."
-   ],
-   "injuries": [],
-   "n_sharp": 3,
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628710626&selectionId=712840",
-   "prices": {
-    "theScore Bet": 1.51,
-    "FanDuel": 1.52,
-    "DraftKings": 1.51
-   },
-   "links": {
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=a1fb05ce-57c6-4261-98d6-91c0d05e019d&odds_numerator[0]=2&odds_denominator[0]=1",
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628710626&selectionId=712840",
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87421772_1"
-   },
-   "open": [
-    "2026-11-26T09:01:09+00:00",
-    1.62,
-    0.6178
-   ],
-   "hist": [
-    [
-     "2026-11-26T09:01:09+00:00",
-     1.62,
-     0.6178
-    ],
-    [
-     "2026-11-26T18:29:37+00:00",
-     1.52,
-     0.6448
-    ]
-   ],
-   "lag": false
-  },
-  {
-   "sport": "COLLEGE BASKETBALL",
    "event": "Georgetown Hoyas @ Texas Longhorns",
    "pick": "Texas Longhorns",
    "opp": "Georgetown Hoyas",
@@ -2382,13 +2329,27 @@
   {
    "label": "Safest 4x+",
    "book": "FanDuel",
-   "odds": 4.03,
-   "prob": 0.2428,
-   "ev": -0.0227,
+   "odds": 4.02,
+   "prob": 0.2379,
+   "ev": -0.0435,
    "units": 0.5,
    "stake": 2.25,
-   "to_win": 6.81,
+   "to_win": 6.8,
    "legs": [
+    {
+     "pick": "Texas Tech Red Raiders",
+     "event": "TCU Horned Frogs @ Texas Tech Red Raiders",
+     "sport": "COLLEGE FOOTBALL",
+     "odds": 1.15,
+     "prob": 0.847,
+     "start": "2026-11-27T01:00:00+00:00",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626038981&selectionId=662040",
+     "sid": [
+      null,
+      "662040",
+      "36328933"
+     ]
+    },
     {
      "pick": "Pacific Tigers",
      "event": "Omaha Mavericks @ Pacific Tigers",
@@ -2418,6 +2379,20 @@
      ]
     },
     {
+     "pick": "UCLA Bruins",
+     "event": "Saint Mary's Gaels @ UCLA Bruins",
+     "sport": "COLLEGE BASKETBALL",
+     "odds": 1.32,
+     "prob": 0.746,
+     "start": "2026-11-26T22:00:00+00:00",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628684335&selectionId=697690",
+     "sid": [
+      null,
+      "697690",
+      "36364178"
+     ]
+    },
+    {
      "pick": "Iowa State Cyclones",
      "event": "Tennessee Volunteers @ Iowa State Cyclones",
      "sport": "COLLEGE BASKETBALL",
@@ -2430,86 +2405,58 @@
       "708779",
       "36363188"
      ]
-    },
-    {
-     "pick": "Arizona St Sun Devils",
-     "event": "South Carolina Gamecocks @ Arizona St Sun Devils",
-     "sport": "COLLEGE BASKETBALL",
-     "odds": 1.52,
-     "prob": 0.645,
-     "start": "2026-11-26T19:00:00+00:00",
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628710626&selectionId=712840",
-     "sid": [
-      null,
-      "712840",
-      "36364349"
-     ]
     }
    ],
-   "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.628714584&selectionId[0]=756685&marketId[1]=42.628683875&selectionId[1]=352409&marketId[2]=42.628678465&selectionId[2]=708779&marketId[3]=42.628710626&selectionId[3]=712840",
+   "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.626038981&selectionId[0]=662040&marketId[1]=42.628714584&selectionId[1]=756685&marketId[2]=42.628683875&selectionId[2]=352409&marketId[3]=42.628684335&selectionId[3]=697690&marketId[4]=42.628678465&selectionId[4]=708779",
    "alts": [
     {
      "book": "DraftKings",
-     "odds": 3.83,
-     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87421778_3+0ML87421780_1+0ML87406926_1+0ML87421772_1"
+     "odds": 3.86,
+     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML84998521_1+0ML87421778_3+0ML87421780_1+0ML87421777_1+0ML87406926_1"
     },
     {
      "book": "theScore Bet",
-     "odds": 3.86,
-     "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=f3f9d1e5-3b92-4590-a1b3-e122de5a2a40&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=8c77d12e-6ae5-4ddd-8476-353a02811265&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=08d166e1-f7f4-410b-90c3-eff7a6c71e5f&odds_numerator[2]=2&odds_denominator[2]=1&market_selection_id[3]=a1fb05ce-57c6-4261-98d6-91c0d05e019d&odds_numerator[3]=2&odds_denominator[3]=1"
+     "odds": 3.91,
+     "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=43af1598-6cd9-4f68-b95a-24258f28d9f6&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=f3f9d1e5-3b92-4590-a1b3-e122de5a2a40&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=8c77d12e-6ae5-4ddd-8476-353a02811265&odds_numerator[2]=2&odds_denominator[2]=1&market_selection_id[3]=3aebcc2a-db1a-4600-931a-ac440b490af7&odds_numerator[3]=2&odds_denominator[3]=1&market_selection_id[4]=08d166e1-f7f4-410b-90c3-eff7a6c71e5f&odds_numerator[4]=2&odds_denominator[4]=1"
     }
    ]
   },
   {
    "label": "Next safest 4x+",
-   "book": "theScore Bet",
-   "odds": 4.0,
-   "prob": 0.236,
-   "ev": -0.0561,
+   "book": "DraftKings",
+   "odds": 4.01,
+   "prob": 0.2316,
+   "ev": -0.072,
    "units": 0.5,
    "stake": 2.25,
-   "to_win": 6.75,
+   "to_win": 6.77,
    "legs": [
+    {
+     "pick": "Texas Tech Red Raiders",
+     "event": "Texas Tech Red Raiders @ Oregon Ducks",
+     "sport": "COLLEGE BASKETBALL",
+     "odds": 1.19,
+     "prob": 0.832,
+     "start": "2026-11-27T04:30:00+00:00",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0ML87408444_3",
+     "sid": [
+      null,
+      "0ML87408444_3",
+      "35084608"
+     ]
+    },
     {
      "pick": "Texas Longhorns",
      "event": "Georgetown Hoyas @ Texas Longhorns",
      "sport": "COLLEGE BASKETBALL",
-     "odds": 1.24,
+     "odds": 1.26,
      "prob": 0.778,
      "start": "2026-11-26T19:30:00+00:00",
-     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=ed119c4b-a08d-42ba-97f4-8fb458cf79d1&odds_numerator[0]=2&odds_denominator[0]=1",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0ML87421775_1",
      "sid": [
-      "e0a934f7-cd5d-4fdf-919f-41f27ee716a5",
-      "ed119c4b-a08d-42ba-97f4-8fb458cf79d1",
-      "cb7927e6-a269-4440-8d15-5ceee064370c"
-     ]
-    },
-    {
-     "pick": "UCLA Bruins",
-     "event": "Saint Mary's Gaels @ UCLA Bruins",
-     "sport": "COLLEGE BASKETBALL",
-     "odds": 1.33,
-     "prob": 0.746,
-     "start": "2026-11-26T22:00:00+00:00",
-     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=3aebcc2a-db1a-4600-931a-ac440b490af7&odds_numerator[0]=2&odds_denominator[0]=1",
-     "sid": [
-      "57f66af5-1574-4aa8-8637-0d4a856e9e10",
-      "3aebcc2a-db1a-4600-931a-ac440b490af7",
-      "1420307a-a7c8-4ee9-ab7d-22e174b34b3f"
-     ]
-    },
-    {
-     "pick": "Michigan St Spartans",
-     "event": "Arkansas Razorbacks @ Michigan St Spartans",
-     "sport": "COLLEGE BASKETBALL",
-     "odds": 1.47,
-     "prob": 0.678,
-     "start": "2026-11-26T21:30:00+00:00",
-     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=eadd89e5-3cbb-41a4-8496-afcc2f8e5b73&odds_numerator[0]=2&odds_denominator[0]=1",
-     "sid": [
-      "dedb07c0-7996-4fe7-9ef4-5f901382dd70",
-      "eadd89e5-3cbb-41a4-8496-afcc2f8e5b73",
-      "22b2aa2f-1720-41f0-9fc0-261959543a19"
+      null,
+      "0ML87421775_1",
+      "35089789"
      ]
     },
     {
@@ -2519,25 +2466,39 @@
      "odds": 1.65,
      "prob": 0.6,
      "start": "2026-11-27T01:20:00+00:00",
-     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=6834c8bd-e323-47ef-b98a-75f00eb961c1&odds_numerator[0]=2&odds_denominator[0]=1",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0ML84695642_1",
      "sid": [
-      "3cdd5049-fc5c-4a85-bc66-989ed1893d5f",
-      "6834c8bd-e323-47ef-b98a-75f00eb961c1",
-      "266f7b64-da8a-4abb-b021-a0f31800e521"
+      null,
+      "0ML84695642_1",
+      "34118209"
+     ]
+    },
+    {
+     "pick": "Jacksonville St Gamecocks",
+     "event": "Jacksonville St Gamecocks @ UC Davis Aggies",
+     "sport": "COLLEGE BASKETBALL",
+     "odds": 1.62,
+     "prob": 0.597,
+     "start": "2026-11-27T01:00:00+00:00",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0ML87421771_3",
+     "sid": [
+      null,
+      "0ML87421771_3",
+      "35089784"
      ]
     }
    ],
-   "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=ed119c4b-a08d-42ba-97f4-8fb458cf79d1&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=3aebcc2a-db1a-4600-931a-ac440b490af7&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=eadd89e5-3cbb-41a4-8496-afcc2f8e5b73&odds_numerator[2]=2&odds_denominator[2]=1&market_selection_id[3]=6834c8bd-e323-47ef-b98a-75f00eb961c1&odds_numerator[3]=2&odds_denominator[3]=1",
+   "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87408444_3+0ML87421775_1+0ML84695642_1+0ML87421771_3",
    "alts": [
     {
-     "book": "DraftKings",
-     "odds": 3.92,
-     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87421775_1+0ML87421777_1+0ML87421779_1+0ML84695642_1"
+     "book": "theScore Bet",
+     "odds": 3.85,
+     "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=f5f6c214-7acb-4e6f-b7b0-3a7e89c1aecd&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=ed119c4b-a08d-42ba-97f4-8fb458cf79d1&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=6834c8bd-e323-47ef-b98a-75f00eb961c1&odds_numerator[2]=2&odds_denominator[2]=1&market_selection_id[3]=b848740f-0578-4499-ab8b-6db0eac07d7b&odds_numerator[3]=2&odds_denominator[3]=1"
     },
     {
      "book": "FanDuel",
-     "odds": 3.88,
-     "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.628681736&selectionId[0]=332193&marketId[1]=42.628684335&selectionId[1]=697690&marketId[2]=42.628674099&selectionId[2]=29834&marketId[3]=42.578457166&selectionId[3]=50203"
+     "odds": 3.87,
+     "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.628674756&selectionId[0]=284244&marketId[1]=42.628681736&selectionId[1]=332193&marketId[2]=42.578457166&selectionId[2]=50203&marketId[3]=42.628713908&selectionId[3]=727606"
     }
    ]
   }

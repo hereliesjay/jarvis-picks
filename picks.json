@@ -1,9 +1,9 @@
 {
  "version": 25,
- "updated": "2026-11-26T22:00:30+00:00",
- "last_scan": "2026-11-26T21:30:22+00:00",
+ "updated": "2026-11-26T22:25:02+00:00",
+ "last_scan": "2026-11-26T22:25:02+00:00",
  "unit": 4.5,
- "bankroll": 223.3,
+ "bankroll": 222.05,
  "bank_start": 250.0,
  "unit_pct": 0.02,
  "picks": [
@@ -143,7 +143,7 @@
    "min_odds": 1.62,
    "start": "2026-11-26T19:00:00+00:00",
    "started": true,
-   "status": "open",
+   "status": "lost",
    "n_sharp": null,
    "link": null,
    "flag": null,
@@ -252,11 +252,11 @@
  "record": {
   "lean": {
    "won": 10,
-   "lost": 12,
+   "lost": 13,
    "push": 0,
-   "open": 5,
-   "units": -2.07,
-   "dollars": -9.29,
+   "open": 4,
+   "units": -2.32,
+   "dollars": -10.42,
    "clv": -0.0009,
    "clv_n": 17
   },
@@ -292,6 +292,16 @@
   }
  },
  "recent": [
+  {
+   "tier": "lean",
+   "pick": "Arizona St Sun Devils",
+   "event": "South Carolina Gamecocks @ Arizona St Sun Devils",
+   "sport": "COLLEGE BASKETBALL",
+   "odds": 1.62,
+   "units": 0.25,
+   "status": "lost",
+   "start": "2026-11-26T19:00:00+00:00"
+  },
   {
    "tier": "card",
    "pick": "Boston College Eagles",
@@ -531,16 +541,6 @@
    "units": 0.5,
    "status": "lost",
    "start": "2026-11-22T22:10:00+00:00"
-  },
-  {
-   "tier": "lean",
-   "pick": "Texas State Bobcats",
-   "event": "McNeese Cowboys @ Texas State Bobcats",
-   "sport": "COLLEGE BASKETBALL",
-   "odds": 1.76,
-   "units": 0.5,
-   "status": "won",
-   "start": "2026-11-22T20:30:00+00:00"
   }
  ],
  "rules": {
@@ -551,9 +551,9 @@
    "on": true
   },
   "basketball": {
-   "n": 80,
-   "roi": -0.1209,
-   "clv": 0.0041,
+   "n": 81,
+   "roi": -0.1317,
+   "clv": 0.0047,
    "on": true
   },
   "tennis": {
@@ -575,7 +575,7 @@
    "on": true
   }
  },
- "watching": 23,
+ "watching": 21,
  "history": [
   {
    "type": "lean",
@@ -1188,8 +1188,8 @@
    "odds": 1.62,
    "units": 0.25,
    "edge": 0.0008,
-   "status": "open",
-   "profit_u": 0.0,
+   "status": "lost",
+   "profit_u": -0.25,
    "clv": 0.0381,
    "start": "2026-11-26T19:00:00+00:00"
   },
@@ -1265,8 +1265,8 @@
    },
    {
     "sport": "NFL",
-    "scans": 2,
-    "prices": 6,
+    "scans": 3,
+    "prices": 8,
     "edges": 0
    },
    {
@@ -1549,8 +1549,8 @@
    "start": "2026-11-27T01:20:00+00:00",
    "book": "DraftKings",
    "odds": 1.65,
-   "prob": 0.5999,
-   "edge": -0.0102,
+   "prob": 0.599,
+   "edge": -0.0116,
    "value": "slight",
    "value_txt": "A bit overpriced (books' cut)",
    "units": 0.25,
@@ -1587,7 +1587,7 @@
    "link": "https://sportsbook.draftkings.com/?outcomes=0ML84695642_1",
    "prices": {
     "DraftKings": 1.65,
-    "FanDuel": 1.62,
+    "FanDuel": 1.63,
     "theScore Bet": 1.65
    },
    "links": {
@@ -1864,8 +1864,8 @@
    "label": "Safest 4x+",
    "book": "theScore Bet",
    "odds": 4.04,
-   "prob": 0.2291,
-   "ev": -0.0739,
+   "prob": 0.2287,
+   "ev": -0.0752,
    "units": 0.5,
    "stake": 2.25,
    "to_win": 6.85,
@@ -1917,7 +1917,7 @@
      "event": "Kansas City Chiefs @ Buffalo Bills",
      "sport": "NFL",
      "odds": 1.65,
-     "prob": 0.6,
+     "prob": 0.599,
      "start": "2026-11-27T01:20:00+00:00",
      "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=6834c8bd-e323-47ef-b98a-75f00eb961c1&odds_numerator[0]=2&odds_denominator[0]=1",
      "sid": [
@@ -1936,7 +1936,7 @@
     },
     {
      "book": "FanDuel",
-     "odds": 3.89,
+     "odds": 3.92,
      "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.626038981&selectionId[0]=662040&marketId[1]=42.628683875&selectionId[1]=352409&marketId[2]=42.628674368&selectionId[2]=29840&marketId[3]=42.578457166&selectionId[3]=50203"
     }
    ]

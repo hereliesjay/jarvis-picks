@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-26T21:24:13+00:00",
+ "updated": "2026-11-26T21:26:17+00:00",
  "last_scan": "2026-11-26T18:29:37+00:00",
  "unit": 4.5,
  "bankroll": 223.3,
@@ -1459,8 +1459,8 @@
    "fair_odds": 1.92,
    "why": [
     "Sharp books give USC Trojans a 52% chance to win (Utah State Aggies 48%).",
-    "USC Trojans: 7-0, 4-0 at home, 90.9 pts/game, top: Alijah Arenas 21.9 PPG.",
-    "Utah State Aggies: 6-0, 0-0 on the road, 102.7 pts/game, top: Mason Falslev 20.8 PPG."
+    "USC Trojans: 7-0, 1-0 on the road, 90.9 pts/game, top: Alijah Arenas 21.9 PPG.",
+    "Utah State Aggies: 6-0, 5-0 at home, 102.7 pts/game, top: Mason Falslev 20.8 PPG."
    ],
    "injuries": [],
    "n_sharp": 3,

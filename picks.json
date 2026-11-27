@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-27T01:51:10+00:00",
+ "updated": "2026-11-27T02:00:14+00:00",
  "last_scan": "2026-11-27T00:31:20+00:00",
  "unit": 4.5,
  "bankroll": 222.31,
@@ -1282,108 +1282,6 @@
   }
  },
  "games": [
-  {
-   "sport": "COLLEGE BASKETBALL",
-   "event": "Kansas St Wildcats @ Alabama Crimson Tide",
-   "pick": "Alabama Crimson Tide",
-   "opp": "Kansas St Wildcats",
-   "start": "2026-11-27T02:00:00+00:00",
-   "book": "FanDuel",
-   "odds": 1.1,
-   "prob": 0.9071,
-   "edge": -0.0021,
-   "value": "fair",
-   "value_txt": "Fair price",
-   "units": 0.5,
-   "stake": 2.25,
-   "to_win": 0.23,
-   "tier": null,
-   "fair_odds": 1.1,
-   "why": [
-    "Sharp books give Alabama Crimson Tide a 91% chance to win.",
-    "Alabama Crimson Tide: 5-1, 0-0 on the road, 93.3 pts/game, top: Amari Allen 16.5 PPG."
-   ],
-   "injuries": [],
-   "n_sharp": 3,
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628675030&selectionId=332212",
-   "prices": {
-    "DraftKings": 1.09,
-    "FanDuel": 1.1,
-    "theScore Bet": 1.06
-   },
-   "links": {
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87409832_1",
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628675030&selectionId=332212",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=39dda5e3-16d0-45d3-96bb-e8c3f6d8ba59&odds_numerator[0]=2&odds_denominator[0]=1"
-   },
-   "open": [
-    "2026-11-26T18:29:37+00:00",
-    1.1,
-    0.9098
-   ],
-   "hist": [
-    [
-     "2026-11-26T18:29:37+00:00",
-     1.1,
-     0.9098
-    ]
-   ],
-   "lag": false
-  },
-  {
-   "sport": "COLLEGE BASKETBALL",
-   "event": "St. John's Red Storm @ Louisville Cardinals",
-   "pick": "St. John's Red Storm",
-   "opp": "Louisville Cardinals",
-   "start": "2026-11-27T02:00:00+00:00",
-   "book": "DraftKings",
-   "odds": 1.83,
-   "prob": 0.5164,
-   "edge": -0.055,
-   "value": "over",
-   "value_txt": "Overpriced: the book is charging a lot here",
-   "units": 0.0,
-   "stake": 0.0,
-   "to_win": 0.0,
-   "tier": null,
-   "fair_odds": 1.94,
-   "why": [
-    "Sharp books give St. John's Red Storm a 52% chance to win (Louisville Cardinals 48%).",
-    "St. John's Red Storm: 6-0, 5-0 at home, 93.3 pts/game, top: Keyshawn Hall 18.5 PPG.",
-    "Louisville Cardinals: 4-1, 0-1 on the road, 84.8 pts/game, top: Seth Trimble 16.0 PPG."
-   ],
-   "injuries": [],
-   "n_sharp": 3,
-   "link": "https://sportsbook.draftkings.com/?outcomes=0ML87408395_3",
-   "prices": {
-    "DraftKings": 1.83,
-    "FanDuel": 1.83,
-    "theScore Bet": 1.8
-   },
-   "links": {
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87408395_3",
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628675761&selectionId=4360199",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=c4b17116-3ac9-41f9-ab68-503ef011ec51&odds_numerator[0]=2&odds_denominator[0]=1"
-   },
-   "open": [
-    "2026-11-26T18:29:37+00:00",
-    1.82,
-    0.53
-   ],
-   "hist": [
-    [
-     "2026-11-26T18:29:37+00:00",
-     1.82,
-     0.53
-    ],
-    [
-     "2026-11-27T00:31:20+00:00",
-     1.83,
-     0.5164
-    ]
-   ],
-   "lag": false
-  },
   {
    "sport": "COLLEGE BASKETBALL",
    "event": "Omaha Mavericks @ Pacific Tigers",

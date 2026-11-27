@@ -1,9 +1,9 @@
 {
  "version": 25,
- "updated": "2026-11-27T21:30:56+00:00",
+ "updated": "2026-11-27T21:33:25+00:00",
  "last_scan": "2026-11-27T21:00:44+00:00",
  "unit": 4.5,
- "bankroll": 223.31,
+ "bankroll": 222.69,
  "bank_start": 250.0,
  "unit_pct": 0.02,
  "picks": [
@@ -53,7 +53,7 @@
    "min_odds": 1.81,
    "start": "2026-11-27T19:00:00+00:00",
    "started": true,
-   "status": "open",
+   "status": "lost",
    "n_sharp": null,
    "link": null,
    "flag": null,
@@ -83,7 +83,7 @@
    "min_odds": 1.51,
    "start": "2026-11-27T19:00:00+00:00",
    "started": true,
-   "status": "open",
+   "status": "won",
    "n_sharp": null,
    "link": null,
    "flag": null,
@@ -375,12 +375,12 @@
    "clv_n": 0
   },
   "card": {
-   "won": 5,
-   "lost": 8,
+   "won": 6,
+   "lost": 9,
    "push": 0,
-   "open": 5,
-   "units": -0.84,
-   "dollars": -3.78,
+   "open": 3,
+   "units": -0.97,
+   "dollars": -4.34,
    "clv": 0.0244,
    "clv_n": 14
   },
@@ -396,6 +396,26 @@
   }
  },
  "recent": [
+  {
+   "tier": "card",
+   "pick": "South Alabama Jaguars",
+   "event": "Fresno St Bulldogs @ South Alabama Jaguars",
+   "sport": "COLLEGE BASKETBALL",
+   "odds": 1.8,
+   "units": 0.25,
+   "status": "lost",
+   "start": "2026-11-27T19:00:00+00:00"
+  },
+  {
+   "tier": "card",
+   "pick": "Fairfield Stags",
+   "event": "Navy Midshipmen @ Fairfield Stags",
+   "sport": "COLLEGE BASKETBALL",
+   "odds": 1.5,
+   "units": 0.25,
+   "status": "won",
+   "start": "2026-11-27T19:00:00+00:00"
+  },
   {
    "tier": "lean",
    "pick": "UMass Lowell River Hawks",
@@ -625,26 +645,6 @@
    "units": 0.25,
    "status": "lost",
    "start": "2026-11-24T17:30:00+00:00"
-  },
-  {
-   "tier": "lean",
-   "pick": "Ohio Bobcats",
-   "event": "New Mexico St Aggies @ Ohio Bobcats",
-   "sport": "COLLEGE BASKETBALL",
-   "odds": 1.52,
-   "units": 0.25,
-   "status": "won",
-   "start": "2026-11-24T16:00:00+00:00"
-  },
-  {
-   "tier": "card",
-   "pick": "St. Bonaventure Bonnies",
-   "event": "Wright St Raiders @ St. Bonaventure Bonnies",
-   "sport": "COLLEGE BASKETBALL",
-   "odds": 1.93,
-   "units": 0.25,
-   "status": "won",
-   "start": "2026-11-24T15:00:00+00:00"
   }
  ],
  "rules": {
@@ -655,9 +655,9 @@
    "on": true
   },
   "basketball": {
-   "n": 83,
-   "roi": -0.1133,
-   "clv": 0.0044,
+   "n": 85,
+   "roi": -0.1165,
+   "clv": 0.0034,
    "on": true
   },
   "tennis": {
@@ -1362,8 +1362,8 @@
    "odds": 1.8,
    "units": 0.25,
    "edge": -0.0011,
-   "status": "open",
-   "profit_u": 0.0,
+   "status": "lost",
+   "profit_u": -0.25,
    "clv": -0.0506,
    "start": "2026-11-27T19:00:00+00:00"
   },
@@ -1376,8 +1376,8 @@
    "odds": 1.5,
    "units": 0.25,
    "edge": -0.0023,
-   "status": "open",
-   "profit_u": 0.0,
+   "status": "won",
+   "profit_u": 0.125,
    "clv": -0.0098,
    "start": "2026-11-27T19:00:00+00:00"
   },

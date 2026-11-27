@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-27T19:37:48+00:00",
+ "updated": "2026-11-27T19:40:52+00:00",
  "last_scan": "2026-11-27T19:37:48+00:00",
  "unit": 4.5,
  "bankroll": 222.31,
@@ -3601,9 +3601,9 @@
     {
      "team": "Buffalo Sabres",
      "list": [
+      "Tyson Kozak (C, Injured Reserve)",
       "Noah Ostlund (C, Out)",
       "Zach Benson (LW, Out)",
-      "Tyson Kozak (C, day-to-day)",
       "Konsta Helenius (C, Injured Reserve)"
      ]
     },
@@ -4262,10 +4262,10 @@
     {
      "team": "Dallas Mavericks",
      "list": [
+      "Kyrie Irving (G, day-to-day)",
       "Tobi Lawal (F, Out)",
       "Sergio de Larrea (F, Out)",
-      "Dereck Lively II (C, Out)",
-      "Tarik Biberovic (F, Out)"
+      "Dereck Lively II (C, Out)"
      ]
     }
    ],
@@ -4510,12 +4510,6 @@
       "De'Aaron Fox (G, day-to-day)",
       "Tobias Harris (F, Out)",
       "Jayden Quaintance (F, Out)"
-     ]
-    },
-    {
-     "team": "Los Angeles Lakers",
-     "list": [
-      "Austin Reaves (G, Out)"
      ]
     }
    ],

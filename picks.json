@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-27T03:01:42+00:00",
+ "updated": "2026-11-27T03:30:14+00:00",
  "last_scan": "2026-11-27T00:31:20+00:00",
  "unit": 4.5,
  "bankroll": 222.31,
@@ -1282,55 +1282,6 @@
   }
  },
  "games": [
-  {
-   "sport": "COLLEGE BASKETBALL",
-   "event": "Omaha Mavericks @ Pacific Tigers",
-   "pick": "Pacific Tigers",
-   "opp": "Omaha Mavericks",
-   "start": "2026-11-27T03:30:00+00:00",
-   "book": "FanDuel",
-   "odds": 1.32,
-   "prob": 0.7639,
-   "edge": 0.0083,
-   "value": "fair",
-   "value_txt": "Fair price",
-   "units": 0.5,
-   "stake": 2.25,
-   "to_win": 0.72,
-   "tier": null,
-   "fair_odds": 1.31,
-   "why": [
-    "Sharp books give Pacific Tigers a 76% chance to win (Omaha Mavericks 22%).",
-    "Pacific Tigers: 5-2, 1-1 on the road, 78.9 pts/game, top: Adriel Nyorha 14.1 PPG.",
-    "Omaha Mavericks: 3-4, 3-1 at home, 70.4 pts/game, top: Deke Thompson 12.9 PPG."
-   ],
-   "injuries": [],
-   "n_sharp": 2,
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628714584&selectionId=756685",
-   "prices": {
-    "theScore Bet": 1.29,
-    "FanDuel": 1.32,
-    "DraftKings": 1.29
-   },
-   "links": {
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=f3f9d1e5-3b92-4590-a1b3-e122de5a2a40&odds_numerator[0]=2&odds_denominator[0]=1",
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628714584&selectionId=756685",
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87421778_3"
-   },
-   "open": [
-    "2026-11-26T18:29:37+00:00",
-    1.32,
-    0.7644
-   ],
-   "hist": [
-    [
-     "2026-11-26T18:29:37+00:00",
-     1.32,
-     0.7644
-    ]
-   ],
-   "lag": false
-  },
   {
    "sport": "COLLEGE BASKETBALL",
    "event": "Baylor Bears @ Gonzaga Bulldogs",

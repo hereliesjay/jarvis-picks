@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-27T20:00:06+00:00",
+ "updated": "2026-11-27T20:11:11+00:00",
  "last_scan": "2026-11-27T19:37:48+00:00",
  "unit": 4.5,
  "bankroll": 222.31,
@@ -3127,8 +3127,8 @@
     {
      "team": "Buffalo Sabres",
      "list": [
+      "Noah Ostlund (C, Injured Reserve)",
       "Tyson Kozak (C, Injured Reserve)",
-      "Noah Ostlund (C, Out)",
       "Zach Benson (LW, Out)",
       "Konsta Helenius (C, Injured Reserve)"
      ]

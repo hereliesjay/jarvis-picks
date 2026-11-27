@@ -1,249 +1,55 @@
 {
  "version": 25,
- "updated": "2026-11-27T05:32:23+00:00",
- "last_scan": "2026-11-27T00:31:20+00:00",
+ "updated": "2026-11-27T06:00:33+00:00",
+ "last_scan": "2026-11-27T06:00:33+00:00",
  "unit": 4.5,
  "bankroll": 222.31,
  "bank_start": 250.0,
  "unit_pct": 0.02,
  "picks": [
   {
-   "tier": "card",
-   "sport": "COLLEGE BASKETBALL",
-   "event": "Georgia Bulldogs @ Cincinnati Bearcats",
-   "pick": "Georgia Bulldogs",
-   "book": "theScore Bet",
-   "odds": 2.15,
-   "now_odds": null,
-   "prob": 0.4529,
-   "edge": -0.0263,
-   "units": 0.25,
-   "stake": 1.12,
-   "to_win": 1.29,
-   "min_odds": 2.21,
-   "start": "2026-11-26T16:00:00+00:00",
-   "started": true,
-   "status": "lost",
-   "n_sharp": null,
-   "link": null,
-   "flag": null,
-   "posted_at": "2026-11-26T09:01:09+00:00",
-   "prices": {},
-   "links": {},
-   "fair_odds": 2.21,
-   "now_edge": null,
-   "open": null,
-   "hist": [],
-   "injuries": [],
-   "lag": false
-  },
-  {
    "tier": "lean",
    "sport": "COLLEGE BASKETBALL",
-   "event": "Oklahoma Sooners @ Purdue Boilermakers",
-   "pick": "Purdue Boilermakers",
-   "book": "FanDuel",
-   "odds": 1.53,
-   "now_odds": null,
-   "prob": 0.6531,
-   "edge": -0.0007,
-   "units": 0.25,
-   "stake": 1.12,
-   "to_win": 0.6,
-   "min_odds": 1.54,
-   "start": "2026-11-26T17:00:00+00:00",
-   "started": true,
-   "status": "lost",
-   "n_sharp": null,
-   "link": null,
-   "flag": null,
-   "posted_at": "2026-11-26T06:00:43+00:00",
-   "prices": {},
-   "links": {},
-   "fair_odds": 1.53,
-   "now_edge": null,
-   "open": null,
-   "hist": [],
-   "injuries": [],
-   "lag": false
-  },
-  {
-   "tier": "lean",
-   "sport": "COLLEGE BASKETBALL",
-   "event": "Maryland Terrapins @ San Diego St Aztecs",
-   "pick": "Maryland Terrapins",
+   "event": "Hampton Pirates @ UMass Lowell River Hawks",
+   "pick": "UMass Lowell River Hawks",
    "book": "theScore Bet",
-   "odds": 1.53,
-   "now_odds": null,
-   "prob": 0.6575,
-   "edge": 0.0059,
+   "odds": 1.8,
+   "now_odds": 1.8,
+   "prob": 0.5558,
+   "edge": 0.0005,
    "units": 0.25,
    "stake": 1.12,
-   "to_win": 0.6,
-   "min_odds": 1.53,
-   "start": "2026-11-26T18:00:00+00:00",
-   "started": true,
-   "status": "lost",
-   "n_sharp": null,
-   "link": null,
+   "to_win": 0.9,
+   "min_odds": 1.8,
+   "start": "2026-11-27T18:00:00+00:00",
+   "started": false,
+   "status": "open",
+   "n_sharp": 1,
+   "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=cf770f62-1953-4b0a-90d4-3b964a183c61&odds_numerator[0]=2&odds_denominator[0]=1",
    "flag": null,
-   "posted_at": "2026-11-26T06:00:43+00:00",
-   "prices": {},
-   "links": {},
-   "fair_odds": 1.52,
-   "now_edge": null,
-   "open": null,
-   "hist": [],
-   "injuries": [],
-   "lag": false
-  },
-  {
-   "tier": "card",
-   "sport": "COLLEGE BASKETBALL",
-   "event": "Boston College Eagles @ UCF Knights",
-   "pick": "Boston College Eagles",
-   "book": "DraftKings",
-   "odds": 2.14,
-   "now_odds": null,
-   "prob": 0.4666,
-   "edge": -0.0015,
-   "units": 0.25,
-   "stake": 1.12,
-   "to_win": 1.28,
-   "min_odds": 2.15,
-   "start": "2026-11-26T18:30:00+00:00",
-   "started": true,
-   "status": "won",
-   "n_sharp": null,
-   "link": null,
-   "flag": null,
-   "posted_at": "2026-11-26T18:24:07+00:00",
-   "prices": {},
-   "links": {},
-   "fair_odds": 2.14,
-   "now_edge": null,
-   "open": null,
-   "hist": [],
-   "injuries": [],
-   "lag": false
-  },
-  {
-   "tier": "lean",
-   "sport": "COLLEGE BASKETBALL",
-   "event": "South Carolina Gamecocks @ Arizona St Sun Devils",
-   "pick": "Arizona St Sun Devils",
-   "book": "FanDuel",
-   "odds": 1.62,
-   "now_odds": null,
-   "prob": 0.6178,
-   "edge": 0.0008,
-   "units": 0.25,
-   "stake": 1.12,
-   "to_win": 0.7,
-   "min_odds": 1.62,
-   "start": "2026-11-26T19:00:00+00:00",
-   "started": true,
-   "status": "lost",
-   "n_sharp": null,
-   "link": null,
-   "flag": null,
-   "posted_at": "2026-11-26T09:01:09+00:00",
-   "prices": {},
-   "links": {},
-   "fair_odds": 1.62,
-   "now_edge": null,
-   "open": null,
-   "hist": [],
-   "injuries": [],
-   "lag": false
-  },
-  {
-   "tier": "card",
-   "sport": "COLLEGE BASKETBALL",
-   "event": "Miami Hurricanes @ Michigan Wolverines",
-   "pick": "Miami Hurricanes",
-   "book": "theScore Bet",
-   "odds": 1.74,
-   "now_odds": null,
-   "prob": 0.5673,
-   "edge": -0.0128,
-   "units": 0.25,
-   "stake": 1.12,
-   "to_win": 0.83,
-   "min_odds": 1.77,
-   "start": "2026-11-26T20:30:00+00:00",
-   "started": true,
-   "status": "won",
-   "n_sharp": null,
-   "link": null,
-   "flag": null,
-   "posted_at": "2026-11-26T18:24:07+00:00",
-   "prices": {},
-   "links": {},
-   "fair_odds": 1.76,
-   "now_edge": null,
-   "open": null,
-   "hist": [],
-   "injuries": [],
-   "lag": false
-  },
-  {
-   "tier": "card",
-   "sport": "COLLEGE BASKETBALL",
-   "event": "Tennessee Volunteers @ Iowa State Cyclones",
-   "pick": "Iowa State Cyclones",
-   "book": "FanDuel",
-   "odds": 1.7,
-   "now_odds": null,
-   "prob": 0.5799,
-   "edge": -0.0142,
-   "units": 0.25,
-   "stake": 1.12,
-   "to_win": 0.79,
-   "min_odds": 1.73,
-   "start": "2026-11-26T20:30:00+00:00",
-   "started": true,
-   "status": "lost",
-   "n_sharp": null,
-   "link": null,
-   "flag": null,
-   "posted_at": "2026-11-26T18:24:07+00:00",
-   "prices": {},
-   "links": {},
-   "fair_odds": 1.72,
-   "now_edge": null,
-   "open": null,
-   "hist": [],
-   "injuries": [],
-   "lag": false
-  },
-  {
-   "tier": "lean",
-   "sport": "COLLEGE BASKETBALL",
-   "event": "Arkansas Razorbacks @ Michigan St Spartans",
-   "pick": "Michigan St Spartans",
-   "book": "theScore Bet",
-   "odds": 1.47,
-   "now_odds": null,
-   "prob": 0.678,
-   "edge": -0.0033,
-   "units": 0.25,
-   "stake": 1.12,
-   "to_win": 0.53,
-   "min_odds": 1.48,
-   "start": "2026-11-26T21:30:00+00:00",
-   "started": true,
-   "status": "won",
-   "n_sharp": null,
-   "link": null,
-   "flag": null,
-   "posted_at": "2026-11-26T18:29:37+00:00",
-   "prices": {},
-   "links": {},
-   "fair_odds": 1.47,
-   "now_edge": null,
-   "open": null,
-   "hist": [],
+   "posted_at": "2026-11-27T06:00:33+00:00",
+   "prices": {
+    "FanDuel": 1.77,
+    "theScore Bet": 1.8
+   },
+   "links": {
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628970283&selectionId=8968501",
+    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=cf770f62-1953-4b0a-90d4-3b964a183c61&odds_numerator[0]=2&odds_denominator[0]=1"
+   },
+   "fair_odds": 1.8,
+   "now_edge": 0.0005,
+   "open": [
+    "2026-11-27T06:00:33+00:00",
+    1.8,
+    0.5558
+   ],
+   "hist": [
+    [
+     "2026-11-27T06:00:33+00:00",
+     1.8,
+     0.5558
+    ]
+   ],
    "injuries": [],
    "lag": false
   }
@@ -254,7 +60,7 @@
    "won": 11,
    "lost": 13,
    "push": 0,
-   "open": 3,
+   "open": 4,
    "units": -2.2,
    "dollars": -9.89,
    "clv": -0.0009,
@@ -575,7 +381,7 @@
    "on": true
   }
  },
- "watching": 15,
+ "watching": 21,
  "history": [
   {
    "type": "lean",
@@ -1234,6 +1040,20 @@
    "profit_u": 0.117,
    "clv": -0.0103,
    "start": "2026-11-26T21:30:00+00:00"
+  },
+  {
+   "type": "lean",
+   "sport": "COLLEGE BASKETBALL",
+   "pick": "UMass Lowell River Hawks",
+   "event": "Hampton Pirates @ UMass Lowell River Hawks",
+   "book": "theScore Bet",
+   "odds": 1.8,
+   "units": 0.25,
+   "edge": 0.0005,
+   "status": "open",
+   "profit_u": 0.0,
+   "clv": null,
+   "start": "2026-11-27T18:00:00+00:00"
   }
  ],
  "arbs": [],
@@ -1241,14 +1061,14 @@
   "sports": [
    {
     "sport": "COLLEGE BASKETBALL",
-    "scans": 9,
-    "prices": 257,
+    "scans": 10,
+    "prices": 263,
     "edges": 2
    },
    {
     "sport": "NHL",
-    "scans": 5,
-    "prices": 36,
+    "scans": 6,
+    "prices": 42,
     "edges": 0
    },
    {
@@ -1271,8 +1091,8 @@
    },
    {
     "sport": "COLLEGE FOOTBALL",
-    "scans": 2,
-    "prices": 4,
+    "scans": 3,
+    "prices": 13,
     "edges": 0
    }
   ],
@@ -1281,6 +1101,711 @@
    "FanDuel": 1
   }
  },
- "games": [],
- "big_parlays": []
+ "games": [
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "Virginia Cavaliers @ Xavier Musketeers",
+   "pick": "Virginia Cavaliers",
+   "opp": "Xavier Musketeers",
+   "start": "2026-11-27T16:00:00+00:00",
+   "book": "FanDuel",
+   "odds": 1.31,
+   "prob": 0.7576,
+   "edge": -0.0075,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.25,
+   "stake": 1.12,
+   "to_win": 0.35,
+   "tier": null,
+   "fair_odds": 1.32,
+   "why": [
+    "Sharp books give Virginia Cavaliers a 76% chance to win (Xavier Musketeers 22%).",
+    "Virginia Cavaliers: 8-0, 1-0 on the road, 88.4 pts/game, top: Thijs De Ridder 17.4 PPG.",
+    "Xavier Musketeers: 6-1, 4-1 at home, 83.1 pts/game, top: Mike Nwoko 14.3 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 3,
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628955866&selectionId=332651",
+   "prices": {
+    "FanDuel": 1.31,
+    "DraftKings": 1.29,
+    "theScore Bet": 1.31
+   },
+   "links": {
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628955866&selectionId=332651",
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87436790_3",
+    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=75e294f6-80b0-454f-bdbe-ce97ee5c3772&odds_numerator[0]=2&odds_denominator[0]=1"
+   },
+   "open": [
+    "2026-11-27T06:00:33+00:00",
+    1.31,
+    0.7576
+   ],
+   "hist": [
+    [
+     "2026-11-27T06:00:33+00:00",
+     1.31,
+     0.7576
+    ]
+   ],
+   "lag": false
+  },
+  {
+   "sport": "COLLEGE FOOTBALL",
+   "event": "Buffalo Bulls @ Akron Zips",
+   "pick": "Buffalo Bulls",
+   "opp": "Akron Zips",
+   "start": "2026-11-27T17:00:00+00:00",
+   "book": "FanDuel",
+   "odds": 1.35,
+   "prob": 0.7335,
+   "edge": -0.0098,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.25,
+   "stake": 1.12,
+   "to_win": 0.39,
+   "tier": null,
+   "fair_odds": 1.36,
+   "why": [
+    "Sharp books give Buffalo Bulls a 73% chance to win (Akron Zips 25%).",
+    "Buffalo Bulls: 8-3, 3-2 on the road.",
+    "Akron Zips: 2-9, 1-4 at home."
+   ],
+   "injuries": [],
+   "n_sharp": 2,
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626043470&selectionId=36143265",
+   "prices": {
+    "FanDuel": 1.35,
+    "DraftKings": 1.33,
+    "theScore Bet": 1.34
+   },
+   "links": {
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626043470&selectionId=36143265",
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87304015_3",
+    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=aa883bbe-36d1-4bcd-b15e-acccbfa539fb&odds_numerator[0]=2&odds_denominator[0]=1"
+   },
+   "open": [
+    "2026-11-27T06:00:33+00:00",
+    1.35,
+    0.7335
+   ],
+   "hist": [
+    [
+     "2026-11-27T06:00:33+00:00",
+     1.35,
+     0.7335
+    ]
+   ],
+   "lag": false
+  },
+  {
+   "sport": "COLLEGE FOOTBALL",
+   "event": "Nebraska Cornhuskers @ Iowa Hawkeyes",
+   "pick": "Iowa Hawkeyes",
+   "opp": "Nebraska Cornhuskers",
+   "start": "2026-11-27T17:00:00+00:00",
+   "book": "FanDuel",
+   "odds": 1.56,
+   "prob": 0.632,
+   "edge": -0.0141,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.25,
+   "stake": 1.12,
+   "to_win": 0.63,
+   "tier": null,
+   "fair_odds": 1.58,
+   "why": [
+    "Sharp books give Iowa Hawkeyes a 63% chance to win (Nebraska Cornhuskers 37%).",
+    "Iowa Hawkeyes: 9-2, 5-1 at home.",
+    "Nebraska Cornhuskers: 7-4, 2-2 on the road."
+   ],
+   "injuries": [],
+   "n_sharp": 3,
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626041800&selectionId=673399",
+   "prices": {
+    "FanDuel": 1.56,
+    "DraftKings": 1.51,
+    "theScore Bet": 1.53
+   },
+   "links": {
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626041800&selectionId=673399",
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87304017_1",
+    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=7b3f2e7c-e7a8-4757-ad4b-d036fcc7b6c6&odds_numerator[0]=2&odds_denominator[0]=1"
+   },
+   "open": [
+    "2026-11-27T06:00:33+00:00",
+    1.56,
+    0.632
+   ],
+   "hist": [
+    [
+     "2026-11-27T06:00:33+00:00",
+     1.56,
+     0.632
+    ]
+   ],
+   "lag": false
+  },
+  {
+   "sport": "COLLEGE FOOTBALL",
+   "event": "Mississippi State Bulldogs @ Ole Miss Rebels",
+   "pick": "Ole Miss Rebels",
+   "opp": "Mississippi State Bulldogs",
+   "start": "2026-11-27T17:00:00+00:00",
+   "book": "DraftKings",
+   "odds": 1.11,
+   "prob": 0.8905,
+   "edge": -0.0116,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.25,
+   "stake": 1.12,
+   "to_win": 0.12,
+   "tier": null,
+   "fair_odds": 1.12,
+   "why": [
+    "Sharp books give Ole Miss Rebels a 89% chance to win.",
+    "Ole Miss Rebels: 7-4, 5-1 at home.",
+    "Mississippi State Bulldogs: 5-6, 2-2 on the road."
+   ],
+   "injuries": [],
+   "n_sharp": 2,
+   "link": "https://sportsbook.draftkings.com/?outcomes=0ML84998525_1",
+   "prices": {
+    "DraftKings": 1.11,
+    "FanDuel": 1.1,
+    "theScore Bet": 1.1
+   },
+   "links": {
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML84998525_1",
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626041966&selectionId=4385068",
+    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=d970776b-8232-4a90-a90b-56eb8de41c6f&odds_numerator[0]=2&odds_denominator[0]=1"
+   },
+   "open": [
+    "2026-11-27T06:00:33+00:00",
+    1.11,
+    0.8905
+   ],
+   "hist": [
+    [
+     "2026-11-27T06:00:33+00:00",
+     1.11,
+     0.8905
+    ]
+   ],
+   "lag": false
+  },
+  {
+   "sport": "COLLEGE FOOTBALL",
+   "event": "Toledo Rockets @ Ohio Bobcats",
+   "pick": "Toledo Rockets",
+   "opp": "Ohio Bobcats",
+   "start": "2026-11-27T17:00:00+00:00",
+   "book": "DraftKings",
+   "odds": 1.65,
+   "prob": 0.5911,
+   "edge": -0.0247,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.25,
+   "stake": 1.12,
+   "to_win": 0.73,
+   "tier": null,
+   "fair_odds": 1.69,
+   "why": [
+    "Sharp books give Toledo Rockets a 59% chance to win (Ohio Bobcats 41%).",
+    "Toledo Rockets: 9-2, 3-1 on the road.",
+    "Ohio Bobcats: 8-3, 5-0 at home."
+   ],
+   "injuries": [],
+   "n_sharp": 2,
+   "link": "https://sportsbook.draftkings.com/?outcomes=0ML87304016_3",
+   "prices": {
+    "FanDuel": 1.62,
+    "theScore Bet": 1.59,
+    "DraftKings": 1.65
+   },
+   "links": {
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626043836&selectionId=532781",
+    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=ca531e55-c98b-497c-933e-eb8fa133c639&odds_numerator[0]=2&odds_denominator[0]=1",
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87304016_3"
+   },
+   "open": [
+    "2026-11-27T06:00:33+00:00",
+    1.65,
+    0.5911
+   ],
+   "hist": [
+    [
+     "2026-11-27T06:00:33+00:00",
+     1.65,
+     0.5911
+    ]
+   ],
+   "lag": false
+  },
+  {
+   "sport": "COLLEGE FOOTBALL",
+   "event": "Tulsa Golden Hurricane @ UTSA Roadrunners",
+   "pick": "Tulsa Golden Hurricane",
+   "opp": "UTSA Roadrunners",
+   "start": "2026-11-27T17:00:00+00:00",
+   "book": "FanDuel",
+   "odds": 1.91,
+   "prob": 0.5202,
+   "edge": -0.0064,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.0,
+   "stake": 0.0,
+   "to_win": 0.0,
+   "tier": null,
+   "fair_odds": 1.92,
+   "why": [
+    "Sharp books give Tulsa Golden Hurricane a 52% chance to win (UTSA Roadrunners 48%).",
+    "Tulsa Golden Hurricane: 7-4, 3-2 on the road.",
+    "UTSA Roadrunners: 9-2, 5-0 at home."
+   ],
+   "injuries": [],
+   "n_sharp": 3,
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626041436&selectionId=612810",
+   "prices": {
+    "FanDuel": 1.91,
+    "theScore Bet": 1.87,
+    "DraftKings": 1.82
+   },
+   "links": {
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626041436&selectionId=612810",
+    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=4a61b4e0-828d-44bf-8b14-c57531ee85c1&odds_numerator[0]=2&odds_denominator[0]=1",
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87304019_3"
+   },
+   "open": [
+    "2026-11-27T06:00:33+00:00",
+    1.91,
+    0.5202
+   ],
+   "hist": [
+    [
+     "2026-11-27T06:00:33+00:00",
+     1.91,
+     0.5202
+    ]
+   ],
+   "lag": false
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "Hampton Pirates @ UMass Lowell River Hawks",
+   "pick": "UMass Lowell River Hawks",
+   "opp": "Hampton Pirates",
+   "start": "2026-11-27T18:00:00+00:00",
+   "book": "theScore Bet",
+   "odds": 1.8,
+   "prob": 0.5558,
+   "edge": 0.0005,
+   "value": "fair",
+   "value_txt": "Fair price",
+   "units": 0.5,
+   "stake": 2.25,
+   "to_win": 1.8,
+   "tier": "lean",
+   "fair_odds": 1.8,
+   "why": [
+    "Sharp books give UMass Lowell River Hawks a 56% chance to win (Hampton Pirates 44%).",
+    "UMass Lowell River Hawks: 4-2, 1-2 on the road, 75.2 pts/game, top: Victor Okojie 13.2 PPG.",
+    "Hampton Pirates: 1-4, 0-4 on the road, 59.6 pts/game, top: Seth Hubbard 16.2 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 1,
+   "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=cf770f62-1953-4b0a-90d4-3b964a183c61&odds_numerator[0]=2&odds_denominator[0]=1",
+   "prices": {
+    "FanDuel": 1.77,
+    "theScore Bet": 1.8
+   },
+   "links": {
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628970283&selectionId=8968501",
+    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=cf770f62-1953-4b0a-90d4-3b964a183c61&odds_numerator[0]=2&odds_denominator[0]=1"
+   },
+   "open": [
+    "2026-11-27T06:00:33+00:00",
+    1.8,
+    0.5558
+   ],
+   "hist": [
+    [
+     "2026-11-27T06:00:33+00:00",
+     1.8,
+     0.5558
+    ]
+   ],
+   "lag": false
+  },
+  {
+   "sport": "COLLEGE BASKETBALL",
+   "event": "Vermont Catamounts @ Merrimack Warriors",
+   "pick": "Vermont Catamounts",
+   "opp": "Merrimack Warriors",
+   "start": "2026-11-27T18:00:00+00:00",
+   "book": "FanDuel",
+   "odds": 1.67,
+   "prob": 0.5833,
+   "edge": -0.0258,
+   "value": "over",
+   "value_txt": "Overpriced: the book is charging a lot here",
+   "units": 0.0,
+   "stake": 0.0,
+   "to_win": 0.0,
+   "tier": null,
+   "fair_odds": 1.71,
+   "why": [
+    "Sharp books give Vermont Catamounts a 58% chance to win (Merrimack Warriors 42%).",
+    "Vermont Catamounts: 3-4, 1-3 on the road, 80.0 pts/game, top: Will Davies 17.6 PPG.",
+    "Merrimack Warriors: 1-4, 1-1 on the road, 59.4 pts/game, top: AJ Lesburt Jr. 14.6 PPG."
+   ],
+   "injuries": [],
+   "n_sharp": 1,
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628970635&selectionId=723288",
+   "prices": {
+    "FanDuel": 1.67,
+    "theScore Bet": 1.67
+   },
+   "links": {
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628970635&selectionId=723288",
+    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=66abe42c-6d04-4220-95cb-cf5388b46f77&odds_numerator[0]=2&odds_denominator[0]=1"
+   },
+   "open": [
+    "2026-11-27T06:00:33+00:00",
+    1.67,
+    0.5833
+   ],
+   "hist": [
+    [
+     "2026-11-27T06:00:33+00:00",
+     1.67,
+     0.5833
+    ]
+   ],
+   "lag": false
+  },
+  {
+   "sport": "NHL",
+   "event": "Toronto Maple Leafs @ Boston Bruins",
+   "pick": "Boston Bruins",
+   "opp": "Toronto Maple Leafs",
+   "start": "2026-11-27T18:00:00+00:00",
+   "book": "theScore Bet",
+   "odds": 1.67,
+   "prob": 0.5919,
+   "edge": -0.0115,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.25,
+   "stake": 1.12,
+   "to_win": 0.75,
+   "tier": null,
+   "fair_odds": 1.69,
+   "why": [
+    "Sharp books give Boston Bruins a 59% chance to win (Toronto Maple Leafs 41%).",
+    "Boston Bruins: 15-8-1, 9-5-0 at home, top: David Pastrnak 11 Goals.",
+    "Toronto Maple Leafs: 9-14-3, 5-4-1 on the road, top: Auston Matthews 14 Goals."
+   ],
+   "injuries": [
+    {
+     "team": "Boston Bruins",
+     "list": [
+      "James Hagens (C, Injured Reserve)"
+     ]
+    },
+    {
+     "team": "Toronto Maple Leafs",
+     "list": [
+      "Jack Roslovic (C, Out)",
+      "Kirill Marchenko (RW, Injured Reserve)",
+      "Colton Sissons (C, Injured Reserve)",
+      "Cole McWard (D, Injured Reserve)"
+     ]
+    }
+   ],
+   "n_sharp": 4,
+   "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=4dc576c3-6b95-45fd-845d-7c3ac15b9466&odds_numerator[0]=2&odds_denominator[0]=1",
+   "prices": {
+    "theScore Bet": 1.67,
+    "FanDuel": 1.64,
+    "DraftKings": 1.65
+   },
+   "links": {
+    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=4dc576c3-6b95-45fd-845d-7c3ac15b9466&odds_numerator[0]=2&odds_denominator[0]=1",
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627270079&selectionId=25596",
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87435419_1"
+   },
+   "open": [
+    "2026-11-27T06:00:33+00:00",
+    1.67,
+    0.5919
+   ],
+   "hist": [
+    [
+     "2026-11-27T06:00:33+00:00",
+     1.67,
+     0.5919
+    ]
+   ],
+   "lag": false
+  },
+  {
+   "sport": "NHL",
+   "event": "Calgary Flames @ New Jersey Devils",
+   "pick": "New Jersey Devils",
+   "opp": "Calgary Flames",
+   "start": "2026-11-27T18:00:00+00:00",
+   "book": "theScore Bet",
+   "odds": 1.37,
+   "prob": 0.7204,
+   "edge": -0.0131,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.25,
+   "stake": 1.12,
+   "to_win": 0.42,
+   "tier": null,
+   "fair_odds": 1.39,
+   "why": [
+    "Sharp books give New Jersey Devils a 72% chance to win (Calgary Flames 27%).",
+    "New Jersey Devils: 17-8-0, 10-3-0 at home, top: Jack Hughes 10 Goals.",
+    "Calgary Flames: 11-13-2, 5-7-1 on the road, top: Joel Farabee 8 Goals."
+   ],
+   "injuries": [
+    {
+     "team": "New Jersey Devils",
+     "list": [
+      "Anthony Mantha (RW, Injured Reserve)",
+      "Johnathan Kovacevic (D, Injured Reserve)",
+      "Seamus Casey (D, Injured Reserve)"
+     ]
+    },
+    {
+     "team": "Calgary Flames",
+     "list": [
+      "Morgan Frost (C, day-to-day)",
+      "Martin Pospisil (C, Out)",
+      "Jonathan Huberdeau (LW, Injured Reserve)",
+      "Kevin Bahl (D, Injured Reserve)"
+     ]
+    }
+   ],
+   "n_sharp": 4,
+   "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=638ab361-22c9-49d6-ae0c-db8b4cd476cd&odds_numerator[0]=2&odds_denominator[0]=1",
+   "prices": {
+    "theScore Bet": 1.37,
+    "FanDuel": 1.36,
+    "DraftKings": 1.35
+   },
+   "links": {
+    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=638ab361-22c9-49d6-ae0c-db8b4cd476cd&odds_numerator[0]=2&odds_denominator[0]=1",
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627270063&selectionId=25586",
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87435417_1"
+   },
+   "open": [
+    "2026-11-27T06:00:33+00:00",
+    1.37,
+    0.7204
+   ],
+   "hist": [
+    [
+     "2026-11-27T06:00:33+00:00",
+     1.37,
+     0.7204
+    ]
+   ],
+   "lag": false
+  },
+  {
+   "sport": "NHL",
+   "event": "Utah Mammoth @ Nashville Predators",
+   "pick": "Utah Mammoth",
+   "opp": "Nashville Predators",
+   "start": "2026-11-27T18:00:00+00:00",
+   "book": "DraftKings",
+   "odds": 1.85,
+   "prob": 0.5154,
+   "edge": -0.0464,
+   "value": "over",
+   "value_txt": "Overpriced: the book is charging a lot here",
+   "units": 0.0,
+   "stake": 0.0,
+   "to_win": 0.0,
+   "tier": null,
+   "fair_odds": 1.94,
+   "why": [
+    "Sharp books give Utah Mammoth a 52% chance to win (Nashville Predators 48%).",
+    "Utah Mammoth: 13-10-3, 7-7-1 on the road, top: Logan Cooley 13 Goals.",
+    "Nashville Predators: 13-6-5, 6-3-3 on the road, top: Steven Stamkos 12 Goals."
+   ],
+   "injuries": [
+    {
+     "team": "Utah Mammoth",
+     "list": [
+      "Michael Carcone (LW, Injured Reserve)",
+      "John Marino (D, Injured Reserve)",
+      "Nick Schmaltz (C, Injured Reserve)",
+      "Nate Schmidt (D, Injured Reserve)"
+     ]
+    }
+   ],
+   "n_sharp": 4,
+   "link": "https://sportsbook.draftkings.com/?outcomes=0ML87435415_3",
+   "prices": {
+    "theScore Bet": 1.83,
+    "FanDuel": 1.83,
+    "DraftKings": 1.85
+   },
+   "links": {
+    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=0dfeaf76-f540-4c96-888f-892d77439c0a&odds_numerator[0]=2&odds_denominator[0]=1",
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627270084&selectionId=83920082",
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87435415_3"
+   },
+   "open": [
+    "2026-11-27T06:00:33+00:00",
+    1.85,
+    0.5154
+   ],
+   "hist": [
+    [
+     "2026-11-27T06:00:33+00:00",
+     1.85,
+     0.5154
+    ]
+   ],
+   "lag": false
+  }
+ ],
+ "big_parlays": [
+  {
+   "label": "Safest 4x+",
+   "book": "theScore Bet",
+   "odds": 4.03,
+   "prob": 0.2413,
+   "ev": -0.028,
+   "units": 0.5,
+   "stake": 2.25,
+   "to_win": 6.81,
+   "legs": [
+    {
+     "pick": "Buffalo Bulls",
+     "event": "Buffalo Bulls @ Akron Zips",
+     "sport": "COLLEGE FOOTBALL",
+     "odds": 1.34,
+     "prob": 0.733,
+     "start": "2026-11-27T17:00:00+00:00",
+     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=aa883bbe-36d1-4bcd-b15e-acccbfa539fb&odds_numerator[0]=2&odds_denominator[0]=1",
+     "sid": [
+      "91f87570-3feb-4d68-8b1c-6b3eb35d632c",
+      "aa883bbe-36d1-4bcd-b15e-acccbfa539fb",
+      "36054c4f-070c-4474-988b-8259ee899357"
+     ]
+    },
+    {
+     "pick": "Boston Bruins",
+     "event": "Toronto Maple Leafs @ Boston Bruins",
+     "sport": "NHL",
+     "odds": 1.67,
+     "prob": 0.592,
+     "start": "2026-11-27T18:00:00+00:00",
+     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=4dc576c3-6b95-45fd-845d-7c3ac15b9466&odds_numerator[0]=2&odds_denominator[0]=1",
+     "sid": [
+      "ab974bfb-0436-4699-9e01-9421e251dfcd",
+      "4dc576c3-6b95-45fd-845d-7c3ac15b9466",
+      "793dc691-363d-42b4-b821-5231a2352804"
+     ]
+    },
+    {
+     "pick": "UMass Lowell River Hawks",
+     "event": "Hampton Pirates @ UMass Lowell River Hawks",
+     "sport": "COLLEGE BASKETBALL",
+     "odds": 1.8,
+     "prob": 0.556,
+     "start": "2026-11-27T18:00:00+00:00",
+     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=cf770f62-1953-4b0a-90d4-3b964a183c61&odds_numerator[0]=2&odds_denominator[0]=1",
+     "sid": [
+      "9c053695-1111-4175-a543-43246dd93ecd",
+      "cf770f62-1953-4b0a-90d4-3b964a183c61",
+      "e3ae4566-52fc-49f8-80c8-1cd75ae1a1be"
+     ]
+    }
+   ],
+   "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=aa883bbe-36d1-4bcd-b15e-acccbfa539fb&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=4dc576c3-6b95-45fd-845d-7c3ac15b9466&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=cf770f62-1953-4b0a-90d4-3b964a183c61&odds_numerator[2]=2&odds_denominator[2]=1",
+   "alts": [
+    {
+     "book": "FanDuel",
+     "odds": 3.92,
+     "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.626043470&selectionId[0]=36143265&marketId[1]=42.627270079&selectionId[1]=25596&marketId[2]=42.628970283&selectionId[2]=8968501"
+    }
+   ]
+  },
+  {
+   "label": "Next safest 4x+",
+   "book": "theScore Bet",
+   "odds": 4.06,
+   "prob": 0.2179,
+   "ev": -0.1147,
+   "units": 0.5,
+   "stake": 2.25,
+   "to_win": 6.89,
+   "legs": [
+    {
+     "pick": "Iowa Hawkeyes",
+     "event": "Nebraska Cornhuskers @ Iowa Hawkeyes",
+     "sport": "COLLEGE FOOTBALL",
+     "odds": 1.53,
+     "prob": 0.632,
+     "start": "2026-11-27T17:00:00+00:00",
+     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=7b3f2e7c-e7a8-4757-ad4b-d036fcc7b6c6&odds_numerator[0]=2&odds_denominator[0]=1",
+     "sid": [
+      "06165d58-7b3c-48fe-a255-12429c6cc2c8",
+      "7b3f2e7c-e7a8-4757-ad4b-d036fcc7b6c6",
+      "d4c391e5-e986-46c7-900a-2516d7be5ef8"
+     ]
+    },
+    {
+     "pick": "Toledo Rockets",
+     "event": "Toledo Rockets @ Ohio Bobcats",
+     "sport": "COLLEGE FOOTBALL",
+     "odds": 1.59,
+     "prob": 0.591,
+     "start": "2026-11-27T17:00:00+00:00",
+     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=ca531e55-c98b-497c-933e-eb8fa133c639&odds_numerator[0]=2&odds_denominator[0]=1",
+     "sid": [
+      "f9cee31e-001d-4ddc-9416-08b40d4aa99a",
+      "ca531e55-c98b-497c-933e-eb8fa133c639",
+      "087e7310-35a4-4835-a4b5-c3fad3b8fcb0"
+     ]
+    },
+    {
+     "pick": "Vermont Catamounts",
+     "event": "Vermont Catamounts @ Merrimack Warriors",
+     "sport": "COLLEGE BASKETBALL",
+     "odds": 1.67,
+     "prob": 0.583,
+     "start": "2026-11-27T18:00:00+00:00",
+     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=66abe42c-6d04-4220-95cb-cf5388b46f77&odds_numerator[0]=2&odds_denominator[0]=1",
+     "sid": [
+      "99c5ebc1-0a33-4644-a637-f5620240b560",
+      "66abe42c-6d04-4220-95cb-cf5388b46f77",
+      "e5b7dc26-8e64-4f6d-b640-37c3e9dfb3e6"
+     ]
+    }
+   ],
+   "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=7b3f2e7c-e7a8-4757-ad4b-d036fcc7b6c6&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=ca531e55-c98b-497c-933e-eb8fa133c639&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=66abe42c-6d04-4220-95cb-cf5388b46f77&odds_numerator[2]=2&odds_denominator[2]=1",
+   "alts": [
+    {
+     "book": "FanDuel",
+     "odds": 4.22,
+     "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.626041800&selectionId[0]=673399&marketId[1]=42.626043836&selectionId[1]=532781&marketId[2]=42.628970635&selectionId[2]=723288"
+    }
+   ]
+  }
+ ]
 }

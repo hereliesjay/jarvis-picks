@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-27T04:00:22+00:00",
+ "updated": "2026-11-27T04:31:44+00:00",
  "last_scan": "2026-11-27T00:31:20+00:00",
  "unit": 4.5,
  "bankroll": 222.31,
@@ -1281,120 +1281,6 @@
    "FanDuel": 1
   }
  },
- "games": [
-  {
-   "sport": "COLLEGE BASKETBALL",
-   "event": "Baylor Bears @ Gonzaga Bulldogs",
-   "pick": "Gonzaga Bulldogs",
-   "opp": "Baylor Bears",
-   "start": "2026-11-27T04:30:00+00:00",
-   "book": "FanDuel",
-   "odds": 1.62,
-   "prob": 0.594,
-   "edge": -0.0377,
-   "value": "over",
-   "value_txt": "Overpriced: the book is charging a lot here",
-   "units": 0.0,
-   "stake": 0.0,
-   "to_win": 0.0,
-   "tier": null,
-   "fair_odds": 1.68,
-   "why": [
-    "Sharp books give Gonzaga Bulldogs a 59% chance to win (Baylor Bears 41%).",
-    "Gonzaga Bulldogs: 4-1, 2-1 at home, 88.4 pts/game, top: Davis Fogle 16.8 PPG.",
-    "Baylor Bears: 5-1, 0-0 on the road, 88.3 pts/game, top: Kayden Mingo 15.7 PPG."
-   ],
-   "injuries": [],
-   "n_sharp": 3,
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628674368&selectionId=29840",
-   "prices": {
-    "DraftKings": 1.6,
-    "FanDuel": 1.62,
-    "theScore Bet": 1.59
-   },
-   "links": {
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87409831_1",
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628674368&selectionId=29840",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=e33a494a-bbe4-4c41-aacd-dd458a7823b8&odds_numerator[0]=2&odds_denominator[0]=1"
-   },
-   "open": [
-    "2026-11-26T18:29:37+00:00",
-    1.59,
-    0.6059
-   ],
-   "hist": [
-    [
-     "2026-11-26T18:29:37+00:00",
-     1.59,
-     0.6059
-    ],
-    [
-     "2026-11-27T00:31:20+00:00",
-     1.62,
-     0.594
-    ]
-   ],
-   "lag": false
-  },
-  {
-   "sport": "COLLEGE BASKETBALL",
-   "event": "Texas Tech Red Raiders @ Oregon Ducks",
-   "pick": "Texas Tech Red Raiders",
-   "opp": "Oregon Ducks",
-   "start": "2026-11-27T04:30:00+00:00",
-   "book": "DraftKings",
-   "odds": 1.18,
-   "prob": 0.8373,
-   "edge": -0.012,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.12,
-   "to_win": 0.2,
-   "tier": null,
-   "fair_odds": 1.19,
-   "why": [
-    "Sharp books give Texas Tech Red Raiders a 84% chance to win (Oregon Ducks 14%).",
-    "Texas Tech Red Raiders: 5-1, 0-0 on the road, 79.0 pts/game, top: Cruz Davis 15.5 PPG.",
-    "Oregon Ducks: 3-2, 3-0 at home, 87.0 pts/game, top: Fred Payne 12.4 PPG."
-   ],
-   "injuries": [],
-   "n_sharp": 3,
-   "link": "https://sportsbook.draftkings.com/?outcomes=0ML87408444_3",
-   "prices": {
-    "DraftKings": 1.18,
-    "FanDuel": 1.17,
-    "theScore Bet": 1.15
-   },
-   "links": {
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87408444_3",
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628674756&selectionId=284244",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=f5f6c214-7acb-4e6f-b7b0-3a7e89c1aecd&odds_numerator[0]=2&odds_denominator[0]=1"
-   },
-   "open": [
-    "2026-11-26T18:29:37+00:00",
-    1.19,
-    0.8316
-   ],
-   "hist": [
-    [
-     "2026-11-26T18:29:37+00:00",
-     1.19,
-     0.8316
-    ],
-    [
-     "2026-11-26T21:30:22+00:00",
-     1.19,
-     0.8373
-    ],
-    [
-     "2026-11-27T00:31:20+00:00",
-     1.18,
-     0.8373
-    ]
-   ],
-   "lag": false
-  }
- ],
+ "games": [],
  "big_parlays": []
 }

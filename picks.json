@@ -1,9 +1,9 @@
 {
  "version": 25,
- "updated": "2026-11-27T20:30:19+00:00",
+ "updated": "2026-11-27T20:32:45+00:00",
  "last_scan": "2026-11-27T19:37:48+00:00",
  "unit": 4.5,
- "bankroll": 222.31,
+ "bankroll": 223.31,
  "bank_start": 250.0,
  "unit_pct": 0.02,
  "picks": [
@@ -23,7 +23,7 @@
    "min_odds": 1.8,
    "start": "2026-11-27T18:00:00+00:00",
    "started": true,
-   "status": "open",
+   "status": "won",
    "n_sharp": null,
    "link": null,
    "flag": null,
@@ -373,12 +373,12 @@
  ],
  "record": {
   "lean": {
-   "won": 11,
+   "won": 12,
    "lost": 13,
    "push": 0,
-   "open": 9,
-   "units": -2.2,
-   "dollars": -9.89,
+   "open": 8,
+   "units": -2.0,
+   "dollars": -8.99,
    "clv": 0.0004,
    "clv_n": 18
   },
@@ -414,6 +414,16 @@
   }
  },
  "recent": [
+  {
+   "tier": "lean",
+   "pick": "UMass Lowell River Hawks",
+   "event": "Hampton Pirates @ UMass Lowell River Hawks",
+   "sport": "COLLEGE BASKETBALL",
+   "odds": 1.8,
+   "units": 0.25,
+   "status": "won",
+   "start": "2026-11-27T18:00:00+00:00"
+  },
   {
    "tier": "lean",
    "pick": "Michigan St Spartans",
@@ -653,16 +663,6 @@
    "units": 0.25,
    "status": "won",
    "start": "2026-11-24T15:00:00+00:00"
-  },
-  {
-   "tier": "lean",
-   "pick": "East Carolina Pirates",
-   "event": "Indiana St Sycamores @ East Carolina Pirates",
-   "sport": "COLLEGE BASKETBALL",
-   "odds": 1.73,
-   "units": 0.25,
-   "status": "lost",
-   "start": "2026-11-23T17:30:00+00:00"
   }
  ],
  "rules": {
@@ -673,8 +673,8 @@
    "on": true
   },
   "basketball": {
-   "n": 82,
-   "roi": -0.1244,
+   "n": 83,
+   "roi": -0.1133,
    "clv": 0.0044,
    "on": true
   },
@@ -1366,8 +1366,8 @@
    "odds": 1.8,
    "units": 0.25,
    "edge": 0.0005,
-   "status": "open",
-   "profit_u": 0.0,
+   "status": "won",
+   "profit_u": 0.2,
    "clv": null,
    "start": "2026-11-27T18:00:00+00:00"
   },

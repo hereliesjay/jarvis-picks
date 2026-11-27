@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-27T00:34:24+00:00",
+ "updated": "2026-11-27T01:00:30+00:00",
  "last_scan": "2026-11-27T00:31:20+00:00",
  "unit": 4.5,
  "bankroll": 222.31,
@@ -1283,113 +1283,6 @@
  },
  "games": [
   {
-   "sport": "COLLEGE BASKETBALL",
-   "event": "Jacksonville St Gamecocks @ UC Davis Aggies",
-   "pick": "Jacksonville St Gamecocks",
-   "opp": "UC Davis Aggies",
-   "start": "2026-11-27T01:00:00+00:00",
-   "book": "theScore Bet",
-   "odds": 1.69,
-   "prob": 0.5834,
-   "edge": -0.0141,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.12,
-   "to_win": 0.78,
-   "tier": null,
-   "fair_odds": 1.71,
-   "why": [
-    "Sharp books give Jacksonville St Gamecocks a 58% chance to win (UC Davis Aggies 42%).",
-    "UC Davis Aggies: 4-2, 2-2 at home, 74.0 pts/game, top: Jalen Stokes 12.8 PPG."
-   ],
-   "injuries": [],
-   "n_sharp": 2,
-   "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=b848740f-0578-4499-ab8b-6db0eac07d7b&odds_numerator[0]=2&odds_denominator[0]=1",
-   "prices": {
-    "theScore Bet": 1.69,
-    "DraftKings": 1.65,
-    "FanDuel": 1.66
-   },
-   "links": {
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=b848740f-0578-4499-ab8b-6db0eac07d7b&odds_numerator[0]=2&odds_denominator[0]=1",
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87421771_3",
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628713908&selectionId=727606"
-   },
-   "open": [
-    "2026-11-26T18:29:37+00:00",
-    1.62,
-    0.5969
-   ],
-   "hist": [
-    [
-     "2026-11-26T18:29:37+00:00",
-     1.62,
-     0.5969
-    ],
-    [
-     "2026-11-26T21:30:22+00:00",
-     1.67,
-     0.5812
-    ],
-    [
-     "2026-11-27T00:31:20+00:00",
-     1.69,
-     0.5834
-    ]
-   ],
-   "lag": false
-  },
-  {
-   "sport": "COLLEGE FOOTBALL",
-   "event": "TCU Horned Frogs @ Texas Tech Red Raiders",
-   "pick": "Texas Tech Red Raiders",
-   "opp": "TCU Horned Frogs",
-   "start": "2026-11-27T01:00:00+00:00",
-   "book": "DraftKings",
-   "odds": 1.16,
-   "prob": 0.8471,
-   "edge": -0.0174,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.12,
-   "to_win": 0.18,
-   "tier": null,
-   "fair_odds": 1.18,
-   "why": [
-    "Sharp books give Texas Tech Red Raiders a 85% chance to win (TCU Horned Frogs 13%).",
-    "Texas Tech Red Raiders: 10-1, 6-0 at home.",
-    "TCU Horned Frogs: 5-6, 1-2 on the road."
-   ],
-   "injuries": [],
-   "n_sharp": 3,
-   "link": "https://sportsbook.draftkings.com/?outcomes=0ML84998521_1",
-   "prices": {
-    "DraftKings": 1.16,
-    "FanDuel": 1.16,
-    "theScore Bet": 1.15
-   },
-   "links": {
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML84998521_1",
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626038981&selectionId=662040",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=43af1598-6cd9-4f68-b95a-24258f28d9f6&odds_numerator[0]=2&odds_denominator[0]=1"
-   },
-   "open": [
-    "2026-11-26T18:29:37+00:00",
-    1.16,
-    0.8467
-   ],
-   "hist": [
-    [
-     "2026-11-26T18:29:37+00:00",
-     1.16,
-     0.8467
-    ]
-   ],
-   "lag": false
-  },
-  {
    "sport": "NFL",
    "event": "Kansas City Chiefs @ Buffalo Bills",
    "pick": "Buffalo Bills",
@@ -1725,82 +1618,82 @@
  "big_parlays": [
   {
    "label": "Safest 4x+",
-   "book": "FanDuel",
-   "odds": 4.04,
-   "prob": 0.2303,
-   "ev": -0.069,
+   "book": "DraftKings",
+   "odds": 4.02,
+   "prob": 0.2276,
+   "ev": -0.0853,
    "units": 0.5,
    "stake": 2.25,
-   "to_win": 6.85,
+   "to_win": 6.79,
    "legs": [
     {
      "pick": "Texas Tech Red Raiders",
-     "event": "TCU Horned Frogs @ Texas Tech Red Raiders",
-     "sport": "COLLEGE FOOTBALL",
-     "odds": 1.16,
-     "prob": 0.847,
-     "start": "2026-11-27T01:00:00+00:00",
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626038981&selectionId=662040",
+     "event": "Texas Tech Red Raiders @ Oregon Ducks",
+     "sport": "COLLEGE BASKETBALL",
+     "odds": 1.18,
+     "prob": 0.837,
+     "start": "2026-11-27T04:30:00+00:00",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0ML87408444_3",
      "sid": [
       null,
-      "662040",
-      "36328933"
+      "0ML87408444_3",
+      "35084608"
      ]
     },
     {
      "pick": "Pacific Tigers",
      "event": "Omaha Mavericks @ Pacific Tigers",
      "sport": "COLLEGE BASKETBALL",
-     "odds": 1.32,
+     "odds": 1.29,
      "prob": 0.764,
      "start": "2026-11-27T03:30:00+00:00",
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628714584&selectionId=756685",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0ML87421778_3",
      "sid": [
       null,
-      "756685",
-      "36364376"
+      "0ML87421778_3",
+      "35089787"
      ]
     },
     {
      "pick": "Buffalo Bills",
      "event": "Kansas City Chiefs @ Buffalo Bills",
      "sport": "NFL",
-     "odds": 1.63,
+     "odds": 1.65,
      "prob": 0.599,
      "start": "2026-11-27T01:20:00+00:00",
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578457166&selectionId=50203",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0ML84695642_1",
      "sid": [
       null,
-      "50203",
-      "35607552"
+      "0ML84695642_1",
+      "34118209"
      ]
     },
     {
      "pick": "Gonzaga Bulldogs",
      "event": "Baylor Bears @ Gonzaga Bulldogs",
      "sport": "COLLEGE BASKETBALL",
-     "odds": 1.62,
+     "odds": 1.6,
      "prob": 0.594,
      "start": "2026-11-27T04:30:00+00:00",
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628674368&selectionId=29840",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0ML87409831_1",
      "sid": [
       null,
-      "29840",
-      "36363264"
+      "0ML87409831_1",
+      "35085107"
      ]
     }
    ],
-   "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.626038981&selectionId[0]=662040&marketId[1]=42.628714584&selectionId[1]=756685&marketId[2]=42.578457166&selectionId[2]=50203&marketId[3]=42.628674368&selectionId[3]=29840",
+   "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87408444_3+0ML87421778_3+0ML84695642_1+0ML87409831_1",
    "alts": [
-    {
-     "book": "DraftKings",
-     "odds": 3.95,
-     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML84998521_1+0ML87421778_3+0ML84695642_1+0ML87409831_1"
-    },
     {
      "book": "theScore Bet",
      "odds": 3.89,
-     "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=43af1598-6cd9-4f68-b95a-24258f28d9f6&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=f3f9d1e5-3b92-4590-a1b3-e122de5a2a40&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=6834c8bd-e323-47ef-b98a-75f00eb961c1&odds_numerator[2]=2&odds_denominator[2]=1&market_selection_id[3]=e33a494a-bbe4-4c41-aacd-dd458a7823b8&odds_numerator[3]=2&odds_denominator[3]=1"
+     "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=f5f6c214-7acb-4e6f-b7b0-3a7e89c1aecd&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=f3f9d1e5-3b92-4590-a1b3-e122de5a2a40&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=6834c8bd-e323-47ef-b98a-75f00eb961c1&odds_numerator[2]=2&odds_denominator[2]=1&market_selection_id[3]=e33a494a-bbe4-4c41-aacd-dd458a7823b8&odds_numerator[3]=2&odds_denominator[3]=1"
+    },
+    {
+     "book": "FanDuel",
+     "odds": 4.08,
+     "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.628674756&selectionId[0]=284244&marketId[1]=42.628714584&selectionId[1]=756685&marketId[2]=42.578457166&selectionId[2]=50203&marketId[3]=42.628674368&selectionId[3]=29840"
     }
    ]
   }

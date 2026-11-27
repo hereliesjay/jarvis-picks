@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-27T00:31:20+00:00",
+ "updated": "2026-11-27T00:34:24+00:00",
  "last_scan": "2026-11-27T00:31:20+00:00",
  "unit": 4.5,
  "bankroll": 222.31,
@@ -1415,19 +1415,19 @@
     {
      "team": "Buffalo Bills",
      "list": [
+      "Christian Benford (CB, Out)",
       "Jalon Kilgore (S, Out)",
       "Jude Bowry (OT, Out)",
-      "Mike Danna (DE, Out)",
-      "Greg Gaines (DT, Out)"
+      "Mike Danna (DE, Out)"
      ]
     },
     {
      "team": "Kansas City Chiefs",
      "list": [
-      "Omarr Norman-Lott (DT, Out)",
-      "Jaylon Moore (OT, Out)",
-      "Kenneth Walker III (RB, Out)",
-      "Ben VanSumeren (FB, Injured Reserve)"
+      "Garrett Nussmeier (QB, Out)",
+      "Diego Pounds (OT, Out)",
+      "Melvin Smith Jr. (CB, Out)",
+      "Kenneth Walker III (RB, Out)"
      ]
     }
    ],

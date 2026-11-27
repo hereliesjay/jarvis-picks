@@ -1,7 +1,7 @@
 {
  "version": 25,
- "updated": "2026-11-27T23:43:54+00:00",
- "last_scan": "2026-11-27T22:25:47+00:00",
+ "updated": "2026-11-27T23:49:01+00:00",
+ "last_scan": "2026-11-27T23:49:01+00:00",
  "unit": 4.5,
  "bankroll": 223.41,
  "bank_start": 250.0,
@@ -207,7 +207,15 @@
      0.6062
     ]
    ],
-   "injuries": [],
+   "injuries": [
+    {
+     "name": "Dean Wade",
+     "status": "Out",
+     "at": "2026-11-27T23:49:01+00:00",
+     "edge_then": -0.0013,
+     "edge_now": -0.024
+    }
+   ],
    "lag": false
   },
   {
@@ -666,7 +674,7 @@
    "on": true
   }
  },
- "watching": 67,
+ "watching": 57,
  "history": [
   {
    "type": "lean",
@@ -1464,8 +1472,8 @@
    },
    {
     "sport": "NHL",
-    "scans": 7,
-    "prices": 66,
+    "scans": 8,
+    "prices": 72,
     "edges": 0
    },
    {
@@ -1764,73 +1772,6 @@
    "lag": false
   },
   {
-   "sport": "NHL",
-   "event": "Winnipeg Jets @ New York Islanders",
-   "pick": "New York Islanders",
-   "opp": "Winnipeg Jets",
-   "start": "2026-11-28T00:30:00+00:00",
-   "book": "FanDuel",
-   "odds": 1.83,
-   "prob": 0.5275,
-   "edge": -0.0346,
-   "value": "over",
-   "value_txt": "Overpriced: the book is charging a lot here",
-   "units": 0.0,
-   "stake": 0.0,
-   "to_win": 0.0,
-   "tier": null,
-   "fair_odds": 1.9,
-   "why": [
-    "Sharp books give New York Islanders a 53% chance to win (Winnipeg Jets 47%).",
-    "New York Islanders: 12-7-5, 6-3-3 on the road, top: Simon Holmstrom 10 Goals.",
-    "Winnipeg Jets: 13-9-4, 6-4-2 on the road, top: Kyle Connor 20 Goals."
-   ],
-   "injuries": [
-    {
-     "team": "New York Islanders",
-     "list": [
-      "Kyle Palmieri (C, Injured Reserve)",
-      "Ryan Pulock (D, Out)",
-      "Alexander Romanov (D, Injured Reserve)"
-     ]
-    },
-    {
-     "team": "Winnipeg Jets",
-     "list": [
-      "Dylan DeMelo (D, Injured Reserve)",
-      "Isak Rosen (RW, Injured Reserve)",
-      "Vladislav Namestnikov (C, Injured Reserve)",
-      "Nick Bjugstad (C, Injured Reserve)"
-     ]
-    }
-   ],
-   "n_sharp": 4,
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627271053&selectionId=136344",
-   "prices": {
-    "DraftKings": 1.8,
-    "FanDuel": 1.83,
-    "theScore Bet": 1.8
-   },
-   "links": {
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87435443_1",
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627271053&selectionId=136344",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=522f0421-daf4-403e-9397-6491e9d2a806&odds_numerator[0]=2&odds_denominator[0]=1"
-   },
-   "open": [
-    "2026-11-27T18:39:28+00:00",
-    1.83,
-    0.5275
-   ],
-   "hist": [
-    [
-     "2026-11-27T18:39:28+00:00",
-     1.83,
-     0.5275
-    ]
-   ],
-   "lag": false
-  },
-  {
    "sport": "COLLEGE BASKETBALL",
    "event": "Penn State Nittany Lions @ Mississippi St Bulldogs",
    "pick": "Mississippi St Bulldogs",
@@ -2083,134 +2024,72 @@
   },
   {
    "sport": "NHL",
-   "event": "Pittsburgh Penguins @ Buffalo Sabres",
-   "pick": "Buffalo Sabres",
-   "opp": "Pittsburgh Penguins",
-   "start": "2026-11-28T01:00:00+00:00",
-   "book": "DraftKings",
-   "odds": 1.77,
-   "prob": 0.5431,
-   "edge": -0.0388,
+   "event": "Winnipeg Jets @ New York Islanders",
+   "pick": "New York Islanders",
+   "opp": "Winnipeg Jets",
+   "start": "2026-11-28T00:40:00+00:00",
+   "book": "FanDuel",
+   "odds": 1.83,
+   "prob": 0.5176,
+   "edge": -0.0527,
    "value": "over",
    "value_txt": "Overpriced: the book is charging a lot here",
    "units": 0.0,
    "stake": 0.0,
    "to_win": 0.0,
    "tier": null,
-   "fair_odds": 1.84,
+   "fair_odds": 1.93,
    "why": [
-    "Sharp books give Buffalo Sabres a 54% chance to win (Pittsburgh Penguins 46%).",
-    "Buffalo Sabres: 11-10-4, 5-6-0 at home, top: Tage Thompson 17 Goals.",
-    "Pittsburgh Penguins: 7-15-2, 4-6-1 at home, top: Tommy Novak 9 Goals."
+    "Sharp books give New York Islanders a 52% chance to win (Winnipeg Jets 48%).",
+    "New York Islanders: 12-7-5, 6-3-3 on the road, top: Simon Holmstrom 10 Goals.",
+    "Winnipeg Jets: 13-9-4, 6-4-2 on the road, top: Kyle Connor 20 Goals."
    ],
    "injuries": [
     {
-     "team": "Buffalo Sabres",
+     "team": "New York Islanders",
      "list": [
-      "Noah Ostlund (C, Injured Reserve)",
-      "Tyson Kozak (C, Injured Reserve)",
-      "Zach Benson (LW, Out)",
-      "Konsta Helenius (C, Injured Reserve)"
+      "Kyle Palmieri (C, Injured Reserve)",
+      "Ryan Pulock (D, Out)",
+      "Alexander Romanov (D, Injured Reserve)"
      ]
     },
     {
-     "team": "Pittsburgh Penguins",
+     "team": "Winnipeg Jets",
      "list": [
-      "Egor Chinakhov (RW, Injured Reserve)",
-      "Bryan Rust (RW, Injured Reserve)",
-      "Nick Robertson (LW, Injured Reserve)",
-      "Elmer Soderblom (LW, Injured Reserve)"
+      "Dylan DeMelo (D, Injured Reserve)",
+      "Isak Rosen (RW, Injured Reserve)",
+      "Vladislav Namestnikov (C, Injured Reserve)",
+      "Nick Bjugstad (C, Injured Reserve)"
      ]
     }
    ],
    "n_sharp": 4,
-   "link": "https://sportsbook.draftkings.com/?outcomes=0ML87435436_1",
+   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627271053&selectionId=136344",
    "prices": {
-    "DraftKings": 1.77,
-    "FanDuel": 1.75,
-    "theScore Bet": 1.77
+    "DraftKings": 1.82,
+    "FanDuel": 1.83,
+    "theScore Bet": 1.83
    },
    "links": {
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87435436_1",
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627271064&selectionId=25597",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=ed8a4bcd-e2b8-4520-9034-4fed7667a339&odds_numerator[0]=2&odds_denominator[0]=1"
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87435443_1",
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627271053&selectionId=136344",
+    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=522f0421-daf4-403e-9397-6491e9d2a806&odds_numerator[0]=2&odds_denominator[0]=1"
    },
    "open": [
     "2026-11-27T18:39:28+00:00",
-    1.77,
-    0.5431
+    1.83,
+    0.5275
    ],
    "hist": [
     [
      "2026-11-27T18:39:28+00:00",
-     1.77,
-     0.5431
-    ]
-   ],
-   "lag": false
-  },
-  {
-   "sport": "NHL",
-   "event": "Seattle Kraken @ Edmonton Oilers",
-   "pick": "Edmonton Oilers",
-   "opp": "Seattle Kraken",
-   "start": "2026-11-28T01:00:00+00:00",
-   "book": "theScore Bet",
-   "odds": 1.48,
-   "prob": 0.657,
-   "edge": -0.0277,
-   "value": "over",
-   "value_txt": "Overpriced: the book is charging a lot here",
-   "units": 0.0,
-   "stake": 0.0,
-   "to_win": 0.0,
-   "tier": null,
-   "fair_odds": 1.52,
-   "why": [
-    "Sharp books give Edmonton Oilers a 66% chance to win (Seattle Kraken 34%).",
-    "Edmonton Oilers: 17-6-4, 10-2-2 on the road, top: Leon Draisaitl 23 Goals.",
-    "Seattle Kraken: 11-10-1, 7-5-0 at home, top: Berkly Catton 8 Goals."
-   ],
-   "injuries": [
-    {
-     "team": "Edmonton Oilers",
-     "list": [
-      "Filip Hallander (C, Out)",
-      "Zach Hyman (LW, Out)",
-      "Alec Regula (D, Injured Reserve)",
-      "Matt Savoie (C, Injured Reserve)"
-     ]
-    },
-    {
-     "team": "Seattle Kraken",
-     "list": [
-      "Jake O'Brien (C, Injured Reserve)",
-      "Jared McCann (LW, Injured Reserve)"
-     ]
-    }
-   ],
-   "n_sharp": 4,
-   "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=c3195de0-8041-45b8-b636-1b4e9544ebf9&odds_numerator[0]=2&odds_denominator[0]=1",
-   "prices": {
-    "DraftKings": 1.46,
-    "FanDuel": 1.47,
-    "theScore Bet": 1.48
-   },
-   "links": {
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87435441_1",
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627271080&selectionId=25603",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=c3195de0-8041-45b8-b636-1b4e9544ebf9&odds_numerator[0]=2&odds_denominator[0]=1"
-   },
-   "open": [
-    "2026-11-27T18:39:28+00:00",
-    1.48,
-    0.657
-   ],
-   "hist": [
+     1.83,
+     0.5275
+    ],
     [
-     "2026-11-27T18:39:28+00:00",
-     1.48,
-     0.657
+     "2026-11-27T23:49:01+00:00",
+     1.83,
+     0.5176
     ]
    ],
    "lag": false
@@ -2523,6 +2402,140 @@
      "2026-11-27T22:25:47+00:00",
      1.27,
      0.7676
+    ]
+   ],
+   "lag": false
+  },
+  {
+   "sport": "NHL",
+   "event": "Pittsburgh Penguins @ Buffalo Sabres",
+   "pick": "Buffalo Sabres",
+   "opp": "Pittsburgh Penguins",
+   "start": "2026-11-28T01:10:00+00:00",
+   "book": "DraftKings",
+   "odds": 1.77,
+   "prob": 0.5466,
+   "edge": -0.0326,
+   "value": "over",
+   "value_txt": "Overpriced: the book is charging a lot here",
+   "units": 0.0,
+   "stake": 0.0,
+   "to_win": 0.0,
+   "tier": null,
+   "fair_odds": 1.83,
+   "why": [
+    "Sharp books give Buffalo Sabres a 55% chance to win (Pittsburgh Penguins 45%).",
+    "Buffalo Sabres: 11-10-4, 5-6-0 at home, top: Tage Thompson 17 Goals.",
+    "Pittsburgh Penguins: 7-15-2, 4-6-1 at home, top: Tommy Novak 9 Goals."
+   ],
+   "injuries": [
+    {
+     "team": "Buffalo Sabres",
+     "list": [
+      "Noah Ostlund (C, Injured Reserve)",
+      "Tyson Kozak (C, Injured Reserve)",
+      "Zach Benson (LW, Out)",
+      "Konsta Helenius (C, Injured Reserve)"
+     ]
+    },
+    {
+     "team": "Pittsburgh Penguins",
+     "list": [
+      "Egor Chinakhov (RW, Injured Reserve)",
+      "Bryan Rust (RW, Injured Reserve)",
+      "Nick Robertson (LW, Injured Reserve)",
+      "Elmer Soderblom (LW, Injured Reserve)"
+     ]
+    }
+   ],
+   "n_sharp": 4,
+   "link": "https://sportsbook.draftkings.com/?outcomes=0ML87435436_1",
+   "prices": {
+    "DraftKings": 1.77,
+    "FanDuel": 1.76,
+    "theScore Bet": 1.77
+   },
+   "links": {
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87435436_1",
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627271064&selectionId=25597",
+    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=ed8a4bcd-e2b8-4520-9034-4fed7667a339&odds_numerator[0]=2&odds_denominator[0]=1"
+   },
+   "open": [
+    "2026-11-27T18:39:28+00:00",
+    1.77,
+    0.5431
+   ],
+   "hist": [
+    [
+     "2026-11-27T18:39:28+00:00",
+     1.77,
+     0.5431
+    ]
+   ],
+   "lag": false
+  },
+  {
+   "sport": "NHL",
+   "event": "Seattle Kraken @ Edmonton Oilers",
+   "pick": "Edmonton Oilers",
+   "opp": "Seattle Kraken",
+   "start": "2026-11-28T01:10:00+00:00",
+   "book": "theScore Bet",
+   "odds": 1.48,
+   "prob": 0.6605,
+   "edge": -0.0224,
+   "value": "slight",
+   "value_txt": "A bit overpriced (books' cut)",
+   "units": 0.25,
+   "stake": 1.12,
+   "to_win": 0.54,
+   "tier": null,
+   "fair_odds": 1.51,
+   "why": [
+    "Sharp books give Edmonton Oilers a 66% chance to win (Seattle Kraken 33%).",
+    "Edmonton Oilers: 17-6-4, 10-2-2 on the road, top: Leon Draisaitl 23 Goals.",
+    "Seattle Kraken: 11-10-1, 7-5-0 at home, top: Berkly Catton 8 Goals."
+   ],
+   "injuries": [
+    {
+     "team": "Edmonton Oilers",
+     "list": [
+      "Filip Hallander (C, Out)",
+      "Zach Hyman (LW, Out)",
+      "Alec Regula (D, Injured Reserve)",
+      "Matt Savoie (C, Injured Reserve)"
+     ]
+    },
+    {
+     "team": "Seattle Kraken",
+     "list": [
+      "Jake O'Brien (C, Injured Reserve)",
+      "Jared McCann (LW, Injured Reserve)"
+     ]
+    }
+   ],
+   "n_sharp": 4,
+   "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=c3195de0-8041-45b8-b636-1b4e9544ebf9&odds_numerator[0]=2&odds_denominator[0]=1",
+   "prices": {
+    "DraftKings": 1.46,
+    "FanDuel": 1.47,
+    "theScore Bet": 1.48
+   },
+   "links": {
+    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87435441_1",
+    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627271080&selectionId=25603",
+    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=c3195de0-8041-45b8-b636-1b4e9544ebf9&odds_numerator[0]=2&odds_denominator[0]=1"
+   },
+   "open": [
+    "2026-11-27T18:39:28+00:00",
+    1.48,
+    0.657
+   ],
+   "hist": [
+    [
+     "2026-11-27T18:39:28+00:00",
+     1.48,
+     0.657
     ]
    ],
    "lag": false

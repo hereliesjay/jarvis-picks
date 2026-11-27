@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-27T23:13:21+00:00",
+ "updated": "2026-11-27T23:43:54+00:00",
  "last_scan": "2026-11-27T22:25:47+00:00",
  "unit": 4.5,
  "bankroll": 223.41,
@@ -176,7 +176,7 @@
    "status": "open",
    "n_sharp": 4,
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628231491&selectionId=40274538",
-   "flag": null,
+   "flag": "New injury since posted: Dean Wade (Out) \u2014 check the price moved before betting",
    "posted_at": "2026-11-27T18:39:28+00:00",
    "prices": {
     "FanDuel": 1.61,
@@ -1723,7 +1723,7 @@
       "Miles McBride (G, Out)",
       "OG Anunoby (F, Out)",
       "Jordan Clarkson (G, Out)",
-      "Karl-Anthony Towns (C, day-to-day)"
+      "Andre Drummond (C, Out)"
      ]
     }
    ],
@@ -1904,7 +1904,6 @@
     {
      "team": "Toronto Raptors",
      "list": [
-      "Alijah Martin (G, day-to-day)",
       "Kawhi Leonard (F, Out)",
       "Nate Bittle (C, Out)",
       "RJ Barrett (F, Out)"
@@ -2035,8 +2034,9 @@
     {
      "team": "Philadelphia 76ers",
      "list": [
-      "Joel Embiid (C, day-to-day)",
+      "Dean Wade (F, Out)",
       "Jaylen Brown (G, Out)",
+      "Joel Embiid (C, day-to-day)",
       "Ariel Hukporti (C, Out)"
      ]
     },

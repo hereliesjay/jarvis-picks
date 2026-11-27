@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-27T01:00:30+00:00",
+ "updated": "2026-11-27T01:20:37+00:00",
  "last_scan": "2026-11-27T00:31:20+00:00",
  "unit": 4.5,
  "bankroll": 222.31,
@@ -1283,74 +1283,6 @@
  },
  "games": [
   {
-   "sport": "NFL",
-   "event": "Kansas City Chiefs @ Buffalo Bills",
-   "pick": "Buffalo Bills",
-   "opp": "Kansas City Chiefs",
-   "start": "2026-11-27T01:20:00+00:00",
-   "book": "DraftKings",
-   "odds": 1.65,
-   "prob": 0.599,
-   "edge": -0.0116,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.12,
-   "to_win": 0.73,
-   "tier": null,
-   "fair_odds": 1.67,
-   "why": [
-    "Sharp books give Buffalo Bills a 60% chance to win (Kansas City Chiefs 40%).",
-    "Buffalo Bills: 9-1, 4-1 at home.",
-    "Kansas City Chiefs: 8-2, 3-2 on the road."
-   ],
-   "injuries": [
-    {
-     "team": "Buffalo Bills",
-     "list": [
-      "Christian Benford (CB, Out)",
-      "Jalon Kilgore (S, Out)",
-      "Jude Bowry (OT, Out)",
-      "Mike Danna (DE, Out)"
-     ]
-    },
-    {
-     "team": "Kansas City Chiefs",
-     "list": [
-      "Garrett Nussmeier (QB, Out)",
-      "Diego Pounds (OT, Out)",
-      "Melvin Smith Jr. (CB, Out)",
-      "Kenneth Walker III (RB, Out)"
-     ]
-    }
-   ],
-   "n_sharp": 5,
-   "link": "https://sportsbook.draftkings.com/?outcomes=0ML84695642_1",
-   "prices": {
-    "DraftKings": 1.65,
-    "FanDuel": 1.63,
-    "theScore Bet": 1.65
-   },
-   "links": {
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML84695642_1",
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578457166&selectionId=50203",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=6834c8bd-e323-47ef-b98a-75f00eb961c1&odds_numerator[0]=2&odds_denominator[0]=1"
-   },
-   "open": [
-    "2026-11-26T18:29:37+00:00",
-    1.65,
-    0.5999
-   ],
-   "hist": [
-    [
-     "2026-11-26T18:29:37+00:00",
-     1.65,
-     0.5999
-    ]
-   ],
-   "lag": false
-  },
-  {
    "sport": "COLLEGE BASKETBALL",
    "event": "Kansas St Wildcats @ Alabama Crimson Tide",
    "pick": "Alabama Crimson Tide",
@@ -1615,87 +1547,5 @@
    "lag": false
   }
  ],
- "big_parlays": [
-  {
-   "label": "Safest 4x+",
-   "book": "DraftKings",
-   "odds": 4.02,
-   "prob": 0.2276,
-   "ev": -0.0853,
-   "units": 0.5,
-   "stake": 2.25,
-   "to_win": 6.79,
-   "legs": [
-    {
-     "pick": "Texas Tech Red Raiders",
-     "event": "Texas Tech Red Raiders @ Oregon Ducks",
-     "sport": "COLLEGE BASKETBALL",
-     "odds": 1.18,
-     "prob": 0.837,
-     "start": "2026-11-27T04:30:00+00:00",
-     "link": "https://sportsbook.draftkings.com/?outcomes=0ML87408444_3",
-     "sid": [
-      null,
-      "0ML87408444_3",
-      "35084608"
-     ]
-    },
-    {
-     "pick": "Pacific Tigers",
-     "event": "Omaha Mavericks @ Pacific Tigers",
-     "sport": "COLLEGE BASKETBALL",
-     "odds": 1.29,
-     "prob": 0.764,
-     "start": "2026-11-27T03:30:00+00:00",
-     "link": "https://sportsbook.draftkings.com/?outcomes=0ML87421778_3",
-     "sid": [
-      null,
-      "0ML87421778_3",
-      "35089787"
-     ]
-    },
-    {
-     "pick": "Buffalo Bills",
-     "event": "Kansas City Chiefs @ Buffalo Bills",
-     "sport": "NFL",
-     "odds": 1.65,
-     "prob": 0.599,
-     "start": "2026-11-27T01:20:00+00:00",
-     "link": "https://sportsbook.draftkings.com/?outcomes=0ML84695642_1",
-     "sid": [
-      null,
-      "0ML84695642_1",
-      "34118209"
-     ]
-    },
-    {
-     "pick": "Gonzaga Bulldogs",
-     "event": "Baylor Bears @ Gonzaga Bulldogs",
-     "sport": "COLLEGE BASKETBALL",
-     "odds": 1.6,
-     "prob": 0.594,
-     "start": "2026-11-27T04:30:00+00:00",
-     "link": "https://sportsbook.draftkings.com/?outcomes=0ML87409831_1",
-     "sid": [
-      null,
-      "0ML87409831_1",
-      "35085107"
-     ]
-    }
-   ],
-   "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87408444_3+0ML87421778_3+0ML84695642_1+0ML87409831_1",
-   "alts": [
-    {
-     "book": "theScore Bet",
-     "odds": 3.89,
-     "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=f5f6c214-7acb-4e6f-b7b0-3a7e89c1aecd&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=f3f9d1e5-3b92-4590-a1b3-e122de5a2a40&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=6834c8bd-e323-47ef-b98a-75f00eb961c1&odds_numerator[2]=2&odds_denominator[2]=1&market_selection_id[3]=e33a494a-bbe4-4c41-aacd-dd458a7823b8&odds_numerator[3]=2&odds_denominator[3]=1"
-    },
-    {
-     "book": "FanDuel",
-     "odds": 4.08,
-     "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.628674756&selectionId[0]=284244&marketId[1]=42.628714584&selectionId[1]=756685&marketId[2]=42.578457166&selectionId[2]=50203&marketId[3]=42.628674368&selectionId[3]=29840"
-    }
-   ]
-  }
- ]
+ "big_parlays": []
 }

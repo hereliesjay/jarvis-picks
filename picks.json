@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-27T18:48:59+00:00",
+ "updated": "2026-11-27T19:00:05+00:00",
  "last_scan": "2026-11-27T18:39:28+00:00",
  "unit": 4.5,
  "bankroll": 222.31,
@@ -52,7 +52,7 @@
    "to_win": 0.9,
    "min_odds": 1.81,
    "start": "2026-11-27T19:00:00+00:00",
-   "started": false,
+   "started": true,
    "status": "open",
    "n_sharp": 2,
    "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=10027aff-3e2f-48fe-b9f9-936773ec9ff7&odds_numerator[0]=2&odds_denominator[0]=1",
@@ -100,7 +100,7 @@
    "to_win": 0.56,
    "min_odds": 1.51,
    "start": "2026-11-27T19:00:00+00:00",
-   "started": false,
+   "started": true,
    "status": "open",
    "n_sharp": 2,
    "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=f7220aad-afe9-4df3-9b5c-d75db276186e&odds_numerator[0]=2&odds_denominator[0]=1",
@@ -1566,219 +1566,6 @@
   }
  },
  "games": [
-  {
-   "sport": "NHL",
-   "event": "Dallas Stars @ St Louis Blues",
-   "pick": "Dallas Stars",
-   "opp": "St Louis Blues",
-   "start": "2026-11-27T19:00:00+00:00",
-   "book": "FanDuel",
-   "odds": 1.78,
-   "prob": 0.5407,
-   "edge": -0.0376,
-   "value": "over",
-   "value_txt": "Overpriced: the book is charging a lot here",
-   "units": 0.0,
-   "stake": 0.0,
-   "to_win": 0.0,
-   "tier": null,
-   "fair_odds": 1.85,
-   "why": [
-    "Sharp books give Dallas Stars a 54% chance to win (St Louis Blues 46%).",
-    "Dallas Stars: 15-7-2, 9-6-0 at home, top: Mikko Rantanen 10 Goals.",
-    "St Louis Blues: 13-9-3, 8-3-1 at home, top: Mason McTavish 9 Goals."
-   ],
-   "injuries": [
-    {
-     "team": "Dallas Stars",
-     "list": [
-      "Kyle Capobianco (D, Injured Reserve)",
-      "Lian Bichsel (D, Injured Reserve)",
-      "Matt Duchene (C, Injured Reserve)"
-     ]
-    },
-    {
-     "team": "St Louis Blues",
-     "list": [
-      "Jimmy Snuggerud (RW, Injured Reserve)",
-      "Brandon Carlo (D, Injured Reserve)",
-      "Torey Krug (D, Injured Reserve)",
-      "Dillon Dube (C, Injured Reserve)"
-     ]
-    }
-   ],
-   "n_sharp": 4,
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627270051&selectionId=25612",
-   "prices": {
-    "theScore Bet": 1.77,
-    "FanDuel": 1.78,
-    "DraftKings": 1.77
-   },
-   "links": {
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=7138be71-939e-438a-8980-138ddcc6d9a0&odds_numerator[0]=2&odds_denominator[0]=1",
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627270051&selectionId=25612",
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87435421_3"
-   },
-   "open": [
-    "2026-11-27T18:39:28+00:00",
-    1.78,
-    0.5407
-   ],
-   "hist": [
-    [
-     "2026-11-27T18:39:28+00:00",
-     1.78,
-     0.5407
-    ]
-   ],
-   "lag": false
-  },
-  {
-   "sport": "COLLEGE BASKETBALL",
-   "event": "Navy Midshipmen @ Fairfield Stags",
-   "pick": "Fairfield Stags",
-   "opp": "Navy Midshipmen",
-   "start": "2026-11-27T19:00:00+00:00",
-   "book": "theScore Bet",
-   "odds": 1.5,
-   "prob": 0.6651,
-   "edge": -0.0023,
-   "value": "fair",
-   "value_txt": "Fair price",
-   "units": 0.5,
-   "stake": 2.25,
-   "to_win": 1.12,
-   "tier": "card",
-   "fair_odds": 1.5,
-   "why": [
-    "Sharp books give Fairfield Stags a 67% chance to win (Navy Midshipmen 33%).",
-    "Fairfield Stags: 4-2, 2-1 at home, 67.8 pts/game, top: Declan Wucherpfennig 17.8 PPG.",
-    "Navy Midshipmen: 5-3, 5-0 at home, 70.3 pts/game, top: Jordan Pennick 15.7 PPG."
-   ],
-   "injuries": [],
-   "n_sharp": 2,
-   "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=f7220aad-afe9-4df3-9b5c-d75db276186e&odds_numerator[0]=2&odds_denominator[0]=1",
-   "prices": {
-    "FanDuel": 1.48,
-    "theScore Bet": 1.5,
-    "DraftKings": 1.46
-   },
-   "links": {
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628949975&selectionId=692684",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=f7220aad-afe9-4df3-9b5c-d75db276186e&odds_numerator[0]=2&odds_denominator[0]=1",
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87437620_1"
-   },
-   "open": [
-    "2026-11-27T18:39:28+00:00",
-    1.5,
-    0.6651
-   ],
-   "hist": [
-    [
-     "2026-11-27T18:39:28+00:00",
-     1.5,
-     0.6651
-    ]
-   ],
-   "lag": false
-  },
-  {
-   "sport": "COLLEGE BASKETBALL",
-   "event": "Fresno St Bulldogs @ South Alabama Jaguars",
-   "pick": "South Alabama Jaguars",
-   "opp": "Fresno St Bulldogs",
-   "start": "2026-11-27T19:00:00+00:00",
-   "book": "theScore Bet",
-   "odds": 1.8,
-   "prob": 0.555,
-   "edge": -0.0011,
-   "value": "fair",
-   "value_txt": "Fair price",
-   "units": 0.5,
-   "stake": 2.25,
-   "to_win": 1.8,
-   "tier": "card",
-   "fair_odds": 1.8,
-   "why": [
-    "Sharp books give South Alabama Jaguars a 55% chance to win (Fresno St Bulldogs 45%).",
-    "South Alabama Jaguars: 5-4, 0-3 on the road, 78.1 pts/game, top: Jalen Langsy 20.4 PPG."
-   ],
-   "injuries": [],
-   "n_sharp": 2,
-   "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=10027aff-3e2f-48fe-b9f9-936773ec9ff7&odds_numerator[0]=2&odds_denominator[0]=1",
-   "prices": {
-    "FanDuel": 1.73,
-    "theScore Bet": 1.8,
-    "DraftKings": 1.7
-   },
-   "links": {
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628949640&selectionId=719430",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=10027aff-3e2f-48fe-b9f9-936773ec9ff7&odds_numerator[0]=2&odds_denominator[0]=1",
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87437526_3"
-   },
-   "open": [
-    "2026-11-27T18:39:28+00:00",
-    1.8,
-    0.555
-   ],
-   "hist": [
-    [
-     "2026-11-27T18:39:28+00:00",
-     1.8,
-     0.555
-    ]
-   ],
-   "lag": false
-  },
-  {
-   "sport": "COLLEGE BASKETBALL",
-   "event": "Le Moyne Dolphins @ Maine Black Bears",
-   "pick": "Le Moyne Dolphins",
-   "opp": "Maine Black Bears",
-   "start": "2026-11-27T19:00:00+00:00",
-   "book": "DraftKings",
-   "odds": 1.82,
-   "prob": 0.5453,
-   "edge": -0.0076,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.0,
-   "stake": 0.0,
-   "to_win": 0.0,
-   "tier": null,
-   "fair_odds": 1.83,
-   "why": [
-    "Sharp books give Le Moyne Dolphins a 55% chance to win (Maine Black Bears 45%).",
-    "Le Moyne Dolphins: 3-4, 0-4 on the road, 71.6 pts/game, top: Ty Francis 12.7 PPG.",
-    "Maine Black Bears: 2-5, 2-3 on the road, 62.0 pts/game, top: Hudson Franz 10.3 PPG."
-   ],
-   "injuries": [],
-   "n_sharp": 1,
-   "link": "https://sportsbook.draftkings.com/?outcomes=0ML87437619_1",
-   "prices": {
-    "FanDuel": 1.79,
-    "theScore Bet": 1.77,
-    "DraftKings": 1.82
-   },
-   "links": {
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628970909&selectionId=62589708",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=902cfa61-32f1-4127-bcaf-e3ac47456434&odds_numerator[0]=2&odds_denominator[0]=1",
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87437619_1"
-   },
-   "open": [
-    "2026-11-27T18:39:28+00:00",
-    1.82,
-    0.5453
-   ],
-   "hist": [
-    [
-     "2026-11-27T18:39:28+00:00",
-     1.82,
-     0.5453
-    ]
-   ],
-   "lag": false
-  },
   {
    "sport": "COLLEGE BASKETBALL",
    "event": "Georgetown Hoyas @ UCLA Bruins",

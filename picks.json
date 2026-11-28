@@ -1,9 +1,9 @@
 {
  "version": 25,
- "updated": "2026-11-28T00:31:25+00:00",
+ "updated": "2026-11-28T00:35:55+00:00",
  "last_scan": "2026-11-27T23:49:01+00:00",
  "unit": 4.5,
- "bankroll": 223.41,
+ "bankroll": 224.02,
  "bank_start": 250.0,
  "unit_pct": 0.02,
  "picks": [
@@ -143,7 +143,7 @@
    "min_odds": 1.49,
    "start": "2026-11-27T21:30:00+00:00",
    "started": true,
-   "status": "open",
+   "status": "won",
    "n_sharp": null,
    "link": null,
    "flag": null,
@@ -350,12 +350,12 @@
  ],
  "record": {
   "lean": {
-   "won": 13,
+   "won": 14,
    "lost": 13,
    "push": 0,
-   "open": 7,
-   "units": -1.85,
-   "dollars": -8.34,
+   "open": 6,
+   "units": -1.73,
+   "dollars": -7.79,
    "clv": 0.0012,
    "clv_n": 20
   },
@@ -391,6 +391,16 @@
   }
  },
  "recent": [
+  {
+   "tier": "lean",
+   "pick": "Lafayette Leopards",
+   "event": "Niagara Purple Eagles @ Lafayette Leopards",
+   "sport": "COLLEGE BASKETBALL",
+   "odds": 1.49,
+   "units": 0.25,
+   "status": "won",
+   "start": "2026-11-27T21:30:00+00:00"
+  },
   {
    "tier": "lean",
    "pick": "Texas State Bobcats",
@@ -630,16 +640,6 @@
    "units": 0.25,
    "status": "lost",
    "start": "2026-11-24T20:00:00+00:00"
-  },
-  {
-   "tier": "card",
-   "pick": "Aston Villa",
-   "event": "Aston Villa @ Galatasaray",
-   "sport": "SOCCER",
-   "odds": 2.25,
-   "units": 0.25,
-   "status": "lost",
-   "start": "2026-11-24T17:45:00+00:00"
   }
  ],
  "rules": {
@@ -650,8 +650,8 @@
    "on": true
   },
   "basketball": {
-   "n": 86,
-   "roi": -0.1084,
+   "n": 87,
+   "roi": -0.1015,
    "clv": 0.0037,
    "on": true
   },
@@ -1399,8 +1399,8 @@
    "odds": 1.49,
    "units": 0.25,
    "edge": 0.0038,
-   "status": "open",
-   "profit_u": 0.0,
+   "status": "won",
+   "profit_u": 0.122,
    "clv": 0.004,
    "start": "2026-11-27T21:30:00+00:00"
   },

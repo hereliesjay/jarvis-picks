@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-28T03:11:33+00:00",
+ "updated": "2026-11-28T03:30:40+00:00",
  "last_scan": "2026-11-27T23:49:01+00:00",
  "unit": 4.5,
  "bankroll": 224.02,
@@ -1507,54 +1507,6 @@
   }
  },
  "games": [
-  {
-   "sport": "COLLEGE BASKETBALL",
-   "event": "Jacksonville St Gamecocks @ Omaha Mavericks",
-   "pick": "Jacksonville St Gamecocks",
-   "opp": "Omaha Mavericks",
-   "start": "2026-11-28T03:30:00+00:00",
-   "book": "FanDuel",
-   "odds": 1.47,
-   "prob": 0.67,
-   "edge": -0.0151,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.12,
-   "to_win": 0.53,
-   "tier": null,
-   "fair_odds": 1.49,
-   "why": [
-    "Sharp books give Jacksonville St Gamecocks a 67% chance to win (Omaha Mavericks 32%).",
-    "Omaha Mavericks: 3-5, 3-1 at home, 69.4 pts/game, top: Deke Thompson 11.6 PPG."
-   ],
-   "injuries": [],
-   "n_sharp": 2,
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628953645&selectionId=727606",
-   "prices": {
-    "FanDuel": 1.47,
-    "theScore Bet": 1.44,
-    "DraftKings": 1.46
-   },
-   "links": {
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628953645&selectionId=727606",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=a0061cd4-b316-4713-9cc1-3276f09e99da&odds_numerator[0]=2&odds_denominator[0]=1",
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87436796_3"
-   },
-   "open": [
-    "2026-11-27T18:39:28+00:00",
-    1.47,
-    0.67
-   ],
-   "hist": [
-    [
-     "2026-11-27T18:39:28+00:00",
-     1.47,
-     0.67
-    ]
-   ],
-   "lag": false
-  },
   {
    "sport": "COLLEGE BASKETBALL",
    "event": "Creighton Bluejays @ Gonzaga Bulldogs",

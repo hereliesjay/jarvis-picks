@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-28T01:40:48+00:00",
+ "updated": "2026-11-28T01:45:51+00:00",
  "last_scan": "2026-11-27T23:49:01+00:00",
  "unit": 4.5,
  "bankroll": 224.02,
@@ -1700,10 +1700,9 @@
     {
      "team": "Utah Jazz",
      "list": [
-      "Mo Bamba (C, day-to-day)",
-      "Jaxson Hayes (C, day-to-day)",
-      "Jusuf Nurkic (C, Out)",
-      "Lauri Markkanen (F, Out)"
+      "Mo Bamba (C, Out)",
+      "Lauri Markkanen (F, Out)",
+      "Jaren Jackson Jr. (F, Out)"
      ]
     }
    ],
@@ -1836,7 +1835,6 @@
     {
      "team": "New Orleans Pelicans",
      "list": [
-      "Trendon Watford (F, Out)",
       "Bennedict Mathurin (G, Out)",
       "Julian Reese (F, day-to-day)",
       "Dejounte Murray (G, Out)"

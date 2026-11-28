@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-28T05:47:06+00:00",
+ "updated": "2026-11-28T05:49:08+00:00",
  "last_scan": "2026-11-27T23:49:01+00:00",
  "unit": 4.5,
  "bankroll": 221.07,
@@ -176,7 +176,7 @@
    "status": "won",
    "n_sharp": 4,
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628231491&selectionId=40274538",
-   "flag": "New injury since posted: Dean Wade (Out) \u2014 check the price moved before betting",
+   "flag": "New injury since posted: LeBron James (Out), Joel Embiid (Out), Dean Wade (Out) \u2014 check the price moved before betting",
    "posted_at": "2026-11-27T18:39:28+00:00",
    "prices": {
     "FanDuel": 1.61,

@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-28T00:35:55+00:00",
+ "updated": "2026-11-28T00:40:46+00:00",
  "last_scan": "2026-11-27T23:49:01+00:00",
  "unit": 4.5,
  "bankroll": 224.02,
@@ -172,7 +172,7 @@
    "to_win": 0.72,
    "min_odds": 1.65,
    "start": "2026-11-28T00:40:00+00:00",
-   "started": false,
+   "started": true,
    "status": "open",
    "n_sharp": 4,
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628231491&selectionId=40274538",
@@ -1508,279 +1508,6 @@
  },
  "games": [
   {
-   "sport": "NBA",
-   "event": "Brooklyn Nets @ Toronto Raptors",
-   "pick": "Toronto Raptors",
-   "opp": "Brooklyn Nets",
-   "start": "2026-11-28T00:40:00+00:00",
-   "book": "FanDuel",
-   "odds": 1.27,
-   "prob": 0.767,
-   "edge": -0.0259,
-   "value": "over",
-   "value_txt": "Overpriced: the book is charging a lot here",
-   "units": 0.0,
-   "stake": 0.0,
-   "to_win": 0.0,
-   "tier": null,
-   "fair_odds": 1.3,
-   "why": [
-    "Sharp books give Toronto Raptors a 77% chance to win (Brooklyn Nets 21%).",
-    "Toronto Raptors: 6-11, 2-7 at home, 111.5 pts/game, top: Scottie Barnes 24.8 PPG.",
-    "Brooklyn Nets: 4-13, 3-7 on the road, 110.8 pts/game, top: Julius Randle 21.9 PPG."
-   ],
-   "injuries": [
-    {
-     "team": "Toronto Raptors",
-     "list": [
-      "Kawhi Leonard (F, Out)",
-      "Nate Bittle (C, Out)",
-      "RJ Barrett (F, Out)"
-     ]
-    },
-    {
-     "team": "Brooklyn Nets",
-     "list": [
-      "Moritz Wagner (C, Out)",
-      "Nolan Traore (G, Out)"
-     ]
-    }
-   ],
-   "n_sharp": 4,
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628231503&selectionId=237476",
-   "prices": {
-    "FanDuel": 1.27,
-    "DraftKings": 1.27,
-    "theScore Bet": 1.26
-   },
-   "links": {
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628231503&selectionId=237476",
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87414252_1",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=363bcd59-bd3f-4d82-97e2-3a443879efac&odds_numerator[0]=2&odds_denominator[0]=1"
-   },
-   "open": [
-    "2026-11-27T18:39:28+00:00",
-    1.27,
-    0.7688
-   ],
-   "hist": [
-    [
-     "2026-11-27T18:39:28+00:00",
-     1.27,
-     0.7688
-    ]
-   ],
-   "lag": false
-  },
-  {
-   "sport": "NBA",
-   "event": "Milwaukee Bucks @ Detroit Pistons",
-   "pick": "Detroit Pistons",
-   "opp": "Milwaukee Bucks",
-   "start": "2026-11-28T00:40:00+00:00",
-   "book": "FanDuel",
-   "odds": 1.22,
-   "prob": 0.7924,
-   "edge": -0.0333,
-   "value": "over",
-   "value_txt": "Overpriced: the book is charging a lot here",
-   "units": 0.0,
-   "stake": 0.0,
-   "to_win": 0.0,
-   "tier": null,
-   "fair_odds": 1.26,
-   "why": [
-    "Sharp books give Detroit Pistons a 79% chance to win (Milwaukee Bucks 19%).",
-    "Detroit Pistons: 11-6, 3-3 at home, 112.8 pts/game, top: Daniss Jenkins 14.1 PPG.",
-    "Milwaukee Bucks: 2-17, 1-9 at home, 109.1 pts/game, top: Tyler Herro 22.3 PPG."
-   ],
-   "injuries": [
-    {
-     "team": "Detroit Pistons",
-     "list": [
-      "Duncan Robinson (F, Out)",
-      "Cade Cunningham (G, Out)",
-      "Jalen Duren (C, Out)",
-      "Ebuka Okorie (G, Out)"
-     ]
-    },
-    {
-     "team": "Milwaukee Bucks",
-     "list": [
-      "Kasparas Jakucionis (G, Out)"
-     ]
-    }
-   ],
-   "n_sharp": 4,
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628231467&selectionId=237474",
-   "prices": {
-    "FanDuel": 1.22,
-    "DraftKings": 1.22,
-    "theScore Bet": 1.2
-   },
-   "links": {
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628231467&selectionId=237474",
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87414234_1",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=ee4a31e1-0af7-41ff-9cb4-8b3e180a77c4&odds_numerator[0]=2&odds_denominator[0]=1"
-   },
-   "open": [
-    "2026-11-27T18:39:28+00:00",
-    1.22,
-    0.7934
-   ],
-   "hist": [
-    [
-     "2026-11-27T18:39:28+00:00",
-     1.22,
-     0.7934
-    ]
-   ],
-   "lag": false
-  },
-  {
-   "sport": "NBA",
-   "event": "Philadelphia 76ers @ Indiana Pacers",
-   "pick": "Philadelphia 76ers",
-   "opp": "Indiana Pacers",
-   "start": "2026-11-28T00:40:00+00:00",
-   "book": "FanDuel",
-   "odds": 1.61,
-   "prob": 0.6062,
-   "edge": -0.024,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.12,
-   "to_win": 0.69,
-   "tier": "lean",
-   "fair_odds": 1.65,
-   "why": [
-    "Sharp books give Philadelphia 76ers a 61% chance to win (Indiana Pacers 39%).",
-    "Philadelphia 76ers: 15-4, 7-1 on the road, 115.1 pts/game, top: Tyrese Maxey 25.9 PPG.",
-    "Indiana Pacers: 6-12, 3-6 on the road, 112.4 pts/game, top: Pascal Siakam 22.9 PPG."
-   ],
-   "injuries": [
-    {
-     "team": "Philadelphia 76ers",
-     "list": [
-      "Dean Wade (F, Out)",
-      "Jaylen Brown (G, Out)",
-      "Ariel Hukporti (C, Out)"
-     ]
-    },
-    {
-     "team": "Indiana Pacers",
-     "list": [
-      "T.J. McConnell (G, Out)",
-      "Tyrese Haliburton (G, Out)",
-      "Ben Sheppard (G, Out)"
-     ]
-    }
-   ],
-   "n_sharp": 4,
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628231491&selectionId=40274538",
-   "prices": {
-    "FanDuel": 1.61,
-    "DraftKings": 1.59,
-    "theScore Bet": 1.61
-   },
-   "links": {
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628231491&selectionId=40274538",
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87414251_3",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=88be5b04-7994-41ec-8eed-1ccc664daae6&odds_numerator[0]=2&odds_denominator[0]=1"
-   },
-   "open": [
-    "2026-11-27T18:39:28+00:00",
-    1.64,
-    0.609
-   ],
-   "hist": [
-    [
-     "2026-11-27T18:39:28+00:00",
-     1.64,
-     0.609
-    ],
-    [
-     "2026-11-27T22:25:47+00:00",
-     1.61,
-     0.6062
-    ]
-   ],
-   "lag": false
-  },
-  {
-   "sport": "NHL",
-   "event": "Winnipeg Jets @ New York Islanders",
-   "pick": "New York Islanders",
-   "opp": "Winnipeg Jets",
-   "start": "2026-11-28T00:40:00+00:00",
-   "book": "FanDuel",
-   "odds": 1.83,
-   "prob": 0.5176,
-   "edge": -0.0527,
-   "value": "over",
-   "value_txt": "Overpriced: the book is charging a lot here",
-   "units": 0.0,
-   "stake": 0.0,
-   "to_win": 0.0,
-   "tier": null,
-   "fair_odds": 1.93,
-   "why": [
-    "Sharp books give New York Islanders a 52% chance to win (Winnipeg Jets 48%).",
-    "New York Islanders: 12-7-5, 6-3-3 on the road, top: Simon Holmstrom 10 Goals.",
-    "Winnipeg Jets: 13-9-4, 6-4-2 on the road, top: Kyle Connor 20 Goals."
-   ],
-   "injuries": [
-    {
-     "team": "New York Islanders",
-     "list": [
-      "Kyle Palmieri (C, Injured Reserve)",
-      "Ryan Pulock (D, Out)",
-      "Alexander Romanov (D, Injured Reserve)"
-     ]
-    },
-    {
-     "team": "Winnipeg Jets",
-     "list": [
-      "Dylan DeMelo (D, Injured Reserve)",
-      "Isak Rosen (RW, Injured Reserve)",
-      "Vladislav Namestnikov (C, Injured Reserve)",
-      "Nick Bjugstad (C, Injured Reserve)"
-     ]
-    }
-   ],
-   "n_sharp": 4,
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627271053&selectionId=136344",
-   "prices": {
-    "DraftKings": 1.82,
-    "FanDuel": 1.83,
-    "theScore Bet": 1.83
-   },
-   "links": {
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87435443_1",
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627271053&selectionId=136344",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=522f0421-daf4-403e-9397-6491e9d2a806&odds_numerator[0]=2&odds_denominator[0]=1"
-   },
-   "open": [
-    "2026-11-27T18:39:28+00:00",
-    1.83,
-    0.5275
-   ],
-   "hist": [
-    [
-     "2026-11-27T18:39:28+00:00",
-     1.83,
-     0.5275
-    ],
-    [
-     "2026-11-27T23:49:01+00:00",
-     1.83,
-     0.5176
-    ]
-   ],
-   "lag": false
-  },
-  {
    "sport": "COLLEGE BASKETBALL",
    "event": "Idaho Vandals @ Washington St Cougars",
    "pick": "Washington St Cougars",
@@ -2929,87 +2656,6 @@
   {
    "label": "Safest 4x+",
    "book": "FanDuel",
-   "odds": 4.0,
-   "prob": 0.2342,
-   "ev": -0.063,
-   "units": 0.5,
-   "stake": 2.25,
-   "to_win": 6.75,
-   "legs": [
-    {
-     "pick": "Pacific Tigers",
-     "event": "Pacific Tigers @ UC Davis Aggies",
-     "sport": "COLLEGE BASKETBALL",
-     "odds": 1.36,
-     "prob": 0.721,
-     "start": "2026-11-28T01:00:00+00:00",
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628953248&selectionId=756685",
-     "sid": [
-      null,
-      "756685",
-      "36367224"
-     ]
-    },
-    {
-     "pick": "North Texas Mean Green",
-     "event": "North Texas Mean Green @ North Dakota St Bison",
-     "sport": "COLLEGE BASKETBALL",
-     "odds": 1.41,
-     "prob": 0.708,
-     "start": "2026-11-28T01:00:00+00:00",
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628953131&selectionId=731890",
-     "sid": [
-      null,
-      "731890",
-      "36367222"
-     ]
-    },
-    {
-     "pick": "Gonzaga Bulldogs",
-     "event": "Creighton Bluejays @ Gonzaga Bulldogs",
-     "sport": "COLLEGE BASKETBALL",
-     "odds": 1.41,
-     "prob": 0.701,
-     "start": "2026-11-28T04:00:00+00:00",
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.629127263&selectionId=29840",
-     "sid": [
-      null,
-      "29840",
-      "36369180"
-     ]
-    },
-    {
-     "pick": "San Antonio Spurs",
-     "event": "Los Angeles Lakers @ San Antonio Spurs",
-     "sport": "NBA",
-     "odds": 1.48,
-     "prob": 0.654,
-     "start": "2026-11-28T02:40:00+00:00",
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628231464&selectionId=237471",
-     "sid": [
-      null,
-      "237471",
-      "36358261"
-     ]
-    }
-   ],
-   "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.628953248&selectionId[0]=756685&marketId[1]=42.628953131&selectionId[1]=731890&marketId[2]=42.629127263&selectionId[2]=29840&marketId[3]=42.628231464&selectionId[3]=237471",
-   "alts": [
-    {
-     "book": "DraftKings",
-     "odds": 3.78,
-     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87436791_3+0ML87437523_1+0ML87439307_1+0ML85857630_1"
-    },
-    {
-     "book": "theScore Bet",
-     "odds": 3.8,
-     "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=07b10ed4-4308-4026-b4a3-27401bdb5d18&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=80e31037-f37f-429c-99bf-36947a6ff86a&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=1a5a8cab-c56e-4cb8-8b80-827686cd3d54&odds_numerator[2]=2&odds_denominator[2]=1&market_selection_id[3]=069e2fef-eb5c-438f-b152-4682d8b943f5&odds_numerator[3]=2&odds_denominator[3]=1"
-    }
-   ]
-  },
-  {
-   "label": "Next safest 4x+",
-   "book": "FanDuel",
    "odds": 4.02,
    "prob": 0.2415,
    "ev": -0.0302,
@@ -3085,6 +2731,87 @@
      "book": "theScore Bet",
      "odds": 3.91,
      "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=2af03876-0356-4b0f-9ccd-23da64eb26b4&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=fe506c5c-705f-41cd-a207-309aca23024d&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=620f6a14-071a-46e5-b1b3-df07ba05d297&odds_numerator[2]=2&odds_denominator[2]=1&market_selection_id[3]=de349b65-52d1-47ff-a607-a9f02553db8d&odds_numerator[3]=2&odds_denominator[3]=1"
+    }
+   ]
+  },
+  {
+   "label": "Next safest 4x+",
+   "book": "FanDuel",
+   "odds": 4.0,
+   "prob": 0.2342,
+   "ev": -0.063,
+   "units": 0.5,
+   "stake": 2.25,
+   "to_win": 6.75,
+   "legs": [
+    {
+     "pick": "Pacific Tigers",
+     "event": "Pacific Tigers @ UC Davis Aggies",
+     "sport": "COLLEGE BASKETBALL",
+     "odds": 1.36,
+     "prob": 0.721,
+     "start": "2026-11-28T01:00:00+00:00",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628953248&selectionId=756685",
+     "sid": [
+      null,
+      "756685",
+      "36367224"
+     ]
+    },
+    {
+     "pick": "North Texas Mean Green",
+     "event": "North Texas Mean Green @ North Dakota St Bison",
+     "sport": "COLLEGE BASKETBALL",
+     "odds": 1.41,
+     "prob": 0.708,
+     "start": "2026-11-28T01:00:00+00:00",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628953131&selectionId=731890",
+     "sid": [
+      null,
+      "731890",
+      "36367222"
+     ]
+    },
+    {
+     "pick": "Gonzaga Bulldogs",
+     "event": "Creighton Bluejays @ Gonzaga Bulldogs",
+     "sport": "COLLEGE BASKETBALL",
+     "odds": 1.41,
+     "prob": 0.701,
+     "start": "2026-11-28T04:00:00+00:00",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.629127263&selectionId=29840",
+     "sid": [
+      null,
+      "29840",
+      "36369180"
+     ]
+    },
+    {
+     "pick": "San Antonio Spurs",
+     "event": "Los Angeles Lakers @ San Antonio Spurs",
+     "sport": "NBA",
+     "odds": 1.48,
+     "prob": 0.654,
+     "start": "2026-11-28T02:40:00+00:00",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628231464&selectionId=237471",
+     "sid": [
+      null,
+      "237471",
+      "36358261"
+     ]
+    }
+   ],
+   "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.628953248&selectionId[0]=756685&marketId[1]=42.628953131&selectionId[1]=731890&marketId[2]=42.629127263&selectionId[2]=29840&marketId[3]=42.628231464&selectionId[3]=237471",
+   "alts": [
+    {
+     "book": "DraftKings",
+     "odds": 3.78,
+     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87436791_3+0ML87437523_1+0ML87439307_1+0ML85857630_1"
+    },
+    {
+     "book": "theScore Bet",
+     "odds": 3.8,
+     "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=07b10ed4-4308-4026-b4a3-27401bdb5d18&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=80e31037-f37f-429c-99bf-36947a6ff86a&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=1a5a8cab-c56e-4cb8-8b80-827686cd3d54&odds_numerator[2]=2&odds_denominator[2]=1&market_selection_id[3]=069e2fef-eb5c-438f-b152-4682d8b943f5&odds_numerator[3]=2&odds_denominator[3]=1"
     }
    ]
   }

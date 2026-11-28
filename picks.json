@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-28T00:49:55+00:00",
+ "updated": "2026-11-28T00:59:59+00:00",
  "last_scan": "2026-11-27T23:49:01+00:00",
  "unit": 4.5,
  "bankroll": 224.02,
@@ -1508,248 +1508,6 @@
  },
  "games": [
   {
-   "sport": "COLLEGE BASKETBALL",
-   "event": "Idaho Vandals @ Washington St Cougars",
-   "pick": "Washington St Cougars",
-   "opp": "Idaho Vandals",
-   "start": "2026-11-28T01:00:00+00:00",
-   "book": "FanDuel",
-   "odds": 1.14,
-   "prob": 0.8696,
-   "edge": -0.0087,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.12,
-   "to_win": 0.16,
-   "tier": null,
-   "fair_odds": 1.15,
-   "why": [
-    "Sharp books give Washington St Cougars a 87% chance to win.",
-    "Idaho Vandals: 4-3, 0-2 on the road, 84.6 pts/game, top: Kase Wynott 17.0 PPG."
-   ],
-   "injuries": [],
-   "n_sharp": 2,
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628953385&selectionId=675922",
-   "prices": {
-    "FanDuel": 1.14,
-    "theScore Bet": 1.11,
-    "DraftKings": 1.14
-   },
-   "links": {
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628953385&selectionId=675922",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=35913fba-97e2-4236-a1c0-3e0a84e16582&odds_numerator[0]=2&odds_denominator[0]=1",
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87436793_1"
-   },
-   "open": [
-    "2026-11-27T18:39:28+00:00",
-    1.14,
-    0.8696
-   ],
-   "hist": [
-    [
-     "2026-11-27T18:39:28+00:00",
-     1.14,
-     0.8696
-    ]
-   ],
-   "lag": false
-  },
-  {
-   "sport": "COLLEGE BASKETBALL",
-   "event": "Missouri St Bears @ Oral Roberts Golden Eagles",
-   "pick": "Oral Roberts Golden Eagles",
-   "opp": "Missouri St Bears",
-   "start": "2026-11-28T01:00:00+00:00",
-   "book": "FanDuel",
-   "odds": 1.53,
-   "prob": 0.6469,
-   "edge": -0.0103,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.12,
-   "to_win": 0.6,
-   "tier": null,
-   "fair_odds": 1.55,
-   "why": [
-    "Sharp books give Oral Roberts Golden Eagles a 65% chance to win (Missouri St Bears 35%).",
-    "Oral Roberts Golden Eagles: 4-3, 3-0 at home, 76.6 pts/game, top: Luke Gray 18.1 PPG."
-   ],
-   "injuries": [],
-   "n_sharp": 2,
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628953577&selectionId=742254",
-   "prices": {
-    "FanDuel": 1.53,
-    "theScore Bet": 1.51,
-    "DraftKings": 1.51
-   },
-   "links": {
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628953577&selectionId=742254",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=de349b65-52d1-47ff-a607-a9f02553db8d&odds_numerator[0]=2&odds_denominator[0]=1",
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87436798_1"
-   },
-   "open": [
-    "2026-11-27T18:39:28+00:00",
-    1.53,
-    0.6469
-   ],
-   "hist": [
-    [
-     "2026-11-27T18:39:28+00:00",
-     1.53,
-     0.6469
-    ]
-   ],
-   "lag": false
-  },
-  {
-   "sport": "COLLEGE BASKETBALL",
-   "event": "North Texas Mean Green @ North Dakota St Bison",
-   "pick": "North Texas Mean Green",
-   "opp": "North Dakota St Bison",
-   "start": "2026-11-28T01:00:00+00:00",
-   "book": "FanDuel",
-   "odds": 1.41,
-   "prob": 0.7078,
-   "edge": -0.002,
-   "value": "fair",
-   "value_txt": "Fair price",
-   "units": 0.5,
-   "stake": 2.25,
-   "to_win": 0.92,
-   "tier": "lean",
-   "fair_odds": 1.41,
-   "why": [
-    "Sharp books give North Texas Mean Green a 71% chance to win (North Dakota St Bison 28%).",
-    "North Texas Mean Green: 3-2, 0-1 on the road, 82.2 pts/game, top: Je'Shawn Stevenson 20.2 PPG."
-   ],
-   "injuries": [],
-   "n_sharp": 3,
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628953131&selectionId=731890",
-   "prices": {
-    "FanDuel": 1.41,
-    "theScore Bet": 1.37,
-    "DraftKings": 1.38
-   },
-   "links": {
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628953131&selectionId=731890",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=80e31037-f37f-429c-99bf-36947a6ff86a&odds_numerator[0]=2&odds_denominator[0]=1",
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87437523_1"
-   },
-   "open": [
-    "2026-11-27T18:39:28+00:00",
-    1.41,
-    0.7078
-   ],
-   "hist": [
-    [
-     "2026-11-27T18:39:28+00:00",
-     1.41,
-     0.7078
-    ]
-   ],
-   "lag": false
-  },
-  {
-   "sport": "COLLEGE BASKETBALL",
-   "event": "Northeastern Huskies @ Northwestern Wildcats",
-   "pick": "Northwestern Wildcats",
-   "opp": "Northeastern Huskies",
-   "start": "2026-11-28T01:00:00+00:00",
-   "book": "FanDuel",
-   "odds": 1.11,
-   "prob": 0.8907,
-   "edge": -0.0113,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.12,
-   "to_win": 0.12,
-   "tier": null,
-   "fair_odds": 1.12,
-   "why": [
-    "Sharp books give Northwestern Wildcats a 89% chance to win.",
-    "Northwestern Wildcats: 4-3, 3-2 at home, 69.3 pts/game, top: Jake West 19.0 PPG.",
-    "Northeastern Huskies: 2-5, 0-5 on the road, 75.4 pts/game, top: Rashad King 23.9 PPG."
-   ],
-   "injuries": [],
-   "n_sharp": 2,
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628953528&selectionId=715472",
-   "prices": {
-    "FanDuel": 1.11,
-    "theScore Bet": 1.08,
-    "DraftKings": 1.11
-   },
-   "links": {
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628953528&selectionId=715472",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=14d99838-e93f-4225-93dc-f3a3a9e3ecc2&odds_numerator[0]=2&odds_denominator[0]=1",
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87436789_1"
-   },
-   "open": [
-    "2026-11-27T18:39:28+00:00",
-    1.11,
-    0.8907
-   ],
-   "hist": [
-    [
-     "2026-11-27T18:39:28+00:00",
-     1.11,
-     0.8907
-    ]
-   ],
-   "lag": false
-  },
-  {
-   "sport": "COLLEGE BASKETBALL",
-   "event": "Pacific Tigers @ UC Davis Aggies",
-   "pick": "Pacific Tigers",
-   "opp": "UC Davis Aggies",
-   "start": "2026-11-28T01:00:00+00:00",
-   "book": "FanDuel",
-   "odds": 1.36,
-   "prob": 0.7212,
-   "edge": -0.0191,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.12,
-   "to_win": 0.41,
-   "tier": null,
-   "fair_odds": 1.39,
-   "why": [
-    "Sharp books give Pacific Tigers a 72% chance to win (UC Davis Aggies 26%).",
-    "Pacific Tigers: 6-2, 1-1 on the road, 77.9 pts/game, top: Jaion Pitt 15.1 PPG.",
-    "UC Davis Aggies: 5-2, 2-2 at home, 73.1 pts/game, top: Jalen Stokes 12.9 PPG."
-   ],
-   "injuries": [],
-   "n_sharp": 2,
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628953248&selectionId=756685",
-   "prices": {
-    "FanDuel": 1.36,
-    "theScore Bet": 1.34,
-    "DraftKings": 1.34
-   },
-   "links": {
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628953248&selectionId=756685",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=07b10ed4-4308-4026-b4a3-27401bdb5d18&odds_numerator[0]=2&odds_denominator[0]=1",
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87436791_3"
-   },
-   "open": [
-    "2026-11-27T18:39:28+00:00",
-    1.36,
-    0.7212
-   ],
-   "hist": [
-    [
-     "2026-11-27T18:39:28+00:00",
-     1.36,
-     0.7212
-    ]
-   ],
-   "lag": false
-  },
-  {
    "sport": "NBA",
    "event": "Atlanta Hawks @ Boston Celtics",
    "pick": "Boston Celtics",
@@ -2656,12 +2414,12 @@
   {
    "label": "Safest 4x+",
    "book": "FanDuel",
-   "odds": 4.02,
-   "prob": 0.2415,
-   "ev": -0.0302,
+   "odds": 4.04,
+   "prob": 0.237,
+   "ev": -0.0429,
    "units": 0.5,
    "stake": 2.25,
-   "to_win": 6.78,
+   "to_win": 6.84,
    "legs": [
     {
      "pick": "Texas Tech Red Raiders",
@@ -2692,87 +2450,6 @@
      ]
     },
     {
-     "pick": "Kentucky Wildcats",
-     "event": "Wichita St Shockers @ Kentucky Wildcats",
-     "sport": "COLLEGE BASKETBALL",
-     "odds": 1.53,
-     "prob": 0.653,
-     "start": "2026-11-28T02:00:00+00:00",
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628953604&selectionId=332189",
-     "sid": [
-      null,
-      "332189",
-      "36367229"
-     ]
-    },
-    {
-     "pick": "Oral Roberts Golden Eagles",
-     "event": "Missouri St Bears @ Oral Roberts Golden Eagles",
-     "sport": "COLLEGE BASKETBALL",
-     "odds": 1.53,
-     "prob": 0.647,
-     "start": "2026-11-28T01:00:00+00:00",
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628953577&selectionId=742254",
-     "sid": [
-      null,
-      "742254",
-      "36367228"
-     ]
-    }
-   ],
-   "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.629089492&selectionId[0]=284244&marketId[1]=42.628231476&selectionId[1]=237480&marketId[2]=42.628953604&selectionId[2]=332189&marketId[3]=42.628953577&selectionId[3]=742254",
-   "alts": [
-    {
-     "book": "DraftKings",
-     "odds": 3.89,
-     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87439607_3+0ML87414449_1+0ML87436799_1+0ML87436798_1"
-    },
-    {
-     "book": "theScore Bet",
-     "odds": 3.91,
-     "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=2af03876-0356-4b0f-9ccd-23da64eb26b4&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=fe506c5c-705f-41cd-a207-309aca23024d&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=620f6a14-071a-46e5-b1b3-df07ba05d297&odds_numerator[2]=2&odds_denominator[2]=1&market_selection_id[3]=de349b65-52d1-47ff-a607-a9f02553db8d&odds_numerator[3]=2&odds_denominator[3]=1"
-    }
-   ]
-  },
-  {
-   "label": "Next safest 4x+",
-   "book": "FanDuel",
-   "odds": 4.0,
-   "prob": 0.2342,
-   "ev": -0.063,
-   "units": 0.5,
-   "stake": 2.25,
-   "to_win": 6.75,
-   "legs": [
-    {
-     "pick": "Pacific Tigers",
-     "event": "Pacific Tigers @ UC Davis Aggies",
-     "sport": "COLLEGE BASKETBALL",
-     "odds": 1.36,
-     "prob": 0.721,
-     "start": "2026-11-28T01:00:00+00:00",
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628953248&selectionId=756685",
-     "sid": [
-      null,
-      "756685",
-      "36367224"
-     ]
-    },
-    {
-     "pick": "North Texas Mean Green",
-     "event": "North Texas Mean Green @ North Dakota St Bison",
-     "sport": "COLLEGE BASKETBALL",
-     "odds": 1.41,
-     "prob": 0.708,
-     "start": "2026-11-28T01:00:00+00:00",
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628953131&selectionId=731890",
-     "sid": [
-      null,
-      "731890",
-      "36367222"
-     ]
-    },
-    {
      "pick": "Gonzaga Bulldogs",
      "event": "Creighton Bluejays @ Gonzaga Bulldogs",
      "sport": "COLLEGE BASKETBALL",
@@ -2787,31 +2464,98 @@
      ]
     },
     {
-     "pick": "San Antonio Spurs",
-     "event": "Los Angeles Lakers @ San Antonio Spurs",
-     "sport": "NBA",
-     "odds": 1.48,
-     "prob": 0.654,
-     "start": "2026-11-28T02:40:00+00:00",
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628231464&selectionId=237471",
+     "pick": "Louisville Cardinals",
+     "event": "Tennessee Volunteers @ Louisville Cardinals",
+     "sport": "COLLEGE BASKETBALL",
+     "odds": 1.67,
+     "prob": 0.591,
+     "start": "2026-11-28T02:00:00+00:00",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.629029800&selectionId=332190",
      "sid": [
       null,
-      "237471",
-      "36358261"
+      "332190",
+      "36368153"
      ]
     }
    ],
-   "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.628953248&selectionId[0]=756685&marketId[1]=42.628953131&selectionId[1]=731890&marketId[2]=42.629127263&selectionId[2]=29840&marketId[3]=42.628231464&selectionId[3]=237471",
+   "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.629089492&selectionId[0]=284244&marketId[1]=42.628231476&selectionId[1]=237480&marketId[2]=42.629127263&selectionId[2]=29840&marketId[3]=42.629029800&selectionId[3]=332190",
    "alts": [
     {
      "book": "DraftKings",
-     "odds": 3.78,
-     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87436791_3+0ML87437523_1+0ML87439307_1+0ML85857630_1"
+     "odds": 3.92,
+     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87439607_3+0ML87414449_1+0ML87439307_1+0ML87438247_1"
     },
     {
      "book": "theScore Bet",
-     "odds": 3.8,
-     "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=07b10ed4-4308-4026-b4a3-27401bdb5d18&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=80e31037-f37f-429c-99bf-36947a6ff86a&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=1a5a8cab-c56e-4cb8-8b80-827686cd3d54&odds_numerator[2]=2&odds_denominator[2]=1&market_selection_id[3]=069e2fef-eb5c-438f-b152-4682d8b943f5&odds_numerator[3]=2&odds_denominator[3]=1"
+     "odds": 3.96,
+     "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=2af03876-0356-4b0f-9ccd-23da64eb26b4&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=fe506c5c-705f-41cd-a207-309aca23024d&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=1a5a8cab-c56e-4cb8-8b80-827686cd3d54&odds_numerator[2]=2&odds_denominator[2]=1&market_selection_id[3]=f83ddbd2-8eb6-4741-9c0a-80d26dbcf368&odds_numerator[3]=2&odds_denominator[3]=1"
+    }
+   ]
+  },
+  {
+   "label": "Next safest 4x+",
+   "book": "theScore Bet",
+   "odds": 4.02,
+   "prob": 0.2271,
+   "ev": -0.088,
+   "units": 0.5,
+   "stake": 2.25,
+   "to_win": 6.79,
+   "legs": [
+    {
+     "pick": "Jacksonville St Gamecocks",
+     "event": "Jacksonville St Gamecocks @ Omaha Mavericks",
+     "sport": "COLLEGE BASKETBALL",
+     "odds": 1.44,
+     "prob": 0.67,
+     "start": "2026-11-28T03:30:00+00:00",
+     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=a0061cd4-b316-4713-9cc1-3276f09e99da&odds_numerator[0]=2&odds_denominator[0]=1",
+     "sid": [
+      "b1094094-be36-40be-bdc9-747752450757",
+      "a0061cd4-b316-4713-9cc1-3276f09e99da",
+      "e75bf727-e81e-4c91-8976-b87e72d26419"
+     ]
+    },
+    {
+     "pick": "Minnesota Timberwolves",
+     "event": "Memphis Grizzlies @ Minnesota Timberwolves",
+     "sport": "NBA",
+     "odds": 1.67,
+     "prob": 0.585,
+     "start": "2026-11-28T01:40:00+00:00",
+     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=f5d0abbe-ebf8-4ac9-8c07-2eb53c7c1673&odds_numerator[0]=2&odds_denominator[0]=1",
+     "sid": [
+      "64893729-a2b6-4610-a2ed-5dbd7e28c0bb",
+      "f5d0abbe-ebf8-4ac9-8c07-2eb53c7c1673",
+      "197797a8-91db-4811-bee3-7cfd5441508f"
+     ]
+    },
+    {
+     "pick": "Phoenix Suns",
+     "event": "Dallas Mavericks @ Phoenix Suns",
+     "sport": "NBA",
+     "odds": 1.67,
+     "prob": 0.58,
+     "start": "2026-11-28T02:10:00+00:00",
+     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=ba7b675f-8543-4db0-97ec-3f82cfc48583&odds_numerator[0]=2&odds_denominator[0]=1",
+     "sid": [
+      "85639ef1-f7b7-4d45-8135-781b1e48f41d",
+      "ba7b675f-8543-4db0-97ec-3f82cfc48583",
+      "53473065-a067-454a-9844-666521fea617"
+     ]
+    }
+   ],
+   "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=a0061cd4-b316-4713-9cc1-3276f09e99da&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=f5d0abbe-ebf8-4ac9-8c07-2eb53c7c1673&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=ba7b675f-8543-4db0-97ec-3f82cfc48583&odds_numerator[2]=2&odds_denominator[2]=1",
+   "alts": [
+    {
+     "book": "DraftKings",
+     "odds": 3.97,
+     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87436796_3+0ML87414326_1+0ML87414383_1"
+    },
+    {
+     "book": "FanDuel",
+     "odds": 4.03,
+     "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.628953645&selectionId[0]=727606&marketId[1]=42.628231494&selectionId[1]=237478&marketId[2]=42.628231473&selectionId[2]=237487"
     }
    ]
   }

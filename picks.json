@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-28T03:38:14+00:00",
+ "updated": "2026-11-28T04:00:20+00:00",
  "last_scan": "2026-11-27T23:49:01+00:00",
  "unit": 4.5,
  "bankroll": 222.32,
@@ -1507,55 +1507,6 @@
   }
  },
  "games": [
-  {
-   "sport": "COLLEGE BASKETBALL",
-   "event": "Creighton Bluejays @ Gonzaga Bulldogs",
-   "pick": "Gonzaga Bulldogs",
-   "opp": "Creighton Bluejays",
-   "start": "2026-11-28T04:00:00+00:00",
-   "book": "FanDuel",
-   "odds": 1.41,
-   "prob": 0.7009,
-   "edge": -0.0117,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.12,
-   "to_win": 0.46,
-   "tier": null,
-   "fair_odds": 1.43,
-   "why": [
-    "Sharp books give Gonzaga Bulldogs a 70% chance to win (Creighton Bluejays 29%).",
-    "Gonzaga Bulldogs: 5-1, 2-1 at home, 85.7 pts/game, top: Braden Huff 15.3 PPG.",
-    "Creighton Bluejays: 6-1, 0-1 on the road, 84.7 pts/game, top: Wes Enis 18.1 PPG."
-   ],
-   "injuries": [],
-   "n_sharp": 2,
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.629127263&selectionId=29840",
-   "prices": {
-    "DraftKings": 1.4,
-    "FanDuel": 1.41,
-    "theScore Bet": 1.4
-   },
-   "links": {
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87439307_1",
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.629127263&selectionId=29840",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=1a5a8cab-c56e-4cb8-8b80-827686cd3d54&odds_numerator[0]=2&odds_denominator[0]=1"
-   },
-   "open": [
-    "2026-11-27T18:39:28+00:00",
-    1.41,
-    0.7009
-   ],
-   "hist": [
-    [
-     "2026-11-27T18:39:28+00:00",
-     1.41,
-     0.7009
-    ]
-   ],
-   "lag": false
-  },
   {
    "sport": "COLLEGE BASKETBALL",
    "event": "San Diego St Aztecs @ Texas Tech Red Raiders",

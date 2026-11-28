@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-28T02:10:03+00:00",
+ "updated": "2026-11-28T02:16:07+00:00",
  "last_scan": "2026-11-27T23:49:01+00:00",
  "unit": 4.5,
  "bankroll": 224.02,
@@ -1726,8 +1726,6 @@
     {
      "team": "San Antonio Spurs",
      "list": [
-      "Dylan Harper (G, Out)",
-      "De'Aaron Fox (G, day-to-day)",
       "Tobias Harris (F, Out)",
       "Jayden Quaintance (F, Out)"
      ]

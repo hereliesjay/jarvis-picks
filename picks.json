@@ -1,6 +1,6 @@
 {
  "version": 25,
- "updated": "2026-11-28T01:49:56+00:00",
+ "updated": "2026-11-28T02:00:00+00:00",
  "last_scan": "2026-11-27T23:49:01+00:00",
  "unit": 4.5,
  "bankroll": 224.02,
@@ -281,7 +281,7 @@
    "to_win": 0.6,
    "min_odds": 1.54,
    "start": "2026-11-28T02:00:00+00:00",
-   "started": false,
+   "started": true,
    "status": "open",
    "n_sharp": 3,
    "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628953604&selectionId=332189",
@@ -1508,103 +1508,6 @@
  },
  "games": [
   {
-   "sport": "COLLEGE BASKETBALL",
-   "event": "Wichita St Shockers @ Kentucky Wildcats",
-   "pick": "Kentucky Wildcats",
-   "opp": "Wichita St Shockers",
-   "start": "2026-11-28T02:00:00+00:00",
-   "book": "FanDuel",
-   "odds": 1.53,
-   "prob": 0.653,
-   "edge": -0.0008,
-   "value": "fair",
-   "value_txt": "Fair price",
-   "units": 0.5,
-   "stake": 2.25,
-   "to_win": 1.19,
-   "tier": "lean",
-   "fair_odds": 1.53,
-   "why": [
-    "Sharp books give Kentucky Wildcats a 65% chance to win (Wichita St Shockers 34%).",
-    "Kentucky Wildcats: 4-2, 4-0 at home, 80.8 pts/game, top: Milan Momcilovic 15.0 PPG."
-   ],
-   "injuries": [],
-   "n_sharp": 3,
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628953604&selectionId=332189",
-   "prices": {
-    "FanDuel": 1.53,
-    "theScore Bet": 1.51,
-    "DraftKings": 1.49
-   },
-   "links": {
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628953604&selectionId=332189",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=620f6a14-071a-46e5-b1b3-df07ba05d297&odds_numerator[0]=2&odds_denominator[0]=1",
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87436799_1"
-   },
-   "open": [
-    "2026-11-27T18:39:28+00:00",
-    1.53,
-    0.653
-   ],
-   "hist": [
-    [
-     "2026-11-27T18:39:28+00:00",
-     1.53,
-     0.653
-    ]
-   ],
-   "lag": false
-  },
-  {
-   "sport": "COLLEGE BASKETBALL",
-   "event": "Tennessee Volunteers @ Louisville Cardinals",
-   "pick": "Louisville Cardinals",
-   "opp": "Tennessee Volunteers",
-   "start": "2026-11-28T02:00:00+00:00",
-   "book": "FanDuel",
-   "odds": 1.67,
-   "prob": 0.5913,
-   "edge": -0.0124,
-   "value": "slight",
-   "value_txt": "A bit overpriced (books' cut)",
-   "units": 0.25,
-   "stake": 1.12,
-   "to_win": 0.75,
-   "tier": null,
-   "fair_odds": 1.69,
-   "why": [
-    "Sharp books give Louisville Cardinals a 59% chance to win (Tennessee Volunteers 41%).",
-    "Louisville Cardinals: 5-1, 3-0 at home, 86.2 pts/game, top: Seth Trimble 19.4 PPG.",
-    "Tennessee Volunteers: 7-0, 0-0 on the road, 75.6 pts/game, top: Terrence Hill Jr. 14.4 PPG."
-   ],
-   "injuries": [],
-   "n_sharp": 3,
-   "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.629029800&selectionId=332190",
-   "prices": {
-    "DraftKings": 1.62,
-    "theScore Bet": 1.65,
-    "FanDuel": 1.67
-   },
-   "links": {
-    "DraftKings": "https://sportsbook.draftkings.com/?outcomes=0ML87438247_1",
-    "theScore Bet": "https://sportsbook.thescore.bet/?market_selection_id[0]=f83ddbd2-8eb6-4741-9c0a-80d26dbcf368&odds_numerator[0]=2&odds_denominator[0]=1",
-    "FanDuel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.629029800&selectionId=332190"
-   },
-   "open": [
-    "2026-11-27T18:39:28+00:00",
-    1.67,
-    0.5913
-   ],
-   "hist": [
-    [
-     "2026-11-27T18:39:28+00:00",
-     1.67,
-     0.5913
-    ]
-   ],
-   "lag": false
-  },
-  {
    "sport": "NBA",
    "event": "Dallas Mavericks @ Phoenix Suns",
    "pick": "Phoenix Suns",
@@ -2085,13 +1988,13 @@
  "big_parlays": [
   {
    "label": "Safest 4x+",
-   "book": "FanDuel",
-   "odds": 4.04,
-   "prob": 0.237,
-   "ev": -0.0429,
+   "book": "theScore Bet",
+   "odds": 4.01,
+   "prob": 0.2324,
+   "ev": -0.0682,
    "units": 0.5,
    "stake": 2.25,
-   "to_win": 6.84,
+   "to_win": 6.77,
    "legs": [
     {
      "pick": "Texas Tech Red Raiders",
@@ -2100,11 +2003,11 @@
      "odds": 1.28,
      "prob": 0.771,
      "start": "2026-11-28T04:30:00+00:00",
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.629089492&selectionId=284244",
+     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=2af03876-0356-4b0f-9ccd-23da64eb26b4&odds_numerator[0]=2&odds_denominator[0]=1",
      "sid": [
-      null,
-      "284244",
-      "36368628"
+      "1ce1e524-6689-4d11-8f8b-39da29212520",
+      "2af03876-0356-4b0f-9ccd-23da64eb26b4",
+      "8556dd65-6cf9-4b84-a077-d92d7827e330"
      ]
     },
     {
@@ -2114,65 +2017,65 @@
      "odds": 1.34,
      "prob": 0.742,
      "start": "2026-11-28T02:40:00+00:00",
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628231476&selectionId=237480",
+     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=fe506c5c-705f-41cd-a207-309aca23024d&odds_numerator[0]=2&odds_denominator[0]=1",
      "sid": [
-      null,
-      "237480",
-      "36358266"
+      "25df6e2d-b80c-465b-a73f-1a72e8e22399",
+      "fe506c5c-705f-41cd-a207-309aca23024d",
+      "9efc37f1-bb01-4fd9-b7c8-edb5834adcd9"
      ]
     },
     {
      "pick": "Gonzaga Bulldogs",
      "event": "Creighton Bluejays @ Gonzaga Bulldogs",
      "sport": "COLLEGE BASKETBALL",
-     "odds": 1.41,
+     "odds": 1.4,
      "prob": 0.701,
      "start": "2026-11-28T04:00:00+00:00",
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.629127263&selectionId=29840",
+     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=1a5a8cab-c56e-4cb8-8b80-827686cd3d54&odds_numerator[0]=2&odds_denominator[0]=1",
      "sid": [
-      null,
-      "29840",
-      "36369180"
+      "7111fba5-564f-426a-9446-716ea0e28ad8",
+      "1a5a8cab-c56e-4cb8-8b80-827686cd3d54",
+      "23b4e01d-da63-4920-8263-81df435652d8"
      ]
     },
     {
-     "pick": "Louisville Cardinals",
-     "event": "Tennessee Volunteers @ Louisville Cardinals",
-     "sport": "COLLEGE BASKETBALL",
+     "pick": "Phoenix Suns",
+     "event": "Dallas Mavericks @ Phoenix Suns",
+     "sport": "NBA",
      "odds": 1.67,
-     "prob": 0.591,
-     "start": "2026-11-28T02:00:00+00:00",
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.629029800&selectionId=332190",
+     "prob": 0.58,
+     "start": "2026-11-28T02:10:00+00:00",
+     "link": "https://sportsbook.thescore.bet/?market_selection_id[0]=ba7b675f-8543-4db0-97ec-3f82cfc48583&odds_numerator[0]=2&odds_denominator[0]=1",
      "sid": [
-      null,
-      "332190",
-      "36368153"
+      "85639ef1-f7b7-4d45-8135-781b1e48f41d",
+      "ba7b675f-8543-4db0-97ec-3f82cfc48583",
+      "53473065-a067-454a-9844-666521fea617"
      ]
     }
    ],
-   "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.629089492&selectionId[0]=284244&marketId[1]=42.628231476&selectionId[1]=237480&marketId[2]=42.629127263&selectionId[2]=29840&marketId[3]=42.629029800&selectionId[3]=332190",
+   "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=2af03876-0356-4b0f-9ccd-23da64eb26b4&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=fe506c5c-705f-41cd-a207-309aca23024d&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=1a5a8cab-c56e-4cb8-8b80-827686cd3d54&odds_numerator[2]=2&odds_denominator[2]=1&market_selection_id[3]=ba7b675f-8543-4db0-97ec-3f82cfc48583&odds_numerator[3]=2&odds_denominator[3]=1",
    "alts": [
     {
      "book": "DraftKings",
-     "odds": 3.92,
-     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87439607_3+0ML87414449_1+0ML87439307_1+0ML87438247_1"
+     "odds": 3.99,
+     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87439607_3+0ML87414449_1+0ML87439307_1+0ML87414383_1"
     },
     {
-     "book": "theScore Bet",
-     "odds": 3.96,
-     "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=2af03876-0356-4b0f-9ccd-23da64eb26b4&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=fe506c5c-705f-41cd-a207-309aca23024d&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=1a5a8cab-c56e-4cb8-8b80-827686cd3d54&odds_numerator[2]=2&odds_denominator[2]=1&market_selection_id[3]=f83ddbd2-8eb6-4741-9c0a-80d26dbcf368&odds_numerator[3]=2&odds_denominator[3]=1"
+     "book": "FanDuel",
+     "odds": 3.99,
+     "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.629089492&selectionId[0]=284244&marketId[1]=42.628231476&selectionId[1]=237480&marketId[2]=42.629127263&selectionId[2]=29840&marketId[3]=42.628231473&selectionId[3]=237487"
     }
    ]
   },
   {
    "label": "Next safest 4x+",
-   "book": "FanDuel",
-   "odds": 4.09,
-   "prob": 0.2243,
-   "ev": -0.0816,
+   "book": "DraftKings",
+   "odds": 4.56,
+   "prob": 0.1898,
+   "ev": -0.1343,
    "units": 0.5,
    "stake": 2.25,
-   "to_win": 6.96,
+   "to_win": 8.01,
    "legs": [
     {
      "pick": "Denver Nuggets",
@@ -2181,67 +2084,67 @@
      "odds": 1.23,
      "prob": 0.783,
      "start": "2026-11-28T02:40:00+00:00",
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628231497&selectionId=237492",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0ML87414474_3",
      "sid": [
       null,
-      "237492",
-      "36358267"
+      "0ML87414474_3",
+      "35086730"
      ]
     },
     {
      "pick": "Jacksonville St Gamecocks",
      "event": "Jacksonville St Gamecocks @ Omaha Mavericks",
      "sport": "COLLEGE BASKETBALL",
-     "odds": 1.47,
+     "odds": 1.46,
      "prob": 0.67,
      "start": "2026-11-28T03:30:00+00:00",
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628953645&selectionId=727606",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0ML87436796_3",
      "sid": [
       null,
-      "727606",
-      "36367230"
+      "0ML87436796_3",
+      "35095442"
      ]
     },
     {
      "pick": "San Antonio Spurs",
      "event": "Los Angeles Lakers @ San Antonio Spurs",
      "sport": "NBA",
-     "odds": 1.48,
+     "odds": 1.46,
      "prob": 0.654,
      "start": "2026-11-28T02:40:00+00:00",
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628231464&selectionId=237471",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0ML85857630_1",
      "sid": [
       null,
-      "237471",
-      "36358261"
+      "0ML85857630_1",
+      "34515424"
      ]
     },
     {
-     "pick": "Kentucky Wildcats",
-     "event": "Wichita St Shockers @ Kentucky Wildcats",
-     "sport": "COLLEGE BASKETBALL",
-     "odds": 1.53,
-     "prob": 0.653,
-     "start": "2026-11-28T02:00:00+00:00",
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628953604&selectionId=332189",
+     "pick": "Los Angeles Clippers",
+     "event": "New Orleans Pelicans @ Los Angeles Clippers",
+     "sport": "NBA",
+     "odds": 1.74,
+     "prob": 0.552,
+     "start": "2026-11-28T02:40:00+00:00",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0ML87414432_1",
      "sid": [
       null,
-      "332189",
-      "36367229"
+      "0ML87414432_1",
+      "35086713"
      ]
     }
    ],
-   "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.628231497&selectionId[0]=237492&marketId[1]=42.628953645&selectionId[1]=727606&marketId[2]=42.628231464&selectionId[2]=237471&marketId[3]=42.628953604&selectionId[3]=332189",
+   "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87414474_3+0ML87436796_3+0ML85857630_1+0ML87414432_1",
    "alts": [
     {
-     "book": "DraftKings",
-     "odds": 3.91,
-     "slip": "https://sportsbook.draftkings.com/?outcomes=0ML87414474_3+0ML87436796_3+0ML85857630_1+0ML87436799_1"
+     "book": "theScore Bet",
+     "odds": 4.52,
+     "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=abd67b42-9ebf-4e69-91c4-ddbc01425fc8&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=a0061cd4-b316-4713-9cc1-3276f09e99da&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=069e2fef-eb5c-438f-b152-4682d8b943f5&odds_numerator[2]=2&odds_denominator[2]=1&market_selection_id[3]=eb6d4067-a7a3-4392-bdb0-21687e531a1d&odds_numerator[3]=2&odds_denominator[3]=1"
     },
     {
-     "book": "theScore Bet",
-     "odds": 3.93,
-     "slip": "https://sportsbook.thescore.bet/?market_selection_id[0]=abd67b42-9ebf-4e69-91c4-ddbc01425fc8&odds_numerator[0]=2&odds_denominator[0]=1&market_selection_id[1]=a0061cd4-b316-4713-9cc1-3276f09e99da&odds_numerator[1]=2&odds_denominator[1]=1&market_selection_id[2]=069e2fef-eb5c-438f-b152-4682d8b943f5&odds_numerator[2]=2&odds_denominator[2]=1&market_selection_id[3]=620f6a14-071a-46e5-b1b3-df07ba05d297&odds_numerator[3]=2&odds_denominator[3]=1"
+     "book": "FanDuel",
+     "odds": 4.55,
+     "slip": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.628231497&selectionId[0]=237492&marketId[1]=42.628953645&selectionId[1]=727606&marketId[2]=42.628231464&selectionId[2]=237471&marketId[3]=42.628231500&selectionId[3]=6023845"
     }
    ]
   }
